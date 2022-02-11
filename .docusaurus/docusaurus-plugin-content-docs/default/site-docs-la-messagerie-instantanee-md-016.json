@@ -1,0 +1,23 @@
+{
+  "unversionedId": "La messagerie instantanee",
+  "id": "La messagerie instantanee",
+  "title": "La messagerie instantanee",
+  "description": "La messagerie instantanée est accessible à tout moment, depuis toutes les pages des applications, grâce à l'icône présente dans le bandeau de navigation de BlueMind :",
+  "source": "@site/docs/La messagerie instantanee.md",
+  "sourceDirName": ".",
+  "slug": "/La messagerie instantanee",
+  "permalink": "/docs/La messagerie instantanee",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/La messagerie instantanee.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "La console d'administration",
+    "permalink": "/docs/La console d'administration"
+  },
+  "next": {
+    "title": "La messagerie",
+    "permalink": "/docs/La messagerie"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Client Python",
+  "id": "Client Python",
+  "title": "Client Python",
+  "description": "Le client python supporte python 2.7 ou la version courante de python 3. Nous recommandons l'utilisation de python 3 pour tous les nouveaux projets, python 2 étant en fin de vie.",
+  "source": "@site/docs/Client Python.md",
+  "sourceDirName": ".",
+  "slug": "/Client Python",
+  "permalink": "/docs/Client Python",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Client Python.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Client PHP",
+    "permalink": "/docs/Client PHP"
+  },
+  "next": {
+    "title": "Compatibilite",
+    "permalink": "/docs/Compatibilite"
+  }
+}

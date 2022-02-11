@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Nouveautés_BlueMind_4.4_et_4.5",
+  "id": "Nouveautés_BlueMind_4.4_et_4.5",
+  "title": "New in BlueMind 4.4 and 4.5",
+  "description": "The whole BlueMind team is happy to introduce its brand new version of its collaborative email suite!",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Nouveautés_BlueMind_4.4_et_4.5.md",
+  "sourceDirName": ".",
+  "slug": "/Nouveautés_BlueMind_4.4_et_4.5",
+  "permalink": "/docs/en/Nouveautés_BlueMind_4.4_et_4.5",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "New in BlueMind 4.4 and 4.5",
+    "confluence_id": 79861304,
+    "position": 20
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "New in BlueMind 4.0 to 4.3",
+    "permalink": "/docs/en/Nouveautés_BlueMind_4.0_à_4.3"
+  },
+  "next": {
+    "title": "Support and request for assistance",
+    "permalink": "/docs/en/Support_et_demande_d_assistance"
+  }
+}

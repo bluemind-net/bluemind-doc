@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur",
+  "id": "Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur",
+  "title": "Restaurer l'agenda d'un utilisateur",
+  "description": "Cette page vous présente les différentes étapes pour pouvoir restaurer un agenda précédemment sauvegardé par le système automatisé, que les sauvegardes soient externalisées ou non.",
+  "source": "@site/docs/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur",
+  "permalink": "/docs/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Restaurer l'agenda d'un utilisateur",
+    "confluence_id": 57771957,
+    "position": 72
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Personnaliser le logo de l'application",
+    "permalink": "/docs/Base_de_connaissance/Personnaliser_le_logo_de_l_application"
+  },
+  "next": {
+    "title": "Restaurer les messages supprimés par un utilisateur",
+    "permalink": "/docs/Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur"
+  }
+}

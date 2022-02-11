@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Restaurer_les_messages_supprimes_par_un_utilisateur",
+  "id": "Restaurer_les_messages_supprimes_par_un_utilisateur",
+  "title": "Restaurer les messages supprimes par un utilisateur",
+  "description": "À partir de BlueMind 4.4, la corbeille est dite \"à double fond\" : elle propose un délai côté serveur pendant lequel les emails effacés sont conservés. Ainsi pendant ce délai une récupération peut être effectuée par l'utilisateur directement depuis son client Oulook (connecté en mapi) ou par l'administrateur depuis le serveur en ligne de commande.",
+  "source": "@site/docs/Restaurer_les_messages_supprimes_par_un_utilisateur.md",
+  "sourceDirName": ".",
+  "slug": "/Restaurer_les_messages_supprimes_par_un_utilisateur",
+  "permalink": "/docs/Restaurer_les_messages_supprimes_par_un_utilisateur",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Restaurer_les_messages_supprimes_par_un_utilisateur.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Restaurer l'agenda d'un utilisateur",
+    "permalink": "/docs/Restaurer_l_agenda_d_un_utilisateur"
+  },
+  "next": {
+    "title": "Retrouver les carnets de domaine dans Outlook",
+    "permalink": "/docs/Retrouver_les_carnets_de_domaine_dans_Outlook"
+  }
+}

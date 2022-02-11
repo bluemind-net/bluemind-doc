@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/Utilisation_de_l_API_MarketPlace",
+  "id": "Guide_du_développeur/Utilisation_de_l_API_MarketPlace",
+  "title": "Utilisation de l'API MarketPlace",
+  "description": "",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_du_développeur/Utilisation_de_l_API_MarketPlace.md",
+  "sourceDirName": "Guide_du_développeur",
+  "slug": "/Guide_du_développeur/Utilisation_de_l_API_MarketPlace",
+  "permalink": "/docs/en/Guide_du_développeur/Utilisation_de_l_API_MarketPlace",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Utilisation de l'API MarketPlace",
+    "confluence_id": 79863482,
+    "position": 50
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Installation d'une VM Android",
+    "permalink": "/docs/en/Guide_du_développeur/Installation_d_une_VM_Android"
+  },
+  "next": {
+    "title": "Knowledge Base",
+    "permalink": "/docs/en/Base_de_connaissance/"
+  }
+}

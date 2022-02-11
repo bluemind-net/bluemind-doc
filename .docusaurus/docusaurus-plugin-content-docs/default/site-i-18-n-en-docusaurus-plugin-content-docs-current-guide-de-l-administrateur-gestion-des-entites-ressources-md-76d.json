@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/Ressources",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/Ressources",
+  "title": "Resources administration",
+  "description": "BlueMind allows you to manage calendars for resources (vehicles, rooms, video-projectors, etc.) the same way you would manage user or group calendars.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Gestion_des_entités/Ressources.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/Ressources",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Ressources",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Resources administration",
+    "confluence_id": 79863120,
+    "position": 56
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Groups",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Groupes"
+  },
+  "next": {
+    "title": "Active Directory Synchronization",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Premiers pas avec BlueMind",
+  "id": "Premiers pas avec BlueMind",
+  "title": "Premiers pas avec BlueMind",
+  "description": "Découvrez les bases du fonctionnement de BlueMind :",
+  "source": "@site/docs/Premiers pas avec BlueMind.md",
+  "sourceDirName": ".",
+  "slug": "/Premiers pas avec BlueMind",
+  "permalink": "/docs/Premiers pas avec BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Premiers pas avec BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Preferences du webmail",
+    "permalink": "/docs/Preferences du webmail"
+  },
+  "next": {
+    "title": "Prerequis a l'installation",
+    "permalink": "/docs/Prerequis a l'installation"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_de_Contacts",
+  "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_de_Contacts",
+  "title": "Configuration de Contacts",
+  "description": "Le guide suivant a été réalisé sous un OS X Yosemite.",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_de_Contacts.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_de_Contacts",
+  "permalink": "/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_de_Contacts",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration de Contacts",
+    "confluence_id": 57770873
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration d'Apple Mail",
+    "permalink": "/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_d_Apple_Mail"
+  },
+  "next": {
+    "title": "Setting Up Apple Calendar",
+    "permalink": "/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Setting_Up_Apple_Calendar"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Présentation_du_produit/Applications_et_composants",
+  "id": "Guide_de_l_administrateur/Présentation_du_produit/Applications_et_composants",
+  "title": "Applications et composants",
+  "description": "Webmail",
+  "source": "@site/docs/Guide_de_l_administrateur/Présentation_du_produit/Applications_et_composants.md",
+  "sourceDirName": "Guide_de_l_administrateur/Présentation_du_produit",
+  "slug": "/Guide_de_l_administrateur/Présentation_du_produit/Applications_et_composants",
+  "permalink": "/docs/Guide_de_l_administrateur/Présentation_du_produit/Applications_et_composants",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Applications et composants",
+    "confluence_id": 57771225,
+    "position": 44
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Présentation du produit",
+    "permalink": "/docs/Guide_de_l_administrateur/Présentation_du_produit/"
+  },
+  "next": {
+    "title": "Les ports",
+    "permalink": "/docs/Guide_de_l_administrateur/Présentation_du_produit/Les_ports"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Les_taches_planifiees",
+  "id": "BlueMind/Les_taches_planifiees",
+  "title": "Les taches planifiees",
+  "description": "Les tâches planifiées permettent de programmer l'exécution automatique de tâches.",
+  "source": "@site/docs/BlueMind/Les_taches_planifiees.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Les_taches_planifiees",
+  "permalink": "/docs/BlueMind/Les_taches_planifiees",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Les_taches_planifiees.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les taches",
+    "permalink": "/docs/BlueMind/Les_taches"
+  },
+  "next": {
+    "title": "Lier une visioconference a un evenement",
+    "permalink": "/docs/BlueMind/Lier_une_visioconference_a_un_evenement"
+  }
+}

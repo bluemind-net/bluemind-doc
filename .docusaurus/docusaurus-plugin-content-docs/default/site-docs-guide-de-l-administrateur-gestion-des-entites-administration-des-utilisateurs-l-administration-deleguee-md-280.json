@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/L_administration_deleguee",
+  "id": "Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/L_administration_deleguee",
+  "title": "L administration deleguee",
+  "description": "Dans le cas d'un BlueMind gérant une large population ou des utilisateurs répartis sur plusieurs sites, il peut être intéressant de définir des administrateurs qui auront droit de délégation sur un sous-ensemble de cette population.",
+  "source": "@site/docs/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/L_administration_deleguee.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/L_administration_deleguee",
+  "permalink": "/en/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/L_administration_deleguee",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "L administration deleguee",
+    "confluence_id": 57771479
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Signatures d'entreprise",
+    "permalink": "/en/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise"
+  },
+  "next": {
+    "title": "Procedure de depart utilisateur et redirection de ses mails",
+    "permalink": "/en/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/Procedure_de_depart_utilisateur_et_redirection_de_ses_mails"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "API utilisateur",
+  "id": "API utilisateur",
+  "title": "API utilisateur",
+  "description": "Vous trouverez sur cette page des exemples d'utilisation et de mise en pratique de l'API utilisateur",
+  "source": "@site/docs/API utilisateur.md",
+  "sourceDirName": ".",
+  "slug": "/API utilisateur",
+  "permalink": "/docs/API utilisateur",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/API utilisateur.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API BlueMind",
+    "permalink": "/docs/API BlueMind"
+  },
+  "next": {
+    "title": "Administration avancee",
+    "permalink": "/docs/Administration avancee"
+  }
+}

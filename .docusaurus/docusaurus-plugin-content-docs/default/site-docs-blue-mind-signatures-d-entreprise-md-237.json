@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Signatures_d_entreprise",
+  "id": "BlueMind/Signatures_d_entreprise",
+  "title": "Signatures d'entreprise",
+  "description": "La nouvelle application de gestion des signatures d'entreprise vous permet de définir des signatures automatiques communes à tout ou partie des utilisateurs en fonction de divers critères.",
+  "source": "@site/docs/BlueMind/Signatures_d_entreprise.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Signatures_d_entreprise",
+  "permalink": "/docs/BlueMind/Signatures_d_entreprise",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Signatures_d_entreprise.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setting up Apple Applications",
+    "permalink": "/docs/BlueMind/Setting_up_Apple_Applications"
+  },
+  "next": {
+    "title": "Supervision",
+    "permalink": "/docs/BlueMind/Supervision"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/index",
+  "id": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/index",
+  "title": "Les méthodes d'authentification",
+  "description": "- Mise en place du SSO CAS",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification",
+  "slug": "/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les méthodes d'authentification",
+    "confluence_id": 57771292,
+    "position": 56
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Gestion des domaines",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/"
+  },
+  "next": {
+    "title": "Mise en place du SSO CAS",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/Mise_en_place_du_SSO_CAS"
+  }
+}

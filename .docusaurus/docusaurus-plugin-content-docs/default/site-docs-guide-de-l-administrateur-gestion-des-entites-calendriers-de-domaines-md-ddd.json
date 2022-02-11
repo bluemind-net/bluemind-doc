@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines",
+  "title": "Calendriers de domaines",
+  "description": "Le calendrier de domaine est un calendrier commun aux utilisateurs. En plus de la simple consultation, l'administrateur peut déléguer les droits de modification ou de gestion des calendriers à des utilisateurs ou groupes.",
+  "source": "@site/docs/Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines",
+  "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Calendriers de domaines",
+    "confluence_id": 57771578,
+    "position": 58
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Boites aux lettres partagées",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Boites_aux_lettres_partagées"
+  },
+  "next": {
+    "title": "Carnets d'adresses de domaines",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Carnets_d_adresses_de_domaines"
+  }
+}

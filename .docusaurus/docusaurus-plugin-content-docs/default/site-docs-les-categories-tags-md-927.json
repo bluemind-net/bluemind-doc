@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Les categories tags",
+  "id": "Les categories tags",
+  "title": "Les categories tags",
+  "description": "Les catégories permettent d'affecter un ou plusieurs mots clefs (ou tags) aux contacts et événements d'agenda, ces catégories étant communes aux 2 applications.",
+  "source": "@site/docs/Les categories tags.md",
+  "sourceDirName": ".",
+  "slug": "/Les categories tags",
+  "permalink": "/docs/Les categories tags",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Les categories tags.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les calendriers externes",
+    "permalink": "/docs/Les calendriers externes"
+  },
+  "next": {
+    "title": "Les connecteurs BlueMind pour clients lourds",
+    "permalink": "/docs/Les connecteurs BlueMind pour clients lourds"
+  }
+}

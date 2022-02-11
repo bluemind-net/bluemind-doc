@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/index",
+  "id": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/index",
+  "title": "Configuration de l'environnement de développement",
+  "description": "- Eclipse",
+  "source": "@site/docs/Guide_du_développeur/Configuration_de_l_environnement_de_développement/index.md",
+  "sourceDirName": "Guide_du_développeur/Configuration_de_l_environnement_de_développement",
+  "slug": "/Guide_du_développeur/Configuration_de_l_environnement_de_développement/",
+  "permalink": "/docs/Guide_du_développeur/Configuration_de_l_environnement_de_développement/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration de l'environnement de développement",
+    "confluence_id": 57771894,
+    "position": 48
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Client Python",
+    "permalink": "/docs/Guide_du_développeur/API_BlueMind/Client_Python"
+  },
+  "next": {
+    "title": "Eclipse",
+    "permalink": "/docs/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Eclipse"
+  }
+}

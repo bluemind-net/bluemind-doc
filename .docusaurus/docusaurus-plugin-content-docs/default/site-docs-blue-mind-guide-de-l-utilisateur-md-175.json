@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Guide_de_l_utilisateur",
+  "id": "BlueMind/Guide_de_l_utilisateur",
+  "title": "Guide de l'utilisateur",
+  "description": "- La messagerie",
+  "source": "@site/docs/BlueMind/Guide_de_l_utilisateur.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Guide_de_l_utilisateur",
+  "permalink": "/docs/BlueMind/Guide_de_l_utilisateur",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Guide_de_l_utilisateur.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Guide de l'administrateur",
+    "permalink": "/docs/BlueMind/Guide_de_l_administrateur"
+  },
+  "next": {
+    "title": "Haute disponibilite logicielle et BlueMind",
+    "permalink": "/docs/BlueMind/Haute_disponibilite_logicielle_et_BlueMind"
+  }
+}

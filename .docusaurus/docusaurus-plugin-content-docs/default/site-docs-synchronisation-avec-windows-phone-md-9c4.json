@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Synchronisation_avec_Windows_Phone",
+  "id": "Synchronisation_avec_Windows_Phone",
+  "title": "Synchronisation avec Windows Phone",
+  "description": "La synchronisation ActiveSync est le mode de synchronisation à privilégier car il permet en une seule configuration de synchroniser les messages ainsi que les contacts et agendas alors que la synchronisation IMAP ne permet d'accéder qu'à ses emails.",
+  "source": "@site/docs/Synchronisation_avec_Windows_Phone.md",
+  "sourceDirName": ".",
+  "slug": "/Synchronisation_avec_Windows_Phone",
+  "permalink": "/docs/Synchronisation_avec_Windows_Phone",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Synchronisation_avec_Windows_Phone.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Synchronisation avec Outlook",
+    "permalink": "/docs/Synchronisation_avec_Outlook"
+  },
+  "next": {
+    "title": "Synchronizing with iOS",
+    "permalink": "/docs/Synchronizing_with_iOS"
+  }
+}

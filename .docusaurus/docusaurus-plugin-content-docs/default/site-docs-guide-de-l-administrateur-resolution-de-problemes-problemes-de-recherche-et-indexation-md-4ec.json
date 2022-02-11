@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation",
+  "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation",
+  "title": "Problèmes de recherche et indexation",
+  "description": "- La barre de recherche ne propose pas l'option pour rechercher dans tous les dossiers",
+  "source": "@site/docs/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation.md",
+  "sourceDirName": "Guide_de_l_administrateur/Résolution_de_problèmes",
+  "slug": "/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation",
+  "permalink": "/docs/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Problèmes de recherche et indexation",
+    "confluence_id": 57771851,
+    "position": 76
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Problèmes d'émission et réception de messages",
+    "permalink": "/docs/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_d_émission_et_réception_de_messages"
+  },
+  "next": {
+    "title": "Problèmes de synchronisation mobile",
+    "permalink": "/docs/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_synchronisation_mobile"
+  }
+}

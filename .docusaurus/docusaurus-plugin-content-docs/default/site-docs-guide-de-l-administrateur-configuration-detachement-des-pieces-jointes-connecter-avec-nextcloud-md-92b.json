@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud",
+  "id": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud",
+  "title": "Connecter avec Nextcloud",
+  "description": "BlueMind offre la possibilité de connecter un dépôt de document (ou drive) externe Nextcloud.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes",
+  "slug": "/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Connecter avec Nextcloud",
+    "confluence_id": 57771360,
+    "position": 70
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Détachement des pièces jointes",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/"
+  },
+  "next": {
+    "title": "Visioconférence intégrée",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/"
+  }
+}

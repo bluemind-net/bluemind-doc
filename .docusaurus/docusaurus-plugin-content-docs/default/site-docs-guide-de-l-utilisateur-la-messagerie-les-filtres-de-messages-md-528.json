@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages",
+  "title": "Les filtres de messages",
+  "description": "Les filtres permettent d'appliquer des règles de tri et actions à effectuer automatiquement aux nouveaux messages entrant.",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages",
+  "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les filtres de messages",
+    "confluence_id": 57770399,
+    "position": 54
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Les boites aux lettres partagées",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées"
+  },
+  "next": {
+    "title": "Les identités",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Les_identités"
+  }
+}

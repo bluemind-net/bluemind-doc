@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/La_telephonie",
+  "id": "BlueMind/La_telephonie",
+  "title": "La telephonie",
+  "description": "Grâce à son interconnexion avec XIVO et Wazo, BlueMind devient une solution de messagerie collaborative unifiée complète permettant de :",
+  "source": "@site/docs/BlueMind/La_telephonie.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/La_telephonie",
+  "permalink": "/docs/BlueMind/La_telephonie",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/La_telephonie.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "La souscription BlueMind",
+    "permalink": "/docs/BlueMind/La_souscription_BlueMind"
+  },
+  "next": {
+    "title": "Le composeur",
+    "permalink": "/docs/BlueMind/Le_composeur"
+  }
+}

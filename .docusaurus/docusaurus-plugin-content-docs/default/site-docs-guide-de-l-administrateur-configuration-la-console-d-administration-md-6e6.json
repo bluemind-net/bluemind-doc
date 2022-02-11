@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/La_console_d_administration",
+  "id": "Guide_de_l_administrateur/Configuration/La_console_d_administration",
+  "title": "La console d'administration",
+  "description": "La console d'administration est la partie permettant à l'administrateur global et aux administrateurs de domaines d'accéder aux fonctions de la configuration du système et de la gestion des serveurs, domaines, tâches planifiées et de la documentation.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/La_console_d_administration.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration",
+  "slug": "/Guide_de_l_administrateur/Configuration/La_console_d_administration",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration/La_console_d_administration",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "La console d'administration",
+    "confluence_id": 57771267,
+    "position": 46
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Indexation",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Indexation"
+  },
+  "next": {
+    "title": "Les tâches planifiées",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Les_tâches_planifiées"
+  }
+}

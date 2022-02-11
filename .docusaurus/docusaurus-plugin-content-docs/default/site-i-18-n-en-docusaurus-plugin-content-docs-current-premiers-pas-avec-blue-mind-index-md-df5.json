@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Premiers_pas_avec_BlueMind/index",
+  "id": "Premiers_pas_avec_BlueMind/index",
+  "title": "First Steps with BlueMind",
+  "description": "- Getting Started with Mail",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Premiers_pas_avec_BlueMind/index.md",
+  "sourceDirName": "Premiers_pas_avec_BlueMind",
+  "slug": "/Premiers_pas_avec_BlueMind/",
+  "permalink": "/docs/en/Premiers_pas_avec_BlueMind/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "First Steps with BlueMind",
+    "confluence_id": 79861382,
+    "position": 24
+  },
+  "sidebar": "bmdocs",
+  "next": {
+    "title": "Getting Started with the Calendar",
+    "permalink": "/docs/en/Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda"
+  }
+}

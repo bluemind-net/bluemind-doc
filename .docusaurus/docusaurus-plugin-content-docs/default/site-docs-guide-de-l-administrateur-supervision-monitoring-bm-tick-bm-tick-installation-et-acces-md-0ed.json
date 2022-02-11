@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/bm_tick_installation_et_acces",
+  "id": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/bm_tick_installation_et_acces",
+  "title": "bm-tick installation et acces",
+  "description": "La suite de supervision bm-tick est installée automatiquement et par défaut dans BlueMind 4.",
+  "source": "@site/docs/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/bm_tick_installation_et_acces.md",
+  "sourceDirName": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick",
+  "slug": "/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/bm_tick_installation_et_acces",
+  "permalink": "/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/bm_tick_installation_et_acces",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "bm-tick installation et acces",
+    "confluence_id": 57771690
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reference des metriques",
+    "permalink": "/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Reference_des_metriques"
+  },
+  "next": {
+    "title": "Console de monitoring",
+    "permalink": "/en/Guide_de_l_administrateur/Supervision/Console_de_monitoring"
+  }
+}

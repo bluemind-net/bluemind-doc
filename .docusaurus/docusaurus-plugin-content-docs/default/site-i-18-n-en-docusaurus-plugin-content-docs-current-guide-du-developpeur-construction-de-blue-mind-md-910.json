@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/Construction_de_BlueMind",
+  "id": "Guide_du_développeur/Construction_de_BlueMind",
+  "title": "Building BlueMind",
+  "description": "BlueMind source code is compiled by a continuous integration server, and binary installers are downloadable from our site to make the process as simple as possible. However, it is possible to compile BlueMind manually by following the instructions below.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_du_développeur/Construction_de_BlueMind.md",
+  "sourceDirName": "Guide_du_développeur",
+  "slug": "/Guide_du_développeur/Construction_de_BlueMind",
+  "permalink": "/docs/en/Guide_du_développeur/Construction_de_BlueMind",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Building BlueMind",
+    "confluence_id": 79863443,
+    "position": 40
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "BlueMind plugin Maven Archetype",
+    "permalink": "/docs/en/Guide_du_développeur/BlueMind_plugin_Maven_Archetype"
+  },
+  "next": {
+    "title": "Contribuer à BlueMind",
+    "permalink": "/docs/en/Guide_du_développeur/Contribuer_à_BlueMind"
+  }
+}

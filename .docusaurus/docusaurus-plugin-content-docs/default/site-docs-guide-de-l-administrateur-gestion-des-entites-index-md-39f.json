@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/index",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/index",
+  "title": "Gestion des entités",
+  "description": "- Entrées d'annuaire",
+  "source": "@site/docs/Guide_de_l_administrateur/Gestion_des_entités/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/",
+  "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Gestion des entités",
+    "confluence_id": 57771417,
+    "position": 42
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Signatures d'entreprise",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise"
+  },
+  "next": {
+    "title": "Utilisateurs",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/"
+  }
+}

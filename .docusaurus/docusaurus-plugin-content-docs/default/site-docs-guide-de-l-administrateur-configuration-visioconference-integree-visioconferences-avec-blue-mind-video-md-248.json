@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_BlueMind_Video",
+  "id": "Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_BlueMind_Video",
+  "title": "Visioconferences avec BlueMind Video",
+  "description": "BlueMind Video est un service SAAS de visioconférence basé sur Jitsi et intégré à BlueMind depuis la version 4.6.0 : il ne nécessite pas l'installation d'un service tiers.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_BlueMind_Video.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Visioconference_integree",
+  "slug": "/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_BlueMind_Video",
+  "permalink": "/en/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_BlueMind_Video",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Visioconferences avec BlueMind Video",
+    "confluence_id": 79856114
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Firewall",
+    "permalink": "/en/Guide_de_l_administrateur/Configuration/Security/Firewall"
+  },
+  "next": {
+    "title": "Visioconferences avec Jitsi",
+    "permalink": "/en/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_Jitsi"
+  }
+}

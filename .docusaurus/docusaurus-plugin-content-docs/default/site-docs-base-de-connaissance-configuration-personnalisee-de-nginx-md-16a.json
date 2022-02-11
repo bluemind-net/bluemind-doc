@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Configuration_personnalisée_de_Nginx",
+  "id": "Base_de_connaissance/Configuration_personnalisée_de_Nginx",
+  "title": "Configuration personnalisée de Nginx",
+  "description": "Les fichiers d'hôte virtuel Nginx (comme par exemple /etc/nginx/sites-enabled/bm-client-access) sont gérés par BlueMind et ne doivent en aucun cas être modifiés.",
+  "source": "@site/docs/Base_de_connaissance/Configuration_personnalisée_de_Nginx.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Configuration_personnalisée_de_Nginx",
+  "permalink": "/docs/Base_de_connaissance/Configuration_personnalisée_de_Nginx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration personnalisée de Nginx",
+    "confluence_id": 57771920,
+    "position": 50
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Configuration du plugin Xivo/Avencall",
+    "permalink": "/docs/Base_de_connaissance/Configuration_du_plugin_Xivo_Avencall"
+  },
+  "next": {
+    "title": "Documentation Wazo",
+    "permalink": "/docs/Base_de_connaissance/Documentation_Wazo"
+  }
+}

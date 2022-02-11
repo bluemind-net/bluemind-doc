@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Les methodes d'authentification",
+  "id": "Les methodes d'authentification",
+  "title": "Les methodes d'authentification",
+  "description": "- Mise en place du SSO CAS",
+  "source": "@site/docs/Les methodes d'authentification.md",
+  "sourceDirName": ".",
+  "slug": "/Les methodes d'authentification",
+  "permalink": "/docs/Les methodes d'authentification",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Les methodes d'authentification.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les identites",
+    "permalink": "/docs/Les identites"
+  },
+  "next": {
+    "title": "Les ports",
+    "permalink": "/docs/Les ports"
+  }
+}

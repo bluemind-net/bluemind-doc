@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/API_BlueMind/index",
+  "id": "Guide_du_développeur/API_BlueMind/index",
+  "title": "API BlueMind",
+  "description": "L’API de BlueMind a été complètement repensée et est disponible soit directement via des appels HTTP REST, soit en utilisant des clients (aujourd’hui Java, Javascript, C#, Python, PHP et .NET). Le repository bluemind-samples est disponible et rassemble tout ce qui est nécessaire pour contribuer à BlueMind en développant un Add-On. Un archetype maven est également disponible pour faciliter la définition d’un nouveau projet.",
+  "source": "@site/docs/Guide_du_développeur/API_BlueMind/index.md",
+  "sourceDirName": "Guide_du_développeur/API_BlueMind",
+  "slug": "/Guide_du_développeur/API_BlueMind/",
+  "permalink": "/docs/Guide_du_développeur/API_BlueMind/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "API BlueMind",
+    "confluence_id": 57771883,
+    "position": 44
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Guide du développeur",
+    "permalink": "/docs/Guide_du_développeur/"
+  },
+  "next": {
+    "title": "API d'utilisateurs",
+    "permalink": "/docs/Guide_du_développeur/API_BlueMind/API_d_utilisateurs"
+  }
+}

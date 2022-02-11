@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Prerequis a l'installation",
+  "id": "Prerequis a l'installation",
+  "title": "Prerequis a l'installation",
+  "description": "Mémoire RAM",
+  "source": "@site/docs/Prerequis a l'installation.md",
+  "sourceDirName": ".",
+  "slug": "/Prerequis a l'installation",
+  "permalink": "/docs/Prerequis a l'installation",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Prerequis a l'installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Premiers pas avec BlueMind",
+    "permalink": "/docs/Premiers pas avec BlueMind"
+  },
+  "next": {
+    "title": "Presentation du produit",
+    "permalink": "/docs/Presentation du produit"
+  }
+}

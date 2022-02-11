@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/BM4__Documentation_BlueMind_4_",
+  "id": "BlueMind/BM4__Documentation_BlueMind_4_",
+  "title": "BM4 (Documentation BlueMind 4)",
+  "description": "|  |  |",
+  "source": "@site/docs/BlueMind/BM4__Documentation_BlueMind_4_.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/BM4__Documentation_BlueMind_4_",
+  "permalink": "/docs/BlueMind/BM4__Documentation_BlueMind_4_",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/BM4__Documentation_BlueMind_4_.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Autoconfiguration Outlook",
+    "permalink": "/docs/BlueMind/Autoconfiguration_Outlook"
+  },
+  "next": {
+    "title": "BlueMind et mobilite",
+    "permalink": "/docs/BlueMind/BlueMind_et_mobilite"
+  }
+}

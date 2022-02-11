@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry",
+  "id": "Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry",
+  "title": "Synchronisation IMAP du Blackberry",
+  "description": "Ce guide a été réalisé sous Blackberry 10 OS, selon la version utilisée les opérations sont les mêmes même si les écrans peuvent différer sensiblement.",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Blackberry",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry",
+  "permalink": "/en/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Synchronisation IMAP du Blackberry",
+    "confluence_id": 57771055
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Synchronisation IMAP sous Android",
+    "permalink": "/en/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android"
+  },
+  "next": {
+    "title": "Synchronisation IMAP sous Windows Phone",
+    "permalink": "/en/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Windows_Phone/Synchronisation_IMAP_sous_Windows_Phone"
+  }
+}

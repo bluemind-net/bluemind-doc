@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Security/Firewall",
+  "id": "Guide_de_l_administrateur/Configuration/Security/Firewall",
+  "title": "Firewall",
+  "description": "BlueMind embarque un pare-feu qui, par défaut, limite l'accès des services internes aux adresses IP des serveurs de l'installation, à savoir les serveurs définis dans la section Gestion du domaine > Serveurs de l'application.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Security/Firewall.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Security",
+  "slug": "/Guide_de_l_administrateur/Configuration/Security/Firewall",
+  "permalink": "/en/Guide_de_l_administrateur/Configuration/Security/Firewall",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Firewall",
+    "confluence_id": 57771350
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Certificats SSL",
+    "permalink": "/en/Guide_de_l_administrateur/Configuration/Security/Certificats_SSL"
+  },
+  "next": {
+    "title": "Visioconferences avec BlueMind Video",
+    "permalink": "/en/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_BlueMind_Video"
+  }
+}

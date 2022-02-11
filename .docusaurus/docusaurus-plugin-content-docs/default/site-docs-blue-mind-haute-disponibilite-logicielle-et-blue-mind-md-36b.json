@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Haute_disponibilite_logicielle_et_BlueMind",
+  "id": "BlueMind/Haute_disponibilite_logicielle_et_BlueMind",
+  "title": "Haute disponibilite logicielle et BlueMind",
+  "description": "II est possible de mettre en place un système de haute disponibilité logicielle (HA pour High Availability en anglais) s'intégrant avec BlueMind.",
+  "source": "@site/docs/BlueMind/Haute_disponibilite_logicielle_et_BlueMind.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Haute_disponibilite_logicielle_et_BlueMind",
+  "permalink": "/docs/BlueMind/Haute_disponibilite_logicielle_et_BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Haute_disponibilite_logicielle_et_BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Guide de l'utilisateur",
+    "permalink": "/docs/BlueMind/Guide_de_l_utilisateur"
+  },
+  "next": {
+    "title": "IMAP Synchronization on iOS",
+    "permalink": "/docs/BlueMind/IMAP_Synchronization_on_iOS"
+  }
+}

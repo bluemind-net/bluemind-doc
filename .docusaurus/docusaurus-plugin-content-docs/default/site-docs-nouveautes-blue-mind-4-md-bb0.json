@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Nouveautes BlueMind 4",
+  "id": "Nouveautes BlueMind 4",
+  "title": "Nouveautes BlueMind 4",
+  "description": "Toute l'équipe BlueMind est heureuse de vous présenter la nouvelle mouture de sa suite de messagerie collaborative !",
+  "source": "@site/docs/Nouveautes BlueMind 4.md",
+  "sourceDirName": ".",
+  "slug": "/Nouveautes BlueMind 4",
+  "permalink": "/docs/Nouveautes BlueMind 4",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nouveautes BlueMind 4.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Nouveautes BlueMind 4.0 a 4.3",
+    "permalink": "/docs/Nouveautes BlueMind 4.0 a 4.3"
+  },
+  "next": {
+    "title": "Organiser une reunion",
+    "permalink": "/docs/Organiser une reunion"
+  }
+}

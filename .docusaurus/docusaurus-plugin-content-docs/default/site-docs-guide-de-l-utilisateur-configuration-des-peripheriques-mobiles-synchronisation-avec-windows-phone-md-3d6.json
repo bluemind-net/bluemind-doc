@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Windows_Phone",
+  "id": "Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Windows_Phone",
+  "title": "Synchronisation avec Windows Phone",
+  "description": "La synchronisation ActiveSync est le mode de synchronisation à privilégier car il permet en une seule configuration de synchroniser les messages ainsi que les contacts et agendas alors que la synchronisation IMAP ne permet d'accéder qu'à ses emails.",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Windows_Phone.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Windows_Phone",
+  "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Windows_Phone",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Windows_Phone.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Synchronisation avec Windows Phone",
+    "confluence_id": 57771136
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Synchronisation avec Blackberry",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Blackberry"
+  },
+  "next": {
+    "title": "Synchronizing with iOS",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronizing_with_iOS"
+  }
+}

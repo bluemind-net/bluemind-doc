@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Les taches planifiees",
+  "id": "Les taches planifiees",
+  "title": "Les taches planifiees",
+  "description": "Les tâches planifiées permettent de programmer l'exécution automatique de tâches.",
+  "source": "@site/docs/Les taches planifiees.md",
+  "sourceDirName": ".",
+  "slug": "/Les taches planifiees",
+  "permalink": "/docs/Les taches planifiees",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Les taches planifiees.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les services",
+    "permalink": "/docs/Les services"
+  },
+  "next": {
+    "title": "Les taches",
+    "permalink": "/docs/Les taches"
+  }
+}

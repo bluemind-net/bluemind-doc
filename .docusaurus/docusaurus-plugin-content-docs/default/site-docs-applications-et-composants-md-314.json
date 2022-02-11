@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Applications_et_Composants",
+  "id": "Applications_et_Composants",
+  "title": "Applications et Composants",
+  "description": "Webmail",
+  "source": "@site/docs/Applications_et_Composants.md",
+  "sourceDirName": ".",
+  "slug": "/Applications_et_Composants",
+  "permalink": "/docs/Applications_et_Composants",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Applications_et_Composants.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ajustement automatique de la memoire",
+    "permalink": "/docs/Ajustement_automatique_de_la_memoire"
+  },
+  "next": {
+    "title": "Archivage",
+    "permalink": "/docs/Archivage"
+  }
+}

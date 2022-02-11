@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Setting_Up_Apple_Calendar",
+  "id": "Setting_Up_Apple_Calendar",
+  "title": "Setting Up Apple Calendar",
+  "description": "Le guide suivant a été réalisé sous un OS X Mavericks.",
+  "source": "@site/docs/Setting_Up_Apple_Calendar.md",
+  "sourceDirName": ".",
+  "slug": "/Setting_Up_Apple_Calendar",
+  "permalink": "/docs/Setting_Up_Apple_Calendar",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Setting_Up_Apple_Calendar.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Security",
+    "permalink": "/docs/Security"
+  },
+  "next": {
+    "title": "Setting up Apple Applications",
+    "permalink": "/docs/Setting_up_Apple_Applications"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Developper_s_guide/Configuration_de_l_environnement_de_développement",
+  "id": "Developper_s_guide/Configuration_de_l_environnement_de_développement",
+  "title": "Configuration de l'environnement de développement",
+  "description": "- Eclipse",
+  "source": "@site/docs/Developper_s_guide/Configuration_de_l_environnement_de_développement.md",
+  "sourceDirName": "Developper_s_guide",
+  "slug": "/Developper_s_guide/Configuration_de_l_environnement_de_développement",
+  "permalink": "/docs/Developper_s_guide/Configuration_de_l_environnement_de_développement",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Developper_s_guide/Configuration_de_l_environnement_de_développement.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration de l'environnement de développement",
+    "confluence_id": 57771894
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building BlueMind",
+    "permalink": "/docs/Developper_s_guide/Building_BlueMind"
+  },
+  "next": {
+    "title": "Contribuer a BlueMind",
+    "permalink": "/docs/Developper_s_guide/Contribuer_a_BlueMind"
+  }
+}

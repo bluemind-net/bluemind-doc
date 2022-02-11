@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/index",
+  "id": "Guide_du_développeur/index",
+  "title": "Guide du développeur",
+  "description": "- Construction de BlueMind",
+  "source": "@site/docs/Guide_du_développeur/index.md",
+  "sourceDirName": "Guide_du_développeur",
+  "slug": "/Guide_du_développeur/",
+  "permalink": "/docs/Guide_du_développeur/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Guide du développeur",
+    "confluence_id": 57771871,
+    "position": 34
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Haute disponibilité logicielle et BlueMind",
+    "permalink": "/docs/Guide_de_l_administrateur/Haute_disponibilité_logicielle_et_BlueMind"
+  },
+  "next": {
+    "title": "API BlueMind",
+    "permalink": "/docs/Guide_du_développeur/API_BlueMind/"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_donnees_avec_bm_tick",
+  "id": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_donnees_avec_bm_tick",
+  "title": "Explorer et analyser les donnees avec bm-tick",
+  "description": "L'onglet DataExplorer vous permet, comme son nom l'indique en anglais, de parcourir les données de la base, en d'autres termes l'historique des métriques collectées.",
+  "source": "@site/docs/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_donnees_avec_bm_tick.md",
+  "sourceDirName": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick",
+  "slug": "/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_donnees_avec_bm_tick",
+  "permalink": "/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_donnees_avec_bm_tick",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Explorer et analyser les donnees avec bm-tick",
+    "confluence_id": 57771695
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Plan de Reprise d'Activite PRA",
+    "permalink": "/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activite_PRA"
+  },
+  "next": {
+    "title": "Reference des metriques",
+    "permalink": "/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Reference_des_metriques"
+  }
+}

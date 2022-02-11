@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Premiers_pas_avec_BlueMind/index",
+  "id": "Premiers_pas_avec_BlueMind/index",
+  "title": "Premiers pas avec BlueMind",
+  "description": "Découvrez les bases du fonctionnement de BlueMind :",
+  "source": "@site/docs/Premiers_pas_avec_BlueMind/index.md",
+  "sourceDirName": "Premiers_pas_avec_BlueMind",
+  "slug": "/Premiers_pas_avec_BlueMind/",
+  "permalink": "/docs/Premiers_pas_avec_BlueMind/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Premiers pas avec BlueMind",
+    "confluence_id": 57770134,
+    "position": 24
+  },
+  "sidebar": "bmdocs",
+  "next": {
+    "title": "Débuter avec l'agenda",
+    "permalink": "/docs/Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda"
+  }
+}

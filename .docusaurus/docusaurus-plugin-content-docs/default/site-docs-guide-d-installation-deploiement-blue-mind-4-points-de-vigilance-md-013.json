@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_d_installation/Déploiement_BlueMind_4_points_de_vigilance",
+  "id": "Guide_d_installation/Déploiement_BlueMind_4_points_de_vigilance",
+  "title": "Déploiement BlueMind 4 : points de vigilance",
+  "description": "La version 4 de BlueMind intègre des évolutions majeures en terme d'architecture avec d'une part le support d'Outlook nativement et d'autre part une réplication des données pour préparer les données de messagerie pour Outlook et d'autres usages (nouveau webmail, périphériques mobiles en particulier).",
+  "source": "@site/docs/Guide_d_installation/Déploiement_BlueMind_4_points_de_vigilance.md",
+  "sourceDirName": "Guide_d_installation",
+  "slug": "/Guide_d_installation/Déploiement_BlueMind_4_points_de_vigilance",
+  "permalink": "/docs/Guide_d_installation/Déploiement_BlueMind_4_points_de_vigilance",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Déploiement BlueMind 4 : points de vigilance",
+    "confluence_id": 57771184,
+    "position": 38
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Dimensionnement matériel",
+    "permalink": "/docs/Guide_d_installation/Dimensionnement_matériel"
+  },
+  "next": {
+    "title": "Installation du nouveau client de messagerie",
+    "permalink": "/docs/Guide_d_installation/Installation_du_nouveau_client_de_messagerie"
+  }
+}

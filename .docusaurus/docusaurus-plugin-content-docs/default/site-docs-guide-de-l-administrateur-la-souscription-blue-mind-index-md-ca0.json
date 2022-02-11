@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/La_souscription_BlueMind/index",
+  "id": "Guide_de_l_administrateur/La_souscription_BlueMind/index",
+  "title": "La souscription BlueMind",
+  "description": "La Solution BlueMind",
+  "source": "@site/docs/Guide_de_l_administrateur/La_souscription_BlueMind/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/La_souscription_BlueMind",
+  "slug": "/Guide_de_l_administrateur/La_souscription_BlueMind/",
+  "permalink": "/docs/Guide_de_l_administrateur/La_souscription_BlueMind/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "La souscription BlueMind",
+    "confluence_id": 57771780,
+    "position": 52
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "MDM - Mobile Device Management",
+    "permalink": "/docs/Guide_de_l_administrateur/BlueMind_et_mobilité/MDM_Mobile_Device_Management"
+  },
+  "next": {
+    "title": "Mise en œuvre de MAPI pour Outlook",
+    "permalink": "/docs/Guide_de_l_administrateur/La_souscription_BlueMind/Mise_en_œuvre_de_MAPI_pour_Outlook"
+  }
+}

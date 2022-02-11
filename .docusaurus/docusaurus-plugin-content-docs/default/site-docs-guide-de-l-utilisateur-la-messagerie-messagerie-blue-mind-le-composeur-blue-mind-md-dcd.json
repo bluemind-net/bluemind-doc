@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind",
+  "title": "Le composeur BlueMind",
+  "description": "Le composeur de la messagerie BlueMind s'ouvre dans la partie droite de l'interface :",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind",
+  "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Le composeur BlueMind",
+    "confluence_id": 69895262,
+    "position": 46
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Messagerie BlueMind",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/"
+  },
+  "next": {
+    "title": "Préférences du webmail",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Préférences_du_webmail"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_d_installation/Installation",
+  "id": "Guide_d_installation/Installation",
+  "title": "Installation",
+  "description": "Nom de domaine technique \"xxx.internal\"",
+  "source": "@site/docs/Guide_d_installation/Installation.md",
+  "sourceDirName": "Guide_d_installation",
+  "slug": "/Guide_d_installation/Installation",
+  "permalink": "/docs/Guide_d_installation/Installation",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guide_d_installation/Installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Installation",
+    "confluence_id": 57771188
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dimensionnement materiel",
+    "permalink": "/docs/Guide_d_installation/Dimensionnement_materiel"
+  },
+  "next": {
+    "title": "Installation du nouveau client de messagerie",
+    "permalink": "/docs/Guide_d_installation/Installation_du_nouveau_client_de_messagerie"
+  }
+}

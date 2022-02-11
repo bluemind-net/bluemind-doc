@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Guide d'installation",
+  "id": "Guide d'installation",
+  "title": "Guide d'installation",
+  "description": "- Dimensionnement matériel",
+  "source": "@site/docs/Guide d'installation.md",
+  "sourceDirName": ".",
+  "slug": "/Guide d'installation",
+  "permalink": "/docs/Guide d'installation",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guide d'installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gestion des taches avec iOS",
+    "permalink": "/docs/Gestion des taches avec iOS"
+  },
+  "next": {
+    "title": "Guide de l'administrateur",
+    "permalink": "/docs/Guide de l'administrateur"
+  }
+}

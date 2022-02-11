@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Configuration_des_clients_de_messagerie_instantanee",
+  "id": "BlueMind/Configuration_des_clients_de_messagerie_instantanee",
+  "title": "Configuration des clients de messagerie instantanee",
+  "description": "L'utilisation du protocole XMPP permet aux utilisateurs de connecter leur logiciel dédié à la messagerie instantanée de BlueMind et ainsi de pouvoir discuter avec les autres utilisateurs, qu'ils utilisent la messagerie instantanée intégrée ou un autre logiciel dédié eux aussi, quel qu'il soit.",
+  "source": "@site/docs/BlueMind/Configuration_des_clients_de_messagerie_instantanee.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Configuration_des_clients_de_messagerie_instantanee",
+  "permalink": "/docs/BlueMind/Configuration_des_clients_de_messagerie_instantanee",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Configuration_des_clients_de_messagerie_instantanee.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration de l'environnement de développement",
+    "permalink": "/docs/BlueMind/Configuration_de_l_environnement_de_développement"
+  },
+  "next": {
+    "title": "Configuration des clients lourds",
+    "permalink": "/docs/BlueMind/Configuration_des_clients_lourds"
+  }
+}

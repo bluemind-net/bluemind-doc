@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds",
+  "id": "Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds",
+  "title": "Les connecteurs BlueMind pour clients lourds",
+  "description": "Le connecteur BlueMind pour Thunderbird est fourni par le paquet bm-connector-thunderbird, installé par défaut lors de l'installation de BlueMind. Une fois le paquet installé, les utilisateurs pourront trouver le connecteur dans la section Téléchargement de leur compte utilisateur.",
+  "source": "@site/docs/Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds.md",
+  "sourceDirName": "Guide_de_l_administrateur/BlueMind_et_mobilité",
+  "slug": "/Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds",
+  "permalink": "/docs/Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les connecteurs BlueMind pour clients lourds",
+    "confluence_id": 57771768,
+    "position": 60
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Configuration du serveur EAS",
+    "permalink": "/docs/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS"
+  },
+  "next": {
+    "title": "MDM - Mobile Device Management",
+    "permalink": "/docs/Guide_de_l_administrateur/BlueMind_et_mobilité/MDM_Mobile_Device_Management"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/Installation_d_une_VM_Android",
+  "id": "Guide_du_développeur/Installation_d_une_VM_Android",
+  "title": "Installation d'une VM Android",
+  "description": "",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_du_développeur/Installation_d_une_VM_Android.md",
+  "sourceDirName": "Guide_du_développeur",
+  "slug": "/Guide_du_développeur/Installation_d_une_VM_Android",
+  "permalink": "/docs/en/Guide_du_développeur/Installation_d_une_VM_Android",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Installation d'une VM Android",
+    "confluence_id": 79863485,
+    "position": 52
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Contribuer à BlueMind",
+    "permalink": "/docs/en/Guide_du_développeur/Contribuer_à_BlueMind"
+  },
+  "next": {
+    "title": "Utilisation de l'API MarketPlace",
+    "permalink": "/docs/en/Guide_du_développeur/Utilisation_de_l_API_MarketPlace"
+  }
+}

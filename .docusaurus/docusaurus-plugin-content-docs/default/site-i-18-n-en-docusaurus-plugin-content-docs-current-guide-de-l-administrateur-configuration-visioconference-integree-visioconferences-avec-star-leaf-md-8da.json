@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconferences_avec_StarLeaf",
+  "id": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconferences_avec_StarLeaf",
+  "title": "Videoconferences with StarLeaf",
+  "description": "From 4.5.3, BlueMind can be connected to a StarLeaf server so that users can easily create videoconferences and link them to their calendar meetings.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconferences_avec_StarLeaf.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée",
+  "slug": "/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconferences_avec_StarLeaf",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconferences_avec_StarLeaf",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Videoconferences with StarLeaf",
+    "confluence_id": 79862951,
+    "position": 78
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Integrated Videoconferencing",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/"
+  },
+  "next": {
+    "title": "Videoconferences with BlueMind.Video",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Les_categories_tags",
+  "id": "Guide_de_l_utilisateur/Les_categories_tags",
+  "title": "Les categories tags",
+  "description": "Les catégories permettent d'affecter un ou plusieurs mots clefs (ou tags) aux contacts et événements d'agenda, ces catégories étant communes aux 2 applications.",
+  "source": "@site/docs/Guide_de_l_utilisateur/Les_categories_tags.md",
+  "sourceDirName": "Guide_de_l_utilisateur",
+  "slug": "/Guide_de_l_utilisateur/Les_categories_tags",
+  "permalink": "/en/Guide_de_l_utilisateur/Les_categories_tags",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les categories tags",
+    "confluence_id": 57770802
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "La telephonie",
+    "permalink": "/en/Guide_de_l_utilisateur/La_telephonie"
+  },
+  "next": {
+    "title": "Les ressources",
+    "permalink": "/en/Guide_de_l_utilisateur/Les_ressources"
+  }
+}

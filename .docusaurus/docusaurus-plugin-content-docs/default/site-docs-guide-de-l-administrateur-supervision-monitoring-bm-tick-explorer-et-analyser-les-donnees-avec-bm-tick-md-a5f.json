@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick",
+  "id": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick",
+  "title": "Explorer et analyser les données avec bm-tick",
+  "description": "L'onglet DataExplorer vous permet, comme son nom l'indique en anglais, de parcourir les données de la base, en d'autres termes l'historique des métriques collectées.",
+  "source": "@site/docs/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick.md",
+  "sourceDirName": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick",
+  "slug": "/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick",
+  "permalink": "/docs/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Explorer et analyser les données avec bm-tick",
+    "confluence_id": 57771695,
+    "position": 62
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Monitoring Bm-Tick",
+    "permalink": "/docs/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/"
+  },
+  "next": {
+    "title": "Installation et Accès",
+    "permalink": "/docs/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès"
+  }
+}

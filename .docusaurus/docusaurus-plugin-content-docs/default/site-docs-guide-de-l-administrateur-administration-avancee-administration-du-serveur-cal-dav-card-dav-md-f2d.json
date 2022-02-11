@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_calDav_cardDav",
+  "id": "Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_calDav_cardDav",
+  "title": "Administration du serveur calDav/cardDav",
+  "description": "Calendar (calDav)",
+  "source": "@site/docs/Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_calDav_cardDav.md",
+  "sourceDirName": "Guide_de_l_administrateur/Administration_avancée",
+  "slug": "/Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_calDav_cardDav",
+  "permalink": "/docs/Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_calDav_cardDav",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Administration du serveur calDav/cardDav",
+    "confluence_id": 57771794,
+    "position": 60
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Administration du serveur XMPP",
+    "permalink": "/docs/Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_XMPP"
+  },
+  "next": {
+    "title": "Client CLI pour l'administration",
+    "permalink": "/docs/Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration"
+  }
+}

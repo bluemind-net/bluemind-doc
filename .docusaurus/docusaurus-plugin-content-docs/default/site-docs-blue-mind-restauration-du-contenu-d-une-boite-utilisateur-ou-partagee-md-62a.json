@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee",
+  "id": "BlueMind/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee",
+  "title": "Restauration du contenu d une boite utilisateur ou partagee",
+  "description": "Cette page vous donne les procédures à suivre dans les cas suivants :",
+  "source": "@site/docs/BlueMind/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee",
+  "permalink": "/docs/BlueMind/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Restauration d'une sauvegarde depuis emplacement externe",
+    "permalink": "/docs/BlueMind/Restauration_d_une_sauvegarde_depuis_emplacement_externe"
+  },
+  "next": {
+    "title": "Restauration manuelle d'une boite utilisateur ou partagee",
+    "permalink": "/docs/BlueMind/Restauration_manuelle_d_une_boite_utilisateur_ou_partagee"
+  }
+}

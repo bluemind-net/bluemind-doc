@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Fichiers_volumineux_et_detachement_des_pieces_jointes",
+  "id": "Fichiers_volumineux_et_detachement_des_pieces_jointes",
+  "title": "Fichiers volumineux et detachement des pieces jointes",
+  "description": "BlueMind offre la possibilité de détacher les pièces jointes des messages afin de les présenter sous forme de lien de téléchargement aux destinataires. Ceci permet d'alléger le message envoyé, et de ce fait les serveurs et réseaux de communication : le fichier n'est plus transmis avec le mail et stocké sur le serveur qui le reçoit, en plus du serveur émetteur, en étant éventuellement dupliqué et multiplié au grès des transferts et réponses.",
+  "source": "@site/docs/Fichiers_volumineux_et_detachement_des_pieces_jointes.md",
+  "sourceDirName": ".",
+  "slug": "/Fichiers_volumineux_et_detachement_des_pieces_jointes",
+  "permalink": "/docs/Fichiers_volumineux_et_detachement_des_pieces_jointes",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Fichiers_volumineux_et_detachement_des_pieces_jointes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/docs/FAQ"
+  },
+  "next": {
+    "title": "Firewall",
+    "permalink": "/docs/Firewall"
+  }
+}

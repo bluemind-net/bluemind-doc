@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Administration_avancee/Nginx_et_Postfix",
+  "id": "Guide_de_l_administrateur/Administration_avancee/Nginx_et_Postfix",
+  "title": "Nginx et Postfix",
+  "description": "Le présent document a pour but de décrire la procédure de déploiement d'un serveur de type Edge BlueMind comme relai postfix et proxy.",
+  "source": "@site/docs/Guide_de_l_administrateur/Administration_avancee/Nginx_et_Postfix.md",
+  "sourceDirName": "Guide_de_l_administrateur/Administration_avancee",
+  "slug": "/Guide_de_l_administrateur/Administration_avancee/Nginx_et_Postfix",
+  "permalink": "/en/Guide_de_l_administrateur/Administration_avancee/Nginx_et_Postfix",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Nginx et Postfix",
+    "confluence_id": 57771799
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Maintenance des mails",
+    "permalink": "/en/Guide_de_l_administrateur/Administration_avancee/Maintenance_des_mails"
+  },
+  "next": {
+    "title": "Router directement les messages vers un autre",
+    "permalink": "/en/Guide_de_l_administrateur/Administration_avancee/Router_directement_les_messages_vers_un_autre"
+  }
+}

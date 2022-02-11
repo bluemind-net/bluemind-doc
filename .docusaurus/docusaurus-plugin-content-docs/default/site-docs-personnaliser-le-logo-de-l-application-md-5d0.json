@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Personnaliser le logo de l application",
+  "id": "Personnaliser le logo de l application",
+  "title": "Personnaliser le logo de l application",
+  "description": "Le logo par défaut BlueMind, visible sur l'écran de connexion et dans le bandeau de navigation de BlueMind peut désormais être personnalisé et remplacé par une image de votre choix.",
+  "source": "@site/docs/Personnaliser le logo de l application.md",
+  "sourceDirName": ".",
+  "slug": "/Personnaliser le logo de l application",
+  "permalink": "/docs/Personnaliser le logo de l application",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Personnaliser le logo de l application.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Partager le statut de lecture des boites partagees",
+    "permalink": "/docs/Partager le statut de lecture des boites partagees"
+  },
+  "next": {
+    "title": "Pieces jointes impossibles a ajouter",
+    "permalink": "/docs/Pieces jointes impossibles a ajouter"
+  }
+}

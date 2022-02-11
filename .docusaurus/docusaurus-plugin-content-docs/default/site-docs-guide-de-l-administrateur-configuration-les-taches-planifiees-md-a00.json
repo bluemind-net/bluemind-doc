@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Les_taches_planifiees",
+  "id": "Guide_de_l_administrateur/Configuration/Les_taches_planifiees",
+  "title": "Les taches planifiees",
+  "description": "Les tâches planifiées permettent de programmer l'exécution automatique de tâches.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Les_taches_planifiees.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration",
+  "slug": "/Guide_de_l_administrateur/Configuration/Les_taches_planifiees",
+  "permalink": "/en/Guide_de_l_administrateur/Configuration/Les_taches_planifiees",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les taches planifiees",
+    "confluence_id": 57771308
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "La console d'administration",
+    "permalink": "/en/Guide_de_l_administrateur/Configuration/La_console_d_administration"
+  },
+  "next": {
+    "title": "Signatures d'entreprise",
+    "permalink": "/en/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise"
+  }
+}

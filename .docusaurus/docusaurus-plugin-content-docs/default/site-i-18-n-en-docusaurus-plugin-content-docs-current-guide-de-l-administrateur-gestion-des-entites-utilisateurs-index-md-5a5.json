@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/index",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/index",
+  "title": "Users",
+  "description": "Users are individuals who connect to BlueMind. Users have access to BlueMind features depending on their profile.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Users",
+    "confluence_id": 79862979,
+    "position": 50
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Entities",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/"
+  },
+  "next": {
+    "title": "Delegated Administration",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée"
+  }
+}

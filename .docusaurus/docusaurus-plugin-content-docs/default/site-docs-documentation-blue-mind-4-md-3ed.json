@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Documentation_BlueMind_4",
+  "id": "Documentation_BlueMind_4",
+  "title": "Documentation BlueMind 4",
+  "description": "Bienvenue dans l'espace documentaire de BlueMind 4, solution complète et OpenSource de messagerie d’entreprise, d’agendas et de travail collaboratif.",
+  "source": "@site/docs/Documentation_BlueMind_4.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Documentation BlueMind 4",
+    "confluence_id": 57770074,
+    "position": 12,
+    "slug": "/"
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Transférer une arborescence de messagerie d'un compte vers un autre",
+    "permalink": "/docs/Base_de_connaissance/Transférer_une_arborescence_de_messagerie_d_un_compte_vers_un_autre"
+  },
+  "next": {
+    "title": "Nouveautés BlueMind 4.0 à 4.3",
+    "permalink": "/docs/Nouveautés_BlueMind_4.0_à_4.3"
+  }
+}

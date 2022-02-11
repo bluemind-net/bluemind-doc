@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Client_CLI_pour_l_administration",
+  "id": "BlueMind/Client_CLI_pour_l_administration",
+  "title": "Client CLI pour l'administration",
+  "description": "Le client CLI (« Command Line Interface » = Interface de lignes de commandes) permettant d'effectuer des tâches d'administration de la plateforme BlueMind directement en ligne de commande, sans avoir à créer de scripts pour cela.",
+  "source": "@site/docs/BlueMind/Client_CLI_pour_l_administration.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Client_CLI_pour_l_administration",
+  "permalink": "/docs/BlueMind/Client_CLI_pour_l_administration",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Client_CLI_pour_l_administration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Changer de distribution",
+    "permalink": "/docs/BlueMind/Changer_de_distribution"
+  },
+  "next": {
+    "title": "Client Java",
+    "permalink": "/docs/BlueMind/Client_Java"
+  }
+}

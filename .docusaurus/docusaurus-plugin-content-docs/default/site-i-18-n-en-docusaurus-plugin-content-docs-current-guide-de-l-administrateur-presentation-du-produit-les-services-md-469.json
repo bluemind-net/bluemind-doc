@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Présentation_du_produit/Les_services",
+  "id": "Guide_de_l_administrateur/Présentation_du_produit/Les_services",
+  "title": "Services",
+  "description": "- BM-Core is BlueMind's core component. It serves a a single management center for data and business rules. It is the only component that accesses the database.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Présentation_du_produit/Les_services.md",
+  "sourceDirName": "Guide_de_l_administrateur/Présentation_du_produit",
+  "slug": "/Guide_de_l_administrateur/Présentation_du_produit/Les_services",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Présentation_du_produit/Les_services",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Services",
+    "confluence_id": 79862742,
+    "position": 48
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "BlueMind Ports",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Présentation_du_produit/Les_ports"
+  },
+  "next": {
+    "title": "Multi-domain Messaging",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Présentation_du_produit/Messagerie_multi_domaines"
+  }
+}

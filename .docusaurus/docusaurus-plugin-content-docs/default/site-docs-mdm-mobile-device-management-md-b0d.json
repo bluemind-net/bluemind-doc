@@ -1,0 +1,23 @@
+{
+  "unversionedId": "MDM___Mobile_Device_Management",
+  "id": "MDM___Mobile_Device_Management",
+  "title": "MDM - Mobile Device Management",
+  "description": "La synchronisation de mobile se réalise via le protocole ActiveSync, et permet une synchronisation native, sans installation de composant supplémentaire sur les smartphones pour les mail, contacts ou agendas.BlueMind intègre des services de MDM («Mobile Device Management») permettant de gérer la flotte de smartphones autorisés à se connecter à BlueMind.Par défaut un smartphone n’est pas autorisé à se connecter via ActiveSync.Via la console d’administration, l’administrateur de la plateforme peut autoriser un smartphone à se synchroniser. L’autorisation est seulement affectée à un smartphone en fonction d’un utilisateur, c’est un partenariat.Si le smartphone est réutilisé pour une autre collaborateur il faudra réapprouver le partenariat.Depuis la console d’administration s’offre alors plusieurs options de gestion :",
+  "source": "@site/docs/MDM___Mobile_Device_Management.md",
+  "sourceDirName": ".",
+  "slug": "/MDM___Mobile_Device_Management",
+  "permalink": "/docs/MDM___Mobile_Device_Management",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/MDM___Mobile_Device_Management.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Logs - Fichiers journaux",
+    "permalink": "/docs/Logs___Fichiers_journaux"
+  },
+  "next": {
+    "title": "Maintenance des mails",
+    "permalink": "/docs/Maintenance_des_mails"
+  }
+}

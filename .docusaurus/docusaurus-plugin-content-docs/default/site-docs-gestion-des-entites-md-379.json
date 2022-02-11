@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Gestion_des_entites",
+  "id": "Gestion_des_entites",
+  "title": "Gestion des entites",
+  "description": "- Entrées d'annuaire",
+  "source": "@site/docs/Gestion_des_entites.md",
+  "sourceDirName": ".",
+  "slug": "/Gestion_des_entites",
+  "permalink": "/docs/Gestion_des_entites",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Gestion_des_entites.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gestion des domaines",
+    "permalink": "/docs/Gestion_des_domaines"
+  },
+  "next": {
+    "title": "Gestion des partages",
+    "permalink": "/docs/Gestion_des_partages"
+  }
+}

@@ -1,0 +1,2433 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "bmdocs": [
+      {
+        "type": "category",
+        "label": "First Steps with BlueMind",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Getting Started with the Calendar",
+            "href": "/docs/en/Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda",
+            "docId": "Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda"
+          },
+          {
+            "type": "link",
+            "label": "Getting Started with Mail",
+            "href": "/docs/en/Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail",
+            "docId": "Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail"
+          },
+          {
+            "type": "link",
+            "label": "Getting Started with Contacts",
+            "href": "/docs/en/Premiers_pas_avec_BlueMind/Débuter_avec_les_contacts",
+            "docId": "Premiers_pas_avec_BlueMind/Débuter_avec_les_contacts"
+          },
+          {
+            "type": "link",
+            "label": "Getting Started with Tasks",
+            "href": "/docs/en/Premiers_pas_avec_BlueMind/Débuter_avec_les_tâches",
+            "docId": "Premiers_pas_avec_BlueMind/Débuter_avec_les_tâches"
+          }
+        ],
+        "href": "/docs/en/Premiers_pas_avec_BlueMind/"
+      },
+      {
+        "type": "category",
+        "label": "FAQ",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Compatibility",
+            "href": "/docs/en/FAQ_Foire_aux_questions_/Compatibilité",
+            "docId": "FAQ_Foire_aux_questions_/Compatibilité"
+          },
+          {
+            "type": "link",
+            "label": "BlueMind Tools and Resources",
+            "href": "/docs/en/FAQ_Foire_aux_questions_/Outils_et_ressources_BlueMind",
+            "docId": "FAQ_Foire_aux_questions_/Outils_et_ressources_BlueMind"
+          }
+        ],
+        "href": "/docs/en/FAQ_Foire_aux_questions_/"
+      },
+      {
+        "type": "category",
+        "label": "User's Guide",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Mail",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "BlueMind Mail",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Le composeur BlueMind",
+                    "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind",
+                    "docId": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Webmail Preferences",
+                    "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Préférences_du_webmail",
+                    "docId": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Préférences_du_webmail"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/"
+              },
+              {
+                "type": "category",
+                "label": "Mail Preferences",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Advanced Settings",
+                    "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées",
+                    "docId": "Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/"
+              },
+              {
+                "type": "link",
+                "label": "Large files and linked attachments",
+                "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes",
+                "docId": "Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes"
+              },
+              {
+                "type": "link",
+                "label": "The Composer",
+                "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Le_composeur",
+                "docId": "Guide_de_l_utilisateur/La_messagerie/Le_composeur"
+              },
+              {
+                "type": "link",
+                "label": "Shared Mailboxes",
+                "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées",
+                "docId": "Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées"
+              },
+              {
+                "type": "link",
+                "label": "Message Filters",
+                "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages",
+                "docId": "Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages"
+              },
+              {
+                "type": "link",
+                "label": "Identities",
+                "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Les_identités",
+                "docId": "Guide_de_l_utilisateur/La_messagerie/Les_identités"
+              },
+              {
+                "type": "link",
+                "label": "Advanced Search Engine",
+                "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avancé",
+                "docId": "Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avancé"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie/"
+          },
+          {
+            "type": "category",
+            "label": "Contacts",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Managing Address Books",
+                "href": "/docs/en/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses",
+                "docId": "Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_utilisateur/Les_contacts/"
+          },
+          {
+            "type": "category",
+            "label": "Calendar",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Sharing Calendars",
+                "href": "/docs/en/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda",
+                "docId": "Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda"
+              },
+              {
+                "type": "link",
+                "label": "External Calendars",
+                "href": "/docs/en/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes",
+                "docId": "Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes"
+              },
+              {
+                "type": "link",
+                "label": "Events",
+                "href": "/docs/en/Guide_de_l_utilisateur/L_agenda/Les_événements",
+                "docId": "Guide_de_l_utilisateur/L_agenda/Les_événements"
+              },
+              {
+                "type": "link",
+                "label": "Linking a Video-Conference to an Event",
+                "href": "/docs/en/Guide_de_l_utilisateur/L_agenda/Lier_une_visioconférence_à_un_événement",
+                "docId": "Guide_de_l_utilisateur/L_agenda/Lier_une_visioconférence_à_un_événement"
+              },
+              {
+                "type": "link",
+                "label": "Organizing Meetings",
+                "href": "/docs/en/Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion",
+                "docId": "Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion"
+              },
+              {
+                "type": "link",
+                "label": "Calendar Preferences",
+                "href": "/docs/en/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda",
+                "docId": "Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda"
+              },
+              {
+                "type": "link",
+                "label": "Views",
+                "href": "/docs/en/Guide_de_l_utilisateur/L_agenda/Vues",
+                "docId": "Guide_de_l_utilisateur/L_agenda/Vues"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_utilisateur/L_agenda/"
+          },
+          {
+            "type": "category",
+            "label": "Tasks",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Task Preferences",
+                "href": "/docs/en/Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches",
+                "docId": "Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_utilisateur/Les_tâches/"
+          },
+          {
+            "type": "category",
+            "label": "Instant Messaging",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Setting up Instant Messaging Clients",
+                "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée",
+                "docId": "Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_utilisateur/La_messagerie_instantanée/"
+          },
+          {
+            "type": "category",
+            "label": "Configuring Thick Clients",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Setting up Apple Applications",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Setting Up Apple Mail",
+                    "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_d_Apple_Mail",
+                    "docId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_d_Apple_Mail"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Setting Up Apple Calendar",
+                    "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Calendar",
+                    "docId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Calendar"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Setting Up Apple Contacts",
+                    "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts",
+                    "docId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/"
+              },
+              {
+                "type": "link",
+                "label": "Synchronizing with Thunderbird",
+                "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird",
+                "docId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird"
+              },
+              {
+                "type": "link",
+                "label": "Synchronizing with Outlook",
+                "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook",
+                "docId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/"
+          },
+          {
+            "type": "category",
+            "label": "Synchronizing with mobile phones and tablets",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Synchronizing with Android",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "IMAP Synchronization on Android",
+                    "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android",
+                    "docId": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/"
+              },
+              {
+                "type": "category",
+                "label": "Synchronizing with Blackberry",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "IMAP Synchronization on Blackberry",
+                    "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry",
+                    "docId": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/"
+              },
+              {
+                "type": "category",
+                "label": "Synchronizing with iOS",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Gestion des tâches avec iOS",
+                    "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Gestion_des_tâches_avec_iOS",
+                    "docId": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Gestion_des_tâches_avec_iOS"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Importing Local Contacts into BlueMind",
+                    "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Importer_les_contacts_locaux_dans_BlueMind",
+                    "docId": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Importer_les_contacts_locaux_dans_BlueMind"
+                  },
+                  {
+                    "type": "link",
+                    "label": "IMAP Synchronization on iOS",
+                    "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Synchronisation_IMAP_avec_iOS",
+                    "docId": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Synchronisation_IMAP_avec_iOS"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/"
+              },
+              {
+                "type": "category",
+                "label": "Synchronizing with Windows Phone",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "IMAP Synchronization on Windows Phone",
+                    "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/Synchronisation_IMAP_sous_Windows_Phone",
+                    "docId": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/Synchronisation_IMAP_sous_Windows_Phone"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/"
+          },
+          {
+            "type": "link",
+            "label": "Managing Shares",
+            "href": "/docs/en/Guide_de_l_utilisateur/Gestion_des_partages",
+            "docId": "Guide_de_l_utilisateur/Gestion_des_partages"
+          },
+          {
+            "type": "link",
+            "label": "Telephony",
+            "href": "/docs/en/Guide_de_l_utilisateur/La_téléphonie",
+            "docId": "Guide_de_l_utilisateur/La_téléphonie"
+          },
+          {
+            "type": "link",
+            "label": "Tags",
+            "href": "/docs/en/Guide_de_l_utilisateur/Les_catégories_tags_",
+            "docId": "Guide_de_l_utilisateur/Les_catégories_tags_"
+          },
+          {
+            "type": "link",
+            "label": "Resources",
+            "href": "/docs/en/Guide_de_l_utilisateur/Les_ressources",
+            "docId": "Guide_de_l_utilisateur/Les_ressources"
+          },
+          {
+            "type": "link",
+            "label": "User Settings",
+            "href": "/docs/en/Guide_de_l_utilisateur/Paramètres_utilisateur",
+            "docId": "Guide_de_l_utilisateur/Paramètres_utilisateur"
+          }
+        ],
+        "href": "/docs/en/Guide_de_l_utilisateur/"
+      },
+      {
+        "type": "category",
+        "label": "Installation Guide",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Installation",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Multi-backend installation",
+                "href": "/docs/en/Guide_d_installation/Installation/Installation_avec_répartition_des_données_sur_plusieurs_serveurs",
+                "docId": "Guide_d_installation/Installation/Installation_avec_répartition_des_données_sur_plusieurs_serveurs"
+              }
+            ],
+            "href": "/docs/en/Guide_d_installation/Installation/"
+          },
+          {
+            "type": "link",
+            "label": "Post-installation Configuration",
+            "href": "/docs/en/Guide_d_installation/Configuration_post_installation",
+            "docId": "Guide_d_installation/Configuration_post_installation"
+          },
+          {
+            "type": "link",
+            "label": "Hardware Sizing",
+            "href": "/docs/en/Guide_d_installation/Dimensionnement_matériel",
+            "docId": "Guide_d_installation/Dimensionnement_matériel"
+          },
+          {
+            "type": "link",
+            "label": "Rolling out BlueMind 4.0: What to Watch Out For",
+            "href": "/docs/en/Guide_d_installation/Déploiement_BlueMind_4_points_de_vigilance",
+            "docId": "Guide_d_installation/Déploiement_BlueMind_4_points_de_vigilance"
+          },
+          {
+            "type": "link",
+            "label": "Installing the new mail client",
+            "href": "/docs/en/Guide_d_installation/Installation_du_nouveau_client_de_messagerie",
+            "docId": "Guide_d_installation/Installation_du_nouveau_client_de_messagerie"
+          },
+          {
+            "type": "link",
+            "label": "Setting Up Subscriptions",
+            "href": "/docs/en/Guide_d_installation/Mise_en_œuvre_de_la_souscription",
+            "docId": "Guide_d_installation/Mise_en_œuvre_de_la_souscription"
+          },
+          {
+            "type": "link",
+            "label": "Updating BlueMind",
+            "href": "/docs/en/Guide_d_installation/Mise_à_jour_de_BlueMind",
+            "docId": "Guide_d_installation/Mise_à_jour_de_BlueMind"
+          },
+          {
+            "type": "link",
+            "label": "Installation Prerequisites",
+            "href": "/docs/en/Guide_d_installation/Prérequis_à_l_installation",
+            "docId": "Guide_d_installation/Prérequis_à_l_installation"
+          }
+        ],
+        "href": "/docs/en/Guide_d_installation/"
+      },
+      {
+        "type": "category",
+        "label": "Administrator's Guide",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Product Overview",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Applications and Components",
+                "href": "/docs/en/Guide_de_l_administrateur/Présentation_du_produit/Applications_et_composants",
+                "docId": "Guide_de_l_administrateur/Présentation_du_produit/Applications_et_composants"
+              },
+              {
+                "type": "link",
+                "label": "BlueMind Ports",
+                "href": "/docs/en/Guide_de_l_administrateur/Présentation_du_produit/Les_ports",
+                "docId": "Guide_de_l_administrateur/Présentation_du_produit/Les_ports"
+              },
+              {
+                "type": "link",
+                "label": "Services",
+                "href": "/docs/en/Guide_de_l_administrateur/Présentation_du_produit/Les_services",
+                "docId": "Guide_de_l_administrateur/Présentation_du_produit/Les_services"
+              },
+              {
+                "type": "link",
+                "label": "Multi-domain Messaging",
+                "href": "/docs/en/Guide_de_l_administrateur/Présentation_du_produit/Messagerie_multi_domaines",
+                "docId": "Guide_de_l_administrateur/Présentation_du_produit/Messagerie_multi_domaines"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_administrateur/Présentation_du_produit/"
+          },
+          {
+            "type": "category",
+            "label": "Configuration",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Managing Domains",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Authentication Methods",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "SSO CAS",
+                        "href": "/docs/en/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/Mise_en_place_du_SSO_CAS",
+                        "docId": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/Mise_en_place_du_SSO_CAS"
+                      },
+                      {
+                        "type": "link",
+                        "label": "SSO Kerberos",
+                        "href": "/docs/en/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/Mise_en_place_du_SSO_Kerberos",
+                        "docId": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/Mise_en_place_du_SSO_Kerberos"
+                      }
+                    ],
+                    "href": "/docs/en/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Configuration des url externes",
+                    "href": "/docs/en/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Configuration_des_url_externes",
+                    "docId": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Configuration_des_url_externes"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/"
+              },
+              {
+                "type": "category",
+                "label": "Security",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "SSL Certificates",
+                    "href": "/docs/en/Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL",
+                    "docId": "Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Firewall",
+                    "href": "/docs/en/Guide_de_l_administrateur/Configuration/Sécurité/Pare_feu",
+                    "docId": "Guide_de_l_administrateur/Configuration/Sécurité/Pare_feu"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/Sécurité/"
+              },
+              {
+                "type": "category",
+                "label": "Linked Attachments",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Connecting with Nextcloud",
+                    "href": "/docs/en/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud",
+                    "docId": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/"
+              },
+              {
+                "type": "category",
+                "label": "Integrated Videoconferencing",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Videoconferences with StarLeaf",
+                    "href": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconferences_avec_StarLeaf",
+                    "docId": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconferences_avec_StarLeaf"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Videoconferences with BlueMind.Video",
+                    "href": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video",
+                    "docId": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Videoconferences with Jitsi",
+                    "href": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi",
+                    "docId": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/"
+              },
+              {
+                "type": "link",
+                "label": "Automatic Memory Adjustment",
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire",
+                "docId": "Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire"
+              },
+              {
+                "type": "link",
+                "label": "Archiving",
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/Archivage",
+                "docId": "Guide_de_l_administrateur/Configuration/Archivage"
+              },
+              {
+                "type": "link",
+                "label": "System Configuration",
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/Configuration_système",
+                "docId": "Guide_de_l_administrateur/Configuration/Configuration_système"
+              },
+              {
+                "type": "link",
+                "label": "Managing Servers",
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/Gestion_des_serveurs",
+                "docId": "Guide_de_l_administrateur/Configuration/Gestion_des_serveurs"
+              },
+              {
+                "type": "link",
+                "label": "Indexing",
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/Indexation",
+                "docId": "Guide_de_l_administrateur/Configuration/Indexation"
+              },
+              {
+                "type": "link",
+                "label": "Admin Console",
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/La_console_d_administration",
+                "docId": "Guide_de_l_administrateur/Configuration/La_console_d_administration"
+              },
+              {
+                "type": "link",
+                "label": "Scheduled Jobs",
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/Les_tâches_planifiées",
+                "docId": "Guide_de_l_administrateur/Configuration/Les_tâches_planifiées"
+              },
+              {
+                "type": "link",
+                "label": "Corporate Signatures",
+                "href": "/docs/en/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise",
+                "docId": "Guide_de_l_administrateur/Configuration/Signatures_d_entreprise"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_administrateur/Configuration/"
+          },
+          {
+            "type": "category",
+            "label": "Entities",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Users",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Delegated Administration",
+                    "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée",
+                    "docId": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Roles: Access and Administration Rights",
+                    "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration",
+                    "docId": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration"
+                  },
+                  {
+                    "type": "link",
+                    "label": "User Departure and Email Redirection",
+                    "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails",
+                    "docId": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails"
+                  },
+                  {
+                    "type": "link",
+                    "label": "External Users",
+                    "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes",
+                    "docId": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/"
+              },
+              {
+                "type": "link",
+                "label": "Shared mailboxes administration",
+                "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Boites_aux_lettres_partagées",
+                "docId": "Guide_de_l_administrateur/Gestion_des_entités/Boites_aux_lettres_partagées"
+              },
+              {
+                "type": "link",
+                "label": "Domain Calendars",
+                "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines",
+                "docId": "Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines"
+              },
+              {
+                "type": "link",
+                "label": "Domain Address Books",
+                "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Carnets_d_adresses_de_domaines",
+                "docId": "Guide_de_l_administrateur/Gestion_des_entités/Carnets_d_adresses_de_domaines"
+              },
+              {
+                "type": "link",
+                "label": "Directory Browser",
+                "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Entrées_d_annuaire",
+                "docId": "Guide_de_l_administrateur/Gestion_des_entités/Entrées_d_annuaire"
+              },
+              {
+                "type": "link",
+                "label": "LDAP Exports",
+                "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Export_LDAP",
+                "docId": "Guide_de_l_administrateur/Gestion_des_entités/Export_LDAP"
+              },
+              {
+                "type": "link",
+                "label": "Groups",
+                "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Groupes",
+                "docId": "Guide_de_l_administrateur/Gestion_des_entités/Groupes"
+              },
+              {
+                "type": "link",
+                "label": "Resources administration",
+                "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Ressources",
+                "docId": "Guide_de_l_administrateur/Gestion_des_entités/Ressources"
+              },
+              {
+                "type": "link",
+                "label": "Active Directory Synchronization",
+                "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory",
+                "docId": "Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory"
+              },
+              {
+                "type": "link",
+                "label": "LDAP Synchronization",
+                "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP",
+                "docId": "Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/"
+          },
+          {
+            "type": "category",
+            "label": "Monitoring",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Bm-Tick Monitoring",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Exploring and analyzing data with bm-tick",
+                    "href": "/docs/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick",
+                    "docId": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Installation and Access",
+                    "href": "/docs/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès",
+                    "docId": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Metrics references",
+                    "href": "/docs/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Référence_des_métriques",
+                    "docId": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Référence_des_métriques"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/"
+              },
+              {
+                "type": "link",
+                "label": "Monitoring Console",
+                "href": "/docs/en/Guide_de_l_administrateur/Supervision/Console_de_monitoring",
+                "docId": "Guide_de_l_administrateur/Supervision/Console_de_monitoring"
+              },
+              {
+                "type": "link",
+                "label": "Logs",
+                "href": "/docs/en/Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux",
+                "docId": "Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_administrateur/Supervision/"
+          },
+          {
+            "type": "category",
+            "label": "Backing up and Restoring Data",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Single-user restoration - DataProtect Navigator",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Restoring a backup from an external source",
+                    "href": "/docs/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_un_emplacement_externe",
+                    "docId": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_un_emplacement_externe"
+                  }
+                ],
+                "href": "/docs/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/"
+              },
+              {
+                "type": "link",
+                "label": "Disaster Recovery",
+                "href": "/docs/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_",
+                "docId": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/"
+          },
+          {
+            "type": "category",
+            "label": "BlueMind and Mobility",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Autoconfiguration Outlook",
+                "href": "/docs/en/Guide_de_l_administrateur/BlueMind_et_mobilité/Autoconfiguration_Outlook",
+                "docId": "Guide_de_l_administrateur/BlueMind_et_mobilité/Autoconfiguration_Outlook"
+              },
+              {
+                "type": "link",
+                "label": "EAS Server Configuration",
+                "href": "/docs/en/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS",
+                "docId": "Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS"
+              },
+              {
+                "type": "link",
+                "label": "BlueMind Connectors for Thick Clients",
+                "href": "/docs/en/Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds",
+                "docId": "Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds"
+              },
+              {
+                "type": "link",
+                "label": "MDM - Mobile Device Management",
+                "href": "/docs/en/Guide_de_l_administrateur/BlueMind_et_mobilité/MDM_Mobile_Device_Management",
+                "docId": "Guide_de_l_administrateur/BlueMind_et_mobilité/MDM_Mobile_Device_Management"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_administrateur/BlueMind_et_mobilité/"
+          },
+          {
+            "type": "category",
+            "label": "BlueMind Subscription",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Implementing MAPI for Outlook",
+                "href": "/docs/en/Guide_de_l_administrateur/La_souscription_BlueMind/Mise_en_œuvre_de_MAPI_pour_Outlook",
+                "docId": "Guide_de_l_administrateur/La_souscription_BlueMind/Mise_en_œuvre_de_MAPI_pour_Outlook"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_administrateur/La_souscription_BlueMind/"
+          },
+          {
+            "type": "category",
+            "label": "Advanced Administration",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "XMPP Server Administration",
+                "href": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_XMPP",
+                "docId": "Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_XMPP"
+              },
+              {
+                "type": "link",
+                "label": "calDav/cardDav Server Administration",
+                "href": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_calDav_cardDav",
+                "docId": "Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_calDav_cardDav"
+              },
+              {
+                "type": "link",
+                "label": "CLI Admin Client",
+                "href": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration",
+                "docId": "Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration"
+              },
+              {
+                "type": "link",
+                "label": "Log Configuration",
+                "href": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Configuration_des_logs",
+                "docId": "Guide_de_l_administrateur/Administration_avancée/Configuration_des_logs"
+              },
+              {
+                "type": "link",
+                "label": "Installing an Edge server: Nginx and Postfix",
+                "href": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Installation_d_un_serveur_Edge_Nginx_et_Postfix",
+                "docId": "Guide_de_l_administrateur/Administration_avancée/Installation_d_un_serveur_Edge_Nginx_et_Postfix"
+              },
+              {
+                "type": "link",
+                "label": "Mail maintenance",
+                "href": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Maintenance_des_mails",
+                "docId": "Guide_de_l_administrateur/Administration_avancée/Maintenance_des_mails"
+              },
+              {
+                "type": "link",
+                "label": "Routing Messages Directly to Another Domain",
+                "href": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine",
+                "docId": "Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_administrateur/Administration_avancée/"
+          },
+          {
+            "type": "category",
+            "label": "Troubleshooting",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Missing events",
+                "href": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Disparitions_et_modifications_d_événements",
+                "docId": "Guide_de_l_administrateur/Résolution_de_problèmes/Disparitions_et_modifications_d_événements"
+              },
+              {
+                "type": "link",
+                "label": "IMAP Identification Issues",
+                "href": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Erreurs_d_identification_IMAP",
+                "docId": "Guide_de_l_administrateur/Résolution_de_problèmes/Erreurs_d_identification_IMAP"
+              },
+              {
+                "type": "link",
+                "label": "Autodiscover not found by Android mobile devices",
+                "href": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/L_autodiscover_n_est_pas_trouvé_par_les_mobiles_Android",
+                "docId": "Guide_de_l_administrateur/Résolution_de_problèmes/L_autodiscover_n_est_pas_trouvé_par_les_mobiles_Android"
+              },
+              {
+                "type": "link",
+                "label": "The Server is Being Used to Send SPAM",
+                "href": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Le_serveur_est_utilisé_pour_envoyer_du_SPAM",
+                "docId": "Guide_de_l_administrateur/Résolution_de_problèmes/Le_serveur_est_utilisé_pour_envoyer_du_SPAM"
+              },
+              {
+                "type": "link",
+                "label": "ADs no longer synchronized",
+                "href": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés",
+                "docId": "Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés"
+              },
+              {
+                "type": "link",
+                "label": "Attachments are too large",
+                "href": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter",
+                "docId": "Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter"
+              },
+              {
+                "type": "link",
+                "label": "Trouble sending or receiving emails",
+                "href": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_d_émission_et_réception_de_messages",
+                "docId": "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_d_émission_et_réception_de_messages"
+              },
+              {
+                "type": "link",
+                "label": "Search and indexing issues",
+                "href": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation",
+                "docId": "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation"
+              },
+              {
+                "type": "link",
+                "label": "Synchronization issues with mobile devices",
+                "href": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_synchronisation_mobile",
+                "docId": "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_synchronisation_mobile"
+              },
+              {
+                "type": "link",
+                "label": "Resolving issues with Outlook",
+                "href": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook",
+                "docId": "Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook"
+              }
+            ],
+            "href": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/"
+          },
+          {
+            "type": "link",
+            "label": "High Availability and BlueMind",
+            "href": "/docs/en/Guide_de_l_administrateur/Haute_disponibilité_logicielle_et_BlueMind",
+            "docId": "Guide_de_l_administrateur/Haute_disponibilité_logicielle_et_BlueMind"
+          }
+        ],
+        "href": "/docs/en/Guide_de_l_administrateur/"
+      },
+      {
+        "type": "category",
+        "label": "Developer's guide",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "API BlueMind",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "API utilisateur",
+                "href": "/docs/en/Guide_du_développeur/API_BlueMind/API_d_utilisateurs",
+                "docId": "Guide_du_développeur/API_BlueMind/API_d_utilisateurs"
+              },
+              {
+                "type": "link",
+                "label": "Authentification",
+                "href": "/docs/en/Guide_du_développeur/API_BlueMind/Authentification",
+                "docId": "Guide_du_développeur/API_BlueMind/Authentification"
+              },
+              {
+                "type": "link",
+                "label": "Client Java",
+                "href": "/docs/en/Guide_du_développeur/API_BlueMind/Client_Java",
+                "docId": "Guide_du_développeur/API_BlueMind/Client_Java"
+              },
+              {
+                "type": "link",
+                "label": "Client PHP",
+                "href": "/docs/en/Guide_du_développeur/API_BlueMind/Client_PHP",
+                "docId": "Guide_du_développeur/API_BlueMind/Client_PHP"
+              },
+              {
+                "type": "link",
+                "label": "Client Python",
+                "href": "/docs/en/Guide_du_développeur/API_BlueMind/Client_Python",
+                "docId": "Guide_du_développeur/API_BlueMind/Client_Python"
+              }
+            ],
+            "href": "/docs/en/Guide_du_développeur/API_BlueMind/"
+          },
+          {
+            "type": "category",
+            "label": "Configuration de l'environnement de développement",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Eclipse",
+                "href": "/docs/en/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Eclipse",
+                "docId": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Eclipse"
+              },
+              {
+                "type": "link",
+                "label": "Test / Débuggage / Développement UI",
+                "href": "/docs/en/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Frontend_UI",
+                "docId": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Frontend_UI"
+              },
+              {
+                "type": "link",
+                "label": "Tests",
+                "href": "/docs/en/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Tests",
+                "docId": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Tests"
+              }
+            ],
+            "href": "/docs/en/Guide_du_développeur/Configuration_de_l_environnement_de_développement/"
+          },
+          {
+            "type": "link",
+            "label": "BlueMind plugin Maven Archetype",
+            "href": "/docs/en/Guide_du_développeur/BlueMind_plugin_Maven_Archetype",
+            "docId": "Guide_du_développeur/BlueMind_plugin_Maven_Archetype"
+          },
+          {
+            "type": "link",
+            "label": "Building BlueMind",
+            "href": "/docs/en/Guide_du_développeur/Construction_de_BlueMind",
+            "docId": "Guide_du_développeur/Construction_de_BlueMind"
+          },
+          {
+            "type": "link",
+            "label": "Contribuer à BlueMind",
+            "href": "/docs/en/Guide_du_développeur/Contribuer_à_BlueMind",
+            "docId": "Guide_du_développeur/Contribuer_à_BlueMind"
+          },
+          {
+            "type": "link",
+            "label": "Installation d'une VM Android",
+            "href": "/docs/en/Guide_du_développeur/Installation_d_une_VM_Android",
+            "docId": "Guide_du_développeur/Installation_d_une_VM_Android"
+          },
+          {
+            "type": "link",
+            "label": "Utilisation de l'API MarketPlace",
+            "href": "/docs/en/Guide_du_développeur/Utilisation_de_l_API_MarketPlace",
+            "docId": "Guide_du_développeur/Utilisation_de_l_API_MarketPlace"
+          }
+        ],
+        "href": "/docs/en/Guide_du_développeur/"
+      },
+      {
+        "type": "category",
+        "label": "Knowledge Base",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Restoring user or mailshare mailbox contents",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Manual user or mailshare restoration",
+                "href": "/docs/en/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée",
+                "docId": "Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée"
+              }
+            ],
+            "href": "/docs/en/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/"
+          },
+          {
+            "type": "link",
+            "label": "Changing a BlueMind Server's IP Address",
+            "href": "/docs/en/Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+            "docId": "Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind"
+          },
+          {
+            "type": "link",
+            "label": "Changing distributions",
+            "href": "/docs/en/Base_de_connaissance/Changer_de_distribution",
+            "docId": "Base_de_connaissance/Changer_de_distribution"
+          },
+          {
+            "type": "link",
+            "label": "Setting Up the Wazo Plugin",
+            "href": "/docs/en/Base_de_connaissance/Configuration_du_plugin_Wazo",
+            "docId": "Base_de_connaissance/Configuration_du_plugin_Wazo"
+          },
+          {
+            "type": "link",
+            "label": "Setting Up the Xivo/Avencall Plugin",
+            "href": "/docs/en/Base_de_connaissance/Configuration_du_plugin_Xivo_Avencall",
+            "docId": "Base_de_connaissance/Configuration_du_plugin_Xivo_Avencall"
+          },
+          {
+            "type": "link",
+            "label": "Customizing Nginx",
+            "href": "/docs/en/Base_de_connaissance/Configuration_personnalisée_de_Nginx",
+            "docId": "Base_de_connaissance/Configuration_personnalisée_de_Nginx"
+          },
+          {
+            "type": "link",
+            "label": "Documentation Wazo",
+            "href": "/docs/en/Base_de_connaissance/Documentation_Wazo",
+            "docId": "Base_de_connaissance/Documentation_Wazo"
+          },
+          {
+            "type": "link",
+            "label": "Disabling the Kerberos SSO if Connecting from Outside",
+            "href": "/docs/en/Base_de_connaissance/Désactiver_le_SSO_Kerberos_si_on_se_connecte_depuis_l_extérieur",
+            "docId": "Base_de_connaissance/Désactiver_le_SSO_Kerberos_si_on_se_connecte_depuis_l_extérieur"
+          },
+          {
+            "type": "link",
+            "label": "Setting up a simplified login username",
+            "href": "/docs/en/Base_de_connaissance/Identifiant_de_connexion_simplifié",
+            "docId": "Base_de_connaissance/Identifiant_de_connexion_simplifié"
+          },
+          {
+            "type": "link",
+            "label": "Mettre en place une politique d'expiration des mots de passe",
+            "href": "/docs/en/Base_de_connaissance/Mettre_en_place_une_politique_d_expiration_des_mots_de_passe",
+            "docId": "Base_de_connaissance/Mettre_en_place_une_politique_d_expiration_des_mots_de_passe"
+          },
+          {
+            "type": "link",
+            "label": "Editing the BlueMind Homepage",
+            "href": "/docs/en/Base_de_connaissance/Modifier_la_page_d_accueil_de_BlueMind",
+            "docId": "Base_de_connaissance/Modifier_la_page_d_accueil_de_BlueMind"
+          },
+          {
+            "type": "link",
+            "label": "Multi-calendar feature on smartphones",
+            "href": "/docs/en/Base_de_connaissance/Multi_calendrier_sur_les_smartphones",
+            "docId": "Base_de_connaissance/Multi_calendrier_sur_les_smartphones"
+          },
+          {
+            "type": "link",
+            "label": "Clearing the Client Browser Cache",
+            "href": "/docs/en/Base_de_connaissance/Nettoyage_du_cache_du_navigateur_client",
+            "docId": "Base_de_connaissance/Nettoyage_du_cache_du_navigateur_client"
+          },
+          {
+            "type": "link",
+            "label": "Sharing read message status in shared mailboxes",
+            "href": "/docs/en/Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées",
+            "docId": "Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées"
+          },
+          {
+            "type": "link",
+            "label": "Custom application logo",
+            "href": "/docs/en/Base_de_connaissance/Personnaliser_le_logo_de_l_application",
+            "docId": "Base_de_connaissance/Personnaliser_le_logo_de_l_application"
+          },
+          {
+            "type": "link",
+            "label": "Restoring a user calendar",
+            "href": "/docs/en/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur",
+            "docId": "Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur"
+          },
+          {
+            "type": "link",
+            "label": "Restoring messages deleted by a user",
+            "href": "/docs/en/Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur",
+            "docId": "Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur"
+          },
+          {
+            "type": "link",
+            "label": "Retrouver les carnets de domaine dans Outlook",
+            "href": "/docs/en/Base_de_connaissance/Retrouver_les_carnets_de_domaine_dans_Outlook",
+            "docId": "Base_de_connaissance/Retrouver_les_carnets_de_domaine_dans_Outlook"
+          },
+          {
+            "type": "link",
+            "label": "Transférer une arborescence de messagerie d'un compte vers un autre",
+            "href": "/docs/en/Base_de_connaissance/Transférer_une_arborescence_de_messagerie_d_un_compte_vers_un_autre",
+            "docId": "Base_de_connaissance/Transférer_une_arborescence_de_messagerie_d_un_compte_vers_un_autre"
+          }
+        ],
+        "href": "/docs/en/Base_de_connaissance/"
+      },
+      {
+        "type": "link",
+        "label": "BlueMind 4 Documentation",
+        "href": "/docs/en/",
+        "docId": "Documentation_BlueMind_4"
+      },
+      {
+        "type": "link",
+        "label": "New in BlueMind 4.0 to 4.3",
+        "href": "/docs/en/Nouveautés_BlueMind_4.0_à_4.3",
+        "docId": "Nouveautés_BlueMind_4.0_à_4.3"
+      },
+      {
+        "type": "link",
+        "label": "New in BlueMind 4.4 and 4.5",
+        "href": "/docs/en/Nouveautés_BlueMind_4.4_et_4.5",
+        "docId": "Nouveautés_BlueMind_4.4_et_4.5"
+      },
+      {
+        "type": "link",
+        "label": "Support and request for assistance",
+        "href": "/docs/en/Support_et_demande_d_assistance",
+        "docId": "Support_et_demande_d_assistance"
+      }
+    ]
+  },
+  "docs": {
+    "Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind": {
+      "id": "Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+      "title": "Changing a BlueMind Server's IP Address",
+      "description": "This page describes how to change a BlueMind server's IP address.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Changer_de_distribution": {
+      "id": "Base_de_connaissance/Changer_de_distribution",
+      "title": "Changing distributions",
+      "description": "This article describes how to change the distribution BlueMind works on. It can be used to update the distribution (Ubuntu 16.04 to Ubuntu 18.04 for instance).",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Configuration_du_plugin_Wazo": {
+      "id": "Base_de_connaissance/Configuration_du_plugin_Wazo",
+      "title": "Setting Up the Wazo Plugin",
+      "description": "This document shows how to install and configure the BlueMind plugins that allow interconnexion with Wazo.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Configuration_du_plugin_Xivo_Avencall": {
+      "id": "Base_de_connaissance/Configuration_du_plugin_Xivo_Avencall",
+      "title": "Setting Up the Xivo/Avencall Plugin",
+      "description": "This document shows how to install and configure the BlueMind plugins that allow interconnexion with Avencall's XiVO.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Configuration_personnalisée_de_Nginx": {
+      "id": "Base_de_connaissance/Configuration_personnalisée_de_Nginx",
+      "title": "Customizing Nginx",
+      "description": "Nginx virtual host files (such as  \"/etc/nginx/sites-enabled/bm-client-access\") are managed by BlueMind and* must absolutely not be modified*.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Désactiver_le_SSO_Kerberos_si_on_se_connecte_depuis_l_extérieur": {
+      "id": "Base_de_connaissance/Désactiver_le_SSO_Kerberos_si_on_se_connecte_depuis_l_extérieur",
+      "title": "Disabling the Kerberos SSO if Connecting from Outside",
+      "description": "1 When Kerberos is enabled, hps returns the login page with http 401 status so that the internet browser starts a krb dialog. With some browsers, this leads to a popup opening and prompting for a login ID and AD password.This behavior needs to be stopped for the browser to open the standard homepage as this popup confuses users.When connecting from outside, machines are outside the domain and the SSO cannot work, this popup should not appear.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Documentation_Wazo": {
+      "id": "Base_de_connaissance/Documentation_Wazo",
+      "title": "Documentation Wazo",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Identifiant_de_connexion_simplifié": {
+      "id": "Base_de_connaissance/Identifiant_de_connexion_simplifié",
+      "title": "Setting up a simplified login username",
+      "description": "In order to allow users to connect to BlueMind by simply entering their username (leaving out the domain name, e.g. \"jdoe\" instead of \"jdoe@bluemind.loc\"), you can set up a default domain on the server side.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/index": {
+      "id": "Base_de_connaissance/index",
+      "title": "Knowledge Base",
+      "description": "- Changing a BlueMind Server's IP Address",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Mettre_en_place_une_politique_d_expiration_des_mots_de_passe": {
+      "id": "Base_de_connaissance/Mettre_en_place_une_politique_d_expiration_des_mots_de_passe",
+      "title": "Mettre en place une politique d'expiration des mots de passe",
+      "description": "Connexion avec un AD ou LDAP",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Modifier_la_page_d_accueil_de_BlueMind": {
+      "id": "Base_de_connaissance/Modifier_la_page_d_accueil_de_BlueMind",
+      "title": "Editing the BlueMind Homepage",
+      "description": "By default, BlueMind lets you customize the homepage logo.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Multi_calendrier_sur_les_smartphones": {
+      "id": "Base_de_connaissance/Multi_calendrier_sur_les_smartphones",
+      "title": "Multi-calendar feature on smartphones",
+      "description": "An experimental BlueMind feature allows users to view several calendars on their smartphones.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Nettoyage_du_cache_du_navigateur_client": {
+      "id": "Base_de_connaissance/Nettoyage_du_cache_du_navigateur_client",
+      "title": "Clearing the Client Browser Cache",
+      "description": "This operation is done in the user's web browser. It can therefore be done by users themselves.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées": {
+      "id": "Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées",
+      "title": "Sharing read message status in shared mailboxes",
+      "description": "Behaviour change in BlueMind 4.5",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Personnaliser_le_logo_de_l_application": {
+      "id": "Base_de_connaissance/Personnaliser_le_logo_de_l_application",
+      "title": "Custom application logo",
+      "description": "The default BlueMind logo, which can be seen on the application's log in screen and in the navigation bar, can now be customized and replaced by any image you choose.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/index": {
+      "id": "Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/index",
+      "title": "Restoring user or mailshare mailbox contents",
+      "description": "This page describes the procedure to follow in the following cases:",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée": {
+      "id": "Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée",
+      "title": "Manual user or mailshare restoration",
+      "description": "This page is designed to guide you through the process for restoring a user or shared mailbox based on a backup directory.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur": {
+      "id": "Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur",
+      "title": "Restoring a user calendar",
+      "description": "This page shows how to restore a calendar that has been previously backed up by the automatic system, whether backups are stored externally or not.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur": {
+      "id": "Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur",
+      "title": "Restoring messages deleted by a user",
+      "description": "From BlueMind 4.4, the trash folder has a \"double bottom\": there is a delay on the server side during which deleted emails are kept. During that time, users are able to recover messages in Outlook (MAPI-based) or the administrator can recover them in command line.",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Retrouver_les_carnets_de_domaine_dans_Outlook": {
+      "id": "Base_de_connaissance/Retrouver_les_carnets_de_domaine_dans_Outlook",
+      "title": "Retrouver les carnets de domaine dans Outlook",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Base_de_connaissance/Transférer_une_arborescence_de_messagerie_d_un_compte_vers_un_autre": {
+      "id": "Base_de_connaissance/Transférer_une_arborescence_de_messagerie_d_un_compte_vers_un_autre",
+      "title": "Transférer une arborescence de messagerie d'un compte vers un autre",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Documentation_BlueMind_4": {
+      "id": "Documentation_BlueMind_4",
+      "title": "BlueMind 4 Documentation",
+      "description": "Welcome to BlueMind 4, the next-gen messaging and collaboration solution.",
+      "sidebar": "bmdocs"
+    },
+    "FAQ_Foire_aux_questions_/Compatibilité": {
+      "id": "FAQ_Foire_aux_questions_/Compatibilité",
+      "title": "Compatibility",
+      "description": "This page provides BlueMind compatibility information with web browsers, third-party software and mobile devices. It includes a review of tested and verified devices as well as known issues with some devices or operating systems.",
+      "sidebar": "bmdocs"
+    },
+    "FAQ_Foire_aux_questions_/index": {
+      "id": "FAQ_Foire_aux_questions_/index",
+      "title": "FAQ",
+      "description": "- General",
+      "sidebar": "bmdocs"
+    },
+    "FAQ_Foire_aux_questions_/Outils_et_ressources_BlueMind": {
+      "id": "FAQ_Foire_aux_questions_/Outils_et_ressources_BlueMind",
+      "title": "BlueMind Tools and Resources",
+      "description": "The following tools and resources are available online:",
+      "sidebar": "bmdocs"
+    },
+    "Guide_d_installation/Configuration_post_installation": {
+      "id": "Guide_d_installation/Configuration_post_installation",
+      "title": "Post-installation Configuration",
+      "description": "Once BlueMind is installed on your Linux distribution, use your web browser to visit the set up page. Enter the following address (including https)//your.mail.server/setup.  *",
+      "sidebar": "bmdocs"
+    },
+    "Guide_d_installation/Déploiement_BlueMind_4_points_de_vigilance": {
+      "id": "Guide_d_installation/Déploiement_BlueMind_4_points_de_vigilance",
+      "title": "Rolling out BlueMind 4.0: What to Watch Out For",
+      "description": "BlueMind's version 4.0 incorporates major upgrades in terms of architecture including on the one hand, native Outlook support and on the other hand data replication to prepare the mail system's data for Outlook and other uses (new webmail, mobiles devices in particular).",
+      "sidebar": "bmdocs"
+    },
+    "Guide_d_installation/Dimensionnement_matériel": {
+      "id": "Guide_d_installation/Dimensionnement_matériel",
+      "title": "Hardware Sizing",
+      "description": "The data in this page is provided for information purposes only. Usage may vary for a same number of users, depending on hardware structure and use habits. Many factors can affect usage: email volume, email size, number of recipients, number of events, event scheduling, etc.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_d_installation/index": {
+      "id": "Guide_d_installation/index",
+      "title": "Installation Guide",
+      "description": "- Hardware Sizing",
+      "sidebar": "bmdocs"
+    },
+    "Guide_d_installation/Installation_du_nouveau_client_de_messagerie": {
+      "id": "Guide_d_installation/Installation_du_nouveau_client_de_messagerie",
+      "title": "Installing the new mail client",
+      "description": "From BlueMind version 4.4, you can install the new BlueMind mail client for your users to try the Beta version.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_d_installation/Installation/index": {
+      "id": "Guide_d_installation/Installation/index",
+      "title": "Installation",
+      "description": "Technical domain \"xxx.internal\"",
+      "sidebar": "bmdocs"
+    },
+    "Guide_d_installation/Installation/Installation_avec_répartition_des_données_sur_plusieurs_serveurs": {
+      "id": "Guide_d_installation/Installation/Installation_avec_répartition_des_données_sur_plusieurs_serveurs",
+      "title": "Multi-backend installation",
+      "description": "BlueMind 4.0 allows, in addition to the distribution of user emails, to distribute all user data on several servers which now contain a database in addition to cyrus.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_d_installation/Mise_à_jour_de_BlueMind": {
+      "id": "Guide_d_installation/Mise_à_jour_de_BlueMind",
+      "title": "Updating BlueMind",
+      "description": "Perform a full system backup",
+      "sidebar": "bmdocs"
+    },
+    "Guide_d_installation/Mise_en_œuvre_de_la_souscription": {
+      "id": "Guide_d_installation/Mise_en_œuvre_de_la_souscription",
+      "title": "Setting Up Subscriptions",
+      "description": "The subscription",
+      "sidebar": "bmdocs"
+    },
+    "Guide_d_installation/Prérequis_à_l_installation": {
+      "id": "Guide_d_installation/Prérequis_à_l_installation",
+      "title": "Installation Prerequisites",
+      "description": "Available Memory",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_calDav_cardDav": {
+      "id": "Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_calDav_cardDav",
+      "title": "calDav/cardDav Server Administration",
+      "description": "Calendar (calDav)",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_XMPP": {
+      "id": "Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_XMPP",
+      "title": "XMPP Server Administration",
+      "description": "The XMPP server is built on a Tigase XMPP server. Most development add-ons are Tigase-related plugins to enable integration with the BlueMind solution.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration": {
+      "id": "Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration",
+      "title": "CLI Admin Client",
+      "description": "The CLI (Command Line Interface) client is used to perform BlueMind administration tasks in command line without having to create scripts.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Administration_avancée/Configuration_des_logs": {
+      "id": "Guide_de_l_administrateur/Administration_avancée/Configuration_des_logs",
+      "title": "Log Configuration",
+      "description": "BlueMind keeps logs for each type of application and usage.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Administration_avancée/index": {
+      "id": "Guide_de_l_administrateur/Administration_avancée/index",
+      "title": "Advanced Administration",
+      "description": "- calDav/cardDav Server Administration",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Administration_avancée/Installation_d_un_serveur_Edge_Nginx_et_Postfix": {
+      "id": "Guide_de_l_administrateur/Administration_avancée/Installation_d_un_serveur_Edge_Nginx_et_Postfix",
+      "title": "Installing an Edge server: Nginx and Postfix",
+      "description": "This page describes the roll-out procedure for a BlueMind Edge server as a postfix and proxy relay.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Administration_avancée/Maintenance_des_mails": {
+      "id": "Guide_de_l_administrateur/Administration_avancée/Maintenance_des_mails",
+      "title": "Mail maintenance",
+      "description": "In the admin console, System Management > Maintenance > Manage Messaging system section allows you to force regenerate all postfix maps on all BlueMind servers.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine": {
+      "id": "Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine",
+      "title": "Routing Messages Directly to Another Domain",
+      "description": "BlueMind must be able to handle part of a single domain's users only, in order to integrate into an architecture where a single domain's users are managed by different systems, and as a result, by different mail servers.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/BlueMind_et_mobilité/Autoconfiguration_Outlook": {
+      "id": "Guide_de_l_administrateur/BlueMind_et_mobilité/Autoconfiguration_Outlook",
+      "title": "Autoconfiguration Outlook",
+      "description": "Translation in progress",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS": {
+      "id": "Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS",
+      "title": "EAS Server Configuration",
+      "description": "The EAS (Exchange ActiveSync) server allows BlueMind servers data synchronization with mobile devices.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/BlueMind_et_mobilité/index": {
+      "id": "Guide_de_l_administrateur/BlueMind_et_mobilité/index",
+      "title": "BlueMind and Mobility",
+      "description": "- Autoconfiguration Outlook",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds": {
+      "id": "Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds",
+      "title": "BlueMind Connectors for Thick Clients",
+      "description": "The BlueMind connector for Thunderbird is provided through the bm-connector-thunderbird package which is installed by default with BlueMind. Once the package is installed, users can find the connector in the Download section of their user account.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/BlueMind_et_mobilité/MDM_Mobile_Device_Management": {
+      "id": "Guide_de_l_administrateur/BlueMind_et_mobilité/MDM_Mobile_Device_Management",
+      "title": "MDM - Mobile Device Management",
+      "description": "Mobile synchronization is done via the ActiveSync protocol which allows native synchronization with no need to install additional components on mobile devices for Mail, Contacts or Calendars.BlueMind incorporates MDM (\"Mobile Device Management\") services that allow you to manage the fleet of smartphones authorized to connect to BlueMind.By default, smartphones are not authorized to connect via ActiveSync.In the admin console, the administrator can authorize smartphone synchronizations. Authorizations are assigned to one smartphone linked to a user exclusively, it is a partnership.If the smartphone is reused by another employee, the partnership must be authorized again.The admin console offers you several device management options:",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire": {
+      "id": "Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire",
+      "title": "Automatic Memory Adjustment",
+      "description": "Default memory allocation for Java components is readjusted automatically when BlueMind starts-up.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Archivage": {
+      "id": "Guide_de_l_administrateur/Configuration/Archivage",
+      "title": "Archiving",
+      "description": "BlueMind has a centralized archiving system. This enables you to take some weight off storage servers by storing some messages (older ones for example) on another server (or a mount point on another storage system) with lower storage costs.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Configuration_système": {
+      "id": "Guide_de_l_administrateur/Configuration/Configuration_système",
+      "title": "System Configuration",
+      "description": "This tab is used to set system postfix and Cyrus settings.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud": {
+      "id": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud",
+      "title": "Connecting with Nextcloud",
+      "description": "BlueMind offers the possibility to connect to an external drive, starting with Nextcloud.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/index": {
+      "id": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/index",
+      "title": "Linked Attachments",
+      "description": "BlueMind lets users detach email attachments and show them as download links to recipients. This reduces the size of messages which lightens the load on servers and communications networks: the file is no longer physically sent with the email message and stored on the incoming network in addition to the outgoing network and thereby duplicated and multiplied as messages are forwarded and replied to.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Configuration_des_url_externes": {
+      "id": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Configuration_des_url_externes",
+      "title": "Configuration des url externes",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/index": {
+      "id": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/index",
+      "title": "Managing Domains",
+      "description": "The domain administration section gives you access to technical domain settings (server addresses, domain aliases, etc.) as well as default user settings (address books, message filters, storage quotas, archiving, etc.).",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/index": {
+      "id": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/index",
+      "title": "Authentication Methods",
+      "description": "- SSO CAS",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/Mise_en_place_du_SSO_CAS": {
+      "id": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/Mise_en_place_du_SSO_CAS",
+      "title": "SSO CAS",
+      "description": "This article describes how to configure BlueMind to recognize CAS authentication.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/Mise_en_place_du_SSO_Kerberos": {
+      "id": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/Mise_en_place_du_SSO_Kerberos",
+      "title": "SSO Kerberos",
+      "description": "Translation in progress",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Gestion_des_serveurs": {
+      "id": "Guide_de_l_administrateur/Configuration/Gestion_des_serveurs",
+      "title": "Managing Servers",
+      "description": "The \"Servers\" page in the BlueMind admin console allows you to manage the BlueMind installation servers and the services they host.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/index": {
+      "id": "Guide_de_l_administrateur/Configuration/index",
+      "title": "Configuration",
+      "description": "The configuration of a BlueMind server includes platform-specific operations, which apply to all the domains of a BlueMind server, and to domain-specific operations.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Indexation": {
+      "id": "Guide_de_l_administrateur/Configuration/Indexation",
+      "title": "Indexing",
+      "description": "From BlueMind version 4.2.4, indexing tasks have been removed from planned tasks to alleviate resource usage. The system now runs these tasks automatically when needed and administrators can run them manually from a dedicated page in the admin console.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/La_console_d_administration": {
+      "id": "Guide_de_l_administrateur/Configuration/La_console_d_administration",
+      "title": "Admin Console",
+      "description": "The admin console allows the global administrator as well as domain administrators to manage system configuration, servers, domains, scheduled jobs and documentation.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Les_tâches_planifiées": {
+      "id": "Guide_de_l_administrateur/Configuration/Les_tâches_planifiées",
+      "title": "Scheduled Jobs",
+      "description": "Scheduled jobs allow you to plan specific administrative tasks to be performed automatically.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL": {
+      "id": "Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL",
+      "title": "SSL Certificates",
+      "description": "The BlueMind servers use certificate-based authentication. The certificates generated during the installation of BlueMind can be replaced by customized certificates on a single-server installation.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Sécurité/index": {
+      "id": "Guide_de_l_administrateur/Configuration/Sécurité/index",
+      "title": "Security",
+      "description": "- SSL Certificates",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Sécurité/Pare_feu": {
+      "id": "Guide_de_l_administrateur/Configuration/Sécurité/Pare_feu",
+      "title": "Firewall",
+      "description": "BlueMind incorporates a firewall which, by default, limits the access of internal services to the IP addresses of the installation's servers, i.e. the servers specified in the section System management > Application's servers.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Signatures_d_entreprise": {
+      "id": "Guide_de_l_administrateur/Configuration/Signatures_d_entreprise",
+      "title": "Corporate Signatures",
+      "description": "BlueMind's new Signature application allows you to set common automatic signatures for all or some users based on certain criteria.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/index": {
+      "id": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/index",
+      "title": "Integrated Videoconferencing",
+      "description": "Since version 4.6.0, BlueMind includes a built-in videoconferencing solution based on Jitsi: BlueMind.Video.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video": {
+      "id": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video",
+      "title": "Videoconferences with BlueMind.Video",
+      "description": "BlueMind.Video is a videoconferencing SAAS based on Jitsi and built into BlueMind since version 4.6.0 – it doesn't require the installation of a third-party service.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi": {
+      "id": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi",
+      "title": "Videoconferences with Jitsi",
+      "description": "From 4.5.0, BlueMind can be connected to a Jitsi server so that users can easily create videoconferences and link them to their calendar meetings.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconferences_avec_StarLeaf": {
+      "id": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconferences_avec_StarLeaf",
+      "title": "Videoconferences with StarLeaf",
+      "description": "From 4.5.3, BlueMind can be connected to a StarLeaf server so that users can easily create videoconferences and link them to their calendar meetings.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Boites_aux_lettres_partagées": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Boites_aux_lettres_partagées",
+      "title": "Shared mailboxes administration",
+      "description": "Shared mailboxes, also called \"service mailboxes\" or \"functional mailboxes\" are non-user-specific mailboxes: users are connected to them and share the messages they contain.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines",
+      "title": "Domain Calendars",
+      "description": "Domain calendars are a calendar shared between all users. In addition to viewing rights, administrators can assign calendar editing or management rights to users or groups.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Carnets_d_adresses_de_domaines": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Carnets_d_adresses_de_domaines",
+      "title": "Domain Address Books",
+      "description": "Domain address books are address books shared by all users. In addition to viewing rights, administrators can assign editing or management rights to users or groups.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Entrées_d_annuaire": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Entrées_d_annuaire",
+      "title": "Directory Browser",
+      "description": "The directory browser page shows the content of the directory: users (internal and external), groups, resources, shared mailboxes, and also domain calendars and addressbooks.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Export_LDAP": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Export_LDAP",
+      "title": "LDAP Exports",
+      "description": "BlueMind allows you to export your directory in LDAP format so that it can be viewed and queried by other applications such as an LDAP directory.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Groupes": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Groupes",
+      "title": "Groups",
+      "description": "Administrators can create groups of users which, when public, can be used to:",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/index": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/index",
+      "title": "Entities",
+      "description": "- Directory Browser",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Ressources": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Ressources",
+      "title": "Resources administration",
+      "description": "BlueMind allows you to manage calendars for resources (vehicles, rooms, video-projectors, etc.) the same way you would manage user or group calendars.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory",
+      "title": "Active Directory Synchronization",
+      "description": "The professional BlueMind subscription includes access to tools that facilitate the integration of BlueMind into your information system.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP",
+      "title": "LDAP Synchronization",
+      "description": "BlueMind allows you to import users or groups from an LDAP directory (e.g. OpenLDAP). LDAP imports are incremental (new entries are added, and changes to data are recorded). Set up and execution of LDAP imports are domain-specific.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/index": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/index",
+      "title": "Users",
+      "description": "Users are individuals who connect to BlueMind. Users have access to BlueMind features depending on their profile.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée",
+      "title": "Delegated Administration",
+      "description": "When BlueMind handles a large population or has users over several separate sites, you might want to appoint administrators with delegated rights over a sub-segment of this population.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration",
+      "title": "Roles: Access and Administration Rights",
+      "description": "The roles that can be assigned to users include the right of access to applications (webmail, contacts, etc.), the right to use specific features (creating external identities, enabling email auto-forward, etc.) or administration rights to delegate certain management responsibilities (users, domain, etc.).",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails",
+      "title": "User Departure and Email Redirection",
+      "description": "When an employee leaves, you need to archive their user and retrieve their data. Your organization might also want to continue receiving their mail.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes": {
+      "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes",
+      "title": "External Users",
+      "description": "External users are users who do not have a BlueMind account but have an email address outside BlueMind. *These users can be added to BlueMind groups in order to receive messages*.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Haute_disponibilité_logicielle_et_BlueMind": {
+      "id": "Guide_de_l_administrateur/Haute_disponibilité_logicielle_et_BlueMind",
+      "title": "High Availability and BlueMind",
+      "description": "You can set up a High Availability system that integrates with BlueMind.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/index": {
+      "id": "Guide_de_l_administrateur/index",
+      "title": "Administrator's Guide",
+      "description": "- Product Overview",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/La_souscription_BlueMind/index": {
+      "id": "Guide_de_l_administrateur/La_souscription_BlueMind/index",
+      "title": "BlueMind Subscription",
+      "description": "BlueMind's Open Source Solution",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/La_souscription_BlueMind/Mise_en_œuvre_de_MAPI_pour_Outlook": {
+      "id": "Guide_de_l_administrateur/La_souscription_BlueMind/Mise_en_œuvre_de_MAPI_pour_Outlook",
+      "title": "Implementing MAPI for Outlook",
+      "description": "Syncing Outlook with BlueMind 4.0 no longer requires a connector to be installed on client workstations. However, a few operations must be performed on the server to allow the network's Outlook software to connect to BlueMind.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Présentation_du_produit/Applications_et_composants": {
+      "id": "Guide_de_l_administrateur/Présentation_du_produit/Applications_et_composants",
+      "title": "Applications and Components",
+      "description": "Mail",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Présentation_du_produit/index": {
+      "id": "Guide_de_l_administrateur/Présentation_du_produit/index",
+      "title": "Product Overview",
+      "description": "BlueMind is 100% web-based.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Présentation_du_produit/Les_ports": {
+      "id": "Guide_de_l_administrateur/Présentation_du_produit/Les_ports",
+      "title": "BlueMind Ports",
+      "description": "| Required/Optional | Port Number | TLS/SSL/PLAIN | Description |",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Présentation_du_produit/Les_services": {
+      "id": "Guide_de_l_administrateur/Présentation_du_produit/Les_services",
+      "title": "Services",
+      "description": "- BM-Core is BlueMind's core component. It serves a a single management center for data and business rules. It is the only component that accesses the database.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Présentation_du_produit/Messagerie_multi_domaines": {
+      "id": "Guide_de_l_administrateur/Présentation_du_produit/Messagerie_multi_domaines",
+      "title": "Multi-domain Messaging",
+      "description": "BlueMind can host several, fully-partitioned, mail services on a single infrastructure (one or several servers, physical or virtual). This principle, called multi-domain or multi-tenant, can be used in cloud infrastructures or simply to have several mail services coexist.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Résolution_de_problèmes/Disparitions_et_modifications_d_événements": {
+      "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Disparitions_et_modifications_d_événements",
+      "title": "Missing events",
+      "description": "Actions carried out on calendar events (creation, modification, deletion) are logged on the server in the /var/log/bm/audit directory, in folders each corresponding to a calendar.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Résolution_de_problèmes/Erreurs_d_identification_IMAP": {
+      "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Erreurs_d_identification_IMAP",
+      "title": "IMAP Identification Issues",
+      "description": "- Users are no longer able to log in at all",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Résolution_de_problèmes/index": {
+      "id": "Guide_de_l_administrateur/Résolution_de_problèmes/index",
+      "title": "Troubleshooting",
+      "description": "- Trouble sending or receiving emails",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Résolution_de_problèmes/L_autodiscover_n_est_pas_trouvé_par_les_mobiles_Android": {
+      "id": "Guide_de_l_administrateur/Résolution_de_problèmes/L_autodiscover_n_est_pas_trouvé_par_les_mobiles_Android",
+      "title": "Autodiscover not found by Android mobile devices",
+      "description": "When you configure an Android mobile device, the server address's prefix is missing.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Résolution_de_problèmes/Le_serveur_est_utilisé_pour_envoyer_du_SPAM": {
+      "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Le_serveur_est_utilisé_pour_envoyer_du_SPAM",
+      "title": "The Server is Being Used to Send SPAM",
+      "description": "By default, Postfix is configured as an open mail server relay, which allows BlueMind services (webmail, EAS) to send emails. Through the admin console, you can add new trusted IPs which will be allowed to send emails through the BlueMind server, typically the internal IT server (holiday management software, monitoring, etc).",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés": {
+      "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés",
+      "title": "ADs no longer synchronized",
+      "description": "AD directories are no longer synchronized.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter": {
+      "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter",
+      "title": "Attachments are too large",
+      "description": "Users are unable to attach files although they are smaller than the maximum size allowed.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_d_émission_et_réception_de_messages": {
+      "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_d_émission_et_réception_de_messages",
+      "title": "Trouble sending or receiving emails",
+      "description": "Emails are not delivered to an existing address",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation": {
+      "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation",
+      "title": "Search and indexing issues",
+      "description": "- The search bar doesn't show the option to search all folders",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_synchronisation_mobile": {
+      "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_synchronisation_mobile",
+      "title": "Synchronization issues with mobile devices",
+      "description": "Below are some things you can investigate and monitor when you are having issues with BlueMind synchronization on mobile devices.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook": {
+      "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook",
+      "title": "Resolving issues with Outlook",
+      "description": "This page is designed to help you investigate, diagnose and resolve issues related to using Outlook with BlueMind.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Sauvegarde_et_restauration/index": {
+      "id": "Guide_de_l_administrateur/Sauvegarde_et_restauration/index",
+      "title": "Backing up and Restoring Data",
+      "description": "BlueMind automatically generates backups so that data can be easily restored through the admin console.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_": {
+      "id": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_",
+      "title": "Disaster Recovery",
+      "description": "This documentation describes the DR used to rebuild a BlueMind architecture from a backup. Server restoration can take a very long time and should only be used as a last resort.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/index": {
+      "id": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/index",
+      "title": "Single-user restoration - DataProtect Navigator",
+      "description": "BlueMind's single-user restoration feature is extremely useful if you want to restore a single user's data quickly. Restoration is done graphically and enables you to choose the object type (entity: user, mail, calendar, shared mailbox, etc.), and then the object whose data you want to restore.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_un_emplacement_externe": {
+      "id": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_un_emplacement_externe",
+      "title": "Restoring a backup from an external source",
+      "description": "When BlueMind backups are stored externally and you want to restore data, you must first move the data to the BlueMind server so that it recognizes it.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Supervision/Console_de_monitoring": {
+      "id": "Guide_de_l_administrateur/Supervision/Console_de_monitoring",
+      "title": "Monitoring Console",
+      "description": "La console de monitoring est dépréciée en version 4.0. La supervision se fait désormais par l'outil intégré bm-tick.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Supervision/index": {
+      "id": "Guide_de_l_administrateur/Supervision/index",
+      "title": "Monitoring",
+      "description": "We recommend that you monitor the following aspects of the server:",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux": {
+      "id": "Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux",
+      "title": "Logs",
+      "description": "BlueMind keeps log files for each application and usage type.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick": {
+      "id": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick",
+      "title": "Exploring and analyzing data with bm-tick",
+      "description": "The DataExplorer tab is used to browse the database contents, i.e. the metrics collected.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/index": {
+      "id": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/index",
+      "title": "Bm-Tick Monitoring",
+      "description": "Monitoring tool is included in BlueMind 4 installation, you can not uninstall it.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès": {
+      "id": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès",
+      "title": "Installation and Access",
+      "description": "The bm-tick monitoring suite is included by default in the BlueMind 4 installation.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Référence_des_métriques": {
+      "id": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Référence_des_métriques",
+      "title": "Metrics references",
+      "description": "BlueMind's Tick package is used to monitor large amounts of data (metrics). Some monitored data is raw, but other data is the result of pre-processing to provide more relevance make interpretation and analysis easier.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird",
+      "title": "Synchronizing with Thunderbird",
+      "description": "Download and install Thunderbird from the provider's website//www.mozilla.org/thunderbird/",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_d_Apple_Mail": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_d_Apple_Mail",
+      "title": "Setting Up Apple Mail",
+      "description": "This guide was written based on OS X Mavericks",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Calendar": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Calendar",
+      "title": "Setting Up Apple Calendar",
+      "description": "This guide was written using a Mac running OS X Mavericks.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts",
+      "title": "Setting Up Apple Contacts",
+      "description": "This guide was written based on OS X Yosemite.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/index": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/index",
+      "title": "Setting up Apple Applications",
+      "description": "- Setting Up Apple Mail",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_clients_lourds/index": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/index",
+      "title": "Configuring Thick Clients",
+      "description": "- Setting up Apple Applications",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook",
+      "title": "Synchronizing with Outlook",
+      "description": "With BlueMind 4.0, synchronizing with Outlook no longer requires a connector for you to be able to access BlueMind features in Outlook. You can now use all Outlook features while using BlueMind mail.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/index": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/index",
+      "title": "Synchronizing with mobile phones and tablets",
+      "description": "BlueMind has implemented the ActiveSync protocol, a Microsoft-led protocol that has become de facto standard and is used by most smartphones (Android, Windows Phone, iPhone).",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/index": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/index",
+      "title": "Synchronizing with Android",
+      "description": "ActiveSync is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars in a single configuration while IMAP synchronization is restricted to messages.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android",
+      "title": "IMAP Synchronization on Android",
+      "description": "This guide was written using an LG Nexus 5 running Android 5.0.1.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/index": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/index",
+      "title": "Synchronizing with Blackberry",
+      "description": "Being able to connect a* *smartphone to the BlueMind server depends on the authorization policy defined by administrators. Make sure you check with them whether you are indeed authorized to connect with a smartphone. In particular, some configurations require an administrator's manual authorization.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry",
+      "title": "IMAP Synchronization on Blackberry",
+      "description": "Ceci concerne les utilisateurs",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Gestion_des_tâches_avec_iOS": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Gestion_des_tâches_avec_iOS",
+      "title": "Gestion des tâches avec iOS",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Importer_les_contacts_locaux_dans_BlueMind": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Importer_les_contacts_locaux_dans_BlueMind",
+      "title": "Importing Local Contacts into BlueMind",
+      "description": "When you migrate to BlueMind, you may already have contacts on an iOS device. This page describes how you can incorporate your old iOS contacts into BlueMind and therefore have them available on all synchronized devices (smartphone, web client, thick client).",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/index": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/index",
+      "title": "Synchronizing with iOS",
+      "description": "Synchronization",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Synchronisation_IMAP_avec_iOS": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Synchronisation_IMAP_avec_iOS",
+      "title": "IMAP Synchronization on iOS",
+      "description": "This guide was written using a specific model of iPad. Screenshots are usually identical on all Apple products although on an iPhone the left-hand side menu will be hidden due to the device's smaller screen size.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/index": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/index",
+      "title": "Synchronizing with Windows Phone",
+      "description": "ActiveSync synchronization is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars while IMAP is restricted to messages.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/Synchronisation_IMAP_sous_Windows_Phone": {
+      "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/Synchronisation_IMAP_sous_Windows_Phone",
+      "title": "IMAP Synchronization on Windows Phone",
+      "description": "This guide was written using a Nokia Lumia 520 running Lumia Black (Windows Phone 8.0).",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Gestion_des_partages": {
+      "id": "Guide_de_l_utilisateur/Gestion_des_partages",
+      "title": "Managing Shares",
+      "description": "All types of shares (mailboxes, user calendar, resource calendar, etc.) are managed via the same form.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/index": {
+      "id": "Guide_de_l_utilisateur/index",
+      "title": "User's Guide",
+      "description": "- Mail",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/L_agenda/index": {
+      "id": "Guide_de_l_utilisateur/L_agenda/index",
+      "title": "Calendar",
+      "description": "BlueMind incorporates a complete shared calendar with many features such as:",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda": {
+      "id": "Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda",
+      "title": "Sharing Calendars",
+      "description": "BlueMind v.3.5 offers the possibility to own multiple calendars – the main BlueMind calendar, a secondary calendar and user or domain calendars you have been given administration rights on, or synchronized external calendars – and manage how they are shared. You can keep each calendar private or share it with other users or group members by giving them different access levels.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes": {
+      "id": "Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes",
+      "title": "External Calendars",
+      "description": "BlueMind allows you to view external calendars through an iCalendar-type url (.ics extension).",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/L_agenda/Les_événements": {
+      "id": "Guide_de_l_utilisateur/L_agenda/Les_événements",
+      "title": "Events",
+      "description": "Quick-creating an event",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/L_agenda/Lier_une_visioconférence_à_un_événement": {
+      "id": "Guide_de_l_utilisateur/L_agenda/Lier_une_visioconférence_à_un_événement",
+      "title": "Linking a Video-Conference to an Event",
+      "description": "BlueMind 4.5 lets you link video-conferences to calendar events – links can be added when an event is created, deleted if desired and used by participants to join the meeting.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion": {
+      "id": "Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion",
+      "title": "Organizing Meetings",
+      "description": "Creating an event",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda": {
+      "id": "Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda",
+      "title": "Calendar Preferences",
+      "description": "To access Calendar preferences, go to \"My account\" in the navigation toolbar and go to \"Calendar\":",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/L_agenda/Vues": {
+      "id": "Guide_de_l_utilisateur/L_agenda/Vues",
+      "title": "Views",
+      "description": "BlueMind allows you to customize and save several views to gain quick access to group calendars views.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée": {
+      "id": "Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée",
+      "title": "Setting up Instant Messaging Clients",
+      "description": "The XMPP protocol allows users to connect their dedicated software to BlueMind's instant messaging service and chat with other users, whether they too use BlueMind's integrated instant messaging application or any other dedicated software.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie_instantanée/index": {
+      "id": "Guide_de_l_utilisateur/La_messagerie_instantanée/index",
+      "title": "Instant Messaging",
+      "description": "Instant messaging is available at all times from all application pages. Just click the balloon callout icon in the BlueMind navigation toolbar:",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes",
+      "title": "Large files and linked attachments",
+      "description": "BlueMind gives you the possibility to detach attachments from messages and show them as download links to recipients. This makes messages lighter, thereby relieving servers and communication networks: the file is no longer sent with the message and stored on the incoming server in addition to the outgoing server and possibly duplicated and multiplied as the message is forwarded and replied to.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/index": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/index",
+      "title": "Mail",
+      "description": "Thanks to its thin client (webmail), BlueMind Mail offers a rich user interface with multiple features:",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/Le_composeur": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/Le_composeur",
+      "title": "The Composer",
+      "description": "-  send, cancel, attach, add signature and save.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées",
+      "title": "Shared Mailboxes",
+      "description": "Shared mailboxes are mailboxes that, unlike user mailboxes, are not user-specific: one or several users can be associated to them.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages",
+      "title": "Message Filters",
+      "description": "Filters allow you to apply sorting rules and automatic actions to new incoming messages.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/Les_identités": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/Les_identités",
+      "title": "Identities",
+      "description": "BlueMind allows you to create several identities for a single user account.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/index": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/index",
+      "title": "BlueMind Mail",
+      "description": "BlueMind has developed a brand new webmail application based on the latest browser technology – Web App Javascript. This has allowed us to build a fully redesigned and intuitive interface with 3 panes adapted to large screens. Most importantly, it helps make the application faster and smoother by using local browser storage.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind",
+      "title": "Le composeur BlueMind",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Préférences_du_webmail": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Préférences_du_webmail",
+      "title": "Webmail Preferences",
+      "description": "Webmail preferences let you customize the webmail interface. Its development is still in progress and constantly evolving.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avancé": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avancé",
+      "title": "Advanced Search Engine",
+      "description": "BlueMind 3 features a new, powerful search engine that allows you to perform full-text, multi-criteria searches across all the folders you have access to.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/index": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/index",
+      "title": "Mail Preferences",
+      "description": "To access Mail preferences, go to \"My account\" in the right hand corner of the navigation toolbar:",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées": {
+      "id": "Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées",
+      "title": "Advanced Settings",
+      "description": "Advanced settings allow you to customize how BlueMind Mail behaves and displays information, including:",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/La_téléphonie": {
+      "id": "Guide_de_l_utilisateur/La_téléphonie",
+      "title": "Telephony",
+      "description": "Thanks to its interconnection with XIVO and Wazo, BlueMind becomes a comprehensive unified collaborative messaging service allowing you to:",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Les_catégories_tags_": {
+      "id": "Guide_de_l_utilisateur/Les_catégories_tags_",
+      "title": "Tags",
+      "description": "Tags allow you to assign one or several keywords to contacts and calendar events. Tags are shared by both applications.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses": {
+      "id": "Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses",
+      "title": "Managing Address Books",
+      "description": "You can manage your own address books as well as subscriptions to external address books (domain, other users, etc.) in Contact preferences.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Les_contacts/index": {
+      "id": "Guide_de_l_utilisateur/Les_contacts/index",
+      "title": "Contacts",
+      "description": "BlueMind allows you to create several address books, share contacts between groups or users and access a company address book.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Les_ressources": {
+      "id": "Guide_de_l_utilisateur/Les_ressources",
+      "title": "Resources",
+      "description": "In addition to personal or group calendars, BlueMind allows you to manage resource calendars (vehicles, rooms, video projectors, etc.).",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Les_tâches/index": {
+      "id": "Guide_de_l_utilisateur/Les_tâches/index",
+      "title": "Tasks",
+      "description": "BlueMind features a task manager which synchronizes with the calendar and has its own dedicated UI.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches": {
+      "id": "Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches",
+      "title": "Task Preferences",
+      "description": "To access task preferences, go to \"My Account\" by clicking your username to the right of the navigation bar:",
+      "sidebar": "bmdocs"
+    },
+    "Guide_de_l_utilisateur/Paramètres_utilisateur": {
+      "id": "Guide_de_l_utilisateur/Paramètres_utilisateur",
+      "title": "User Settings",
+      "description": "The user settings manager allows you to customize your BlueMind environment.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/API_BlueMind/API_d_utilisateurs": {
+      "id": "Guide_du_développeur/API_BlueMind/API_d_utilisateurs",
+      "title": "API utilisateur",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/API_BlueMind/Authentification": {
+      "id": "Guide_du_développeur/API_BlueMind/Authentification",
+      "title": "Authentification",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/API_BlueMind/Client_Java": {
+      "id": "Guide_du_développeur/API_BlueMind/Client_Java",
+      "title": "Client Java",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/API_BlueMind/Client_PHP": {
+      "id": "Guide_du_développeur/API_BlueMind/Client_PHP",
+      "title": "Client PHP",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/API_BlueMind/Client_Python": {
+      "id": "Guide_du_développeur/API_BlueMind/Client_Python",
+      "title": "Client Python",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/API_BlueMind/index": {
+      "id": "Guide_du_développeur/API_BlueMind/index",
+      "title": "API BlueMind",
+      "description": "The BlueMind API has been completely redesigned and is available either directly via HTTP REST calls or using clients (now Java, Javascript, C#, Python, PHP and .NET). The bluemind-samples repository is available and gathers all that is needed to contribute to BlueMind by developing an Add-On. A maven archetype is also available to facilitate the definition of a new project.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/BlueMind_plugin_Maven_Archetype": {
+      "id": "Guide_du_développeur/BlueMind_plugin_Maven_Archetype",
+      "title": "BlueMind plugin Maven Archetype",
+      "description": "To simplify the process of setting up a BlueMind plugin project, a Maven archetype is available in the BlueMind repository.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Eclipse": {
+      "id": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Eclipse",
+      "title": "Eclipse",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Frontend_UI": {
+      "id": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Frontend_UI",
+      "title": "Test / Débuggage / Développement UI",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/Configuration_de_l_environnement_de_développement/index": {
+      "id": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/index",
+      "title": "Configuration de l'environnement de développement",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Tests": {
+      "id": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Tests",
+      "title": "Tests",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/Construction_de_BlueMind": {
+      "id": "Guide_du_développeur/Construction_de_BlueMind",
+      "title": "Building BlueMind",
+      "description": "BlueMind source code is compiled by a continuous integration server, and binary installers are downloadable from our site to make the process as simple as possible. However, it is possible to compile BlueMind manually by following the instructions below.",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/Contribuer_à_BlueMind": {
+      "id": "Guide_du_développeur/Contribuer_à_BlueMind",
+      "title": "Contribuer à BlueMind",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/index": {
+      "id": "Guide_du_développeur/index",
+      "title": "Developer's guide",
+      "description": "- Building BlueMind",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/Installation_d_une_VM_Android": {
+      "id": "Guide_du_développeur/Installation_d_une_VM_Android",
+      "title": "Installation d'une VM Android",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Guide_du_développeur/Utilisation_de_l_API_MarketPlace": {
+      "id": "Guide_du_développeur/Utilisation_de_l_API_MarketPlace",
+      "title": "Utilisation de l'API MarketPlace",
+      "description": "",
+      "sidebar": "bmdocs"
+    },
+    "Nouveautés_BlueMind_4.0_à_4.3": {
+      "id": "Nouveautés_BlueMind_4.0_à_4.3",
+      "title": "New in BlueMind 4.0 to 4.3",
+      "description": "BlueMind is proud to announce the release of its latest Collaborative open-source email suite. This long-awaited version 4 offers exclusive, transparent, Outlook-compatible support to businesses and public administration organizations who can now reconcile sovereignty and user satisfaction.",
+      "sidebar": "bmdocs"
+    },
+    "Nouveautés_BlueMind_4.4_et_4.5": {
+      "id": "Nouveautés_BlueMind_4.4_et_4.5",
+      "title": "New in BlueMind 4.4 and 4.5",
+      "description": "The whole BlueMind team is happy to introduce its brand new version of its collaborative email suite!",
+      "sidebar": "bmdocs"
+    },
+    "Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda": {
+      "id": "Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda",
+      "title": "Getting Started with the Calendar",
+      "description": "The BlueMind Calendar's default view is made up of:",
+      "sidebar": "bmdocs"
+    },
+    "Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail": {
+      "id": "Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail",
+      "title": "Getting Started with Mail",
+      "description": "- : the sidebar shows your mail file directory structure, including your own files as well as the shared mailboxes you have access to.See Mail - §3 Sidebar",
+      "sidebar": "bmdocs"
+    },
+    "Premiers_pas_avec_BlueMind/Débuter_avec_les_contacts": {
+      "id": "Premiers_pas_avec_BlueMind/Débuter_avec_les_contacts",
+      "title": "Getting Started with Contacts",
+      "description": "- your default address books, your personal address books as well as those shared with you and you are subscribed to;",
+      "sidebar": "bmdocs"
+    },
+    "Premiers_pas_avec_BlueMind/Débuter_avec_les_tâches": {
+      "id": "Premiers_pas_avec_BlueMind/Débuter_avec_les_tâches",
+      "title": "Getting Started with Tasks",
+      "description": "This guide shows you how to take your first steps with BlueMind's new Tasks application.",
+      "sidebar": "bmdocs"
+    },
+    "Premiers_pas_avec_BlueMind/index": {
+      "id": "Premiers_pas_avec_BlueMind/index",
+      "title": "First Steps with BlueMind",
+      "description": "- Getting Started with Mail",
+      "sidebar": "bmdocs"
+    },
+    "Support_et_demande_d_assistance": {
+      "id": "Support_et_demande_d_assistance",
+      "title": "Support and request for assistance",
+      "description": "To speed up the resolution of your issue, please take some time to check the following sections of our documentation to make sure that the solution isn't already known and documented.",
+      "sidebar": "bmdocs"
+    }
+  }
+}

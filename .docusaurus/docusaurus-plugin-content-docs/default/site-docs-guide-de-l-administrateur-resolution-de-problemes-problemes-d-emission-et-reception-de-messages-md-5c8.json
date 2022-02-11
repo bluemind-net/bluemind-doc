@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Resolution_de_problemes/Problemes_d_emission_et_reception_de_messages",
+  "id": "Guide_de_l_administrateur/Resolution_de_problemes/Problemes_d_emission_et_reception_de_messages",
+  "title": "Problemes d'emission et reception de messages",
+  "description": "Les emails n'arrivent pas sur une adresse existante",
+  "source": "@site/docs/Guide_de_l_administrateur/Resolution_de_problemes/Problemes_d_emission_et_reception_de_messages.md",
+  "sourceDirName": "Guide_de_l_administrateur/Resolution_de_problemes",
+  "slug": "/Guide_de_l_administrateur/Resolution_de_problemes/Problemes_d_emission_et_reception_de_messages",
+  "permalink": "/en/Guide_de_l_administrateur/Resolution_de_problemes/Problemes_d_emission_et_reception_de_messages",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Problemes d'emission et reception de messages",
+    "confluence_id": 57771835
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pieces jointes impossibles a ajouter",
+    "permalink": "/en/Guide_de_l_administrateur/Resolution_de_problemes/Pieces_jointes_impossibles_a_ajouter"
+  },
+  "next": {
+    "title": "Problemes de recherche et indexation",
+    "permalink": "/en/Guide_de_l_administrateur/Resolution_de_problemes/Problemes_de_recherche_et_indexation"
+  }
+}

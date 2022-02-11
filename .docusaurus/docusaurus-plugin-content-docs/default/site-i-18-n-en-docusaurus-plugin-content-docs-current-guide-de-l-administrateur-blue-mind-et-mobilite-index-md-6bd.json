@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/BlueMind_et_mobilité/index",
+  "id": "Guide_de_l_administrateur/BlueMind_et_mobilité/index",
+  "title": "BlueMind and Mobility",
+  "description": "- Autoconfiguration Outlook",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/BlueMind_et_mobilité/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/BlueMind_et_mobilité",
+  "slug": "/Guide_de_l_administrateur/BlueMind_et_mobilité/",
+  "permalink": "/docs/en/Guide_de_l_administrateur/BlueMind_et_mobilité/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "BlueMind and Mobility",
+    "confluence_id": 79863322,
+    "position": 48
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Disaster Recovery",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_"
+  },
+  "next": {
+    "title": "Autoconfiguration Outlook",
+    "permalink": "/docs/en/Guide_de_l_administrateur/BlueMind_et_mobilité/Autoconfiguration_Outlook"
+  }
+}

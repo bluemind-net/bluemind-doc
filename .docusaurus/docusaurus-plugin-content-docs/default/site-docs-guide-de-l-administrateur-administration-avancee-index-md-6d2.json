@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Administration_avancée/index",
+  "id": "Guide_de_l_administrateur/Administration_avancée/index",
+  "title": "Administration avancée",
+  "description": "- Administration du serveur calDav/cardDav",
+  "source": "@site/docs/Guide_de_l_administrateur/Administration_avancée/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/Administration_avancée",
+  "slug": "/Guide_de_l_administrateur/Administration_avancée/",
+  "permalink": "/docs/Guide_de_l_administrateur/Administration_avancée/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Administration avancée",
+    "confluence_id": 57771793,
+    "position": 54
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Mise en œuvre de MAPI pour Outlook",
+    "permalink": "/docs/Guide_de_l_administrateur/La_souscription_BlueMind/Mise_en_œuvre_de_MAPI_pour_Outlook"
+  },
+  "next": {
+    "title": "Administration du serveur XMPP",
+    "permalink": "/docs/Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_XMPP"
+  }
+}

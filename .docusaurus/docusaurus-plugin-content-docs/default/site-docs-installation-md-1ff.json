@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Installation",
+  "id": "Installation",
+  "title": "Installation",
+  "description": "Nom de domaine technique \"xxx.internal\"",
+  "source": "@site/docs/Installation.md",
+  "sourceDirName": ".",
+  "slug": "/Installation",
+  "permalink": "/docs/Installation",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Indexation",
+    "permalink": "/docs/Indexation"
+  },
+  "next": {
+    "title": "Installation d'une VM Android",
+    "permalink": "/docs/Installation_d_une_VM_Android"
+  }
+}

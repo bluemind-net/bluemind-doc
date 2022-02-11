@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/index",
+  "id": "Guide_de_l_administrateur/index",
+  "title": "Administrator's Guide",
+  "description": "- Product Overview",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/index.md",
+  "sourceDirName": "Guide_de_l_administrateur",
+  "slug": "/Guide_de_l_administrateur/",
+  "permalink": "/docs/en/Guide_de_l_administrateur/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Administrator's Guide",
+    "confluence_id": 79862704,
+    "position": 32
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Installation Prerequisites",
+    "permalink": "/docs/en/Guide_d_installation/Prérequis_à_l_installation"
+  },
+  "next": {
+    "title": "Product Overview",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Présentation_du_produit/"
+  }
+}

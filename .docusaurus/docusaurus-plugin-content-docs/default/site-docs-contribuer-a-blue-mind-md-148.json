@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Contribuer_a_BlueMind",
+  "id": "Contribuer_a_BlueMind",
+  "title": "Contribuer a BlueMind",
+  "description": "BlueMind est un projet Open Source, aussi les contributions sont les bienvenues et sont même encouragées !",
+  "source": "@site/docs/Contribuer_a_BlueMind.md",
+  "sourceDirName": ".",
+  "slug": "/Contribuer_a_BlueMind",
+  "permalink": "/docs/Contribuer_a_BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Contribuer_a_BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Console de monitoring",
+    "permalink": "/docs/Console_de_monitoring"
+  },
+  "next": {
+    "title": "Debuter avec l'agenda",
+    "permalink": "/docs/Debuter_avec_l_agenda"
+  }
+}

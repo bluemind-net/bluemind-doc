@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/API_BlueMind/Client_Python",
+  "id": "Guide_du_développeur/API_BlueMind/Client_Python",
+  "title": "Client Python",
+  "description": "",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_du_développeur/API_BlueMind/Client_Python.md",
+  "sourceDirName": "Guide_du_développeur/API_BlueMind",
+  "slug": "/Guide_du_développeur/API_BlueMind/Client_Python",
+  "permalink": "/docs/en/Guide_du_développeur/API_BlueMind/Client_Python",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Client Python",
+    "confluence_id": 79863463,
+    "position": 58
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Client PHP",
+    "permalink": "/docs/en/Guide_du_développeur/API_BlueMind/Client_PHP"
+  },
+  "next": {
+    "title": "Configuration de l'environnement de développement",
+    "permalink": "/docs/en/Guide_du_développeur/Configuration_de_l_environnement_de_développement/"
+  }
+}

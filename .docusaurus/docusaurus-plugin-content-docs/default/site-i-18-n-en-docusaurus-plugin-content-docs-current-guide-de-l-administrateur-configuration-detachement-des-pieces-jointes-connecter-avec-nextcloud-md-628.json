@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud",
+  "id": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud",
+  "title": "Connecting with Nextcloud",
+  "description": "BlueMind offers the possibility to connect to an external drive, starting with Nextcloud.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes",
+  "slug": "/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Connecting with Nextcloud",
+    "confluence_id": 79862866,
+    "position": 70
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Linked Attachments",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/"
+  },
+  "next": {
+    "title": "Integrated Videoconferencing",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/"
+  }
+}

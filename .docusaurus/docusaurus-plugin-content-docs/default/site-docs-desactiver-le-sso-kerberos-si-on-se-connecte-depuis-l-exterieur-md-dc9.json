@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Desactiver le SSO Kerberos si on se connecte depuis l exterieur",
+  "id": "Desactiver le SSO Kerberos si on se connecte depuis l exterieur",
+  "title": "Desactiver le SSO Kerberos si on se connecte depuis l exterieur",
+  "description": "1 Quand Kerberos est activé, hps sert la page de login avec le statut http 401 pour que le browser initie un dialogue krb. Avec certains navigateurs, ceci à pour effet d'afficher une pop-up demandant de saisir un login et un mot de passe AD.Il faut annuler ce comportement pour tomber sur la page d'accueil standard car cette pop-up perturbe les utilisateurs.Depuis l'extérieur, les postes ne sont pas dans le domaine et le SSO ne peut pas fonctionner, cette pop-up ne devrait pas apparaître.",
+  "source": "@site/docs/Desactiver le SSO Kerberos si on se connecte depuis l exterieur.md",
+  "sourceDirName": ".",
+  "slug": "/Desactiver le SSO Kerberos si on se connecte depuis l exterieur",
+  "permalink": "/docs/Desactiver le SSO Kerberos si on se connecte depuis l exterieur",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Desactiver le SSO Kerberos si on se connecte depuis l exterieur.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploiement BlueMind 4 - points de vigilance",
+    "permalink": "/docs/Deploiement BlueMind 4 - points de vigilance"
+  },
+  "next": {
+    "title": "Detachement des pieces jointes",
+    "permalink": "/docs/Detachement des pieces jointes"
+  }
+}

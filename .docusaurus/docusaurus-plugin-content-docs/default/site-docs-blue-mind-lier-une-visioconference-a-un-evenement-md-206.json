@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Lier_une_visioconference_a_un_evenement",
+  "id": "BlueMind/Lier_une_visioconference_a_un_evenement",
+  "title": "Lier une visioconference a un evenement",
+  "description": "BlueMind 4.5 propose la possibilité de lier des visioconférences à des événements : création à la volée lors de la création et de l'édition de l'événement, suppression, accès direct par lien pour les participants.",
+  "source": "@site/docs/BlueMind/Lier_une_visioconference_a_un_evenement.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Lier_une_visioconference_a_un_evenement",
+  "permalink": "/docs/BlueMind/Lier_une_visioconference_a_un_evenement",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Lier_une_visioconference_a_un_evenement.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les taches planifiees",
+    "permalink": "/docs/BlueMind/Les_taches_planifiees"
+  },
+  "next": {
+    "title": "Logs - Fichiers journaux",
+    "permalink": "/docs/BlueMind/Logs___Fichiers_journaux"
+  }
+}

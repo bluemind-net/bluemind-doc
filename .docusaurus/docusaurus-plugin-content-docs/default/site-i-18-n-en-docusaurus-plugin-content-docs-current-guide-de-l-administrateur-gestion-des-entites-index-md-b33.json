@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/index",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/index",
+  "title": "Entities",
+  "description": "- Directory Browser",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Gestion_des_entités/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Entities",
+    "confluence_id": 79862967,
+    "position": 42
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Corporate Signatures",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise"
+  },
+  "next": {
+    "title": "Users",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/"
+  }
+}

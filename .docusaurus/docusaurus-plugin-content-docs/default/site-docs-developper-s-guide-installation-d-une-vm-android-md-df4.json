@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Developper_s_guide/Installation_d_une_VM_Android",
+  "id": "Developper_s_guide/Installation_d_une_VM_Android",
+  "title": "Installation d'une VM Android",
+  "description": "Cette page vous guide dans l'installation d'un environnement Android virtuel sous Linux.",
+  "source": "@site/docs/Developper_s_guide/Installation_d_une_VM_Android.md",
+  "sourceDirName": "Developper_s_guide",
+  "slug": "/Developper_s_guide/Installation_d_une_VM_Android",
+  "permalink": "/en/Developper_s_guide/Installation_d_une_VM_Android",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Installation d'une VM Android",
+    "confluence_id": 62559016
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Contribuer a BlueMind",
+    "permalink": "/en/Developper_s_guide/Contribuer_a_BlueMind"
+  },
+  "next": {
+    "title": "Utilisation de l API MarketPlace",
+    "permalink": "/en/Developper_s_guide/Utilisation_de_l_API_MarketPlace"
+  }
+}

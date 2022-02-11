@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter",
+  "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter",
+  "title": "Attachments are too large",
+  "description": "Users are unable to attach files although they are smaller than the maximum size allowed.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter.md",
+  "sourceDirName": "Guide_de_l_administrateur/Résolution_de_problèmes",
+  "slug": "/Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Attachments are too large",
+    "confluence_id": 79863421,
+    "position": 74
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "ADs no longer synchronized",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés"
+  },
+  "next": {
+    "title": "Trouble sending or receiving emails",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_d_émission_et_réception_de_messages"
+  }
+}

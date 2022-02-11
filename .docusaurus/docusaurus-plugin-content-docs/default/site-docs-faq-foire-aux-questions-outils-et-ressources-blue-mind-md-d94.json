@@ -1,0 +1,26 @@
+{
+  "unversionedId": "FAQ_Foire_aux_questions_/Outils_et_ressources_BlueMind",
+  "id": "FAQ_Foire_aux_questions_/Outils_et_ressources_BlueMind",
+  "title": "Outils et ressources BlueMind",
+  "description": "Des outils et des ressources sont disponibles en ligne.",
+  "source": "@site/docs/FAQ_Foire_aux_questions_/Outils_et_ressources_BlueMind.md",
+  "sourceDirName": "FAQ_Foire_aux_questions_",
+  "slug": "/FAQ_Foire_aux_questions_/Outils_et_ressources_BlueMind",
+  "permalink": "/docs/FAQ_Foire_aux_questions_/Outils_et_ressources_BlueMind",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Outils et ressources BlueMind",
+    "confluence_id": 57770216,
+    "position": 34
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Compatibilité",
+    "permalink": "/docs/FAQ_Foire_aux_questions_/Compatibilité"
+  },
+  "next": {
+    "title": "Guide de l'utilisateur",
+    "permalink": "/docs/Guide_de_l_utilisateur/"
+  }
+}

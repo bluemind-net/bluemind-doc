@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches",
+  "id": "Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches",
+  "title": "Préférences des tâches",
+  "description": "Pour accéder aux préférences des tâches, se rendre dans \"Mon compte\" en cliquant sur le nom d'utilisateur à droite du bandeau de navigation :",
+  "source": "@site/docs/Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Les_tâches",
+  "slug": "/Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches",
+  "permalink": "/docs/Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Préférences des tâches",
+    "confluence_id": 57770650,
+    "position": 46
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Les tâches",
+    "permalink": "/docs/Guide_de_l_utilisateur/Les_tâches/"
+  },
+  "next": {
+    "title": "La messagerie instantanée",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie_instantanée/"
+  }
+}

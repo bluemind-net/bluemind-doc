@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie_instantanée/index",
+  "id": "Guide_de_l_utilisateur/La_messagerie_instantanée/index",
+  "title": "Instant Messaging",
+  "description": "Instant messaging is available at all times from all application pages. Just click the balloon callout icon in the BlueMind navigation toolbar:",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/La_messagerie_instantanée/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie_instantanée",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie_instantanée/",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie_instantanée/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Instant Messaging",
+    "confluence_id": 79862122,
+    "position": 44
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Task Preferences",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches"
+  },
+  "next": {
+    "title": "Setting up Instant Messaging Clients",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée"
+  }
+}

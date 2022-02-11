@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "id": "BlueMind/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "title": "Changement d'adresse IP d'un serveur BlueMind",
+  "description": "Le présent document décrit la marche à suivre pour modifier l'adresse IP d'un serveur BlueMind.",
+  "source": "@site/docs/BlueMind/Changement_d_adresse_IP_d_un_serveur_BlueMind.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "permalink": "/docs/BlueMind/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Changement_d_adresse_IP_d_un_serveur_BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Certificats SSL",
+    "permalink": "/docs/BlueMind/Certificats_SSL"
+  },
+  "next": {
+    "title": "Changer de distribution",
+    "permalink": "/docs/BlueMind/Changer_de_distribution"
+  }
+}

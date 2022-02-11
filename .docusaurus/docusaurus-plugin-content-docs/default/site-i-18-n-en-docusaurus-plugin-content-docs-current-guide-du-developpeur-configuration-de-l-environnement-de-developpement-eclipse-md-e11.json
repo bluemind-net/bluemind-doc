@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Eclipse",
+  "id": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Eclipse",
+  "title": "Eclipse",
+  "description": "",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Eclipse.md",
+  "sourceDirName": "Guide_du_développeur/Configuration_de_l_environnement_de_développement",
+  "slug": "/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Eclipse",
+  "permalink": "/docs/en/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Eclipse",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Eclipse",
+    "confluence_id": 79863466,
+    "position": 54
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Configuration de l'environnement de développement",
+    "permalink": "/docs/en/Guide_du_développeur/Configuration_de_l_environnement_de_développement/"
+  },
+  "next": {
+    "title": "Test / Débuggage / Développement UI",
+    "permalink": "/docs/en/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Frontend_UI"
+  }
+}

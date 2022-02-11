@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Archivage",
+  "id": "BlueMind/Archivage",
+  "title": "Archivage",
+  "description": "BlueMind intègre un système d'archivage centralisé. Celui-ci permet de décharger les serveurs de stockage en stockant une partie des messages sur un point de montage différent dont les coûts de stockage sont inférieurs.",
+  "source": "@site/docs/BlueMind/Archivage.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Archivage",
+  "permalink": "/docs/BlueMind/Archivage",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Archivage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Applications et Composants",
+    "permalink": "/docs/BlueMind/Applications_et_Composants"
+  },
+  "next": {
+    "title": "Authentification",
+    "permalink": "/docs/BlueMind/Authentification"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/L_agenda",
+  "id": "BlueMind/L_agenda",
+  "title": "L'agenda",
+  "description": "BlueMind intègre un agenda partagé complet, proposant de nombreuses fonctionnalités parmi lesquelles :",
+  "source": "@site/docs/BlueMind/L_agenda.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/L_agenda",
+  "permalink": "/docs/BlueMind/L_agenda",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/L_agenda.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "L administration deleguee",
+    "permalink": "/docs/BlueMind/L_administration_deleguee"
+  },
+  "next": {
+    "title": "L'autodiscover n'est pas trouve par les mobiles Android",
+    "permalink": "/docs/BlueMind/L_autodiscover_n_est_pas_trouve_par_les_mobiles_Android"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS",
+  "id": "Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS",
+  "title": "EAS Server Configuration",
+  "description": "The EAS (Exchange ActiveSync) server allows BlueMind servers data synchronization with mobile devices.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS.md",
+  "sourceDirName": "Guide_de_l_administrateur/BlueMind_et_mobilité",
+  "slug": "/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS",
+  "permalink": "/docs/en/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "EAS Server Configuration",
+    "confluence_id": 79863326,
+    "position": 58
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Autoconfiguration Outlook",
+    "permalink": "/docs/en/Guide_de_l_administrateur/BlueMind_et_mobilité/Autoconfiguration_Outlook"
+  },
+  "next": {
+    "title": "BlueMind Connectors for Thick Clients",
+    "permalink": "/docs/en/Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds"
+  }
+}

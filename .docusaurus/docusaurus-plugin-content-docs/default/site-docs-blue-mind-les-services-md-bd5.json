@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Les_services",
+  "id": "BlueMind/Les_services",
+  "title": "Les services",
+  "description": "-",
+  "source": "@site/docs/BlueMind/Les_services.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Les_services",
+  "permalink": "/docs/BlueMind/Les_services",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Les_services.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les roles : droits d acces et d administration",
+    "permalink": "/docs/BlueMind/Les_roles_:_droits_d_acces_et_d_administration"
+  },
+  "next": {
+    "title": "Les taches",
+    "permalink": "/docs/BlueMind/Les_taches"
+  }
+}

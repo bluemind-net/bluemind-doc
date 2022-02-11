@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Présentation_du_produit/index",
+  "id": "Guide_de_l_administrateur/Présentation_du_produit/index",
+  "title": "Product Overview",
+  "description": "BlueMind is 100% web-based.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Présentation_du_produit/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/Présentation_du_produit",
+  "slug": "/Guide_de_l_administrateur/Présentation_du_produit/",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Présentation_du_produit/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Product Overview",
+    "confluence_id": 79862705,
+    "position": 38
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Administrator's Guide",
+    "permalink": "/docs/en/Guide_de_l_administrateur/"
+  },
+  "next": {
+    "title": "Applications and Components",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Présentation_du_produit/Applications_et_composants"
+  }
+}

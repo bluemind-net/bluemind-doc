@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Signatures_d_entreprise",
+  "id": "Guide_de_l_administrateur/Configuration/Signatures_d_entreprise",
+  "title": "Signatures d'entreprise",
+  "description": "La nouvelle application de gestion des signatures d'entreprise vous permet de définir des signatures automatiques communes à tout ou partie des utilisateurs en fonction de divers critères.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration",
+  "slug": "/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Signatures d'entreprise",
+    "confluence_id": 57771370,
+    "position": 66
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Les tâches planifiées",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Les_tâches_planifiées"
+  },
+  "next": {
+    "title": "Gestion des entités",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/"
+  }
+}

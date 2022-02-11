@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "id": "Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "title": "Changement d'adresse IP d'un serveur BlueMind",
+  "description": "Le présent document décrit la marche à suivre pour modifier l'adresse IP d'un serveur BlueMind.",
+  "source": "@site/docs/Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "permalink": "/docs/Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Changement d'adresse IP d'un serveur BlueMind",
+    "confluence_id": 58593019,
+    "position": 42
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Restauration manuelle d'une boîte utilisateur ou partagée",
+    "permalink": "/docs/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée"
+  },
+  "next": {
+    "title": "Changer de distribution",
+    "permalink": "/docs/Base_de_connaissance/Changer_de_distribution"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur",
+  "id": "Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur",
+  "title": "Restaurer les messages supprimés par un utilisateur",
+  "description": "À partir de BlueMind 4.4, la corbeille est dite \"à double fond\" : elle propose un délai côté serveur pendant lequel les emails effacés sont conservés. Ainsi pendant ce délai une récupération peut être effectuée par l'utilisateur directement depuis son client Oulook (connecté en mapi) ou par l'administrateur depuis le serveur en ligne de commande.",
+  "source": "@site/docs/Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur",
+  "permalink": "/docs/Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Restaurer les messages supprimés par un utilisateur",
+    "confluence_id": 66096543,
+    "position": 74
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Restaurer l'agenda d'un utilisateur",
+    "permalink": "/docs/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur"
+  },
+  "next": {
+    "title": "Retrouver les carnets de domaine dans Outlook",
+    "permalink": "/docs/Base_de_connaissance/Retrouver_les_carnets_de_domaine_dans_Outlook"
+  }
+}

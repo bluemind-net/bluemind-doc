@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts",
+  "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts",
+  "title": "Setting Up Apple Contacts",
+  "description": "This guide was written based on OS X Yosemite.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Setting Up Apple Contacts",
+    "confluence_id": 79862310,
+    "position": 68
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Setting Up Apple Calendar",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Calendar"
+  },
+  "next": {
+    "title": "Synchronizing with Thunderbird",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird"
+  }
+}

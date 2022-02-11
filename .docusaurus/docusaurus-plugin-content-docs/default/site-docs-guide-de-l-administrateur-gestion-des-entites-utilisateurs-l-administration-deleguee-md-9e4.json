@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée",
+  "title": "L'administration déléguée",
+  "description": "Dans le cas d'un BlueMind gérant une large population ou des utilisateurs répartis sur plusieurs sites, il peut être intéressant de définir des administrateurs qui auront droit de délégation sur un sous-ensemble de cette population.",
+  "source": "@site/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée",
+  "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "L'administration déléguée",
+    "confluence_id": 57771479,
+    "position": 58
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Utilisateurs",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/"
+  },
+  "next": {
+    "title": "Les rôles : droits d'accès et d'administration",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration"
+  }
+}

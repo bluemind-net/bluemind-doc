@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Documentation_Wazo",
+  "id": "Base_de_connaissance/Documentation_Wazo",
+  "title": "Documentation Wazo",
+  "description": "",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Base_de_connaissance/Documentation_Wazo.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Documentation_Wazo",
+  "permalink": "/docs/en/Base_de_connaissance/Documentation_Wazo",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Documentation Wazo",
+    "confluence_id": 79863510,
+    "position": 54
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Customizing Nginx",
+    "permalink": "/docs/en/Base_de_connaissance/Configuration_personnalisée_de_Nginx"
+  },
+  "next": {
+    "title": "Disabling the Kerberos SSO if Connecting from Outside",
+    "permalink": "/docs/en/Base_de_connaissance/Désactiver_le_SSO_Kerberos_si_on_se_connecte_depuis_l_extérieur"
+  }
+}

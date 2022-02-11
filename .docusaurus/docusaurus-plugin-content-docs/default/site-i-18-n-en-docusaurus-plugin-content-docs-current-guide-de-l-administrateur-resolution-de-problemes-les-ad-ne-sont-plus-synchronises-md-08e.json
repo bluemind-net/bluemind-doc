@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés",
+  "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés",
+  "title": "ADs no longer synchronized",
+  "description": "AD directories are no longer synchronized.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés.md",
+  "sourceDirName": "Guide_de_l_administrateur/Résolution_de_problèmes",
+  "slug": "/Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ADs no longer synchronized",
+    "confluence_id": 79863418,
+    "position": 70
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "The Server is Being Used to Send SPAM",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Le_serveur_est_utilisé_pour_envoyer_du_SPAM"
+  },
+  "next": {
+    "title": "Attachments are too large",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter"
+  }
+}

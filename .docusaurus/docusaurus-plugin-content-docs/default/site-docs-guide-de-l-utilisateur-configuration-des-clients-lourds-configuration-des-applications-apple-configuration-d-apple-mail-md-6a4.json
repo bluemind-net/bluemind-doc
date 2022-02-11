@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_d_Apple_Mail",
+  "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_d_Apple_Mail",
+  "title": "Configuration d'Apple Mail",
+  "description": "Le guide suivant a été réalisé sous un OS X Mavericks",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_d_Apple_Mail.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_d_Apple_Mail",
+  "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_d_Apple_Mail",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration d'Apple Mail",
+    "confluence_id": 57770866,
+    "position": 66
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Configuration des applications Apple",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/"
+  },
+  "next": {
+    "title": "Configuration de Calendar",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Calendar"
+  }
+}

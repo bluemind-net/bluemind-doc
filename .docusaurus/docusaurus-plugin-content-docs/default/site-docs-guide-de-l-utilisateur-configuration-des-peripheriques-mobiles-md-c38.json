@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles",
+  "id": "Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles",
+  "title": "Configuration des peripheriques mobiles",
+  "description": "BlueMind a implémenté le protocole ActiveSync, protocole initié par Microsoft, devenu un standard de fait et utilisé par la plupart des smartphones (Android, Windows Phone, IPhone).",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles.md",
+  "sourceDirName": "Guide_de_l_utilisateur",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles",
+  "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration des peripheriques mobiles",
+    "confluence_id": 57770961
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration des clients lourds",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds"
+  },
+  "next": {
+    "title": "Gestion des partages",
+    "permalink": "/docs/Guide_de_l_utilisateur/Gestion_des_partages"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Désactiver_le_SSO_Kerberos_si_on_se_connecte_depuis_l_extérieur",
+  "id": "Base_de_connaissance/Désactiver_le_SSO_Kerberos_si_on_se_connecte_depuis_l_extérieur",
+  "title": "Disabling the Kerberos SSO if Connecting from Outside",
+  "description": "1 When Kerberos is enabled, hps returns the login page with http 401 status so that the internet browser starts a krb dialog. With some browsers, this leads to a popup opening and prompting for a login ID and AD password.This behavior needs to be stopped for the browser to open the standard homepage as this popup confuses users.When connecting from outside, machines are outside the domain and the SSO cannot work, this popup should not appear.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Base_de_connaissance/Désactiver_le_SSO_Kerberos_si_on_se_connecte_depuis_l_extérieur.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Désactiver_le_SSO_Kerberos_si_on_se_connecte_depuis_l_extérieur",
+  "permalink": "/docs/en/Base_de_connaissance/Désactiver_le_SSO_Kerberos_si_on_se_connecte_depuis_l_extérieur",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Disabling the Kerberos SSO if Connecting from Outside",
+    "confluence_id": 79863509,
+    "position": 52
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Documentation Wazo",
+    "permalink": "/docs/en/Base_de_connaissance/Documentation_Wazo"
+  },
+  "next": {
+    "title": "Setting up a simplified login username",
+    "permalink": "/docs/en/Base_de_connaissance/Identifiant_de_connexion_simplifié"
+  }
+}

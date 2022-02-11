@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Developper_s_guide",
+  "id": "Developper_s_guide",
+  "title": "Developper's guide",
+  "description": "- Construction de BlueMind",
+  "source": "@site/docs/Developper_s_guide.md",
+  "sourceDirName": ".",
+  "slug": "/Developper_s_guide",
+  "permalink": "/docs/Developper_s_guide",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Developper_s_guide.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Developper's guide",
+    "confluence_id": 57771871
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Documentation BlueMind",
+    "permalink": "/docs/Documentation_BlueMind"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Le_serveur_est_utilise_pour_envoyer_du_SPAM",
+  "id": "BlueMind/Le_serveur_est_utilise_pour_envoyer_du_SPAM",
+  "title": "Le serveur est utilise pour envoyer du SPAM",
+  "description": "Par défaut postfix est configuré pour être relai ouvert pour le serveur lui-même, ce qui permet aux différent services (webmail, EAS) d'envoyer des mails, il est possible via la console d'administration d'ajouter de nouvelles IP de confiance qui auront le droit d'envoyer des mails via le serveur BM, il s'agit en général de serveur du SI interne (logiciel de gestion des congés, monitoring, etc).",
+  "source": "@site/docs/BlueMind/Le_serveur_est_utilise_pour_envoyer_du_SPAM.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Le_serveur_est_utilise_pour_envoyer_du_SPAM",
+  "permalink": "/docs/BlueMind/Le_serveur_est_utilise_pour_envoyer_du_SPAM",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Le_serveur_est_utilise_pour_envoyer_du_SPAM.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Le partage d'agenda",
+    "permalink": "/docs/BlueMind/Le_partage_d_agenda"
+  },
+  "next": {
+    "title": "Les AD ne sont plus synchronises",
+    "permalink": "/docs/BlueMind/Les_AD_ne_sont_plus_synchronises"
+  }
+}

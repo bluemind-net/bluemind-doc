@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/index",
+  "id": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/index",
+  "title": "Linked Attachments",
+  "description": "BlueMind lets users detach email attachments and show them as download links to recipients. This reduces the size of messages which lightens the load on servers and communications networks: the file is no longer physically sent with the email message and stored on the incoming network in addition to the outgoing network and thereby duplicated and multiplied as messages are forwarded and replied to.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes",
+  "slug": "/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Linked Attachments",
+    "confluence_id": 79862857,
+    "position": 64
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Firewall",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Sécurité/Pare_feu"
+  },
+  "next": {
+    "title": "Connecting with Nextcloud",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Les_catégories_tags_",
+  "id": "Guide_de_l_utilisateur/Les_catégories_tags_",
+  "title": "Tags",
+  "description": "Tags allow you to assign one or several keywords to contacts and calendar events. Tags are shared by both applications.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/Les_catégories_tags_.md",
+  "sourceDirName": "Guide_de_l_utilisateur",
+  "slug": "/Guide_de_l_utilisateur/Les_catégories_tags_",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/Les_catégories_tags_",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Tags",
+    "confluence_id": 79862239,
+    "position": 52
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Telephony",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/La_téléphonie"
+  },
+  "next": {
+    "title": "Resources",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Les_ressources"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Building_BlueMind",
+  "id": "BlueMind/Building_BlueMind",
+  "title": "Building BlueMind",
+  "description": "Le code source de BlueMind est compilé par un serveur d'intégration continue, et les binaires produits sont téléchargeables sur notre site sous forme d'installeurs qui rendent le processus aussi simple que possible. Il est toutefois envisageable de compiler BlueMind manuellement en suivant les instructions suivantes.",
+  "source": "@site/docs/BlueMind/Building_BlueMind.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Building_BlueMind",
+  "permalink": "/docs/BlueMind/Building_BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Building_BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BlueMind plugin Maven Archetype",
+    "permalink": "/docs/BlueMind/BlueMind_plugin_Maven_Archetype"
+  },
+  "next": {
+    "title": "Carnets d'adresses de domaines",
+    "permalink": "/docs/BlueMind/Carnets_d_adresses_de_domaines"
+  }
+}

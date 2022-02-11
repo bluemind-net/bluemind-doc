@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Synchronisation_LDAP",
+  "id": "BlueMind/Synchronisation_LDAP",
+  "title": "Synchronisation LDAP",
+  "description": "BlueMind permet d'importer les utilisateurs et groupes depuis un annuaire LDAP (par exemple OpenLDAP). L'import LDAP est incrémental (les nouvelles entrées sont ajoutées, les données modifiées sont prises en compte). L'import LDAP se configure et s'exécute par domaine.",
+  "source": "@site/docs/BlueMind/Synchronisation_LDAP.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Synchronisation_LDAP",
+  "permalink": "/docs/BlueMind/Synchronisation_LDAP",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Synchronisation_LDAP.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Synchronisation IMAP sous Windows Phone",
+    "permalink": "/docs/BlueMind/Synchronisation_IMAP_sous_Windows_Phone"
+  },
+  "next": {
+    "title": "Synchronisation avec Android",
+    "permalink": "/docs/BlueMind/Synchronisation_avec_Android"
+  }
+}

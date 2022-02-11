@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/index",
+  "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/index",
+  "title": "Synchronizing with Android",
+  "description": "ActiveSync is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars in a single configuration while IMAP synchronization is restricted to messages.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Synchronizing with Android",
+    "confluence_id": 79862424,
+    "position": 62
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Synchronizing with mobile phones and tablets",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/"
+  },
+  "next": {
+    "title": "IMAP Synchronization on Android",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android"
+  }
+}

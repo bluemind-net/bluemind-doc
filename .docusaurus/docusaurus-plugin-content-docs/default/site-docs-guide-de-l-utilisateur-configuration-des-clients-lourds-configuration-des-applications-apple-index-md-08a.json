@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/index",
+  "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/index",
+  "title": "Configuration des applications Apple",
+  "description": "- Configuration d'Apple Mail",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/",
+  "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration des applications Apple",
+    "confluence_id": 57770865,
+    "position": 60
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Configuration des clients lourds",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/"
+  },
+  "next": {
+    "title": "Configuration d'Apple Mail",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_d_Apple_Mail"
+  }
+}

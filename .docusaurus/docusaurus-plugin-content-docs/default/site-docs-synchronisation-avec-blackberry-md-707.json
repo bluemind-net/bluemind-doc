@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Synchronisation avec Blackberry",
+  "id": "Synchronisation avec Blackberry",
+  "title": "Synchronisation avec Blackberry",
+  "description": "La possibilité de connecter un smartphone au serveur BlueMind dépend de la politique d'autorisation définie par les administrateurs. Assurez-vous auprès d'eux que vous êtes bien autorisé à vous connecter avec un smartphone. En particulier, certaines configurations nécessitent une autorisation manuelle d'un administrateur.",
+  "source": "@site/docs/Synchronisation avec Blackberry.md",
+  "sourceDirName": ".",
+  "slug": "/Synchronisation avec Blackberry",
+  "permalink": "/docs/Synchronisation avec Blackberry",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Synchronisation avec Blackberry.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Synchronisation avec Android",
+    "permalink": "/docs/Synchronisation avec Android"
+  },
+  "next": {
+    "title": "Synchronisation avec Outlook",
+    "permalink": "/docs/Synchronisation avec Outlook"
+  }
+}

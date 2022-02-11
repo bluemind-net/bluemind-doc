@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Mettre_en_place_une_politique_d_expiration_des_mots_de_passe",
+  "id": "Base_de_connaissance/Mettre_en_place_une_politique_d_expiration_des_mots_de_passe",
+  "title": "Mettre en place une politique d'expiration des mots de passe",
+  "description": "Connexion avec un AD ou LDAP",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Base_de_connaissance/Mettre_en_place_une_politique_d_expiration_des_mots_de_passe.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Mettre_en_place_une_politique_d_expiration_des_mots_de_passe",
+  "permalink": "/docs/en/Base_de_connaissance/Mettre_en_place_une_politique_d_expiration_des_mots_de_passe",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Mettre en place une politique d'expiration des mots de passe",
+    "confluence_id": 79863520,
+    "position": 58
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Setting up a simplified login username",
+    "permalink": "/docs/en/Base_de_connaissance/Identifiant_de_connexion_simplifié"
+  },
+  "next": {
+    "title": "Editing the BlueMind Homepage",
+    "permalink": "/docs/en/Base_de_connaissance/Modifier_la_page_d_accueil_de_BlueMind"
+  }
+}

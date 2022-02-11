@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Resolution_de_problemes",
+  "id": "BlueMind/Resolution_de_problemes",
+  "title": "Resolution de problemes",
+  "description": "- Problèmes d'émission et réception de messages",
+  "source": "@site/docs/BlueMind/Resolution_de_problemes.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Resolution_de_problemes",
+  "permalink": "/docs/BlueMind/Resolution_de_problemes",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Resolution_de_problemes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reference des metriques",
+    "permalink": "/docs/BlueMind/Reference_des_metriques"
+  },
+  "next": {
+    "title": "Resolution des problemes avec Outlook",
+    "permalink": "/docs/BlueMind/Resolution_des_problemes_avec_Outlook"
+  }
+}

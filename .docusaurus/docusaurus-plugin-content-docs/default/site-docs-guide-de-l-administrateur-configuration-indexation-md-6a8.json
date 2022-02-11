@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Indexation",
+  "id": "Guide_de_l_administrateur/Configuration/Indexation",
+  "title": "Indexation",
+  "description": "A partir de la version 4.2.4 de BlueMind, les tâches d'indexation ont été supprimées de la planification afin d'alléger l'utilisation des ressources. Ces actions sont à présent effectuées automatiquement par le système lorsque nécessaire et peuvent être déclenchées manuellement par un administrateur depuis une page dédiée de la console d'administration.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Indexation.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration",
+  "slug": "/Guide_de_l_administrateur/Configuration/Indexation",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration/Indexation",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Indexation",
+    "confluence_id": 62557148,
+    "position": 54
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Gestion des serveurs",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Gestion_des_serveurs"
+  },
+  "next": {
+    "title": "La console d'administration",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/La_console_d_administration"
+  }
+}

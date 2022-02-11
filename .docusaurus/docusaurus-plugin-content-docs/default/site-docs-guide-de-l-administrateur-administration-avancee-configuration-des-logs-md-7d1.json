@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Administration_avancee/Configuration_des_logs",
+  "id": "Guide_de_l_administrateur/Administration_avancee/Configuration_des_logs",
+  "title": "Configuration des logs",
+  "description": "BlueMind conserve des journaux pour chaque type d'application et d'utilisation.",
+  "source": "@site/docs/Guide_de_l_administrateur/Administration_avancee/Configuration_des_logs.md",
+  "sourceDirName": "Guide_de_l_administrateur/Administration_avancee",
+  "slug": "/Guide_de_l_administrateur/Administration_avancee/Configuration_des_logs",
+  "permalink": "/en/Guide_de_l_administrateur/Administration_avancee/Configuration_des_logs",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration des logs",
+    "confluence_id": 57771798
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Client CLI pour l'administration",
+    "permalink": "/en/Guide_de_l_administrateur/Administration_avancee/Client_CLI_pour_l_administration"
+  },
+  "next": {
+    "title": "Maintenance des mails",
+    "permalink": "/en/Guide_de_l_administrateur/Administration_avancee/Maintenance_des_mails"
+  }
+}

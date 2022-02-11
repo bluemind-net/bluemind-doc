@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine",
+  "id": "Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine",
+  "title": "Routing Messages Directly to Another Domain",
+  "description": "BlueMind must be able to handle part of a single domain's users only, in order to integrate into an architecture where a single domain's users are managed by different systems, and as a result, by different mail servers.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine.md",
+  "sourceDirName": "Guide_de_l_administrateur/Administration_avancée",
+  "slug": "/Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Routing Messages Directly to Another Domain",
+    "confluence_id": 79863392,
+    "position": 72
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Mail maintenance",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Maintenance_des_mails"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/"
+  }
+}

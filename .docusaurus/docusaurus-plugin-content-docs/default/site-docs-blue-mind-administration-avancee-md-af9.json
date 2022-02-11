@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Administration_avancee",
+  "id": "BlueMind/Administration_avancee",
+  "title": "Administration avancee",
+  "description": "- Administration du serveur calDav/cardDav",
+  "source": "@site/docs/BlueMind/Administration_avancee.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Administration_avancee",
+  "permalink": "/docs/BlueMind/Administration_avancee",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Administration_avancee.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API utilisateur",
+    "permalink": "/docs/BlueMind/API_utilisateur"
+  },
+  "next": {
+    "title": "Administration des boites aux lettres partagees",
+    "permalink": "/docs/BlueMind/Administration_des_boites_aux_lettres_partagees"
+  }
+}

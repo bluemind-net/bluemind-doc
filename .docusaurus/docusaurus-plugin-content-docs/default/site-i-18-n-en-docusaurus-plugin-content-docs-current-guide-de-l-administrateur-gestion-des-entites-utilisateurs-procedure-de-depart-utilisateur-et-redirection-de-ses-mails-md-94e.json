@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails",
+  "title": "User Departure and Email Redirection",
+  "description": "When an employee leaves, you need to archive their user and retrieve their data. Your organization might also want to continue receiving their mail.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "User Departure and Email Redirection",
+    "confluence_id": 79863064,
+    "position": 60
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Roles: Access and Administration Rights",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration"
+  },
+  "next": {
+    "title": "External Users",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/L_agenda/index",
+  "id": "Guide_de_l_utilisateur/L_agenda/index",
+  "title": "L'agenda",
+  "description": "BlueMind intègre un agenda partagé complet, proposant de nombreuses fonctionnalités parmi lesquelles :",
+  "source": "@site/docs/Guide_de_l_utilisateur/L_agenda/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/L_agenda",
+  "slug": "/Guide_de_l_utilisateur/L_agenda/",
+  "permalink": "/docs/Guide_de_l_utilisateur/L_agenda/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "L'agenda",
+    "confluence_id": 57770444,
+    "position": 38
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Gestion des carnets d'adresses",
+    "permalink": "/docs/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses"
+  },
+  "next": {
+    "title": "Le partage d'agenda",
+    "permalink": "/docs/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda"
+  }
+}

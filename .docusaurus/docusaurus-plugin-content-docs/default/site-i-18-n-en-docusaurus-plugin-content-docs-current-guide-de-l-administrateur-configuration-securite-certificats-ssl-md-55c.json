@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL",
+  "id": "Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL",
+  "title": "SSL Certificates",
+  "description": "The BlueMind servers use certificate-based authentication. The certificates generated during the installation of BlueMind can be replaced by customized certificates on a single-server installation.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Sécurité",
+  "slug": "/Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "SSL Certificates",
+    "confluence_id": 79862846,
+    "position": 68
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Security",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Sécurité/"
+  },
+  "next": {
+    "title": "Firewall",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Sécurité/Pare_feu"
+  }
+}

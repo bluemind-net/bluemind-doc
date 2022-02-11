@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Configuration_système",
+  "id": "Guide_de_l_administrateur/Configuration/Configuration_système",
+  "title": "Configuration système",
+  "description": "Ce premier onglet de la configuration système permet de positionner les paramètres postfix et Cyrus du système.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Configuration_système.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration",
+  "slug": "/Guide_de_l_administrateur/Configuration/Configuration_système",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration/Configuration_système",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration système",
+    "confluence_id": 57771321,
+    "position": 56
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Archivage",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Archivage"
+  },
+  "next": {
+    "title": "Gestion des serveurs",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Gestion_des_serveurs"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda",
+  "id": "Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda",
+  "title": "Sharing Calendars",
+  "description": "BlueMind v.3.5 offers the possibility to own multiple calendars – the main BlueMind calendar, a secondary calendar and user or domain calendars you have been given administration rights on, or synchronized external calendars – and manage how they are shared. You can keep each calendar private or share it with other users or group members by giving them different access levels.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda.md",
+  "sourceDirName": "Guide_de_l_utilisateur/L_agenda",
+  "slug": "/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Sharing Calendars",
+    "confluence_id": 79861941,
+    "position": 46
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Calendar",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/L_agenda/"
+  },
+  "next": {
+    "title": "External Calendars",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes"
+  }
+}

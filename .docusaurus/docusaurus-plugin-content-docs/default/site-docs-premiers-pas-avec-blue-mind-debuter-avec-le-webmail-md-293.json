@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail",
+  "id": "Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail",
+  "title": "Débuter avec le webmail",
+  "description": "-  : la barre latérale présente l'arborescence des dossiers de la messagerie de l'utilisateur, celle-ci comprend ses dossiers propres ainsi que les boîtes partagées auxquels il a accèsVoir La messagerie - §3 Barre Latérale",
+  "source": "@site/docs/Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail.md",
+  "sourceDirName": "Premiers_pas_avec_BlueMind",
+  "slug": "/Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail",
+  "permalink": "/docs/Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Débuter avec le webmail",
+    "confluence_id": 57770136,
+    "position": 30
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Débuter avec l'agenda",
+    "permalink": "/docs/Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda"
+  },
+  "next": {
+    "title": "Débuter avec les contacts",
+    "permalink": "/docs/Premiers_pas_avec_BlueMind/Débuter_avec_les_contacts"
+  }
+}

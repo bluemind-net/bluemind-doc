@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_d_installation/Prérequis_à_l_installation",
+  "id": "Guide_d_installation/Prérequis_à_l_installation",
+  "title": "Installation Prerequisites",
+  "description": "Available Memory",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_d_installation/Prérequis_à_l_installation.md",
+  "sourceDirName": "Guide_d_installation",
+  "slug": "/Guide_d_installation/Prérequis_à_l_installation",
+  "permalink": "/docs/en/Guide_d_installation/Prérequis_à_l_installation",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Installation Prerequisites",
+    "confluence_id": 79862653,
+    "position": 40
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Updating BlueMind",
+    "permalink": "/docs/en/Guide_d_installation/Mise_à_jour_de_BlueMind"
+  },
+  "next": {
+    "title": "Administrator's Guide",
+    "permalink": "/docs/en/Guide_de_l_administrateur/"
+  }
+}

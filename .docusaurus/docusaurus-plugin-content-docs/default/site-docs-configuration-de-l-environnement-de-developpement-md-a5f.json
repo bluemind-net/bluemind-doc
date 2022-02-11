@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Configuration_de_l_environnement_de_développement",
+  "id": "Configuration_de_l_environnement_de_développement",
+  "title": "Configuration de l'environnement de développement",
+  "description": "- Eclipse",
+  "source": "@site/docs/Configuration_de_l_environnement_de_développement.md",
+  "sourceDirName": ".",
+  "slug": "/Configuration_de_l_environnement_de_développement",
+  "permalink": "/docs/Configuration_de_l_environnement_de_développement",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Configuration_de_l_environnement_de_développement.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration de Thunderbird",
+    "permalink": "/docs/Configuration_de_Thunderbird"
+  },
+  "next": {
+    "title": "Configuration des clients de messagerie instantanee",
+    "permalink": "/docs/Configuration_des_clients_de_messagerie_instantanee"
+  }
+}

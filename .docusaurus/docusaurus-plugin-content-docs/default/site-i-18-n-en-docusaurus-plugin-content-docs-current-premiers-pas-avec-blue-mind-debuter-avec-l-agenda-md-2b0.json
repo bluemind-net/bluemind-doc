@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda",
+  "id": "Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda",
+  "title": "Getting Started with the Calendar",
+  "description": "The BlueMind Calendar's default view is made up of:",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda.md",
+  "sourceDirName": "Premiers_pas_avec_BlueMind",
+  "slug": "/Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda",
+  "permalink": "/docs/en/Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Getting Started with the Calendar",
+    "confluence_id": 79861396,
+    "position": 32
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "First Steps with BlueMind",
+    "permalink": "/docs/en/Premiers_pas_avec_BlueMind/"
+  },
+  "next": {
+    "title": "Getting Started with Mail",
+    "permalink": "/docs/en/Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail"
+  }
+}

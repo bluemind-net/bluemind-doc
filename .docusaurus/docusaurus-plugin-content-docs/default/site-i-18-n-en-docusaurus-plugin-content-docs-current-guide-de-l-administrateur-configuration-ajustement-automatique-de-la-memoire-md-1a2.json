@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire",
+  "id": "Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire",
+  "title": "Automatic Memory Adjustment",
+  "description": "Default memory allocation for Java components is readjusted automatically when BlueMind starts-up.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration",
+  "slug": "/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Automatic Memory Adjustment",
+    "confluence_id": 79862827,
+    "position": 58
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Videoconferences with Jitsi",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi"
+  },
+  "next": {
+    "title": "Archiving",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Archivage"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/IMAP_Synchronization_on_iOS",
+  "id": "BlueMind/IMAP_Synchronization_on_iOS",
+  "title": "IMAP Synchronization on iOS",
+  "description": "Ce guide a été réalisé avec un modèle d'IPad, les écrans sont généralement identiques sur tous les produits Apple mais sur un iPhone le menu situé à gauche sera masqué à cause de la largeur de l'écran inférieure.",
+  "source": "@site/docs/BlueMind/IMAP_Synchronization_on_iOS.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/IMAP_Synchronization_on_iOS",
+  "permalink": "/docs/BlueMind/IMAP_Synchronization_on_iOS",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/IMAP_Synchronization_on_iOS.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Haute disponibilite logicielle et BlueMind",
+    "permalink": "/docs/BlueMind/Haute_disponibilite_logicielle_et_BlueMind"
+  },
+  "next": {
+    "title": "Identifiant de connexion simplifie",
+    "permalink": "/docs/BlueMind/Identifiant_de_connexion_simplifie"
+  }
+}

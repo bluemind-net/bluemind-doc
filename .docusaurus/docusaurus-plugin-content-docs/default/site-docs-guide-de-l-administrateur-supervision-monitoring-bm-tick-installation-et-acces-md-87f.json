@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès",
+  "id": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès",
+  "title": "Installation et Accès",
+  "description": "La suite de supervision bm-tick est installée automatiquement et par défaut dans BlueMind 4.",
+  "source": "@site/docs/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès.md",
+  "sourceDirName": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick",
+  "slug": "/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès",
+  "permalink": "/docs/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Installation et Accès",
+    "confluence_id": 57771690,
+    "position": 60
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Explorer et analyser les données avec bm-tick",
+    "permalink": "/docs/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick"
+  },
+  "next": {
+    "title": "Référence des métriques",
+    "permalink": "/docs/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Référence_des_métriques"
+  }
+}

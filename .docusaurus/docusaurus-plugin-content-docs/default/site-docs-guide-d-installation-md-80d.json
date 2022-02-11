@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_d_installation",
+  "id": "Guide_d_installation",
+  "title": "Guide d'installation",
+  "description": "- Dimensionnement matériel",
+  "source": "@site/docs/Guide_d_installation.md",
+  "sourceDirName": ".",
+  "slug": "/Guide_d_installation",
+  "permalink": "/docs/Guide_d_installation",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guide_d_installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Guide d'installation",
+    "confluence_id": 57771182
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/docs/FAQ"
+  },
+  "next": {
+    "title": "Guide de l'administrateur",
+    "permalink": "/docs/Guide_de_l_administrateur"
+  }
+}

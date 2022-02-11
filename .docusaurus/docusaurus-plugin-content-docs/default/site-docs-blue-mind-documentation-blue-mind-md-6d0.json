@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Documentation_BlueMind",
+  "id": "BlueMind/Documentation_BlueMind",
+  "title": "Documentation BlueMind",
+  "description": "Bienvenue dans l'espace documentaire de BlueMind 4, solution complète et OpenSource de messagerie d’entreprise, d’agendas et de travail collaboratif.",
+  "source": "@site/docs/BlueMind/Documentation_BlueMind.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Documentation_BlueMind",
+  "permalink": "/docs/BlueMind/Documentation_BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Documentation_BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disparitions et modifications d'evenements",
+    "permalink": "/docs/BlueMind/Disparitions_et_modifications_d_evenements"
+  },
+  "next": {
+    "title": "Eclipse",
+    "permalink": "/docs/BlueMind/Eclipse"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Knowledge_Base/Documentation_Wazo",
+  "id": "Knowledge_Base/Documentation_Wazo",
+  "title": "Documentation Wazo",
+  "description": "Installation du plugin wazo : Configuration du plugin Wazo",
+  "source": "@site/docs/Knowledge_Base/Documentation_Wazo.md",
+  "sourceDirName": "Knowledge_Base",
+  "slug": "/Knowledge_Base/Documentation_Wazo",
+  "permalink": "/en/Knowledge_Base/Documentation_Wazo",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Documentation Wazo",
+    "confluence_id": 79863817
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Desactiver le SSO Kerberos si on se connecte depuis l exterieur",
+    "permalink": "/en/Knowledge_Base/Desactiver_le_SSO_Kerberos_si_on_se_connecte_depuis_l_exterieur"
+  },
+  "next": {
+    "title": "Identifiant de connexion simplifie",
+    "permalink": "/en/Knowledge_Base/Identifiant_de_connexion_simplifie"
+  }
+}

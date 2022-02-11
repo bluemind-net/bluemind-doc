@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts",
+  "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts",
+  "title": "Configuration de Contacts",
+  "description": "Le guide suivant a été réalisé sous un OS X Yosemite.",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts",
+  "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration de Contacts",
+    "confluence_id": 57770873,
+    "position": 68
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Configuration de Calendar",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Calendar"
+  },
+  "next": {
+    "title": "Configuration de Thunderbird",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird"
+  }
+}

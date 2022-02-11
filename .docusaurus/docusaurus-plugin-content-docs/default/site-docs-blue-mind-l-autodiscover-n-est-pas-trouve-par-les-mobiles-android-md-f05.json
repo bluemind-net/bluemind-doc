@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/L_autodiscover_n_est_pas_trouve_par_les_mobiles_Android",
+  "id": "BlueMind/L_autodiscover_n_est_pas_trouve_par_les_mobiles_Android",
+  "title": "L'autodiscover n'est pas trouve par les mobiles Android",
+  "description": "Lors de la configuration d'un appareil mobile Android, il manque le préfixe dans l'adresse du serveur.",
+  "source": "@site/docs/BlueMind/L_autodiscover_n_est_pas_trouve_par_les_mobiles_Android.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/L_autodiscover_n_est_pas_trouve_par_les_mobiles_Android",
+  "permalink": "/docs/BlueMind/L_autodiscover_n_est_pas_trouve_par_les_mobiles_Android",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/L_autodiscover_n_est_pas_trouve_par_les_mobiles_Android.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "L'agenda",
+    "permalink": "/docs/BlueMind/L_agenda"
+  },
+  "next": {
+    "title": "La console d'administration",
+    "permalink": "/docs/BlueMind/La_console_d_administration"
+  }
+}

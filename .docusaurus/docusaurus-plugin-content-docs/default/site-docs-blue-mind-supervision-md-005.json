@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Supervision",
+  "id": "BlueMind/Supervision",
+  "title": "Supervision",
+  "description": "Au niveau serveur, il est conseillé de superviser les aspects suivants de la machine :",
+  "source": "@site/docs/BlueMind/Supervision.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Supervision",
+  "permalink": "/docs/BlueMind/Supervision",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Supervision.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Signatures d'entreprise",
+    "permalink": "/docs/BlueMind/Signatures_d_entreprise"
+  },
+  "next": {
+    "title": "Support et demande d'assistance",
+    "permalink": "/docs/BlueMind/Support_et_demande_d_assistance"
+  }
+}

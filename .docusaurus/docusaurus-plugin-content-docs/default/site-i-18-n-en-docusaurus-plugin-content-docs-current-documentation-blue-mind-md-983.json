@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Documentation_BlueMind",
+  "id": "Documentation_BlueMind",
+  "title": "Documentation BlueMind 4",
+  "description": "Welcome to BlueMind 4, the next-gen messaging and collaboration solution.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Documentation_BlueMind.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/en/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Documentation BlueMind 4",
+    "confluence_id": 79861300,
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Debuter avec les taches",
+    "permalink": "/en/Premiers_pas_avec_BlueMind/Debuter_avec_les_taches"
+  },
+  "next": {
+    "title": "Nouveautés BlueMind 4.0 à 4.3",
+    "permalink": "/en/Nouveautes_BlueMind_4.0_a_4.3"
+  }
+}

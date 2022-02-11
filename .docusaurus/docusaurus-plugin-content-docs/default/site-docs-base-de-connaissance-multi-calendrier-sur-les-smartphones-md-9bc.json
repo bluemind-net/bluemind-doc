@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Multi_calendrier_sur_les_smartphones",
+  "id": "Base_de_connaissance/Multi_calendrier_sur_les_smartphones",
+  "title": "Multi-calendrier sur les smartphones",
+  "description": "Via une fonctionnalité expérimentale, BlueMind permet de consulter plusieurs agendas sur les smartphones Android.",
+  "source": "@site/docs/Base_de_connaissance/Multi_calendrier_sur_les_smartphones.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Multi_calendrier_sur_les_smartphones",
+  "permalink": "/docs/Base_de_connaissance/Multi_calendrier_sur_les_smartphones",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Multi-calendrier sur les smartphones",
+    "confluence_id": 57771926,
+    "position": 62
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Modifier la page d'accueil de BlueMind",
+    "permalink": "/docs/Base_de_connaissance/Modifier_la_page_d_accueil_de_BlueMind"
+  },
+  "next": {
+    "title": "Nettoyage du cache du navigateur client",
+    "permalink": "/docs/Base_de_connaissance/Nettoyage_du_cache_du_navigateur_client"
+  }
+}

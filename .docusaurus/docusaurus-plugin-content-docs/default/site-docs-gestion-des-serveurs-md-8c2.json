@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Gestion des serveurs",
+  "id": "Gestion des serveurs",
+  "title": "Gestion des serveurs",
+  "description": "La page \"Serveurs\" de la console d'administration de BlueMind permet d'administrer les serveurs de l'installation BlueMind et les services qu'ils hébergent.",
+  "source": "@site/docs/Gestion des serveurs.md",
+  "sourceDirName": ".",
+  "slug": "/Gestion des serveurs",
+  "permalink": "/docs/Gestion des serveurs",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Gestion des serveurs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gestion des partages",
+    "permalink": "/docs/Gestion des partages"
+  },
+  "next": {
+    "title": "Gestion des taches avec iOS",
+    "permalink": "/docs/Gestion des taches avec iOS"
+  }
+}

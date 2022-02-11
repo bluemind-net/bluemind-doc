@@ -1,0 +1,23 @@
+{
+  "unversionedId": "La souscription BlueMind",
+  "id": "La souscription BlueMind",
+  "title": "La souscription BlueMind",
+  "description": "La Solution BlueMind",
+  "source": "@site/docs/La souscription BlueMind.md",
+  "sourceDirName": ".",
+  "slug": "/La souscription BlueMind",
+  "permalink": "/docs/La souscription BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/La souscription BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "La messagerie",
+    "permalink": "/docs/La messagerie"
+  },
+  "next": {
+    "title": "La telephonie",
+    "permalink": "/docs/La telephonie"
+  }
+}

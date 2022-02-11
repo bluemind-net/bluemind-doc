@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Importer_les_contacts_locaux_dans_BlueMind",
+  "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Importer_les_contacts_locaux_dans_BlueMind",
+  "title": "Importing Local Contacts into BlueMind",
+  "description": "When you migrate to BlueMind, you may already have contacts on an iOS device. This page describes how you can incorporate your old iOS contacts into BlueMind and therefore have them available on all synchronized devices (smartphone, web client, thick client).",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Importer_les_contacts_locaux_dans_BlueMind.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Importer_les_contacts_locaux_dans_BlueMind",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Importer_les_contacts_locaux_dans_BlueMind",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Importing Local Contacts into BlueMind",
+    "confluence_id": 79862583,
+    "position": 74
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Gestion des tâches avec iOS",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Gestion_des_tâches_avec_iOS"
+  },
+  "next": {
+    "title": "IMAP Synchronization on iOS",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Synchronisation_IMAP_avec_iOS"
+  }
+}

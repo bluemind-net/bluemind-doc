@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Installation_multi_backend",
+  "id": "BlueMind/Installation_multi_backend",
+  "title": "Installation multi-backend",
+  "description": "BlueMind 4.0 permet, en plus de la répartition des emails des utilisateurs, de répartir l'ensemble des données des utilisateurs sur plusieurs serveurs qui contiennent à présent une base de données en plus de cyrus.",
+  "source": "@site/docs/BlueMind/Installation_multi_backend.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Installation_multi_backend",
+  "permalink": "/docs/BlueMind/Installation_multi_backend",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Installation_multi_backend.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation du nouveau client de messagerie",
+    "permalink": "/docs/BlueMind/Installation_du_nouveau_client_de_messagerie"
+  },
+  "next": {
+    "title": "Knowledge Base",
+    "permalink": "/docs/BlueMind/Knowledge_Base"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Moteur_de_recherche_avance",
+  "id": "Moteur_de_recherche_avance",
+  "title": "Moteur de recherche avance",
+  "description": "BlueMind 3 est doté d'un nouveau et performant moteur de recherche permettant d'effectuer dans les messages des recherches full-text, multicritères et portant sur l'ensemble des dossiers accessibles par l'utilisateur.",
+  "source": "@site/docs/Moteur_de_recherche_avance.md",
+  "sourceDirName": ".",
+  "slug": "/Moteur_de_recherche_avance",
+  "permalink": "/docs/Moteur_de_recherche_avance",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Moteur_de_recherche_avance.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Monitoring Bm-Tick",
+    "permalink": "/docs/Monitoring_Bm_Tick"
+  },
+  "next": {
+    "title": "Multi-calendrier sur les smartphones",
+    "permalink": "/docs/Multi_calendrier_sur_les_smartphones"
+  }
+}

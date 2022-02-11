@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Les_contacts",
+  "id": "BlueMind/Les_contacts",
+  "title": "Les contacts",
+  "description": "BlueMind propose une gestion de contacts permettant la création de plusieurs carnets d'adresses, le partage de contacts entre groupes ou utilisateurs et l'accès à un carnet d'adresses d'entreprises.",
+  "source": "@site/docs/BlueMind/Les_contacts.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Les_contacts",
+  "permalink": "/docs/BlueMind/Les_contacts",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Les_contacts.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les connecteurs BlueMind pour clients lourds",
+    "permalink": "/docs/BlueMind/Les_connecteurs_BlueMind_pour_clients_lourds"
+  },
+  "next": {
+    "title": "Les evenements",
+    "permalink": "/docs/BlueMind/Les_evenements"
+  }
+}

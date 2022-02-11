@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Visioconference integree",
+  "id": "Visioconference integree",
+  "title": "Visioconference integree",
+  "description": "Depuis la version 4.6.0, BlueMind embarque une solution intégrée de visio-conférence basée sur Jitsi : BlueMind Video.",
+  "source": "@site/docs/Visioconference integree.md",
+  "sourceDirName": ".",
+  "slug": "/Visioconference integree",
+  "permalink": "/docs/Visioconference integree",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Visioconference integree.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Utilisation de l API MarketPlace",
+    "permalink": "/docs/Utilisation de l API MarketPlace"
+  },
+  "next": {
+    "title": "Visioconferences avec BlueMind Video",
+    "permalink": "/docs/Visioconferences avec BlueMind Video"
+  }
+}

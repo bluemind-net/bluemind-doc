@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video",
+  "id": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video",
+  "title": "Visioconférences avec BlueMind Video",
+  "description": "BlueMind Video est un service SAAS de visioconférence basé sur Jitsi et intégré à BlueMind depuis la version 4.6.0 : il ne nécessite pas l'installation d'un service tiers.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée",
+  "slug": "/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Visioconférences avec BlueMind Video",
+    "confluence_id": 79856114,
+    "position": 74
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Visioconferences avec StarLeaf",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconferences_avec_StarLeaf"
+  },
+  "next": {
+    "title": "Visioconférences avec Jitsi",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi"
+  }
+}

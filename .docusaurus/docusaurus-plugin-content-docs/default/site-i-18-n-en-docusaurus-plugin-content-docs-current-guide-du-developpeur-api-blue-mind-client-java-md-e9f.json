@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/API_BlueMind/Client_Java",
+  "id": "Guide_du_développeur/API_BlueMind/Client_Java",
+  "title": "Client Java",
+  "description": "",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_du_développeur/API_BlueMind/Client_Java.md",
+  "sourceDirName": "Guide_du_développeur/API_BlueMind",
+  "slug": "/Guide_du_développeur/API_BlueMind/Client_Java",
+  "permalink": "/docs/en/Guide_du_développeur/API_BlueMind/Client_Java",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Client Java",
+    "confluence_id": 79863461,
+    "position": 54
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Authentification",
+    "permalink": "/docs/en/Guide_du_développeur/API_BlueMind/Authentification"
+  },
+  "next": {
+    "title": "Client PHP",
+    "permalink": "/docs/en/Guide_du_développeur/API_BlueMind/Client_PHP"
+  }
+}

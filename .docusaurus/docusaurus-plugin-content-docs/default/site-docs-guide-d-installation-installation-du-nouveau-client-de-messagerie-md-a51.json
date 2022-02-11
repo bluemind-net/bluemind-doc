@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_d_installation/Installation_du_nouveau_client_de_messagerie",
+  "id": "Guide_d_installation/Installation_du_nouveau_client_de_messagerie",
+  "title": "Installation du nouveau client de messagerie",
+  "description": "A partir de la version 4.4 de BlueMind, vous avez la possibilité d'installer le nouveau webmail BlueMind afin de le proposer en test à vos utilisateurs.",
+  "source": "@site/docs/Guide_d_installation/Installation_du_nouveau_client_de_messagerie.md",
+  "sourceDirName": "Guide_d_installation",
+  "slug": "/Guide_d_installation/Installation_du_nouveau_client_de_messagerie",
+  "permalink": "/docs/Guide_d_installation/Installation_du_nouveau_client_de_messagerie",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Installation du nouveau client de messagerie",
+    "confluence_id": 66096434,
+    "position": 46
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Déploiement BlueMind 4 : points de vigilance",
+    "permalink": "/docs/Guide_d_installation/Déploiement_BlueMind_4_points_de_vigilance"
+  },
+  "next": {
+    "title": "Mise en œuvre de la souscription",
+    "permalink": "/docs/Guide_d_installation/Mise_en_œuvre_de_la_souscription"
+  }
+}

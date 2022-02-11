@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_XMPP",
+  "id": "Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_XMPP",
+  "title": "Administration du serveur XMPP",
+  "description": "Le serveur XMPP est conçu autour du serveur XMPP Tigase. La plupart des développements apportés sont des plugins autour de Tigase pour l'intégrer avec la solution BlueMind.",
+  "source": "@site/docs/Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_XMPP.md",
+  "sourceDirName": "Guide_de_l_administrateur/Administration_avancée",
+  "slug": "/Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_XMPP",
+  "permalink": "/docs/Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_XMPP",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Administration du serveur XMPP",
+    "confluence_id": 57771795,
+    "position": 62
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Administration avancée",
+    "permalink": "/docs/Guide_de_l_administrateur/Administration_avancée/"
+  },
+  "next": {
+    "title": "Administration du serveur calDav/cardDav",
+    "permalink": "/docs/Guide_de_l_administrateur/Administration_avancée/Administration_du_serveur_calDav_cardDav"
+  }
+}

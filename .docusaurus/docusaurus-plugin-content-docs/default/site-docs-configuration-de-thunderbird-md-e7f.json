@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Configuration de Thunderbird",
+  "id": "Configuration de Thunderbird",
+  "title": "Configuration de Thunderbird",
+  "description": "Télécharger et installer le client de messagerie sur le site de l'éditeur//www.mozilla.org/thunderbird/",
+  "source": "@site/docs/Configuration de Thunderbird.md",
+  "sourceDirName": ".",
+  "slug": "/Configuration de Thunderbird",
+  "permalink": "/docs/Configuration de Thunderbird",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Configuration de Thunderbird.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration de Contacts",
+    "permalink": "/docs/Configuration de Contacts"
+  },
+  "next": {
+    "title": "Configuration de l'environnement de développement",
+    "permalink": "/docs/Configuration de l'environnement de développement"
+  }
+}

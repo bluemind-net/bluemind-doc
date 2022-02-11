@@ -1,0 +1,25 @@
+{
+  "unversionedId": "FAQ/Outils_et_ressources_BlueMind",
+  "id": "FAQ/Outils_et_ressources_BlueMind",
+  "title": "Outils et ressources BlueMind",
+  "description": "Des outils et des ressources sont disponibles en ligne.",
+  "source": "@site/docs/FAQ/Outils_et_ressources_BlueMind.md",
+  "sourceDirName": "FAQ",
+  "slug": "/FAQ/Outils_et_ressources_BlueMind",
+  "permalink": "/en/FAQ/Outils_et_ressources_BlueMind",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Outils et ressources BlueMind",
+    "confluence_id": 57770216
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Compatibilite",
+    "permalink": "/en/FAQ/Compatibilite"
+  },
+  "next": {
+    "title": "Installation multi-backend",
+    "permalink": "/en/Guide_d_installation/Installation/Installation_multi_backend"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick",
+  "id": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick",
+  "title": "Exploring and analyzing data with bm-tick",
+  "description": "The DataExplorer tab is used to browse the database contents, i.e. the metrics collected.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick.md",
+  "sourceDirName": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick",
+  "slug": "/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Exploring and analyzing data with bm-tick",
+    "confluence_id": 79863265,
+    "position": 62
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Bm-Tick Monitoring",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/"
+  },
+  "next": {
+    "title": "Installation and Access",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès"
+  }
+}

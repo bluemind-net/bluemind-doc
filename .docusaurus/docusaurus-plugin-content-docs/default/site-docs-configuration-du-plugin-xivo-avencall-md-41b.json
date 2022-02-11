@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Configuration_du_plugin_Xivo_Avencall",
+  "id": "Configuration_du_plugin_Xivo_Avencall",
+  "title": "Configuration du plugin Xivo Avencall",
+  "description": "Le présent document présente l'installation et la configuration des plugins BlueMind permettant une interconnexion avec le produit XiVO d'Avencall.",
+  "source": "@site/docs/Configuration_du_plugin_Xivo_Avencall.md",
+  "sourceDirName": ".",
+  "slug": "/Configuration_du_plugin_Xivo_Avencall",
+  "permalink": "/docs/Configuration_du_plugin_Xivo_Avencall",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Configuration_du_plugin_Xivo_Avencall.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration du plugin Wazo",
+    "permalink": "/docs/Configuration_du_plugin_Wazo"
+  },
+  "next": {
+    "title": "Configuration du serveur EAS",
+    "permalink": "/docs/Configuration_du_serveur_EAS"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "FAQ_Foire_aux_questions_/index",
+  "id": "FAQ_Foire_aux_questions_/index",
+  "title": "FAQ",
+  "description": "- General",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/FAQ_Foire_aux_questions_/index.md",
+  "sourceDirName": "FAQ_Foire_aux_questions_",
+  "slug": "/FAQ_Foire_aux_questions_/",
+  "permalink": "/docs/en/FAQ_Foire_aux_questions_/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "FAQ",
+    "confluence_id": 79861446,
+    "position": 26
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Getting Started with Tasks",
+    "permalink": "/docs/en/Premiers_pas_avec_BlueMind/Débuter_avec_les_tâches"
+  },
+  "next": {
+    "title": "Compatibility",
+    "permalink": "/docs/en/FAQ_Foire_aux_questions_/Compatibilité"
+  }
+}

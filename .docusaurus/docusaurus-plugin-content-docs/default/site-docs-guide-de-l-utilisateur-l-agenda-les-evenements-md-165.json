@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/L_agenda/Les_événements",
+  "id": "Guide_de_l_utilisateur/L_agenda/Les_événements",
+  "title": "Les événements",
+  "description": "Création rapide",
+  "source": "@site/docs/Guide_de_l_utilisateur/L_agenda/Les_événements.md",
+  "sourceDirName": "Guide_de_l_utilisateur/L_agenda",
+  "slug": "/Guide_de_l_utilisateur/L_agenda/Les_événements",
+  "permalink": "/docs/Guide_de_l_utilisateur/L_agenda/Les_événements",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les événements",
+    "confluence_id": 57770493,
+    "position": 44
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Les calendriers externes",
+    "permalink": "/docs/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes"
+  },
+  "next": {
+    "title": "Lier une visioconférence à un événement",
+    "permalink": "/docs/Guide_de_l_utilisateur/L_agenda/Lier_une_visioconférence_à_un_événement"
+  }
+}

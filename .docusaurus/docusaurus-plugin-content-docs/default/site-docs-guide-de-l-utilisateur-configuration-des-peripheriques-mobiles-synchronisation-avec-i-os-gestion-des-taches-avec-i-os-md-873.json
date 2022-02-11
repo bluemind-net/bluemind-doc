@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Gestion_des_tâches_avec_iOS",
+  "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Gestion_des_tâches_avec_iOS",
+  "title": "Gestion des tâches avec iOS",
+  "description": "Vos tâches BlueMind peuvent être synchronisées et gérées sur votre appareil mobile Apple grâce à l'application « Rappels »",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Gestion_des_tâches_avec_iOS.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Gestion_des_tâches_avec_iOS",
+  "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Gestion_des_tâches_avec_iOS",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Gestion des tâches avec iOS",
+    "confluence_id": 57771099,
+    "position": 72
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Synchronisation avec iOS",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/"
+  },
+  "next": {
+    "title": "Importer les contacts locaux dans BlueMind",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Importer_les_contacts_locaux_dans_BlueMind"
+  }
+}

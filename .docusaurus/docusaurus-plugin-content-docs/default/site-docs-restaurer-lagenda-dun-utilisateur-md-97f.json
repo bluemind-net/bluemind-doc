@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Restaurer l'agenda d'un utilisateur",
+  "id": "Restaurer l'agenda d'un utilisateur",
+  "title": "Restaurer l'agenda d'un utilisateur",
+  "description": "Cette page vous présente les différentes étapes pour pouvoir restaurer un agenda précédemment sauvegardé par le système automatisé, que les sauvegardes soient externalisées ou non.",
+  "source": "@site/docs/Restaurer l'agenda d'un utilisateur.md",
+  "sourceDirName": ".",
+  "slug": "/Restaurer l'agenda d'un utilisateur",
+  "permalink": "/docs/Restaurer l'agenda d'un utilisateur",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Restaurer l'agenda d'un utilisateur.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Restauration unitaire - Navigation DataProtect",
+    "permalink": "/docs/Restauration unitaire - Navigation DataProtect"
+  },
+  "next": {
+    "title": "Restaurer les messages supprimes par un utilisateur",
+    "permalink": "/docs/Restaurer les messages supprimes par un utilisateur"
+  }
+}

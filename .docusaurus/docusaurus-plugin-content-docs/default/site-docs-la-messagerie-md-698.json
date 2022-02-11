@@ -1,0 +1,23 @@
+{
+  "unversionedId": "La_messagerie",
+  "id": "La_messagerie",
+  "title": "La messagerie",
+  "description": "La messagerie BlueMind propose via son client léger (webmail) une interface riche dotée de nombreuses fonctionnalités :",
+  "source": "@site/docs/La_messagerie.md",
+  "sourceDirName": ".",
+  "slug": "/La_messagerie",
+  "permalink": "/docs/La_messagerie",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/La_messagerie.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "La console d'administration",
+    "permalink": "/docs/La_console_d_administration"
+  },
+  "next": {
+    "title": "La messagerie instantanee",
+    "permalink": "/docs/La_messagerie_instantanee"
+  }
+}

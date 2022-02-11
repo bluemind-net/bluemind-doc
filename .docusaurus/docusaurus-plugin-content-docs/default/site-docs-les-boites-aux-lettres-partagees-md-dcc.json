@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Les boites aux lettres partagees",
+  "id": "Les boites aux lettres partagees",
+  "title": "Les boites aux lettres partagees",
+  "description": "Les boites aux lettres partagées sont des boites aux lettres qui, à la différence de celles des utilisateurs, ne sont pas nominatives : un ou plusieurs utilisateurs peuvent y être rattachés.",
+  "source": "@site/docs/Les boites aux lettres partagees.md",
+  "sourceDirName": ".",
+  "slug": "/Les boites aux lettres partagees",
+  "permalink": "/docs/Les boites aux lettres partagees",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Les boites aux lettres partagees.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les AD ne sont plus synchronises",
+    "permalink": "/docs/Les AD ne sont plus synchronises"
+  },
+  "next": {
+    "title": "Les calendriers externes",
+    "permalink": "/docs/Les calendriers externes"
+  }
+}

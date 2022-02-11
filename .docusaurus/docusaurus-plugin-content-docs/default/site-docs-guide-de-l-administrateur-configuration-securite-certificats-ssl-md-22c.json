@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL",
+  "id": "Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL",
+  "title": "Certificats SSL",
+  "description": "Les serveurs BlueMind utilisent des connexions sécurisés par certificats. Il est possible de remplacer les certificats générés lors de l'installation de BlueMind par des certificats personnalisés sur une installation mono-serveur.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Sécurité",
+  "slug": "/Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration/Sécurité/Certificats_SSL",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Certificats SSL",
+    "confluence_id": 57771347,
+    "position": 68
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Sécurité",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Sécurité/"
+  },
+  "next": {
+    "title": "Pare-feu",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Sécurité/Pare_feu"
+  }
+}

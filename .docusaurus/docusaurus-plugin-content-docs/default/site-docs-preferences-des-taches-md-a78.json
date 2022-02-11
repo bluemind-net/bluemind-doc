@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Preferences des taches",
+  "id": "Preferences des taches",
+  "title": "Preferences des taches",
+  "description": "Pour accéder aux préférences des tâches, se rendre dans \"Mon compte\" en cliquant sur le nom d'utilisateur à droite du bandeau de navigation :",
+  "source": "@site/docs/Preferences des taches.md",
+  "sourceDirName": ".",
+  "slug": "/Preferences des taches",
+  "permalink": "/docs/Preferences des taches",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Preferences des taches.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Preferences de messagerie",
+    "permalink": "/docs/Preferences de messagerie"
+  },
+  "next": {
+    "title": "Preferences du webmail",
+    "permalink": "/docs/Preferences du webmail"
+  }
+}

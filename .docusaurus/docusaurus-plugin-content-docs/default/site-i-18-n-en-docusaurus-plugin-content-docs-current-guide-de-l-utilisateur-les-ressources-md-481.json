@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Les_ressources",
+  "id": "Guide_de_l_utilisateur/Les_ressources",
+  "title": "Resources",
+  "description": "In addition to personal or group calendars, BlueMind allows you to manage resource calendars (vehicles, rooms, video projectors, etc.).",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/Les_ressources.md",
+  "sourceDirName": "Guide_de_l_utilisateur",
+  "slug": "/Guide_de_l_utilisateur/Les_ressources",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/Les_ressources",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Resources",
+    "confluence_id": 79862230,
+    "position": 50
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Tags",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Les_catégories_tags_"
+  },
+  "next": {
+    "title": "User Settings",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Paramètres_utilisateur"
+  }
+}

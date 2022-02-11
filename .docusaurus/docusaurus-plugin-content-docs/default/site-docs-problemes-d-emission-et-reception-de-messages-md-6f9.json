@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Problemes_d_emission_et_reception_de_messages",
+  "id": "Problemes_d_emission_et_reception_de_messages",
+  "title": "Problemes d'emission et reception de messages",
+  "description": "Les emails n'arrivent pas sur une adresse existante",
+  "source": "@site/docs/Problemes_d_emission_et_reception_de_messages.md",
+  "sourceDirName": ".",
+  "slug": "/Problemes_d_emission_et_reception_de_messages",
+  "permalink": "/docs/Problemes_d_emission_et_reception_de_messages",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Problemes_d_emission_et_reception_de_messages.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Presentation du produit",
+    "permalink": "/docs/Presentation_du_produit"
+  },
+  "next": {
+    "title": "Problemes de recherche et indexation",
+    "permalink": "/docs/Problemes_de_recherche_et_indexation"
+  }
+}

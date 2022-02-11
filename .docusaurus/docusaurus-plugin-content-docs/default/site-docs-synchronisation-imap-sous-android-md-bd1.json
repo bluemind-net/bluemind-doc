@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Synchronisation_IMAP_sous_Android",
+  "id": "Synchronisation_IMAP_sous_Android",
+  "title": "Synchronisation IMAP sous Android",
+  "description": "Ce guide a été réalisé avec un LG Nexus 5 sous Android 5.0.1",
+  "source": "@site/docs/Synchronisation_IMAP_sous_Android.md",
+  "sourceDirName": ".",
+  "slug": "/Synchronisation_IMAP_sous_Android",
+  "permalink": "/docs/Synchronisation_IMAP_sous_Android",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Synchronisation_IMAP_sous_Android.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Synchronisation IMAP du Blackberry",
+    "permalink": "/docs/Synchronisation_IMAP_du_Blackberry"
+  },
+  "next": {
+    "title": "Synchronisation IMAP sous Windows Phone",
+    "permalink": "/docs/Synchronisation_IMAP_sous_Windows_Phone"
+  }
+}

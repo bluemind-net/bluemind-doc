@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/index",
+  "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/index",
+  "title": "Configuration des clients lourds",
+  "description": "- Configuration des applications Apple",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_clients_lourds",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_clients_lourds/",
+  "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration des clients lourds",
+    "confluence_id": 57770864,
+    "position": 54
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Configuration des clients de messagerie instantanée",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée"
+  },
+  "next": {
+    "title": "Configuration des applications Apple",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/"
+  }
+}

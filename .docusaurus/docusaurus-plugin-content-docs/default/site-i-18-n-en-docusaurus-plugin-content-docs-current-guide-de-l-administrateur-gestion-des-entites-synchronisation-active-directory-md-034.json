@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory",
+  "title": "Active Directory Synchronization",
+  "description": "The professional BlueMind subscription includes access to tools that facilitate the integration of BlueMind into your information system.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Active Directory Synchronization",
+    "confluence_id": 79863186,
+    "position": 62
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Resources administration",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Ressources"
+  },
+  "next": {
+    "title": "LDAP Synchronization",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP"
+  }
+}

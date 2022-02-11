@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/index",
+  "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/index",
+  "title": "Configuring Thick Clients",
+  "description": "- Setting up Apple Applications",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/Configuration_des_clients_lourds/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_clients_lourds",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_clients_lourds/",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuring Thick Clients",
+    "confluence_id": 79862301,
+    "position": 54
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Setting up Instant Messaging Clients",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée"
+  },
+  "next": {
+    "title": "Setting up Apple Applications",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/"
+  }
+}

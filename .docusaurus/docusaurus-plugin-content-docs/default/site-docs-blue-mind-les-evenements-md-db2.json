@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Les_evenements",
+  "id": "BlueMind/Les_evenements",
+  "title": "Les evenements",
+  "description": "Création rapide",
+  "source": "@site/docs/BlueMind/Les_evenements.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Les_evenements",
+  "permalink": "/docs/BlueMind/Les_evenements",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Les_evenements.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les contacts",
+    "permalink": "/docs/BlueMind/Les_contacts"
+  },
+  "next": {
+    "title": "Les filtres de messages",
+    "permalink": "/docs/BlueMind/Les_filtres_de_messages"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration",
+  "id": "Guide_de_l_administrateur/Configuration",
+  "title": "Configuration",
+  "description": "La configuration d'un serveur BlueMind comprend des opérations propres à la plate-forme, qui touche à l'ensemble des domaines d'un serveur BlueMind et des opérations spécifiques à un domaine.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration.md",
+  "sourceDirName": "Guide_de_l_administrateur",
+  "slug": "/Guide_de_l_administrateur/Configuration",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guide_de_l_administrateur/Configuration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration",
+    "confluence_id": 57771266
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BlueMind et mobilite",
+    "permalink": "/docs/Guide_de_l_administrateur/BlueMind_et_mobilite"
+  },
+  "next": {
+    "title": "Gestion des entites",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entites"
+  }
+}

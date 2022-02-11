@@ -1,0 +1,26 @@
+{
+  "unversionedId": "FAQ",
+  "id": "FAQ",
+  "title": "FAQ",
+  "description": "- Général",
+  "source": "@site/docs/FAQ.md",
+  "sourceDirName": ".",
+  "slug": "/FAQ",
+  "permalink": "/docs/FAQ",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/FAQ.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "FAQ",
+    "confluence_id": 57770192
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentation BlueMind",
+    "permalink": "/docs/Documentation_BlueMind"
+  },
+  "next": {
+    "title": "Guide d'installation",
+    "permalink": "/docs/Guide_d_installation"
+  }
+}

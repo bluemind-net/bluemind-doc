@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Mise_en_place_du_SSO_Kerberos",
+  "id": "Mise_en_place_du_SSO_Kerberos",
+  "title": "Mise en place du SSO Kerberos",
+  "description": "Ce document a pour but de décrire la mise en place de la reconnaissance par BlueMind de l'authentification Kerberos dans une infrastructure Windows.",
+  "source": "@site/docs/Mise_en_place_du_SSO_Kerberos.md",
+  "sourceDirName": ".",
+  "slug": "/Mise_en_place_du_SSO_Kerberos",
+  "permalink": "/docs/Mise_en_place_du_SSO_Kerberos",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Mise_en_place_du_SSO_Kerberos.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mise en place du SSO CAS",
+    "permalink": "/docs/Mise_en_place_du_SSO_CAS"
+  },
+  "next": {
+    "title": "Mise oeuvre de MAPI pour Outlook",
+    "permalink": "/docs/Mise_oeuvre_de_MAPI_pour_Outlook"
+  }
+}

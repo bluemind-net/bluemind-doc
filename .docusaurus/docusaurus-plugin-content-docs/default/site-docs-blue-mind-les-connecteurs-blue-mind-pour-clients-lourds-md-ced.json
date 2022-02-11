@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Les_connecteurs_BlueMind_pour_clients_lourds",
+  "id": "BlueMind/Les_connecteurs_BlueMind_pour_clients_lourds",
+  "title": "Les connecteurs BlueMind pour clients lourds",
+  "description": "Le connecteur BlueMind pour Thunderbird est fourni par le paquet bm-connector-thunderbird, installé par défaut lors de l'installation de BlueMind. Une fois le paquet installé, les utilisateurs pourront trouver le connecteur dans la section Téléchargement de leur compte utilisateur.",
+  "source": "@site/docs/BlueMind/Les_connecteurs_BlueMind_pour_clients_lourds.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Les_connecteurs_BlueMind_pour_clients_lourds",
+  "permalink": "/docs/BlueMind/Les_connecteurs_BlueMind_pour_clients_lourds",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Les_connecteurs_BlueMind_pour_clients_lourds.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les categories tags",
+    "permalink": "/docs/BlueMind/Les_categories_tags"
+  },
+  "next": {
+    "title": "Les contacts",
+    "permalink": "/docs/BlueMind/Les_contacts"
+  }
+}

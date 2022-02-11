@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Logs - Fichiers journaux",
+  "id": "Logs - Fichiers journaux",
+  "title": "Logs - Fichiers journaux",
+  "description": "BlueMind conserve des journaux pour chaque type d'application et d'utilisation.",
+  "source": "@site/docs/Logs - Fichiers journaux.md",
+  "sourceDirName": ".",
+  "slug": "/Logs - Fichiers journaux",
+  "permalink": "/docs/Logs - Fichiers journaux",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Logs - Fichiers journaux.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lier une visioconference a un evenement",
+    "permalink": "/docs/Lier une visioconference a un evenement"
+  },
+  "next": {
+    "title": "MDM - Mobile Device Management",
+    "permalink": "/docs/MDM - Mobile Device Management"
+  }
+}

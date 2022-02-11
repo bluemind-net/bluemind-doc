@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Installation_d_un_serveur_Edge_:_Nginx_et_Postfix",
+  "id": "BlueMind/Installation_d_un_serveur_Edge_:_Nginx_et_Postfix",
+  "title": "Installation d'un serveur Edge : Nginx et Postfix",
+  "description": "Le présent document a pour but de décrire la procédure de déploiement d'un serveur de type Edge BlueMind comme relai postfix et proxy.",
+  "source": "@site/docs/BlueMind/Installation_d_un_serveur_Edge_:_Nginx_et_Postfix.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Installation_d_un_serveur_Edge_:_Nginx_et_Postfix",
+  "permalink": "/docs/BlueMind/Installation_d_un_serveur_Edge_:_Nginx_et_Postfix",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Installation_d_un_serveur_Edge_:_Nginx_et_Postfix.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/docs/BlueMind/Installation"
+  },
+  "next": {
+    "title": "Installation d'une VM Android",
+    "permalink": "/docs/BlueMind/Installation_d_une_VM_Android"
+  }
+}

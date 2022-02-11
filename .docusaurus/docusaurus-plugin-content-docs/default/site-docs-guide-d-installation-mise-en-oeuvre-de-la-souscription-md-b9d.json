@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_d_installation/Mise_en_œuvre_de_la_souscription",
+  "id": "Guide_d_installation/Mise_en_œuvre_de_la_souscription",
+  "title": "Mise en œuvre de la souscription",
+  "description": "La souscription",
+  "source": "@site/docs/Guide_d_installation/Mise_en_œuvre_de_la_souscription.md",
+  "sourceDirName": "Guide_d_installation",
+  "slug": "/Guide_d_installation/Mise_en_œuvre_de_la_souscription",
+  "permalink": "/docs/Guide_d_installation/Mise_en_œuvre_de_la_souscription",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Mise en œuvre de la souscription",
+    "confluence_id": 57771207,
+    "position": 48
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Installation du nouveau client de messagerie",
+    "permalink": "/docs/Guide_d_installation/Installation_du_nouveau_client_de_messagerie"
+  },
+  "next": {
+    "title": "Mise à jour de BlueMind",
+    "permalink": "/docs/Guide_d_installation/Mise_à_jour_de_BlueMind"
+  }
+}

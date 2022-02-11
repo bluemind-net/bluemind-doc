@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Modifier_la_page_d_accueil_de_BlueMind",
+  "id": "BlueMind/Modifier_la_page_d_accueil_de_BlueMind",
+  "title": "Modifier la page d'accueil de BlueMind",
+  "description": "Par défaut, BlueMind permet de personnaliser le logo de la page d'accueil.",
+  "source": "@site/docs/BlueMind/Modifier_la_page_d_accueil_de_BlueMind.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Modifier_la_page_d_accueil_de_BlueMind",
+  "permalink": "/docs/BlueMind/Modifier_la_page_d_accueil_de_BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Modifier_la_page_d_accueil_de_BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mise oeuvre de MAPI pour Outlook",
+    "permalink": "/docs/BlueMind/Mise_oeuvre_de_MAPI_pour_Outlook"
+  },
+  "next": {
+    "title": "Monitoring Bm-Tick",
+    "permalink": "/docs/BlueMind/Monitoring_Bm_Tick"
+  }
+}

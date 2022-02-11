@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Mise_en_place_du_SSO_CAS",
+  "id": "BlueMind/Mise_en_place_du_SSO_CAS",
+  "title": "Mise en place du SSO CAS",
+  "description": "Ce document a pour but de décrire la mise en place de la reconnaissance par BlueMind de l'authentification CAS.",
+  "source": "@site/docs/BlueMind/Mise_en_place_du_SSO_CAS.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Mise_en_place_du_SSO_CAS",
+  "permalink": "/docs/BlueMind/Mise_en_place_du_SSO_CAS",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Mise_en_place_du_SSO_CAS.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mise en oeuvre de la souscription",
+    "permalink": "/docs/BlueMind/Mise_en_oeuvre_de_la_souscription"
+  },
+  "next": {
+    "title": "Mise en place du SSO Kerberos",
+    "permalink": "/docs/BlueMind/Mise_en_place_du_SSO_Kerberos"
+  }
+}

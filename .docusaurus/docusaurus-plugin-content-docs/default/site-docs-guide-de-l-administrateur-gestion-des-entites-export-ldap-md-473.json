@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entites/Export_LDAP",
+  "id": "Guide_de_l_administrateur/Gestion_des_entites/Export_LDAP",
+  "title": "Export LDAP",
+  "description": "BlueMind permet d'exporter son annuaire au format LDAP afin d'être vu et consultable par d'autres applications comme un annuaire LDAP.",
+  "source": "@site/docs/Guide_de_l_administrateur/Gestion_des_entites/Export_LDAP.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entites",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entites/Export_LDAP",
+  "permalink": "/en/Guide_de_l_administrateur/Gestion_des_entites/Export_LDAP",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Export LDAP",
+    "confluence_id": 57771632
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Entrees d'annuaire",
+    "permalink": "/en/Guide_de_l_administrateur/Gestion_des_entites/Entrees_d_annuaire"
+  },
+  "next": {
+    "title": "Synchronisation Active Directory",
+    "permalink": "/en/Guide_de_l_administrateur/Gestion_des_entites/Synchronisation_Active_Directory"
+  }
+}

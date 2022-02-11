@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées",
+  "id": "Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées",
+  "title": "Partager le statut de lecture des boîtes partagées",
+  "description": "Changement de comportement dans BlueMind 4.5",
+  "source": "@site/docs/Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées",
+  "permalink": "/docs/Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Partager le statut de lecture des boîtes partagées",
+    "confluence_id": 57771944,
+    "position": 66
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Nettoyage du cache du navigateur client",
+    "permalink": "/docs/Base_de_connaissance/Nettoyage_du_cache_du_navigateur_client"
+  },
+  "next": {
+    "title": "Personnaliser le logo de l'application",
+    "permalink": "/docs/Base_de_connaissance/Personnaliser_le_logo_de_l_application"
+  }
+}

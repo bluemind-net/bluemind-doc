@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi",
+  "id": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi",
+  "title": "Videoconferences with Jitsi",
+  "description": "From 4.5.0, BlueMind can be connected to a Jitsi server so that users can easily create videoconferences and link them to their calendar meetings.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée",
+  "slug": "/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Videoconferences with Jitsi",
+    "confluence_id": 79862938,
+    "position": 76
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Videoconferences with BlueMind.Video",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video"
+  },
+  "next": {
+    "title": "Automatic Memory Adjustment",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire"
+  }
+}

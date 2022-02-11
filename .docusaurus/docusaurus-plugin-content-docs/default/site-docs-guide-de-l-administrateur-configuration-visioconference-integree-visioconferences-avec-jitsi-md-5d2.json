@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_Jitsi",
+  "id": "Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_Jitsi",
+  "title": "Visioconferences avec Jitsi",
+  "description": "A partir de sa version 4.5.0, BlueMind peut être connecté à un serveur Jitsi afin de proposer aux utilisateurs de facilement créer des conférences et les relier à leurs réunions d'agenda.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_Jitsi.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Visioconference_integree",
+  "slug": "/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_Jitsi",
+  "permalink": "/en/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_Jitsi",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Visioconferences avec Jitsi",
+    "confluence_id": 72188042
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Visioconferences avec BlueMind Video",
+    "permalink": "/en/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_BlueMind_Video"
+  },
+  "next": {
+    "title": "Visioconferences avec StarLeaf",
+    "permalink": "/en/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconferences_avec_StarLeaf"
+  }
+}

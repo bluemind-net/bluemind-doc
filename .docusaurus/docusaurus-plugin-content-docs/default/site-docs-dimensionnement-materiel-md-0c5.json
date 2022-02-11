@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Dimensionnement materiel",
+  "id": "Dimensionnement materiel",
+  "title": "Dimensionnement materiel",
+  "description": "Les données indiquées ici le sont à titre indicatif. En effet, pour un même nombre d’utilisateurs, l’utilisation peut-être très différente selon les structures et habitudes. Le nombre de mails, leur taille, le nombre de destinataires dans les mails, le nombre de rdv, de planification... tout ceci par jour est très variable.",
+  "source": "@site/docs/Dimensionnement materiel.md",
+  "sourceDirName": ".",
+  "slug": "/Dimensionnement materiel",
+  "permalink": "/docs/Dimensionnement materiel",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Dimensionnement materiel.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developper's guide",
+    "permalink": "/docs/Developper's guide"
+  },
+  "next": {
+    "title": "Disparitions et modifications d'evenements",
+    "permalink": "/docs/Disparitions et modifications d'evenements"
+  }
+}

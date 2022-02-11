@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Problemes_de_synchronisation_mobile",
+  "id": "BlueMind/Problemes_de_synchronisation_mobile",
+  "title": "Problemes de synchronisation mobile",
+  "description": "Vous trouverez ci-dessous des éléments d'investigation et de contrôles lorsqu'un, plusieurs ou tous les mobiles rencontrent des problème dans la synchronisation de BlueMind avec leur appareil mobile.",
+  "source": "@site/docs/BlueMind/Problemes_de_synchronisation_mobile.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Problemes_de_synchronisation_mobile",
+  "permalink": "/docs/BlueMind/Problemes_de_synchronisation_mobile",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Problemes_de_synchronisation_mobile.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Problemes de recherche et indexation",
+    "permalink": "/docs/BlueMind/Problemes_de_recherche_et_indexation"
+  },
+  "next": {
+    "title": "Procedure de depart utilisateur et redirection de ses mails",
+    "permalink": "/docs/BlueMind/Procedure_de_depart_utilisateur_et_redirection_de_ses_mails"
+  }
+}

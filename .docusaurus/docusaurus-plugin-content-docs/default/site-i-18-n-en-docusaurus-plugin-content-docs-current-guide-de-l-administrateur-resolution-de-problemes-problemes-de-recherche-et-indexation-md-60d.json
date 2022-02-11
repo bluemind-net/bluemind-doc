@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation",
+  "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation",
+  "title": "Search and indexing issues",
+  "description": "- The search bar doesn't show the option to search all folders",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation.md",
+  "sourceDirName": "Guide_de_l_administrateur/Résolution_de_problèmes",
+  "slug": "/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Search and indexing issues",
+    "confluence_id": 79863422,
+    "position": 76
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Trouble sending or receiving emails",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_d_émission_et_réception_de_messages"
+  },
+  "next": {
+    "title": "Synchronization issues with mobile devices",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_synchronisation_mobile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses",
+  "id": "Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses",
+  "title": "Managing Address Books",
+  "description": "You can manage your own address books as well as subscriptions to external address books (domain, other users, etc.) in Contact preferences.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Les_contacts",
+  "slug": "/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Managing Address Books",
+    "confluence_id": 79861789,
+    "position": 42
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Contacts",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Les_contacts/"
+  },
+  "next": {
+    "title": "Calendar",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/L_agenda/"
+  }
+}

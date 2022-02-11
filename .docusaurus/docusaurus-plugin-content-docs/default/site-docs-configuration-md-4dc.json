@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Configuration",
+  "id": "Configuration",
+  "title": "Configuration",
+  "description": "La configuration d'un serveur BlueMind comprend des opérations propres à la plate-forme, qui touche à l'ensemble des domaines d'un serveur BlueMind et des opérations spécifiques à un domaine.",
+  "source": "@site/docs/Configuration.md",
+  "sourceDirName": ".",
+  "slug": "/Configuration",
+  "permalink": "/docs/Configuration",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Configuration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Compatibilite",
+    "permalink": "/docs/Compatibilite"
+  },
+  "next": {
+    "title": "Configuration Systeme",
+    "permalink": "/docs/Configuration_Systeme"
+  }
+}

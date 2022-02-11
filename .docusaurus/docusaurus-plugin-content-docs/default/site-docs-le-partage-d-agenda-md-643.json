@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Le_partage_d_agenda",
+  "id": "Le_partage_d_agenda",
+  "title": "Le partage d'agenda",
+  "description": "À partir de BlueMind 3.5, un utilisateur peut posséder plusieurs agendas dont il peut gérer les partages : agenda principal BlueMind, agenda secondaire, agenda (d'utilisateur ou de domaine) dont il a lui-même reçu les droits d'administration ou encore agenda externe synchronisé.",
+  "source": "@site/docs/Le_partage_d_agenda.md",
+  "sourceDirName": ".",
+  "slug": "/Le_partage_d_agenda",
+  "permalink": "/docs/Le_partage_d_agenda",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Le_partage_d_agenda.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Le composeur BlueMind",
+    "permalink": "/docs/Le_composeur_BlueMind"
+  },
+  "next": {
+    "title": "Le serveur est utilise pour envoyer du SPAM",
+    "permalink": "/docs/Le_serveur_est_utilise_pour_envoyer_du_SPAM"
+  }
+}

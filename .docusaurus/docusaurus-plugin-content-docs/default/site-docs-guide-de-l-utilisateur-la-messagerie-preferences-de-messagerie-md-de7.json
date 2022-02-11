@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie",
+  "title": "Preferences de messagerie",
+  "description": "Pour accéder aux préférences de la messagerie, se rendre dans \"Mon compte\" en cliquant sur le nom d'utilisateur à droite du bandeau de navigation :",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie",
+  "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Preferences de messagerie",
+    "confluence_id": 57770359
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Moteur de recherche avance",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avance"
+  },
+  "next": {
+    "title": "Le composeur BlueMind",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind"
+  }
+}

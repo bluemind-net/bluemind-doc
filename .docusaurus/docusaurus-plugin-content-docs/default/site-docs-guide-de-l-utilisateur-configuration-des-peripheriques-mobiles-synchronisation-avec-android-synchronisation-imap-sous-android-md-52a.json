@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android",
+  "id": "Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android",
+  "title": "Synchronisation IMAP sous Android",
+  "description": "Ce guide a été réalisé avec un LG Nexus 5 sous Android 5.0.1",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Android",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android",
+  "permalink": "/en/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Synchronisation IMAP sous Android",
+    "confluence_id": 57771006
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Preferences des taches",
+    "permalink": "/en/Guide_de_l_utilisateur/Les_taches/Preferences_des_taches"
+  },
+  "next": {
+    "title": "Synchronisation IMAP du Blackberry",
+    "permalink": "/en/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry"
+  }
+}

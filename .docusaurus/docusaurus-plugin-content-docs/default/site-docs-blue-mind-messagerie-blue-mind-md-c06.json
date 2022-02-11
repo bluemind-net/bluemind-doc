@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Messagerie_BlueMind",
+  "id": "BlueMind/Messagerie_BlueMind",
+  "title": "Messagerie BlueMind",
+  "description": "BlueMind a développé un tout nouveau webmail basé sur les technologies web proposées par les navigateurs récents : Web App Javascript, elle offre une ergonomie repensée et intuitive, avec les 3 volets adaptés aux écrans larges. Elle permet surtout un fonctionnement plus rapide et fluide grâce à l'utilisation du stockage local du navigateur.",
+  "source": "@site/docs/BlueMind/Messagerie_BlueMind.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Messagerie_BlueMind",
+  "permalink": "/docs/BlueMind/Messagerie_BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Messagerie_BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Maintenance des mails",
+    "permalink": "/docs/BlueMind/Maintenance_des_mails"
+  },
+  "next": {
+    "title": "Messagerie multi-domaines",
+    "permalink": "/docs/BlueMind/Messagerie_multi_domaines"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/L_agenda/index",
+  "id": "Guide_de_l_utilisateur/L_agenda/index",
+  "title": "Calendar",
+  "description": "BlueMind incorporates a complete shared calendar with many features such as:",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/L_agenda/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/L_agenda",
+  "slug": "/Guide_de_l_utilisateur/L_agenda/",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/L_agenda/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Calendar",
+    "confluence_id": 79861808,
+    "position": 38
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Managing Address Books",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses"
+  },
+  "next": {
+    "title": "Sharing Calendars",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda"
+  }
+}

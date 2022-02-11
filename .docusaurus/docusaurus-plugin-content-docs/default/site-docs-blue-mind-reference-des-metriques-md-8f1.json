@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Reference_des_metriques",
+  "id": "BlueMind/Reference_des_metriques",
+  "title": "Reference des metriques",
+  "description": "Le packaging Tick par BlueMind apporte la surveillance d'un grand nombre de données (appelées métriques). Certaines données surveillées sont brutes mais d'autres sont issues de pré-traitements afin d'offrir une plus grande pertinence et de faciliter leur interprétation et analyse.",
+  "source": "@site/docs/BlueMind/Reference_des_metriques.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Reference_des_metriques",
+  "permalink": "/docs/BlueMind/Reference_des_metriques",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Reference_des_metriques.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Procedure de depart utilisateur et redirection de ses mails",
+    "permalink": "/docs/BlueMind/Procedure_de_depart_utilisateur_et_redirection_de_ses_mails"
+  },
+  "next": {
+    "title": "Resolution de problemes",
+    "permalink": "/docs/BlueMind/Resolution_de_problemes"
+  }
+}

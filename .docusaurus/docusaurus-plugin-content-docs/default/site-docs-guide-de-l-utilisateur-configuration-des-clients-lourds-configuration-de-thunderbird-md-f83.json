@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird",
+  "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird",
+  "title": "Configuration de Thunderbird",
+  "description": "Télécharger et installer le client de messagerie sur le site de l'éditeur//www.mozilla.org/thunderbird/",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_clients_lourds",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird",
+  "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration de Thunderbird",
+    "confluence_id": 57770889,
+    "position": 62
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Configuration de Contacts",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_des_applications_Apple/Configuration_de_Contacts"
+  },
+  "next": {
+    "title": "Synchronisation avec Outlook",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook"
+  }
+}

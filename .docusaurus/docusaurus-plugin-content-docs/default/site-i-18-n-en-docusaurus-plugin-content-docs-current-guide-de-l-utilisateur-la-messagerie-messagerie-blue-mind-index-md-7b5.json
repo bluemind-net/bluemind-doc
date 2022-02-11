@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/index",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/index",
+  "title": "BlueMind Mail",
+  "description": "BlueMind has developed a brand new webmail application based on the latest browser technology – Web App Javascript. This has allowed us to build a fully redesigned and intuitive interface with 3 panes adapted to large screens. Most importantly, it helps make the application faster and smoother by using local browser storage.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "BlueMind Mail",
+    "confluence_id": 79861518,
+    "position": 40
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Mail",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie/"
+  },
+  "next": {
+    "title": "Le composeur BlueMind",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_un_emplacement_externe",
+  "id": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_un_emplacement_externe",
+  "title": "Restoring a backup from an external source",
+  "description": "When BlueMind backups are stored externally and you want to restore data, you must first move the data to the BlueMind server so that it recognizes it.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_un_emplacement_externe.md",
+  "sourceDirName": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect",
+  "slug": "/Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_un_emplacement_externe",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_un_emplacement_externe",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Restoring a backup from an external source",
+    "confluence_id": 79863321,
+    "position": 60
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Single-user restoration - DataProtect Navigator",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/"
+  },
+  "next": {
+    "title": "Disaster Recovery",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_"
+  }
+}

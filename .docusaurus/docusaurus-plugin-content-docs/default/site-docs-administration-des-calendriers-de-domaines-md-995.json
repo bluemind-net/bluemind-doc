@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Administration des calendriers de domaines",
+  "id": "Administration des calendriers de domaines",
+  "title": "Administration des calendriers de domaines",
+  "description": "Le calendrier de domaine est un calendrier commun aux utilisateurs. En plus de la simple consultation, l'administrateur peut déléguer les droits de modification ou de gestion des calendriers à des utilisateurs ou groupes.",
+  "source": "@site/docs/Administration des calendriers de domaines.md",
+  "sourceDirName": ".",
+  "slug": "/Administration des calendriers de domaines",
+  "permalink": "/docs/Administration des calendriers de domaines",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Administration des calendriers de domaines.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Administration des boites aux lettres partagees",
+    "permalink": "/docs/Administration des boites aux lettres partagees"
+  },
+  "next": {
+    "title": "Administration des groupes",
+    "permalink": "/docs/Administration des groupes"
+  }
+}

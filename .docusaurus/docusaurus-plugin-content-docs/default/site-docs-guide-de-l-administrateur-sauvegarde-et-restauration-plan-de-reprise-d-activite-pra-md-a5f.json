@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_",
+  "id": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_",
+  "title": "Plan de Reprise d'Activité (PRA)",
+  "description": "Cette documentation décrit la procédure de PRA permettant de remonter une architecture BlueMind à partir d'une sauvegarde. La restauration d'un serveur peut prendre beaucoup de temps et ne devrait être utilisé qu'en dernier recours.",
+  "source": "@site/docs/Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_.md",
+  "sourceDirName": "Guide_de_l_administrateur/Sauvegarde_et_restauration",
+  "slug": "/Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_",
+  "permalink": "/docs/Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Plan de Reprise d'Activité (PRA)",
+    "confluence_id": 57771731,
+    "position": 52
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Restauration d'une sauvegarde depuis un emplacement externe",
+    "permalink": "/docs/Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_un_emplacement_externe"
+  },
+  "next": {
+    "title": "BlueMind et mobilité",
+    "permalink": "/docs/Guide_de_l_administrateur/BlueMind_et_mobilité/"
+  }
+}

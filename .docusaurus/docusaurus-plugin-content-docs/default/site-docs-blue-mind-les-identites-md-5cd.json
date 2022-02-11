@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Les_identites",
+  "id": "BlueMind/Les_identites",
+  "title": "Les identites",
+  "description": "BlueMind permet de créer plusieurs identités pour un même compte utilisateur.",
+  "source": "@site/docs/BlueMind/Les_identites.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Les_identites",
+  "permalink": "/docs/BlueMind/Les_identites",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Les_identites.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les filtres de messages",
+    "permalink": "/docs/BlueMind/Les_filtres_de_messages"
+  },
+  "next": {
+    "title": "Les methodes d'authentification",
+    "permalink": "/docs/BlueMind/Les_methodes_d_authentification"
+  }
+}

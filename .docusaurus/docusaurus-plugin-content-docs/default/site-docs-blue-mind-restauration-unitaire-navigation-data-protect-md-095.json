@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Restauration_unitaire___Navigation_DataProtect",
+  "id": "BlueMind/Restauration_unitaire___Navigation_DataProtect",
+  "title": "Restauration unitaire - Navigation DataProtect",
+  "description": "La restauration unitaire est une fonctionnalité très pratique proposée par BlueMind qui permet de restaurer les données d'un seul utilisateur rapidement. La restauration est réalisée graphiquement et permet de choisir le type d'objet (entité : utilisateur, mail, calendrier boite partagée, etc..), puis l'objet lui-même dont les données doivent être restaurées",
+  "source": "@site/docs/BlueMind/Restauration_unitaire___Navigation_DataProtect.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Restauration_unitaire___Navigation_DataProtect",
+  "permalink": "/docs/BlueMind/Restauration_unitaire___Navigation_DataProtect",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Restauration_unitaire___Navigation_DataProtect.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Restauration manuelle d'une boite utilisateur ou partagee",
+    "permalink": "/docs/BlueMind/Restauration_manuelle_d_une_boite_utilisateur_ou_partagee"
+  },
+  "next": {
+    "title": "Restaurer l'agenda d'un utilisateur",
+    "permalink": "/docs/BlueMind/Restaurer_l_agenda_d_un_utilisateur"
+  }
+}

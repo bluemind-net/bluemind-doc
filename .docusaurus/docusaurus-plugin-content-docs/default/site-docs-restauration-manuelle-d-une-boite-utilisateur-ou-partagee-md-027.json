@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Restauration_manuelle_d_une_boite_utilisateur_ou_partagee",
+  "id": "Restauration_manuelle_d_une_boite_utilisateur_ou_partagee",
+  "title": "Restauration manuelle d'une boite utilisateur ou partagee",
+  "description": "Cette page vous guide afin de restaurer le contenu d'une boîte de messagerie (d'utilisateur ou partagée) à partir d'un répertoire de sauvegarde.",
+  "source": "@site/docs/Restauration_manuelle_d_une_boite_utilisateur_ou_partagee.md",
+  "sourceDirName": ".",
+  "slug": "/Restauration_manuelle_d_une_boite_utilisateur_ou_partagee",
+  "permalink": "/docs/Restauration_manuelle_d_une_boite_utilisateur_ou_partagee",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Restauration_manuelle_d_une_boite_utilisateur_ou_partagee.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Restauration du contenu d une boite utilisateur ou partagee",
+    "permalink": "/docs/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee"
+  },
+  "next": {
+    "title": "Restauration unitaire - Navigation DataProtect",
+    "permalink": "/docs/Restauration_unitaire___Navigation_DataProtect"
+  }
+}

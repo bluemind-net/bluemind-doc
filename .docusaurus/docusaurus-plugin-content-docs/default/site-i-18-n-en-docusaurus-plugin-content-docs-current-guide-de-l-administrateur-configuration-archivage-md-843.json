@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Archivage",
+  "id": "Guide_de_l_administrateur/Configuration/Archivage",
+  "title": "Archiving",
+  "description": "BlueMind has a centralized archiving system. This enables you to take some weight off storage servers by storing some messages (older ones for example) on another server (or a mount point on another storage system) with lower storage costs.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Configuration/Archivage.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration",
+  "slug": "/Guide_de_l_administrateur/Configuration/Archivage",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Archivage",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Archiving",
+    "confluence_id": 79862828,
+    "position": 60
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Automatic Memory Adjustment",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire"
+  },
+  "next": {
+    "title": "System Configuration",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Configuration_système"
+  }
+}

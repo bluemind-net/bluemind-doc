@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Administration du serveur calDav-cardDav",
+  "id": "Administration du serveur calDav-cardDav",
+  "title": "Administration du serveur calDav-cardDav",
+  "description": "Calendar (calDav)",
+  "source": "@site/docs/Administration du serveur calDav-cardDav.md",
+  "sourceDirName": ".",
+  "slug": "/Administration du serveur calDav-cardDav",
+  "permalink": "/docs/Administration du serveur calDav-cardDav",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Administration du serveur calDav-cardDav.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Administration des utilisateurs",
+    "permalink": "/docs/Administration des utilisateurs"
+  },
+  "next": {
+    "title": "Ajustement automatique de la memoire",
+    "permalink": "/docs/Ajustement automatique de la memoire"
+  }
+}

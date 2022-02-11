@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Paramètres_utilisateur",
+  "id": "Guide_de_l_utilisateur/Paramètres_utilisateur",
+  "title": "Paramètres utilisateur",
+  "description": "L'interface de gestion des paramètres permet à l'utilisateur de personnaliser son environnement BlueMind.",
+  "source": "@site/docs/Guide_de_l_utilisateur/Paramètres_utilisateur.md",
+  "sourceDirName": "Guide_de_l_utilisateur",
+  "slug": "/Guide_de_l_utilisateur/Paramètres_utilisateur",
+  "permalink": "/docs/Guide_de_l_utilisateur/Paramètres_utilisateur",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Paramètres utilisateur",
+    "confluence_id": 57770769,
+    "position": 46
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Les ressources",
+    "permalink": "/docs/Guide_de_l_utilisateur/Les_ressources"
+  },
+  "next": {
+    "title": "Guide d'installation",
+    "permalink": "/docs/Guide_d_installation/"
+  }
+}

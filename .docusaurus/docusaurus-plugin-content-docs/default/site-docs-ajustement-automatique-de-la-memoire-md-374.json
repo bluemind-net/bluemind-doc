@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Ajustement automatique de la memoire",
+  "id": "Ajustement automatique de la memoire",
+  "title": "Ajustement automatique de la memoire",
+  "description": "La mémoire par défaut des composants java est réajustée automatiquement lors du démarrage de BlueMind.",
+  "source": "@site/docs/Ajustement automatique de la memoire.md",
+  "sourceDirName": ".",
+  "slug": "/Ajustement automatique de la memoire",
+  "permalink": "/docs/Ajustement automatique de la memoire",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ajustement automatique de la memoire.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Administration du serveur calDav-cardDav",
+    "permalink": "/docs/Administration du serveur calDav-cardDav"
+  },
+  "next": {
+    "title": "Applications et Composants",
+    "permalink": "/docs/Applications et Composants"
+  }
+}

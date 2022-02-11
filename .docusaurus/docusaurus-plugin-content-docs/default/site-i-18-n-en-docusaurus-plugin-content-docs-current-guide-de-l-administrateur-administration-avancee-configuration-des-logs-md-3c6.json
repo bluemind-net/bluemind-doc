@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Administration_avancée/Configuration_des_logs",
+  "id": "Guide_de_l_administrateur/Administration_avancée/Configuration_des_logs",
+  "title": "Log Configuration",
+  "description": "BlueMind keeps logs for each type of application and usage.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Administration_avancée/Configuration_des_logs.md",
+  "sourceDirName": "Guide_de_l_administrateur/Administration_avancée",
+  "slug": "/Guide_de_l_administrateur/Administration_avancée/Configuration_des_logs",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Configuration_des_logs",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Log Configuration",
+    "confluence_id": 79863368,
+    "position": 66
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "CLI Admin Client",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration"
+  },
+  "next": {
+    "title": "Installing an Edge server: Nginx and Postfix",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Administration_avancée/Installation_d_un_serveur_Edge_Nginx_et_Postfix"
+  }
+}

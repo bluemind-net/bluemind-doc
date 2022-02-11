@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine",
+  "id": "Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine",
+  "title": "Router directement les messages vers un autre domaine",
+  "description": "Blue Mind doit être capable de ne gérer qu’une partie des utilisateurs d’un même domaine afin de s'intégrer au sein d'une architecture dans laquelle les utilisateurs d'un même domaine sont gérés par différents systèmes, et donc serveurs de messagerie.",
+  "source": "@site/docs/Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine.md",
+  "sourceDirName": "Guide_de_l_administrateur/Administration_avancée",
+  "slug": "/Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine",
+  "permalink": "/docs/Guide_de_l_administrateur/Administration_avancée/Router_directement_les_messages_vers_un_autre_domaine",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Router directement les messages vers un autre domaine",
+    "confluence_id": 57771821,
+    "position": 72
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Maintenance des mails",
+    "permalink": "/docs/Guide_de_l_administrateur/Administration_avancée/Maintenance_des_mails"
+  },
+  "next": {
+    "title": "Résolution de problèmes",
+    "permalink": "/docs/Guide_de_l_administrateur/Résolution_de_problèmes/"
+  }
+}

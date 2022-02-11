@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/index",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/index",
+  "title": "Messagerie BlueMind",
+  "description": "BlueMind a développé un tout nouveau webmail basé sur les technologies web proposées par les navigateurs récents : Web App Javascript, elle offre une ergonomie repensée et intuitive, avec les 3 volets adaptés aux écrans larges. Elle permet surtout un fonctionnement plus rapide et fluide grâce à l'utilisation du stockage local du navigateur.",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/",
+  "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Messagerie BlueMind",
+    "confluence_id": 66096291,
+    "position": 40
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "La messagerie",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/"
+  },
+  "next": {
+    "title": "Le composeur BlueMind",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/XMPP_Server_Administration",
+  "id": "BlueMind/XMPP_Server_Administration",
+  "title": "XMPP Server Administration",
+  "description": "Le serveur XMPP est conçu autour du serveur XMPP Tigase. La plupart des développements apportés sont des plugins autour de Tigase pour l'intégrer avec la solution BlueMind.",
+  "source": "@site/docs/BlueMind/XMPP_Server_Administration.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/XMPP_Server_Administration",
+  "permalink": "/docs/BlueMind/XMPP_Server_Administration",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/XMPP_Server_Administration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vues",
+    "permalink": "/docs/BlueMind/Vues"
+  },
+  "next": {
+    "title": "bm-tick installation et acces",
+    "permalink": "/docs/BlueMind/bm_tick_installation_et_acces"
+  }
+}

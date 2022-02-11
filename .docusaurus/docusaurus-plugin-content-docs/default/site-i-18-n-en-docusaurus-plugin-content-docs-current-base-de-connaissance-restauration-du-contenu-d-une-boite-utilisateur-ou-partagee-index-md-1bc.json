@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/index",
+  "id": "Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/index",
+  "title": "Restoring user or mailshare mailbox contents",
+  "description": "This page describes the procedure to follow in the following cases:",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/index.md",
+  "sourceDirName": "Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée",
+  "slug": "/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/",
+  "permalink": "/docs/en/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Restoring user or mailshare mailbox contents",
+    "confluence_id": 79863552,
+    "position": 70
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Knowledge Base",
+    "permalink": "/docs/en/Base_de_connaissance/"
+  },
+  "next": {
+    "title": "Manual user or mailshare restoration",
+    "permalink": "/docs/en/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée"
+  }
+}

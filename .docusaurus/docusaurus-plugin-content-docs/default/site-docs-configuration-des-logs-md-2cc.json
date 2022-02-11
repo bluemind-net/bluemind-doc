@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Configuration_des_logs",
+  "id": "Configuration_des_logs",
+  "title": "Configuration des logs",
+  "description": "BlueMind conserve des journaux pour chaque type d'application et d'utilisation.",
+  "source": "@site/docs/Configuration_des_logs.md",
+  "sourceDirName": ".",
+  "slug": "/Configuration_des_logs",
+  "permalink": "/docs/Configuration_des_logs",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Configuration_des_logs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration des clients lourds",
+    "permalink": "/docs/Configuration_des_clients_lourds"
+  },
+  "next": {
+    "title": "Configuration des peripheriques mobiles",
+    "permalink": "/docs/Configuration_des_peripheriques_mobiles"
+  }
+}

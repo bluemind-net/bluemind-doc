@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Authentification",
+  "id": "Authentification",
+  "title": "Authentification",
+  "description": "L'authentification est le point d'entrée de l'utilisation de l'API.",
+  "source": "@site/docs/Authentification.md",
+  "sourceDirName": ".",
+  "slug": "/Authentification",
+  "permalink": "/docs/Authentification",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Authentification.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Archivage",
+    "permalink": "/docs/Archivage"
+  },
+  "next": {
+    "title": "Autoconfiguration Outlook",
+    "permalink": "/docs/Autoconfiguration_Outlook"
+  }
+}

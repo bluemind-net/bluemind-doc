@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Nouveautes BlueMind 4.0 a 4.3",
+  "id": "Nouveautes BlueMind 4.0 a 4.3",
+  "title": "Nouveautes BlueMind 4.0 a 4.3",
+  "description": "BlueMind est fier d’annoncer la sortie de la nouvelle version de sa messagerie collaborative Open Source. Très attendue, cette  version 4, en proposant en exclusivité le support d’Outlook natif donc de façon transparente pour l’utilisateur, offre enfin aux entreprises et administrations publiques la possibilité de concilier souveraineté et satisfaction utilisateurs.",
+  "source": "@site/docs/Nouveautes BlueMind 4.0 a 4.3.md",
+  "sourceDirName": ".",
+  "slug": "/Nouveautes BlueMind 4.0 a 4.3",
+  "permalink": "/docs/Nouveautes BlueMind 4.0 a 4.3",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nouveautes BlueMind 4.0 a 4.3.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Nginx et Postfix",
+    "permalink": "/docs/Nginx et Postfix"
+  },
+  "next": {
+    "title": "Nouveautes BlueMind 4",
+    "permalink": "/docs/Nouveautes BlueMind 4"
+  }
+}

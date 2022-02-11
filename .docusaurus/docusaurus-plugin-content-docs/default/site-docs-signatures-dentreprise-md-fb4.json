@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Signatures d'entreprise",
+  "id": "Signatures d'entreprise",
+  "title": "Signatures d'entreprise",
+  "description": "La nouvelle application de gestion des signatures d'entreprise vous permet de définir des signatures automatiques communes à tout ou partie des utilisateurs en fonction de divers critères.",
+  "source": "@site/docs/Signatures d'entreprise.md",
+  "sourceDirName": ".",
+  "slug": "/Signatures d'entreprise",
+  "permalink": "/docs/Signatures d'entreprise",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Signatures d'entreprise.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setting up Apple Applications",
+    "permalink": "/docs/Setting up Apple Applications"
+  },
+  "next": {
+    "title": "Supervision",
+    "permalink": "/docs/Supervision"
+  }
+}

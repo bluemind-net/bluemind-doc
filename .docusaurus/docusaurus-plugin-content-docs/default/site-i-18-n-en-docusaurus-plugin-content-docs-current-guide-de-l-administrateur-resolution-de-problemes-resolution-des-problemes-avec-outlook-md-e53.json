@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook",
+  "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook",
+  "title": "Resolving issues with Outlook",
+  "description": "This page is designed to help you investigate, diagnose and resolve issues related to using Outlook with BlueMind.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook.md",
+  "sourceDirName": "Guide_de_l_administrateur/Résolution_de_problèmes",
+  "slug": "/Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Resolving issues with Outlook",
+    "confluence_id": 79863430,
+    "position": 80
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Synchronization issues with mobile devices",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_synchronisation_mobile"
+  },
+  "next": {
+    "title": "High Availability and BlueMind",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Haute_disponibilité_logicielle_et_BlueMind"
+  }
+}

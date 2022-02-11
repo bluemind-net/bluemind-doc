@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Guide de l'administrateur",
+  "id": "Guide de l'administrateur",
+  "title": "Guide de l'administrateur",
+  "description": "- Présentation du produit",
+  "source": "@site/docs/Guide de l'administrateur.md",
+  "sourceDirName": ".",
+  "slug": "/Guide de l'administrateur",
+  "permalink": "/docs/Guide de l'administrateur",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guide de l'administrateur.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Guide d'installation",
+    "permalink": "/docs/Guide d'installation"
+  },
+  "next": {
+    "title": "Guide de l'utilisateur",
+    "permalink": "/docs/Guide de l'utilisateur"
+  }
+}

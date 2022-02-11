@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avance",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avance",
+  "title": "Moteur de recherche avance",
+  "description": "BlueMind 3 est doté d'un nouveau et performant moteur de recherche permettant d'effectuer dans les messages des recherches full-text, multicritères et portant sur l'ensemble des dossiers accessibles par l'utilisateur.",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avance.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avance",
+  "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avance",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Moteur de recherche avance",
+    "confluence_id": 57770315
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les identites",
+    "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Les_identites"
+  },
+  "next": {
+    "title": "Configuration des clients de messagerie instantanee",
+    "permalink": "/en/Guide_de_l_utilisateur/La_messagerie_instantanee/Configuration_des_clients_de_messagerie_instantanee"
+  }
+}

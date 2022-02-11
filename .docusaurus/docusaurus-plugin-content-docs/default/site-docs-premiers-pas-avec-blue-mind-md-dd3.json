@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Premiers_pas_avec_BlueMind",
+  "id": "Premiers_pas_avec_BlueMind",
+  "title": "Premiers pas avec BlueMind",
+  "description": "Découvrez les bases du fonctionnement de BlueMind :",
+  "source": "@site/docs/Premiers_pas_avec_BlueMind.md",
+  "sourceDirName": ".",
+  "slug": "/Premiers_pas_avec_BlueMind",
+  "permalink": "/docs/Premiers_pas_avec_BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Premiers_pas_avec_BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Premiers pas avec BlueMind",
+    "confluence_id": 57770134
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Nouveautes BlueMind 4",
+    "permalink": "/docs/Nouveautes_BlueMind_4"
+  },
+  "next": {
+    "title": "Support et demande d'assistance",
+    "permalink": "/docs/Support_et_demande_d_assistance"
+  }
+}

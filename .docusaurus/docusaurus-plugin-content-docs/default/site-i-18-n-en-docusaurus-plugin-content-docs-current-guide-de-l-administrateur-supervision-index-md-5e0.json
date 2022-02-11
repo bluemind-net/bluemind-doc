@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Supervision/index",
+  "id": "Guide_de_l_administrateur/Supervision/index",
+  "title": "Monitoring",
+  "description": "We recommend that you monitor the following aspects of the server:",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Supervision/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/Supervision",
+  "slug": "/Guide_de_l_administrateur/Supervision/",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Supervision/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Monitoring",
+    "confluence_id": 79863208,
+    "position": 44
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "LDAP Synchronization",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP"
+  },
+  "next": {
+    "title": "Bm-Tick Monitoring",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/"
+  }
+}

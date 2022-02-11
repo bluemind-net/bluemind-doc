@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Plan de Reprise d'Activite PRA",
+  "id": "Plan de Reprise d'Activite PRA",
+  "title": "Plan de Reprise d'Activite PRA",
+  "description": "Cette documentation décrit la procédure de PRA permettant de remonter une architecture BlueMind à partir d'une sauvegarde. La restauration d'un serveur peut prendre beaucoup de temps et ne devrait être utilisé qu'en dernier recours.",
+  "source": "@site/docs/Plan de Reprise d'Activite PRA.md",
+  "sourceDirName": ".",
+  "slug": "/Plan de Reprise d'Activite PRA",
+  "permalink": "/docs/Plan de Reprise d'Activite PRA",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Plan de Reprise d'Activite PRA.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pieces jointes impossibles a ajouter",
+    "permalink": "/docs/Pieces jointes impossibles a ajouter"
+  },
+  "next": {
+    "title": "Preferences avancees",
+    "permalink": "/docs/Preferences avancees"
+  }
+}

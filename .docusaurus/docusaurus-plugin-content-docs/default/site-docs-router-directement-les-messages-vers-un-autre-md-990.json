@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Router_directement_les_messages_vers_un_autre",
+  "id": "Router_directement_les_messages_vers_un_autre",
+  "title": "Router directement les messages vers un autre",
+  "description": "Blue Mind doit être capable de ne gérer qu’une partie des utilisateurs d’un même domaine afin de s'intégrer au sein d'une architecture dans laquelle les utilisateurs d'un même domaine sont gérés par différents systèmes, et donc serveurs de messagerie.",
+  "source": "@site/docs/Router_directement_les_messages_vers_un_autre.md",
+  "sourceDirName": ".",
+  "slug": "/Router_directement_les_messages_vers_un_autre",
+  "permalink": "/docs/Router_directement_les_messages_vers_un_autre",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Router_directement_les_messages_vers_un_autre.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Retrouver les carnets de domaine dans Outlook",
+    "permalink": "/docs/Retrouver_les_carnets_de_domaine_dans_Outlook"
+  },
+  "next": {
+    "title": "Sauvegarde et restauration",
+    "permalink": "/docs/Sauvegarde_et_restauration"
+  }
+}

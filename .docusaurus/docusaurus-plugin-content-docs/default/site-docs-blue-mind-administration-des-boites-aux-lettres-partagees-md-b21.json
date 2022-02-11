@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Administration_des_boites_aux_lettres_partagees",
+  "id": "BlueMind/Administration_des_boites_aux_lettres_partagees",
+  "title": "Administration des boites aux lettres partagees",
+  "description": "Les boites aux lettres partagées, aussi nommées «boites de service» ou «boites fonctionnelles», sont des boites aux lettres qui ne sont pas nominatives : les utilisateurs y sont rattachés et partagent les messages qu'elles contiennent.",
+  "source": "@site/docs/BlueMind/Administration_des_boites_aux_lettres_partagees.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Administration_des_boites_aux_lettres_partagees",
+  "permalink": "/docs/BlueMind/Administration_des_boites_aux_lettres_partagees",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Administration_des_boites_aux_lettres_partagees.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Administration avancee",
+    "permalink": "/docs/BlueMind/Administration_avancee"
+  },
+  "next": {
+    "title": "Administration des calendriers de domaines",
+    "permalink": "/docs/BlueMind/Administration_des_calendriers_de_domaines"
+  }
+}

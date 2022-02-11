@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Les_ressources",
+  "id": "Guide_de_l_utilisateur/Les_ressources",
+  "title": "Les ressources",
+  "description": "Blue Mind permet de gérer, de même que les agendas individuels ou de groupes, les agendas de ressources (véhicules, salles, vidéo-projecteurs...).",
+  "source": "@site/docs/Guide_de_l_utilisateur/Les_ressources.md",
+  "sourceDirName": "Guide_de_l_utilisateur",
+  "slug": "/Guide_de_l_utilisateur/Les_ressources",
+  "permalink": "/docs/Guide_de_l_utilisateur/Les_ressources",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les ressources",
+    "confluence_id": 57770793,
+    "position": 50
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Les catégories (tags)",
+    "permalink": "/docs/Guide_de_l_utilisateur/Les_catégories_tags_"
+  },
+  "next": {
+    "title": "Paramètres utilisateur",
+    "permalink": "/docs/Guide_de_l_utilisateur/Paramètres_utilisateur"
+  }
+}

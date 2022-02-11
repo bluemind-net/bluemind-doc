@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/index",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/index",
+  "title": "Mail Preferences",
+  "description": "To access Mail preferences, go to \"My account\" in the right hand corner of the navigation toolbar:",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Mail Preferences",
+    "confluence_id": 79861708,
+    "position": 52
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Webmail Preferences",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Préférences_du_webmail"
+  },
+  "next": {
+    "title": "Advanced Settings",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées"
+  }
+}

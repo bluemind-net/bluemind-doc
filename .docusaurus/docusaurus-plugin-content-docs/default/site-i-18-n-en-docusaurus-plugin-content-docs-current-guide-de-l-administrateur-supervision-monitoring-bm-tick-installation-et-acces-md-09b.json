@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès",
+  "id": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès",
+  "title": "Installation and Access",
+  "description": "The bm-tick monitoring suite is included by default in the BlueMind 4 installation.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès.md",
+  "sourceDirName": "Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick",
+  "slug": "/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Installation_et_Accès",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Installation and Access",
+    "confluence_id": 79863260,
+    "position": 60
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Exploring and analyzing data with bm-tick",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Explorer_et_analyser_les_données_avec_bm_tick"
+  },
+  "next": {
+    "title": "Metrics references",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Référence_des_métriques"
+  }
+}

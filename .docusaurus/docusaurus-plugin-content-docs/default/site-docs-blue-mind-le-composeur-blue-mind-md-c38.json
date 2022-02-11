@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Le_composeur_BlueMind",
+  "id": "BlueMind/Le_composeur_BlueMind",
+  "title": "Le composeur BlueMind",
+  "description": "Le composeur de la messagerie BlueMind s'ouvre dans la partie droite de l'interface :",
+  "source": "@site/docs/BlueMind/Le_composeur_BlueMind.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Le_composeur_BlueMind",
+  "permalink": "/docs/BlueMind/Le_composeur_BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Le_composeur_BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Le composeur",
+    "permalink": "/docs/BlueMind/Le_composeur"
+  },
+  "next": {
+    "title": "Le partage d'agenda",
+    "permalink": "/docs/BlueMind/Le_partage_d_agenda"
+  }
+}

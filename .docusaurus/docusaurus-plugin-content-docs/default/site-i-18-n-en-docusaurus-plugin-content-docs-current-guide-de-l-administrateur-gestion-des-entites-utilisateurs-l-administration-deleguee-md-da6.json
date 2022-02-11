@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée",
+  "title": "Delegated Administration",
+  "description": "When BlueMind handles a large population or has users over several separate sites, you might want to appoint administrators with delegated rights over a sub-segment of this population.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Delegated Administration",
+    "confluence_id": 79863035,
+    "position": 58
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Users",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/"
+  },
+  "next": {
+    "title": "Roles: Access and Administration Rights",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration"
+  }
+}

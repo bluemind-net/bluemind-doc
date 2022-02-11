@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Preferences_avancees",
+  "id": "BlueMind/Preferences_avancees",
+  "title": "Preferences avancees",
+  "description": "Les préférences avancées de la messagerie permettent de personnaliser de façon plus précise les comportements et l'affichage de la messagerie BlueMind de l'utilisateur, notamment :",
+  "source": "@site/docs/BlueMind/Preferences_avancees.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Preferences_avancees",
+  "permalink": "/docs/BlueMind/Preferences_avancees",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Preferences_avancees.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Plan de Reprise d'Activite PRA",
+    "permalink": "/docs/BlueMind/Plan_de_Reprise_d_Activite_PRA"
+  },
+  "next": {
+    "title": "Preferences de l agenda",
+    "permalink": "/docs/BlueMind/Preferences_de_l_agenda"
+  }
+}

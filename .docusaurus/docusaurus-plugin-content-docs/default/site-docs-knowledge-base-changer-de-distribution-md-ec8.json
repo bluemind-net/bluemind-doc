@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Knowledge_Base/Changer_de_distribution",
+  "id": "Knowledge_Base/Changer_de_distribution",
+  "title": "Changer de distribution",
+  "description": "Cette documentation décrit la façon de changer la distribution sur laquelle fonctionne BlueMind. Elle peut-être utilisée pour mettre à jour la distribution (Ubuntu 16.04 vers Ubuntu 18.04 par exemple).",
+  "source": "@site/docs/Knowledge_Base/Changer_de_distribution.md",
+  "sourceDirName": "Knowledge_Base",
+  "slug": "/Knowledge_Base/Changer_de_distribution",
+  "permalink": "/en/Knowledge_Base/Changer_de_distribution",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Changer de distribution",
+    "confluence_id": 57771914
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Changement d'adresse IP d'un serveur BlueMind",
+    "permalink": "/en/Knowledge_Base/Changement_d_adresse_IP_d_un_serveur_BlueMind"
+  },
+  "next": {
+    "title": "Configuration du plugin Wazo",
+    "permalink": "/en/Knowledge_Base/Configuration_du_plugin_Wazo"
+  }
+}

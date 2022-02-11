@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/L_agenda/Vues",
+  "id": "Guide_de_l_utilisateur/L_agenda/Vues",
+  "title": "Vues",
+  "description": "BlueMind permet d'enregistrer plusieurs vues, afin de personnaliser les groupes d'agendas affichés.",
+  "source": "@site/docs/Guide_de_l_utilisateur/L_agenda/Vues.md",
+  "sourceDirName": "Guide_de_l_utilisateur/L_agenda",
+  "slug": "/Guide_de_l_utilisateur/L_agenda/Vues",
+  "permalink": "/docs/Guide_de_l_utilisateur/L_agenda/Vues",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Vues",
+    "confluence_id": 57770548,
+    "position": 48
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Préférences de l'agenda",
+    "permalink": "/docs/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda"
+  },
+  "next": {
+    "title": "Les tâches",
+    "permalink": "/docs/Guide_de_l_utilisateur/Les_tâches/"
+  }
+}

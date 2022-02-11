@@ -1,0 +1,19 @@
+{
+  "unversionedId": "BlueMind/bm_tick_installation_et_acces",
+  "id": "BlueMind/bm_tick_installation_et_acces",
+  "title": "bm-tick installation et acces",
+  "description": "La suite de supervision bm-tick est installée automatiquement et par défaut dans BlueMind 4.",
+  "source": "@site/docs/BlueMind/bm_tick_installation_et_acces.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/bm_tick_installation_et_acces",
+  "permalink": "/docs/BlueMind/bm_tick_installation_et_acces",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/bm_tick_installation_et_acces.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "XMPP Server Administration",
+    "permalink": "/docs/BlueMind/XMPP_Server_Administration"
+  }
+}

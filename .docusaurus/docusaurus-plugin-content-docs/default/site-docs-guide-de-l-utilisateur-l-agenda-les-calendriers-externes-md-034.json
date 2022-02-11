@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes",
+  "id": "Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes",
+  "title": "Les calendriers externes",
+  "description": "BlueMind donne la possibilité de visualiser des calendriers externes via l'url d'un calendrier au format iCalendar (extension .ics).",
+  "source": "@site/docs/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes.md",
+  "sourceDirName": "Guide_de_l_utilisateur/L_agenda",
+  "slug": "/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes",
+  "permalink": "/docs/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les calendriers externes",
+    "confluence_id": 57770592,
+    "position": 54
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Le partage d'agenda",
+    "permalink": "/docs/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda"
+  },
+  "next": {
+    "title": "Les événements",
+    "permalink": "/docs/Guide_de_l_utilisateur/L_agenda/Les_événements"
+  }
+}

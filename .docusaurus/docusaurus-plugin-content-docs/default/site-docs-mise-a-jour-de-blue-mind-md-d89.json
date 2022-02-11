@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Mise a jour de BlueMind",
+  "id": "Mise a jour de BlueMind",
+  "title": "Mise a jour de BlueMind",
+  "description": "Effectuer une sauvegarde de l'ensemble du système",
+  "source": "@site/docs/Mise a jour de BlueMind.md",
+  "sourceDirName": ".",
+  "slug": "/Mise a jour de BlueMind",
+  "permalink": "/docs/Mise a jour de BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Mise a jour de BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mettre en place une politique d'expiration des mots de passe",
+    "permalink": "/docs/Mettre en place une politique d'expiration des mots de passe"
+  },
+  "next": {
+    "title": "Mise en oeuvre de la souscription",
+    "permalink": "/docs/Mise en oeuvre de la souscription"
+  }
+}

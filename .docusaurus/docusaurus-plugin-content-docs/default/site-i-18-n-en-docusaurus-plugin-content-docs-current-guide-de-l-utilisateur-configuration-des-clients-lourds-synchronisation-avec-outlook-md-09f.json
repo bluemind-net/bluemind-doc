@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook",
+  "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook",
+  "title": "Synchronizing with Outlook",
+  "description": "With BlueMind 4.0, synchronizing with Outlook no longer requires a connector for you to be able to access BlueMind features in Outlook. You can now use all Outlook features while using BlueMind mail.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_clients_lourds",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Synchronizing with Outlook",
+    "confluence_id": 79862406,
+    "position": 64
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Synchronizing with Thunderbird",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird"
+  },
+  "next": {
+    "title": "Synchronizing with mobile phones and tablets",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/"
+  }
+}

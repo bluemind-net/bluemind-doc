@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes",
+  "title": "External Users",
+  "description": "External users are users who do not have a BlueMind account but have an email address outside BlueMind. *These users can be added to BlueMind groups in order to receive messages*.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "External Users",
+    "confluence_id": 79863065,
+    "position": 62
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "User Departure and Email Redirection",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails"
+  },
+  "next": {
+    "title": "Shared mailboxes administration",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Gestion_des_entités/Boites_aux_lettres_partagées"
+  }
+}

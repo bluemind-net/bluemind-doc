@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Identifiant de connexion simplifie",
+  "id": "Identifiant de connexion simplifie",
+  "title": "Identifiant de connexion simplifie",
+  "description": "Afin de permettre aux utilisateurs de saisir simplement leur nom d'utilisateur, sans la partie domaine, lors de la connexion à BlueMind (par exemple \"jdoe\" au lieu de \"jdoe@bluemind.loc\") il suffit de configurer un domaine par défaut sur le serveur.",
+  "source": "@site/docs/Identifiant de connexion simplifie.md",
+  "sourceDirName": ".",
+  "slug": "/Identifiant de connexion simplifie",
+  "permalink": "/docs/Identifiant de connexion simplifie",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Identifiant de connexion simplifie.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "IMAP Synchronization on iOS",
+    "permalink": "/docs/IMAP Synchronization on iOS"
+  },
+  "next": {
+    "title": "Importing Local Contacts into BlueMind",
+    "permalink": "/docs/Importing Local Contacts into BlueMind"
+  }
+}

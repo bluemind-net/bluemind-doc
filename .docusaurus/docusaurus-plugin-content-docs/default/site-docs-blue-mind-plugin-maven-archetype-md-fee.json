@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind_plugin_Maven_Archetype",
+  "id": "BlueMind_plugin_Maven_Archetype",
+  "title": "BlueMind plugin Maven Archetype",
+  "description": "Afin de simplifier la mise en place d'un projet de plugin BlueMind, un archetype Maven est disponible dans le dépôt BlueMind.",
+  "source": "@site/docs/BlueMind_plugin_Maven_Archetype.md",
+  "sourceDirName": ".",
+  "slug": "/BlueMind_plugin_Maven_Archetype",
+  "permalink": "/docs/BlueMind_plugin_Maven_Archetype",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind_plugin_Maven_Archetype.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BlueMind et mobilite",
+    "permalink": "/docs/BlueMind_et_mobilite"
+  },
+  "next": {
+    "title": "Building BlueMind",
+    "permalink": "/docs/Building_BlueMind"
+  }
+}

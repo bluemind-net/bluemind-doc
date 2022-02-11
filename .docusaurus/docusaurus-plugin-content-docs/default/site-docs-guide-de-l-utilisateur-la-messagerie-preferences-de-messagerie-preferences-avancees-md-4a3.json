@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Preferences_avancees",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Preferences_avancees",
+  "title": "Preferences avancees",
+  "description": "Les préférences avancées de la messagerie permettent de personnaliser de façon plus précise les comportements et l'affichage de la messagerie BlueMind de l'utilisateur, notamment :",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Preferences_avancees.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Preferences_avancees",
+  "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Preferences_avancees",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Preferences avancees",
+    "confluence_id": 57770374
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Preferences du webmail",
+    "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Preferences_du_webmail"
+  },
+  "next": {
+    "title": "Fichiers volumineux et detachement des pieces jointes",
+    "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_detachement_des_pieces_jointes"
+  }
+}

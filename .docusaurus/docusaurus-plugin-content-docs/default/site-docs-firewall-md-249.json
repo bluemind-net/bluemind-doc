@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Firewall",
+  "id": "Firewall",
+  "title": "Firewall",
+  "description": "BlueMind embarque un pare-feu qui, par défaut, limite l'accès des services internes aux adresses IP des serveurs de l'installation, à savoir les serveurs définis dans la section Gestion du domaine > Serveurs de l'application.",
+  "source": "@site/docs/Firewall.md",
+  "sourceDirName": ".",
+  "slug": "/Firewall",
+  "permalink": "/docs/Firewall",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Firewall.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fichiers volumineux et detachement des pieces jointes",
+    "permalink": "/docs/Fichiers_volumineux_et_detachement_des_pieces_jointes"
+  },
+  "next": {
+    "title": "Frontend UI",
+    "permalink": "/docs/Frontend_UI"
+  }
+}

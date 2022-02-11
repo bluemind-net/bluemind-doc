@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Importing_Local_Contacts_into_BlueMind",
+  "id": "Importing_Local_Contacts_into_BlueMind",
+  "title": "Importing Local Contacts into BlueMind",
+  "description": "Lors d'une migration, il se peut que vous disposiez déjà de contact sur votre périphérique IOS. Cette procédure explique comment intégrer vos anciens contacts IOS dans BlueMind afin d'en disposer sur la totalité de vos périphériques synchronisés ( smartphone, web, client lourd ).",
+  "source": "@site/docs/Importing_Local_Contacts_into_BlueMind.md",
+  "sourceDirName": ".",
+  "slug": "/Importing_Local_Contacts_into_BlueMind",
+  "permalink": "/docs/Importing_Local_Contacts_into_BlueMind",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Importing_Local_Contacts_into_BlueMind.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Identifiant de connexion simplifie",
+    "permalink": "/docs/Identifiant_de_connexion_simplifie"
+  },
+  "next": {
+    "title": "Indexation",
+    "permalink": "/docs/Indexation"
+  }
+}

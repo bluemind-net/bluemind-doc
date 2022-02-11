@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur",
+  "id": "Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur",
+  "title": "Restoring a user calendar",
+  "description": "This page shows how to restore a calendar that has been previously backed up by the automatic system, whether backups are stored externally or not.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur",
+  "permalink": "/docs/en/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Restoring a user calendar",
+    "confluence_id": 79863558,
+    "position": 72
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Custom application logo",
+    "permalink": "/docs/en/Base_de_connaissance/Personnaliser_le_logo_de_l_application"
+  },
+  "next": {
+    "title": "Restoring messages deleted by a user",
+    "permalink": "/docs/en/Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur"
+  }
+}

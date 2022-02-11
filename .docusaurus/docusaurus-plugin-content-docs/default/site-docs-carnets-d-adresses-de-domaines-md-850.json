@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Carnets_d_adresses_de_domaines",
+  "id": "Carnets_d_adresses_de_domaines",
+  "title": "Carnets d'adresses de domaines",
+  "description": "Le carnet de domaine est un carnet d'adresses commun aux utilisateurs. En plus de la simple consultation, l'administrateur peut déléguer les droits de modification ou de gestion du carnet à des utilisateurs ou groupes.",
+  "source": "@site/docs/Carnets_d_adresses_de_domaines.md",
+  "sourceDirName": ".",
+  "slug": "/Carnets_d_adresses_de_domaines",
+  "permalink": "/docs/Carnets_d_adresses_de_domaines",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Carnets_d_adresses_de_domaines.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building BlueMind",
+    "permalink": "/docs/Building_BlueMind"
+  },
+  "next": {
+    "title": "Certificats SSL",
+    "permalink": "/docs/Certificats_SSL"
+  }
+}

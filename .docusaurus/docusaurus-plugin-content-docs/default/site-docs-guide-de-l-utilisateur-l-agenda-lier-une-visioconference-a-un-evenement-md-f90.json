@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/L_agenda/Lier_une_visioconference_a_un_evenement",
+  "id": "Guide_de_l_utilisateur/L_agenda/Lier_une_visioconference_a_un_evenement",
+  "title": "Lier une visioconference a un evenement",
+  "description": "BlueMind 4.5 propose la possibilité de lier des visioconférences à des événements : création à la volée lors de la création et de l'édition de l'événement, suppression, accès direct par lien pour les participants.",
+  "source": "@site/docs/Guide_de_l_utilisateur/L_agenda/Lier_une_visioconference_a_un_evenement.md",
+  "sourceDirName": "Guide_de_l_utilisateur/L_agenda",
+  "slug": "/Guide_de_l_utilisateur/L_agenda/Lier_une_visioconference_a_un_evenement",
+  "permalink": "/en/Guide_de_l_utilisateur/L_agenda/Lier_une_visioconference_a_un_evenement",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Lier une visioconference a un evenement",
+    "confluence_id": 72187959
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les evenements",
+    "permalink": "/en/Guide_de_l_utilisateur/L_agenda/Les_evenements"
+  },
+  "next": {
+    "title": "Organiser une reunion",
+    "permalink": "/en/Guide_de_l_utilisateur/L_agenda/Organiser_une_reunion"
+  }
+}

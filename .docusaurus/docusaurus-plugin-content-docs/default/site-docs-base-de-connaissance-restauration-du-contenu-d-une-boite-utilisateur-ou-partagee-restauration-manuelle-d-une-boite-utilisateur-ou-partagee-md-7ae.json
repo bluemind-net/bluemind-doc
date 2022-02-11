@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée",
+  "id": "Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée",
+  "title": "Restauration manuelle d'une boîte utilisateur ou partagée",
+  "description": "Cette page vous guide afin de restaurer le contenu d'une boîte de messagerie (d'utilisateur ou partagée) à partir d'un répertoire de sauvegarde.",
+  "source": "@site/docs/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée.md",
+  "sourceDirName": "Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée",
+  "slug": "/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée",
+  "permalink": "/docs/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Restauration manuelle d'une boîte utilisateur ou partagée",
+    "confluence_id": 57771953,
+    "position": 76
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Restauration du contenu d'une boîte utilisateur ou partagée",
+    "permalink": "/docs/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/"
+  },
+  "next": {
+    "title": "Changement d'adresse IP d'un serveur BlueMind",
+    "permalink": "/docs/Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind"
+  }
+}

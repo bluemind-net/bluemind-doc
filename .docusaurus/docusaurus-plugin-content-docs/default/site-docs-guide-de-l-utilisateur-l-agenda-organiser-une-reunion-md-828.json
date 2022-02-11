@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/L_agenda/Organiser_une_reunion",
+  "id": "Guide_de_l_utilisateur/L_agenda/Organiser_une_reunion",
+  "title": "Organiser une reunion",
+  "description": "Créer l'événement",
+  "source": "@site/docs/Guide_de_l_utilisateur/L_agenda/Organiser_une_reunion.md",
+  "sourceDirName": "Guide_de_l_utilisateur/L_agenda",
+  "slug": "/Guide_de_l_utilisateur/L_agenda/Organiser_une_reunion",
+  "permalink": "/en/Guide_de_l_utilisateur/L_agenda/Organiser_une_reunion",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Organiser une reunion",
+    "confluence_id": 57770580
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lier une visioconference a un evenement",
+    "permalink": "/en/Guide_de_l_utilisateur/L_agenda/Lier_une_visioconference_a_un_evenement"
+  },
+  "next": {
+    "title": "Preferences de l agenda",
+    "permalink": "/en/Guide_de_l_utilisateur/L_agenda/Preferences_de_l_agenda"
+  }
+}

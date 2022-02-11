@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/L_agenda/Vues",
+  "id": "Guide_de_l_utilisateur/L_agenda/Vues",
+  "title": "Views",
+  "description": "BlueMind allows you to customize and save several views to gain quick access to group calendars views.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/L_agenda/Vues.md",
+  "sourceDirName": "Guide_de_l_utilisateur/L_agenda",
+  "slug": "/Guide_de_l_utilisateur/L_agenda/Vues",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/L_agenda/Vues",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Views",
+    "confluence_id": 79861959,
+    "position": 48
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Calendar Preferences",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda"
+  },
+  "next": {
+    "title": "Tasks",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Les_tâches/"
+  }
+}

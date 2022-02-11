@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Gestion_des_partages",
+  "id": "Guide_de_l_utilisateur/Gestion_des_partages",
+  "title": "Gestion des partages",
+  "description": "La gestion des partages se fait au moyen d'un formulaire commun à tous les types de partages (boites partagées, agendas utilisateurs, agendas de ressources, etc.)",
+  "source": "@site/docs/Guide_de_l_utilisateur/Gestion_des_partages.md",
+  "sourceDirName": "Guide_de_l_utilisateur",
+  "slug": "/Guide_de_l_utilisateur/Gestion_des_partages",
+  "permalink": "/docs/Guide_de_l_utilisateur/Gestion_des_partages",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Gestion des partages",
+    "confluence_id": 57770792,
+    "position": 48
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Synchronisation IMAP sous Windows Phone",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/Synchronisation_IMAP_sous_Windows_Phone"
+  },
+  "next": {
+    "title": "La téléphonie",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_téléphonie"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Modifier_la_page_d_accueil_de_BlueMind",
+  "id": "Base_de_connaissance/Modifier_la_page_d_accueil_de_BlueMind",
+  "title": "Modifier la page d'accueil de BlueMind",
+  "description": "Par défaut, BlueMind permet de personnaliser le logo de la page d'accueil.",
+  "source": "@site/docs/Base_de_connaissance/Modifier_la_page_d_accueil_de_BlueMind.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Modifier_la_page_d_accueil_de_BlueMind",
+  "permalink": "/docs/Base_de_connaissance/Modifier_la_page_d_accueil_de_BlueMind",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Modifier la page d'accueil de BlueMind",
+    "confluence_id": 57771925,
+    "position": 60
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Mettre en place une politique d'expiration des mots de passe",
+    "permalink": "/docs/Base_de_connaissance/Mettre_en_place_une_politique_d_expiration_des_mots_de_passe"
+  },
+  "next": {
+    "title": "Multi-calendrier sur les smartphones",
+    "permalink": "/docs/Base_de_connaissance/Multi_calendrier_sur_les_smartphones"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Knowledge_Base/Personnaliser_le_logo_de_l_application",
+  "id": "Knowledge_Base/Personnaliser_le_logo_de_l_application",
+  "title": "Personnaliser le logo de l application",
+  "description": "Le logo par défaut BlueMind, visible sur l'écran de connexion et dans le bandeau de navigation de BlueMind peut désormais être personnalisé et remplacé par une image de votre choix.",
+  "source": "@site/docs/Knowledge_Base/Personnaliser_le_logo_de_l_application.md",
+  "sourceDirName": "Knowledge_Base",
+  "slug": "/Knowledge_Base/Personnaliser_le_logo_de_l_application",
+  "permalink": "/en/Knowledge_Base/Personnaliser_le_logo_de_l_application",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Personnaliser le logo de l application",
+    "confluence_id": 57771947
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Partager le statut de lecture des boites partagees",
+    "permalink": "/en/Knowledge_Base/Partager_le_statut_de_lecture_des_boites_partagees"
+  },
+  "next": {
+    "title": "Restaurer l'agenda d'un utilisateur",
+    "permalink": "/en/Knowledge_Base/Restaurer_l_agenda_d_un_utilisateur"
+  }
+}

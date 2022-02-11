@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées",
+  "title": "Les boites aux lettres partagées",
+  "description": "Les boites aux lettres partagées sont des boites aux lettres qui, à la différence de celles des utilisateurs, ne sont pas nominatives : un ou plusieurs utilisateurs peuvent y être rattachés.",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées",
+  "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les boites aux lettres partagées",
+    "confluence_id": 57770342,
+    "position": 50
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Le composeur",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Le_composeur"
+  },
+  "next": {
+    "title": "Les filtres de messages",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages"
+  }
+}

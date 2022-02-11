@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/BlueMind_et_mobilite/Autoconfiguration_Outlook",
+  "id": "Guide_de_l_administrateur/BlueMind_et_mobilite/Autoconfiguration_Outlook",
+  "title": "Autoconfiguration Outlook",
+  "description": "En cours de rédaction",
+  "source": "@site/docs/Guide_de_l_administrateur/BlueMind_et_mobilite/Autoconfiguration_Outlook.md",
+  "sourceDirName": "Guide_de_l_administrateur/BlueMind_et_mobilite",
+  "slug": "/Guide_de_l_administrateur/BlueMind_et_mobilite/Autoconfiguration_Outlook",
+  "permalink": "/en/Guide_de_l_administrateur/BlueMind_et_mobilite/Autoconfiguration_Outlook",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Autoconfiguration Outlook",
+    "confluence_id": 57771753
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "XMPP Server Administration",
+    "permalink": "/en/Guide_de_l_administrateur/Administration_avancee/XMPP_Server_Administration"
+  },
+  "next": {
+    "title": "Configuration du serveur EAS",
+    "permalink": "/en/Guide_de_l_administrateur/BlueMind_et_mobilite/Configuration_du_serveur_EAS"
+  }
+}

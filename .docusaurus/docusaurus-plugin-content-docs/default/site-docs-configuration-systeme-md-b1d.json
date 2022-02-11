@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Configuration Systeme",
+  "id": "Configuration Systeme",
+  "title": "Configuration Systeme",
+  "description": "Ce premier onglet de la configuration système permet de positionner les paramètres postfix et Cyrus du système.",
+  "source": "@site/docs/Configuration Systeme.md",
+  "sourceDirName": ".",
+  "slug": "/Configuration Systeme",
+  "permalink": "/docs/Configuration Systeme",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Configuration Systeme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Compatibilite",
+    "permalink": "/docs/Compatibilite"
+  },
+  "next": {
+    "title": "Configuration d'Apple Mail",
+    "permalink": "/docs/Configuration d'Apple Mail"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "La console d'administration",
+  "id": "La console d'administration",
+  "title": "La console d'administration",
+  "description": "La console d'administration est la partie permettant à l'administrateur global et aux administrateurs de domaines d'accéder aux fonctions de la configuration du système et de la gestion des serveurs, domaines, tâches planifiées et de la documentation.",
+  "source": "@site/docs/La console d'administration.md",
+  "sourceDirName": ".",
+  "slug": "/La console d'administration",
+  "permalink": "/docs/La console d'administration",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/La console d'administration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "L'autodiscover n'est pas trouve par les mobiles Android",
+    "permalink": "/docs/L'autodiscover n'est pas trouve par les mobiles Android"
+  },
+  "next": {
+    "title": "La messagerie instantanee",
+    "permalink": "/docs/La messagerie instantanee"
+  }
+}

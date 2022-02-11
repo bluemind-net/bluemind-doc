@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Base_de_connaissance/Configuration_du_plugin_Wazo",
+  "id": "Base_de_connaissance/Configuration_du_plugin_Wazo",
+  "title": "Setting Up the Wazo Plugin",
+  "description": "This document shows how to install and configure the BlueMind plugins that allow interconnexion with Wazo.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Base_de_connaissance/Configuration_du_plugin_Wazo.md",
+  "sourceDirName": "Base_de_connaissance",
+  "slug": "/Base_de_connaissance/Configuration_du_plugin_Wazo",
+  "permalink": "/docs/en/Base_de_connaissance/Configuration_du_plugin_Wazo",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Setting Up the Wazo Plugin",
+    "confluence_id": 79863495,
+    "position": 46
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Changing distributions",
+    "permalink": "/docs/en/Base_de_connaissance/Changer_de_distribution"
+  },
+  "next": {
+    "title": "Setting Up the Xivo/Avencall Plugin",
+    "permalink": "/docs/en/Base_de_connaissance/Configuration_du_plugin_Xivo_Avencall"
+  }
+}

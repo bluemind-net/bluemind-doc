@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Compatibilite",
+  "id": "Compatibilite",
+  "title": "Compatibilite",
+  "description": "Vous trouverez sur cette page les informations de compatibilité de BlueMind avec les navigateurs, logiciels tiers et appareils mobiles. Nous recensons les dispositifs testés et validés ainsi que les problèmes connus sur certains appareils ou systèmes d'exploitations.",
+  "source": "@site/docs/Compatibilite.md",
+  "sourceDirName": ".",
+  "slug": "/Compatibilite",
+  "permalink": "/docs/Compatibilite",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Compatibilite.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Client Python",
+    "permalink": "/docs/Client_Python"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/docs/Configuration"
+  }
+}

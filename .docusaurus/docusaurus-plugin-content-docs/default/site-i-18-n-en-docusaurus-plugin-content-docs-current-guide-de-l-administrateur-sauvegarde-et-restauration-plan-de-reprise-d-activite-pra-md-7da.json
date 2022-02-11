@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_",
+  "id": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_",
+  "title": "Disaster Recovery",
+  "description": "This documentation describes the DR used to rebuild a BlueMind architecture from a backup. Server restoration can take a very long time and should only be used as a last resort.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_.md",
+  "sourceDirName": "Guide_de_l_administrateur/Sauvegarde_et_restauration",
+  "slug": "/Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activité_PRA_",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Disaster Recovery",
+    "confluence_id": 79863301,
+    "position": 52
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Restoring a backup from an external source",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire_Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_un_emplacement_externe"
+  },
+  "next": {
+    "title": "BlueMind and Mobility",
+    "permalink": "/docs/en/Guide_de_l_administrateur/BlueMind_et_mobilité/"
+  }
+}

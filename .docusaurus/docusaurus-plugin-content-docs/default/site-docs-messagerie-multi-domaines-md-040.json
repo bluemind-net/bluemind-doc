@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Messagerie multi-domaines",
+  "id": "Messagerie multi-domaines",
+  "title": "Messagerie multi-domaines",
+  "description": "BlueMind peut héberger sur une même infrastructure (un ou plusieurs serveurs, physiques ou virtualisés) plusieurs messageries totalement cloisonnées. Ce principe, appelé multi-domaines ou multi-tenant, peut être utilisé dans des infrastructures clouds ou simplement pour faire cohabiter plusieurs messageries.",
+  "source": "@site/docs/Messagerie multi-domaines.md",
+  "sourceDirName": ".",
+  "slug": "/Messagerie multi-domaines",
+  "permalink": "/docs/Messagerie multi-domaines",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Messagerie multi-domaines.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Messagerie BlueMind",
+    "permalink": "/docs/Messagerie BlueMind"
+  },
+  "next": {
+    "title": "Mettre en place une politique d'expiration des mots de passe",
+    "permalink": "/docs/Mettre en place une politique d'expiration des mots de passe"
+  }
+}

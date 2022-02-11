@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda",
+  "id": "Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda",
+  "title": "Débuter avec l'agenda",
+  "description": "La vue principale par défaut de l'agenda BlueMind se compose de plusieurs parties :",
+  "source": "@site/docs/Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda.md",
+  "sourceDirName": "Premiers_pas_avec_BlueMind",
+  "slug": "/Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda",
+  "permalink": "/docs/Premiers_pas_avec_BlueMind/Débuter_avec_l_agenda",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Débuter avec l'agenda",
+    "confluence_id": 57770148,
+    "position": 32
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Premiers pas avec BlueMind",
+    "permalink": "/docs/Premiers_pas_avec_BlueMind/"
+  },
+  "next": {
+    "title": "Débuter avec le webmail",
+    "permalink": "/docs/Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail"
+  }
+}

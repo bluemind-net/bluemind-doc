@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/index",
+  "id": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/index",
+  "title": "Integrated Videoconferencing",
+  "description": "Since version 4.6.0, BlueMind includes a built-in videoconferencing solution based on Jitsi: BlueMind.Video.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Visioconférence_intégrée",
+  "slug": "/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Integrated Videoconferencing",
+    "confluence_id": 79862923,
+    "position": 68
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Connecting with Nextcloud",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud"
+  },
+  "next": {
+    "title": "Videoconferences with StarLeaf",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconferences_avec_StarLeaf"
+  }
+}

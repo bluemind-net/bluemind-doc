@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Resolution_de_problemes/Erreurs_d_identification_IMAP",
+  "id": "Guide_de_l_administrateur/Resolution_de_problemes/Erreurs_d_identification_IMAP",
+  "title": "Erreurs d'identification IMAP",
+  "description": "- Les utilisateurs ne peuvent plus du tout se connecter",
+  "source": "@site/docs/Guide_de_l_administrateur/Resolution_de_problemes/Erreurs_d_identification_IMAP.md",
+  "sourceDirName": "Guide_de_l_administrateur/Resolution_de_problemes",
+  "slug": "/Guide_de_l_administrateur/Resolution_de_problemes/Erreurs_d_identification_IMAP",
+  "permalink": "/en/Guide_de_l_administrateur/Resolution_de_problemes/Erreurs_d_identification_IMAP",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Erreurs d'identification IMAP",
+    "confluence_id": 57771838
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disparitions et modifications d'evenements",
+    "permalink": "/en/Guide_de_l_administrateur/Resolution_de_problemes/Disparitions_et_modifications_d_evenements"
+  },
+  "next": {
+    "title": "L'autodiscover n'est pas trouve par les mobiles Android",
+    "permalink": "/en/Guide_de_l_administrateur/Resolution_de_problemes/L_autodiscover_n_est_pas_trouve_par_les_mobiles_Android"
+  }
+}

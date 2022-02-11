@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie_instantanée/index",
+  "id": "Guide_de_l_utilisateur/La_messagerie_instantanée/index",
+  "title": "La messagerie instantanée",
+  "description": "La messagerie instantanée est accessible à tout moment, depuis toutes les pages des applications, grâce à l'icône présente dans le bandeau de navigation de BlueMind :",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie_instantanée/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie_instantanée",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie_instantanée/",
+  "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie_instantanée/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "La messagerie instantanée",
+    "confluence_id": 57770687,
+    "position": 44
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Préférences des tâches",
+    "permalink": "/docs/Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches"
+  },
+  "next": {
+    "title": "Configuration des clients de messagerie instantanée",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée"
+  }
+}

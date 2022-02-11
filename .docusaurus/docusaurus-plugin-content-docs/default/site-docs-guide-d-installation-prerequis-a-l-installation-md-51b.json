@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_d_installation/Prerequis_a_l_installation",
+  "id": "Guide_d_installation/Prerequis_a_l_installation",
+  "title": "Prerequis a l'installation",
+  "description": "Mémoire RAM",
+  "source": "@site/docs/Guide_d_installation/Prerequis_a_l_installation.md",
+  "sourceDirName": "Guide_d_installation",
+  "slug": "/Guide_d_installation/Prerequis_a_l_installation",
+  "permalink": "/en/Guide_d_installation/Prerequis_a_l_installation",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Prerequis a l'installation",
+    "confluence_id": 57771186
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mise en oeuvre de la souscription",
+    "permalink": "/en/Guide_d_installation/Mise_en_oeuvre_de_la_souscription"
+  },
+  "next": {
+    "title": "Administration du serveur calDav-cardDav",
+    "permalink": "/en/Guide_de_l_administrateur/Administration_avancee/Administration_du_serveur_calDav_cardDav"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Debuter avec les contacts",
+  "id": "Debuter avec les contacts",
+  "title": "Debuter avec les contacts",
+  "description": "-  ses carnets d'adresses par défaut, ses carnets personnels ainsi que ceux qui lui ont été partagé et auxquels il est abonné ;",
+  "source": "@site/docs/Debuter avec les contacts.md",
+  "sourceDirName": ".",
+  "slug": "/Debuter avec les contacts",
+  "permalink": "/docs/Debuter avec les contacts",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Debuter avec les contacts.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Debuter avec le webmail",
+    "permalink": "/docs/Debuter avec le webmail"
+  },
+  "next": {
+    "title": "Debuter avec les taches",
+    "permalink": "/docs/Debuter avec les taches"
+  }
+}

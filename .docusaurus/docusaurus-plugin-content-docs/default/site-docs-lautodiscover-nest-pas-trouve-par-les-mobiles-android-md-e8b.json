@@ -1,0 +1,23 @@
+{
+  "unversionedId": "L'autodiscover n'est pas trouve par les mobiles Android",
+  "id": "L'autodiscover n'est pas trouve par les mobiles Android",
+  "title": "L'autodiscover n'est pas trouve par les mobiles Android",
+  "description": "Lors de la configuration d'un appareil mobile Android, il manque le préfixe dans l'adresse du serveur.",
+  "source": "@site/docs/L'autodiscover n'est pas trouve par les mobiles Android.md",
+  "sourceDirName": ".",
+  "slug": "/L'autodiscover n'est pas trouve par les mobiles Android",
+  "permalink": "/docs/L'autodiscover n'est pas trouve par les mobiles Android",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/L'autodiscover n'est pas trouve par les mobiles Android.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "L'agenda",
+    "permalink": "/docs/L'agenda"
+  },
+  "next": {
+    "title": "La console d'administration",
+    "permalink": "/docs/La console d'administration"
+  }
+}

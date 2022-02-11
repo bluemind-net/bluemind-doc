@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Frontend_UI",
+  "id": "Guide_du_développeur/Configuration_de_l_environnement_de_développement/Frontend_UI",
+  "title": "Frontend / UI",
+  "description": "Pré-requis",
+  "source": "@site/docs/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Frontend_UI.md",
+  "sourceDirName": "Guide_du_développeur/Configuration_de_l_environnement_de_développement",
+  "slug": "/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Frontend_UI",
+  "permalink": "/docs/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Frontend_UI",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Frontend / UI",
+    "confluence_id": 57771900,
+    "position": 58
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Eclipse",
+    "permalink": "/docs/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Eclipse"
+  },
+  "next": {
+    "title": "Tests",
+    "permalink": "/docs/Guide_du_développeur/Configuration_de_l_environnement_de_développement/Tests"
+  }
+}

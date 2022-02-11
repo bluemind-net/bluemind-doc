@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Knowledge_Base/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "id": "Knowledge_Base/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "title": "Changement d'adresse IP d'un serveur BlueMind",
+  "description": "Le présent document décrit la marche à suivre pour modifier l'adresse IP d'un serveur BlueMind.",
+  "source": "@site/docs/Knowledge_Base/Changement_d_adresse_IP_d_un_serveur_BlueMind.md",
+  "sourceDirName": "Knowledge_Base",
+  "slug": "/Knowledge_Base/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "permalink": "/en/Knowledge_Base/Changement_d_adresse_IP_d_un_serveur_BlueMind",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Changement d'adresse IP d'un serveur BlueMind",
+    "confluence_id": 58593019
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Restauration manuelle d'une boite utilisateur ou partagee",
+    "permalink": "/en/Knowledge_Base/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee/Restauration_manuelle_d_une_boite_utilisateur_ou_partagee"
+  },
+  "next": {
+    "title": "Changer de distribution",
+    "permalink": "/en/Knowledge_Base/Changer_de_distribution"
+  }
+}

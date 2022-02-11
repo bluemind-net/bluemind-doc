@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire",
+  "id": "Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire",
+  "title": "Ajustement automatique de la mémoire",
+  "description": "La mémoire par défaut des composants java est réajustée automatiquement lors du démarrage de BlueMind.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration",
+  "slug": "/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Ajustement automatique de la mémoire",
+    "confluence_id": 57771328,
+    "position": 58
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Visioconférences avec Jitsi",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_Jitsi"
+  },
+  "next": {
+    "title": "Archivage",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Archivage"
+  }
+}

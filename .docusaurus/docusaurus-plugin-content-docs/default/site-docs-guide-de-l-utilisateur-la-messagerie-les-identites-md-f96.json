@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Les_identites",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Les_identites",
+  "title": "Les identites",
+  "description": "BlueMind permet de créer plusieurs identités pour un même compte utilisateur.",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie/Les_identites.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Les_identites",
+  "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Les_identites",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les identites",
+    "confluence_id": 57770334
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les filtres de messages",
+    "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages"
+  },
+  "next": {
+    "title": "Moteur de recherche avance",
+    "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avance"
+  }
+}

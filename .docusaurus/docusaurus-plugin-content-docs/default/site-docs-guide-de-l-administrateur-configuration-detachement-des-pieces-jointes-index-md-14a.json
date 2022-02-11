@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/index",
+  "id": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/index",
+  "title": "Détachement des pièces jointes",
+  "description": "BlueMind permet de détacher les pièces jointes des messages afin de les présenter sous forme de lien de téléchargement aux destinataires. Ceci permet d'alléger le message envoyé, et de ce fait les serveurs et réseaux de communication : le fichier n'est plus transmis avec l'email pour être stocké sur le serveur qui le reçoit en plus du serveur émetteur, en étant éventuellement dupliqué et multiplié au grès des transferts et réponses.",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes",
+  "slug": "/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Détachement des pièces jointes",
+    "confluence_id": 57771353,
+    "position": 64
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Pare-feu",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Sécurité/Pare_feu"
+  },
+  "next": {
+    "title": "Connecter avec Nextcloud",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud"
+  }
+}

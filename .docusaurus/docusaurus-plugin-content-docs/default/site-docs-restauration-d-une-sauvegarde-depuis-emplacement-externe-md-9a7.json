@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Restauration_d_une_sauvegarde_depuis_emplacement_externe",
+  "id": "Restauration_d_une_sauvegarde_depuis_emplacement_externe",
+  "title": "Restauration d'une sauvegarde depuis emplacement externe",
+  "description": "Lorsque les sauvegardes BlueMind sont externalisées et que l'on souhaite restaurer des données, il faut au préalable rapatrier les données sur le serveur BlueMind pour qu'il en ait connaissance.",
+  "source": "@site/docs/Restauration_d_une_sauvegarde_depuis_emplacement_externe.md",
+  "sourceDirName": ".",
+  "slug": "/Restauration_d_une_sauvegarde_depuis_emplacement_externe",
+  "permalink": "/docs/Restauration_d_une_sauvegarde_depuis_emplacement_externe",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Restauration_d_une_sauvegarde_depuis_emplacement_externe.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resolution des problemes avec Outlook",
+    "permalink": "/docs/Resolution_des_problemes_avec_Outlook"
+  },
+  "next": {
+    "title": "Restauration du contenu d une boite utilisateur ou partagee",
+    "permalink": "/docs/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee"
+  }
+}

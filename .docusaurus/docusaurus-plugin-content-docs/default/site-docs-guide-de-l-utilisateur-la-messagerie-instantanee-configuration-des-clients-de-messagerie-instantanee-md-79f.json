@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée",
+  "id": "Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée",
+  "title": "Configuration des clients de messagerie instantanée",
+  "description": "L'utilisation du protocole XMPP permet aux utilisateurs de connecter leur logiciel dédié à la messagerie instantanée de BlueMind et ainsi de pouvoir discuter avec les autres utilisateurs, qu'ils utilisent la messagerie instantanée intégrée ou un autre logiciel dédié eux aussi, quel qu'il soit.",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie_instantanée",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée",
+  "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie_instantanée/Configuration_des_clients_de_messagerie_instantanée",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration des clients de messagerie instantanée",
+    "confluence_id": 57770743,
+    "position": 50
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "La messagerie instantanée",
+    "permalink": "/docs/Guide_de_l_utilisateur/La_messagerie_instantanée/"
+  },
+  "next": {
+    "title": "Configuration des clients lourds",
+    "permalink": "/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/"
+  }
+}

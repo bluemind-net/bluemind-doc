@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Partager_le_statut_de_lecture_des_boites_partagees",
+  "id": "BlueMind/Partager_le_statut_de_lecture_des_boites_partagees",
+  "title": "Partager le statut de lecture des boites partagees",
+  "description": "Changement de comportement dans BlueMind 4.5",
+  "source": "@site/docs/BlueMind/Partager_le_statut_de_lecture_des_boites_partagees.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Partager_le_statut_de_lecture_des_boites_partagees",
+  "permalink": "/docs/BlueMind/Partager_le_statut_de_lecture_des_boites_partagees",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Partager_le_statut_de_lecture_des_boites_partagees.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Parametres utilisateur",
+    "permalink": "/docs/BlueMind/Parametres_utilisateur"
+  },
+  "next": {
+    "title": "Personnaliser le logo de l application",
+    "permalink": "/docs/BlueMind/Personnaliser_le_logo_de_l_application"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Gestion des partages",
+  "id": "Gestion des partages",
+  "title": "Gestion des partages",
+  "description": "La gestion des partages se fait au moyen d'un formulaire commun à tous les types de partages (boites partagées, agendas utilisateurs, agendas de ressources, etc.)",
+  "source": "@site/docs/Gestion des partages.md",
+  "sourceDirName": ".",
+  "slug": "/Gestion des partages",
+  "permalink": "/docs/Gestion des partages",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Gestion des partages.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gestion des entites",
+    "permalink": "/docs/Gestion des entites"
+  },
+  "next": {
+    "title": "Gestion des serveurs",
+    "permalink": "/docs/Gestion des serveurs"
+  }
+}

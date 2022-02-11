@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/BlueMind_et_mobilite",
+  "id": "Guide_de_l_administrateur/BlueMind_et_mobilite",
+  "title": "BlueMind et mobilite",
+  "description": "- Autoconfiguration Outlook",
+  "source": "@site/docs/Guide_de_l_administrateur/BlueMind_et_mobilite.md",
+  "sourceDirName": "Guide_de_l_administrateur",
+  "slug": "/Guide_de_l_administrateur/BlueMind_et_mobilite",
+  "permalink": "/docs/Guide_de_l_administrateur/BlueMind_et_mobilite",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guide_de_l_administrateur/BlueMind_et_mobilite.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "BlueMind et mobilite",
+    "confluence_id": 57771752
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Administration avancee",
+    "permalink": "/docs/Guide_de_l_administrateur/Administration_avancee"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration"
+  }
+}

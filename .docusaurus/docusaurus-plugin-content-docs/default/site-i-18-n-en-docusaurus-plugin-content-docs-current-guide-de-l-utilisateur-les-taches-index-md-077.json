@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Les_tâches/index",
+  "id": "Guide_de_l_utilisateur/Les_tâches/index",
+  "title": "Tasks",
+  "description": "BlueMind features a task manager which synchronizes with the calendar and has its own dedicated UI.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/Les_tâches/index.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Les_tâches",
+  "slug": "/Guide_de_l_utilisateur/Les_tâches/",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/Les_tâches/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Tasks",
+    "confluence_id": 79862047,
+    "position": 40
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Views",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/L_agenda/Vues"
+  },
+  "next": {
+    "title": "Task Preferences",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Les_tâches/Préférences_des_tâches"
+  }
+}

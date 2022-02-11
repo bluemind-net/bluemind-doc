@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Les_taches",
+  "id": "BlueMind/Les_taches",
+  "title": "Les taches",
+  "description": "BlueMind propose la gestion des tâches dans une interface dédiée et synchronisée avec l'agenda.",
+  "source": "@site/docs/BlueMind/Les_taches.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Les_taches",
+  "permalink": "/docs/BlueMind/Les_taches",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Les_taches.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les services",
+    "permalink": "/docs/BlueMind/Les_services"
+  },
+  "next": {
+    "title": "Les taches planifiees",
+    "permalink": "/docs/BlueMind/Les_taches_planifiees"
+  }
+}

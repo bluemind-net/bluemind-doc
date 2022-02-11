@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes",
+  "title": "Large files and linked attachments",
+  "description": "BlueMind gives you the possibility to detach attachments from messages and show them as download links to recipients. This makes messages lighter, thereby relieving servers and communication networks: the file is no longer sent with the message and stored on the incoming server in addition to the outgoing server and possibly duplicated and multiplied as the message is forwarded and replied to.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Large files and linked attachments",
+    "confluence_id": 79861618,
+    "position": 44
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Advanced Settings",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées"
+  },
+  "next": {
+    "title": "The Composer",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/La_messagerie/Le_composeur"
+  }
+}

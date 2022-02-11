@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/droits_d_acces_et_d_administration",
+  "id": "Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/droits_d_acces_et_d_administration",
+  "title": "droits d acces et d administration",
+  "description": "Les rôles attribuables aux utilisateurs peuvent être des droits d'accès aux applications (webmail, contacts, etc.), des droits d'utilisation de fonctionnalités particulières (se créer une identité externe, activer le renvoi automatique de messagerie, etc.) ou encore des droits d'administration afin de déléguer la gestion de certaines parties (utilisateurs, domaine, etc.).",
+  "source": "@site/docs/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/droits_d_acces_et_d_administration.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/droits_d_acces_et_d_administration",
+  "permalink": "/en/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/droits_d_acces_et_d_administration",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "droits d acces et d administration",
+    "confluence_id": 57771478
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Utilisateurs externes",
+    "permalink": "/en/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_utilisateurs/Utilisateurs_externes"
+  },
+  "next": {
+    "title": "Administration des boites aux lettres partagees",
+    "permalink": "/en/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_boites_aux_lettres_partagees"
+  }
+}

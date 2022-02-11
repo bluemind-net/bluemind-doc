@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Tests",
+  "id": "Tests",
+  "title": "Tests",
+  "description": "Cette page présente l'exécution et le fonctionnement des tests via mavin, eclipse, docker ou une machine virtuelle.",
+  "source": "@site/docs/Tests.md",
+  "sourceDirName": ".",
+  "slug": "/Tests",
+  "permalink": "/docs/Tests",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Tests.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Synchronizing with iOS",
+    "permalink": "/docs/Synchronizing_with_iOS"
+  },
+  "next": {
+    "title": "Transferer une arborescence de messagerie d'un compte vers un autre",
+    "permalink": "/docs/Transferer_une_arborescence_de_messagerie_d_un_compte_vers_un_autre"
+  }
+}

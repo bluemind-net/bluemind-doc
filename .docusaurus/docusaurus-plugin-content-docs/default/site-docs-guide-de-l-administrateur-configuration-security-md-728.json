@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Security",
+  "id": "Guide_de_l_administrateur/Configuration/Security",
+  "title": "Security",
+  "description": "- Certificats SSL",
+  "source": "@site/docs/Guide_de_l_administrateur/Configuration/Security.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration",
+  "slug": "/Guide_de_l_administrateur/Configuration/Security",
+  "permalink": "/docs/Guide_de_l_administrateur/Configuration/Security",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Guide_de_l_administrateur/Configuration/Security.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Security",
+    "confluence_id": 57771346
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Les taches planifiees",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Les_taches_planifiees"
+  },
+  "next": {
+    "title": "Signatures d'entreprise",
+    "permalink": "/docs/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise"
+  }
+}

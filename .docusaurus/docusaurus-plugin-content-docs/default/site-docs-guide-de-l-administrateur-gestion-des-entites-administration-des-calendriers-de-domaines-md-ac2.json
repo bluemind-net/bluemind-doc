@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entites/Administration_des_calendriers_de_domaines",
+  "id": "Guide_de_l_administrateur/Gestion_des_entites/Administration_des_calendriers_de_domaines",
+  "title": "Administration des calendriers de domaines",
+  "description": "Le calendrier de domaine est un calendrier commun aux utilisateurs. En plus de la simple consultation, l'administrateur peut déléguer les droits de modification ou de gestion des calendriers à des utilisateurs ou groupes.",
+  "source": "@site/docs/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_calendriers_de_domaines.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entites",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_calendriers_de_domaines",
+  "permalink": "/en/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_calendriers_de_domaines",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Administration des calendriers de domaines",
+    "confluence_id": 57771578
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Administration des boites aux lettres partagees",
+    "permalink": "/en/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_boites_aux_lettres_partagees"
+  },
+  "next": {
+    "title": "Administration des groupes",
+    "permalink": "/en/Guide_de_l_administrateur/Gestion_des_entites/Administration_des_groupes"
+  }
+}

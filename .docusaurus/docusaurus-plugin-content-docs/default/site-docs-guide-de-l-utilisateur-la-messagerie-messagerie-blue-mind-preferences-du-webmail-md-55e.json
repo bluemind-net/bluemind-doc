@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Preferences_du_webmail",
+  "id": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Preferences_du_webmail",
+  "title": "Preferences du webmail",
+  "description": "Encore en développement, la gestion des préférences du webmail propose des options de personnalisation de l'interface en constante évolution.",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Preferences_du_webmail.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Preferences_du_webmail",
+  "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Preferences_du_webmail",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Preferences du webmail",
+    "confluence_id": 66096322
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Le composeur BlueMind",
+    "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Messagerie_BlueMind/Le_composeur_BlueMind"
+  },
+  "next": {
+    "title": "Preferences avancees",
+    "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Preferences_avancees"
+  }
+}

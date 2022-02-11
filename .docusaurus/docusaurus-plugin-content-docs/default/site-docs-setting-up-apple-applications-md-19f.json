@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Setting up Apple Applications",
+  "id": "Setting up Apple Applications",
+  "title": "Setting up Apple Applications",
+  "description": "- Configuration d'Apple Mail",
+  "source": "@site/docs/Setting up Apple Applications.md",
+  "sourceDirName": ".",
+  "slug": "/Setting up Apple Applications",
+  "permalink": "/docs/Setting up Apple Applications",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Setting up Apple Applications.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setting Up Apple Calendar",
+    "permalink": "/docs/Setting Up Apple Calendar"
+  },
+  "next": {
+    "title": "Signatures d'entreprise",
+    "permalink": "/docs/Signatures d'entreprise"
+  }
+}

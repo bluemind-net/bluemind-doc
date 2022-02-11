@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Supervision/Logs___Fichiers_journaux",
+  "id": "Guide_de_l_administrateur/Supervision/Logs___Fichiers_journaux",
+  "title": "Logs - Fichiers journaux",
+  "description": "BlueMind keeps log files for each application and usage type.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Supervision/Logs___Fichiers_journaux.md",
+  "sourceDirName": "Guide_de_l_administrateur/Supervision",
+  "slug": "/Guide_de_l_administrateur/Supervision/Logs___Fichiers_journaux",
+  "permalink": "/en/Guide_de_l_administrateur/Supervision/Logs___Fichiers_journaux",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Logs - Fichiers journaux",
+    "confluence_id": 79863219
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Console de monitoring",
+    "permalink": "/en/Guide_de_l_administrateur/Supervision/Console_de_monitoring"
+  },
+  "next": {
+    "title": "Haute disponibilite logicielle et BlueMind",
+    "permalink": "/en/Guide_de_l_administrateur/Haute_disponibilite_logicielle_et_BlueMind"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Preferences_de_messagerie",
+  "id": "Preferences_de_messagerie",
+  "title": "Preferences de messagerie",
+  "description": "Pour accéder aux préférences de la messagerie, se rendre dans \"Mon compte\" en cliquant sur le nom d'utilisateur à droite du bandeau de navigation :",
+  "source": "@site/docs/Preferences_de_messagerie.md",
+  "sourceDirName": ".",
+  "slug": "/Preferences_de_messagerie",
+  "permalink": "/docs/Preferences_de_messagerie",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Preferences_de_messagerie.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Preferences de l agenda",
+    "permalink": "/docs/Preferences_de_l_agenda"
+  },
+  "next": {
+    "title": "Preferences des taches",
+    "permalink": "/docs/Preferences_des_taches"
+  }
+}

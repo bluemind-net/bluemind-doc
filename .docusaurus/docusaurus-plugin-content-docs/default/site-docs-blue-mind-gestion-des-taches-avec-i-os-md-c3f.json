@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Gestion_des_taches_avec_iOS",
+  "id": "BlueMind/Gestion_des_taches_avec_iOS",
+  "title": "Gestion des taches avec iOS",
+  "description": "Vos tâches BlueMind peuvent être synchronisées et gérées sur votre appareil mobile Apple grâce à l'application « Rappels »",
+  "source": "@site/docs/BlueMind/Gestion_des_taches_avec_iOS.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Gestion_des_taches_avec_iOS",
+  "permalink": "/docs/BlueMind/Gestion_des_taches_avec_iOS",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Gestion_des_taches_avec_iOS.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gestion des serveurs",
+    "permalink": "/docs/BlueMind/Gestion_des_serveurs"
+  },
+  "next": {
+    "title": "Guide d'installation",
+    "permalink": "/docs/BlueMind/Guide_d_installation"
+  }
+}

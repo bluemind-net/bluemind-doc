@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Eclipse",
+  "id": "BlueMind/Eclipse",
+  "title": "Eclipse",
+  "description": "- Installer Maven",
+  "source": "@site/docs/BlueMind/Eclipse.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Eclipse",
+  "permalink": "/docs/BlueMind/Eclipse",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Eclipse.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentation BlueMind",
+    "permalink": "/docs/BlueMind/Documentation_BlueMind"
+  },
+  "next": {
+    "title": "Entrees d'annuaire",
+    "permalink": "/docs/BlueMind/Entrees_d_annuaire"
+  }
+}

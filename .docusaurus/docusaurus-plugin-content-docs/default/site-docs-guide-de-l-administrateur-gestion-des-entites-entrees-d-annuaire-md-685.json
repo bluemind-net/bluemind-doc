@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/Entrées_d_annuaire",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/Entrées_d_annuaire",
+  "title": "Entrées d'annuaire",
+  "description": "Cette page présente la liste des entrées présentes dans l'annuaire : utilisateurs (internes et externes), groupes, boîtes aux lettres partagées, ressources ainsi que les calendriers et carnets d'adresses de domaine.",
+  "source": "@site/docs/Guide_de_l_administrateur/Gestion_des_entités/Entrées_d_annuaire.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/Entrées_d_annuaire",
+  "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Entrées_d_annuaire",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Entrées d'annuaire",
+    "confluence_id": 57771420,
+    "position": 48
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Carnets d'adresses de domaines",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Carnets_d_adresses_de_domaines"
+  },
+  "next": {
+    "title": "Export LDAP",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Export_LDAP"
+  }
+}

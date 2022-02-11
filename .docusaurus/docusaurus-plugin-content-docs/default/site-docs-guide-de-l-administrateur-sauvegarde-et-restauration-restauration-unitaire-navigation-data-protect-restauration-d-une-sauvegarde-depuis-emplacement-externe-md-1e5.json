@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire___Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_emplacement_externe",
+  "id": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire___Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_emplacement_externe",
+  "title": "Restauration d'une sauvegarde depuis emplacement externe",
+  "description": "Lorsque les sauvegardes BlueMind sont externalisées et que l'on souhaite restaurer des données, il faut au préalable rapatrier les données sur le serveur BlueMind pour qu'il en ait connaissance.",
+  "source": "@site/docs/Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire___Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_emplacement_externe.md",
+  "sourceDirName": "Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire___Navigation_DataProtect",
+  "slug": "/Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire___Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_emplacement_externe",
+  "permalink": "/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Restauration_unitaire___Navigation_DataProtect/Restauration_d_une_sauvegarde_depuis_emplacement_externe",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Restauration d'une sauvegarde depuis emplacement externe",
+    "confluence_id": 57771751
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resolution des problemes avec Outlook",
+    "permalink": "/en/Guide_de_l_administrateur/Resolution_de_problemes/Resolution_des_problemes_avec_Outlook"
+  },
+  "next": {
+    "title": "Plan de Reprise d'Activite PRA",
+    "permalink": "/en/Guide_de_l_administrateur/Sauvegarde_et_restauration/Plan_de_Reprise_d_Activite_PRA"
+  }
+}

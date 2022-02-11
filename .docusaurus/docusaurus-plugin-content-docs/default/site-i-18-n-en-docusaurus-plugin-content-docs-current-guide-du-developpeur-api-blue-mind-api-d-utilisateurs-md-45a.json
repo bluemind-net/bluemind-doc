@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/API_BlueMind/API_d_utilisateurs",
+  "id": "Guide_du_développeur/API_BlueMind/API_d_utilisateurs",
+  "title": "API utilisateur",
+  "description": "",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_du_développeur/API_BlueMind/API_d_utilisateurs.md",
+  "sourceDirName": "Guide_du_développeur/API_BlueMind",
+  "slug": "/Guide_du_développeur/API_BlueMind/API_d_utilisateurs",
+  "permalink": "/docs/en/Guide_du_développeur/API_BlueMind/API_d_utilisateurs",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "API utilisateur",
+    "confluence_id": 79863458,
+    "position": 52
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "API BlueMind",
+    "permalink": "/docs/en/Guide_du_développeur/API_BlueMind/"
+  },
+  "next": {
+    "title": "Authentification",
+    "permalink": "/docs/en/Guide_du_développeur/API_BlueMind/Authentification"
+  }
+}

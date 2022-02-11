@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_d_Apple_Mail",
+  "id": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_d_Apple_Mail",
+  "title": "Configuration d'Apple Mail",
+  "description": "Le guide suivant a été réalisé sous un OS X Mavericks",
+  "source": "@site/docs/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_d_Apple_Mail.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_d_Apple_Mail",
+  "permalink": "/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_d_Apple_Mail",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration d'Apple Mail",
+    "confluence_id": 57770866
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Haute disponibilite logicielle et BlueMind",
+    "permalink": "/en/Guide_de_l_administrateur/Haute_disponibilite_logicielle_et_BlueMind"
+  },
+  "next": {
+    "title": "Configuration de Contacts",
+    "permalink": "/en/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Setting_up_Apple_Applications/Configuration_de_Contacts"
+  }
+}

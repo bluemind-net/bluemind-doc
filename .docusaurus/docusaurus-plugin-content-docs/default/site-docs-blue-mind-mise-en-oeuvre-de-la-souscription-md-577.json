@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Mise_en_oeuvre_de_la_souscription",
+  "id": "BlueMind/Mise_en_oeuvre_de_la_souscription",
+  "title": "Mise en oeuvre de la souscription",
+  "description": "La souscription",
+  "source": "@site/docs/BlueMind/Mise_en_oeuvre_de_la_souscription.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Mise_en_oeuvre_de_la_souscription",
+  "permalink": "/docs/BlueMind/Mise_en_oeuvre_de_la_souscription",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Mise_en_oeuvre_de_la_souscription.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mise a jour de BlueMind",
+    "permalink": "/docs/BlueMind/Mise_a_jour_de_BlueMind"
+  },
+  "next": {
+    "title": "Mise en place du SSO CAS",
+    "permalink": "/docs/BlueMind/Mise_en_place_du_SSO_CAS"
+  }
+}

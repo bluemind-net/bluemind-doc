@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/index",
+  "id": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines/index",
+  "title": "Managing Domains",
+  "description": "The domain administration section gives you access to technical domain settings (server addresses, domain aliases, etc.) as well as default user settings (address books, message filters, storage quotas, archiving, etc.).",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/index.md",
+  "sourceDirName": "Guide_de_l_administrateur/Configuration/Gestion_des_domaines",
+  "slug": "/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/",
+  "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Managing Domains",
+    "confluence_id": 79862760,
+    "position": 50
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/"
+  },
+  "next": {
+    "title": "Authentication Methods",
+    "permalink": "/docs/en/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_méthodes_d_authentification/"
+  }
+}

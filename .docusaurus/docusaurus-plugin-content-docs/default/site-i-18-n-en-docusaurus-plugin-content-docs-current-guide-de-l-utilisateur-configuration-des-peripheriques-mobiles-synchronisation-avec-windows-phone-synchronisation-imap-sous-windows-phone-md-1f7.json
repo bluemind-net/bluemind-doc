@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/Synchronisation_IMAP_sous_Windows_Phone",
+  "id": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/Synchronisation_IMAP_sous_Windows_Phone",
+  "title": "IMAP Synchronization on Windows Phone",
+  "description": "This guide was written using a Nokia Lumia 520 running Lumia Black (Windows Phone 8.0).",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/Synchronisation_IMAP_sous_Windows_Phone.md",
+  "sourceDirName": "Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone",
+  "slug": "/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/Synchronisation_IMAP_sous_Windows_Phone",
+  "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/Synchronisation_IMAP_sous_Windows_Phone",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "IMAP Synchronization on Windows Phone",
+    "confluence_id": 79862628,
+    "position": 74
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Synchronizing with Windows Phone",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/"
+  },
+  "next": {
+    "title": "Managing Shares",
+    "permalink": "/docs/en/Guide_de_l_utilisateur/Gestion_des_partages"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails",
+  "title": "Procédure de départ utilisateur et redirection de ses mails",
+  "description": "Lors du départ d'un collaborateur, il peut vous être demandé de récupérer ses données avant de supprimer le compte de l'utilisateur. Dans certaines organisations, il est aussi souhaitable que les mails qui lui sont destinés continuent d'être reçus par l'organisation.",
+  "source": "@site/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails",
+  "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Procédure de départ utilisateur et redirection de ses mails",
+    "confluence_id": 57771508,
+    "position": 60
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Les rôles : droits d'accès et d'administration",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration"
+  },
+  "next": {
+    "title": "Utilisateurs externes",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes"
+  }
+}

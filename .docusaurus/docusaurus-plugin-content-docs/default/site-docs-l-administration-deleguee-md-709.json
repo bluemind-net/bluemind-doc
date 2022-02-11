@@ -1,0 +1,23 @@
+{
+  "unversionedId": "L_administration_deleguee",
+  "id": "L_administration_deleguee",
+  "title": "L administration deleguee",
+  "description": "Dans le cas d'un BlueMind gérant une large population ou des utilisateurs répartis sur plusieurs sites, il peut être intéressant de définir des administrateurs qui auront droit de délégation sur un sous-ensemble de cette population.",
+  "source": "@site/docs/L_administration_deleguee.md",
+  "sourceDirName": ".",
+  "slug": "/L_administration_deleguee",
+  "permalink": "/docs/L_administration_deleguee",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/L_administration_deleguee.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Knowledge Base",
+    "permalink": "/docs/Knowledge_Base"
+  },
+  "next": {
+    "title": "L'agenda",
+    "permalink": "/docs/L_agenda"
+  }
+}

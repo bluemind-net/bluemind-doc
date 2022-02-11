@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes",
+  "id": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes",
+  "title": "Utilisateurs externes",
+  "description": "Les utilisateurs externes sont des utilisateurs n'ayant pas de compte propre dans BlueMind au même titre que les utilisateurs classiques mais ayant une adresse de messagerie externe à BlueMind. *Les utilisateurs de ce type peuvent être ajoutés aux groupes BlueMind afin de recevoir les messages qui leur sont adressés.*",
+  "source": "@site/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes.md",
+  "sourceDirName": "Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs",
+  "slug": "/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes",
+  "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Utilisateurs externes",
+    "confluence_id": 57771509,
+    "position": 62
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Procédure de départ utilisateur et redirection de ses mails",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails"
+  },
+  "next": {
+    "title": "Boites aux lettres partagées",
+    "permalink": "/docs/Guide_de_l_administrateur/Gestion_des_entités/Boites_aux_lettres_partagées"
+  }
+}

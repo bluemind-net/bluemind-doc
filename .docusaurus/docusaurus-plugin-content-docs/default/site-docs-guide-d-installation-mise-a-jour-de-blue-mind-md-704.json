@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_d_installation/Mise_a_jour_de_BlueMind",
+  "id": "Guide_d_installation/Mise_a_jour_de_BlueMind",
+  "title": "Mise a jour de BlueMind",
+  "description": "Effectuer une sauvegarde de l'ensemble du système",
+  "source": "@site/docs/Guide_d_installation/Mise_a_jour_de_BlueMind.md",
+  "sourceDirName": "Guide_d_installation",
+  "slug": "/Guide_d_installation/Mise_a_jour_de_BlueMind",
+  "permalink": "/en/Guide_d_installation/Mise_a_jour_de_BlueMind",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Mise a jour de BlueMind",
+    "confluence_id": 57771215
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation du nouveau client de messagerie",
+    "permalink": "/en/Guide_d_installation/Installation_du_nouveau_client_de_messagerie"
+  },
+  "next": {
+    "title": "Mise en oeuvre de la souscription",
+    "permalink": "/en/Guide_d_installation/Mise_en_oeuvre_de_la_souscription"
+  }
+}

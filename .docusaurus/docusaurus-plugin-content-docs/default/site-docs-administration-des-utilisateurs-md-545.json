@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Administration_des_utilisateurs",
+  "id": "Administration_des_utilisateurs",
+  "title": "Administration des utilisateurs",
+  "description": "Les utilisateurs représentent les personnes physiques qui se connectent à Blue Mind. Ces utilisateurs ont accès aux différentes fonctionnalités de Blue Mind selon leur profil.",
+  "source": "@site/docs/Administration_des_utilisateurs.md",
+  "sourceDirName": ".",
+  "slug": "/Administration_des_utilisateurs",
+  "permalink": "/docs/Administration_des_utilisateurs",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Administration_des_utilisateurs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Administration des ressources",
+    "permalink": "/docs/Administration_des_ressources"
+  },
+  "next": {
+    "title": "Administration du serveur calDav-cardDav",
+    "permalink": "/docs/Administration_du_serveur_calDav_cardDav"
+  }
+}

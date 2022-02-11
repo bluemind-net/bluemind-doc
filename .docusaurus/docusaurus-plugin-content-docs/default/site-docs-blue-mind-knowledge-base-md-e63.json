@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Knowledge_Base",
+  "id": "BlueMind/Knowledge_Base",
+  "title": "Knowledge Base",
+  "description": "- Changement d'adresse IP d'un serveur BlueMind",
+  "source": "@site/docs/BlueMind/Knowledge_Base.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Knowledge_Base",
+  "permalink": "/docs/BlueMind/Knowledge_Base",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Knowledge_Base.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation multi-backend",
+    "permalink": "/docs/BlueMind/Installation_multi_backend"
+  },
+  "next": {
+    "title": "L administration deleguee",
+    "permalink": "/docs/BlueMind/L_administration_deleguee"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Parametres_utilisateur",
+  "id": "Parametres_utilisateur",
+  "title": "Parametres utilisateur",
+  "description": "L'interface de gestion des paramètres permet à l'utilisateur de personnaliser son environnement BlueMind.",
+  "source": "@site/docs/Parametres_utilisateur.md",
+  "sourceDirName": ".",
+  "slug": "/Parametres_utilisateur",
+  "permalink": "/docs/Parametres_utilisateur",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Parametres_utilisateur.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Outils et ressources BlueMind",
+    "permalink": "/docs/Outils_et_ressources_BlueMind"
+  },
+  "next": {
+    "title": "Partager le statut de lecture des boites partagees",
+    "permalink": "/docs/Partager_le_statut_de_lecture_des_boites_partagees"
+  }
+}

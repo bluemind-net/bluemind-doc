@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Présentation_du_produit/Les_services",
+  "id": "Guide_de_l_administrateur/Présentation_du_produit/Les_services",
+  "title": "Les services",
+  "description": "-",
+  "source": "@site/docs/Guide_de_l_administrateur/Présentation_du_produit/Les_services.md",
+  "sourceDirName": "Guide_de_l_administrateur/Présentation_du_produit",
+  "slug": "/Guide_de_l_administrateur/Présentation_du_produit/Les_services",
+  "permalink": "/docs/Guide_de_l_administrateur/Présentation_du_produit/Les_services",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les services",
+    "confluence_id": 57771259,
+    "position": 48
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Les ports",
+    "permalink": "/docs/Guide_de_l_administrateur/Présentation_du_produit/Les_ports"
+  },
+  "next": {
+    "title": "Messagerie multi-domaines",
+    "permalink": "/docs/Guide_de_l_administrateur/Présentation_du_produit/Messagerie_multi_domaines"
+  }
+}

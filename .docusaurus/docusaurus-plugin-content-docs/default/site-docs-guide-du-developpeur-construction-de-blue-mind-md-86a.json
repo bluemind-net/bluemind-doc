@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_du_développeur/Construction_de_BlueMind",
+  "id": "Guide_du_développeur/Construction_de_BlueMind",
+  "title": "Construction de BlueMind",
+  "description": "Le code source de BlueMind est compilé par un serveur d'intégration continue, et les binaires produits sont téléchargeables sur notre site sous forme d'installeurs qui rendent le processus aussi simple que possible. Il est toutefois envisageable de compiler BlueMind manuellement en suivant les instructions suivantes.",
+  "source": "@site/docs/Guide_du_développeur/Construction_de_BlueMind.md",
+  "sourceDirName": "Guide_du_développeur",
+  "slug": "/Guide_du_développeur/Construction_de_BlueMind",
+  "permalink": "/docs/Guide_du_développeur/Construction_de_BlueMind",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Construction de BlueMind",
+    "confluence_id": 57771872,
+    "position": 40
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "BlueMind plugin Maven Archetype",
+    "permalink": "/docs/Guide_du_développeur/BlueMind_plugin_Maven_Archetype"
+  },
+  "next": {
+    "title": "Contribuer à BlueMind",
+    "permalink": "/docs/Guide_du_développeur/Contribuer_à_BlueMind"
+  }
+}

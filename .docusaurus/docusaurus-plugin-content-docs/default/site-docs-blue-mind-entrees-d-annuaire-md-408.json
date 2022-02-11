@@ -1,0 +1,23 @@
+{
+  "unversionedId": "BlueMind/Entrees_d_annuaire",
+  "id": "BlueMind/Entrees_d_annuaire",
+  "title": "Entrees d'annuaire",
+  "description": "Cette page présente la liste des entrées présentes dans l'annuaire : utilisateurs (internes et externes), groupes, boîtes aux lettres partagées, ressources ainsi que les calendriers et carnets d'adresses de domaine.",
+  "source": "@site/docs/BlueMind/Entrees_d_annuaire.md",
+  "sourceDirName": "BlueMind",
+  "slug": "/BlueMind/Entrees_d_annuaire",
+  "permalink": "/docs/BlueMind/Entrees_d_annuaire",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/BlueMind/Entrees_d_annuaire.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Eclipse",
+    "permalink": "/docs/BlueMind/Eclipse"
+  },
+  "next": {
+    "title": "Erreurs d'identification IMAP",
+    "permalink": "/docs/BlueMind/Erreurs_d_identification_IMAP"
+  }
+}

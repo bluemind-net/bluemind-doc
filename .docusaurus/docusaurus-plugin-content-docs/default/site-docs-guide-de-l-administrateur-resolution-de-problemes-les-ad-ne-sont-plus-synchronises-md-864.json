@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés",
+  "id": "Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés",
+  "title": "Les AD ne sont plus synchronisés",
+  "description": "Les annuaires AD ne sont plus synchronisés.",
+  "source": "@site/docs/Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés.md",
+  "sourceDirName": "Guide_de_l_administrateur/Résolution_de_problèmes",
+  "slug": "/Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés",
+  "permalink": "/docs/Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Les AD ne sont plus synchronisés",
+    "confluence_id": 57771847,
+    "position": 70
+  },
+  "sidebar": "bmdocs",
+  "previous": {
+    "title": "Le serveur est utilisé pour envoyer du SPAM",
+    "permalink": "/docs/Guide_de_l_administrateur/Résolution_de_problèmes/Le_serveur_est_utilisé_pour_envoyer_du_SPAM"
+  },
+  "next": {
+    "title": "Pièces jointes impossible à ajouter",
+    "permalink": "/docs/Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter"
+  }
+}

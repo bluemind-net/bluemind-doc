@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Guide_de_l_utilisateur/La_messagerie_instantanee/Configuration_des_clients_de_messagerie_instantanee",
+  "id": "Guide_de_l_utilisateur/La_messagerie_instantanee/Configuration_des_clients_de_messagerie_instantanee",
+  "title": "Configuration des clients de messagerie instantanee",
+  "description": "L'utilisation du protocole XMPP permet aux utilisateurs de connecter leur logiciel dédié à la messagerie instantanée de BlueMind et ainsi de pouvoir discuter avec les autres utilisateurs, qu'ils utilisent la messagerie instantanée intégrée ou un autre logiciel dédié eux aussi, quel qu'il soit.",
+  "source": "@site/docs/Guide_de_l_utilisateur/La_messagerie_instantanee/Configuration_des_clients_de_messagerie_instantanee.md",
+  "sourceDirName": "Guide_de_l_utilisateur/La_messagerie_instantanee",
+  "slug": "/Guide_de_l_utilisateur/La_messagerie_instantanee/Configuration_des_clients_de_messagerie_instantanee",
+  "permalink": "/en/Guide_de_l_utilisateur/La_messagerie_instantanee/Configuration_des_clients_de_messagerie_instantanee",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Configuration des clients de messagerie instantanee",
+    "confluence_id": 57770743
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Moteur de recherche avance",
+    "permalink": "/en/Guide_de_l_utilisateur/La_messagerie/Moteur_de_recherche_avance"
+  },
+  "next": {
+    "title": "Gestion des carnets d'adresses",
+    "permalink": "/en/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses"
+  }
+}
