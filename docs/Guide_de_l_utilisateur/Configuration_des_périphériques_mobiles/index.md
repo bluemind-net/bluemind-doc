@@ -1,7 +1,7 @@
 ---
 title: "Configuration des périphériques mobiles"
 confluence_id: 57770961
-position: 56
+position: 58
 ---
 # Configuration des périphériques mobiles
 
@@ -13,7 +13,9 @@ BlueMind est de ce fait compatible a priori avec l'intégralité des téléphone
 **La page [Compatibilité](/FAQ_Foire_aux_questions_/Compatibilité/) recense les téléphones validés avec la solution BlueMind ainsi que les problèmes connus sur certains téléphones. Celle-ci évolue rapidement, nous vous invitons à la consulter régulièrement.**
 
 La synchronisation ActiveSync est donc le mode de synchronisation à privilégier car il permet en une seule configuration de synchroniser les messages ainsi que les contacts et agendas alors que la synchronisation IMAP ne permet d'accéder qu'à ses emails.
-:::important
+
+
+:::info
 
 La synchronisation ActiveSync est compatible avec les applications Email/Gmail (application par défaut Android, selon les modèles et versions) et Mail (IPhone) des smartphones. Ce sont ces applications qu'il faut préférer.
 

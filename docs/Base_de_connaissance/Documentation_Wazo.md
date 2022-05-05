@@ -6,14 +6,14 @@ position: 54
 # Documentation Wazo
 
 
-# Prérequis
+## Prérequis
 
 Installation du plugin wazo : [Configuration du plugin Wazo](/Base_de_connaissance/Configuration_du_plugin_Wazo/)
 
 
-# Administration
+## Administration
 
-## Configuration utilisateur
+### Configuration utilisateur
 
 - Se connecter à BlueMind en tant qu'administrateur système admin0
 - Se rendre sur la page Annuaires > Entrées d'Annuaire
@@ -25,7 +25,7 @@ Installation du plugin wazo : [Configuration du plugin Wazo](/Base_de_connaissa
 ![](../attachments/79863817/79863820.png)
 
 
-## Configuration de domaine
+### Configuration de domaine
 
 - Se connecter à BlueMind en tant qu'administrateur système admin0
 - Se rendre sur la page Gestion du Système > Domaines supervisés
@@ -38,7 +38,7 @@ Installation du plugin wazo : [Configuration du plugin Wazo](/Base_de_connaissa
 
 ![](../attachments/79863817/79863821.png)
 
-## Configuration des utilisateurs
+### Configuration des utilisateurs
 
 Une commande bm-cli permet de faire une correspondance entre les utilisateurs BlueMind et ceux de Wazo, et de créér les comptes externes dans Bluemind associés à des utilisateurs existants.
 
@@ -52,9 +52,9 @@ Une commande bm-cli permet de faire une correspondance entre les utilisateurs Bl
 - -u : le login d'un utilisateur BlueMind possédant un compte externe Wazo (compte Admin Wazo nécessaire), celui ci devra être configuré manuellement au préalable (cf:  Utilisateur/Configurer un compte externe)
 
 
-## Utilisateur
+### Utilisateur
 
-### Configurer un compte externe
+#### Configurer un compte externe
 
 - Se connecter à BlueMind en tant qu'utilisateur à paramétrer
 - Se rendre sur la page Mon compte > Comptes externes
@@ -65,7 +65,7 @@ Une commande bm-cli permet de faire une correspondance entre les utilisateurs Bl
 
 ![](../attachments/79863817/79863819.png)
 
-### Passer un appel à partir du webmail
+#### Passer un appel à partir du webmail
 
 Cliquer sur l'icone de téléphonie et saisir un numéro de téléphone d'un utilisateur à contacter.
 
@@ -76,7 +76,7 @@ Si le numéro de l'utilisateur est renseigné dans sa fiche contact, l'auto-comp
 
 ![](../attachments/79863817/79863824.png)
 
-### Passer un appel à partir d'un contact
+#### Passer un appel à partir d'un contact
 
 - Se rendre sur la fiche du contact
 - Cliquer sur l'icone de téléphonie à coté du numéro de téléphone de l'utilisateur à contacter.

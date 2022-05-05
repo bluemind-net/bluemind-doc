@@ -1,7 +1,7 @@
 ---
 title: "Synchronizing with mobile phones and tablets"
-confluence_id: 79862423
-position: 56
+confluence_id: 57770961
+position: 58
 ---
 # Synchronizing with mobile phones and tablets
 
@@ -13,7 +13,9 @@ As a result, BlueMind should be compatible with all recent smartphones (Android,
 **The [Compatibility](https://forge.blue-mind.net/confluence/display/DA/.Compatibilite+vBM-3) page lists all the devices whose compatibility with the BlueMind solution has been verified, as well as known issues on other devices. This list changes often, therefore we suggest that you look at it from time to time.**
 
 ActiveSync is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars while IMAP only allows access to messages.
-:::important
+
+
+:::info
 
 ActiveSync synchronization is compatible with all smartphone Email/Gmail (default Android application, depending on device model or version) and Mail (iPhone) apps. You should favor these.
 

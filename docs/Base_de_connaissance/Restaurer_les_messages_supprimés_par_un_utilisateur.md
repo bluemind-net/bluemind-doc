@@ -6,12 +6,12 @@ position: 74
 # Restaurer les messages supprimés par un utilisateur
 
 
-# Présentation
+## Présentation
 
 À partir de BlueMind 4.4, la corbeille est dite "à double fond" : elle propose un délai côté serveur pendant lequel les emails effacés sont conservés. Ainsi pendant ce délai une récupération peut être effectuée par l'utilisateur directement depuis son client Oulook (connecté en mapi) ou par l'administrateur depuis le serveur en ligne de commande.
 
 
-# Procédure
+## Procédure
 
 Lorsqu'un email est supprimé par l'utilisateur, le serveur de messagerie cyrus ne supprime pas immédiatement le message : le message est marqué comme supprimé et n'est plus disponible mais le fichier est conservé.
 
@@ -24,7 +24,8 @@ Ainsi, la nouvelle commande bm-cli permet pendant ce délai de récupérer les m
 bm-cli mail unexpunge
 ```
 
-:::important
+
+:::tip
 
 Pourquoi ne pas utiliser la commande cyrux unexpunge ?
 
@@ -32,7 +33,7 @@ La commande bm-cli est nécessaire car la commande cyrus "unexpunge" permettant 
 
 :::
 
-### Restauration des messages d'un utilisateur
+#### Restauration des messages d'un utilisateur
 
 L'utilisateur John Doe (identifiant jdoe@bluemind.loc) demande la récupération des emails supprimés dans les 2 jours qui viennent de passer. On utilisera la commande suivante :
 
@@ -50,7 +51,7 @@ Checked 1 deleted item(s), will restore 1 item(s)
 ```
 
 
-### Restauration des messages d'une boîte partagée
+#### Restauration des messages d'une boîte partagée
 
 Pour restaurer les messages d'une boîte partagée, il est nécessaire de s'authentifier en tant qu'un utilisateur ayant droit de lecture sur celle-ci. Il faut alors rajouter le paramètre `authn` à la commande.
 
@@ -71,15 +72,15 @@ Checked 1 deleted item(s), will restore 1 item(s)
 ```
 
 
-# Pour aller plus loin
+## Pour aller plus loin
 
-## Configuration
+### Configuration
 
 Le délai maximum entre une commande `expunge` et la récupération `unexpunge` est configurée dans Cyrus `/etc/cyrus.conf` sous la commande `delprune`, paramètre -X.
 
 Le délai par défaut est de 7 jours.
 
-## Utilisation
+### Utilisation
 
 Il est possible d'utiliser divers paramètres pour affiner la récupération :
 

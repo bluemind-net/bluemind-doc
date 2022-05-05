@@ -6,7 +6,7 @@ position: 44
 # Supervision
 
 
-# Supervision du serveur
+## Supervision du serveur
 
 Au niveau serveur, il est conseillé de superviser les aspects suivants de la machine :
 
@@ -14,7 +14,8 @@ Au niveau serveur, il est conseillé de superviser les aspects suivants de la ma
 - utilisation de la mémoire **RAM**
 - utilisation des **CPU**
 
-:::important
+
+:::info
 
 Important
 En cas de panne grave d'un composant BlueMind, un fichier *.hprof* est généré dans le répertoire`/var/log`.
@@ -29,7 +30,7 @@ Une commande pour réaliser manuellement cela peut être :
 
 
 ```
-ls /var/log/*.hprof
+ls /var/log/\*.hprof
 ```
 
 
@@ -41,7 +42,7 @@ java\_pid1664.hprof
 
 où `1664` est l'identifiant du processus ayant subi la panne. A partir de cet identifiant il est possible via les commandes `ps` ou `jps` de récupérer le composant responsable de la panne **avant** de redémarrer les services BlueMind.
 
-# Supervision des services
+## Supervision des services
 
 BlueMind utilise des composants standards de messagerie (Cyrus Imap, Postfix, nginx, tomcat...), qui peuvent être supervisés par des outils standards.
 
@@ -57,41 +58,29 @@ La liste des processus BlueMind en cours de fonctionnement sur le serveur est ac
 
 En temps normal, les processus purement BlueMind attendus et que l'on peut superviser sont :
 
-- 
-`net.bluemind.eas.push`
+- `net.bluemind.eas.push`
 
-- 
-`org.elasticsearch.bootstrap.Elasticsearch start -p /var/run/bm-elasticsearch.pid`
+- `org.elasticsearch.bootstrap.Elasticsearch start -p /var/run/bm-elasticsearch.pid`
 
-- 
-`net.bluemind.xmpp.server.launcher.tigase`
+- `net.bluemind.xmpp.server.launcher.tigase`
 
-- 
-`net.bluemind.lmtp.id1`
+- `net.bluemind.lmtp.id1`
 
-- 
-`net.bluemind.ysnp.ysnp`
+- `net.bluemind.ysnp.ysnp`
 
-- 
-`net.bluemind.application.launcher.coreLauncher`
+- `net.bluemind.application.launcher.coreLauncher`
 
-- 
-`net.bluemind.hornetq.mqsrv`
+- `net.bluemind.hornetq.mqsrv`
 
-- 
-`net.bluemind.webmodules.launcher.webLauncher`
+- `net.bluemind.webmodules.launcher.webLauncher`
 
-- 
-`net.bluemind.locator.app`
+- `net.bluemind.locator.app`
 
-- 
-`net.bluemind.node.server.nodelauncher`
+- `net.bluemind.node.server.nodelauncher`
 
-- 
-`net.bluemind.tika.server.tika`
+- `net.bluemind.tika.server.tika`
 
-- 
-`net.bluemind.proxy.http.launcher.hpslauncher`
+- `net.bluemind.proxy.http.launcher.hpslauncher`
 
 
 Parmi les composants standards utilisés par BlueMind on trouve également :
@@ -103,11 +92,11 @@ Parmi les composants standards utilisés par BlueMind on trouve également :
 - cyrus (imapd et pop3d)
 
 
-## Utilisation de SNMP
+### Utilisation de SNMP
 
 BlueMind ne fournit pas de sondes SNMP. Pour pouvoir superviser un serveur BlueMind via SNMP, il est donc nécessaire de mettre en place manuellement la supervision de chaque service précédemment cité.
 
-## Scripts de supervision BlueMind
+### Scripts de supervision BlueMind
 
 Afin de pouvoir superviser les services BlueMind, le paquet *bm-checks* doit être installé.
 
@@ -123,7 +112,7 @@ Chaque script renvoie un code de retour dépendant du status du service BlueMind
 
 En cas d'erreur, un message est renvoyé sur la sortie standard.
 
-# Supervision des logs
+## Supervision des logs
 
 Les fichiers journaux des composants BlueMind sont récupérables dans le répertoire `/var/log` :
 
@@ -154,13 +143,13 @@ Pour les autres composants qu'il est possible de superviser, les emplacements su
 - `/var/log/postgresql/`
 
 
-# Pilotage par script
+## Pilotage par script
 
 BlueMind utilise des scripts système standards pour l'arrêt et le démarrage des services.
 
 Ainsi, la commande "`bmctl restart`" relance l'ensemble des services BlueMind.
 
-# Réalisation d'opérations par script
+## Réalisation d'opérations par script
 
 Comme indiqué dans les sections relatives à l'intégration avec des applications tierces, BlueMind peut être totalement piloté par script.
 

@@ -6,7 +6,7 @@ position: 46
 # Sauvegarde et restauration
 
 
-# Présentation
+## Présentation
 
 BlueMind génère automatiquement des sauvegardes régulières des données afin de permettre une restauration rapide via l'interface d'administration.
 
@@ -19,7 +19,7 @@ La fréquence des sauvegardes est paramétrable et dépend de l'espace disque di
 Les sauvegardes ainsi réalisées peuvent ensuite être associées à un logiciel de sauvegarde d'entreprise centralisé ( Time Navigator, NetBackup...).
 
 
-# Les atouts du système de sauvegarde intégré
+## Les atouts du système de sauvegarde intégré
 
 - **Gain de temps** Les sauvegardes sont incrémentales, seules les différences (nouveaux messages, suppressions,..) transitent.
 - **Gain de fonctionnalités** La sauvegarde gère l'historisation des données.
@@ -31,18 +31,20 @@ Les sauvegardes ainsi réalisées peuvent ensuite être associées à un logicie
 - **Historique** La réalisation d'une sauvegarde de données se fait obligatoirement de façon incrémentale, tout en conservant un historique de ces données. Cette fonctionnalité d'historisation est particulièrement intéressante pour ceux qui ne disposent pas d'une grosse infrastructure de sauvegarde : une donnée n'est présente que dans une seule sauvegarde et les nouvelles données sont stockées dans un incrément.De plus, afin de s'assurer d'une restauration sûre, le programme reconstitue les données à partir d'une sauvegarde et d'un ou plusieurs incréments. Cela est transparent pour l'administrateur qui décide de la date à laquelle les données doivent être restaurées.
 
 
-# Architecture technique de la sauvegarde
+## Architecture technique de la sauvegarde
 
 - **Composant de stockage et d'historisation** BlueMind s'appuie sur le logiciel Open Source rsync. Cet outil permet de réaliser des copies incrémentales. Les données dont le spool de mail sont ainsi sauvegardé en créant des liens symboliques depuis le dernier backup, seul les nouveaux mails sont ainsi sauvegardés.
 - **Modules BlueMind et sauvegardes** BlueMind se base sur une architecture permettant d'éclater les services sur différents serveurs. Suivant les services hébergés par chacun des serveurs, ceux-ci se voient attribuer différentes méthodes de sauvegarde appropriées avec les données stockées sur ce nœud applicatif ( spool de mail, base de données, index, archivage, etc..). Ainsi, pour chaque rôle pouvant être attribué aux serveurs BueMind, il existe une procédure spécifique de sauvegarde assurant la reprise optimale et intégrale des données. 
 - **Localisation des sauvegardes** Les données de sauvegarde sont généralement externalisées sur un serveur séparé. BlueMind propose 2 solutions pour configurer les espaces de stockages des données sauvegardées :
-  2 La mise en place d'un montage NFS sur le système de fichier du serveur de production.
-  2 Utiliser un nœud (un serveur) de l'architecture BlueMind dédié faisant uniquement office de serveur de sauvegarde.
+    1. La mise en place d'un montage NFS sur le système de fichier du serveur de production.
+    2. Utiliser un nœud (un serveur) de l'architecture BlueMind dédié faisant uniquement office de serveur de sauvegarde.
 Suivant vos disponibilités et votre type d'infrastructure, l'une au l'autre des solutions peut être utilisée, l'objectif étant toutefois de séparer les données de production des données sauvegardées, afin de s'assurer de la capacité à remonter les services en cas de perte ou de corruption de données.- **Intégration dans une infrastructure de sauvegarde** Un Système d'information est souvent doté d'une infrastructure de sauvegarde. Des logiciels comme Atempo Time Navigator, Tivoli Storage Manager, Net Backup ou autre centralise les méthodes de sauvegarde et gèrent eux-mêmes l'historisation de vos backups.Ces outils s'interface bien avec BlueMind. Il nécessite une configuration particulière afin de permettre la conservation des historiques de sauvegarde BlueMind.Le serveur BlueMind s'occupe de réaliser la sauvegarde de façon sûre, complète et à chaud des données de production. Le logiciel de backup du client devra être configuré pour ne réaliser aucune historisation des données. De cette façon, le logiciel de sauvegarde tiers récupère le contenu de la sauvegarde réalisée par BlueMind pour le transférer sur bande ou autre.
 
 
-# Configuration du montage NFS
-:::important
+## Configuration du montage NFS
+
+
+:::info
 
 Le répertoire de sauvegarde doit être accessible depuis l'ensemble des nœuds du domaine BlueMind ; il convient donc de réaliser les opérations de montage et vérification suivantes sur **tous les serveurs concernés**.
 
@@ -82,7 +84,8 @@ Puis effacer ce fichier de test :
 rm test
 ```
 
-:::important
+
+:::tip
 
 Accès permanent à la dernière sauvegarde
 
@@ -117,7 +120,7 @@ A noter :
 
 :::
 
-# Configuration de la sauvegarde
+## Configuration de la sauvegarde
 
 La console d'administration permet de configurer le nombre de sauvegardes quotidiennes à conserver.
 
@@ -126,9 +129,10 @@ Pour mettre en œuvre une politique de sauvegarde, se rendre dans l'administrati
 ![](../../attachments/57771728/69894426.png)
 
 - **Politique de rétention** : indiquer le nombre de jours pendant lesquelles un sauvegarde (ici, les sauvegardes quotidiennes) doit être conservée
-- 
-**Sauvegarde boîtes aux lettres** : lorsque cette option est activée, les emails sont sauvegardés, lorsqu'elle ne l'est pas seules les données de contacts, agenda et tâches sont sauvegardées. Cela permet d'éviter les doublons lorsque les messages sont déjà sauvegardés par un autre système dédié.
-:::important
+- **Sauvegarde boîtes aux lettres** : lorsque cette option est activée, les emails sont sauvegardés, lorsqu'elle ne l'est pas seules les données de contacts, agenda et tâches sont sauvegardées. Cela permet d'éviter les doublons lorsque les messages sont déjà sauvegardés par un autre système dédié.
+
+
+:::info
 
 Performances
 
@@ -147,18 +151,20 @@ Ainsi on peut utiliser le système de sauvegarde BlueMind pour les autres donné
 - **Sauvegarde des emails archivés** : lorsque cette option est activée, les emails archivés seront sauvegardés également.Par défaut, cette option n'est pas activée, seuls les emails non archivés sont sauvegardés.
 
 
-# Actions post-sauvegarde
+## Actions post-sauvegarde
 
 En fin de sauvegarde, le script `/usr/bin/bm-post-full-backup.sh` est exécuté automatiquement s'il existe.
 
 Il peut contenir des opérations spécifiques à réaliser suite à une sauvegarde en succès.
 
-# Restauration
+## Restauration
 
 La même sauvegarde BlueMind permet à la fois la restauration d'un plan de reprise d'activité et les restaurations unitaires de données (les données ou une partie des données d'un utilisateur).
 
-## Plan de Reprise d'Activité (PRA)
-:::important
+### Plan de Reprise d'Activité (PRA)
+
+
+:::info
 
 Versions
 
@@ -172,7 +178,7 @@ Lors des étapes d'installation de BlueMind avec l'outil Setup Wizard, vous avez
 
 Cette solution permet de remonter facilement, rapidement et en toute sécurité un nouveau serveur BlueMind.
 
-## Restauration unitaire
+### Restauration unitaire
 
 La restauration unitaire est une fonctionnalité très pratique proposée par BlueMind qui permet de restaurer les données d'un seul utilisateur rapidement. La restauration est réalisée graphiquement et permet de choisir le type d'objet (entité : utilisateur, mail, calendrier boite partagée, etc..), puis l'objet lui-même dont les données doivent être restaurées
 

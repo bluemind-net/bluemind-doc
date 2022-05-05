@@ -1,15 +1,15 @@
 ---
-title: "Support and request for assistance"
-confluence_id: 79863576
-position: 38
+title: "Support and Request for Assistance"
+confluence_id: 57771961
+position: 40
 ---
-# Support and request for assistance
+# Support and Request for Assistance
 
 
 To speed up the resolution of your issue, please take some time to check the following sections of our documentation to make sure that the solution isn't already known and documented.
 
 
-#### ![](attachments/79863576/79863577.jpg) [Documentation](/)
+##### ![](attachments/57771961/57771962.jpg) [Documentation](/)
 
 
 - [New in BlueMind 4.4 and 4.5](/Nouveautés_BlueMind_4.4_et_4.5/)
@@ -21,11 +21,12 @@ To speed up the resolution of your issue, please take some time to check the fol
 - [Administrator's Guide](/Guide_de_l_administrateur/)
 - [Developer's guide](/Guide_du_développeur/)
 - [Knowledge Base](/Base_de_connaissance/)
-- [Suivi de traduction V4](https://forge.bluemind.net/confluence/display/EXPEN/Suivi+de+traduction+V4)
+- [STAGING](/STAGING/)
+- [Suivi de traduction V4](https://forge.bluemind.net/confluence/display/BM4/.Suivi+de+traduction+vBM-4.0)
 - [Support and Request for Assistance](/Support_et_demande_d_assistance/)
 
 
-#### ![](attachments/79863576/79863577.jpg) [Troubleshooting](/Guide_de_l_administrateur/Résolution_de_problèmes/)
+##### ![](attachments/57771961/57771962.jpg) [Troubleshooting](/Guide_de_l_administrateur/Résolution_de_problèmes/)
 
 
 - [Trouble sending or receiving emails](/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_d_émission_et_réception_de_messages/)
@@ -40,7 +41,7 @@ To speed up the resolution of your issue, please take some time to check the fol
 - [Resolving issues with Outlook](/Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook/)
 
 
-#### ![](attachments/79863576/79863577.jpg) [Knowledge Base](/Base_de_connaissance/)
+##### ![](attachments/57771961/57771962.jpg) [Knowledge Base](/Base_de_connaissance/)
 
 
 - [Changing a BlueMind Server's IP Address](/Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind/)
@@ -71,18 +72,18 @@ Before you request help from BlueMind support, make sure you have the required i
 - **Subscription number**, if you have one.
 - **Project Name**: client name or support partner name. You will have to select your project when you create the ticket – the "BlueMind" project does not entail any ticket processing or resolution requirement by BlueMind.
 - **Environment Details**:
-  - Exact BlueMind version number
-  - Operating system and OS version number
-  - Any other relevant detail (disk space, memory, etc.)
+    - Exact BlueMind version number
+    - Operating system and OS version number
+    - Any other relevant detail (disk space, memory, etc.)
 - **The ticket's priority level **must be assessed accurately:
-  - **Blocking**: the production server is down
-  - **Critical**: key functionalities of the collaborative email solution isn't working and there is no workaround
-  - **Major**: a key functionality of the collaborative email solution isn't working BUT there is a workaround OR a non-key functionality isn't working
-  - **Minor**: any other query.
+    - **Blocking**: the production server is down
+    - **Critical**: key functionalities of the collaborative email solution isn't working and there is no workaround
+    - **Major**: a key functionality of the collaborative email solution isn't working BUT there is a workaround OR a non-key functionality isn't working
+    - **Minor**: any other query.
 - **Gather as many details about the issue as well as the conditions under which it occurs.**For our support team to understand, investigate and reproduce the issue in their environment, you must describe the context and the actions that lead to it in as much detail as possible: user(s) concerned, buttons or hyperlinks clicked, text entered, waiting times, occurrence frequency, etc.
 - **Get the relevant log files**:
-  - go to this page [Logs](/Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux/) to help you identify log files
-  - go to the [Troubleshooting](/Guide_de_l_administrateur/Résolution_de_problèmes/) pages about related subjects.
+    - go to this page [Logs](/Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux/) to help you identify log files
+    - go to the [Troubleshooting](/Guide_de_l_administrateur/Résolution_de_problèmes/) pages about related subjects.
 
 
 [

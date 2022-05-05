@@ -1,12 +1,12 @@
 ---
 title: "Synchronisation IMAP sous Android"
 confluence_id: 57771006
-position: 68
+position: 70
 ---
 # Synchronisation IMAP sous Android
 
 
-:::important
+:::info
 
 Ce guide a été réalisé avec un LG Nexus 5 sous Android 5.0.1
 
@@ -15,7 +15,7 @@ Pour les autres téléphones ou versions d'Android, les opérations sont les mê
 :::
 
 
-# Configuration du nouveau compte courrier
+## Configuration du nouveau compte courrier
 
 Ouvrir l'application Gmail :
 
@@ -63,13 +63,17 @@ Saisir les informations du serveur sortant (serveur permettant d'envoyer des mes
 ![](../../../attachments/57771006/57771025.png)
 
 Sauf cas particulier, les informations et notamment l'adresse du serveur sont les mêmes que pour le serveur entrant.
-:::important
+
+
+:::info
 
 Ne pas oublier de cocher la case "Exiger une connexion".
 Pour des raisons de sécurité, le serveur n'autorise que ses utilisateurs à envoyer des messages. Cette option indique donc à l'application de demander au serveur de l'authentifier lors de l'envoi de messages.
 
 :::
-:::important
+
+
+:::info
 
 Ports et sécurité
 
@@ -84,8 +88,8 @@ IMAP (serveur entrant) :
 SMTP (serveur sortant) :
 
 - 25: TLS possible mais pas obligatoire
-  - sans authentification: envoi possible uniquement vers un des domaines BlueMind
-  - avec authentification ou depuis une IP listée dans l'interface de l'administrateur dans Gestion du système > Configuration système > onglet Messagerie > champs 'Mes réseaux': envoi possible vers n'importe quel destinataire
+    - sans authentification: envoi possible uniquement vers un des domaines BlueMind
+    - avec authentification ou depuis une IP listée dans l'interface de l'administrateur dans Gestion du système > Configuration système > onglet Messagerie > champs 'Mes réseaux': envoi possible vers n'importe quel destinataire
 - 465: SSL + authentification obligatoire - envoi possible vers n'importe quel destinataire
 - 587: TLS + authentification obligatoire - envoi possible vers n'importe quel destinataire
 

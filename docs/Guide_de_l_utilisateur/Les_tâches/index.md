@@ -1,12 +1,12 @@
 ---
 title: "Les tâches"
 confluence_id: 57770612
-position: 40
+position: 42
 ---
 # Les tâches
 
 
-# Présentation
+## Présentation
 
 BlueMind propose la gestion des tâches dans une interface dédiée et synchronisée avec l'agenda.
 
@@ -15,7 +15,7 @@ Organisez vos tâches par listes et utilisez les tags partagés avec les autres 
 Partagez vos listes de tâches avec vos collaborateurs en leur déléguant une visualisation simple ou la gestion complète.
 
 
-# L'interface
+## L'interface
 
 La gestion des tâches se présente sous la forme d'une application en 3 colonnes :
 
@@ -26,7 +26,7 @@ La gestion des tâches se présente sous la forme d'une application en 3 colonne
 - ![](../../attachments/57769989/69896473.png) : la 3ème colonne, zone d'affichage principale, présente la fiche de la tâche sélectionnée ou en cours de création
 
 
-# Les listes de tâches
+## Les listes de tâches
 
 L'utilisateur possède par défaut une liste "Mes tâches" et peut créer autant de listes supplémentaires qu'il le souhaite. Il peut aussi, via sa gestion de paramètres, s'abonner aux listes que d'autres utilisateurs partagent avec lui.
 
@@ -44,9 +44,9 @@ Dans une liste, les tâches apparaissent triées suivant leur état dans des sou
 - CE MOIS : les tâches dont la date d'échéance se situe dans le mois à venir à partir de la semaine suivante
 
 
-# Les tâches
+## Les tâches
 
-## Création
+### Création
 
 Le bouton ![](../../attachments/57770612/57770645.png) permet d'accéder au formulaire de création d'une tâche, qui sera alors créée dans la liste courante :
 
@@ -67,7 +67,7 @@ Le bouton ![](../../attachments/57770612/57770645.png) permet d'accéder au form
 
 Une fois le formulaire rempli et enregistré, la tâche apparaît dans la liste et le bouton ![](../../attachments/57770612/57770639.png) est alors disponible en haut du formulaire.
 
-## Modification
+### Modification
 
 Pour modifier une tâche :
 
@@ -83,7 +83,7 @@ Pour copier ou déplacer une tâche vers une autre liste :
 - cliquer sur ![](../../attachments/57770612/57770619.png) en haut à gauche du formulaire d'édition pour valider
 
 
-## Terminer une tâche
+### Terminer une tâche
 
 BlueMind offre plusieurs possibilités pour terminer une tâche accomplie :
 
@@ -91,20 +91,22 @@ BlueMind offre plusieurs possibilités pour terminer une tâche accomplie :
 - utiliser la liste déroulante "État" du formulaire d'édition de la tâche : ![](../../attachments/57770612/57770616.png)
 - cliquer sur la coche ![](../../attachments/57770612/57770614.png) dans le [panneau des tâches de l'Agenda](#Lestaches-actions-taches)
 
-:::important
+
+:::tip
 
 Dans le formulaire d'édition de la tâche, le champs "Terminée le" permet de saisir la date effective de fin de la tâche
 
 :::
 
 
-## Suppression
+### Suppression
 
 Pour supprimer une tâche :
 
 - cliquer sur le bouton ![](../../attachments/57770612/57770625.png) en haut à droite du formulaire d'édition
 
-:::important
+
+:::info
 
 Attention
 
@@ -112,13 +114,13 @@ Attention
 
 :::
 
-# Intégration avec l'agenda
+## Intégration avec l'agenda
 
 Dans l'agenda, les tâches sont présentées comme des calendriers. Les listes sont regroupées dans le sous-menu "Todolists" et les tâches sont présentées dans la partie haute de la vue, comme les événements sur journée complète, à leur date d'échéance. De plus, l'utilisateur peut afficher un panneau en partie droite de la page afin d'afficher les tâches sous forme de liste et d'accéder aux fonctionnalités principales :
 
 ![](../../attachments/57770612/57770637.png)
 
-## Visualisation d'une tâche
+### Visualisation d'une tâche
 
 Un clic sur l'événement permet de faire apparaître un résumé de la tâche :
 
@@ -128,7 +130,7 @@ Cliquer sur le lien "Détail »" pour plus d'informations :
 
 ![](../../attachments/57770612/57770633.png)
 
-## Actions sur les tâches
+### Actions sur les tâches
 
 En haut à droite de l'agenda, le bouton ![](../../attachments/57770612/57770623.png) permet de faire apparaître ou masquer le panneau des tâches :
 
@@ -147,9 +149,10 @@ Chaque tâche est présentée avec :
 - le code couleur de la liste à laquelle elle appartient
 - son titre
 - une coche ![](../../attachments/57770612/57770614.png) permettant de marquer la tâche comme terminée, elle disparaît alors automatiquement de la vue de l'agenda et de la liste
-- 
-une icône poubelle ![](../../attachments/57770612/57770613.png) permettant de supprimer la tâche
-:::important
+- une icône poubelle ![](../../attachments/57770612/57770613.png) permettant de supprimer la tâche
+
+
+:::info
 
 La suppression est immédiate et définitive, aucune confirmation n'est demandée
 

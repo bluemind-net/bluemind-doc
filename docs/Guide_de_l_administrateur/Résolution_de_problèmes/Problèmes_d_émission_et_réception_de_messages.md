@@ -6,9 +6,9 @@ position: 62
 # Problèmes d'émission et réception de messages
 
 
-# Problèmes connus
+## Problèmes connus
 
-## Les emails n'arrivent pas sur une adresse existante
+### Les emails n'arrivent pas sur une adresse existante
 
 ****Symptômes****** :** les emails ne sont pas délivrés à une adresse pourtant existante et l'expéditeur ne reçoit pas de message d'erreur
 
@@ -23,13 +23,12 @@ Il n'est pas nécessaire de redémarrer de service, les changements sont effecti
 Si cela ne résout pas le problème, voir les chapitres ci-dessous pour une investigation plus poussée.
 
 
-# Vérifier qu'un email est bien arrivé sur le serveur
+## Vérifier qu'un email est bien arrivé sur le serveur
 
 Il peut y avoir plusieurs raisons pour qu'un email supposé arrivé ne soit pas présent dans la boite d'un utilisateur.
 
 - L'email est bloqué par un antispam avant d'arriver sur le serveur BlueMind, dans ce cas il vous faut regarder dans les logs de votre solutions Antispam
-- 
-L'email est bloqué dans la queue postifx du serveur BlueMind, cela arrive notamment quand un utilisateur a atteint 100% de son quota, l'email sera dans ce cas placé en attente dans postfix pendant 3 jours. Si au bout de 3 jours il n'a toujours pas réussi à délivrer l'email, un message de *non-delivery* sera envoyé à l'expéditeur. Vous pouvez voir si l'email est présent dans la *queue* postfix avec la commande :
+- L'email est bloqué dans la queue postifx du serveur BlueMind, cela arrive notamment quand un utilisateur a atteint 100% de son quota, l'email sera dans ce cas placé en attente dans postfix pendant 3 jours. Si au bout de 3 jours il n'a toujours pas réussi à délivrer l'email, un message de *non-delivery* sera envoyé à l'expéditeur. Vous pouvez voir si l'email est présent dans la *queue* postfix avec la commande :
 
 
 ```
@@ -39,7 +38,6 @@ L'email est bloqué dans la queue postifx du serveur BlueMind, cela arrive notam
 (host 192.168.124.72[192.168.124.72] said: 452 4.2.2 Over quota SESSIONID=<cyrus-4311-1488438658-1> (in reply to RCPT TO command))
                                          full@bluemind.net
 ```
-
 
 Pour débloquer le message, il faut demander à l'utilisateur de supprimer des emails ou augmenter son quota puis attendre que le message soit délivré ou forcer postfix à réessayer de délivrer les emails avec la commande postqueue -f
 
@@ -73,9 +71,9 @@ Le message-id est l'identifiant unique du message, celui-ci se trouve dans les e
 
 Le dernier nombre de la ligne lmtp (ici 2294) correspond à l'id de l'email dans le dossier *INBOX* de l'utilisateur, vous pouvez donc trouver l'email dans `/var/spool/cyrus/data*/b/bluemind\_net/b/bluemind.net/*u/user/user/2294`.
 
-# Suivre l'historique d'un email
+## Suivre l'historique d'un email
 
-## Pour un email connu
+### Pour un email connu
 
 Une fois l'UID de l'email trouvé (voir ci-dessus), l'outil en ligne de commande bm-cli permet d'obtenir l'historique des mouvements d'un message :
 
@@ -110,7 +108,7 @@ Par exemple :
 ```
 
 
-## Avec une recherche par mot clef
+### Avec une recherche par mot clef
 
 L'outil en ligne de commande permet aussi d'effectuer des recherches par mot clef :
 
@@ -144,11 +142,11 @@ Par exemple ici nous allons chercher les emails de rappels d'un utilisateur pour
 ```
 
 
-1 Un email (id 7) a simplement été reçu, il est toujours dans la boîte de réception de l'utilisateur qui ne l'a pas consulté
-1 Un autre email (id 8) a été lu et placé dans la corbeille :
-  - il est copié dans la corbeille où il prend l'id 3
-  - l'original, d'id 8, est supprimé de la boîte de réception
-  - les 2 versions sont marquées comme lues
+1. Un email (id 7) a simplement été reçu, il est toujours dans la boîte de réception de l'utilisateur qui ne l'a pas consulté
+2. Un autre email (id 8) a été lu et placé dans la corbeille :
+    - il est copié dans la corbeille où il prend l'id 3
+    - l'original, d'id 8, est supprimé de la boîte de réception
+    - les 2 versions sont marquées comme lues
 
 
 Autre exemple, un peu plus tard on constate que l'email d'id 7 a "disparu" :
@@ -175,13 +173,14 @@ Autre exemple, un peu plus tard on constate que l'email d'id 7 a "disparu" :
 - l'email est créé dans cette boîte, où cette copie prend l'id 56
 - l'original est marqué comme lu et supprimé de la boîte de l'utilisateur
 
-:::important
+
+:::info
 
 Dans ce cas précis, l'email n'est pas copié dans la corbeille et le fichier n'apparaît plus sur le serveur car il ne s'agit pas d'une suppression en tant que telle mais d'un déplacement vers un autre dossier, même si celui-ci s'avère être un dossier partagé.
 
 :::
 
-# Restauration
+## Restauration
 
 La suppression en mode *delayed* a été mise en place au niveau de cyrus. Cela signifie que les mails ne sont réellement supprimés du serveur qu'au bout de 7 jours. Pendant ce laps de temps ils sont présents sur le disque mais non visible en IMAP.
 Ce mode de suppression prépare la future fonctionnalité de corbeille à double fond.

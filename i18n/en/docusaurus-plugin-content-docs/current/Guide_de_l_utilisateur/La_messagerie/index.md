@@ -1,12 +1,12 @@
 ---
 title: "Mail"
-confluence_id: 79861475
-position: 34
+confluence_id: 57770219
+position: 36
 ---
 # Mail
 
 
-# Introduction
+## Introduction
 
 Thanks to its thin client (webmail), BlueMind Mail offers a rich user interface with multiple features:
 
@@ -18,22 +18,24 @@ Thanks to its thin client (webmail), BlueMind Mail offers a rich user interface 
 - Full-text, multi-folder search engine
 
 
-![](../../attachments/79861475/79861513.png)
+![](../../attachments/57770219/58592435.png)
 
-# Display
+## Display
 
 BlueMind's default main view includes three panes:
 
-- ![](../../attachments/79861210/79861237.png) : the sidebar shows your email folder structure, which includes your personal mailboxes as well as the shared mailboxes you have access to.
-- ![](../../attachments/79861210/79861236.png) : displays the list of messages in the folder selected as well as related action buttons.
-- ![](../../attachments/79861210/79861235.png) : shows the message selected in the list. You can choose not to display this area and opt for a two-pane view in the preferences menu.
-- ![](../../attachments/79861210/79861234.png) : the advanced full-text (perform search in messages content and attachments) and multi-folder search engine
+- ![](../../attachments/57769989/69896496.png) : the sidebar shows your email folder structure, which includes your personal mailboxes as well as the shared mailboxes you have access to.
+- ![](../../attachments/57769989/69896495.png) : displays the list of messages in the folder selected as well as related action buttons.
+- ![](../../attachments/57769989/69896494.png) : shows the message selected in the list. You can choose not to display this area and opt for a two-pane view in the preferences menu.
+- ![](../../attachments/57769989/69896493.png) : the advanced full-text (perform search in messages content and attachments) and multi-folder search engine
 
 
-# Sidebar
+## Sidebar
 
 The sidebar shows the directory structure for read-only or read-and-write folders you have access to, sorted alphabetically.
-:::important
+
+
+:::tip
 
 Refreshing the folders list
 
@@ -41,13 +43,13 @@ The BlueMind application has a folders list cache, so a recently created or shar
 
 To force-refresh the list, the trick is to:
 
-- go to the Manage folders menu: ![](../../attachments/79861732/79861753.png)
+- go to the Manage folders menu: ![](../../attachments/57770374/57770395.png)
 - and just return to webmail, without doing anything else
 
 
 :::
 
-When a folder is selected, its content is shown in the right-hand pane ![](../../attachments/79861210/79861236.png).
+When a folder is selected, its content is shown in the right-hand pane ![](../../attachments/57769989/69896495.png).
 
 The "shared folders" folder holds all the folders – user-specific or shared mailboxes – you have been granted rights to.
 
@@ -55,21 +57,25 @@ Messages can be moved from one folder to another by dragging and dropping them f
 
 Right-click a folder to open a folder-specific action menu:
 
-![](../../attachments/79861475/79861492.png)
-:::important
+![](../../attachments/57770219/58592414.png)
+
+
+:::info
 
 ** **About disk quotas** **
 
 When disk quota is enabled, the disk usage percentage is displayed permanently in Mail at the bottom of the left-hand pane and hovering with the mouse shows usage details:
- ![](../../attachments/79862979/79862993.png) ![](../../attachments/79862979/79862994.png)
+ ![](../../attachments/57771429/62558952.png) ![](../../attachments/57771429/62558953.png)
 
 Disk quota usage is color-coded: orange = 75% used, dark red = 85% used, and red 100% used:
 
-![](../../attachments/79862979/79862992.png)
+![](../../attachments/57771429/62558951.png)
 
 When a quota is reached, incoming emails are blocked. These emails can be kept on the server for a few days.
 This may also cause disruptions to send, and possibly delete, operations as the system needs to perform copies in a temporary and/or trash folders.
-:::important
+
+
+:::info
 
 Disk quotas and deletion
 
@@ -81,59 +87,62 @@ When a disk quota has been reached, you can increase it manually and decrease it
 
 :::
 
-# Message list
+## Message list
 
-## Columns and sorting
+### Columns and sorting
 
-The gears button ![](../../attachments/79861475/79861512.png)  above the message list opens the column list and sorting window:
+The gears button ![](../../attachments/57770219/58592434.png)  above the message list opens the column list and sorting window:
 
-![](../../attachments/79861475/79861501.png)
+![](../../attachments/57770219/58592423.png)
 
 To apply sorting to a column, click it in the "Sorting column" list: if messages are already sorted by that column, the sorting order is reversed (ascending ![](../../attachments/17203265/17203271.png) descending), otherwise messages are sorted in ascending order. The column currently used for sorting is shown with an arrow in the column header:
 
-![](../../attachments/79861475/79861507.png)
+![](../../attachments/57770219/58592429.png)
 
 To customize column order, click the header of the column you want to move in the message list. The message list is grayed out and the column's location is shown as a dotted line. You can then move the column to the desired location:
 
-![](../../attachments/79861475/79861508.png)
-:::important
+![](../../attachments/57770219/58592430.png)
+
+
+:::tip
 
 Columns and sorting order choices are saved and kept until your next connection.
 
 :::
 
-## Selecting multiple messages
+### Selecting multiple messages
 
 There are several ways to select multiple messages:
 
 - Click the rows for the first and last message while holding down the "shift" key to select all the messages in that range.
 - Click each message row while holding down the "Ctrl" key.
 - In the select messages column:
-  - check the box corresponding to each message you want to select – no need to hold any key.
-  - click the column header to display the selection menu:
-![](../../attachments/79861475/79861510.png)
+    - check the box corresponding to each message you want to select – no need to hold any key.
+    - click the column header to display the selection menu:![](../../attachments/57770219/58592432.png)
 
 
 The messages selected are highlighted in blue and the box is checked:
 
-![](../../attachments/79861475/79861503.png)
-:::important
+![](../../attachments/57770219/58592425.png)
+
+
+:::info
 
 When several messages are selected, the preview pane does not show any content.
 
 :::
 
-## Reading and modifying message statuses
+### Reading and modifying message statuses
 
 In addition to quickly providing overview information, the read and flagged columns allow you to change the status of messages: click in the appropriate column to switch between read/unread and add or remove a flag:
 
-![](../../attachments/79861475/79861505.png)
+![](../../attachments/57770219/58592427.png)
 
-## Message actions
+### Message actions
 
-The toolbar above the message list -- in ![](../../attachments/79861210/79861236.png) -- gives you access to different actions depending on the message(s) selected:
+The toolbar above the message list -- in ![](../../attachments/57769989/69896495.png) -- gives you access to different actions depending on the message(s) selected:
 
-![](../../attachments/79861475/79861496.png)
+![](../../attachments/57770219/58592418.png)
 
 These shortcut buttons give you quick access to key actions: reply, reply all, forward, archive, change read and importance status...
 
@@ -142,83 +151,68 @@ The gears button provides further actions, such as "**Edit as new**" which allow
 Drop-down arrows also provide more actions, in addition to the button's primary function:
 
 
-![](../../attachments/79861475/79861499.png)
+![](../../attachments/57770219/58592421.png)
 
 
 Additional forwarding actions
 
 
-### Replying to messages
+#### Replying to messages
 
-- 
-Select the message in the message list in ![](../../attachments/79861210/79861236.png) and click the ![](../../attachments/79861475/79861517.png) "Reply**"** button in the actions toolbar.
+- Select the message in the message list in ![](../../attachments/57769989/69896495.png) and click the ![](../../attachments/57770219/58592439.png) "Reply**"** button in the actions toolbar.
 
-- 
-A new message addressed to the incoming message's sender opens.
+- A new message addressed to the incoming message's sender opens.
 The "Recipient" box is already filled in.
 Complete the message and send it.
 
 
-:::important
+:::tip
 
-To reply to all a message's recipients, click  ![](../../attachments/79861475/79861516.png) "**Reply all**" and complete as above.
+To reply to all a message's recipients, click  ![](../../attachments/57770219/58592438.png) "**Reply all**" and complete as above.
 
 :::
 
-### Forwarding messages
+#### Forwarding messages
 
-- 
-Select the message and click ![](../../attachments/79861475/79861515.png) "**Forward message"**.
+- Select the message and click ![](../../attachments/57770219/58592437.png) "**Forward message"**.
 
 - The compose window opens quoting the incoming message.
-- 
-Select the recipients and compose the message and click ![](../../attachments/79861602/79861610.png)
+- Select the recipients and compose the message and click ![](../../attachments/57770262/57770270.png)
 
 
-### Deleting messages
+#### Deleting messages
 
-- 
-Select the message and:
+- Select the message and:
 
-  - 
-click the ![](../../attachments/79861475/79861514.png) button to the top right of the message list. 
+    - click the ![](../../attachments/57770219/58592436.png) button to the top right of the message list. 
 
-  - 
-or right-click and click "Move message to trash"
+    - or right-click and click "Move message to trash"
 
-  - 
-or type "Del" on your keyboard.
-
+    - or type "Del" on your keyboard.
 
 You can retrieve moved messages for a duration according to Mail settings. By default, messages can be accessed for an unlimited time, unless they are manually deleted.
-- 
-To **delete messages permanently**:
+- To **delete messages permanently**:
 
-  - 
-Select the "Trash" folder and select the messages you want to delete.
+    - Select the "Trash" folder and select the messages you want to delete.
 
-  - 
-Right-click and click "Delete message".
+    - Right-click and click "Delete message".
 
-- 
-To **empty the trash folder**:
+- To **empty the trash folder**:
 
-  - 
-select the "Trash" folder.
+    - select the "Trash" folder.
 
-  - 
-right-click it and select "Empty".
+    - right-click it and select "Empty".
 
 
-### Editing as a new message
+#### Editing as a new message
 
-To edit a message rather than replying to it or forwarding it, open the menu "More actions..." ![](../../attachments/79861475/79861498.png) and select "**Edit as new message**".
+To edit a message rather than replying to it or forwarding it, open the menu "More actions..." ![](../../attachments/57770219/58592420.png) and select "**Edit as new message**".
 
-## Message list actions
+### Message list actions
 
 Shortcut buttons at the bottom of the message list offer a range of actions and information on the message list:
 
-![](../../attachments/79861475/79861494.png)
+![](../../attachments/57770219/58592416.png)
 
 - The first two buttons switch from simple list view to group-by-subject view.
 - The "Select" menu selects messages according to preset filters.
@@ -227,46 +221,49 @@ Shortcut buttons at the bottom of the message list offer a range of actions and 
 - The arrow buttons allow you to navigate between pages.
 
 
-# Viewing messages
+## Viewing messages
 
 The message pane shows the content of the message selected:
 
-![](../../attachments/79861475/79861486.png)
-:::important
+![](../../attachments/57770219/58592408.png)
+
+
+:::tip
 
 Double-click a message in the message list to view it in the right-hand part of the window.
 
 To return to default view, click the back arrow at the top left of the display area:
 
-![](../../attachments/79861475/79861483.png)
+![](../../attachments/57770219/58592405.png)
 
 :::
 
 
-## Header display
+### Header display
 
 By default, message headers are displayed in simple mode. To view more details, click the arrow to the left of the header:
 
-![](../../attachments/79861475/79861490.png)
+![](../../attachments/57770219/58592412.png)
 
 To display the full message header, click the arrow to the right of the header:
 
-![](../../attachments/79861475/79861488.png)
+![](../../attachments/57770219/58592410.png)
 
-## Attachments
+### Attachments
 
 Attachments can be found in different places in the message, depending on the attachment type:
 
 - attachments included in the message are located to the right of the message, in a gray column with a button that allows you to download them as a zip file
 - [linked attachments](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) are located at the bottom of the message in a blue insert.
 
-:::important
+
+:::tip
 
 Attached images are shown in the message preview window.
 
 :::
 
-![](../../attachments/79861475/79861484.png)
+![](../../attachments/57770219/58592406.png)
 
 Clicking an attachment will either open a preview window or a download/open prompt, depending on its type.
 

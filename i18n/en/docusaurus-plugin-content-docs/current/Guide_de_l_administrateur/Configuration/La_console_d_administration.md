@@ -1,6 +1,6 @@
 ---
 title: "Admin Console"
-confluence_id: 79862751
+confluence_id: 57771267
 position: 46
 ---
 # Admin Console
@@ -8,7 +8,7 @@ position: 46
 
 The admin console allows the global administrator as well as domain administrators to manage system configuration, servers, domains, scheduled jobs and documentation.
 
-![](../../attachments/79862751/79862752.png)
+![](../../attachments/57771267/57771268.png)
 
 Enregistrer
 

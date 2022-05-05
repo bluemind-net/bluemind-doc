@@ -1,28 +1,29 @@
 ---
 title: "Resolving issues with Outlook"
-confluence_id: 79863430
+confluence_id: 57771859
 position: 80
 ---
 # Resolving issues with Outlook
 
 
-# Introduction
+## Introduction
 
 This page is designed to help you investigate, diagnose and resolve issues related to using Outlook with BlueMind.
 
 First, if you are having trouble creating an account, check the [compatibility](/FAQ_Foire_aux_questions_/Compatibilité/) page to make sure that your **Outlook version is supported. **That** **page also describes known limitations.
 
 
-# Retrieving logs
+## Retrieving logs
 
 **On the client software side**, you may find messages in Outlook itself, in the "Sync Issues" folder.
 
 **On the server side**, there are 2 files you should look at:
 
-1 the general log `/var/log/bm-mapi/mapi.log`
-1 the activity log `/var/log/bm-mapi/activities.log`
+1. the general log `/var/log/bm-mapi/mapi.log`
+2. the activity log `/var/log/bm-mapi/activities.log`
 
-:::important
+
+:::info
 
 You can enable a detailed log for a specific user on the server for more in-depth investigation, ****but be warned that this impacts performance****. This is enabled using the [bm-cli](/Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration/) command line tool with the additional `bm-plugin-cli-mapi` package installed on the server:
 
@@ -34,13 +35,13 @@ bm-cli mapi logging --enable jdoe@bluemind.loc
 
 Logs are then located in the file `/var/log/bm-mapi/user-jdoe@bluemind.loc.log`
 
-![](../../attachments/79863430/79863431.png) ** Settings are lost when you restart the bm-mapi server.**
+![](../../attachments/57771859/57771860.png) ** Settings are lost when you restart the bm-mapi server.**
 
 :::
 
-# Troubleshooting
+## Troubleshooting
 
-## Unable to copy or move an email to a folder
+### Unable to copy or move an email to a folder
 
 **Issue/Symptoms:**
 
@@ -51,18 +52,16 @@ Logs are then located in the file `/var/log/bm-mapi/user-jdoe@bluemind.loc.log`
 
 **Troubleshooting:**
 
-1 
-Locate the email on the server with part of its subject text:
+1. Locate the email on the server with part of its subject text:
 
 
 ```
 # cd /var/spool/cyrus/data/bluemind\_loc/domain/b/bluemind.loc/j/user/jdoe/
-# grep "subject text" *
+# grep "subject text" \*
 ```
 
 
-1 
-Copy the file you found as an eml file:
+2. Copy the file you found as an eml file:
 
 
 ```
@@ -70,12 +69,12 @@ Copy the file you found as an eml file:
 ```
 
 
-1  Retrieve it and copy it in a working, test installation of Outlook to check whether the issue occurs there too and watch/retrieve the corresponding logs.
+3.  Retrieve it and copy it in a working, test installation of Outlook to check whether the issue occurs there too and watch/retrieve the corresponding logs.
 
 
-# Known Issues
+## Known Issues
 
-## Error when creating an account because of a wrong saved password
+### Error when creating an account because of a wrong saved password
 
 ** **Issue/symptoms******:** Outlook doesn't let you create an account when you enter a password – Outlook says that the password is wrong. 
 
@@ -106,13 +105,12 @@ To remove the wrong password:
 
 - make sure that Outlook and the account creation window are closed.
 - open the Credential Manager by typing Windows + R
-- then "`control /name Microsoft.CredentialManager`" in the run box:![](../../attachments/79863430/79863433.png)
+- then "`control /name Microsoft.CredentialManager`" in the run box:![](../../attachments/57771859/57771862.png)
 - click OK (or type &lt;Enter>)
-- delete entries such as `autodiscover.domaine.tld`  and `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  E.g. to delete the password for *[tom@bm.lan](mailto:tom@bm.lan)*:
-![](../../attachments/79863430/79863432.png)
+- delete entries such as `autodiscover.domaine.tld`  and `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  E.g. to delete the password for *[tom@bm.lan](mailto:tom@bm.lan)*:![](../../attachments/57771859/57771861.png)
 
 
-## Password being asked in a loop
+### Password being asked in a loop
 
 ** **Issue/Symptom******:** The account creation and synchronization have been successful but then Outlook keeps asking for the user's password repeatedly.
 
@@ -120,24 +118,24 @@ To remove the wrong password:
 
 ** **Solution**:** You have to force the registry key to tell Outlook to exclude the direct connection method to Office365
 
-1 Open regedit:
-  - Click the start button
-  - Type `regedit` either in the Run application or in the Windows search bar.
-  - Press Enter
-1 **(HIGHLY RECOMMENDED BUT OPTIONAL)** Back-up your registry – [Click here to find out how](https://support.microsoft.com/help/322756).
-1 In the registry, go to `HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\AutoDiscover`
-1 Right-click anywhere in the right column, select NEW and then *DWORD (32-bit)*.
-1 Name this entry: `ExcludeExplicitO365EndPoint`
-1 Right-click this entry and select *Edit*
-1 Change the value to 1 in the value field and click OK
-1 Restart your computer
-1 Create your Outlook profile again
-1 Open Outlook and when asked, enter your email address and password.
+1. Open regedit:
+    - Click the start button
+    - Type `regedit` either in the Run application or in the Windows search bar.
+    - Press Enter
+2. **(HIGHLY RECOMMENDED BUT OPTIONAL)** Back-up your registry – [Click here to find out how](https://support.microsoft.com/help/322756).
+3. In the registry, go to `HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\AutoDiscover`
+4. Right-click anywhere in the right column, select NEW and then *DWORD (32-bit)*.
+5. Name this entry: `ExcludeExplicitO365EndPoint`
+6. Right-click this entry and select *Edit*
+7. Change the value to 1 in the value field and click OK
+8. Restart your computer
+9. Create your Outlook profile again
+10. Open Outlook and when asked, enter your email address and password.
 
 
 For more information about this issue, go to: [https://docs.microsoft.com/en-us/outlook/troubleshoot/domain-management/unexpected-autodiscover-behavior](https://docs.microsoft.com/en-us/outlook/troubleshoot/domain-management/unexpected-autodiscover-behavior)
 
-## Folders are empty
+### Folders are empty
 
 ****Issue/Symptom**:** The default folders (Inbox, Sent, Trash, etc.) are present but empty. In webmail, they do contain messages.
 
@@ -154,7 +152,7 @@ bm-cli maintenance repair --ops replication.parentUid user@domain.tld
 
 Then **restart Outlook** and check that the messages are coming in properly.
 
-## The Global Address Book in Outlook is incomplete
+### The Global Address Book in Outlook is incomplete
 
 ****Issue/Symptom******:**
 
@@ -224,13 +222,13 @@ systemctl start bm-mapi
 ```
 
 
-## Messages aren't arranged by folder despite conversation mode being enabled
+### Messages aren't arranged by folder despite conversation mode being enabled
 
 This feature hasn't been implemented as part of BlueMind's MAPI yet. 
 
 Some messages may be sorted by conversation depending on the third-party client they come from (e.g. Webmail or Thunderbird).
 
-## During an Outlook profile creation, Outlook displays a message: "The name cannot be matched to a name in the address list."
+### During an Outlook profile creation, Outlook displays a message: "The name cannot be matched to a name in the address list."
 
 ****Cause:**** During the creation of an Outlook profile, Outlook checks that the account's email address is present in the GAL, but only the default email address is present in the GAL.
 

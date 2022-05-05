@@ -1,6 +1,6 @@
 ---
 title: "Changing distributions"
-confluence_id: 79863494
+confluence_id: 57771914
 position: 44
 ---
 # Changing distributions
@@ -10,17 +10,17 @@ This article describes how to change the distribution BlueMind works on. It can 
 
 This procedure is based on installing a target system to which the data is migrated. This new system will then replace the original one at the network level.
 
-# Prerequisites
+## Prerequisites
 
 - install BlueMind on the target system in an identical version to the original system and configured with the same *external-url*. The Setup Wizard must have been run on the target server. E.g.:
-  - if the original system uses BlueMind 4.0.5, the target system must have BlueMind 4.0.5 installed
-  - if the original *external-url *is *bluemind.domain.tld*, the target system's BlueMind must be configured with the *external-url* *bluemind.domain.tld*
-  - [install a valid subscription](/Guide_d_installation/Mise_en_œuvre_de_la_souscription/) for this OS
+    - if the original system uses BlueMind 4.0.5, the target system must have BlueMind 4.0.5 installed
+    - if the original *external-url *is *bluemind.domain.tld*, the target system's BlueMind must be configured with the *external-url* *bluemind.domain.tld*
+    - [install a valid subscription](/Guide_d_installation/Mise_en_œuvre_de_la_souscription/) for this OS
 - the target system's *root* user must be able to authenticate as *root* on the original server, ideally using key authentication.
 - the *rsync* utility must be installed on both systems.
 
 
-# Migration
+## Migration
 
 Data migration is done in three steps to minimize service downtime:
 
@@ -29,13 +29,12 @@ Data migration is done in three steps to minimize service downtime:
 - switching servers
 
 
-## Hot synchronization
+### Hot synchronization
 
 Allows you to make an initial copy of data without interrupting the service:
 
-1 connect to the target server as *root*
-1 
-stop services on the target servers:
+1. connect to the target server as *root*
+2. stop services on the target servers:
 
 
 ```
@@ -44,8 +43,7 @@ stop services on the target servers:
 ```
 
 
-1 
-synchronize BlueMind data using the rsync utility:
+3. synchronize BlueMind data using the rsync utility:
 
 
 ```
@@ -63,10 +61,9 @@ These operations can be interrupted and/or performed several times.
 
 ****Note:**** The shorter the time between hot synchronization and cold synchronization, the faster cold synchronization will be.
 
-## Cold synchronization
+### Cold synchronization
 
-1 
-Stop services on the servers (original and target):
+1. Stop services on the servers (original and target):
 
 
 ```
@@ -75,8 +72,7 @@ Stop services on the servers (original and target):
 ```
 
 
-1 
-In the target server, synchronize the data again:
+2. In the target server, synchronize the data again:
 
 
 ```
@@ -90,8 +86,7 @@ In the target server, synchronize the data again:
 ```
 
 
-1 
-In the target server, do a database dump for the original server data:
+3. In the target server, do a database dump for the original server data:
 
 
 ```
@@ -100,23 +95,22 @@ In the target server, do a database dump for the original server data:
 ```
 
 
-1 
-In the target server, copy the original server's files to the target server:
+4. In the target server, copy the original server's files to the target server:
 
 
 ```
-# scp -r root@origsrv.domain.tld:/etc/bm/* /etc/bm
+# scp -r root@origsrv.domain.tld:/etc/bm/\* /etc/bm
 # scp root@origsrv.domain.tld:/etc/bm/bm.ini /etc/bm/bm.ini
-# scp -r root@origsrv.domain.tld:/etc/bm-hps/* /etc/bm-hps
+# scp -r root@origsrv.domain.tld:/etc/bm-hps/\* /etc/bm-hps
 
 # scp root@origsrv.domain.tld:/etc/ssl/certs/bm\_cert.pem /etc/ssl/certs/bm\_cert.pem
 
-# scp -r root@origsrv.domain.tld:/var/lib/bm-ca/* /var/lib/bm-ca
+# scp -r root@origsrv.domain.tld:/var/lib/bm-ca/\* /var/lib/bm-ca
 
 # scp root@origsrv.domain.tld:/usr/share/bm-elasticsearch/config/elasticsearch.yml /usr/share/bm-elasticsearch/config/elasticsearch.yml
 
-# scp root@origsrv.domain.tld:/etc/imapd* /etc/
-# scp root@origsrv.domain.tld:/etc/cyrus* /etc/
+# scp root@origsrv.domain.tld:/etc/imapd\* /etc/
+# scp root@origsrv.domain.tld:/etc/cyrus\* /etc/
 
 # scp root@origsrv.domain.tld:/etc/postfix/main.cf /etc/postfix/main.cf
 # scp root@origsrv.domain.tld:/etc/postfix/master.cf /etc/postfix/master.cf
@@ -130,12 +124,11 @@ In the target server, copy the original server's files to the target server:
 # scp root@origsrv.domain.tld:/etc/postfix/virtual\_domains.db /etc/postfix/virtual\_domains.db
 # scp root@origsrv.domain.tld:/etc/postfix/virtual\_mailbox-flat /etc/postfix/virtual\_mailbox-flat
 # scp root@origsrv.domain.tld:/etc/postfix/virtual\_mailbox.db /etc/postfix/virtual\_mailbox.db
-# scp root@origsrv.domain.tld:/etc/bm-webmail/* /etc/bm-webmail/
+# scp root@origsrv.domain.tld:/etc/bm-webmail/\* /etc/bm-webmail/
 ```
 
 
-1 
-Import the database into the target server:
+5. Import the database into the target server:
 
 
 ```
@@ -151,14 +144,14 @@ $ exit
 ```
 
 
-## Switching servers
+### Switching servers
 
-1 Stop the original server
-1 Reconfigure the target server with the original server's IP address
-1 Restart the target server and connect to the network instead of the original server so that it can be reached instead of the original server
+1. Stop the original server
+2. Reconfigure the target server with the original server's IP address
+3. Restart the target server and connect to the network instead of the original server so that it can be reached instead of the original server
 
 
-# Post-migration
+## Post-migration
 
 Connect to the BlueMind Administration console as *[**admin0@global.virt**](mailto:admin0@global.virt)* and:
 

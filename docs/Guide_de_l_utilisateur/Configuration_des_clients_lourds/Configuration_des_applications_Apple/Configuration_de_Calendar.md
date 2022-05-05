@@ -1,15 +1,17 @@
 ---
 title: "Configuration de Calendar"
 confluence_id: 57770879
-position: 70
+position: 72
 ---
 # Configuration de Calendar
 
 
-# Présentation
+## Présentation
 
  
-:::important
+
+
+:::info
 
 Le guide suivant a été réalisé sous un OS X Mavericks.
 
@@ -18,9 +20,9 @@ Le protocole CalDav n'est actuellement validé qu'avec les clients Mac OS X **na
 :::
 
 
-# Configuration d'un compte CalDAV
+## Configuration d'un compte CalDAV
 
-## Création du compte
+### Création du compte
 
 Se rendre dans la gestion des comptes internet : System Preferences > «Internet Accounts» :
 
@@ -62,7 +64,9 @@ Valider l'ajout du certificat en saisissant votre nom d'utilisateur et mot de pa
 Le compte est alors créé avec les réglages suivants :
 
 ![](../../../attachments/57770879/57770882.png)
-:::important
+
+
+:::info
 
 Ne pas activer les reminders, cela n'est pas encore implémenté.
 
@@ -72,7 +76,7 @@ Lancer Calendar, les rendez-vous doivent apparaître :
 
 ![](../../../attachments/57770879/57770881.png)
 
-## Affichage des agendas partagés
+### Affichage des agendas partagés
 
 Pour pouvoir les voir dans Calendar, l'utilisateur doit d'abord s'abonner aux agendas qu'il souhaite dans BlueMind. Cette opération doit nécessairement être faite dans l'interface Web.
 Pour cela :

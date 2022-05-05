@@ -6,55 +6,56 @@ position: 52
 # Installation d'une VM Android
 
 
-# Présentation
+## Présentation
 
 Cette page vous guide dans l'installation d'un environnement Android virtuel sous Linux.
 
 Si vous n'avez pas besoin d'Android Studio (rich IDE), vous pouvez n'installer que le strict nécessaire pour monter une machine virtuelle Android.
-:::important
+
+
+:::info
 
 Toutes les informations sur les outils en ligne de commande sont disponibles en ligne : [https://developer.android.com/studio/command-line](https://developer.android.com/studio/command-line)
 
 :::
 
 
-# Prérequis
+## Prérequis
 
 Avant d'installer la machine virtuelle en elle-même, il est nécessaire de mettre en place un certain nombre de variables d'environnement et installer le *sdkmanager*.
 
 Vous trouverez ci-dessous les actions à effectuer en fonction de votre distribution (actions génériques, commandes correspondantes pour certaines distributions).
 
-## Linux générique
+### Linux générique
 
-1 Installer Java 8, plus précisément openjdk-8 (cf. [https://doc.ubuntu-fr.org/java](https://doc.ubuntu-fr.org/java))
-1 Télécharger les outils en ligne de commande : [https://developer.android.com/studio#command-tools](https://developer.android.com/studio#command-tools)
-1 Décompresser son contenu dans `/opt/android-sdk`
-  2 `sudo mkdir -p /opt/android-sdk`
-1 Mettre les variables d'environnement en place (cf. [https://doc.ubuntu-fr.org/variables_d_environnement#variables_d_environnement_persistantes](https://doc.ubuntu-fr.org/variables_d_environnement#variables_d_environnement_persistantes)) :
-  2 `**ANDROID\_SDK\_ROOT**=/opt/android-sdk`
-  2 ajouter à **`PATH`** :
-    3 `/opt/android-sdk/emulator`
-    3 `/opt/android-sdk/platform-tools`
-    3 `/opt/android-sdk/tools/bin`
-1 Donner les droits au dossier pour le groupe `android-sdk`
-  2 `groupadd android-sdk`
-  2 `gpasswd -a $USER android-sdk`
-  2 `setfacl -R -m g:android-sdk:rwx /opt/android-sdk`
-  2 `setfacl -d -m g:android-sdk:rwX /opt/android-sdk`
-  2 `chown :android-sdk /opt/android-sdk -R`
-  2 `chmod u+w /opt/android-sdk`
-1 ⚠️ vous devez vous relogguez ou exécuter `newgrp android-sdk`
-1 
-Installer `tools` : `sdkmanager --sdk_root=/opt/android-sdk "tools"`
+1. Installer Java 8, plus précisément openjdk-8 (cf. [https://doc.ubuntu-fr.org/java](https://doc.ubuntu-fr.org/java))
+2. Télécharger les outils en ligne de commande : [https://developer.android.com/studio#command-tools](https://developer.android.com/studio#command-tools)
+3. Décompresser son contenu dans `/opt/android-sdk`
+    1. `sudo mkdir -p /opt/android-sdk`
+4. Mettre les variables d'environnement en place (cf. [https://doc.ubuntu-fr.org/variables_d_environnement#variables_d_environnement_persistantes](https://doc.ubuntu-fr.org/variables_d_environnement#variables_d_environnement_persistantes)) :
+    1. `**ANDROID\_SDK\_ROOT**=/opt/android-sdk`
+    2. ajouter à **`PATH`** :
+        1. `/opt/android-sdk/emulator`
+        2. `/opt/android-sdk/platform-tools`
+        3. `/opt/android-sdk/tools/bin`
+5. Donner les droits au dossier pour le groupe `android-sdk`
+    1. `groupadd android-sdk`
+    2. `gpasswd -a $USER android-sdk`
+    3. `setfacl -R -m g:android-sdk:rwx /opt/android-sdk`
+    4. `setfacl -d -m g:android-sdk:rwX /opt/android-sdk`
+    5. `chown :android-sdk /opt/android-sdk -R`
+    6. `chmod u+w /opt/android-sdk`
+6. ⚠️ vous devez vous relogguez ou exécuter `newgrp android-sdk`
+7. Installer `tools` : `sdkmanager --sdk_root=/opt/android-sdk "tools"`
 
 
 Désormais vous avez tout le nécessaire pour utiliser les outils en ligne de commande afin de gérer votre environnement.
 
-## Instructions spécifiques
+### Instructions spécifiques
 
 Retrouvez ici les lignes de commandes correspondant aux étapes décrites dans le chapitre ci-dessus.
 
-### Ubuntu
+#### Ubuntu
 
 
 ```
@@ -73,7 +74,7 @@ $ sdkmanager --sdk\_root=/opt/android-sdk "tools"
 ```
 
 
-### Arch Linux
+#### Arch Linux
 
 cf. [https://wiki.archlinux.org/index.php/Android#SDK_packages](https://wiki.archlinux.org/index.php/Android#SDK_packages) et [https://wiki.archlinux.org/index.php/Android#Making_/opt/android-sdk_group-writeable](https://wiki.archlinux.org/index.php/Android#Making_/opt/android-sdk_group-writeable)
 
@@ -91,9 +92,9 @@ $ sdkmanager --sdk\_root=/opt/android-sdk "tools"
 ```
 
 
-# Android Virtual Device
+## Android Virtual Device
 
-## Gérer les SDK et outils
+### Gérer les SDK et outils
 
 Quelques commandes utiles de [sdkmanager](https://developer.android.com/studio/command-line/sdkmanager) :
 
@@ -153,7 +154,7 @@ Installed packages:=====================] 100% Computing updates...
 ```
 
 
-## Gérer les AVDs
+### Gérer les AVDs
 
 Avant de créer un AVD (*Android Virtual Device*), il vous faut une image système installée sur votre environnement.
 
@@ -184,9 +185,9 @@ $ emulator -avd avd-android30-pixel
 ```
 
 
-## Astuces
+### Astuces
 
-### Clavier physique
+#### Clavier physique
 
 Pour utiliser le clavier physique de votre ordinateur dans l'émulateur, modifier la valeur de la variable `hw.keyboard` dans le fichier `~/.android/avd/avd-android30-pixel.avd/config.ini`
 **config.ini**
@@ -196,7 +197,7 @@ hw.keyboard = yes
 ```
 
 
-### Manipuler l'émulateur
+#### Manipuler l'émulateur
 
 On peut envoyer des commandes à l'émulateur pour simuler des activités particulières : recevoir un sms, modifier la position du gps, la puissance du gsm, etc.
 
@@ -222,7 +223,7 @@ OK
 ```
 
 
-### Ouvrir un root shell
+#### Ouvrir un root shell
 
 Créez une console *root shell* sur le terminal actuel. Elle diffère de la commande *shell adb* des manières suivantes :
 
@@ -233,13 +234,13 @@ Créez une console *root shell* sur le terminal actuel. Elle diffère de la comm
 
 cf. [https://developer.android.com/studio/run/emulator-commandline#advanced](https://developer.android.com/studio/run/emulator-commandline#advanced)
 
-# Screenshots
+## Screenshots
 
 ![](../attachments/62559016/62559017.png)![](../attachments/62559016/62559018.png)![](../attachments/62559016/62559020.png)![](../attachments/62559016/62559019.png)
 
-# Problèmes connus
+## Problèmes connus
 
-## Erreur sdkmanager "Could not create settings"
+### Erreur sdkmanager "Could not create settings"
 
 Quelle que soit la commande de `sdkmanager`, on obtient cette réponse :
 
@@ -255,7 +256,8 @@ java.lang.IllegalArgumentException
 	at com.android.sdklib.tool.sdkmanager.SdkManagerCli.main(SdkManagerCli.java:48)
 ```
 
-:::important
+
+:::info
 
 Solution
 
@@ -269,10 +271,12 @@ $ sdkmanager --sdk\_root=/opt/android-sdk --list
 
 :::
 
-## Erreur "Warning: Failed to read or create install properties file."
+### Erreur "Warning: Failed to read or create install properties file."
 
 Impossible d'écrire dans le répertoire `/opt/android-sdk`.
-:::important
+
+
+:::info
 
 Solution
 
@@ -284,17 +288,17 @@ $ sudo chmod g+w /opt/android-sdk
 
 :::
 
-## Erreur emulator "PANIC: Broken AVD system path. Check your ANDROID_SDK_ROOT value [/opt/android-sdk]!"
+### Erreur emulator "PANIC: Broken AVD system path. Check your ANDROID_SDK_ROOT value [/opt/android-sdk]!"
 
 cf. [https://stackoverflow.com/questions/39645178/panic-broken-avd-system-path-check-your-android-sdk-root-value](https://stackoverflow.com/questions/39645178/panic-broken-avd-system-path-check-your-android-sdk-root-value)
 
-## Erreur emulator
+### Erreur emulator
 
 Il y a deux binaires dans l'installation `/opt/android-sdk/tools/emulator` et `/opt/android-sdk/emulator/emulator`. C'est un peu obscur.
 
 Moins de problèmes ont été rencontré avec la version installée dans `/opt/android-sdk/emulator` (cf. `sdkmanager --list`). Pour autant selon la variable `$PATH`, c'est l'autre binaire qui sera utilisé (cf. `which emulator`)
 
-# Références
+## Références
 
 [https://medium.com/michael-wallace/how-to-install-android-sdk-and-setup-avd-emulator-without-android-studio-aeb55c014264](https://medium.com/michael-wallace/how-to-install-android-sdk-and-setup-avd-emulator-without-android-studio-aeb55c014264)
 

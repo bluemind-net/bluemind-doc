@@ -1,14 +1,14 @@
 ---
 title: "Managing Shares"
-confluence_id: 79862229
-position: 48
+confluence_id: 57770792
+position: 50
 ---
 # Managing Shares
 
 
 All types of shares (mailboxes, user calendar, resource calendar, etc.) are managed via the same form.
 
-# Adding users
+## Adding users
 
 To add a user (individual or group):
 
@@ -18,16 +18,16 @@ To add a user (individual or group):
 - **Once all share rights are set, click "Save" at the bottom of the page to apply changes.**
 
 
-# Modifying user share rights
+## Modifying user share rights
 
 - In the list of users with share rights, scroll and select the new right.
 - Do this for all the users whose rights you want to change.
 - **Once all user rights are set as desired, click "Save" at the bottom of the page to apply changes.**
 
 
-# Removing users
+## Removing users
 
-- In the list of users with share rights, click the trash icon at the end of the row:![](../attachments/79861285/79861286.png)
+- In the list of users with share rights, click the trash icon at the end of the row:![](../attachments/57770060/57770061.png)
 - Do this for all the users you want to remove from the list.
 - ****Once all users are set as desired, click "Save" at the bottom of the page to apply changes**.**
 

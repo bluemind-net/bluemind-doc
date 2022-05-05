@@ -7,7 +7,9 @@ position: 42
 
 
 Le présent document décrit la marche à suivre pour modifier l'adresse IP d'un serveur BlueMind.
-:::important
+
+
+:::info
 
 Mise en garde
 
@@ -15,10 +17,9 @@ Cette procédure est volontairement peu détaillée afin d'être réservée à d
 
 :::
 
-# Procédure
+## Procédure
 
-- 
-stopper BlueMind avec la commande
+- stopper BlueMind avec la commande
 
 
 ```
@@ -26,8 +27,7 @@ bmctl stop
 ```
 
 
-- 
-Démarrer postgresql :
+- Démarrer postgresql :
 
 
 ```
@@ -38,8 +38,7 @@ systemctl start postgresql
 - Mettre à jour la configuration réseau du serveur avec la nouvelle IP
 - Modifier le fichier `/etc/bm/bm.ini` et remplacer l'adresse des paramètres "`host`" et "`hz-member-address`" par la nouvelle adresse IP
 - Modifier le fichier `/etc/cyrus-replication` et remplacer l'adresse du paramètre "`core_sync_host`" par la nouvelle adresse IP
-- 
-Mettre à jour les informations en base de données avec la ligne de commande suivante :
+- Mettre à jour les informations en base de données avec la ligne de commande suivante :
 
 
 ```
@@ -48,18 +47,14 @@ sudo -u postgres -i psql -h localhost -U bj -d bj -W -c "update rc\_users set ma
 sudo -u postgres -i psql -h localhost -U bj -d bj -W -c "update t\_systemconf set configuration = configuration || hstore('host','<new\_ip>') || hstore('hz-member-address', '<new\_ip>');"
 ```
 
-
 où :
 
-  - 
-&lt;old_ip> est l'ancienne adresse IP
+    - &lt;old_ip> est l'ancienne adresse IP
 
-  - 
-&lt;new_ip> la nouvelle
+    - &lt;new_ip> la nouvelle
 
-*NB : en cas de demande de mot de passe, taper "bj"*- Modifier l'arborescence de `/var/backups/bluemind` pour renommer le dossier `/var/backups/bluemind/dp_spool/rsync/&lt;old_ip>` avec la nouvelle adresse IP
-- 
-Relancer BlueMind et le *node* avec les commandes suivantes :
+*NB : en cas de demande de mot de passe, taper "bj"*- Modifier l'arborescence de `/var/backups/bluemind` pour renommer le dossier `/var/backups/bluemind/dp_spool/rsync/<old_ip>` avec la nouvelle adresse IP
+- Relancer BlueMind et le *node* avec les commandes suivantes :
 
 
 ```
@@ -72,8 +67,7 @@ systemctl restart bm-node
 - Se rendre dans la partie Sécurité > Gestion du pare-feu et cliquer immédiatement sur le bouton "Enregistrer" pour forcer la re-génération des règles du parefeu BlueMind
 - Se rendre dans la partie Gestion du Système > Maintenance des mails, cliquer sur le bouton "Exécuter" pour re-générer les tables de routage de mails postfix
 - Se rendre dans la partie Gestion du Système > Configuration Système et remplacer l'ancienne adresse IP du champ "Mes réseaux" par la nouvelle adresse ou plage d'adresse pour laquelle on souhaite être relais ouvert avant de cliquer sur le bouton "Enregistrer"
-- 
-Reconfigurer tick à l'aide de la commande  suivante :
+- Reconfigurer tick à l'aide de la commande  suivante :
 
 
 ```

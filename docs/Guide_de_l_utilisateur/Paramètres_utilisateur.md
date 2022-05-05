@@ -1,19 +1,19 @@
 ---
 title: "Paramètres utilisateur"
 confluence_id: 57770769
-position: 46
+position: 48
 ---
 # Paramètres utilisateur
 
 
-# Présentation
+## Présentation
 
 L'interface de gestion des paramètres permet à l'utilisateur de personnaliser son environnement BlueMind.
 
 Cette interface est accessible depuis le bandeau de navigation présent en haut de toutes les pages de BlueMind : ![](../attachments/57770060/57770071.png)
 
 
-# Mon compte
+## Mon compte
 
 Le premier onglet de la page "Mon compte" permet de régler les paramètres généraux de localisation et d'affichage de l'application :
 
@@ -26,7 +26,9 @@ Le premier onglet de la page "Mon compte" permet de régler les paramètres gén
 
 
 ![](../attachments/57770769/62555169.png)
-:::important
+
+
+:::tip
 
 À propos des langues
 
@@ -34,7 +36,7 @@ BlueMind est actuellement traduit et en cours de traduction dans plusieurs langu
 
 :::
 
-# Expiration du mot de passe
+## Expiration du mot de passe
 
 Les administrateurs de BlueMind ont à partir de la version 4.3 de BlueMind la possibilité de mettre en place une politique d'expiration des mots de passe :
 
@@ -46,13 +48,13 @@ Dans l'un ou l'autre des cas, lorsqu'il essaie de se connecter avec son ancien m
 
 ![](../attachments/57770769/62555147.png)Une fois le mot de passe modifié, l'utilisateur est dirigé de nouveau vers le formulaire de connexion et peut se connecter à BlueMind avec son nouveau mot de passe.
 
-# Réinitialisation des données
+## Réinitialisation des données
 
 L'onglet "Avancée" de la page "Mon compte" donne accès aux fonctions avancées de gestion des préférences, à savoir la réinitialisation des données locales de l'application :
 
 ![](../attachments/57770769/62555148.png)
 
-# Notifications
+## Notifications
 
 Des notifications permettent de recevoir une alerte à l'écran lors de l'arrivée d'un nouveau message ainsi que pour les rappels d'événements.
 
@@ -85,61 +87,63 @@ Cliquer sur la notification entraîne pour un message l'ouverture de celui-ci da
 
 Une notification disparaît seule au bout de quelques secondes. Pour forcer sa fermeture sans ouvrir BlueMind, cliquer sur la croix en haut à droite de celle-ci.
 
-## Activation
+### Activation
 
 - se rendre dans l'onglet "Avancée"
 - cliquer sur le bouton "Activer les notifications" :![](../attachments/57770769/62555161.png)
 - Confirmer l'activation dans votre navigateur
-  - Sous Firefox cliquer sur l'icône de la barre d'adresse du navigateur  :![](../attachments/57770769/62555152.png)
-  - Sous Chrome, en choisissant de les autoriser lorsque la requête apparaît :![](../attachments/57770769/62555150.png)
+    - Sous Firefox cliquer sur l'icône de la barre d'adresse du navigateur  :![](../attachments/57770769/62555152.png)
+    - Sous Chrome, en choisissant de les autoriser lorsque la requête apparaît :![](../attachments/57770769/62555150.png)
 
 
-## Désactivation
+### Désactivation
 
-### Firefox
+#### Firefox
 
 - De même que pour l'activation, cliquer sur l'icône de la barre d'adresse du navigateur
-- 
-Modifier votre choix dans le menu déroulant des permissions :![](../attachments/57770769/62555159.png)
-:::important
+- Modifier votre choix dans le menu déroulant des permissions :![](../attachments/57770769/62555159.png)
+
+
+:::info
 
 Choisir «Bloquer» aura pour effet d'empêcher la réactivation future des notifications pour BlueMind. Lorsque vous vous rendrez sur la page d'activation dans les préférences de votre compte, le bouton sera présent mais sans effet, il faudra de nouveau les autoriser dans Firefox.
 
 :::
 
 
-### Chrome
+#### Chrome
 
 - Cliquer sur l'icône de la barre d'adresse du navigateur
 - Rechercher la ligne "Notifications" et modifier le choix du menu déroulant correspondant :![](../attachments/57770769/62555158.png)
 
 
-# Téléchargements
+## Téléchargements
 
 La section téléchargements des paramètres permet aux utilisateurs de télécharger le connecteur Thunderbird mis à disposition par leur administrateur afin de synchroniser leur logiciel.
 
-# Clés d'API
+## Clés d'API
 
 Cette section permet à l'utilisateur de générer des clés d'accès à l'API BlueMind afin de pouvoir identifier son ou ses projets de développement.
 
 ![](../attachments/57770769/62555167.png)
 
-## Générer une clé d'API
+### Générer une clé d'API
 
 Pour générer une clé d'API pour un projet :
 
-1 Taper le nom du projet dans le champs «Nom»
-1 Cliquer sur le bouton «Créer»![](../attachments/57769989/69896490.png) la clé est automatiquement et immédiatement créée et ajoutée à la liste des clés d'API avec le nom du projet correspondant, elle peut dès à présent être copiée et utilisée
+1. Taper le nom du projet dans le champs «Nom»
+2. Cliquer sur le bouton «Créer»![](../attachments/57769989/69896490.png) la clé est automatiquement et immédiatement créée et ajoutée à la liste des clés d'API avec le nom du projet correspondant, elle peut dès à présent être copiée et utilisée
 
 
-## Supprimer une clé d'API
+### Supprimer une clé d'API
 
 Pour révoquer une clé d'API :
 
-1 Cliquer sur l'icône de corbeille ![](../attachments/57769989/69896481.png) en fin de ligne correspondante
-1 Valider la suppression
+1. Cliquer sur l'icône de corbeille ![](../attachments/57769989/69896481.png) en fin de ligne correspondante
+2. Valider la suppression
 
-:::important
+
+:::info
 
 ATTENTION
 
@@ -147,7 +151,7 @@ La suppression est effective immédiatement, sans cliquer sur le bouton «Enregi
 
 :::
 
-# À propos
+## À propos
 
 Ce lien affiche l'écran d'information sur la version de BlueMind installée et ses informations de souscription le cas échéant :
 

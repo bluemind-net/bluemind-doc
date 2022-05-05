@@ -1,6 +1,6 @@
 ---
 title: "First Steps with BlueMind"
-confluence_id: 79861382
+confluence_id: 57770134
 position: 24
 ---
 # First Steps with BlueMind

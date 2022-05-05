@@ -6,11 +6,11 @@ position: 74
 # Pièces jointes impossible à ajouter
 
 
-# Problème
+## Problème
 
 Les utilisateurs n'arrivent pas à joindre des fichiers qui sont pourtant plus petits que la limite autorisée.
 
-# Solution
+## Solution
 
 Redémarrer nginx, ou re-valider l'écran de configuration correspondant dans la console d'admin (ce qui redémarre nginx).
 

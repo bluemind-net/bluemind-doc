@@ -11,7 +11,9 @@ La page de la console d'administration Gestion du système > Maintenance > Maint
 Cliquer sur le bouton « Exécuter » pour lancer la reconstruction :
 
 ![](../../attachments/57771818/57771820.png)
-:::important
+
+
+:::tip
 
 Il n'est pas nécessaire de redémarrer de service, les changements sont effectifs dès la fin de l'opération.
 

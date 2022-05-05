@@ -6,7 +6,7 @@ position: 50
 # Console de monitoring
 
 
-:::important
+:::info
 
 La console de monitoring est dépréciée en version 4.0. La supervision se fait désormais par [l'outil intégré bm-tick](#).
 

@@ -1,14 +1,14 @@
 ---
 title: "Trouble sending or receiving emails"
-confluence_id: 79863406
+confluence_id: 57771835
 position: 62
 ---
 # Trouble sending or receiving emails
 
 
-# Known issues
+## Known issues
 
-## Emails are not delivered to an existing address
+### Emails are not delivered to an existing address
 
 ** **Symptoms******:** emails are not delivered to an existing address and the sender does not receive any error messages
 
@@ -16,8 +16,10 @@ position: 62
 
 ** **Solution**:** you need to regenerate the Postfix maps by going to the admin console > System Management > Manage messaging system > click "Execute":
 
-![](../../attachments/79863406/79863407.png)
-:::important
+![](../../attachments/57771835/57771836.png)
+
+
+:::tip
 
 There is no need to restart the service, changes are effective immediately.
 
@@ -26,13 +28,12 @@ There is no need to restart the service, changes are effective immediately.
 If this doesn't solve the problem, see the paragraphs below for further investigations.
 
 
-# Checking for incoming emails on the server
+## Checking for incoming emails on the server
 
 There are several reasons why an email message that is supposed to have arrived may not be in the user's mailbox.
 
 - The message has been blocked by an antispam before arriving on the BlueMind server. In that case, you must check your antispam solution's logs
-- 
-The message is stuck in the BlueMind server's postfix queue. This typically happens when a user's usage quota is at full capacity. The email will be held in the postfix queue for 3 days. If after 3 days the server hasn't been able to deliver it, a non-delivery message will be sent to the sender. You can check whether the message is in the postfix queue using the command:
+- The message is stuck in the BlueMind server's postfix queue. This typically happens when a user's usage quota is at full capacity. The email will be held in the postfix queue for 3 days. If after 3 days the server hasn't been able to deliver it, a non-delivery message will be sent to the sender. You can check whether the message is in the postfix queue using the command:
 
 
 ```
@@ -42,7 +43,6 @@ The message is stuck in the BlueMind server's postfix queue. This typically happ
 (host 192.168.124.72[192.168.124.72] said: 452 4.2.2 Over quota SESSIONID=<cyrus-4311-1488438658-1> (in reply to RCPT TO command))
                                          full@bluemind.net
 ```
-
 
 To release the message, you can either ask the user to delete some emails, or increase their quota, then wait for the message to be delivered or force postfix to try to deliver messages again using the postqueue command -f
 
@@ -76,9 +76,9 @@ The message-id is the identifier for the message only and it is found in the ema
 
 The number at the end of the lmtp line (2294 in this case) corresponds to the email id in the user's *INBOX* folder, you can therefore find it in `/var/spool/cyrus/data*/b/bluemind\_net/b/[bluemind.net/](http://bluemind.net/)* u/user/user/2294`.
 
-# Tracking email history
+## Tracking email history
 
-## For a known email address
+### For a known email address
 
 Once you've found the email ID (see above), you can use bm-cli to view a messages' movements history:
 
@@ -113,7 +113,7 @@ For example:
 ```
 
 
-## For a keyword search
+### For a keyword search
 
 The CLI can also be used to search by keyword:
 
@@ -147,11 +147,11 @@ In the example below, we're going to look for a user's reminder emails to see if
 ```
 
 
-1 One email (id 7) as just been received, it is still in the user's inbox and hasn't been read
-1 Another email (id 8) has been read and moved to the trash:
-  - it is copied to the trash and its id becomes 3
-  - the original, with id 8, is removed from the inbox
-  - both 2 versions are marked as read
+1. One email (id 7) as just been received, it is still in the user's inbox and hasn't been read
+2. Another email (id 8) has been read and moved to the trash:
+    - it is copied to the trash and its id becomes 3
+    - the original, with id 8, is removed from the inbox
+    - both 2 versions are marked as read
 
 
 In another exemple, you can see that email with id 7 is "gone":
@@ -178,13 +178,14 @@ In another exemple, you can see that email with id 7 is "gone":
 - the email is created in this mailbox, where its id becomes 56
 - the original is marked as read and removed from the user's mailbox
 
-:::important
+
+:::info
 
 In this particular instance, the email message isn't copied to the trash and the file no longer appears on the server as it is not a deletion as such but a message being moved to another folder, even if it is a shared folder.
 
 :::
 
-# Restoration
+## Restoration
 
 *Delayed* delete has been set up at the cyrus level. This means that emails are actually deleted from the server after seven days only. In the meantime, they are present on the disk but not visible in IMAP.
 This deletion mode is laying the groundwork for an upcoming double-bottom trash feature.

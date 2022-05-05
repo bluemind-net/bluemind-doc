@@ -1,22 +1,22 @@
 ---
 title: "BlueMind 4 Documentation"
-confluence_id: 79861300
+confluence_id: 57770074
 position: 12
 slug: /
 ---
 # BlueMind 4 Documentation
 
 
-![](attachments/79861300/79861301.png)
+![](attachments/57770074/58592293.png)
 
 
 Welcome to BlueMind 4, the next-gen messaging and collaboration solution.
 
 
-#### ![](attachments/79861300/79861302.jpg)  [New in BlueMind 4](/Nouveautés_BlueMind_4.0_à_4.3/)
+##### ![](attachments/57770074/58592294.jpg)  [New in BlueMind 4](/Nouveautés_BlueMind_4.0_à_4.3/)
 
 
-#### ![](attachments/79861277/79861278.jpg)   [ First  steps with BlueMind ](/Premiers_pas_avec_BlueMind/)  
+##### ![](attachments/57770052/57770053.jpg)   [ First  steps with BlueMind ](/Premiers_pas_avec_BlueMind/)  
 
 
 - [Getting Started with Mail](/Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail/)
@@ -25,12 +25,13 @@ Welcome to BlueMind 4, the next-gen messaging and collaboration solution.
 - [Getting Started with Tasks](/Premiers_pas_avec_BlueMind/Débuter_avec_les_tâches/)
 
 
-####   
+#####   
 
 
-#### ![](attachments/79861277/79861278.jpg) [User's guide](/Guide_de_l_utilisateur/)
+##### ![](attachments/57770052/57770053.jpg) [User's guide](/Guide_de_l_utilisateur/)
 
 
+- [BlueMind Mail](/Guide_de_l_utilisateur/Messagerie_BlueMind/)
 - [Mail](/Guide_de_l_utilisateur/La_messagerie/)
 - [Contacts](/Guide_de_l_utilisateur/Les_contacts/)
 - [Calendar](/Guide_de_l_utilisateur/L_agenda/)
@@ -45,7 +46,7 @@ Welcome to BlueMind 4, the next-gen messaging and collaboration solution.
 - [Synchronizing with mobile phones and tablets](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/)
 
 
-#### ![](attachments/79861277/79861278.jpg) [Installation Guide](/Guide_d_installation/)
+##### ![](attachments/57770052/57770053.jpg) [Installation Guide](/Guide_d_installation/)
 
 
 - [Hardware Sizing](/Guide_d_installation/Dimensionnement_matériel/)
@@ -58,7 +59,7 @@ Welcome to BlueMind 4, the next-gen messaging and collaboration solution.
 - [Updating BlueMind](/Guide_d_installation/Mise_à_jour_de_BlueMind/)
 
 
-#### ![](attachments/79861277/79861278.jpg) [Administrator's Guide](/Guide_de_l_administrateur/)
+##### ![](attachments/57770052/57770053.jpg) [Administrator's Guide](/Guide_de_l_administrateur/)
 
 
 - [Product Overview](/Guide_de_l_administrateur/Présentation_du_produit/)

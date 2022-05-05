@@ -1,6 +1,6 @@
 ---
 title: "MDM - Mobile Device Management"
-confluence_id: 79863324
+confluence_id: 57771754
 position: 56
 ---
 # MDM - Mobile Device Management
@@ -12,7 +12,7 @@ Mobile synchronization is done via the ActiveSync protocol which allows native s
 - Reset the smartphone remotely: this functionality allows **all data to be deleted on the device** (factory reset) and prevents the loss of information in case of theft.
 
 
-![](../../attachments/79862979/79863023.png)
+![](../../attachments/57771429/62558982.png)
 
 To find out more about EAS server configuration and managing peripheral devices, see the page [EAS server configuration](/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS/).
 

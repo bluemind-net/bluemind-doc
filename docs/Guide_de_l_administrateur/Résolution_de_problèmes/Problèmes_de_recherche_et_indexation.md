@@ -15,9 +15,9 @@ position: 76
 - [Dysfonctionnement global](#Problemesderechercheetindexation-Dysfonctionnementglobal)
 
 
-# La barre de recherche ne propose pas l'option pour rechercher dans tous les dossiers
+## La barre de recherche ne propose pas l'option pour rechercher dans tous les dossiers
 
-## Pour l'ensemble des utilisateurs
+### Pour l'ensemble des utilisateurs
 
 Si c'est le cas pour l'ensemble des utilisateurs, cela fait probablement suite à une migration des mails au niveau du système de fichier. Cela signifie que l'index de recherche d'Elasticsearch n'existe pas : vous pouvez exécuter la tâche `ConsolidateMailSpoolIndexJob` pour créer l'index et indexer l'ensemble des mails du serveur :
 
@@ -26,31 +26,28 @@ Si c'est le cas pour l'ensemble des utilisateurs, cela fait probablement suite �
 
 ou
 
-- 
-grâce à [l'outil en ligne de commande](https://forge.bluemind.net/confluence/display/BM35/Reference+des+commandes+bm-cli#Referencedescommandesbm-cli-Maintenance) exécuter l'opération de maintenance consolidateIndex :
+- grâce à [l'outil en ligne de commande](https://forge.bluemind.net/confluence/display/BM35/Reference+des+commandes+bm-cli#Referencedescommandesbm-cli-Maintenance) exécuter l'opération de maintenance consolidateIndex :
 
 
 ```
 bm-cli maintenance consolidateIndex domain.net
 ```
 
-
 Cette opération étant lourde en consommation de ressource, il est possible de l'exécuter par groupes d'utilisateurs grâce à l'option --match :
 
 
 ```
-bm-cli maintenance consolidateIndex --match "a.*" domain.net
-bm-cli maintenance consolidateIndex --match "[b-c].*" domain.net
+bm-cli maintenance consolidateIndex --match "a.\*" domain.net
+bm-cli maintenance consolidateIndex --match "[b-c].\*" domain.net
 ```
 
 
-## Pour quelques utilisateurs
+### Pour quelques utilisateurs
 
 Si le problème ne concerne qu'un ou quelques utilisateurs, cela signifie que l'index ElasticSearch les concernant est inexistant ou corrompu, il faut le recréer :
 
 - soit en se rendant sur la fiche d'administration de chaque utilisateur, onglet Maintenance et en cliquant sur "**Valider et réparer**" puis "**Consolider l'index**"
-- 
-soit grâce à [l'outil en ligne de commande](https://forge.bluemind.net/confluence/display/BM35/Reference+des+commandes+bm-cli#Referencedescommandesbm-cli-Maintenance) :
+- soit grâce à [l'outil en ligne de commande](https://forge.bluemind.net/confluence/display/BM35/Reference+des+commandes+bm-cli#Referencedescommandesbm-cli-Maintenance) :
 
 
 ```
@@ -59,21 +56,21 @@ bm-cli maintenance consolidateIndex user@domain.net
 ```
 
 
-# Il manque des résultats dans la recherche
+## Il manque des résultats dans la recherche
 
 En cas de problèmes temporaires avec le service d'indexation il est possible que certains messages envoyés et reçus pendant cette période n'aient pas été indexés, dans ce cas il suffit d’exécuter la tâche `ConsolidateMailSpoolIndexJob` qui va calculer la différence entre les messages au niveau IMAP et dans l'index puis indexer uniquement les messages manquants.
 
-# Une erreur s'affiche lors d'une recherche
+## Une erreur s'affiche lors d'une recherche
 
 Cela peut provenir d'une incohérence entre la liste des dossiers au niveau IMAP et dans la base de données, l'action de maintenance "Valider et réparer" (opération* check&repair*) accessible depuis l'onglet Maintenance de la fiche utilisateur permet de reconstruire cette liste, une ré-indexation de la boite de messagerie doit ensuite corriger le problème (sur le même onglet "Reconstruire l'index de la boîte").
 
 Si ce n'est pas le cas, les logs `/var/log/bm-webmail/errors` peuvent indiquer l'origine du problème.
 
-# Une erreur s'affiche lors de l'accès à un message trouvé par une recherche
+## Une erreur s'affiche lors de l'accès à un message trouvé par une recherche
 
 Il s'agit probablement d'un défaut d'indexation lorsque qu'un message a été déplacé, l'action de maintenance "Consolider la boite mail" accessible depuis l'onglet Maintenance de la fiche utilisateur permet de mettre à jour l'index de recherche.
 
-# ElasticSearch passe en mode "read only"
+## ElasticSearch passe en mode "read only"
 
 ** **Problème** :** ES se met lui-même en mode "read only", le cluster est vert mais un redémarrage ne corrige pas le problème
 
@@ -124,9 +121,8 @@ net.bluemind.core.api.fault.ServerFault: java.util.concurrent.ExecutionException
 
 ** **Solution** :**
 
-1 ajouter de l'espace disque (agrandir la partition, changer le disque, etc.)
-1 
-une fois fait, jouer la commande suivante :
+1. ajouter de l'espace disque (agrandir la partition, changer le disque, etc.)
+2. une fois fait, jouer la commande suivante :
 
 
 ```
@@ -134,13 +130,13 @@ curl -X PUT "localhost:9200/\_all/\_settings" -H 'Content-Type: application/json
 ```
 
 
-# Les logs indiquent des erreurs à propos des quotas esQuota et imapQuota
+## Les logs indiquent des erreurs à propos des quotas esQuota et imapQuota
 
 On trouve des messages comme celui-ci dans le le fichier `/var/log/bm-webmail/errors` :
 
 
 ```
-10-Nov-2019 17:37:38 UTC] [jdoe@bluemind.loc] esQuota < (imapQuota * 0.8). disable es search. esQuota: 4199171, imapQuota: 6123568 
+10-Nov-2019 17:37:38 UTC] [jdoe@bluemind.loc] esQuota < (imapQuota \* 0.8). disable es search. esQuota: 4199171, imapQuota: 6123568 
 ```
 
 
@@ -148,13 +144,12 @@ Cela signifie que pour le compte indiqué, moins de 80% de la boite est indexé 
 
 Pour réparer cela, il faut procéder à une consolidation ou réindexation du compte.
 
-### Pour quelques utilisateurs identifiés
+#### Pour quelques utilisateurs identifiés
 
 Si le problème ne concerne qu'un ou quelques utilisateurs, cela signifie que l'index ElasticSearch les concernant est inexistant ou corrompu, il faut le recréer :
 
 - soit en se rendant sur la fiche d'administration de chaque utilisateur et en cliquant sur "**Valider et réparer**" puis "**Consolider l'index**" puis, si pas d'amélioration, "**Reconstruire l'index**"
-- 
-soit grâce à [l'outil en ligne de commande](/Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration/) :
+- soit grâce à [l'outil en ligne de commande](/Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration/) :
 
 
 ```
@@ -163,12 +158,11 @@ bm-cli maintenance consolidateIndex user@domain.net
 ```
 
 
-### Pour l'ensemble des utilisateurs impactés
+#### Pour l'ensemble des utilisateurs impactés
 
 Pour réparer l'ensemble des comptes impactés, vous pouvez faire comme suit :
 
-1 
-retrouver les comptes par un grep sur le fichier de log :
+1. retrouver les comptes par un grep sur le fichier de log :
 
 
 ```
@@ -176,9 +170,8 @@ grep "disable es search. esQuota:" /var/log/bm-webmail/errors
 ```
 
 
-1 copier les logins ainsi trouvés dans un fichier texte (par exemple `/tmp/accountWithoutEsSearch.txt`)
-1 
-utiliser la combinaison de commandes suivantes pour lancer la consolidation d'index sur chacun des logins du fichier :
+2. copier les logins ainsi trouvés dans un fichier texte (par exemple `/tmp/accountWithoutEsSearch.txt`)
+3. utiliser la combinaison de commandes suivantes pour lancer la consolidation d'index sur chacun des logins du fichier :
 
 
 ```
@@ -186,9 +179,9 @@ while read account; do bm-cli maintenance consolidatedIndex $account;done < /tmp
 ```
 
 
-# Dysfonctionnement global
+## Dysfonctionnement global
 
-## Analyse
+### Analyse
 
 Si vous constatez un **dysfonctionnement de la recherche dans BlueMind** vous pouvez consulter l'état du *cluster* ElasticSearch avec la commande :
 
@@ -209,16 +202,15 @@ $ bm-cli index info admin@local.lan
 ```
 
 
-## Résolution
+### Résolution
 
 Plusieurs conditions peuvent empêcher le fonctionnement d'ElasticSearch :
 
 - **une boîte insuffisamment indexée** : si en consultant l'index (voir ci-dessus) on constate un **ratio inférieur à 80**, cela signifie que moins de 80% des emails de l'utilisateur sont indexés ![](../../attachments/57769989/69896490.png) procéder à une réindexation de la boîte :
-  - se rendre dans la console d'administration de BlueMind
-  - aller dans la fiche d'administration de l'utilisateur > onglet Maintenance
-  - **exécuter l'opération "Reconstruire l'index de la boîte aux lettres"**
-- 
-**une corruption des index** : principalement à cause d'un manque d'espace disque, **il faut au minimum 10% d'espace disque libre**. Si le disque contenant les données d'ES (/var/spool/bm-elasticsearch) a manqué d'espace il est possible que les index de recherche soient corrompus. Dans les logs ES, cela se traduit par une erreur lors du démarrage du service :
+    - se rendre dans la console d'administration de BlueMind
+    - aller dans la fiche d'administration de l'utilisateur > onglet Maintenance
+    - **exécuter l'opération "Reconstruire l'index de la boîte aux lettres"**
+- **une corruption des index** : principalement à cause d'un manque d'espace disque, **il faut au minimum 10% d'espace disque libre**. Si le disque contenant les données d'ES (/var/spool/bm-elasticsearch) a manqué d'espace il est possible que les index de recherche soient corrompus. Dans les logs ES, cela se traduit par une erreur lors du démarrage du service :
 
 
 ```
@@ -233,22 +225,19 @@ org.elasticsearch.index.gateway.IndexShardGatewayRecoveryException: [mailspool][
         at java.lang.Thread.run(Thread.java:745)
 ```
 
-
 Il faut alors :
 
-  2 
-supprimer les fichiers d'index et redémarrer ElasticSearch :
+    1. supprimer les fichiers d'index et redémarrer ElasticSearch :
 
 
 ```
 service bm-elasticsearch stop
-rm -rf /var/spool/bm-elasticsearch/data/nodes/0/indices/*
+rm -rf /var/spool/bm-elasticsearch/data/nodes/0/indices/\*
 service bm-elasticsearch start
 ```
 
 
-  2 
-Réinitialiser les index :
+    2. Réinitialiser les index :
 
 
 ```
@@ -261,25 +250,24 @@ bm-cli index reset im
 ```
 
 
-  2 
-Puis lancer une nouvelle indexation depuis la gestion des tâches planifiées : Console d'administration > Gestion du système > Planification > sélectionner le domaine "global.virt" et lancer les tâches *IndexJob :
+    3. Puis lancer une nouvelle indexation depuis la gestion des tâches planifiées : Console d'administration > Gestion du système > Planification > sélectionner le domaine "global.virt" et lancer les tâches *IndexJob :
 
-    - CalendarIndexJob
-    - ContactIndexJob
-    - 
-ConsolidateMailSpoolIndexJob
-:::important
+        - CalendarIndexJob
+        - ContactIndexJob
+        - ConsolidateMailSpoolIndexJob
+
+
+:::info
 
 Attention cependant, l'indexation des mails est une opération consommatrice en IO, **il est donc préférable de lancer cette tâche en soirée ou en week-end**. A noter qu'il est possible de lancer l'indexation par lot avec [bm-cli.](#)
 
 :::
 
-    - TodoListIndexJob
-    - HSMIndexJob
+        - TodoListIndexJob
+        - HSMIndexJob
 
 
-- 
-**une corruption du `translog` ** : cela peut se produire en cas de **crash du serveur ou de manque de mémoire**. Dans ce cas l'index général n'est pas corrompu et seule l'indexation des derniers documents non encore écrits sur le disque sera perdue.
+- **une corruption du `translog` ** : cela peut se produire en cas de **crash du serveur ou de manque de mémoire**. Dans ce cas l'index général n'est pas corrompu et seule l'indexation des derniers documents non encore écrits sur le disque sera perdue.
 Dans les logs ES, cela se traduit par cette erreur lors du démarrage du service :
 
 
@@ -297,16 +285,14 @@ Caused by: org.elasticsearch.index.translog.TranslogCorruptedException: translog
 	... 4 more
 ```
 
-
 Pour supprimer les translog corrompu :
 
 
 ```
 service bm-elasticsearch stop
-rm -rf /var/spool/bm-elasticsearch/data/nodes/0/indices/mailspool/*/translog
+rm -rf /var/spool/bm-elasticsearch/data/nodes/0/indices/mailspool/\*/translog
 service bm-elasticsearch start
 ```
-
 
 L’exécution de la tâche `ConsolidateMailSpoolIndexJob` va ré-indexer les mails manquants
 

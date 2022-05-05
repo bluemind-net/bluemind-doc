@@ -6,9 +6,12 @@ position: 40
 # Prérequis à l'installation
 
 
-# Système
+## Système
 
-**Mémoire RAM**
+**Mémoire RAM
+
+
+**
 
 **12 Go** minimum avec la configuration par défaut
 
@@ -28,7 +31,8 @@ $ locale -a|grep en\_US
 en\_US.utf8
 ```
 
-:::important
+
+:::tip
 
 Astuce
 
@@ -44,12 +48,16 @@ Si la locale n'est pas présente, vous pouvez l'ajouter sous Ubuntu avec la comm
 
 
 **Distribution Linux**
-:::important
+
+
+:::info
 
 **L’installation de BlueMind nécessite un serveur ou une machine virtuelle vierge et dédié(e).**
 
 :::
-:::important
+
+
+:::info
 
 Virtualisation
 
@@ -70,7 +78,9 @@ BlueMind nécessite une **version 64-bit** des distributions supportées (pour
 
 
 ** supporté à partir de BlueMind 4.3.0*
-:::important
+
+
+:::info
 
 Debian/Ubuntu : Signature des dépôts
 
@@ -87,7 +97,9 @@ curl https://pkg.bluemind.net/bluemind-deb.asc | apt-key add -
 Sans cela, un warning peut survenir lors de la mise à jour de certaines versions précédentes **sans que cela gêne pour autant la mise à jour**.
 
 :::
-:::important
+
+
+:::info
 
 Ubuntu : dépôts universe
 
@@ -107,13 +119,13 @@ apt update
 
 Afin de s'assurer que le script d'installation pourra lancer des commandes avec élévation de privilèges (*sudo*), la directive `requiretty` ne doit pas être activée dans le fichier de configuration `/etc/sudoers`. Si elle est présente, il convient de la supprimer ou la mettre en commentaire.
 
-# Réseau & DNS
+## Réseau & DNS
 
-## Adresse IP
+### Adresse IP
 
 Le serveur doit avoir une adresse IP fixe, définie statiquement au niveau système ou fournie par un serveur DHCP.
 
-## Hostname
+### Hostname
 
 Le hostame du serveur BlueMind doit être correctement configuré, et le serveur accessible par ce nom depuis une autre machine.
 
@@ -127,7 +139,9 @@ mail
 
 
   ![](../attachments/57769989/69896490.png) doit afficher le nom court du système, par exemple ici : mail
-:::important
+
+
+:::info
 
 Pour les versions **antérieures à 4.0.5** le nom court doit être renvoyé par la commande `hostname` sans option :
 
@@ -161,24 +175,26 @@ IP\_SERVER mail.bluemind.net mail
 ```
 
 
-## Cartes réseaux
+### Cartes réseaux
 
 Si votre serveur possède plusieurs carte réseaux il faut que la première carte (eth0) soit celle qui porte l'adresse ip externe du serveur BlueMind.
 
-# Partitionnement
+## Partitionnement
 
 Les préconisations suivantes ne sont pas obligatoire mais il est recommandé de les suivre afin de simplifier la maintenance de votre serveur.
 
-
-     | point de montage | description | type |
+| point de montage | description | type |
 | --- | --- | --- |
 | NFS | block device |
-| / | racine | (tick) | (tick) |
-| /var/spool/cyrus | emails | (error) | (tick) |
-| /var/spool/bm-hsm | emails archivés | (tick) | (tick) |
-| /var/spool/bm-elasticsearch | index de recherche | (error) | (tick) |
-| /var/spool/bm-mail | envoi des emails via EAS/mapi~2Go | (tick) | (tick) |
-| /var/log | logs (fichiers journaux) | (tick) | (tick) |
-| /var/backups/bluemind | sauvegardes | (tick) | (tick) |
+| / | racine |  |  |
+| /var/spool/cyrus | emails |  |  |
+| /var/spool/bm-hsm | emails archivés |  |  |
+| /var/spool/bm-elasticsearch | index de recherche |  |  |
+| /var/spool/bm-mail | envoi des emails via EAS/mapi | 
+
+
+ | ~2Go |  |  |
+| /var/log | logs (fichiers journaux) |  |  |
+| /var/backups/bluemind | sauvegardes |  |  |
 
 

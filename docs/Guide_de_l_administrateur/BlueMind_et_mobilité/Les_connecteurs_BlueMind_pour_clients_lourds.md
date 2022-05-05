@@ -6,7 +6,7 @@ position: 60
 # Les connecteurs BlueMind pour clients lourds
 
 
-# Le connecteur Thunderbird
+## Le connecteur Thunderbird
 
 Le connecteur BlueMind pour Thunderbird est fourni par le paquet `bm-connector-thunderbird,` installé par défaut lors de l'installation de BlueMind. Une fois le paquet installé, les utilisateurs pourront trouver le connecteur dans la section Téléchargement de leur compte utilisateur.
 

@@ -1,7 +1,7 @@
 ---
 title: "Setting up Apple Applications"
-confluence_id: 79862302
-position: 60
+confluence_id: 57770865
+position: 62
 ---
 # Setting up Apple Applications
 

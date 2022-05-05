@@ -6,35 +6,37 @@ position: 70
 # Restauration du contenu d'une boîte utilisateur ou partagée
 
 
-# Présentation
+## Présentation
 
 Cette page vous donne les procédures à suivre dans les cas suivants :
 
-1 Le contenu de la messagerie d'un utilisateur ou d'une boîte partagée doit être restauré et **la [Restauration unitaire via DataProtect](https://forge.bluemind.net/confluence/display/BM35/Restauration+unitaire+-+Navigation+DataProtect) n'a pas fonctionné**.
-1 On souhaite restaurer le contenu de la boîte de messagerie **dans un dossier de la boîte de messagerie d'un autre utilisateur ou d'une boîte partagée**
+1. Le contenu de la messagerie d'un utilisateur ou d'une boîte partagée doit être restauré et **la [Restauration unitaire via DataProtect](https://forge.bluemind.net/confluence/display/BM35/Restauration+unitaire+-+Navigation+DataProtect) n'a pas fonctionné**.
+2. On souhaite restaurer le contenu de la boîte de messagerie **dans un dossier de la boîte de messagerie d'un autre utilisateur ou d'une boîte partagée**
 
 
 BlueMind met à votre disposition un couple de scripts shell et python permettant de vous assister dans la restauration des **données précédemment sauvegardées** de la boîte de messagerie concerné.
 
 
-# Pré-requis
+## Pré-requis
 
 Pour pouvoir utiliser ces scripts, le [Client Python](/Guide_du_développeur/API_BlueMind/Client_Python/) doit être installé sur la machine.
 
-# Fichiers utiles
+## Fichiers utiles
 
 Télécharger le script `restore.sh` et le déposer sur le serveur :
 
 [&lt;!-- TODO incorrect embedded file link -->restore.sh](/confluence/download/attachments/57771950/restore.sh?version=1&modificationDate=1639652921392&api=v2) 
-:::important
+
+
+:::tip
 
 Le fichier `updateMboxAcls.py` présent auparavant n'est plus nécessaire, son contenu a été intégré au script principal.
 
 :::
 
-# Procédure
+## Procédure
 
-Le script `restore.sh` restaurera les données de la boîte de messagerie à partir du répertoire de sauvegarde dans la boîte de messagerie elle-même ou dans une autre boîte, dans un sous-dossier nommé `restored_&lt;timestamp>`.
+Le script `restore.sh` restaurera les données de la boîte de messagerie à partir du répertoire de sauvegarde dans la boîte de messagerie elle-même ou dans une autre boîte, dans un sous-dossier nommé `restored_<timestamp>`.
 
 Il se lance ainsi :
 
@@ -45,8 +47,7 @@ Il se lance ainsi :
 
 
 - `USER|MAILSHARE` : pour restaurer un utilisateur indiquer le mot clé USER, pour restaurer une boîte partagée indiquer MAILSHARE
-- 
-`BACKUP_PATH` : chemin où se trouvent les données dans le répertoire de sauvegarde de BlueMind (/var/backups). Le chemin est de la forme :
+- `BACKUP_PATH` : chemin où se trouvent les données dans le répertoire de sauvegarde de BlueMind (/var/backups). Le chemin est de la forme :
 
 
 **
@@ -57,14 +58,11 @@ Boîte utilisateur
 Boîte partagée
 
 
-`/var/backups/bluemind/dp_spool/rsync/&lt;IP>/mail/imap/&lt;sauvegarde>/var/spool/cyrus/data/&lt;domaine>/domain/&lt;initiale_domaine>/&lt;domaine>/&lt;initiale_utilisateur>/user/&lt;utilisateur>/`
-Par exemple pour l'utilisateur jdoe sur le domaine bluemind.loc :
-`/var/backups/bluemind/dp_spool/rsync/192.168.122.148/mail/imap/806/var/spool/cyrus/data/bluemind_loc/domain/b/bluemind.loc/j/user/jdoe/`
-**La spécification du dossier de l'utilisateur permet de ne restaurer qu'un sous-dossier en particulier.**
+`/var/backups/bluemind/dp_spool/rsync/<IP>/mail/imap/<sauvegarde>/var/spool/cyrus/data/<domaine>/domain/<initiale_domaine>/<domaine>/<initiale_utilisateur>/user/<utilisateur>/`Par exemple pour l'utilisateur jdoe sur le domaine bluemind.loc :
+`/var/backups/bluemind/dp_spool/rsync/192.168.122.148/mail/imap/806/var/spool/cyrus/data/bluemind_loc/domain/b/bluemind.loc/j/user/jdoe/`**La spécification du dossier de l'utilisateur permet de ne restaurer qu'un sous-dossier en particulier.**
 
 
-`/var/backups/bluemind/dp_spool/rsync/&lt;IP>/mail/imap/&lt;sauvegarde>/var/spool/cyrus/data/&lt;domaine>/domain/&lt;initiale_domaine>/&lt;domaine>/`
-On remarque ici que pour une boîte partagée, **le chemin à indiquer s'arrête au domaine concerné**. Ainsi, le chemin est toujours le même pour toutes les boîtes du domaine.
+`/var/backups/bluemind/dp_spool/rsync/<IP>/mail/imap/<sauvegarde>/var/spool/cyrus/data/<domaine>/domain/<initiale_domaine>/<domaine>/`On remarque ici que pour une boîte partagée, **le chemin à indiquer s'arrête au domaine concerné**. Ainsi, le chemin est toujours le même pour toutes les boîtes du domaine.
 Par exemple dans notre domaine bluemind.loc :
 `/var/backups/bluemind/dp_spool/rsync/192.168.122.148/mail/imap/806/var/spool/cyrus/data/bluemind_loc/domain/b/bluemind.loc/`
 

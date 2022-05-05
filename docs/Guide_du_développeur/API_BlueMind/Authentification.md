@@ -6,7 +6,7 @@ position: 50
 # Authentification
 
 
-# Présentation
+## Présentation
 
 L'authentification est le point d'entrée de l'utilisation de l'API.
 
@@ -15,7 +15,7 @@ La méthode `login` permet de récupérer une clef d'authentification (*auth-key
 Il est également possible de créer des clés d'api permanentes dans les [paramètres d'utilisateur](/Guide_de_l_utilisateur/Paramètres_utilisateur/).
 
 
-# Utilisation
+## Utilisation
 
 Pour les appels en HTTP, la clef est passée via l'en-tête `X-BM-ApiKey`.
 
@@ -32,18 +32,23 @@ IServiceProvider serviceProvider = ClientSideServiceProvider.getProvider(server,
 
 ![](../../attachments/57771885/57771886.png)
 
-### Exemple en HTTP
-
+#### Exemple en HTTP
 
 | Méthode | URL |
 | --- | --- |
 | POST | https://&lt;domain>/api/auth/login?login=&lt;login> |
-|  | login = identifiant de l'utilisateur |
+| 
+
+
+ | 
+login = identifiant de l'utilisateur
+ |
 | **Body** |
-| '&lt;password>' |
+| 
+'&lt;password>'
+ |
 
-
-### Exemple en Curl
+#### Exemple en Curl
 
 
 ```
@@ -51,7 +56,7 @@ curl -X POST -k --header 'Content-Type: application/json' --header 'Accept: appl
 ```
 
 
-### Exemple en Java (en utilisant le client généré Bluemind)
+#### Exemple en Java (en utilisant le client généré Bluemind)
 
 
 ```

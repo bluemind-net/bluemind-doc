@@ -1,13 +1,15 @@
 ---
 title: "Installation"
-confluence_id: 79862655
+confluence_id: 57771188
 position: 42
 ---
 # Installation
 
 
-# Introduction
-:::important
+## Introduction
+
+
+:::info
 
 Technical domain "xxx.internal"
 
@@ -20,17 +22,15 @@ This domain name's presence is only temporary. It will be hidden in future vers
 :::
 
 
-# Installation prerequisites
+## Installation prerequisites
 
 Before you install BlueMind, please check that your system meets the [Installation pre-requisites](/Guide_d_installation/Prérequis_à_l_installation/).
 
-# Installing BlueMind
+## Installing BlueMind
 
-1 
-Download the install script for your Linux distribution on the [BlueMind download page](https://download.bluemind.net/bm-download/).
+1. Download the install script for your Linux distribution on the [BlueMind download page](https://download.bluemind.net/bm-download/).
 
-1 
-Run the script as root and follow the installation steps:
+2. Run the script as root and follow the installation steps:
 
 
 ```
@@ -38,7 +38,7 @@ sudo sh bluemind-installer-xxx.bin
 ```
 
 
-# Completing installation
+## Completing installation
 
 To complete the installation process: [Configure BlueMind](/Guide_d_installation/Configuration_post_installation/)
 

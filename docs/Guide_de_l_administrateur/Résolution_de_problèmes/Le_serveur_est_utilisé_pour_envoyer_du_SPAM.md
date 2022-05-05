@@ -6,7 +6,7 @@ position: 72
 # Le serveur est utilisé pour envoyer du SPAM
 
 
-# Vérifier que le serveur BM n'est pas relai ouvert
+## Vérifier que le serveur BM n'est pas relai ouvert
 
 Par défaut postfix est configuré pour être relai ouvert pour le serveur lui-même, ce qui permet aux différent services (webmail, EAS) d'envoyer des mails, il est possible via la console d'administration d'ajouter de nouvelles IP de confiance qui auront le droit d'envoyer des mails via le serveur BM, il s'agit en général de serveur du SI interne (logiciel de gestion des congés, monitoring, etc).
 
@@ -35,7 +35,7 @@ les actions à mener :
 - supprimer l'ip du serveur incriminé dans la console d'administration BM et sauvegarder la configuration
 
 
-# Détecter l'utilisateur utilisé pour envoyer du SPAM
+## Détecter l'utilisateur utilisé pour envoyer du SPAM
 
 La plupart du temps le problème vient d'un spammer qui a trouvé, souvent par bruteforce, le mot de passe d'un compte utilisateur et il va l'utiliser pour envoyer du SPAM.
 
@@ -50,8 +50,7 @@ May  5 00:08:55 hermes postfix/smtpd[27666]: 7E079B666CC: client=unknown[46.48.9
 Les actions à mener :
 
 - changer le mot de passe de l'utilisateur : soit dans BM, soit dans l'annuaire.
-- 
-fermer toutes les sessions de cet utilisateur avec la commande :
+- fermer toutes les sessions de cet utilisateur avec la commande :
 
 
 ```
@@ -59,32 +58,32 @@ bm-cli user logout login@domain.com
 ```
 
 
-- 
-nettoyer la queue postfix pour supprimer les mails en attente d'envoi, pour supprimer tous les mails en queue de l'utilisateur [login@domain.net](mailto:login@domain.net)
+- nettoyer la queue postfix pour supprimer les mails en attente d'envoi, pour supprimer tous les mails en queue de l'utilisateur [login@domain.net](mailto:login@domain.net)
 
 
 ```
-postqueue -p | tail -n +2 | awk 'BEGIN { RS = "" } /login@domain\.net/ { print $1 }' | tr -d '*!' | postsuper -d -
+postqueue -p | tail -n +2 | awk 'BEGIN { RS = "" } /login@domain\.net/ { print $1 }' | tr -d '\*!' | postsuper -d -
 ```
 
-:::important
+
+:::info
 
 Cette commande va supprimer tous les mails dans la queue de l'utilisateur, qu'ils soient des SPAM ou des mails légitimes envoyés par l'utilisateur, cette commande peut être longue.
 
 :::
 
 
-# Comment se protéger de ces attaques ?
+## Comment se protéger de ces attaques ?
 
-## Limiter les attaques par brute-force
+### Limiter les attaques par brute-force
 
 Pour limiter les tentatives de bruteforce, vous pouvez utiliser le plugin [password-bruteforce](https://marketplace.bluemind.net/addons/72/), celui ci va bloquer les tentatives de connexion pendant 20 minutes après 3 échecs d'authentification.
 
-## Mettre en place une politique sur les mots de passe
+### Mettre en place une politique sur les mots de passe
 
 Dans le cas ou vous n'utilisez pas un annuaire pour gérer les utilisateurs, vous pouvez utiliser le [plugin](https://forge.bluemind.net/confluence/display/BM40/Administration+des+utilisateurs#Administrationdesutilisateurs-S%C3%A9curit%C3%A9dumotdepasse)[ `password-sizestrength`](https://forge.bluemind.net/confluence/display/BM40/Administration+des+utilisateurs#Administrationdesutilisateurs-S%C3%A9curit%C3%A9dumotdepasse) qui permet de mettre en place une politique afin de forcer des règles pour les mots de passe.
 
-# Comment détecter le problème au plus tôt ?
+## Comment détecter le problème au plus tôt ?
 
 Une solution de monitoring permet de détecter rapidement le problème et de réagir avant que votre serveur ne soit blacklisté par les différents services anti-spam.
 

@@ -6,10 +6,12 @@ position: 66
 # Configuration des logs
 
 
-# Présentation
+## Présentation
 
 BlueMind conserve des journaux pour chaque type d'application et d'utilisation.
-:::important
+
+
+:::info
 
 Il est important de fournir l'espace disque suffisant afin de pouvoir stocker les journaux et leurs archives.
 
@@ -21,9 +23,10 @@ La saturation de cet espace bloque l'enregistrement des nouvelles informations d
 On distingue 3 types de fichiers journaux :
 
 - les journaux systèmes, gérés par le mécanisme de gestion des journaux systèmes ([rsyslog](http://www.rsyslog.com/) + [logrotate](https://linux.die.net/man/8/logrotate))
-- 
-les journaux des services Java de BlueMind, gérés par [LogBack](https://logback.qos.ch/)
-:::important
+- les journaux des services Java de BlueMind, gérés par [LogBack](https://logback.qos.ch/)
+
+
+:::info
 
 Heures des traces
 
@@ -31,16 +34,18 @@ Les traces générées par Java dans ces fichiers sont à l'heure GMT.
 
 Ainsi, en France, sur le fuseau horaire Europe/Paris, les heures sont décalées d'1h en hiver et 2h en été. Pour rechercher des événements qui se sont produits à 15h il faudra rechercher :
 
-  - à 14h de fin Octobre à fin Mars
-  - à 13h de fin Mars à fin Octobre
+- à 14h de fin Octobre à fin Mars
+- à 13h de fin Mars à fin Octobre
+
 
 :::
+
 - les journaux internes à un service, gérés via la configuration de ce service
 
 
 La durée de conservation dépend du paramétrage de ces mécanismes de gestion des journaux. Il est possible de modifier leur configuration pour obtenir la durée de rétention souhaitée.
 
-# Configuration LogBack
+## Configuration LogBack
 
 Les fichiers de configuration par défaut se trouvent dans le répertoire `/usr/share/bm-conf/logs/ :`
 

@@ -1,12 +1,12 @@
 ---
 title: "Synchronisation avec Windows Phone"
 confluence_id: 57771136
-position: 68
+position: 70
 ---
 # Synchronisation avec Windows Phone
 
 
-# Présentation
+## Présentation
 
 La synchronisation ActiveSync est le mode de synchronisation à privilégier car il permet en une seule configuration de synchroniser les messages ainsi que les contacts et agendas alors que la synchronisation IMAP ne permet d'accéder qu'à ses emails.
 
@@ -15,7 +15,7 @@ Pour en savoir plus, consulter la page [Synchronisation des périphériques exte
  
 
 
-:::important
+:::info
 
 Ce guide a été réalisé avec un Nokia Lumia 520 sous Lumia Black (Windows Phone 8.0)
 
@@ -23,8 +23,10 @@ Pour les autres téléphones Windows Phone, les opérations sont les mêmes mêm
 
 :::
 
-# Configuration du compte
-:::important
+## Configuration du compte
+
+
+:::info
 
 La possibilité de connecter un smartphone au serveur BlueMind dépend de la politique d'autorisation définie par les administrateurs. Assurez-vous auprès d'eux que vous êtes bien autorisé à vous connecter avec un smartphone. En particulier, certaines configurations nécessitent une autorisation manuelle d'un administrateur.
 
@@ -32,7 +34,7 @@ Se référer à cette page : [Configuration du serveur EAS](/Guide_de_l_administ
 
 :::
 
-## Création du compte
+### Création du compte
 
 Sur l'écran d'accueil ou depuis la liste des applications, se rendre dans les paramètres :
 
@@ -74,7 +76,7 @@ Une fois cela corrigé, la connexion doit s'établir ; Windows Phone effectue al
 
 ![](../../../attachments/57771136/57771146.png)
 
-## Choix des éléments à synchroniser
+### Choix des éléments à synchroniser
 
 Une fois le compte correctement créé, on peut dans les paramètres de celui-ci personnaliser le nom, choisir les éléments à synchroniser ainsi que leur fréquence (à l'arrivée des éléments, toutes les 30mn, 1h, etc.) ou étendue (les 7 derniers jours, le dernier mois, etc.) :
 
@@ -88,7 +90,7 @@ Et l'ensemble des données du compte est synchronisé et accessible : messages, 
 
 ![](../../../attachments/57771136/57771144.png)
 
-# Forcer le rafraichissement de l'agenda
+## Forcer le rafraichissement de l'agenda
 
 Afin de forcer la synchronisation de l'agenda :
 

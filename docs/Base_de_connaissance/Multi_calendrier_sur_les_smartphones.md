@@ -6,18 +6,20 @@ position: 62
 # Multi-calendrier sur les smartphones
 
 
-# Présentation
+## Présentation
 
 Via une fonctionnalité expérimentale, BlueMind permet de consulter plusieurs agendas sur les smartphones Android.
 
 Cette fonctionnalité est à utiliser avec précaution : certains dysfonctionnements connus n'ont pas à ce jour de résolution. Voir le chapître ci-après.
-:::important
+
+
+:::info
 
 En BlueMind 4 cela ne concerne que les calendriers de l'utilisateur lui-même (calendrier par défaut et calendriers secondaires personnels) : les calendriers qui lui sont partagés, calendriers de domaine ou calendriers d'autres utilisateurs, ne seront pas visibles sur smartphones.
 
 :::
 
-# Mise en œuvre coté serveur
+## Mise en œuvre coté serveur
 
 Configurer cette fonctionnalité par la création d'un fichier système.
 
@@ -35,13 +37,13 @@ Relancer le service EAS :
 ```
 
 
-# Fonctionnement
+## Fonctionnement
 
 Afin que les calendriers qui ont été partagés apparaissent, il faut en premier lieu **s'y abonner** dans BlueMind via la gestion des paramètres : Paramètres > Agenda > Abonnements.
 
-# Limitations connues
+## Limitations connues
 
-### Android : Google Agenda
+#### Android : Google Agenda
 
 Sous Android, **tous les agendas partagés remontent dans la même couleur**, rendant impossible la différenciation visuelle des événements par agenda.
 
@@ -49,7 +51,7 @@ Sous Android, **tous les agendas partagés remontent dans la même couleur**, re
 
 Exemple d'application testée et validée par BlueMind : [https://play.google.com/store/apps/details?id=net.slintes.android.ccc.full](https://play.google.com/store/apps/details?id=net.slintes.android.ccc.full)
 
-### Samsung : SPlanner
+#### Samsung : SPlanner
 
 Dans l'application SPlanner de Samsung, tous les agendas partagés sont fusionnés dans l'agenda de l'utilisateur.
 

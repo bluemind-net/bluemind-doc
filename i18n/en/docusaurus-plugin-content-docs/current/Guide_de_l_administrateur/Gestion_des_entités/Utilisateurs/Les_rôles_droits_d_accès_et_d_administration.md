@@ -1,13 +1,15 @@
 ---
 title: "Roles: Access and Administration Rights"
-confluence_id: 79863034
+confluence_id: 57771478
 position: 56
 ---
 # Roles: Access and Administration Rights
 
 
 The roles that can be assigned to users include the right of access to applications (webmail, contacts, etc.), the right to use specific features (creating external identities, enabling email auto-forward, etc.) or administration rights to delegate certain management responsibilities (users, domain, etc.).
-:::important
+
+
+:::info
 
 Delegating rights
 
@@ -19,9 +21,10 @@ Users can be assigned the following roles:
 
 ** **Administration** **
 
-- 
-**System manager**: Allows users to manage all aspects of the BlueMind installation
-:::important
+- **System manager**: Allows users to manage all aspects of the BlueMind installation
+
+
+:::info
 
 The domain manager role includes the same rights as the admin0 on the items below.
 
@@ -29,40 +32,40 @@ This means that the manager will have full access to user accounts, settings and
 
 :::
 
-  - **Monitoring console**: Gives users access to the monitoring console which is used to check services and server statuses
-  - **Manage system configuration**: Allows users to modify the system configuration
-  - **Manage BlueMind subscription**: Allows users to install and update [the BlueMind subscription](/Guide_de_l_administrateur/La_souscription_BlueMind/)
-  - **Manage domains**: Allows users to manage domain configurations and entities
-    - **Manage external users**: Allows users to create and administer [External users](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes/)
-    - **Domain administrator**: Allows users to manage system information
-      - **Manage mailshares**: Allows users to create, modify and delete mailshares and how they are shared
-        - **Manage mailshare sharings**: Allows users to modify mailshare sharing
-      - **Manage domain calendars**: Allows users to create, modify and delete domain calendars
-        - **Manage domain calendar sharings**: Allows users to modify domain calendar sharing
-      - **Manage domain address books**: Allows users to create, modify, delete domain address books and how they are shared 
-        - **Manage domain address books sharings**: Allows users to modify domain address books sharing
-      - **Manage domain external LDAP address books**: Allows users to create, modify and delete domain address books synchronized with external LDAP directories
-      - **Manage groups**: Allows users to create, update or delete groups and manage their members
-        - **Manage group members**: Allows users to add and remove group members
-        - **Manage group sharings**: Allows users to add, modify or delete sharings in a group mailbox
-      - **Manage resources**: Allows users to create, modify and delete resources and how they are shared
-        - **Manage resource sharings**: Allows users to modify resource sharing
-      - **Manage resource types**: Allows users to create and delete resource types
-      - **Manage organizational units**: Allows users to create and delete organizational units
-      - **Manage users**: Allows users to create, update and delete users
-        - **Manage external accounts**: Allows users to manage external user accounts so that they can store attachments in an external system connected to BlueMind (see [Connecting with Nextcloud](/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud/))
-        - **Manage user subscriptions**: Allows users to modify users subscriptions
-        - **Manage own devices (ActiveSync)**: Allows users to manage access authorizations for their own devices (ActiveSync)
-        - **Manage user mail identities**: Allows users to create, modify or delete user mail identities
-        - **Manage user information**: Allows users to manage user information intended to appear in the directory and in VCard exports
-        - **Manage user passwords**: Allows users to modify user passwords
-        - **Manage user settings**: Allows users to modify personal user settings
-        - **Manage user sharings**: Allows user to modify user sharing settings
-      - **Manage domain dataprotect:** Allows users to access the dataprotect UI to restore domain data
-  - **Manage servers**: Gives access to "Application servers" in the administration console which is used to add or remove servers and modify server settings and roles
-  - **Manage domain max values**: Allows users to set and modify max domain values
-  - **Manage dataprotect**: Allows users to access the dataprotect UI to restore user-specific data 
-  - **Sudo (privilege elevation)**: Allows users to log into BlueMind in another user's place via the administration console without having to know the user's password
+    - **Monitoring console**: Gives users access to the monitoring console which is used to check services and server statuses
+    - **Manage system configuration**: Allows users to modify the system configuration
+    - **Manage BlueMind subscription**: Allows users to install and update [the BlueMind subscription](/Guide_de_l_administrateur/La_souscription_BlueMind/)
+    - **Manage domains**: Allows users to manage domain configurations and entities
+        - **Manage external users**: Allows users to create and administer [External users](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes/)
+        - **Domain administrator**: Allows users to manage system information
+            - **Manage mailshares**: Allows users to create, modify and delete mailshares and how they are shared
+                - **Manage mailshare sharings**: Allows users to modify mailshare sharing
+            - **Manage domain calendars**: Allows users to create, modify and delete domain calendars
+                - **Manage domain calendar sharings**: Allows users to modify domain calendar sharing
+            - **Manage domain address books**: Allows users to create, modify, delete domain address books and how they are shared 
+                - **Manage domain address books sharings**: Allows users to modify domain address books sharing
+            - **Manage domain external LDAP address books**: Allows users to create, modify and delete domain address books synchronized with external LDAP directories
+            - **Manage groups**: Allows users to create, update or delete groups and manage their members
+                - **Manage group members**: Allows users to add and remove group members
+                - **Manage group sharings**: Allows users to add, modify or delete sharings in a group mailbox
+            - **Manage resources**: Allows users to create, modify and delete resources and how they are shared
+                - **Manage resource sharings**: Allows users to modify resource sharing
+            - **Manage resource types**: Allows users to create and delete resource types
+            - **Manage organizational units**: Allows users to create and delete organizational units
+            - **Manage users**: Allows users to create, update and delete users
+                - **Manage external accounts**: Allows users to manage external user accounts so that they can store attachments in an external system connected to BlueMind (see [Connecting with Nextcloud](/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud/))
+                - **Manage user subscriptions**: Allows users to modify users subscriptions
+                - **Manage own devices (ActiveSync)**: Allows users to manage access authorizations for their own devices (ActiveSync)
+                - **Manage user mail identities**: Allows users to create, modify or delete user mail identities
+                - **Manage user information**: Allows users to manage user information intended to appear in the directory and in VCard exports
+                - **Manage user passwords**: Allows users to modify user passwords
+                - **Manage user settings**: Allows users to modify personal user settings
+                - **Manage user sharings**: Allows user to modify user sharing settings
+            - **Manage domain dataprotect:** Allows users to access the dataprotect UI to restore domain data
+    - **Manage servers**: Gives access to "Application servers" in the administration console which is used to add or remove servers and modify server settings and roles
+    - **Manage domain max values**: Allows users to set and modify max domain values
+    - **Manage dataprotect**: Allows users to access the dataprotect UI to restore user-specific data 
+    - **Sudo (privilege elevation)**: Allows users to log into BlueMind in another user's place via the administration console without having to know the user's password
 
 
 ****Access to Applications****

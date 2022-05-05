@@ -6,7 +6,7 @@ position: 58
 # Mettre en place une politique d'expiration des mots de passe
 
 
-:::important
+:::info
 
 Connexion avec un AD ou LDAP
 
@@ -14,7 +14,7 @@ La politique d'expiration ne sera pas appliquée aux utilisateurs importés d'un
 
 :::
 
-# Politique globale
+## Politique globale
 
 L'administrateur peut mettre en place une politique de gestion automatique de l'expiration des mots de passe pour un domaine : tous les utilisateurs devront modifier leur mot de passe à une fréquence donnée.
 
@@ -31,7 +31,7 @@ Les utilisateurs se verront dès lors contraints de changer leur mot de passe :
 - ** **Dès sa prochaine connexion si aucune date de dernière modification n'est connue.****Cela peut être le cas si l'utilisateur a été créé avant le passage en 3.5.14 et qu'il n'a jamais modifié son mot de passe.
 
 
-# Gestion individuelle
+## Gestion individuelle
 
 Qu'une politique globale soit définie ou non, les administrateurs ont la possibilité de forcer l'expiration du mot de passe d'un utilisateur, par exemple lorsque l'on soupçonne que celui-ci a été corrompu.
 
@@ -45,7 +45,7 @@ Dans les deux cas, l'administrateur doit se rendre dans la [fiche d'administrati
 - Cocher la case "**Le mot de passe n'expire pas**" pour exclure l'utilisateur de la politique globale d'expiration du domaine.
 
 
-# Effets pour les utilisateurs
+## Effets pour les utilisateurs
 
 Que le mot de passe ait expiré suite à la politique globale ou par un forçage de la part d'un administrateur, la demande de modification pour les utilisateurs intervient de la même façon : lorsque l'utilisateur essaie de se connecter avec son ancien mot de passe, le formulaire suivant lui est présenté :
 

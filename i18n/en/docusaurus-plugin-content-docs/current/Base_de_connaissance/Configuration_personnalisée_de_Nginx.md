@@ -1,6 +1,6 @@
 ---
 title: "Customizing Nginx"
-confluence_id: 79863508
+confluence_id: 57771920
 position: 50
 ---
 # Customizing Nginx
@@ -8,7 +8,7 @@ position: 50
 
  
 
-# Introduction
+## Introduction
 
 Nginx virtual host files (such as  "*/etc/nginx/sites-enabled/bm-client-access"*) are managed by BlueMind and** must absolutely not be modified**.
 
@@ -16,7 +16,7 @@ These files are replaced during system updates, as a result, all local modificat
 
 You can, however, add configuration files into "*/etc/nginx/sites-enabled/"* to customize configuration.
 
-# X-Frame-Option configuration
+## X-Frame-Option configuration
 
 By default, BlueMind can be included into a *frame*.
 

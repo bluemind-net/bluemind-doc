@@ -6,7 +6,7 @@ position: 62
 # Synchronisation Active Directory
 
 
-# Présentation
+## Présentation
 
 La souscription professionnelle BlueMind permet d'accéder à des outils facilitant l'intégration de BlueMind dans le système d'informations.
 
@@ -31,7 +31,7 @@ Cet outil évite ainsi la gestion d'une base utilisateurs dans Blue Mind et les 
 Pour les utilisateurs importés depuis l'annuaire, l'authentification s'effectue auprès de cet annuaire, la base Blue Mind n'ayant pas les mots de passe de l'Active Directory.
 
 
-# Principe de fonctionnement
+## Principe de fonctionnement
 
 BlueMind permet d'importer et d'utiliser les utilisateurs et les groupes depuis un système Active Directory.
 
@@ -48,7 +48,7 @@ Le provisioning (création ou modification) d'un utilisateur ou d'un groupe depu
 - ou lorsqu'un utilisateur se connecte, automatiquement, à la volée.
 
 
-# Installation
+## Installation
 
 Afin d'accéder aux fonctionnalités de synchronisation avec un annuaire AD, il est nécessaire d'installer le plugin ad-import.
 
@@ -76,9 +76,9 @@ bmctl restart
 ```
 
 
-# Configuration
+## Configuration
 
-## Configuration de la connection Active Directory
+### Configuration de la connection Active Directory
 
 - Se connecter sur le serveur BlueMind cible en tant qu'administrateur global admin0
 
@@ -89,62 +89,81 @@ bmctl restart
 ![](../../attachments/57771618/62557884.png)
 
 - Cocher la case "Activer l'import AD" (à partir de la version 4.3.0 de BlueMind)
-- 
-Remplir les informations demandées avec les paramètres Active Directory :
+- Remplir les informations demandées avec les paramètres Active Directory :
 
-
-   | Paramètres demandé | Valeur Active Directory |
+| Paramètres demandé | Valeur Active Directory |
 | --- | --- |
-| Nom d'utilisateur AD | Login utilisé pour effectuer des requêtes sur le serveur Active DirectoryIl est possible d'utiliser n'importe quel compte utilisateur ayant les droits de parcours de l'arborescence Active Directory en mode lecture seule.Un *mapping* (remplacement de caractères) est réalisé lors de l'import pour des raisons de compatibilité :* remplacement des lettre accentuées par la lettre non accentuée correspondante
-* passage en minuscule
-* remplacement des espaces par des '\_'
+| Nom d'utilisateur AD | Login utilisé pour effectuer des requêtes sur le serveur Active Directory
+Il est possible d'utiliser n'importe quel compte utilisateur ayant les droits de parcours de l'arborescence Active Directory en mode lecture seule.
+ | Un *mapping* (remplacement de caractères) est réalisé lors de l'import pour des raisons de compatibilité :
+ | 
+    - remplacement des lettre accentuées par la lettre non accentuée correspondante
+    - passage en minuscule
+    - remplacement des espaces par des '_'
  |
-| Mot de passe de l'utilisateur AD | Mot de passe associé au compte renseigné dans le champ *AD user login* |
+| Mot de passe de l'utilisateur AD | Mot de passe associé au compte renseigné dans le champ  | *AD user login* |
 | Nom ou IP du serveur AD | Adresse IP ou FQDN du serveur Active Directory. Ce champ peut être vide s'il est possible de déterminer la localisation du serveur en utilisant l'enregistrement DNS de type SRV
+
 
 ```
 \_ldap.\_tcp.dc.msdcs.domain
 ```
 
-(cf. [cet article Technet](http://technet.microsoft.com/en-us/library/cc759550%28v=ws.10%29.aspx)) |
-| Racine de l'annuaire AD | Racine pour la recherche Active Directory. Si vide, les recherches sont effectuées en utilisant le DN racine.Utilisé pour limiter la recherche à une sous-partie de l'arborescence Active Directory  |
-| Filtre des utilisateurs AD | Filtre pour la recherche des entrées utilisateurs dans l'AD.La [syntaxe](http://www.ietf.org/rfc/rfc2254.txt) des filtres LDAP peut être utilisée.Par exemple pour afficher toutes les personnes ayant leur numéro de téléphone renseigné dans la base :
+(cf. [cet article Technet](http://technet.microsoft.com/en-us/library/cc759550%28v=ws.10%29.aspx))
+ |
+| Racine de l'annuaire AD | Racine pour la recherche Active Directory. Si vide, les recherches sont effectuées en utilisant le DN racine. |  | Utilisé pour limiter la recherche à une sous-partie de l'arborescence Active Directory  |
+| Filtre des utilisateurs AD | Filtre pour la recherche des entrées utilisateurs dans l'AD.
+La [syntaxe](http://www.ietf.org/rfc/rfc2254.txt) des filtres LDAP peut être utilisée.
+Par exemple pour afficher toutes les personnes ayant leur numéro de téléphone renseigné dans la base :
+ | 
 
 ```
-(&(objectclass=person)(telephoneNumber=*))
+(&(objectclass=person)(telephoneNumber=\*))
 ```
 
-*cf. &lt;http://ldapbook.labs.libre-entreprise.org/book/html/ch03s02.html>* Ou encore tous les comptes qui ont le accountStatus "MAIL" et qui ne sont pas dans la branche MAILSHARE de l'annuaire :
+ | *cf. [http://ldapbook.labs.libre-entreprise.org/book/html/ch03s02.html](http://ldapbook.labs.libre-entreprise.org/book/html/ch03s02.html) *
+ | Ou encore tous les comptes qui ont le accountStatus "MAIL" et qui ne sont pas dans la branche MAILSHARE de l'annuaire :
+ | 
 
 ```
 (&(!(ou:dn:=MAILSHARE))(&(objectClass=posixAccount)(accountStatus=MAIL)))
 ```
 
  |
-| Filtre des groupes AD | Filtre pour la recherche des entrées de type groupe dans l'AD.La [syntaxe](http://www.ietf.org/rfc/rfc2254.txt) des filtres LDAP peut être utilisée.Par exemple, pour n'afficher que les groupes des branches dont le dn contient cn=system ou cn=users :
+| Filtre des groupes AD | Filtre pour la recherche des entrées de type groupe dans l'AD.
+La [syntaxe](http://www.ietf.org/rfc/rfc2254.txt) des filtres LDAP peut être utilisée.
+Par exemple, pour n'afficher que les groupes des branches dont le dn contient cn=system ou cn=users :
+ | 
 
 ```
 (&(objectClass=group)(|(cn:dn:=System)(cn:dn:=Users)))
 ```
 
-Ou encore les groupes ayant une description :
+ | Ou encore les groupes ayant une description :
+ | 
 
 ```
-(&(objectCategory=group)(description=*))
+(&(objectCategory=group)(description=\*))
 ```
 
-*cf. &lt;https://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx#Examples>*  |
-| Groupe de segmentation du domaine | Ce champ peut être vide.Ce champ sera ignoré si la fonctionnalité de segmentation de domaine n'est pas configurée pour BlueMind.Les mails destinés aux utilisateurs membres de ce groupe sont redirigés vers un autre serveur de messagerie du même domaine (configuré via la segmentation de domaine). |
+ | *cf. [https://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx#Examples](https://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx#Examples) *
+ |
+| Groupe de segmentation du domaine | Ce champ peut être vide.
+ | Ce champ sera ignoré si la fonctionnalité de segmentation de domaine n'est pas configurée pour BlueMind.
+ | Les mails destinés aux utilisateurs membres de ce groupe sont redirigés vers un autre serveur de messagerie du même domaine (configuré via la segmentation de domaine).
+ |
 
 
-## Configuration des rôles utilisateur
+### Configuration des rôles utilisateur
 
 Lorsque BlueMind est configuré pour importer sa base utilisateur d'un Active Directory, BlueMind ne contrôle plus les règles de gestion des mots de passe. BlueMind ne peut pas écrire dans l'Active Directory et ne peut donc pas modifier le mot de passe Active Directory.
 
 Pour cette raison, il est nécessaire d'enlever aux utilisateurs importés de l'Active Directory l'accès aux interfaces de modification de mot de passe (qui agit sur le mot de passe BlueMind uniquement).
 
 Les interfaces de gestion des mots de passe sont accessibles via le rôle : Général → Modifier son mot de passe (voir  [Les rôles : droits d'accès et d'administration](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/))
-:::important
+
+
+:::info
 
 Rôles et groupes
 
@@ -172,9 +191,9 @@ Un dernier paramètre permet d'indiquer le groupe de segmentation du domaine.
 
 L'outil permet de vérifier directement si l'annuaire est bien accessible et l'accès bien configuré.
 
-# Fonctionnement de l'outil de synchronisation
+## Fonctionnement de l'outil de synchronisation
 
-## Comptes utilisateurs
+### Comptes utilisateurs
 
 Le plugin pour Active Directory fonctionne de 3 façons complémentaires :
 
@@ -189,15 +208,15 @@ L'import incrémental fonctionne de la même façon, mais uniquement en parcoura
 
 Enfin, l'import à l'authentification recherche l'utilisateur dans l'Active Directory lorsqu'il n'est pas connu dans BlueMind ; s'il le trouve, il l'importe et l'authentifie sur l'Active Directory pour lui donner accès immédiatement à BlueMind.
 
-## État d'un compte
+### État d'un compte
 
 Les comptes importés d'un Active Directory respectant le filtre LDAP configuré sont automatiquement activés.
 
 A l'inverse, ils peuvent être suspendus ou supprimés dans l'Active Directory afin que l'accès à la messagerie leur soit interdit. Un utilisateur supprimé dans l'Active Directory est simplement suspendu dans BlueMind.
 
-## Synchronisation Active Directory planifiée
+### Synchronisation Active Directory planifiée
 
-### Import incrémental
+#### Import incrémental
 
 A l'installation du plugin Active Directory, BlueMind crée une tâche planifiée dont le but sera de synchroniser à intervalles réguliers les bases utilisateurs et groupes auprès de l'Active Directory.
 
@@ -216,16 +235,18 @@ Comme indiqué la copie d'écran suivante, la tâche planifiée peut être :
 Tâche planifiée de l'import Active Directory
 
 
-### Suivi des tâches planifiées
+#### Suivi des tâches planifiées
 
 L'écran de suivi des [tâches planifiées](https://forge.bluemind.net/confluence/display/LATEST/Les+taches+planifiees) permet de vérifier la bonne exécution de celles-ci. La copie d'écran suivante montre ainsi les tâches de synchronisation réalisées, leur date d'exécution et le résultat de l'opération :
 
 ![](../../attachments/57771618/62557887.png)
 
-# Mapping Active Directory - BlueMind
+## Mapping Active Directory - BlueMind
 
-## Attributs des utilisateurs
-:::important
+### Attributs des utilisateurs
+
+
+:::info
 
 L'import AD BlueMind se base sur *member* et *memberOf* pour déterminer les appartenances et ne supporte donc pas la gestion du groupe primaire.
 
@@ -233,50 +254,137 @@ D'autre part, il semble [déconseillé](https://social.technet.microsoft.com/For
 
 :::
 
-
-    | BlueMind | Attribut Active Directory | Note |
+| BlueMind | Attribut Active Directory | Note |
 | --- | --- | --- |
-| login | sAMAccountName |  |
-| title* | personalTitle | Titre de civilité : Monsieur, Madame, Mademoiselle... |
-| firstname | givenName |  |
-| lastname | sn |  |
-| jobtitle* | title | Titre professionnel : chef de service, DSI, etc. |
-| description | description |  |
-| mail | mailotherMailboxproxyAddresses | L'attribut Active Directory *mail*  est défini comme adresse mail par défaut dans BlueMind.Si ce champ est absent ou non renseigné, l'adresse BlueMind par défaut est définie par la première des valeurs trouvées dans les champs suivant (dans l'ordre) :1. la première valeur du champ *otherMailbox*
-2. la valeur du champ proxyAddresses :
-	1. la première préfixée par "SMTP:"
-	2. la première remontée parmi celles préfixées par "smtp:", si pas d'email préfixé par "SMTP:"NB : seules les adresses préfixées par "SMTP:" ou "smtp:" sont prises en compte (syntaxe définie par [Microsoft](https://support.microsoft.com/en-us/help/3190357/how-the-proxyaddresses-attribute-is-populated-in-azure-ad))
+| login | sAMAccountName | 
 
- Si aucun de ces champs n'est renseigné alors l'utilisateur n'aura pas de messagerie dans BlueMind |
-| street | streetAddress |  |
-| zip | postalCode |  |
-| town | l |  |
-| country | co |  |
-| state | st |  |
-| Work phones | telephoneNumberotherTelephone |  |
-| Home phones | homePhoneotherHomePhone |  |
-| Mobile phones | mobileotherMobile |  |
-| Fax | facsimileTelephoneNumberotherFacsimileTelephoneNumber |  |
-| Pager | pagerotherPager |  |
+
+ |
+| title* | personalTitle | Titre de civilité : Monsieur, Madame, Mademoiselle... |
+| firstname | givenName | 
+
+
+ |
+| 
+lastname
+ | sn | 
+
+
+ |
+| jobtitle* | title | Titre professionnel : chef de service, DSI, etc. |
+| description | description | 
+
+
+ |
+| mail | 
+mail
+ | 
+otherMailbox
+ | 
+proxyAddresses
+ | 
+L'attribut Active Directory *mail * est défini comme adresse mail par défaut dans BlueMind.
+Si ce champ est absent ou non renseigné, l'adresse BlueMind par défaut est définie par la première des valeurs trouvées dans les champs suivant (dans l'ordre) :
+
+1. la première valeur du champ *otherMailbox *
+2. la valeur du champ proxyAddresses :
+    1. la première préfixée par "SMTP:"
+    2. la première remontée parmi celles préfixées par "smtp:", si pas d'email préfixé par "SMTP:"
+NB : seules les adresses préfixées par "SMTP:" ou "smtp:" sont prises en compte (syntaxe définie par [Microsoft](https://support.microsoft.com/en-us/help/3190357/how-the-proxyaddresses-attribute-is-populated-in-azure-ad))
+
+![](../../attachments/57770017/66096265.png) Si aucun de ces champs n'est renseigné alors l'utilisateur n'aura pas de messagerie dans BlueMind
+ |
+| street | streetAddress | 
+
+
+ |
+| zip | postalCode | 
+
+
+ |
+| town | l | 
+
+
+ |
+| country | co | 
+
+
+ |
+| state | st | 
+
+
+ |
+| Work phones | 
+telephoneNumber
+ | 
+otherTelephone
+ | 
+
+
+ |
+| Home phones | 
+homePhone
+ | 
+otherHomePhone
+ | 
+
+
+ |
+| Mobile phones | 
+mobile
+ | 
+otherMobile
+ | 
+
+
+ |
+| Fax | 
+facsimileTelephoneNumber
+ | 
+otherFacsimileTelephoneNumber
+ | 
+
+
+ |
+| Pager | 
+pager
+ | 
+otherPager
+ | 
+
+
+ |
 | memberOf | memberOf | Liste des groupes dont l'utilisateur est membre. L'utilisateur BlueMind n'est ajouté qu'aux groupes déjà importés |
 | service | department | A partir de BlueMind v3.0 |
 | photoID | thumbnailPhoto | Photo de l'utilisateur : le contenu de cet attribut est importé comme photo du compte correspondant |
-| user.value.contactInfos.organizational.org.company | company |  |
-| user.value.contactInfos.organizational.org.department | department |  |
+| user.value.contactInfos.organizational.org.company | company | 
 
 
-## Attributs des groupes
+ |
+| user.value.contactInfos.organizational.org.department | department | 
 
 
-    | BlueMind | Attribut Active Directory | Note |
+ |
+
+### Attributs des groupes
+
+| BlueMind | Attribut Active Directory | Note |
 | --- | --- | --- |
-| name | sAMAccountName |  |
-| description | description |  |
-| mail | mail |  |
+| name | sAMAccountName | 
+
+
+ |
+| description | description | 
+
+
+ |
+| mail | mail | 
+
+
+ |
 | member | member | Seuls les groupes et utilisateurs synchronisés sont ajoutés aux membres du groupe BlueMind |
 
-
-# Attribution des droits
+## Attribution des droits
 
 À partir de BlueMind 3.5, [l'accès aux applications passe par la gestion des rôles](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) qui sont attribués aux utilisateurs.
 
@@ -288,7 +396,8 @@ La façon la plus simple et efficace de gérer cela est de passer par les groupe
 - lancer un 1er import : le(s) groupe(s) est importé dans BlueMind avec les utilisateurs
 - se rendre dans l'administration et [affecter les rôles souhaités au groupe](/Guide_de_l_administrateur/Gestion_des_entités/Groupes/#Administrationdesgroupes-Gestiondesgroupes-Roles)
 
-:::important
+
+:::tip
 
 Lors des imports et mises à jour suivants, les rôles seront conservés.
 
@@ -296,12 +405,14 @@ Lors des imports et mises à jour suivants, les rôles seront conservés.
 
 Par la suite, pour les nouveaux utilisateurs, il suffira de les affecter à ce(s) groupe(s) afin de leur attribuer les rôles souhaités.
 
-# Forcer ou corriger un UID
+## Forcer ou corriger un UID
 
 L'UID d'un utilisateur peut être renseigné ou corrigé dans la fiche d'administration de l'utilisateur dans BlueMind.
 
 Pour cela, se rendre dans la console d'administration > Annuaires > Entrées d'annuaire > choisir la fiche de l'utilisateur > onglet Maintenance : renseigner le champ ExternalID avec l'UID de l'utilisateur dans l'AD puis enregistrer.
-:::important
+
+
+:::info
 
 L'ExternalID doit être préfixé par "ad://".
 

@@ -1,12 +1,12 @@
 ---
 title: "BlueMind Tools and Resources"
-confluence_id: 79861472
+confluence_id: 57770216
 position: 34
 ---
 # BlueMind Tools and Resources
 
 
-# Tools and Resources
+## Tools and Resources
 
 The following tools and resources are available online: 
 
@@ -20,7 +20,7 @@ The following tools and resources are available online: 
 No authentication is required for viewing. An account is needed, however, to participate.
 
 
-# Access
+## Access
 
 In order to access specific tool features, (submit JIRA tickets, submit and vote in the Suggestion Box, MarketPlace), you need to create an account through our identity platform: [https://forge.blue-mind.net/identity/](https://forge.blue-mind.net/identity/).
 
@@ -28,9 +28,9 @@ This will make all tools available to you automatically (your log in ID is passe
 
 To post on the forum, you need to [create an account](http://forum.blue-mind.net/register.php).
 
-# Recommendations for use
+## Recommendations for use
 
-## Support and bug tracking
+### Support and bug tracking
 
 The bug-tracking platform is open to all, users as well as clients.
 
@@ -43,13 +43,13 @@ For your request to be processed promptly, you need to provide as detailed a des
 
 Bear in mind that our support teams don't have access to your platform. This means tests will be performed on a reference platform. A precise description is therefore indispensable.
 
-## Forum
+### Forum
 
 Please double-check with the search engine that your issue or question hasn't been addressed yet. This will save you time if a reply has already been provided.
 
 As suggested above, please be polite and describe your request as precisely as you can.
 
-## Suggestion Box
+### Suggestion Box
 
 The Suggestion Box allows you to suggest new features. It is available in English only.
 
@@ -59,7 +59,7 @@ To this end, please first search through existing submissions to make sure that 
 
 Failing that, you can create a new suggestion. Please be thorough so that your request may be considered by other users.
 
-# Contributing to BlueMind
+## Contributing to BlueMind
 
 Other tools and resources are available if you wish to contribute to BlueMind. See our [Developer's guide](/Guide_du_développeur/) : [Contributing to BlueMind](/Guide_du_développeur/Contribuer_à_BlueMind/) (not translated for the moment, available in French only)
 

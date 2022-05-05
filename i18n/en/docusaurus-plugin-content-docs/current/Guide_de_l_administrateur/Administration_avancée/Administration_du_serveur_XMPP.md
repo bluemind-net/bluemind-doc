@@ -1,21 +1,21 @@
 ---
 title: "XMPP Server Administration"
-confluence_id: 79863365
+confluence_id: 57771795
 position: 62
 ---
 # XMPP Server Administration
 
 
-# Introduction
+## Introduction
 
 The XMPP server is built on a [Tigase XMPP server](http://www.tigase.org/). Most development add-ons are Tigase-related plugins to enable integration with the BlueMind solution.
 
 
-# Installation
+## Installation
 
 The *bm-xmpp* package allows you to install the BlueMind XMPP server comprehensively.
 
-## Integration with BlueMind services
+### Integration with BlueMind services
 
 The "*bm-xmpp" *package adds the functionalities below to BlueMind:
 
@@ -25,7 +25,7 @@ The "*bm-xmpp" *package adds the functionalities below to BlueMind:
 - default user email addresses match their jabber ID
 
 
-## Service inter-dependencies
+### Service inter-dependencies
 
 *"bm-xmpp"* depends on the following BlueMind services:
 
@@ -35,7 +35,7 @@ The "*bm-xmpp" *package adds the functionalities below to BlueMind:
 - *bm-elasticsearch* for archiving and searching conversations
 
 
-## Enabling the instant messaging service 
+### Enabling the instant messaging service 
 
 To enable the instant messaging service, connect to BlueMind as admin0 and:
 
@@ -62,21 +62,21 @@ Finally, for users to be able to access the instant messaging service, they must
 
 To find out more about enabling this role, go to the dedicated page: [Roles: Access and Administration Rights](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/)
 
-# Changing SSL certificates
+## Changing SSL certificates
 
 SSL certificates are generated automatically by *bm-xmpp* when a new domain is used. As self-signed certificates, they must be replaced by valid certificates.
 
 To replace a domain's certificate, simply replace the appropriate files in  */usr/share/bm-xmpp/certs/*.
 
-# Connecting the XMPP server to the internet
+## Connecting the XMPP server to the internet
 
 By allowing the XMPP server to connect to the internet, the server is able to connect to other XMPP servers or to allow external users to connect to BlueMind's XMPP server. BlueMind users are then able to add non-BlueMind contacts to their instant messaging's contact list (displayed in the roaster). 
 
-## Finding an externally-accessible DNS address
+### Finding an externally-accessible DNS address
 
 For example, if an XMPP server's DNS is "*xmpp.mydomain.com"*, this DNS name must be resolved externally, from the internet, and not only internally.
 
-## Communication ports
+### Communication ports
 
 The ports below must be accessible externally on the server "*xmpp.mydomain.com" (see also [Services](/Guide_de_l_administrateur/Présentation_du_produit/Les_services/))*:
 
@@ -87,12 +87,11 @@ The ports below must be accessible externally on the server "*xmpp.mydomain.com"
 
 If "*bm-xmpp"* is not installed on the server whose DNS name is "*xmpp.mydomain.com"* (e.g. in the case of a proxy), these ports' data flows must be redirected to the server hosting "*bm-xmpp"*.
 
-## Adding DNS SRV records
+### Adding DNS SRV records
 
 The DNS configuration of the domain "*mydomain.com*" must be edited to allow the external network to recognize "*xmpp.mydomain.com"* as the XMPP server for the domain "*mydomain.com"*.
 
 The following SRV records must be added:
-
 
 | Key | Example | Description |
 | --- | --- | --- |
@@ -115,8 +114,7 @@ The following SRV records must be added:
 ```
  | Server-server communications |
 
-
-### Checking DNS records
+#### Checking DNS records
 
 You can use the command-line tool "*dig" *to check DNS records. For example, to find out which server to use for the domain "*gmail.com"*:
 

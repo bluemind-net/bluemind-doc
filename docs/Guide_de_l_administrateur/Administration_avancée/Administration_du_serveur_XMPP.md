@@ -6,16 +6,16 @@ position: 62
 # Administration du serveur XMPP
 
 
-# Présentation
+## Présentation
 
 Le serveur XMPP est conçu autour du [serveur XMPP Tigase](http://www.tigase.org/). La plupart des développements apportés sont des plugins autour de Tigase pour l'intégrer avec la solution BlueMind.
 
 
-# Installation
+## Installation
 
 Le package *bm-xmpp* permet d'installer complètement le serveur XMPP BlueMind.
 
-## Intégration aux services BlueMind
+### Intégration aux services BlueMind
 
 Les fonctionnalités suivantes sont ajoutés à BlueMind par le paquet *bm-xmpp* :
 
@@ -25,7 +25,7 @@ Les fonctionnalités suivantes sont ajoutés à BlueMind par le paquet *bm-xmpp*
 - l'adresse email par défaut des utilisateurs correspond à leurs identifiants jabber
 
 
-## Dépendances entre services
+### Dépendances entre services
 
 *bm-xmpp* dépend des services BlueMind suivants :
 
@@ -35,7 +35,7 @@ Les fonctionnalités suivantes sont ajoutés à BlueMind par le paquet *bm-xmpp*
 - *bm-elasticsearch* pour l'archivage et la recherche des conversations
 
 
-## Activation de la messagerie instantanée
+### Activation de la messagerie instantanée
 
 Pour activer le service de messagerie instantanée, se connecter à BlueMind en tant qu'admin0 et :
 
@@ -62,7 +62,7 @@ Enfin, pour que les utilisateurs aient accès à la messagerie instantanée, il 
 
 Pour en savoir plus sur l'activation de ce rôle, consultez la page dédiée : [Les rôles : droits d'accès et d'administration](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/)
 
-# Changement du certificat SSL
+## Changement du certificat SSL
 
 Les certificats SSL utilisés sont auto-générés par *bm-xmpp* quand un nouveau domaine est utilisé. En tant que certificats auto-signés, ils doivent être remplacés par des certificats valides.
 
@@ -70,15 +70,15 @@ Pour remplacer le certificat d'un domaine, il suffit de remplacer les fichiers c
 
 Le fichier du certificat doit contenir dans l'ordre : le certificat, la clé privée, et les certificat de la CA suivi de la chaine jusqu'au root si besoin.
 
-# Connexion du serveur XMPP vers internet
+## Connexion du serveur XMPP vers internet
 
 En permettant la connexion du serveur XMPP vers Internet, le serveur devient en mesure de se connecter à d'autres serveurs XMPP ou de permettre à des utilisateurs externes de se connecter au serveur XMPP BlueMind. Les utilisateurs BlueMind peuvent alors ajouter des contacts extérieurs à BlueMind dans leur liste de contacts de messagerie instantanée (affichée dans  le "roaster").
 
-## Localiser une adresse DNS accessible depuis Internet
+### Localiser une adresse DNS accessible depuis Internet
 
 Par exemple, dans le cas où le serveur XMPP possède une adresse DNS *xmpp.mydomain.com*, ce nom DNS doit être résolue par l'extérieur et pas seulement par le réseau interne.
 
-## Ports de communication
+### Ports de communication
 
 Les ports suivants doivent être accessibles depuis l'extérieur sur le serveur *xmpp.mydomain.com (voir aussi [Les services](/Guide_de_l_administrateur/Présentation_du_produit/Les_services/))* :
 
@@ -88,14 +88,13 @@ Les ports suivants doivent être accessibles depuis l'extérieur sur le serveur 
 
 Si *bm-xmpp* n'est pas installé sur le serveur portant le nom DNS *xmpp.mydomain.com* (par exemple dans le cas d'un proxy), les flux de ces ports doivent être redirigés vers le serveur hébergeant *bm-xmpp*.
 
-## Ajout d'enregistrements DNS de type SRV
+### Ajout d'enregistrements DNS de type SRV
 
 La configuration DNS du domaine mydomain.com doit être modifiée pour permettre au réseau externe de reconnaître le serveur *xmpp.mydomain.com* comme serveur XMPP du domaine *mydomain.com*.
 
 Les enregistrements de type SRV à ajouter sont les suivants :
 
-
-    | Clé | Exemple | Description |
+| Clé | Exemple | Description |
 | --- | --- | --- |
 | 
 ```
@@ -116,8 +115,7 @@ Les enregistrements de type SRV à ajouter sont les suivants :
 ```
  | Communications serveur-serveur |
 
-
-## Vérification des enregistrements DNS
+### Vérification des enregistrements DNS
 
 Il est possible d'utiliser l'outil en ligne de commande *dig* pour vérifier les enregistrements DNS. Par exemple, pour savoir quel serveur utiliser pour le domaine *gmail.com* :
 

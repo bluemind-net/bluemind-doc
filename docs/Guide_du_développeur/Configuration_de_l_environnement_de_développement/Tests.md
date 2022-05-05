@@ -6,14 +6,14 @@ position: 56
 # Tests
 
 
-# Présentation
+## Présentation
 
 Cette page présente l'exécution et le fonctionnement des tests via mavin, eclipse, docker ou une machine virtuelle.
 
 
-# Configuration
+## Configuration
 
-## Le fichier services.json
+### Le fichier services.json
 
 Le fichier `services.json` du projet de tests énumère les container/services (docker) nécessaire à l'exécution des tests.
 
@@ -31,7 +31,7 @@ Par exemple pour deux images docker, une pour la bd postgres et une pour un elas
 ```
 
 
-## Le fragment net.bluemind.pool.dockerconfig
+### Le fragment net.bluemind.pool.dockerconfig
 
 Ce fragment permet de surcharger (remplacer) la classe `BmConfIni.`
 
@@ -39,7 +39,7 @@ Si le fragment est actif (non fermé) et que le projet de tests comporte un fich
 
 Quand on fait tourner les tests dans Eclipse et qu'on veut utiliser les services fournis par une machine virtuelle BlueMind (postgres, elasticsearch etc..), il suffit de fermer le fragment. Les fichiers de configuration traditionnels prendront alors le relai (`/etc/bm/bm.ini`, `/etc/bm/mcast.id`, etc.)
 
-## Configuration maven
+### Configuration maven
 
 La configuration maven des projets de tests répertorie les differents plugins nécessaires au lancement des tests :
 
@@ -73,18 +73,17 @@ La configuration maven des projets de tests répertorie les differents plugins 
 ```
 
 
-# Jouer les tests depuis Docker
+## Jouer les tests depuis Docker
 
 Installer [docker](https://docs.docker.com/installation/#installation) (préférer les paquets téléchargeables sur [docker.com](http://docker.com) plutôt que les paquets fournis avec les distributions).
 
 Mettre docker en écoute sur un socket, par exemple sur Debian/Ubuntu :
 
-1 éditer `/etc/default/docker`
-1 
-définir la variable suivante :
-`DOCKER_OPTS="-H tcp://&lt;ip hote>:10000 -H [unix:///var/run/docker.sock](unix://forge.blue-mind.net/var/run/docker.sock)"`
+1. éditer `/etc/default/docker`
+2. définir la variable suivante :
+`DOCKER_OPTS="-H tcp://<ip hote>:10000 -H [unix:///var/run/docker.sock](unix://forge.blue-mind.net/var/run/docker.sock)"`
 
-1 relancer le service Docker
+3. relancer le service Docker
 
 
 Sur la machine de développement, celle où se trouve Eclipse et les sources BlueMind, il faut ensuite indiquer quel service Docker utiliser en créant le fichier `~/.docker.io.properties` avec le contenu suivant :
@@ -99,7 +98,7 @@ Par la suite, ce sont les containers Docker qui devront-être accessibles depuis
 
 D'autres méthodes possibles sont consultable sur le [git docker-java](https://github.com/docker-java/docker-java).
 
-## Les images Docker
+### Les images Docker
 
 Il est actuellement nécessaire d'installer les images en local (sur le docker qui est utilisé pour les tests). Les images se trouvent dans le projet `bm/bm-docker-devenv` :
 
@@ -109,13 +108,14 @@ $ git clone https://forge.blue-mind.net/stash/scm/bm/bm-docker-devenv.git
 $ ./build
 ```
 
-:::important
+
+:::info
 
 Pensez à reconstruire vos images régulièrement afin d'utiliser des versions récentes des binaires BlueMind.
 
 :::
 
-## Connecter des répertoires locaux en tant que volumes Docker
+### Connecter des répertoires locaux en tant que volumes Docker
 
 Cela se fait via un tableau (*Array*) "volumes".
 
@@ -138,7 +138,7 @@ VOLUME ["/var/backups/bluemind"]
 ```
 
 
-# Jouer les tests depuis Eclipse
+## Jouer les tests depuis Eclipse
 
 Construire une première fois le projet BlueMind :
 
@@ -159,7 +159,9 @@ $ mvn pre-integration-test
 
 
 Enfin, lancer les tests dans Eclipse.
-:::important
+
+
+:::info
 
 ****Attention:**** Pour windows et MacOS, il est nécessaire d'ajouter une route sur l'hôte de la VM (windows ou MacOS) afin d'atteindre le réseau des containers Docker.
 Il faut aussi activer le routage sur la VM Docker :
@@ -173,7 +175,7 @@ $ echo 'net.ipv4.ip\_forward=1' > /etc/sysctl.conf
 
 :::
 
-# Tester sans container OSGI (Junit)
+## Tester sans container OSGI (Junit)
 
 Les classes nommées `*Test.java` (différentes de `*Test**s**.java`) sont exécutées sans container OSGI. 
 

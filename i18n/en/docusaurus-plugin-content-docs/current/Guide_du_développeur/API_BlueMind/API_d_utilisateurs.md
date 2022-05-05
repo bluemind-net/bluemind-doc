@@ -1,8 +1,10 @@
 ---
 title: "API utilisateur"
-confluence_id: 79863458
+confluence_id: 57771887
 position: 52
 ---
 # API utilisateur
 
+
+This page has not yet been translated to English.
 

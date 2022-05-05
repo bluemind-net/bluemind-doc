@@ -1,13 +1,15 @@
 ---
 title: "Bm-Tick Monitoring"
-confluence_id: 79863220
+confluence_id: 57771650
 position: 54
 ---
 # Bm-Tick Monitoring
 
 
-# Introduction
-:::important
+## Introduction
+
+
+:::info
 
 Monitoring tool is included in BlueMind 4 installation, you can not uninstall it.
 
@@ -38,7 +40,7 @@ We recommend that you read the rest of our documentation in order to install, us
 - [Metrics references](/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Référence_des_métriques/)
 
 
-# User Interface
+## User Interface
 
 The homepage shows the key information:
 
@@ -52,7 +54,7 @@ The [DataExplorer](/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Exp
 
 The dashboards show real-time data graphs:
 
-![](../../../attachments/79863220/79863256.png)
+![](../../../attachments/57771650/58592966.png)
 
 When you hover your mouse on a graph, detailed information on the data pointed at pops up. A white line also appears on the other graphs, showing the time the mouse is pointing at to help you read all the data for one point in time.
 
@@ -60,8 +62,10 @@ You can also zoom on a graph by selecting a time slot with your mouse. Double-cl
 
 Two drop-down lists in the top right corner of each dashboard allow yo to change (or freeze) the refresh rate or the time frame to display:
 
-![](../../../attachments/79863220/79863255.png)
-:::important
+![](../../../attachments/57771650/58592965.png)
+
+
+:::tip
 
 This data is kept in memory when you switch between dashboards.
 

@@ -6,7 +6,7 @@ position: 50
 # Utilisateurs
 
 
-# Présentation
+## Présentation
 
 Les utilisateurs représentent les personnes physiques qui se connectent à Blue Mind. Ces utilisateurs ont accès aux différentes fonctionnalités de Blue Mind selon leur profil. 
 
@@ -22,17 +22,21 @@ Les rôles d'administration :
 - **l'administrateur de la plate-forme ** (appelé également **administrateur global**) est unique pour une installation de Blue Mind. Il a pour identifiant admin0@global.virt et il est en charge de l'aspect technique de la plate-forme. Il n'a pas de compte utilisateur. Lorsqu'il se connecte à Blue Mind, il n'accède qu'à la console d'administration. Il s'occupe de l'installation et du paramétrage technique des domaines : adresses des serveurs, espaces disques, tâches planifiées particulières... Il a aussi accès aux mêmes fonctions de gestion que l'administrateur fonctionnel.
 
 
-# Créer un utilisateur
+## Créer un utilisateur
 
 Depuis la page d'accueil ou la page "Annuaires", cliquer sur "créer un utilisateur" et renseigner les informations du nouvel utilisateur dans la popup qui s'ouvre :
 
 ![](../../../attachments/57771429/62558950.png)
-:::important
+
+
+:::info
 
 Le nom complet est renseigné automatiquement au cours de la frappe lors de la saisie des nom et prénom, il est généré automatiquement et ne peut être modifié.
 
 :::
-:::important
+
+
+:::info
 
 Seuls les champs suivis d'une étoile (Nom, Identifiant et Mot de passe) sont requis.
 
@@ -45,7 +49,7 @@ Les comptes peuvent être créés avec ou sans adresse e-mail :
 - Si l'installation comporte plusieurs alias de domaine, chaque adresse e-mail supplémentaire peut être déclarée sur un domaine particulier ou sur l'ensemble des alias.Il est possible dans BlueMind de créer autant d'alias que souhaité, sur autant d'alias de domaines que souhaité.
 
 
-## Création rapide
+### Création rapide
 
 Le bouton "Créer" permet une création rapide avec les informations saisies dans la popup et les options par défaut suivantes :
 
@@ -60,11 +64,11 @@ Le bouton "Créer" permet une création rapide avec les informations saisies dan
 
 L'utilisateur pourra par la suite être modifié via l'interface d'administration.
 
-## Création et édition
+### Création et édition
 
 Le bouton "Créer et éditer" crée l'utilisateur avec les informations saisies dans la popup et les options par défaut puis redirige automatiquement vers l'interface d'édition de l'utilisateur.
 
-# Éditer et administrer un utilisateur
+## Éditer et administrer un utilisateur
 
 Depuis la page d'accueil ou la page "Annuaires", se rendre sur la page "Entrées d'annuaires" et sélectionner dans la liste l'utilisateur souhaité.
 
@@ -72,14 +76,16 @@ Les informations sur les utilisateurs sont organisées par onglets, présentés 
 
 ![](../../../attachments/57771429/62558991.png)
 
-## Général
+### Général
 
-### Informations générales de l'utilisateur
+#### Informations générales de l'utilisateur
 
 L'onglet "Général" présente les informations principales de l'utilisateur : informations du compte, profil, groupe(s), mot de passe, paramétrage horaire...
 
 Il permet en outre de définir l'utilisateur comme membre ou administrateur d'une [délégation](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée/).
-:::important
+
+
+:::tip
 
 Appartenance aux groupes
 
@@ -91,7 +97,7 @@ Pour supprimer un groupe, cliquez sur la croix correspondante ; pour en ajouter 
 
 :::
 
-### Les rôles : droits d'administration et d'accès aux fonctionnalités
+#### Les rôles : droits d'administration et d'accès aux fonctionnalités
 
 Il est maintenant possible de gérer les droits accordés à un utilisateur ou à un administrateur de domaine. Il est ainsi possible d'autoriser de manière explicite la gestion :
 
@@ -106,7 +112,9 @@ Il est maintenant possible de gérer les droits accordés à un utilisateur ou �
 
 
 ![](../../../attachments/57771429/62558955.png)
-:::important
+
+
+:::info
 
 Droits de délégation
 
@@ -121,7 +129,8 @@ La gestion des droits est organisée en plusieurs sections :
 - **Général** : permet de donner l'accès aux applications (webmail, agenda, etc.) et aux fonctionnalités principales (gestion des filtres personnels de messagerie, gestion de ses identités, transfert de messagerie, etc.)
 - **Messagerie** : permet de donner accès aux fonctionnalités propres à la messagerie
 
-:::important
+
+:::info
 
 Héritage des droits
 
@@ -135,7 +144,7 @@ C'est aussi ce qui permet qu'un utilisateur nouvellement créé ait accès aux a
 
 Pour plus de détails sur les rôles, vous pouvez consulter la page dédiée [Les rôles : droits d'accès et d'administration](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/) ainsi que la page dédiée à [L'administration déléguée.](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/L_administration_déléguée/)
 
-## Information utilisateur
+### Information utilisateur
 
 L'onglet "Information utilisateur" permet à l'administrateur d'enrichir la fiche contact d'un utilisateur.
 
@@ -144,25 +153,28 @@ L'administrateur peut saisir ici des informations telles que les numéros de té
 ![](../../../attachments/57771429/62558973.png)
 
 Les données de contact correspondent à l'annuaire interne de BlueMind et sont accessibles à l'ensemble des utilisateurs de la solution. Pour cette raison, **l'administrateur est le seul à pouvoir modifier ces informations.** L'utilisateur lui-même ne peut pas modifier ses propres informations.
-:::important
+
+
+:::info
 
 Le rôle "Modifier ses informations" permet désormais à l'utilisateur de gérer les informations de sa fiche. Ces modifications ne peuvent à l'heure actuelle se faire que par script via la clef d'API de l'utilisateur, une interface de gestion via les paramètres sera prochainement disponible.
 
 :::
 
-## Messagerie
+### Messagerie
 
 L'onglet "Messagerie" présente le paramétrage lié à la boite mail de l'utilisateur (espace, adresses, identités, partage, etc.) :
 
 ![](../../../attachments/57771429/62558971.png)
 
-### Adresses mail
+#### Adresses mail
 
 - **Serveur de stockage** : serveur par lequel cet utilisateur est géré
-- 
-**Quota d'espace disque** : taille maximale de stockage de la messagerie de l'utilisateur.
+- **Quota d'espace disque** : taille maximale de stockage de la messagerie de l'utilisateur.
 L'espace utilisé par l'utilisateur est désormais indiqué par la barre de progression « quota used » visible ci-dessus.
-:::important
+
+
+:::info
 
 ** **À propos des quotas** **
 
@@ -175,7 +187,9 @@ Des codes couleurs permettent de visualiser le niveau du quota : le taux d'occu
 
 Lorsqu'un quota est atteint, il bloque la réception de mails. Ces mails sont conservés par le serveur pendant quelques jours.
 Les opérations d'envoi et même de suppression peuvent aussi être perturbées, le système ayant besoin d'effectuer des copies dans un répertoire temporaire et/ou dans la corbeille.
-:::important
+
+
+:::info
 
 Quota et suppression
 
@@ -187,19 +201,19 @@ Un quota atteint peut être manuellement augmenté par l'administrateur, puis re
 
 :::
 
-- 
-**Adresse mail principale** et alias : l'utilisateur peut posséder autant d'alias de messagerie que souhaité, sur l'un ou l'autre ou tous les alias de domaines disponibles.
+- **Adresse mail principale** et alias : l'utilisateur peut posséder autant d'alias de messagerie que souhaité, sur l'un ou l'autre ou tous les alias de domaines disponibles.
 
 
-### Mes identités
+#### Mes identités
 
 Les identités permettent à l'utilisateur d'écrire au nom d'un de ses alias ou boite partagée, ou encore de définir des signatures différentes qu'il choisira en fonction des messages qu'il écrira.
 
  ![](../../../attachments/57771429/62558965.png) 
 
+
 Pour en savoir plus, consulter la page dédiée de la Documentation Utilisateur :  [Les identités](/Guide_de_l_utilisateur/La_messagerie/Les_identités/)
 
-### Partage de la messagerie
+#### Partage de la messagerie
 
 La section de partage permet de définir un partage public (avec les membres de l'annuaire) ou personnalisé (avec certains utilisateurs ou groupes seulement) de la boite de messagerie de l'utilisateur.
 
@@ -215,11 +229,13 @@ Les droits de partage d'une boite de messagerie peuvent être définis :
 
 Pour en savoir plus sur le partage et les droits, consulter la page dédiée de la Documentation Utilisateur : [Préférences de messagerie | §5 - Gestion des partages](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/)
 
-### Transfert automatique des messages
+#### Transfert automatique des messages
 
 Depuis la version 3.0.31 de BlueMind, il est possible d'indiquer plusieurs adresses vers lesquelles transférer les messages.
 ![](../../../attachments/57771429/62558969.png)
-:::important
+
+
+:::tip
 
 L'autocomplétion recherche et propose les adresses dans tous les carnets de l'utilisateur (annuaire, carnets personnels, etc.)
 
@@ -227,13 +243,13 @@ L'autocomplétion recherche et propose les adresses dans tous les carnets de l'u
 
 Il est possible de rajouter manuellement des adresses externes, qui ne seront pas ajoutées dans le carnet des adresses collectées lors des transferts.
 
-### Répondeur automatique
+#### Répondeur automatique
 
 Cette section permet d'activer ou désactiver le répondeur automatique de l'utilisateur.
 
 Pour en savoir plus sur le paramétrage et les règles d'envoi, consulter la page dédiée de la Documentation Utilisateur : [Préférences de messagerie | §1 - Préférences générales](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/)
 
-### Filtres de messages
+#### Filtres de messages
 
 Les filtres permettent d'appliquer des règles de tri et actions à effectuer automatiquement aux nouveaux messages entrant de l'utilisateur.
 
@@ -241,13 +257,13 @@ Les filtres permettent d'appliquer des règles de tri et actions à effectuer au
 
 Pour en savoir plus sur le paramétrage et les règles d'envoi, consulter la page dédiée de la Documentation Utilisateur :   [Les filtres de messages](/Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages/)
 
-## Archivage
+### Archivage
 
 ![](../../../attachments/57770017/66096254.png) L'archivage est désormais entièrement automatisé et géré de façon globale.
 
 Voir la page dédiée [Archivage](/Guide_de_l_administrateur/Configuration/Archivage/)
 
-## Carnets d'adresses
+### Carnets d'adresses
 
 Cet onglet permet de gérer les abonnements de l'utilisateur aux carnets qui lui sont accessibles (ses carnets personnels ou des carnets qui lui sont partagés) ainsi que de gérer les partages de ses carnets avec d'autres utilisateurs ou groupes.
 
@@ -257,12 +273,14 @@ En revanche, il n'est pas possible pour l'administrateur de créer des carnets �
 
 Pour en savoir plus, consulter la page dédiée de la Documentation Utilisateur [Préférences des contacts](/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses/) ainsi que la page dédiée à la [Gestion des partages](/Guide_de_l_utilisateur/Gestion_des_partages/)
 
-## Calendrier
+### Calendrier
 
 L'onglet Calendrier permet d'accéder à tous les pramètres de réglage du calendrier de l'utilisateur (horaires, jours ouvrés, éléments affichés, etc.) ainsi qu'aux options de partage de son calendrier et d'abonnements aux calendriers (d'utilisateurs ou de domaines) qui lui sont partagés :
 
 ![](../../../attachments/57771429/62558989.png)
-:::important
+
+
+:::info
 
 De même que pour les carnets d'adresses, l'administrateur ne peut créer de calendriers supplémentaires à l'utilisateur mais il peut en gérer les partages, tant avec les utilisateurs du domaine qu'avec les personnes extérieures à BlueMind :
 
@@ -270,7 +288,7 @@ De même que pour les carnets d'adresses, l'administrateur ne peut créer de cal
 
 :::
 
-## Listes de tâches
+### Listes de tâches
 
 Cet onglet permet de gérer les partages des listes de tâches de l'utilisateur et ses abonnements aux listes qui lui sont partagées :
 
@@ -278,17 +296,17 @@ Cet onglet permet de gérer les partages des listes de tâches de l'utilisateur 
 
 Pour en savoir plus, consulter la page dédiée de la Documentation Utilisateur [Les tâches](/Guide_de_l_utilisateur/Les_tâches/) ainsi que la page concernant la [Gestion des partages](/Guide_de_l_utilisateur/Gestion_des_partages/)
 
-## Maintenance
+### Maintenance
 
 Cet onglet donne accès à l'administrateur aux fonctions de maintenance et de préférences de l'utilisateur :
 
 ![](../../../attachments/57771429/62558947.png)
 
-### External ID
+#### External ID
 
 Le champ situé dans cette section est renseigné dans le cas où l'utilisateur est synchronisé avec un compte [AD](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory/) ou [LDAP](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP/). Ce champ peut être renseigné ou modifié afin de forcer ou corriger l'UID de l'utilisateur correspondant dans l'annuaire AD ou LDAP.
 
-### Valider l'utilisateur
+#### Valider l'utilisateur
 
 Le bouton "Exécuter" de cette section permet de lancer une opération "Valider et réparer" sur le compte de l'utilisateur. Cela regroupe un ensemble d'opérations qui vérifient et corrigent si besoin l'intégrité de l'utilisateur et de ses données dans le système BlueMind : vérification de la boîte dans Cyrus, des containers d'agenda et carnets d'adresses, de la hiérarchie de dossiers IMAP, des abonnements, filtres de messagerie, etc.
 
@@ -300,11 +318,11 @@ bm-cli maintenance repair user@domain.net
 ```
 
 
-### En tant que l'utilisateur
+#### En tant que l'utilisateur
 
 Le lien de cette section est accessible par le superadministrateur admin0 ou un autre administrateur ayant [le rôle "Sudo (élévation de privilèges)"](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/). Le lien permet d'accéder au BlueMind de l'utilisateur, c'est-à-dire de se connecter à BlueMind à sa place, sans que celui-ci n'ait à donner son mot de passe.
 
-### Mot de passe
+#### Mot de passe
 
 L'administrateur peut dans cette section modifier/réinitialiser le mot de passe de connexion à BlueMind de l'utilisateur sans besoin de connaître son ancien mot de passe.
 
@@ -313,7 +331,9 @@ L'administrateur peut dans cette section modifier/réinitialiser le mot de passe
 A partir de la version 4.3, une politique de gestion plus fine et d'expiration des mots de passe est mise en place.
 
 Ainsi figure dans cette section la date de dernière modification (par l'utilisateur ou un administrateur) de mot de passe s'il y a lieu.
-:::important
+
+
+:::tip
 
 Cette information n'est pas rétroactive : les dates antérieures à la mise à jour du serveur en 4.3 n'apparaissent pas.
 
@@ -328,7 +348,9 @@ L'administrateur dispose aussi de 2 options :
 
 
 Pour activer une de ces options, cocher la case correspondante et cliquer sur le bouton "Enregistrer" en bas de page.
-:::important
+
+
+:::info
 
 Connexion avec un AD ou LDAP
 
@@ -336,7 +358,7 @@ L'expiration ne peut pas être appliquée aux utilisateurs importés d'un annuai
 
 :::
 
-### Indexation de la boite aux lettres
+#### Indexation de la boite aux lettres
 
 Cette section permet de lancer l'opération de consolidation de l'index de la boite aux lettres de l'utilisateur : cette opération complète l'indexation actuelle de la boîte en indexant les éléments manquants uniquement
 
@@ -344,7 +366,7 @@ Cette section permet de lancer l'opération de consolidation de l'index de la bo
 
 Pour lancer l'opération cliquer sur le bouton "**Exécuter**" en face de "**Consolider l'index de la boîte aux lettres**".
 
-### Périphériques mobiles
+#### Périphériques mobiles
 
 Cette section permet de gérer les périphérique mobiles de l'utilisateur : autorisations, appareils synchronisés, réinitialisation, effacement de mobile.
 
@@ -359,9 +381,9 @@ Cette section permet de gérer les périphérique mobiles de l'utilisateur : au
 - **Icône poubelle** : permet de supprimer la synchronisation avec un périphérique.La suppression d'un smartphone de la liste a pour effet, lorsque les smartphones inconnus ne sont pas autorisés par défaut, de bloquer la synchronisation de ce smartphone sur BlueMind. L'option "Autoriser les périphériques inconnus" est un paramètre lié à une instance de BlueMind. Elle se modifie en tant qu'admin0, dans la section Gestion du Système > Configuration du Système > Serveur EAS.*Voir la page [Configuration du serveur EAS](/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS/) *
 
 
-# Supprimer un utilisateur
+## Supprimer un utilisateur
 
-## Suspendre
+### Suspendre
 
 Un utilisateur peut-être suspendu. Cela permet d'interdire son accès et son utilisateur mais sans supprimer ses données. Il peut donc être réactivé par la suite, il retrouvera ainsi son compte tel qu'il était auparavant.
 
@@ -371,12 +393,14 @@ Pour suspendre un utilisateur :
 - sur le premier onglet ("Général") cocher la case "Suspendu" à droite de la page puis cliquer sur "Enregistrer" pour prendre en compte la modification
 
 
-## Supprimer
+### Supprimer
 
 Pour supprimer totalement et définitivement un ou plusieurs utilisateurs du système, se rendre sur la page Annuaires > Entrées d'annuaires.
 
 Dans la liste des utilisateurs, cocher la case au début de la ligne correspondant à l'utilisateur ou aux utilisateurs à supprimer puis cliquer sur le bouton "Supprimer". Une confirmation de suppression est demandée,  **une fois la confirmation donnée, les utilisateurs et l'ensemble de leurs données seront définitivement supprimés** .
-:::important
+
+
+:::info
 
 Restauration d'un utilisateur
 
@@ -386,11 +410,11 @@ La restauration d'un utilisateur est possible dans BlueMind par la remontée d'u
 
 Voir aussi [Procédure de départ utilisateur et redirection de ses mails](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Procédure_de_départ_utilisateur_et_redirection_de_ses_mails/)
 
-# Sécurité du mot de passe
+## Sécurité du mot de passe
 
 Afin de mettre en place une sécurité accrue dans les mots de passe des utilisateurs, vous pouvez installer le plugin «Password SizeStrength» afin de définir des règles strictes de validité pour un mot de passe.
 
-## Installation
+### Installation
 
 Le plugin s'installe simplement par l'installation de 2 paquets en ligne de commande, connecté en root sur le serveur :
 
@@ -408,20 +432,22 @@ bmctl restart
 ```
 
 
-## Configuration
+### Configuration
 
 A partir de la version 4.3, la configuration se fait dans la console d'administration > Configuration Système > onglet Mot de passe :
 
 ![](../../../attachments/57771429/62558942.png)
 
 La prise en compte des modifications est immédiate et ne nécessite pas de redémarrage.
-:::important
+
+
+:::tip
 
 Les modifications ne sont pas rétroactives et ne concernent que les futurs changements de mot de passe : il ne sera pas demandé aux utilisateurs dont le mot de passe actuel ne respecte pas les règles de modifier celui-ci, il restera fonctionnel.
 
 :::
 
-#### Versions antérieures à 4.3
+##### Versions antérieures à 4.3
 
 Dans les versions précédentes, le plugin se paramètre via le fichier `/etc/bm/password.ini` contenant à l'installation les valeurs par défaut ci-dessous :
 
@@ -439,16 +465,15 @@ special=1
 - `capital` : nombre minimal de lettres majuscules
 - `digit` : nombre minimal de chiffres
 - `lower` : nombre minimal de lettres minuscules
-- 
-`special` : nombre minimal de caractères spéciaux. Sont compris les caractères suivants :
+- `special` : nombre minimal de caractères spéciaux. Sont compris les caractères suivants :
 
 
 ```
-!"#$%&'()*+,-./:;<=>?@[\]^\_`{|}~
+!"#$%&'()\*+,-./:;<=>?@[\]^\_`{|}~
 ```
 
 
-:::important
+:::info
 
 Les administrateurs (administrateur global admin0 ou administrateurs de domaines) ne sont pas soumis à ces règles, ils restent libres dans le choix de leur mot de passe.
 

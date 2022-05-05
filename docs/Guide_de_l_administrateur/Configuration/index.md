@@ -17,13 +17,13 @@ Dans la suite de cette documentation, seront utilisés les termes :
 Un administrateur de la plate-forme a le droit de réaliser l'ensemble des opérations des administrateurs de domaine.
 
 
-:::important
+:::info
 
-UL externe globale et par domaine
+URL externe globale et par domaine
 
 L'adresse à laquelle accéder au serveur BlueMind est appelé url externe (ou external_url). A partir de la version 4.7, cette url externe peut être définie individuellement pour chaque domaine et aussi au niveau globalement au niveau du serveur (il s'agit alors de l'adresse par défaut des domaines, en l'absence de configuration spécifique).
 
-Cette configuration est décrite dans la section XXXXX
+Cette configuration est décrite dans la section [Configuration des url externes](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Configuration_des_url_externes/)
 
 :::
 

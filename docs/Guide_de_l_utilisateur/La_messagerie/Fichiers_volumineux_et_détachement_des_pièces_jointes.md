@@ -6,12 +6,14 @@ position: 44
 # Fichiers volumineux et détachement des pièces jointes
 
 
-# Présentation
+## Présentation
 
 BlueMind offre la possibilité de détacher les pièces jointes des messages afin de les présenter sous forme de lien de téléchargement aux destinataires. Ceci permet d'alléger le message envoyé, et de ce fait les serveurs et réseaux de communication : le fichier n'est plus transmis avec le mail et stocké sur le serveur qui le reçoit, en plus du serveur émetteur, en étant éventuellement dupliqué et multiplié au grès des transferts et réponses.
 
 Ceci permet, en outre, d'envoyer des fichiers volumineux que la limite autorisée en pièce jointe d'un message ne permet pas.
-:::important
+
+
+:::info
 
 Cette fonctionnalité n'est pas installée par défaut avec BlueMind. Pour qu'elle soit accessible aux utilisateurs, l'administrateur doit procéder à son installation.
 
@@ -20,12 +22,14 @@ Pour en savoir plus, consultez la page dédiée [Détachement des pièces jointe
 :::
 
 
-# Ajout des pièces jointes depuis le webmail
+## Ajout des pièces jointes depuis le webmail
 
 Une pièce jointe peut être ajoutée à un message soit en cliquant sur le bouton "Joindre un fichier" soit en effectuant un glisser-déposer dans la zone droite du [composeur](/Guide_de_l_utilisateur/La_messagerie/Le_composeur/) :
 
 ![](../../attachments/57770278/57770314.png)
-:::important
+
+
+:::tip
 
 Nouveauté
 
@@ -35,7 +39,7 @@ Une jauge en haut de la liste informe de la taille totale des fichiers attachés
 
 :::
 
-## Ajout par glisser-déposer
+### Ajout par glisser-déposer
 
 Depuis un navigateur de fichiers, effectuer un glisser-déposer d'une ou plusieurs pièces jointes vers la zone droite du composeur.
 
@@ -51,18 +55,19 @@ Le pictogramme devant chaque pièce jointe indique si elle est intégrée ou li�
 
 L'icône ![](../../attachments/57770278/57770296.png) en fin de ligne permet de supprimer une pièce jointe.
 
-## Ajout grâce au bouton «Joindre un fichier»
+### Ajout grâce au bouton «Joindre un fichier»
 
 En cliquant sur les boutons « Joindre un fichier » et ![](../../attachments/57770278/57770291.png) la boite de dialogue d'attachement des pièces jointes apparaît, permettant d'attacher des fichiers depuis l'ordinateur ou depuis le serveur :
 
 ![](../../attachments/57770278/57770293.png)
 
 - **Depuis votre ordinateur** ouvre le navigateur de fichiers par défaut du système
-- 
-**Depuis le serveur BlueMind** ouvre le sélecteur de fichiers de BlueMind :
+- **Depuis le serveur BlueMind** ouvre le sélecteur de fichiers de BlueMind :
  ![](../../attachments/57770278/57770290.png) 
 Ce sélecteur permet de retrouver les fichiers précédemment attachés à des messages et ainsi stockés sur le serveur BlueMind dans un espace propre à l'utilisateur.
-:::important
+
+
+:::tip
 
 Pour sélectionner plusieurs fichiers, cliquez dessus en maintenant la touche Ctrl/Command de votre clavier appuyée
 
@@ -78,7 +83,8 @@ Une fois le ou les fichiers sélectionnés, ils sont automatiquement intégrés 
 - La croix ![](../../attachments/57770278/57770300.png) en fin de ligne permet de supprimer une pièce jointe, attachée ou liée
 - Les boutons « Depuis votre ordinateur » et « Depuis le serveur BlueMind » permettent de rajouter de nouvelles pièces jointes.
 
-:::important
+
+:::info
 
 Lorsque la limite autorisée est bientôt atteinte, la barre de progression est alors orange, lorsqu'elle est dépassée elle devient rouge
 
@@ -88,7 +94,7 @@ Une fois les fichiers choisis, cliquer sur le bouton « Joindre » pour valider.
 
 ![](../../attachments/57770278/57770307.png)
 
-# Visualisation des pièces jointes
+## Visualisation des pièces jointes
 
 À réception d'un message, les pièces jointes sont présentées sous forme de liste dans la partie droite du message pour les pièces jointes intégrées au message, et dans un encadré contenant les liens de téléchargement pour les pièces jointes détachées :
 
@@ -97,18 +103,22 @@ Une fois les fichiers choisis, cliquer sur le bouton « Joindre » pour valider.
 Cliquer sur le nom du fichier pour télécharger la pièce jointe de façon habituelle :
 
 ![](../../attachments/57770278/57770303.png)
-:::important
+
+
+:::info
 
 La présentation des pièces jointes intégrées au message peut varier en cas d'utilisation d'un client lourd, en revanche l'encadré bleu des pièces jointes liées fait partie intégrante du message et sera donc identique sur les divers clients de messagerie, dès lors que la visualisation des messages HTML est active.
 
 :::
 
-# Détachement des pièces jointes depuis les clients lourds
+## Détachement des pièces jointes depuis les clients lourds
 
 Le connecteur BlueMind permet aux utilisateurs de Thunderbird d'accéder aussi à la fonctionnalité de détachement des pièces jointes.
 
 Pour plus de renseignements sur le fonctionnement, veuillez consulter la page dédiée à votre logiciel client :[ Synchronisation avec Thunderbird](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird/).
-:::important
+
+
+:::info
 
 Outlook et MAPI
 
@@ -116,10 +126,12 @@ La fonctionnalité de détachement des pièces jointes est une fonctionnalité B
 
 :::
 
-# Connecter un compte NextCloud
+## Connecter un compte NextCloud
 
 Il est possible de connecter un compte NextCloud si celui-ci est installé et fonctionnel sur le domaine.
-:::important
+
+
+:::tip
 
 Cette fonctionnalité doit au préalable être paramétrée par l'administrateur. Pour plus d'information sur sa mise en œuvre, veuillez vous reporter à la page dédiée du guide de l'administrateur : [Connecter avec Nextcloud](/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud/)
 
@@ -137,7 +149,9 @@ Dans la gestion des préférences de l'utilisateur, se rendre dans Mon compte > 
 Dès lors, le fonctionnement du détachement de pièces jointes reste le même qu'habituellement mais le sélecteur de fichiers BlueMind propose à présent les fichiers du compte NextCloud ainsi que leur arborescence :
 
 ![](../../attachments/57770278/57770280.png)
-:::important
+
+
+:::tip
 
 Les fichiers ajoutés en tant que fichiers détachés depuis BlueMind sont déposés dans le dossier "Attachments" à la racine du compte NextCloud.
 

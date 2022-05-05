@@ -1,12 +1,12 @@
 ---
 title: "Identities"
-confluence_id: 79861674
+confluence_id: 57770334
 position: 48
 ---
 # Identities
 
 
-# Introduction
+## Introduction
 
 BlueMind allows you to create several identities for a single user account.
 
@@ -22,15 +22,15 @@ Identities can be linked to:
 You can define and set a default identity to use when composing new messages.
 
 
-# Managing identities
+## Managing identities
 
 To manage identities, go to user settings:
 
- ![](../../attachments/79861285/79861295.png) 
+ ![](../../attachments/57770060/57770070.png) 
 
 Then go to Mail > Identities tab.
 
-![](../../attachments/79861674/79861680.png)
+![](../../attachments/57770334/57770340.png)
 
 By default, you are assigned an identity which includes your email address and user name (first and last name).
 The identity's signature has a name but no content.
@@ -41,13 +41,14 @@ The identity's signature has a name but no content.
 
 This opens the following dialog box:
 
-![](../../attachments/79861674/79861678.png)
+![](../../attachments/57770334/57770338.png)
 
 - **Sender name** is the name that will appear in the messages you send.
 - **The signature name** is designed to identify it in the list of identities as one same address and one same name displayed can be used for several identities. 
-- 
- You can **choose among all the email addresses assigned to you** or shared with you: domain aliases, shared mailboxes, etc.  
-:::important
+-  You can **choose among all the email addresses assigned to you** or shared with you: domain aliases, shared mailboxes, etc.  
+
+
+:::tip
 
 When you check the box "Use an external e-mail", you can create an identity for a non-BlueMind address.
 
@@ -60,22 +61,25 @@ To find out more about assigning rights, go to the page [Administrator's Guide](
 - **The box  "use the 'Sent' folder of "&lt;userID>" to store sent messages** forces the use of the account's sent folder (user or shared mailbox) corresponding to the email address selected in the "Email" box. If this box isn't checked, the user's default sent messages folder will be used.
 - **Validate**
 
-:::important
+
+:::info
 
 Once you've created an identity, click "Validate" at the bottom of the page to save and apply changes.
 
 :::
-:::important
+
+
+:::tip
 
 You can create several identities with the same "Sender name" for a single email address. This enables you to write messages using different formats, for instance: full HTML signature for professional messages, no signature for personal messages or plain text signature for distribution lists...
 
 In this case, the signature name is the distinguishing feature for these identities and allows you to tell them apart:
 
-![](../../attachments/79861674/79861676.png)
+![](../../attachments/57770334/57770336.png)
 
 :::
 
-# Identities and shared mailboxes
+## Identities and shared mailboxes
 
 When you have editing and management rights to a shared mailbox, you can create an identity to use this mailbox as the message sender.
 
@@ -85,9 +89,10 @@ To do this, go to the "Identities" tab (see "managing identities" above):
 - Enter a Sender name.
 - Select the shared mailbox address from the list of available email addresses.
 - The shared mailbox signature information is inserted automatically.
-- 
-This information is as entered by your administrator in the shared mailbox's default identity.
-:::important
+- This information is as entered by your administrator in the shared mailbox's default identity.
+
+
+:::info
 
 If a shared mailbox has several email addresses, they all appear in the list of available addresses but only the mailbox's default identity information will be inserted, whether an identity corresponding to this address exists in the shared mailbox configuration or not.
 

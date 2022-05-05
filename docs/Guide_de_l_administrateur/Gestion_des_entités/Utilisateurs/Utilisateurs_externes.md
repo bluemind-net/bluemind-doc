@@ -6,14 +6,14 @@ position: 62
 # Utilisateurs externes
 
 
-# Présentation
+## Présentation
 
 Les utilisateurs externes sont des utilisateurs n'ayant pas de compte propre dans BlueMind au même titre que les utilisateurs classiques mais ayant une **adresse de messagerie externe** à BlueMind. ****Les utilisateurs de ce type peuvent être ajoutés aux groupes BlueMind afin de recevoir les messages qui leur sont adressés.****
 
 Un utilisateur externe est identifié dans BlueMind par une icône particulière dédiée : ![](../../../attachments/57771509/57771522.png)
 
 
-# Création
+## Création
 
 À partir de BlueMind 3.5.10, vous trouverez dans les raccourcis de la page d'accueil de la gestion de l'annuaire mais aussi dans le menu de création des entités un nouveau type :
 
@@ -36,34 +36,35 @@ Une fois le formulaire rempli, cliquer sur :
 - &lt;Créer et éditer> pour créer l'utilisateur et accéder à la gestion de sa fiche complète
 
 
-# Gestion
+## Gestion
 
-## L'utilisateur
+### L'utilisateur
 
 L'onglet Général de la fiche d'un utilisateur permet de compléter/modifier les champs remplis lors de la création de l'utilisateur mais aussi de modifier les groupes auquel il appartient :
 
 ![](../../../attachments/57771509/57771521.png)
 
-## La fiche contact
+### La fiche contact
 
 L'onglet « Informations utilisateur » permet de renseigner la fiche contact de l'utilisateur en vue de son partage dans l'annuaire :
 
 ![](../../../attachments/57771509/57771514.png)
 
-## Ajout dans un groupe
+### Ajout dans un groupe
 
 L'utilisateur peut être rajouté dans un groupe de 2 façons :
 
-1 depuis sa fiche de gestion, cliquer sur le lien "Modifier l'appartenance aux groupes" et saisissez les groupes souhaités :![](../../../attachments/57771509/57771520.png)
-1 depuis la fiche de gestion d'un groupe, recherchez l'utilisateur et ajoutez-le comme pour tout utilisateur :![](../../../attachments/57771509/57771519.png)
+1. depuis sa fiche de gestion, cliquer sur le lien "Modifier l'appartenance aux groupes" et saisissez les groupes souhaités :![](../../../attachments/57771509/57771520.png)
+2. depuis la fiche de gestion d'un groupe, recherchez l'utilisateur et ajoutez-le comme pour tout utilisateur :![](../../../attachments/57771509/57771519.png)
 
-:::important
+
+:::info
 
 L'ajout à un groupe est effectif immédiatement, l'utilisateur commence dès ce moment à recevoir les messages adressés au groupe (soit via l'adresse du groupe soit via l'ajout de son adresse à celle des autres membres si le groupe ne possède pas d'adresse propre).
 
 :::
 
-## Suppression
+### Suppression
 
 Pour supprimer un utilisateur externe :
 
@@ -72,7 +73,9 @@ Pour supprimer un utilisateur externe :
 
 
 ![](../../../attachments/57771509/57771518.png)
-:::important
+
+
+:::info
 
 Retrait des groupes
 

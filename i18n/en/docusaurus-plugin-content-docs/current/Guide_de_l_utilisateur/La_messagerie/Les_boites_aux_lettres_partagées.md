@@ -1,12 +1,12 @@
 ---
 title: "Shared Mailboxes"
-confluence_id: 79861682
+confluence_id: 57770342
 position: 50
 ---
 # Shared Mailboxes
 
 
-# Introduction
+## Introduction
 
 Shared mailboxes are mailboxes that, unlike user mailboxes, are not user-specific: one or several users can be associated to them.
 You can access and use a mailbox depending on the rights you have been granted:
@@ -19,7 +19,7 @@ You can access and use a mailbox depending on the rights you have been granted:
 These mailboxes are then available in a folder in your email client ("Shared folders" by default).
 
 
-# Principles
+## Principles
 
 Shared mailboxes are great for teamwork: all users with privileges on the shared mailbox can view (or more depending on their permissions level) the messages it contains.
 
@@ -29,9 +29,9 @@ However, reply and forward information is shared: if one user has replied to a m
 
 This is useful in collaborative work situations to manage shared inboxes (such as a contact mailbox) that include sub-folders such as "resolved, "sent", or "reply templates".
 
-![](../../attachments/79861682/79861702.png)
+![](../../attachments/57770342/72189526.png)
 
-# Managing shared mailboxes
+## Managing shared mailboxes
 
 The domain administrator accesses the shared mailbox manager via his admin console in the directory entry manager.
 
@@ -39,27 +39,28 @@ If you have been granted management rights to a shared mailbox, you can access i
 
 In this tab, select the mailbox whose share options you want to manage from the first drop-down list – this can be your own mailbox or a shared mailbox you have access to:
 
-![](../../attachments/79861682/79861705.png)
+![](../../attachments/57770342/72189529.png)
 
 See [Managing Shares](/Guide_de_l_utilisateur/Gestion_des_partages/).
 
-# Using shared mailboxes
+## Using shared mailboxes
 
-## Writing "as" a mailbox
+### Writing "as" a mailbox
 
 To write a message "as" a shared mailbox, i.e. to use the mailbox's email address as the sender, you must:
 
 - be given the minimum right "can edit messages" by the administrator or the mailbox manager
-- 
-[create an identity for yourself](/Guide_de_l_utilisateur/La_messagerie/Les_identités/#Identities-mailshare) with this mailbox as the sender's address
-:::important
+- [create an identity for yourself](/Guide_de_l_utilisateur/La_messagerie/Les_identités/#Lesidentites-mailshare) with this mailbox as the sender's address
+
+
+:::tip
 
 If you want other mailbox right holders to be able to view the mailbox's sent messages, don't forget to uncheck the relevant box in the identity's management page.
 
 :::
 
 
-## Uses
+### Uses
 
 Shared mailboxes can have a variety of uses in different situations, such as:
 
@@ -70,7 +71,7 @@ Shared mailboxes can have a variety of uses in different situations, such as:
 - ** **Email templates****: a mailbox can contain the organization's email templates. It can be shared by the relevant users and include sub-folders for technical, sales or general templates, for instance.
 
 
-## Email templates
+### Email templates
 
 A shared mailbox can be used to share emails that can serve as a common template for all its users.
 
@@ -80,16 +81,18 @@ First, you need to:
 - Send it to the desired mailbox if it has an email address, or copy (or drag) it straight into the mailbox from your webmail or email client (Outlook, Thunderbird, etc.).
 
 
-![](../../attachments/79861682/79861700.png)
+![](../../attachments/57770342/72189524.png)
 
 The email appears in the shared mailbox and can be seen by all its users:
 
-![](../../attachments/79861682/79861698.png)
+![](../../attachments/57770342/72189522.png)
 
 Next, to use the message stored in this mailbox, just select it in webmail and click "More actions" > Edit as new:
 
-![](../../attachments/79861682/79861696.png)
-:::important
+![](../../attachments/57770342/72189520.png)
+
+
+:::info
 
 In Thunderbird, this option is available from the "Messages" menu or directly by right-clicking "Edit as new".
 
@@ -97,20 +100,20 @@ In Thunderbird, this option is available from the "Messages" menu or directly by
 
 A window containing the pre-filled message opens: the recipient's address and content are those of the original message and your signature is added.
 
-![](../../attachments/79861682/79861694.png)
+![](../../attachments/57770342/72189518.png)
 
 
-:::important
+:::info
 
 Signature position depends on your settings and the email client used, therefore it may not be positioned at the end of the message.
 
 In BlueMind's webmail, to check/edit signature position, go to user settings by clicking the wrench icon in the top right corner of the screen:
 
-![](../../attachments/79861285/79861295.png)
+![](../../attachments/57770060/57770070.png)
 
 Next in Mail > Preferences > Composing Messages.
 
-![](../../attachments/79861285/79861289.png)
+![](../../attachments/57770060/57770064.png)
 
 Signature options must be set as:
 
@@ -127,10 +130,12 @@ If you want to keep your signature above the quotes for other messages, cut/drag
 
 :::
 
-# Subscriptions and third-party software
+## Subscriptions and third-party software
 
 From BlueMind version 4.3, you can manage subscriptions to shared mailboxes to show the ones you like in Outlook [connected over mapi](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/) and/or on mobile devices [connected over EAS](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
-:::important
+
+
+:::info
 
 Subscriptions only concern third-party applications, they have no incidence on how the mailbox is displayed in BlueMind's webmail or third-party software synchronized over IMAP/POP.
 
@@ -138,22 +143,26 @@ Subscriptions only concern third-party applications, they have no incidence on h
 
 Once a mailbox has been shared and you have received the notification email (see above):
 
-- go to the settings page: My account > Mail > Subscriptions tab:![](../../attachments/79861682/79861684.png)
-- Start typing the name of the mailbox in the box at the top of the tab and autocomplete will suggest a list of mailboxes you have sharing rights to:![](../../attachments/79861682/79861686.png)
-- 
-Select the mailbox you want to add to the list. It is added with synchronization enabled by default:
-![](../../attachments/79861682/79861685.png)
-:::important
+- go to the settings page: My account > Mail > Subscriptions tab:![](../../attachments/57770342/72189508.png)
+- Start typing the name of the mailbox in the box at the top of the tab and autocomplete will suggest a list of mailboxes you have sharing rights to:![](../../attachments/57770342/72189510.png)
+- Select the mailbox you want to add to the list. It is added with synchronization enabled by default:
+![](../../attachments/57770342/72189509.png)
 
-  - **Synchronization enabled**: the mailbox will be visible in Outlook (mapi) and mobile devices (EAS)
-  - **Synchronisation disabled**: the mailbox will be visible in Outlook (mapi) only
+
+:::info
+
+- **Synchronization enabled**: the mailbox will be visible in Outlook (mapi) and mobile devices (EAS)
+- **Synchronisation disabled**: the mailbox will be visible in Outlook (mapi) only
+
 
 :::
+
 - **Click Save to apply the subscriptions**
 
-:::important
 
-You can modify subscriptions (synchronization enabled/disabled) or delete them (click the ![](../../attachments/79861682/79861687.png) icon) at any time.
+:::info
+
+You can modify subscriptions (synchronization enabled/disabled) or delete them (click the ![](../../attachments/57770342/72189511.png) icon) at any time.
 
 :::
 

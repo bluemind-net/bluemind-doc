@@ -1,7 +1,7 @@
 ---
 title: "Support et demande d'assistance"
 confluence_id: 57771961
-position: 38
+position: 40
 ---
 # Support et demande d'assistance
 
@@ -9,7 +9,7 @@ position: 38
 Afin de gagner du temps dans le dépannage de votre problème, prenez le temps de consulter les sections suivantes de notre documentation pour vérifier que la solution n'est pas déjà connue et documentée.
 
 
-#### ![](attachments/57771961/57771962.jpg) [Documentation](/)
+##### ![](attachments/57771961/57771962.jpg) [Documentation](/)
 
 
 - [Nouveautés BlueMind 4.4 et 4.5](/Nouveautés_BlueMind_4.4_et_4.5/)
@@ -21,11 +21,12 @@ Afin de gagner du temps dans le dépannage de votre problème, prenez le temps d
 - [Guide de l'administrateur](/Guide_de_l_administrateur/)
 - [Guide du développeur](/Guide_du_développeur/)
 - [Base de connaissance](/Base_de_connaissance/)
+- [STAGING](/STAGING/)
 - [Suivi de traduction](https://forge.bluemind.net/confluence/display/BM4/.Suivi+de+traduction+vBM-4.0)
 - [Support et demande d'assistance](/Support_et_demande_d_assistance/)
 
 
-#### ![](attachments/57771961/57771962.jpg) [Résolution de problèmes](/Guide_de_l_administrateur/Résolution_de_problèmes/)
+##### ![](attachments/57771961/57771962.jpg) [Résolution de problèmes](/Guide_de_l_administrateur/Résolution_de_problèmes/)
 
 
 - [Problèmes d'émission et réception de messages](/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_d_émission_et_réception_de_messages/)
@@ -40,7 +41,7 @@ Afin de gagner du temps dans le dépannage de votre problème, prenez le temps d
 - [Résolution des problèmes avec Outlook](/Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook/)
 
 
-#### ![](attachments/57771961/57771962.jpg) [Base de connaissance](/Base_de_connaissance/)
+##### ![](attachments/57771961/57771962.jpg) [Base de connaissance](/Base_de_connaissance/)
 
 
 - [Changement d'adresse IP d'un serveur BlueMind](/Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind/)
@@ -71,18 +72,18 @@ Avant de faire appel à l'assistance BlueMind, prenez soin de réunir les élém
 - **Numéro de souscription**, s'il y a lieu
 - **Nom du projet** : client ou partenaire avec contrat de support, il vous faudra sélectionner votre projet lors de la création du ticket, en effet le projet BlueMind est un projet public dans lequel il n'y a pas d'engagement de prise en compte ou de résolution des tickets.
 - **Informations sur l'environnement** :
-  - Numéro de version exact de BlueMind
-  - Système d'exploitation, avec sa version
-  - tout détail supplémentaire pertinent sur l'environnement (espace disque, mémoire, etc.)
+    - Numéro de version exact de BlueMind
+    - Système d'exploitation, avec sa version
+    - tout détail supplémentaire pertinent sur l'environnement (espace disque, mémoire, etc.)
 - **La priorité** du ticket doit être correctement évaluée :
-  - **Bloquant** : le serveur de production de fonctionne plus
-  - **Critique** : des fonctionnalités clés de la messagerie collaborative ne sont pas utilisables et il n'existe pas de contournement
-  - **Majeur** : une fonctionnalité clé de la messagerie collaborative n'est pas utilisable MAIS il existe un contournement OUune fonctionnalité non clé n'est pas utilisable.
-  - **Mineur** : tout autre type de demande
+    - **Bloquant** : le serveur de production de fonctionne plus
+    - **Critique** : des fonctionnalités clés de la messagerie collaborative ne sont pas utilisables et il n'existe pas de contournement
+    - **Majeur** : une fonctionnalité clé de la messagerie collaborative n'est pas utilisable MAIS il existe un contournement OUune fonctionnalité non clé n'est pas utilisable.
+    - **Mineur** : tout autre type de demande
 - **Rassembler le plus de détails possibles sur le problème ainsi que les conditions dans lesquelles il se présente.**Afin que l'équipe de support puisse comprendre, investiguer et éventuellement reproduire le problème dans leur environnement, il faudra décrire avec le plus de précision possible le contexte et les actions qui y ont mené : utilisateur(s) concerné(s), boutons ou liens cliqués, texte saisi dans les champs de formulaire, délais d'attente, fréquence de reproduction, etc.
 - **Rassembler les fichiers de logs utiles** :
-  - voir la page dédiée pour les identifier : [Logs - Fichiers journaux](/Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux/)
-  - voir les pages [Résolution de problèmes](/Guide_de_l_administrateur/Résolution_de_problèmes/) sur les sujets en rapport
+    - voir la page dédiée pour les identifier : [Logs - Fichiers journaux](/Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux/)
+    - voir les pages [Résolution de problèmes](/Guide_de_l_administrateur/Résolution_de_problèmes/) sur les sujets en rapport
 
 
 [

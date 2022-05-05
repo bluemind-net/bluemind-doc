@@ -6,8 +6,9 @@ position: 28
 # Guide de l'utilisateur
 
 
-- [La messagerie](/Guide_de_l_utilisateur/La_messagerie/)
-- [Les contacts](/Guide_de_l_utilisateur/Les_contacts/)
+- [Messagerie BlueMind - New webmail](/Guide_de_l_utilisateur/Messagerie_BlueMind/)
+- [La messagerie : l'ancien Webmail](/Guide_de_l_utilisateur/La_messagerie/)
+- [Les contacts [OLD]](/Guide_de_l_utilisateur/Les_contacts/)
 - [L'agenda](/Guide_de_l_utilisateur/L_agenda/)
 - [Les tâches](/Guide_de_l_utilisateur/Les_tâches/)
 - [La téléphonie](/Guide_de_l_utilisateur/La_téléphonie/)

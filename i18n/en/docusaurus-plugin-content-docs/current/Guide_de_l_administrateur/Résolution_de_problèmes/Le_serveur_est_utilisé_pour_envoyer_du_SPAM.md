@@ -1,12 +1,12 @@
 ---
 title: "The Server is Being Used to Send SPAM"
-confluence_id: 79863419
+confluence_id: 57771848
 position: 72
 ---
 # The Server is Being Used to Send SPAM
 
 
-# Make sure that the BM server isn't an open relay
+## Make sure that the BM server isn't an open relay
 
 By default, Postfix is configured as an open mail server relay, which allows BlueMind services (webmail, EAS) to send emails. Through the admin console, you can add new trusted IPs which will be allowed to send emails through the BlueMind server, typically the internal IT server (holiday management software, monitoring, etc).
 
@@ -35,7 +35,7 @@ Take the following action:
 - delete the IP for the server involved in the BM admin console and save the configuration.
 
 
-# Identifying the user used to send SPAM
+## Identifying the user used to send SPAM
 
 Most of the time, the issue is that a spammer has found – often using brute-force – a user's password and uses their account to send SPAM.
 
@@ -50,8 +50,7 @@ May  5 00:08:55 hermes postfix/smtpd[27666]: 7E079B666CC: client=unknown[46.48.9
 Take the following actions:
 
 - change the user's password: either in BM, or in the directory.
-- 
-close all sessions for this user using the command:
+- close all sessions for this user using the command:
 
 
 ```
@@ -59,37 +58,37 @@ bm-cli user logout login@domain.com
 ```
 
 
-- 
-clean the Postfix queue to delete emails pending to be sent for the user "[login@domain.net".](mailto:login@domain.net)
+- clean the Postfix queue to delete emails pending to be sent for the user "[login@domain.net".](mailto:login@domain.net)
 
 
 ```
-postqueue -p | tail -n +2 | awk 'BEGIN { RS = "" } /login@domain\.net/ { print $1 }' | tr -d '*!' | postsuper -d -
+postqueue -p | tail -n +2 | awk 'BEGIN { RS = "" } /login@domain\.net/ { print $1 }' | tr -d '\*!' | postsuper -d -
 ```
 
-:::important
+
+:::info
 
 This command deletes all emails in the user's queue, whether they are SPAM or legitimate. This may take while.
 
 :::
 
 
-# Preventing spam attacks
+## Preventing spam attacks
 
-## Limiting brute-force attacks
+### Limiting brute-force attacks
 
 To try and avoid brute-force attacks, you can use the plugin [password-bruteforce which blocks connection attempts for 20 minutes after 3 failed authentications](https://marketplace.bluemind.net/addons/72/).
 
-## Set up a password policy
+### Set up a password policy
 
 If you're not using a directory to manage users, you can use the [`password-sizestrength`](https://forge.bluemind.net/confluence/display/BM40/Administration+des+utilisateurs#Administrationdesutilisateurs-S%C3%A9curit%C3%A9dumotdepasse) plugin which is used to set up a password policy with forced password rules.
 
-# How to spot this early?
+## How to spot this early?
 
 A monitoring solution can help detect the issue quickly and react before your server becomes blacklisted by anti-spam services.
 
 [Bm-tick](#) can be used to set up alerts when a strong increase in the number of emails is detected in the Postfix queue. You can configure this using the alert builder or the following script:
-[&lt;!-- TODO incorrect embedded file link -->postfix_queue.tick](/confluence/download/attachments/79863419/postfix_queue.tick?version=1&modificationDate=1644233542855&api=v2)
+[&lt;!-- TODO incorrect embedded file link -->postfix_queue.tick](/confluence/download/attachments/57771848/postfix_queue.tick?version=1&modificationDate=1561119236334&api=v2)
 
 This script sends an alert email to [admin@domain.net](mailto:admin@domain.net) as soon as the Postfix queue reaches 200 messages. These values can be configured to match your installation.
 

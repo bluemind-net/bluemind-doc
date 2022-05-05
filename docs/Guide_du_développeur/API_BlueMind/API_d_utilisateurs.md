@@ -6,12 +6,12 @@ position: 52
 # API d'utilisateurs
 
 
-# Présentation
+## Présentation
 
 Vous trouverez sur cette page des exemples d'utilisation et de mise en pratique de l'API utilisateur
 
 
-# Création d'un utilisateur
+## Création d'un utilisateur
 
 La création d'un utilisateur couvre toutes les actions nécessaire pour créer un utilisateur opérationnel :
 
@@ -27,13 +27,16 @@ La création d'un utilisateur couvre toutes les actions nécessaire pour créer 
 
 ![](../../attachments/57771887/57771889.png)
 
-### Exemple en HTTP
-
+#### Exemple en HTTP
 
 | Méthode | URL |
 | --- | --- |
 | PUT | https://&lt;domain>/api/users/&lt;domain>/&lt;uid> |
-| domain = le domaineuid = identifiant unique de l'utilisateur |
+| 
+domain = le domaine
+ | 
+uid = identifiant unique de l'utilisateur
+ |
 | **Body** |
 | 
 
@@ -62,8 +65,7 @@ La création d'un utilisateur couvre toutes les actions nécessaire pour créer 
 
  |
 
-
-### Exemple en Curl
+#### Exemple en Curl
 
 
 ```
@@ -94,7 +96,7 @@ curl -X GET --header 'Content-Type: application/json'
 ```
 
 
-### Exemple en Java (en utilisant le client généré Bluemind)
+#### Exemple en Java (en utilisant le client généré Bluemind)
 
 
 ```

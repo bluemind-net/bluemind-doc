@@ -6,14 +6,16 @@ position: 66
 # Disparitions et modifications d'événements
 
 
-# Présentation
+## Présentation
 
 Les actions réalisées sur les événements de calendriers (création, modification, suppression) sont loguées sur le serveur dans le répertoire `/var/log/bm/audit` dans des fichiers correspondant chacun à un calendrier.
 
-Les noms des fichiers sont de la forme `audit-&lt;uid du calendrier>@domaine.log`
+Les noms des fichiers sont de la forme `audit-<uid du calendrier>@domaine.log`
 
 Par exemple, le fichier correspondant au calendrier par défaut de l'utilisateur John Doe sur notre serveur de démonstration se nomme : `audit-calendar:Default:9E3C96CA-2E46-41A9-9E88-D774F9DFBBA5@bluemind.loc.log`
-:::important
+
+
+:::tip
 
 uid et identifiant
 
@@ -45,11 +47,9 @@ drwxr-xr-x 3 root root    4096 janv.  4 17:36 ../
 
 Cela est dû au fait que :
 
-- 
-la chaîne "`calendar:`" est incluse dans les uid des calendriers par défaut des utilisateurs et ceux de ressources
+- la chaîne "`calendar:`" est incluse dans les uid des calendriers par défaut des utilisateurs et ceux de ressources
 
-- 
-la chaîne "`Default:`" est incluse dans l'uid des calendriers par défaut des utilisateurs
+- la chaîne "`Default:`" est incluse dans l'uid des calendriers par défaut des utilisateurs
 
 
 Ainsi, le nom de fichier permet d'identifier :
@@ -61,8 +61,10 @@ Ainsi, le nom de fichier permet d'identifier :
 
 *NB : des uid tels que calendar_calendar_57 ou calendar:Default:user_entity_156492 sont des uid d'entités migrées de BlueMind 3.0 (ici respectivement un calendrier de domaine et un utilisateur).*
 
-# Décoder une ligne de log d'un événement simple
-:::important
+## Décoder une ligne de log d'un événement simple
+
+
+:::info
 
 L'outil en ligne de commande bm-cli permet un filtrage et un affichage plus clair du contenu des fichiers logs. Consultez la [documentation dédiée](/Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration/) ou l'aide en ligne de l'outil pour en savoir plus sur son usage et les options possibles :
 
@@ -73,7 +75,9 @@ bm-cli help calendar log
 
 
 :::
-:::important
+
+
+:::tip
 
 Pour rechercher des informations sur un événement on pourra utiliser la commande "grep" sur son titre (tout ou partie) plutôt que parcourir le fichier de l'utlisateur
 
@@ -92,47 +96,49 @@ root@mail:/var/log/bm/audit# grep commerce audit-calendar:Default:9E3C96CA-2E46-
 Les informations principales dans ces lignes sont :
 
 - **2018-02-13 10:55:27,347** : la date à laquelle l'action a été effectuéeAttention : il s'agit ici de l'heure GMT, il peut donc y avoir un décalage avec l'heure réelle à laquelle l'action a été réalisée selon le fuseau horaire. Ainsi l'action loguée ici étant en France à l'heure d'hiver, elle a en réalité été faite et loguée à 11h55
-- 
-**origin** : la provenance de l'action
+- **origin** : la provenance de l'action
 Dans notre exemple bm-hps indique une connexion hps, soit une connexion via webmail ou connecteur Thunderbird
-:::important
+
+
+:::tip
 
 Les origines possibles sont :
 
-  - ** **bm-hps** ** : webmail ou Thunderbird
-  - ** **bm-connector-outlook-&lt;version>** ** : Outlook*par exemple : origin=bm-connector-outlook-3.1.25071 otlk:16.0.0.4266*
-  - ** **bm-eas** ** : appareil mobile connecté en EAS
+- ** **bm-hps** ** : webmail ou Thunderbird
+- ** **bm-connector-outlook-&lt;version>** ** : Outlook*par exemple : origin=bm-connector-outlook-3.1.25071 otlk:16.0.0.4266*
+- ** **bm-eas** ** : appareil mobile connecté en EAS
+
 
 :::
+
 - **actor** : **l'uid de l'utilisateur ayant effectué l'action** Dans notre exemple :
-  - 1ère ligne : 9E3C96CA-2E46-41A9-9E88-D774F9DFBBA5@bluemind.loc : correspond à l'utilisateur John Doe lui-même
-  - 2ème ligne : 030835FF-B045-448D-AFAE-EAA8CFA0F3F6@bluemind.loc : correspond à l'utilisateur John Smith
+    - 1ère ligne : 9E3C96CA-2E46-41A9-9E88-D774F9DFBBA5@bluemind.loc : correspond à l'utilisateur John Doe lui-même
+    - 2ème ligne : 030835FF-B045-448D-AFAE-EAA8CFA0F3F6@bluemind.loc : correspond à l'utilisateur John Smith
 - **action** : **l'action effectuée** Dans notre exemple :
-  - 1ère ligne : action:create : création de l'événement
-  - 2ème ligne : action:delete : suppression de l'événement
+    - 1ère ligne : action:create : création de l'événement
+    - 2ème ligne : action:delete : suppression de l'événement
 
 
 Les informations sur l'événement lui-même :
 
 - **dtstart** et **dtend** permettent de repérer l'heure de début et de fin de l'événementDans notre exemple :
-  - dtstart : 2018-02-15T14:00:00.000+01:00 : le 15/02/2018 à 15h, heure GMT+1 du fuseau horaire Europe/Paris
-  - dtend : 2018-02-15T15:00:00.000+01:00 : le 15/02/2018 à 15h
+    - dtstart : 2018-02-15T14:00:00.000+01:00 : le 15/02/2018 à 15h, heure GMT+1 du fuseau horaire Europe/Paris
+    - dtend : 2018-02-15T15:00:00.000+01:00 : le 15/02/2018 à 15h
 - **summary** : le titre de l'événementDans notre exemple :
-  - \"summary\":\"Réunion commerce\" : le titre est "Réunion commerce"
+    - \"summary\":\"Réunion commerce\" : le titre est "Réunion commerce"
 - **\"attendees\":[]**:  ici il n'y a pas d'invités, si l'événement comporte des invités alors les crochets encadre la liste de ceux-ci (voir ci-dessous les logs d'une réunion)
 - **\"organizer\":null** : ici il n'y a pas d'organisateur spécifié, il s'agit d'un simple événement sur le calendrier de l'organisateur lui-même (voir ci-dessous les logs d'une réunion)
 - **object:calendar** permet de vérifier le calendrier concerné, ses informations se trouvent entre les parenthèses.Dans notre exemple, on y trouve :
-  - l'identifiant du calendrier concerné (le même que le nom du fichier de log)
-  - **name** : le nom de l'utilisateur : John Doe
-  - **owner** : l'uid de l'utilisateur : 9E3C96CA-2E46-41A9-9E88-D774F9DFBBA5
+    - l'identifiant du calendrier concerné (le même que le nom du fichier de log)
+    - **name** : le nom de l'utilisateur : John Doe
+    - **owner** : l'uid de l'utilisateur : 9E3C96CA-2E46-41A9-9E88-D774F9DFBBA5
 
 
-# Les logs d'une réunion
+## Les logs d'une réunion
 
 Prenons l'exemple d'une réunion pour observer son cycle de vie :
 
-1 
-l'organisateur crée la réunion avec 2 invités :
+1. l'organisateur crée la réunion avec 2 invités :
 
 
 ```
@@ -140,20 +146,19 @@ l'organisateur crée la réunion avec 2 invités :
 ```
 
 
-  - **actor**:9E3C96CA-2E46-41A9-9E88-D774F9DFBBA5@bluemind.loc : notre organisateur John Doe
-  - **action**:create
-  - **dtstart** : 2018-02-15T15:00:00.000+01:00 : le 15/02/2018 à 15h
-  - **dtend** : 2018-02-15T17:00:00.000+01:00 : le 15/02/2018 à 17h
-  - **summary** : Réunion de suivi
-  - **attendees** : introduit la liste des invités (entre crochets), chaque invité est présenté entre accolades. On repèrera pour chacun :
-    - **commonName** : le nom (John Smith et client@somewhere.loc, ce deuxième invité ne fait pas partie des contacts)
-    - **dir** : null si l'invité n'est pas un utilisateur du domaine, sinon on y retrouve son uid
-    - **mailTo** : l'adresse email de l'invité
-    - **uri** : null si l'invité ne fait pas partie du domaine, sinon on y retrouve son "adresse" dans l'annuaire BlueMind, comportant son uid
-  - **organizer** : permet de retrouver l'organisateur de la réunion, la partie entre accolades est similaire aux invités, on y retrouve les mêmes données, notamment commonName, dir, mailTo, uri
-  - **on (object:calendar** : de même que pour l'événement simple, permet de vérifier les informations du calendrier concerné
-1 
-Les emails d'invitation sont envoyés :
+    - **actor**:9E3C96CA-2E46-41A9-9E88-D774F9DFBBA5@bluemind.loc : notre organisateur John Doe
+    - **action**:create
+    - **dtstart** : 2018-02-15T15:00:00.000+01:00 : le 15/02/2018 à 15h
+    - **dtend** : 2018-02-15T17:00:00.000+01:00 : le 15/02/2018 à 17h
+    - **summary** : Réunion de suivi
+    - **attendees** : introduit la liste des invités (entre crochets), chaque invité est présenté entre accolades. On repèrera pour chacun :
+        - **commonName** : le nom (John Smith et client@somewhere.loc, ce deuxième invité ne fait pas partie des contacts)
+        - **dir** : null si l'invité n'est pas un utilisateur du domaine, sinon on y retrouve son uid
+        - **mailTo** : l'adresse email de l'invité
+        - **uri** : null si l'invité ne fait pas partie du domaine, sinon on y retrouve son "adresse" dans l'annuaire BlueMind, comportant son uid
+    - **organizer** : permet de retrouver l'organisateur de la réunion, la partie entre accolades est similaire aux invités, on y retrouve les mêmes données, notamment commonName, dir, mailTo, uri
+    - **on (object:calendar** : de même que pour l'événement simple, permet de vérifier les informations du calendrier concerné
+2. Les emails d'invitation sont envoyés :
 
 
 ```
@@ -161,13 +166,11 @@ Les emails d'invitation sont envoyés :
 2018-02-13 12:39:24,198 INFO - 1518525563986 701820e7-bdd7-4cf4-81a0-085c3eed246c : (actor:9E3C96CA-2E46-41A9-9E88-D774F9DFBBA5@bluemind.loc meta: {session=96a513b4-add8-4a7f-849f-aabcb87333b8, origin=bm-hps, remote=192.168.122.1,127.0.0.1}) -> (action:send-mail, ro:false, meta: {ics="BEGIN:VCALENDAR\r\nPRODID:-//BlueMind//BlueMind Calendar//FR\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nDTSTAMP:20180213T123923Z\r\nUID:90318754-e081-4974-b54f-68c711727a85\r\nDTSTART;TZID=Europe/Paris:20180215T150000\r\nSUMMARY:Réunion de suivi\r\nCLASS:PUBLIC\r\nLOCATION:Agence de Toulouse\r\nPRIORITY:5\r\nSTATUS:CONFIRMED\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=John Smith;DIR=\"bm://bluemind.loc/users/030835FF-B045-448D-AFAE-EAA8CFA0F3F6\":MAILTO:hannibal@bluemind.loc\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=client@somewhere.loc:MAILTO:client@somewhere.loc\r\nORGANIZER;CN=John Doe:mailto:jdoe@bluemind.loc\r\nVERSION:2.0\r\nDTEND;TZID=Europe/Paris:20180215T170000\r\nTRANSP:OPAQUE\r\nX-MICROSOFT-DISALLOW-COUNTER:TRUE\r\nX-MICROSOFT-CDO-BUSYSTATUS:BUSY\r\nX-MOZ-LASTACK:20180213T123923Z\r\nEND:VEVENT\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Paris\r\nTZURL:http://tzurl.org/zoneinfo-outlook/Europe/Paris\r\nX-LIC-LOCATION:Europe/Paris\r\nBEGIN:DAYLIGHT\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nDTSTART:19700329T020000\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nDTSTART:19701025T030000\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nEND:VCALENDAR\r\n", mailTo="client@somewhere.loc"}) on (object:calendar:Default:9E3C96CA-2E46-41A9-9E88-D774F9DFBBA5@bluemind.loc meta: {container-json="{\"id\":27,\"uid\":\"calendar:Default:9E3C96CA-2E46-41A9-9E88-D774F9DFBBA5\",\"type\":\"calendar\",\"name\":\"John Doe\",\"owner\":\"9E3C96CA-2E46-41A9-9E88-D774F9DFBBA5\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"created\":1475668302446,\"updated\":1475668302446,\"domainUid\":\"bluemind.loc\",\"defaultContainer\":true,\"readOnly\":false}"}) succeed
 ```
 
-
 1 ligne par invité apparaît avec :
 
-  - **action**:send-mail
-  - **mailTo**: l'adresse de messagerie de l'invitéAttention à ne pas confondre avec les mots clés MAILTO présents plus tôt sur la même ligne à chaque adresse de chaque invité.
-1 
-John Smith, ayant droit d'écriture sur l'agenda de John Doe supprime la réunion :
+    - **action**:send-mail
+    - **mailTo**: l'adresse de messagerie de l'invitéAttention à ne pas confondre avec les mots clés MAILTO présents plus tôt sur la même ligne à chaque adresse de chaque invité.
+3. John Smith, ayant droit d'écriture sur l'agenda de John Doe supprime la réunion :
 
 
 ```
@@ -175,10 +178,9 @@ John Smith, ayant droit d'écriture sur l'agenda de John Doe supprime la réunio
 ```
 
 
-  - **actor**:030835FF-B045-448D-AFAE-EAA8CFA0F3F6@bluemind.loc : John Smith
-  - **action**:delete
-1 
-Là aussi, des mails d'information sont envoyés à chacun des invités :
+    - **actor**:030835FF-B045-448D-AFAE-EAA8CFA0F3F6@bluemind.loc : John Smith
+    - **action**:delete
+4. Là aussi, des mails d'information sont envoyés à chacun des invités :
 
 
 ```
@@ -188,7 +190,7 @@ Là aussi, des mails d'information sont envoyés à chacun des invités :
 ```
 
 
-  - **actor**:030835FF-B045-448D-[AFAE-EAA8CFA0F3F6@bluemind.loc](mailto:AFAE-EAA8CFA0F3F6@bluemind.loc) : John Smith
-  - **action**:send-mail
+    - **actor**:030835FF-B045-448D-[AFAE-EAA8CFA0F3F6@bluemind.loc](mailto:AFAE-EAA8CFA0F3F6@bluemind.loc) : John Smith
+    - **action**:send-mail
 
 

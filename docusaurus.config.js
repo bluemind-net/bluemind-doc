@@ -18,7 +18,7 @@ const config = {
 
     i18n: {
 	defaultLocale: 'fr',
-	locales: ['fr', 'en']
+	locales: ['fr', 'en', 'de']
     },
     
   presets: [
@@ -102,6 +102,9 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    plugins: [[require.resolve('docusaurus-lunr-search'), {
+	languages: ['fr', 'en', 'de']
+    }]],
 };
 
 module.exports = config;

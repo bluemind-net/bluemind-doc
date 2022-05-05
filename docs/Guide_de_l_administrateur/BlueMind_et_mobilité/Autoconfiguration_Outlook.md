@@ -6,7 +6,7 @@ position: 54
 # Autoconfiguration Outlook
 
 
-:::important
+:::info
 
 En cours de rédaction
 
@@ -14,9 +14,9 @@ En cours de rédaction
 
  
 
-# Présentation
+## Présentation
 
-## Installation
+### Installation
 
 Le package *bm-plugin-core-outlook *permet d'activer la synchronisation du connecteur Outlook et le service d'autoconfiguration de Outlook.
 

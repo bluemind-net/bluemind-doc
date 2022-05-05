@@ -1,6 +1,6 @@
 ---
 title: "BlueMind plugin Maven Archetype"
-confluence_id: 79863464
+confluence_id: 57771893
 position: 46
 ---
 # BlueMind plugin Maven Archetype
@@ -8,7 +8,7 @@ position: 46
 
 To simplify the process of setting up a BlueMind plugin project, a Maven archetype is available in the BlueMind repository.
 
-# Creating the project:
+## Creating the project:
 
 To create the project you will need to execute following command:
 
@@ -48,7 +48,7 @@ project-artifactId: filehosting.filesystem
 
 Notice, that you don't need to prefix the project-artifactId with "net.bluemind"
 
-# Building the project:
+## Building the project:
 
 The created project will contain a parent maven project with 2 sub-modules, one for the implementation, the other for unit- and integration tests.
 

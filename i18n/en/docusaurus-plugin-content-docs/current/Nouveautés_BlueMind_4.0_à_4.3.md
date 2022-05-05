@@ -1,12 +1,12 @@
 ---
 title: "New in BlueMind 4.0 to 4.3"
-confluence_id: 79861314
+confluence_id: 57770078
 position: 22
 ---
 # New in BlueMind 4.0 to 4.3
 
 
-# Foreword
+## Foreword
 
 BlueMind is proud to announce the release of its latest Collaborative open-source email suite. This long-awaited version 4 offers **exclusive, transparent, Outlook-compatible** support to businesses and public administration organizations who can now reconcile **sovereignty and user satisfaction**. 
 
@@ -17,105 +17,107 @@ It also brings new features such as enterprise signatures, updated calendar func
 Find out all about it below, as well as about other improvements and new features which is the result of several years' work**. **
 
 
-- [Foreword](#NewinBlueMind4.0to4.3-Foreword)
-- [Calendar](#NewinBlueMind4.0to4.3-Calendar)
+- [Foreword](#NouveautesBlueMind4.0a4.3-Foreword)
+- [Calendar](#NouveautesBlueMind4.0a4.3-Calendar)
 
-  - [Improvements to invitations and attendee management](#NewinBlueMind4.0to4.3-Improvementstoinvitationsandattendeemanagement)
-  - [Unified behavior for recurring events](#NewinBlueMind4.0to4.3-Unifiedbehaviorforrecurringevents)
-  - [Calendar attachments](#NewinBlueMind4.0to4.3-Calendarattachments)
-  - [Improved performance](#NewinBlueMind4.0to4.3-Improvedperformance)
-  - [Event reminder improvements](#NewinBlueMind4.0to4.3-Eventreminderimprovements)
-  - [External calendar synchronization](#NewinBlueMind4.0to4.3-Externalcalendarsynchronization)
-  - [Event duplication](#NewinBlueMind4.0to4.3-Eventduplication)
+    - [Improvements to invitations and attendee management](#NouveautesBlueMind4.0a4.3-Improvementstoinvitationsandattendeemanagement)
+    - [Unified behavior for recurring events](#NouveautesBlueMind4.0a4.3-Unifiedbehaviorforrecurringevents)
+    - [Calendar attachments](#NouveautesBlueMind4.0a4.3-Calendarattachments)
+    - [Improved performance](#NouveautesBlueMind4.0a4.3-Improvedperformance)
+    - [Event reminder improvements](#NouveautesBlueMind4.0a4.3-Eventreminderimprovements)
+    - [External calendar synchronization](#NouveautesBlueMind4.0a4.3-Externalcalendarsynchronization)
+    - [Event duplication](#NouveautesBlueMind4.0a4.3-Eventduplication)
 
-- [MAPI/Outlook](#NewinBlueMind4.0to4.3-MAPI/Outlook)
+- [MAPI/Outlook](#NouveautesBlueMind4.0a4.3-MAPI/Outlook)
 
-  - [Inbox sub-folders](#NewinBlueMind4.0to4.3-Inboxsub-folders)
-  - [Calendar attachments](#NewinBlueMind4.0to4.3-Calendarattachments.1)
-  - [Attaching emails to other emails](#NewinBlueMind4.0to4.3-Attachingemailstootheremails)
-  - [Removing message attachments](#NewinBlueMind4.0to4.3-Removingmessageattachments)
-  - [Technical and performance improvements](#NewinBlueMind4.0to4.3-Technicalandperformanceimprovements)
+    - [Inbox sub-folders](#NouveautesBlueMind4.0a4.3-Inboxsub-folders)
+    - [Calendar attachments](#NouveautesBlueMind4.0a4.3-Calendarattachments.1)
+    - [Attaching emails to other emails](#NouveautesBlueMind4.0a4.3-Attachingemailstootheremails)
+    - [Removing message attachments](#NouveautesBlueMind4.0a4.3-Removingmessageattachments)
+    - [Technical and performance improvements](#NouveautesBlueMind4.0a4.3-Technicalandperformanceimprovements)
 
-- [Subscription to shared mailboxes](#NewinBlueMind4.0to4.3-Subscriptiontosharedmailboxes)
-- [Resource contents templates](#NewinBlueMind4.0to4.3-Resourcecontentstemplates)
-- [Corporate signatures ](#NewinBlueMind4.0to4.3-Corporatesignatures)
-- [Administration](#NewinBlueMind4.0to4.3-Administration)
+- [Subscription to shared mailboxes](#NouveautesBlueMind4.0a4.3-Subscriptiontosharedmailboxes)
+- [Resource contents templates](#NouveautesBlueMind4.0a4.3-Resourcecontentstemplates)
+- [Corporate signatures ](#NouveautesBlueMind4.0a4.3-Corporatesignatures)
+- [Administration](#NouveautesBlueMind4.0a4.3-Administration)
 
-  - [User password expiry](#NewinBlueMind4.0to4.3-Userpasswordexpiry)
-  - [Object storage](#NewinBlueMind4.0to4.3-Objectstorage)
-  - [Data handling](#NewinBlueMind4.0to4.3-Datahandling)
-  - [Archiving](#NewinBlueMind4.0to4.3-Archiving)
+    - [User password expiry](#NouveautesBlueMind4.0a4.3-Userpasswordexpiry)
+    - [Object storage](#NouveautesBlueMind4.0a4.3-Objectstorage)
+    - [Data handling](#NouveautesBlueMind4.0a4.3-Datahandling)
+    - [Archiving](#NouveautesBlueMind4.0a4.3-Archiving)
 
-- [Development](#NewinBlueMind4.0to4.3-Development)
+- [Development](#NouveautesBlueMind4.0a4.3-Development)
 
 
-:::important
+:::info
 
 New in 4.3
 
-![](attachments/79861314/79861329.png) Event duplication 
-![](attachments/79861314/79861329.png) Password expiry
-![](attachments/79861314/79861329.png) MAPI and EAS shared mailboxes
-![](attachments/79861314/79861329.png) Ubuntu 20.04 and RH/CentOS 8 support
+![](attachments/57770078/69895197.png) Event duplication 
+![](attachments/57770078/69895197.png) Password expiry
+![](attachments/57770078/69895197.png) MAPI and EAS shared mailboxes
+![](attachments/57770078/69895197.png) Ubuntu 20.04 and RH/CentOS 8 support
 
 :::
-:::important
+
+
+:::info
 
 New in 4.2
 
-![](attachments/79861314/79861329.png) Calendar updates: notifications, interface
+![](attachments/57770078/69895197.png) Calendar updates: notifications, interface
 
 :::
 
 
-:::important
+:::tip
 
 Download BlueMind 4 here: [https://download.bluemind.net/bm-download](https://download.bluemind.net/bm-download)
 
 :::
 
-# Calendar
+## Calendar
 
-## Improvements to invitations and attendee management
+### Improvements to invitations and attendee management
 
 **In version 4.2**, BlueMind eliminates errors and inconsistencies between users with clearer labels and notification options:
 
-1 **For meeting organizers:** 
-  - They now have a "Send", "Save draft" and "Back" (cancel) buttons![](attachments/79861314/79861320.png)
-  - Saving as draft is only available before invitations are sent. Once guests have been invited, only the "Send" button is left and the organizer is warned that changes will not be sent when they click the "back" button
-  - When attendees are added or deleted and no other changes made, the organizer can choose to notify all attendees or not:
-  - ![](attachments/79861314/79861322.png)
-1 **For attendees:** 
-  - Attendees can no longer accept or decline an invitation without sending the response. That way the organizer has an up-to-date view of participation
-  - Attendees can always send a note with their response
-  - As before, they can send a different response for a all instances of one instance of an event only:![](attachments/79861314/79861321.png)
+1. **For meeting organizers:** 
+    - They now have a "Send", "Save draft" and "Back" (cancel) buttons![](attachments/57770078/69895188.png)
+    - Saving as draft is only available before invitations are sent. Once guests have been invited, only the "Send" button is left and the organizer is warned that changes will not be sent when they click the "back" button
+    - When attendees are added or deleted and no other changes made, the organizer can choose to notify all attendees or not:
+    - ![](attachments/57770078/69895190.png)
+2. **For attendees:** 
+    - Attendees can no longer accept or decline an invitation without sending the response. That way the organizer has an up-to-date view of participation
+    - Attendees can always send a note with their response
+    - As before, they can send a different response for a all instances of one instance of an event only:![](attachments/57770078/69895189.png)
 
 
-## Unified behavior for recurring events
+### Unified behavior for recurring events
 
 **In version 4.2**, managing recurring events has also been improved. Users can choose what instances of an event to update (only the current instance, the whole series or the subsequent instances in the series) for all the actions performed in calendar view:
 
-![](attachments/79861314/79861319.png) **For more details on these new functionalities, please go to the pages on the [Calendar](/Guide_de_l_utilisateur/L_agenda/), and in particular those on [Events](/Guide_de_l_utilisateur/L_agenda/Les_événements/) and [Organizing Meetings](/Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion/).**
+![](attachments/57770078/69895187.png) **For more details on these new functionalities, please go to the pages on the [Calendar](/Guide_de_l_utilisateur/L_agenda/), and in particular those on [Events](/Guide_de_l_utilisateur/L_agenda/Les_événements/) and [Organizing Meetings](/Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion/).**
 
-## Calendar attachments
+### Calendar attachments
 
 [One of our top user suggestions](https://community.bluemind.net/suggestions/details/SB-809) – being able to **attach files to calendar events** – is finally possible with BlueMind's version 4.1!
 
-![](attachments/79861314/79861327.png)
+![](attachments/57770078/69895195.png)
 
 Find out more about this feature in our page dedicated to [calendar events](/Guide_de_l_utilisateur/L_agenda/Les_événements/).
 
-## Improved performance
+### Improved performance
 
 Resource-hungry tasks such as reminders, syncing and backup have been overhauled in version 4.1.4 to improve performance and lighten server load.
 
-## Event reminder improvements
+### Event reminder improvements
 
-In addition to having overhauled reminder tasks which are particularly demanding on some installations, improvements have also been made to the way event reminders work. Users can customize the type of alert they prefer – an email message or a desktop notification:![](attachments/79861314/79861328.png)
+In addition to having overhauled reminder tasks which are particularly demanding on some installations, improvements have also been made to the way event reminders work. Users can customize the type of alert they prefer – an email message or a desktop notification:![](attachments/57770078/69895196.png)
 
 Reminders can still be repeated and users can set different reminder types. To find out more, please go to our page on [even](/Guide_de_l_utilisateur/L_agenda/Les_événements/)  [ts](/Guide_de_l_utilisateur/L_agenda/Les_événements/) .
 
-## External calendar synchronization
+### External calendar synchronization
 
 [External calendars'](/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes/) synchronization and refresh has been entirely overhauled in 4.1 to:
 
@@ -127,30 +129,32 @@ This overhaul is transparent to users – the interface remains unchanged – bu
 
 Users can still force sync in the Calendar management page.
 
-## Event duplication
+### Event duplication
 
 Version 4.3 of BlueMind introduces [one of the Suggestion Box](https://community.bluemind.net/suggestions/details/SB-865)'s most eagerly awaited feature: ** **event duplication** **.
 
 You no longer need to retrieve a long list of meeting participants or previously booked resources, just enter the location or the meeting's title, you can now copy the event to create it based on the same template with a simple click!
 
-![](attachments/79861314/79861317.png)You can duplicate a single event, an entire series of events or one instance in a series of events.
+![](attachments/57770078/69895185.png)You can duplicate a single event, an entire series of events or one instance in a series of events.
 
 Find out more about this feature on our page about calendar [events](/Guide_de_l_utilisateur/L_agenda/Les_événements/).
 
-# MAPI/Outlook
+## MAPI/Outlook
 
 Unquestionably BlueMind's most eagerly awaited feature: **comprehensive connector-free Outlook support.**
-![](attachments/79861314/79861334.png)
+![](attachments/57770078/69895202.png)
 For more information about implementing MAPI support, go to the dedicated BlueMind documentation page: [Implementing MAPI for Outlook](/Guide_de_l_administrateur/La_souscription_BlueMind/Mise_en_œuvre_de_MAPI_pour_Outlook/)
 
-For more information about supported Outlook versions and known limitations, please refer to our [Compatibility](/FAQ_Foire_aux_questions_/Compatibilité/#Compatibility-compat-outlook) page.
+For more information about supported Outlook versions and known limitations, please refer to our [Compatibility](/FAQ_Foire_aux_questions_/Compatibilité/#Compatibilite-compat-outlook) page.
 
 And check out our [version notes](https://download.bluemind.net/bm-download/4.0-beta/changelog.html) for more detailed information.
 
-## Inbox sub-folders
+### Inbox sub-folders
 
 In earlier versions of BlueMind (4.0.x), folders created under the inbox by Outlook were not mail folders but virtual folders. **BlueMind 4.1 brings inbox sub-folder support**.
-:::important
+
+
+:::info
 
 Updates from 4.0.x to 4.1
 
@@ -160,53 +164,53 @@ To prevent this, you can move these virtual folders outside the inbox **before t
 
 :::
 
-## Calendar attachments
+### Calendar attachments
 
 Just like in the BlueMind calendar (see below), BlueMind 4.1 lets Outlook users attach files to calendar events, which will be visible in BlueMind and from all meeting participants.
 
-![](attachments/79861314/79861330.png)
+![](attachments/57770078/69895198.png)
 
-## Attaching emails to other emails
+### Attaching emails to other emails
 
 A new useful Outlook feature allows users to drag and drop email messages from the inbox into a message compose window. The message is then simply added as an attachment to the new message without having to go through a mail forward or an export/add procedure.
 
-## Removing message attachments
+### Removing message attachments
 
 This feature is very useful in reducing the size of mailboxes and organizing mail is now available in 4.1: users can remove email attachments while keeping the message.
 
-## Technical and performance improvements
+### Technical and performance improvements
 
 Great effort has been put into software corrections and general performance improvements as well as the support of some Outlook features. In particular, mail filters and distribution lists have improved significantly.
 
-# Subscription to shared mailboxes
+## Subscription to shared mailboxes
 
 The Exchange Active Sync protocol does not include the notions of shared calendar or mailbox. BlueMind's version 4.3 – thanks to a new subscription feature similar to that used for calendars and mailboxes – lets you show shared mailboxes in MAPI Outlook or EAS mobile devices.
 
-![](attachments/79861708/79861712.png)To find out more about this new feature, please go to our user's guide page on [Shared Mailboxes](/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/) and the section on subscriptions in [Mail Preferences](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/).
+![](attachments/57770359/62557692.png)To find out more about this new feature, please go to our user's guide page on [Shared Mailboxes](/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/) and the section on subscriptions in [Mail Preferences](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/).
 
-# Resource contents templates
+## Resource contents templates
 
 This feature, already available since BlueMind 3.5.13, has been carried over to BlueMind 4.1. Administrators can now set event description templates. When a resource is invited to an event, the template will be inserted into the event's description automatically. These templates can contain variables and be set in different languages to fit the meeting organizer's.
 
-![](attachments/79861314/79861316.png)
+![](attachments/57770078/69895184.png)
 
 To find out more, please go to our page on  [resources](/Guide_de_l_administrateur/Gestion_des_entités/Ressources/)  in the [Administrator's Guide](/Guide_de_l_administrateur/).
 
-# Corporate signatures 
+## Corporate signatures 
 
 A new option gives users the possibility to refine [corporate signature](/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise/) settings – in addition to choosing groups, users can now set a signature for one or several selected entities.
 
-![](attachments/79861314/79861331.png)
+![](attachments/57770078/69895199.png)
 
-# Administration
+## Administration
 
-## User password expiry
+### User password expiry
 
 Version 4.3.0 introduces user password expiry. When this feature is enabled, users are forced to update their passwords when they expire. Passwords can also be expired with immediate effect by an administrator to force a user to update it.
 
 To find out more about implementing this feature, please go to our page in our Knowledge Base: [Implementing a user password expiry policy](/Base_de_connaissance/Mettre_en_place_une_politique_d_expiration_des_mots_de_passe/).
 
-## Object storage
+### Object storage
 
 In version 4.3.0, several enhancements have been made to object storage. System performance and reliability have been improved.
 
@@ -214,7 +218,7 @@ For improved performance, when messages are downloaded in IMAP, the CYRUS-IMAPd 
 
 To improve IMAP storage reliability, the status tables showing message location are now handled by BlueMind.
 
-## Data handling
+### Data handling
 
 To support a greater number of users, BlueMind 4:
 
@@ -224,7 +228,8 @@ To support a greater number of users, BlueMind 4:
 
 To find out more about setting this up, please refer to our dedicated page: [Multi-backend installation](/Guide_d_installation/Installation/Installation_avec_répartition_des_données_sur_plusieurs_serveurs/).
 
-### Separate directory and user data
+
+#### Separate directory and user data
 
 BlueMind 4 keeps directory data (users, groups, etc.) separate from user data.
 
@@ -232,7 +237,7 @@ One database is dedicated to directory data. User data is stored in one or sever
 
 After the authentication phase which uses the directory database, users essentially communicate with their storage server.
 
-### User data storage
+#### User data storage
 
 With BlueMind 3.5, mailboxes could be distributed over several servers.
 
@@ -240,7 +245,8 @@ BlueMind 4 goes even further providing the ability to distribute calendar, addre
 
 All the data for one user (emails, calendars, contacts, etc.) is now stored on the same data storage server.
 
-### Automatic storage server management
+#### Automatic storage server management
+
 
 BlueMind can now handle the full configuration of the storage server (aka *edge server*). The configuration of the nginx server is automatic.
 
@@ -248,9 +254,9 @@ Existing installations aren't automatically handled by BlueMind so as not to int
 
 When the "bm/nginx-edge" tag is added, the nginx configuration is overwritten by BlueMind's configuration. Any nginx-specific settings will have to be reapplied.
 
-## Archiving
+### Archiving
 
-### Fully automatic archiving
+#### Fully automatic archiving
 
 Archiving is now completely automatic. 
 
@@ -258,7 +264,7 @@ This makes archiving transparent for users who no longer have to archive manuall
 
 Users no longer have any tedious tasks to perform to lighten their storage load.
 
-### Compatible with all email clients
+#### Compatible with all email clients
 
 Archiving no longer require a client plugin. It is entirely managed transparently, on the server side.
 
@@ -266,7 +272,7 @@ Archiving works with all email clients (webmail, thick or mobile): whatever the 
 
 To find out more, go to the page: [Archiving](/Guide_de_l_administrateur/Configuration/Archivage/)
 
-# Development
+## Development
 
 BlueMind 4 adds a new email handling brick to the API REST, which you can find out about in our [API documentation](https://forge.bluemind.net/apidoc/).
 

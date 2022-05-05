@@ -1,12 +1,12 @@
 ---
 title: "La téléphonie"
 confluence_id: 57770666
-position: 42
+position: 44
 ---
 # La téléphonie
 
 
-# Présentation
+## Présentation
 
 Grâce à son interconnexion avec [XIVO](https://www.xivo.solutions/) et [Wazo](https://wazo.io), BlueMind devient une solution de messagerie collaborative unifiée complète permettant de :
 
@@ -19,7 +19,7 @@ Grâce à son interconnexion avec [XIVO](https://www.xivo.solutions/) et [Wazo](
 - accéder à une seule et même base de contacts complète
 
 
-# Émettre un appel
+## Émettre un appel
 
 L'interface BlueMind permet d'émettre des appels de 3 façons différentes :
 
@@ -30,20 +30,19 @@ L'interface BlueMind permet d'émettre des appels de 3 façons différentes :
 
 L'émission d'appel depuis une interface est communément désignée par le terme anglais «*Click to call*» (littéralement "cliquer pour appeler"). Le fonctionnement est le même dans tous les cas : lorsque l'utilisateur clique pour émettre un appel, son téléphone sonne, l'appel est émis lorsqu'il le décroche.
 
-## Depuis le numéroteur
+### Depuis le numéroteur
 
 Présent dans la barre de menu principale, le numéroteur est disponible sur toutes les pages de l'interface de BlueMind. Il permet de lancer des appels en saisissant un numéro de téléphone ou, par autocomplétion, en recherchant un contact.
 
-1 Cliquer sur le bouton ![](../attachments/57770060/57770066.png) de la barre de menu pour faire apparaître le numéroteur :![](../attachments/57770060/57770067.png)
-1 
-Saisir (directement ou par copier/coller) le numéro de la personne à appeler ou son nom.
+1. Cliquer sur le bouton ![](../attachments/57770060/57770066.png) de la barre de menu pour faire apparaître le numéroteur :![](../attachments/57770060/57770067.png)
+2. Saisir (directement ou par copier/coller) le numéro de la personne à appeler ou son nom.
 L'autocomplétion propose les personnes correspondantes au cours de la frappe :
-
 ![](../attachments/57770666/57770678.png)
 
-1 Cliquer sur le bouton ![](../attachments/57770060/57770063.png) ou sur le numéro souhaité ou naviguer avec les flèches haut/bas du clavier et valider avec la touche entrée.
+3. Cliquer sur le bouton ![](../attachments/57770060/57770063.png) ou sur le numéro souhaité ou naviguer avec les flèches haut/bas du clavier et valider avec la touche entrée.
 
-:::important
+
+:::tip
 
 XIVO effectue la recherche dans les annuaires suivants :
 
@@ -53,7 +52,7 @@ XIVO effectue la recherche dans les annuaires suivants :
 
 :::
 
-## Depuis les contacts
+### Depuis les contacts
 
 Il est possible de lancer un appel directement depuis l'application Contacts de BlueMind :
 
@@ -61,13 +60,13 @@ Il est possible de lancer un appel directement depuis l'application Contacts de 
 - depuis la fiche du contact, en cliquant sur l'icône en face de la ligne souhaitée :![](../attachments/57770666/57770674.png)
 
 
-## Depuis la messagerie
+### Depuis la messagerie
 
 Lorsqu'un message est laissé sur le répondeur vocal de l'utilisateur, celui-ci reçoit un message pour l'en informer. Il est alors possible de rappeler la personne depuis l'icône ![](../attachments/57770060/57770063.png) présente dans l'en-tête du message :
 
 ![](../attachments/57770666/57770672.png)
 
-# Indicateur de présence
+## Indicateur de présence
 
 Dans la messagerie instantanée, la disponibilité téléphonique par une icône ![](../attachments/57769989/69896483.png) (téléphone) de couleur, devant la disponibilité en ligne de l'utilisateur :
 
@@ -99,9 +98,9 @@ La disponibilité de la messagerie instantanée peut être :
 
 *Pour en savoir plus sur la disponibilité dans la messagerie instantanée et sa gestion, consulter la page dédiée * * [La messagerie instantanée](/Guide_de_l_utilisateur/La_messagerie_instantanée/) * *.*
 
-# Statut et renvoi d'appel synchronisé
+## Statut et renvoi d'appel synchronisé
 
-## Avec l'agenda
+### Avec l'agenda
 
 Il est possible de lier son statut de présence à l'agenda afin que le statut "occupé" apparaisse automatiquement lors des rendez-vous et/ou que les appels entrant soient renvoyés vers le répondeur vocal ou un numéro de téléphone.
 
@@ -113,7 +112,7 @@ Pour cela, se rendre dans la gestion des [Paramètres utilisateurs](/Guide_de_l_
 
 ![](../attachments/57770666/57770670.png)
 
-## Avec la messagerie instantanée
+### Avec la messagerie instantanée
 
 BlueMind permet de paramétrer un renvoi automatique vers le répondeur vocal ou vers un numéro lorsque le statut de messagerie instantanée est "Occupé".
 

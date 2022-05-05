@@ -1,29 +1,31 @@
 ---
 title: "Configuration d'Apple Mail"
 confluence_id: 57770866
-position: 66
+position: 68
 ---
 # Configuration d'Apple Mail
 
 
-# Présentation
+## Présentation
 
  
-:::important
+
+
+:::info
 
 Le guide suivant a été réalisé sous un OS X Mavericks
 
 :::
 
 
-# Création du compte
+## Création du compte
 
 Un nouveau compte de courrier peut être créé de plusieurs façons :
 
 - Se rendre dans la gestion des comptes internet : System Preferences > «Internet Accounts» ("Comptes internet") > «Add other account» ("Ajouter un autre compte") > sélectionner «Add a mail account» ("Ajouter un compte de courrier") et cliquer sur «Create» ("Créer")
 - depuis le client Apple Mail :
-  - lors de sa première ouverture, lorsqu'aucun compte n'est encore paramétré, le logiciel propose la création d'un nouveau compte de courrier
-  - en allant dans le menu Mail > «Accounts» ("Comptes")
+    - lors de sa première ouverture, lorsqu'aucun compte n'est encore paramétré, le logiciel propose la création d'un nouveau compte de courrier
+    - en allant dans le menu Mail > «Accounts» ("Comptes")
 
 
 Choisir «Add other mail account» ("Ajouter un autre compte courrier") :

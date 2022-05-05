@@ -6,7 +6,7 @@ position: 54
 # Boites aux lettres partagées
 
 
-# Présentation
+## Présentation
 
 Les boites aux lettres partagées, aussi nommées «boites de service» ou «boites fonctionnelles», sont des boites aux lettres qui ne sont pas nominatives : les utilisateurs y sont rattachés et partagent les messages qu'elles contiennent.
 Les utilisateurs accèdent à la boite et l'utilisent selon les droits qui leur sont attribués :
@@ -24,17 +24,20 @@ Pour les versions antérieures, ce comportement peut être mis en œuvre par les
 *Pour plus de détails sur les principes de fonctionnement, consultez la page de documentation utilisateur * * [Les boites aux lettres partagées](/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/) *
 
 
-# Création
+## Création
 
 - Depuis la page "Annuaires", cliquer sur "Créer une boite aux lettres partagée"
-- 
-Saisir un nom de boite aux lettres, une description (optionnel) et une adresse électronique
-:::important
+- Saisir un nom de boite aux lettres, une description (optionnel) et une adresse électronique
+
+
+:::info
 
 ATTENTION
 Le nom de la boite ne sera pas modifiable par la suite
 :::
-:::important
+
+
+:::info
 Une boite aux lettres partagée peut être laissée sans adresse électronique. Dans ce cas, les utilisateurs pourront l'utiliser (en y déplaçant ou copiant des messages par exemple) mais elle ne pourra pas servir à recevoir ni envoyer de courrier.
 :::
 
@@ -42,11 +45,11 @@ Une boite aux lettres partagée peut être laissée sans adresse électronique. 
 - Valider avec le bouton "Créer" (ou touche &lt;Entrée>) pour procéder à une création rapide ou choisir de créer la boite et de se rendre à l'interface d'administration avec le bouton "Créer et éditer" (&lt;Ctrl-Entrée>).
 
 
-# Administration
+## Administration
 
-## Général
+### Général
 
-### Boîte de messagerie
+#### Boîte de messagerie
 
 Cet onglet présente les paramètres principaux ainsi que le répondeur automatique.
 
@@ -60,20 +63,21 @@ Cet onglet présente les paramètres principaux ainsi que le répondeur automati
 - **Serveur de stockage** : [serveur par lequel la boîte est gérée](/Guide_d_installation/Installation/Installation_avec_répartition_des_données_sur_plusieurs_serveurs/)
 
 
-### Répondeur automatique
+#### Répondeur automatique
 
 ![](../../attachments/57771549/66096502.png)
 
 De même que pour une boîte d'utilisateur, lorsque la réponse automatique est activée et pour la période déterminée, un mail sera automatiquement envoyé à l'expéditeur lorsque la boîte recevra un message.
 
 - Les dates de début et de fin ne sont pas obligatoires :
-  - si aucune date de début n'est spécifiée, le répondeur s'active dès l'enregistrement des nouveaux paramètres
-  - si aucune date de fin n'est spécifiée, le répondeur reste actif jusqu'à ce que l'utilisateur modifie ses paramètres et sélectionne "Ne pas envoyer de réponses automatiques"
+    - si aucune date de début n'est spécifiée, le répondeur s'active dès l'enregistrement des nouveaux paramètres
+    - si aucune date de fin n'est spécifiée, le répondeur reste actif jusqu'à ce que l'utilisateur modifie ses paramètres et sélectionne "Ne pas envoyer de réponses automatiques"
 - Lorsque l'utilisateur clique sur la zone de saisie d'une date, un calendrier d'aide au choix de la date s'affiche
 - Le sujet est optionnel : s'il n'est pas rempli, un message avec un objet vide sera envoyé
 - Le contenu du message est obligatoire, il apparaitra dans le corps du message envoyé.
 
-:::important
+
+:::info
 
 Fréquence d'envoi
 
@@ -83,24 +87,26 @@ Si l'utilisateur désactive puis réactive son répondeur pendant cette période
 
 :::
 
-## Informations
+### Informations
 
 ![](../../attachments/57771549/66096501.png)Cet onglet présente les informations qui seront affichées dans la fiche de l'annuaire pour la boîte partagée.
 
 De même que pour les utilisateurs, l'administrateur peut saisir ici des informations telles que les numéros de téléphone et adresses postales ou affecter une image (avatar) qui sera réutilisée dans l'ensemble de l'application (dans [les contacts](https://forge.bluemind.net/confluence/display/DA/.Les+contacts+vBM-4.0) ou [le numéroteur](https://forge.bluemind.net/confluence/display/DA/.La+telephonie+vBM-4.0) par exemple).
-:::important
+
+
+:::info
 
 Les données de contact correspondent à l'annuaire **interne** de BlueMind et sont accessibles à l'ensemble des utilisateurs de la solution. Pour cette raison, **l'administrateur est le seul à pouvoir modifier ces informations** : les utilisateurs, même ayant un droit de partage complet sur la boîte, ne le peuvent pas modifier.
 
 :::
 
-## Filtres
+### Filtres
 
 Cet onglet permet de créer et organiser des règles s'appliquant sur le courrier entrant.
 
 ![](../../attachments/57771549/66096500.png)Le fonctionnement est identique aux filtres utilisateurs. Vous pouvez consulter la page dédiée pour plus de détails sur leur gestion : [Les filtres de messages](/Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages/).
 
-## Identités
+### Identités
 
 ![](../../attachments/57771549/66096498.png)
 
@@ -108,13 +114,13 @@ L'administrateur peut ici définir des identités qui pourront être récupéré
 
 Pour plus de détails, consulter la page du Guide de l'utilisateur : [Les identités](/Guide_de_l_utilisateur/La_messagerie/Les_identités/)
 
-## Partages
+### Partages
 
 Cet onglet permet de gérer les options de partage de la boite aux lettres avec les utilisateurs.
 
 ![](../../attachments/57771549/66096499.png)[Voir [Guide de l'utilisateur > La Messagerie > Les boites aux lettres partagées §3.Gestion des partages](/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/)]
 
-## Maintenance
+### Maintenance
 
 ![](../../attachments/57770017/66096240.png) La version 4.4 ajoute à l'administration des boîtes partagées les mêmes fonctionnalités de maintenance que pour les utilisateurs.
 

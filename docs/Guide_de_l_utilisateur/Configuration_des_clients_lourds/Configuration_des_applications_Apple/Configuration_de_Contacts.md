@@ -1,15 +1,15 @@
 ---
 title: "Configuration de Contacts"
 confluence_id: 57770873
-position: 68
+position: 70
 ---
 # Configuration de Contacts
 
 
-# Présentation
+## Présentation
 
 
-:::important
+:::info
 
 Le guide suivant a été réalisé sous un OS X Yosemite.
 
@@ -18,9 +18,9 @@ Le protocole CardDav n'est actuellement validé qu'avec les clients Mac OS X **n
 :::
 
 
-# Configuration d'un compte CardDAV
+## Configuration d'un compte CardDAV
 
-## Création du compte
+### Création du compte
 
 Se rendre dans la gestion des comptes internet : System Preferences > «Internet Accounts» :
 
@@ -52,7 +52,7 @@ L'application Contacts s'ouvre alors en présentant les contacts :
 ![](../../../attachments/57770873/57770875.png)
 
 
-:::important
+:::info
 
 Éléments synchronisés
 

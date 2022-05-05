@@ -1,7 +1,7 @@
 ---
 title: "IMAP Synchronization on Windows Phone"
-confluence_id: 79862628
-position: 74
+confluence_id: 57771161
+position: 76
 ---
 # IMAP Synchronization on Windows Phone
 
@@ -11,7 +11,9 @@ position: 74
  
 
  
-:::important
+
+
+:::info
 
 This guide was written using a Nokia Lumia 520 running Lumia Black (Windows Phone 8.0).
 
@@ -28,64 +30,64 @@ For other Windows Phone devices, the process is the same although screenshots ma
  
 
 
-# Setting up a new mail account
+## Setting up a new mail account
 
 From the home screen or in the list of applications, go to settings:
 
-![](../../../attachments/79862603/79862620.png)
+![](../../../attachments/57771136/57771153.png)
 
 Next choose "e-mail+accounts":
 
-![](../../../attachments/79862603/79862619.png)
+![](../../../attachments/57771136/57771152.png)
 
 Select "add an account":
 
-![](../../../attachments/79862603/79862618.png)
+![](../../../attachments/57771136/57771151.png)
 
 Scroll to and select "other account | Pop and IMAP":
 
-![](../../../attachments/79862628/79862638.png)
+![](../../../attachments/57771161/57771171.png)
 
 Enter the account's connection information:
 
-![](../../../attachments/79862628/79862637.png)
+![](../../../attachments/57771161/57771170.png)
 
 The system warns you it was unable to connect:
 
-![](../../../attachments/79862628/79862636.png)
+![](../../../attachments/57771161/57771169.png)
 
 Tap "try again". The connection fails again but a new button allowing you to access advanced settings becomes available:
 
-![](../../../attachments/79862628/79862635.png)
+![](../../../attachments/57771161/57771168.png)
 
 Select "Internet email":
 
-![](../../../attachments/79862628/79862634.png)
+![](../../../attachments/57771161/57771167.png)
 
 Enter the incoming and outgoing server information:
 
-![](../../../attachments/79862628/79862633.png)
+![](../../../attachments/57771161/57771166.png)
 
 At the bottom of the form, tap "advanced settings" in order to open more configuration options.
 Check the two boxes to enable SSL protocol and select the synchronization interval and timeframe you wish:
 
-![](../../../attachments/79862628/79862632.png)
+![](../../../attachments/57771161/57771165.png)
 
 Configuration is almost complete.
 
 Back on the accounts page, a double message tells you an action is expected of you:
 
-![](../../../attachments/79862628/79862631.png)
+![](../../../attachments/57771161/57771164.png)
 
 Tap the name of the account.
 
 A warning message tells you that you are required to accept the server's certificate. Tap "continue" to confirm:
 
-![](../../../attachments/79862628/79862630.png)
+![](../../../attachments/57771161/57771163.png)
 
 The warning goes away from the accounts screen, messages are retrieved and can be viewed in the application:
 
-![](../../../attachments/79862628/79862629.png)
+![](../../../attachments/57771161/57771162.png)
 
 
  

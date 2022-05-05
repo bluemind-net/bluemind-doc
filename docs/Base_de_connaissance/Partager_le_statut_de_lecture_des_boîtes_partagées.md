@@ -6,7 +6,7 @@ position: 66
 # Partager le statut de lecture des boîtes partagées
 
 
-:::important
+:::info
 
 Changement de comportement dans BlueMind 4.5
 
@@ -14,13 +14,13 @@ Cette documentation est valable pour les versions 4.0 à 4.4.x, à partir de Blu
 
 :::
 
-# Présentation
+## Présentation
 
 Le fonctionnement par défaut des boîtes partagées veut que le statut de lecture des messages de la boîte est individuel : chaque utilisateur a son propre statut et voit ainsi les messages qu'il a personnellement lus ou pas, indépendamment de l'ouverture des messages par les autres utilisateurs.
 
 Dans certains cas, le processus de gestion des messages est tel que les personnes souhaitent partager le statut de lecture afin de voir comme lu un email qui a été lu par un collaborateur, ou comme non lu un message que personne n'a consulté.
 
-# Mise en œuvre
+## Mise en œuvre
 
 Le partage peut être forcé en passant par cyrus directement. Pour cela, sur le serveur hébergeant BlueMind il faut se connecter sur cyrus avec cyradm :
 
@@ -34,7 +34,7 @@ Puis passer la commande suivante **pour chaque boîte souhaitée** :
 
 
 ```
-mboxcfg "user/nom-de-la-boite*@mydomain.tld" sharedseen true
+mboxcfg "user/nom-de-la-boite\*@mydomain.tld" sharedseen true
 ```
 
 

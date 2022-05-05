@@ -6,14 +6,14 @@ position: 46
 # Moteur de recherche avancé
 
 
-# Présentation
+## Présentation
 
 BlueMind 3 est doté d'un nouveau et performant moteur de recherche permettant d'effectuer dans les messages des recherches full-text, multicritères et portant sur l'ensemble des dossiers accessibles par l'utilisateur.
 
 
 ![](../../attachments/57770315/57770333.png)
 
-# Fonctionnement
+## Fonctionnement
 
 Devant le champs de recherche, un menu déroulant permet de sélectionner l'espace de recherche :
 
@@ -22,7 +22,9 @@ Devant le champs de recherche, un menu déroulant permet de sélectionner l'espa
 Après le champs de recherche, une liste déroulante permet de préciser le statut des messages à afficher :
 
 ![](../../attachments/57770315/57770329.png)
-:::important
+
+
+:::info
 
 Cette liste déroulante, contrairement au reste de la recherche, n'est pas réinitialisée en cas de changement de dossier, le filtre d'affichage reste effectif.
 
@@ -41,7 +43,9 @@ Le champs de saisie reste toujours disponible, il est ainsi possible de faire de
 Chaque terme recherché peut être retiré en cliquant sur la croix qui le suit :
 
 ![](../../attachments/57770315/57770319.png)Pour effacer une recherche et revenir à l'affichage complet des messages, cliquer sur la croix ![](../../attachments/57770315/57770317.png) en fin de champs de recherche.
-:::important
+
+
+:::info
 
 Les filtres sont cumulatifs : le résultat de la recherche présentera les messages correspondant à TOUS les critères définis.
 
@@ -52,7 +56,9 @@ Soit la recherche suivante :
 Cette recherche présente les messages présents dans tous les dossiers (boite de réception, sous-dossiers, corbeille, dossiers partagés, etc.), envoyés ou reçus par une personne ayant "smith" dans son nom ou son adresse mail, avec le mot "Présentation" dans le sujet et étant marqués d'un drapeau.
 
 :::
-:::important
+
+
+:::info
 
 Précisions sur le moteur de recherche
 

@@ -1,15 +1,17 @@
 ---
 title: "Logs"
-confluence_id: 79863219
+confluence_id: 57771649
 position: 52
 ---
 # Logs
 
 
-# Introduction
+## Introduction
 
 BlueMind keeps log files for each application and usage type.
-:::important
+
+
+:::info
 
 It is important to provide for enough disk space to store log and archive files.
 
@@ -21,9 +23,10 @@ Space overload stops new information from being saved into log files and can lea
 There are 3 types of log files:
 
 - system logs, which rely on log administration mechanisms ([rsyslog](http://www.rsyslog.com/) + [logrotate](https://linux.die.net/man/8/logrotate))
-- 
-BlueMind's Java services log, which rely on [LogBack](https://logback.qos.ch/)
-:::important
+- BlueMind's Java services log, which rely on [LogBack](https://logback.qos.ch/)
+
+
+:::info
 
 Track times
 
@@ -31,86 +34,202 @@ Java-generated tracks in these files are set to GMT.
 
 As a result, in France, which is in the Europe/Paris time zone, times are +1h in the winter and +2h in the summer. To find items that took place at 15:00, you need to look for:
 
-  - 14:00 from late October to late March
-  - 13:00 from late March to late October
+- 14:00 from late October to late March
+- 13:00 from late March to late October
+
 
 :::
+
 - internal service logs, managed by each service's configuration.
 
 
 Storage time depends on each log administration mechanism's settings. These settings can be changed to the desired storage time.
 
-# Log files
+## Log files
 
 Log files are located in the `/var/log` file and its subfolders.
 
-
-    | Component | Package Name | Log File | Type | Description |
+| Component | Package Name | Log File | Type | Description |
 | --- | --- | --- | --- | --- |
-| BlueMind Core | bm-core | ./bm/:* core.log
-* mail-index.log
-* slow-call.log
+| BlueMind Core | bm-core | 
+./bm/:
+ | 
+- core.log
+- mail-index.log
+- slow-call.log
 
-./bm/audit/:* audit-calendar*.log
- | LogBack | Main BlueMind service:* manages database contents, implements job rules
-* indexes emails during tasks re-indexing
-* queries that take longer than 200 ms to run
+ | 
+./bm/audit/:
+ | 
+- audit-calendar*.log
 
-Audit:* Tracks the actions performed in the calendar specified in the file name: audit-calendar:&lt;calendar name>:&lt;user uid>.log
+ | LogBack | 
+Main BlueMind service:
+ | 
+- manages database contents, implements job rules
+- indexes emails during tasks re-indexing 
+- queries that take longer than 200 ms to run
+
+ | 
+Audit:
+ | 
+- Tracks the actions performed in the calendar specified in the file name: audit-calendar:&lt;calendar name>:&lt;user uid>.log
+
  |
-| Postfix | postfix | RedHat: ./maillogDebian/Ubuntu:* ./mail.err
-* ./mail.info
-* ./mail.log
-* ./mail.warn
- | System | [Postfix](http://postfix.org/) forwarding service which sends emails to recipients' mailbox or server. |
-| Cyrus | bm-cyrus-imapd | RedHat: ./maillogDebian/Ubuntu:* ./mail.err
-* ./mail.info
-* ./mail.log
-* ./mail.warn
- | System | [Cyrus IMAP](https://www.cyrusimap.org/) mail service. Used to:* place an email in the corresponding mailbox and access it through IMAP and/or POP.
-* filter emails on reception
-* manage away message
-* manage redirects
+| Postfix | postfix | 
+RedHat: ./maillog
+ | 
+Debian/Ubuntu:
+ | 
+- ./mail.err
+- ./mail.info
+- ./mail.log
+- ./mail.warn
+
+ | System | 
+[Postfix](http://postfix.org/) forwarding service which sends emails to recipients' mailbox or server.
  |
-| Webmail | bm-webmail | ./bm-webmail/ :* errors
-* sendmailmailSent.log
- | LogBack | * errors from the webmail service (Round Cube).
-* tracks all sent messages as well as rules applied to these messages (alias, redirection, etc.).
+| Cyrus | bm-cyrus-imapd | 
+RedHat: ./maillog
+ | 
+Debian/Ubuntu:
+ | 
+- ./mail.err
+- ./mail.info
+- ./mail.log
+- ./mail.warn
+
+ | System | 
+[Cyrus IMAP](https://www.cyrusimap.org/) mail service. Used to:
+ | 
+- place an email in the corresponding mailbox and access it through IMAP and/or POP.
+- filter emails on reception
+- manage away message
+- manage redirects
+
  |
-| Synchronisation EAS | bm-eas | ./bm-eas/eas.log | LogBack | Tracks operations carried out to and from mobile devices connected through EAS.In addition, logs for each synchronization file are stored in separate files, which makes the analysis of bugs or erroneous behavior easier. |
-| Mail forwarding | bm-lmtpd | ./bm-lmtpd/lmtpd.log | LogBack | Service that delivers emails to the corresponding mailbox.Some BlueMind-related operations are carried out here - ICS invitation analysis, for example. |
-| Localization | bm-locator | ./bm-locator/locator.log | LogBack | Locate user-specific services (mailbox server, etc.) |
-| Mapi | bm-mapi | ./mapi.log./activities.log | LogBack | mapi service general logActivity logFor more detailed information, please go to the page about [Résolution des problèmes avec Outlook](https://forge.bluemind.net/confluence/display/BM40/Resolution+des+problemes+avec+Outlook). |
-| Replication |  | ./bm/replication.log | LogBack |  |
-| Identification | bm-node | ./bm-node/node.log | LogBack | Service that allows the BM-Core server to run system operations on the BlueMind architecture nodes.The log file tracks commands. |
-| BlueMind web server | bm-webserver | ./bm-webserver/ :* dav.log
-* js-errors.log
-* setup.log
-* webserver.log
- | LogBack | Directory containing log files generated by the *webserver* service.* synchronization of calendars.
-* caldav/carddav synchronization
-* JS erros on web applications
-* BlueMind updates
+| Webmail | bm-webmail | ./bm-webmail/ : | 
+
+
+ | 
+- errors
+- sendmailmailSent.log
+
+ | LogBack | 
+
+
+ | 
+- errors from the webmail service (Round Cube).
+- tracks all sent messages as well as rules applied to these messages (alias, redirection, etc.).
+
+ |
+| Synchronisation EAS | bm-eas | ./bm-eas/eas.log | LogBack | Tracks operations carried out to and from mobile devices connected through EAS. | 
+
+
+ | In addition, logs for each synchronization file are stored in separate files, which makes the analysis of bugs or erroneous behavior easier. |
+| Mail forwarding | bm-lmtpd | ./bm-lmtpd/lmtpd.log | LogBack | 
+Service that delivers emails to the corresponding mailbox.
+ | 
+Some BlueMind-related operations are carried out here - ICS invitation analysis, for example.
+ |
+| Localization | bm-locator | 
+./bm-locator/locator.log
+ | LogBack | Locate user-specific services (mailbox server, etc.) |
+| Mapi | bm-mapi | 
+./mapi.log
+./activities.log
+ | LogBack | mapi service general log | 
+
+
+ | Activity log | 
+
+
+ | For more detailed information, please go to the page about  | [Résolution des problèmes avec Outlook](https://forge.bluemind.net/confluence/display/BM40/Resolution+des+problemes+avec+Outlook) | . |
+| Replication | 
+
+
+ | ./bm/replication.log | LogBack | 
+
+
+ |
+| Identification | bm-node | ./bm-node/node.log | LogBack | 
+Service that allows the BM-Core server to run system operations on the BlueMind architecture nodes.
+ | 
+The log file tracks commands.
+ |
+| BlueMind web server | bm-webserver | ./bm-webserver/ : | 
+
+
+ | 
+- dav.log
+- js-errors.log
+- setup.log
+- webserver.log
+
+ | LogBack | Directory containing log files generated by the  | *webserver * | service. | 
+
+
+ | 
+- synchronization of calendars.
+- caldav/carddav synchronization
+- JS erros on web applications
+- BlueMind updates
+
  |
 | Authentication | bm-hps | ./bm-hps/hps.log | LogBack | Tracks successful authentications, authentication issues and sessions started |
-| Tika | bm-tika | ./bm-tika/tika.log | LogBack | Extracts metadata and document data for the ES index.Tracks information indexing extraction errors. |
-| PHP FPM | bm-php-fpm | ./bm-php-fpm:* bm-php-fpm.log
-* slow.log
- | LogBack | PHP interpreters.The `slow.log` file contains PHP requests longer than 15s. |
-| ElasticSearch | bm-elasticsearch | ./bm-elasticsearch | Interne | ElasticSearch service logs.`*_slowlog.log` files contain slow requests.Possible log configuration modifications to this service may be lost after a BlueMind update. |
-| Milter | bm-milter | ./bm-milter/milter.log | LogBack | SMTP analysis and modification of emails. |
-| XMPP | bm-xmpp | ./bm-xmpp/xmpp.log | LogBack | Instant messaging logs. |
-| YSNP | bm-ysnp | ./bm-ysnp/ysnp.log | LogBack | Service that allows Postfix or Cyrus to obtain or verify data with BlueMind:* SMTP and IMAP authentication
-* ACLs IMAP ACLs resolution
-* blocks mail flows when BlueMind is under maintenance or being updated
+| Tika | bm-tika | ./bm-tika/tika.log | LogBack | 
+Extracts metadata and document data for the ES index.
+Tracks information indexing extraction errors.
  |
-| PostgreSQL | bm-postgresql | ./postgresql | Interne+logrotate | [PostgreSQL](http://postgresql.org/) database logs.This component's configuration can be edited using the file */etc/postgresql/9.6/main/postgresql.conf.local* |
-| NGinx | bm-nginx | ./nginx:* access.log
-* error.log
-* webmail.log
- | Interne+logrotate | The [NGinx](http://nginx.org/) services allows HTTP and HTTPs access to BlueMind.* `access.log` contains all HTTP and HTTPs requests made to BlueMind
-* `error.log` contains all HTTP and HTTPs error requests or request whose return code shows an error (4xx, 5xx)
-* `webmail.log` contains all HTTP and HTTPs requests made through webmail or error requests or requests whose return code shows an error (4xx, 5xx)
+| PHP FPM | bm-php-fpm | 
+./bm-php-fpm:
+ | 
+- bm-php-fpm.log
+- slow.log
+
+ | LogBack | 
+PHP interpreters.
+ | 
+The `slow.log` file contains PHP requests longer than 15s.
+ |
+| ElasticSearch | bm-elasticsearch | ./bm-elasticsearch | Interne | 
+ElasticSearch service logs.
+
+`*_slowlog.log` files contain slow requests.
+
+Possible log configuration modifications to this service may be lost after a BlueMind update.
+ |
+| Milter | bm-milter | ./bm-milter/milter.log | LogBack | SMTP analysis and modification of emails. |
+| XMPP | bm-xmpp | ./bm-xmpp/xmpp.log | LogBack | 
+Instant messaging logs.
+ |
+| YSNP | bm-ysnp | ./bm-ysnp/ysnp.log | LogBack | 
+Service that allows Postfix or Cyrus to obtain or verify data with BlueMind:
+ | 
+- SMTP and IMAP authentication
+- ACLs IMAP ACLs resolution
+- blocks mail flows when BlueMind is under maintenance or being updated
+
+ |
+| PostgreSQL | bm-postgresql | ./postgresql | Interne+logrotate | 
+[PostgreSQL](http://postgresql.org/) database logs.
+ | 
+This component's configuration can be edited using the file */etc/postgresql/9.6/main/postgresql.conf.local*
+ |
+| NGinx | bm-nginx | 
+./nginx:
+ | 
+- access.log
+- error.log
+- webmail.log
+
+ | Interne+logrotate | 
+The [NGinx](http://nginx.org/) services allows HTTP and HTTPs access to BlueMind.
+ | 
+- `access.log` contains all HTTP and HTTPs requests made to BlueMind
+- `error.log` contains all HTTP and HTTPs error requests or request whose return code shows an error (4xx, 5xx)
+- `webmail.log` contains all HTTP and HTTPs requests made through webmail or error requests or requests whose return code shows an error (4xx, 5xx)
+
  |
 
 

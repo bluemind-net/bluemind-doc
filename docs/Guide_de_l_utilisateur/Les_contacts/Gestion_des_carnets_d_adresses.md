@@ -1,12 +1,12 @@
 ---
 title: "Gestion des carnets d'adresses"
 confluence_id: 57770425
-position: 42
+position: 44
 ---
 # Gestion des carnets d'adresses
 
 
-# Présentation
+## Présentation
 
 L'interface de gestion des préférences des contacts permet à l'utilisateur de gérer ses carnets d'adresses propres ainsi que ses abonnements aux carnets d'adresses externes (domaine, autres utilisateurs...).
 
@@ -14,14 +14,15 @@ L'interface est  accessible depuis la gestion des préférences utilisateur, se
 ![](../../attachments/57770060/57770071.png)
 
 
-# Carnets d'adresses de l'utilisateur
+## Carnets d'adresses de l'utilisateur
 
 Par défaut l'utilisateur possède 2 carnets d'adresses :
 
 - "Mes contacts" (ou "Contacts") : carnet d'adresses personnel
 - "Contacts collectés" : réunit automatiquement les destinataires des messages de l'utilisateur non présents dans l'annuaire ;
 
-:::important
+
+:::info
 
 Le 3ème carnet par défaut, l'annuaire des utilisateurs, n'étant pas géré par l'utilisateur, il n’apparaît pas dans les carnets d'adresse : il s'agit d'un abonnement au carnet d'adresses du domaine.
 
@@ -31,7 +32,7 @@ Ces carnets ne sont pas modifiables ni supprimables, mais l'utilisateur peut en 
 
 ![](../../attachments/57770425/57770436.png)
 
-## Création et modification
+### Création et modification
 
 Pour **créer** un nouveau carnet d'adresses :
 
@@ -51,22 +52,23 @@ Pour **supprimer** un carnet d'adresses :
 - Cliquer sur l'icône ![](../../attachments/57769989/69896481.png) en fin de ligne
 - Confirmer la suppression
 
-:::important
+
+:::info
 
 L'utilisation du bouton «Enregistrer», présent ici comme sur tous les écrans de l'application, n'est pas nécessaire : les modifications sont faites et prises en compte au fur et à mesure des actions de l'utilisateur, ainsi toute suppression une fois confirmée sera définitive.
 
 :::
 
-## Import de contacts
+### Import de contacts
 
 Pour importer des contacts dans un carnet d'adresses depuis l'interface de gestion des préférences, vous devez posséder les contacts à importer sous forme de fichier au format [vCard](http://fr.wikipedia.org/wiki/VCard)
 
-## Exporter un carnet
+### Exporter un carnet
 
 L'export des contacts d'un carnet d'adresses se fait directement depuis l'application Contacts.
 Pour en savoir plus : [Les contacts - Importer et exporter](https://forge.blue-mind.net/confluence/display/LATEST/Les+contacts#Lescontacts-Importeretexporter)
 
-## Partager un carnet d'adresses
+### Partager un carnet d'adresses
 
 BlueMind offre la possibilité de partager ses carnets d'adresses personnels avec les autres utilisateurs.
 
@@ -75,22 +77,24 @@ Pour **partager** un carnet d'adresses :
 Se rendre dans l'interface de gestion des préférences de l'utilisateur > section Contacts > onglet « Gestion des partages » :
 ![](../../attachments/57770425/57770440.png)
 
-1 Choisir le carnet d'adresse à partager.Un utilisateur peut partager :
-  - ses carnets d'adresses personnels : Contacts (ou «Mes Contacts»), Contacts Collectés et les carnets qu'il a créé
-  - les carnets pour lesquels il a délégation : on lui a attribué le droit "Peut modifier les contacts de ce carnet et gérer ses partages"
-1 Si l'on souhaite partager le carnet avec tous les utilisateurs du domaine, cocher la case "Autoriser le partage public" et choisir le type de droits à attribuer aux utilisateurs
-1 ** **Choix recommandé :** ** Si l'on préfère attribuer des droits individuellement à certains utilisateurs ou groupe, rechercher la personne grâce au champs de saisie puis sélectionner le droit à lui attribuer
-1 Une fois tous les droits attribués comme souhaité, valider en cliquant sur «Enregistrer»
+1. Choisir le carnet d'adresse à partager.Un utilisateur peut partager :
+    - ses carnets d'adresses personnels : Contacts (ou «Mes Contacts»), Contacts Collectés et les carnets qu'il a créé
+    - les carnets pour lesquels il a délégation : on lui a attribué le droit "Peut modifier les contacts de ce carnet et gérer ses partages"
+2. Si l'on souhaite partager le carnet avec tous les utilisateurs du domaine, cocher la case "Autoriser le partage public" et choisir le type de droits à attribuer aux utilisateurs
+3. ** **Choix recommandé :** ** Si l'on préfère attribuer des droits individuellement à certains utilisateurs ou groupe, rechercher la personne grâce au champs de saisie puis sélectionner le droit à lui attribuer
+4. Une fois tous les droits attribués comme souhaité, valider en cliquant sur «Enregistrer»
 
 
-# Abonnements
+## Abonnements
 
-## Depuis la gestion des paramètres
+### Depuis la gestion des paramètres
 
 L'affichage des carnets d'adresses de l'utilisateur ainsi que des carnets d'adresses qui ont été partagés avec lui se fait via l'onglet *Abonnements* des préférences.
 
 ![](../../attachments/57770425/57770432.png)
-:::important
+
+
+:::info
 
 Seuls les carnets apparaissant ici seront accessibles dans l'application Contacts de BlueMind, que la synchronisation soit active ou non.
 
@@ -100,17 +104,42 @@ Le bouton "Synchronisation" permet de paramétrer une synchronisation différenc
 
 Lorsque la synchronisation est activée, les données sont téléchargées sur le logiciel client. De ce fait :
 
+|  | Synchronisation activée | Synchronisation désactivée | Application web | EAS iOS | EAS (autres) | DAV | Outlook (connecteur) | Thunderbird |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| les fiches sont consultables et disponibles hors connexion | les fiches sont consultables en mode connecté mais indisponibles hors connexion |
+| 
+- le carnet est visible
+- les fiches sont consultables et disponibles hors connexion
+ | - le carnet n'est pas visible | 
 
-    |  | Synchronisation activée | Synchronisation désactivée |
-| --- | --- | --- |
-| Application web | les fiches sont consultables et disponibles hors connexion | les fiches sont consultables en mode connecté mais indisponibles hors connexion |
-| EAS iOS | - le carnet est visible- les fiches sont consultables et disponibles hors connexion | - le carnet n'est pas visible- les fiches sont accessibles en recherche et autocomplétion |
-| EAS (autres) | - le carnet n'est pas visible- les fiches sont accessibles en recherche et autocomplétion |
-| DAV | "Mes Contacts" uniquement :- le carnet est visible- les fiches sont consultables et disponibles hors connexionAutres carnets : pas de visibilité ni de recherche |
-| Outlook (connecteur) | - le carnet est visible- les fiches sont consultables et disponibles hors connexion | le carnet n'est pas visible |
-| Thunderbird | - le carnet est visible- les fiches sont consultables et disponibles hors connexion | - le carnet est visible, avec une icône différente- les fiches sont accessibles en recherche (carnet d'adresses) et autocomplétion (composition de messages) |
 
-:::important
+ | - les fiches sont accessibles en recherche et autocomplétion |
+| 
+- le carnet n'est pas visible
+- les fiches sont accessibles en recherche et autocomplétion
+ |
+| 
+"Mes Contacts" uniquement :
+ | 
+- le carnet est visible
+- les fiches sont consultables et disponibles hors connexion
+ | 
+Autres carnets : pas de visibilité ni de recherche
+ |
+| 
+- le carnet est visible
+- les fiches sont consultables et disponibles hors connexion
+ | le carnet n'est pas visible |
+| 
+- le carnet est visible
+- les fiches sont consultables et disponibles hors connexion
+ | 
+- le carnet est visible, avec une icône différente
+- les fiches sont accessibles en recherche (carnet d'adresses) et autocomplétion (composition de messages)
+ |
+
+
+:::info
 
 Avertissement de volumétrie
 
@@ -119,7 +148,9 @@ Lorsque le volume des données contenues dans un carnet est important (plus de 1
 ![](../../attachments/57770425/57770426.png)
 
 :::
-:::important
+
+
+:::tip
 Les carnets d'adresses créés par l'utilisateur dans l'application Contacts de BlueMind, de même que ceux créés depuis les clients lourds (Outlook ou Thunderbird), sont automatiquement ajouté aux abonnements avec la synchronisation activée.
 :::
 
@@ -131,13 +162,14 @@ Pour ajouter un carnet d'adresses :
 - Désactiver la synchronisation si désiré
 - **Cliquer sur le bouton «Enregistrer» pour prendre en compte les modifications**
 
-:::important
+
+:::info
 
 Il est nécessaire de cliquer sur « Enregistrer » pour prendre en compte un changement d'état de synchronisation puis **relancer la synchronisation (ou attendre la synchronisation automatique) sur le logiciel client** pour que les modifications soient prises en compte (téléchargement et visualisation des données en cas d'activation, suppression des données en cas de désactivation).
 
 :::
 
-## Depuis le message d'information reçu
+### Depuis le message d'information reçu
 
 Lorsqu'un utilisateur partage un de ses carnets avec un autre utilisateur, ce dernier est informé par un message automatique. Ce message électronique lui permet de s'abonner directement au carnet d'adresses depuis l'interface de messagerie :
 

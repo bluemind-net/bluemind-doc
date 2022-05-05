@@ -6,12 +6,14 @@ position: 80
 # Résolution des problèmes avec Outlook
 
 
-# Présentation
+## Présentation
 
 Cette page a pour but de vous aider à investiguer, diagnostiquer et résoudre les problèmes rencontrés lors de l'utilisation d'Outlook avec BlueMind
 
 En premier lieu, en cas de problème dès la création du compte, consulter la page de [compatibilité](/FAQ_Foire_aux_questions_/Compatibilité/) afin de vérifier que la **version d'Outlook est supportée**, cette page rend aussi compte de limitations connues.
-:::important
+
+
+:::info
 
 Outlook pour MacOS
 
@@ -22,16 +24,17 @@ Les protocoles de communication étant différents, nous ne pouvons garantir la 
 :::
 
 
-# Trouver les logs
+## Trouver les logs
 
 **Côté logiciel client**, les éventuels messages se trouvent directement dans l'interface d'Outlook, dans le dossier "Problèmes de synchronisation".
 
 **Côté serveur**, 2 fichiers sont à consulter :
 
-1 le log général `/var/log/bm-mapi/mapi.log`
-1 le log d'activité `/var/log/bm-mapi/activities.log`
+1. le log général `/var/log/bm-mapi/mapi.log`
+2. le log d'activité `/var/log/bm-mapi/activities.log`
 
-:::important
+
+:::info
 
 Il possible d'activer un log détaillé sur le serveur pour un utilisateur en particulier pour de l'investigation avancée, ** **mais attention cela à des impacts sur les performances** **. L'activation se fait via [l'outil en ligne de commande bm-cli](/Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration/) avec le paquet supplémentaire `bm-plugin-cli-mapi` installé sur le serveur :
 
@@ -47,9 +50,9 @@ Les logs se retrouvent alors dans le fichier `/var/log/bm-mapi/user-jdoe@bluemin
 
 :::
 
-# Diagnostiquer des problèmes
+## Diagnostiquer des problèmes
 
-## Un mail ne se copie ou déplace pas dans un dossier
+### Un mail ne se copie ou déplace pas dans un dossier
 
 **Problèmes/Symptômes :**
 
@@ -60,18 +63,16 @@ Les logs se retrouvent alors dans le fichier `/var/log/bm-mapi/user-jdoe@bluemin
 
 **Diagnostic :**
 
-1 
-Rechercher l'email sur le serveur grâce à une partie de son sujet :
+1. Rechercher l'email sur le serveur grâce à une partie de son sujet :
 
 
 ```
 # cd /var/spool/cyrus/data/bluemind\_loc/domain/b/bluemind.loc/j/user/jdoe/
-# grep "texte du sujet" *
+# grep "texte du sujet" \*
 ```
 
 
-1 
-Copier le fichier trouvé en tant que fichier eml :
+2. Copier le fichier trouvé en tant que fichier eml :
 
 
 ```
@@ -79,12 +80,12 @@ Copier le fichier trouvé en tant que fichier eml :
 ```
 
 
-1  Le récupérer et le copier dans un Outlook de test fonctionnel afin de voir si le problème se reproduit et observer/récupérer les logs correspondant
+3.  Le récupérer et le copier dans un Outlook de test fonctionnel afin de voir si le problème se reproduit et observer/récupérer les logs correspondant
 
 
-# Problèmes connus
+## Problèmes connus
 
-## Création de compte en erreur à cause d'un mauvais mot de passe enregistré
+### Création de compte en erreur à cause d'un mauvais mot de passe enregistré
 
 ** **Problèmes/Symptômes** ** ** :** la saisie du mot de passe ne permet pas la création du compte, Outlook indique toujours que le mot de passe est erroné
 
@@ -117,11 +118,10 @@ Pour supprimer le mauvais mot de passe :
 - ouvrir le Gestionnaire d'identification en tapant Windows + R
 - saisir "`control /name Microsoft.CredentialManager`" :![](../../attachments/57771859/57771862.png)
 - cliquer sur OK (ou touche &lt;Entrée>)
-- Supprimer les entrées de type  `autodiscover.domaine.tld`  et  `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  Par exemple pour supprimer le mot de passe de * tom@bm.lan * :
-![](../../attachments/57771859/57771861.png)
+- Supprimer les entrées de type  `autodiscover.domaine.tld`  et  `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  Par exemple pour supprimer le mot de passe de * tom@bm.lan * :![](../../attachments/57771859/57771861.png)
 
 
-## Le mot de passe est demandé en boucle
+### Le mot de passe est demandé en boucle
 
 ** **Problème/Symptôme** ** ** :** La création de compte et la synchronisation se font bien mais ensuite Outlook demande le mot de passe de l'utilisateur de façon répétée sans arrêt.
 
@@ -129,24 +129,24 @@ Pour supprimer le mauvais mot de passe :
 
 ** **Solution** :** Il faut forcer la clef de registre pour indiquer à Outlook d'exclure la méthode de connexion directe à Office365
 
-1 Ouvrez regedit :
-  - sélectionnez le bouton démarrer
-  - Tapez `regedit` soit dans l'application *Exécuter* soit dans la barre de recherche de Windows
-  - Appuyer sur Entrée
-1 **(FORTEMENT RECOMMANDÉ MAIS OPTIONNEL)** Faites une copie de sauvegarde de votre registre. [Cliquez ici pour apprendre comment](https://support.microsoft.com/help/322756).
-1 Dans le registre, accéder à `HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\AutoDiscover`
-1 Faites un clic droit à n'importe quel emplacement de la colonne de droite, sélectionner NOUVEAU et ensuite, *DWORD (32-bit)*.
-1 Nommez cette entrée : `ExcludeExplicitO365EndPoint`
-1 Avec un clic-droit sur cette entrée, sélectionnez *Modifier*
-1 Changez la valeur pour 1 dans le champ à cet effet et appuyez sur OK
-1 Redémarrez votre ordinateur
-1 Recréez votre profil Outlook
-1 Ouvrez Outlook et, lorsque requis, entrez votre adresse courriel ainsi que le mot de passe qui lui est associé.
+1. Ouvrez regedit :
+    - sélectionnez le bouton démarrer
+    - Tapez `regedit` soit dans l'application *Exécuter* soit dans la barre de recherche de Windows
+    - Appuyer sur Entrée
+2. **(FORTEMENT RECOMMANDÉ MAIS OPTIONNEL)** Faites une copie de sauvegarde de votre registre. [Cliquez ici pour apprendre comment](https://support.microsoft.com/help/322756).
+3. Dans le registre, accéder à `HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\AutoDiscover`
+4. Faites un clic droit à n'importe quel emplacement de la colonne de droite, sélectionner NOUVEAU et ensuite, *DWORD (32-bit)*.
+5. Nommez cette entrée : `ExcludeExplicitO365EndPoint`
+6. Avec un clic-droit sur cette entrée, sélectionnez *Modifier*
+7. Changez la valeur pour 1 dans le champ à cet effet et appuyez sur OK
+8. Redémarrez votre ordinateur
+9. Recréez votre profil Outlook
+10. Ouvrez Outlook et, lorsque requis, entrez votre adresse courriel ainsi que le mot de passe qui lui est associé.
 
 
 Pour plus d'information concernant ce problème : [https://docs.microsoft.com/fr-fr/outlook/troubleshoot/domain-management/unexpected-autodiscover-behavior](https://docs.microsoft.com/fr-fr/outlook/troubleshoot/domain-management/unexpected-autodiscover-behavior)
 
-## Les dossiers sont vides
+### Les dossiers sont vides
 
 ** **Problème/Symptôme** ** ** :** Les dossiers par défaut (boîte de réception, messages envoyés, corbeille, etc.) sont bien présents mais ils sont vides. Sur le webmail, ils contiennent bien des messages.
 
@@ -163,7 +163,7 @@ bm-cli maintenance repair --ops replication.parentUid user@domain.tld
 
 Ensuite, **relancer outlook** et vérifier que les messages arrivent correctement.
 
-## Le carnet d'adresse globale sur Outlook n'est pas complet
+### Le carnet d'adresse globale sur Outlook n'est pas complet
 
 ** **Problème/Symptôme** ** ** :**
 
@@ -233,13 +233,13 @@ systemctl start bm-mapi
 ```
 
 
-## Les messages ne sont pas affichés en arborescence malgré le mode conversation activé
+### Les messages ne sont pas affichés en arborescence malgré le mode conversation activé
 
 Cette fonctionnalité n'est pas encore implémentée dans la gestion de MAPI par BlueMind.
 
 Cependant il peut arriver que certains messages soient triés en tant que conversations selon le client tiers dont ils proviennent (Webmail ou Thunderbird par exemple).
 
-## Lors de la création d'un profil, outlook affiche un message "The name cannot be matched to a name in the address list."
+### Lors de la création d'un profil, outlook affiche un message "The name cannot be matched to a name in the address list."
 
 ****Cause :**** Lors de la création d'un profil, outlook vérifie que l'adresse mail du compte est présente dans le GAL mais seule l'adresse mail par défaut est présente dans le GAL.
 

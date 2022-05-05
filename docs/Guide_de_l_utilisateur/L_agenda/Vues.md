@@ -1,30 +1,32 @@
 ---
 title: "Vues"
 confluence_id: 57770548
-position: 48
+position: 50
 ---
 # Vues
 
 
-# Présentation
+## Présentation
 
 BlueMind permet d'enregistrer plusieurs vues, afin de personnaliser les groupes d'agendas affichés.
 
 ![](../../attachments/57770548/72188643.png)
-:::important
+
+
+:::tip
 
 Pour des informations plus détaillées sur l'affichage des calendriers, vous pouvez consulter la page [Le partage d'agenda - §3 Affichage multi-agendas](/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda/)
 
 :::
 
 
-# Accès
+## Accès
 
 Pour enregistrer, supprimer ou revenir à la vue par défaut, cliquer sur la flèche "Mes vues" dans la barre latérale et choisir la vue souhaitée :
 
 ![](../../attachments/57770548/72188640.png)
 
-# Créer une vue
+## Créer une vue
 
 Pour créer une nouvelle vue :
 
@@ -34,16 +36,17 @@ Pour créer une nouvelle vue :
 - valider en cliquant sur «Créer la vue»
 
 
-# Modifier une vue
+## Modifier une vue
 
 Pour modifier une vue :
 
 - ajouter à l'affichage en cours les agendas désirés
 - dans le menu "Mes vues", sélectionner "Enregistrer cette vue"
-- 
-dans le champs "libellé", saisir le nom de la vue à modifier ou la sélectionner dans la liste déroulante proposée :
+- dans le champs "libellé", saisir le nom de la vue à modifier ou la sélectionner dans la liste déroulante proposée :
 ![](../../attachments/57770548/72188641.png)
-:::important
+
+
+:::tip
 
 La liste des vues existantes apparaît en cliquant dans le champs ou par autocomplétion au cours de la frappe
 
@@ -52,7 +55,7 @@ La liste des vues existantes apparaît en cliquant dans le champs ou par autocom
 - Le bouton de validation change alors de libellé pour proposer «Mettre à jour la vue». Cliquer pour enregistrer la nouvelle vue :![](../../attachments/57770548/72188642.png)
 
 
-# Supprimer une vue
+## Supprimer une vue
 
 Pour supprimer une vue de la liste :
 
@@ -61,14 +64,15 @@ Pour supprimer une vue de la liste :
 - Confirmer la demande de suppression
 
 
-# Vue par défaut
+## Vue par défaut
 
 La vue par défaut définit la vue qui est affichée lorsque l'utilisateur se connecte à l'application. Cette vue ne peut pas être supprimée mais peut être modifiée à tout moment. Elle est contrôlée par les 2 premières entrées du menu :
 
 - **Revenir à ma vue par défaut** : permet à tout moment d'afficher la vue par défaut
 - **Définir comme vue par défaut** : l'affichage actuel devient la vue par défaut.
 
-:::important
+
+:::tip
 
 Réinitialiser la vue par défaut
 

@@ -6,7 +6,7 @@ position: 34
 # Outils et ressources BlueMind
 
 
-# Outils et ressources
+## Outils et ressources
 
 Des outils et des ressources sont disponibles en ligne.
 
@@ -20,7 +20,7 @@ Des outils et des ressources sont disponibles en ligne.
 Ils sont accessibles sans authentification en lecture. Pour participer et échanger, il est nécessaire de se créer un compte.
 
 
-# Accès
+## Accès
 
 Afin d'accéder aux fonctionnalités particulières de ces outils (dépôt de tickets JIRA, dépôt et vote sur la SuggestionBox, MarketPlace), il est nécessaire de se créer un compte via notre plate-forme d'identités : [https://forge.blue-mind.net/identity/](https://forge.blue-mind.net/identity/).
 
@@ -28,9 +28,9 @@ Tous les outils vous sont alors automatiquement accessibles (votre identifiant e
 
 Pour poster sur le forum, il est nécessaire de se [créer un compte](http://forum.blue-mind.net/register.php).
 
-# Conseils d'utilisation
+## Conseils d'utilisation
 
-## Support et suivi de bugs
+### Support et suivi de bugs
 
 La plate-forme de suivi des bugs et incidents est ouverte à tous, utilisateurs et clients.
 
@@ -43,13 +43,13 @@ Afin que votre demande soit traitée le plus efficacement possible, il est indis
 
 Gardez en tête que nos équipes support n'ont pas accès à votre plate-forme. Les tests vont ainsi être fait sur une plate-forme de référence, donc une description précise est indispensable.
 
-## Forum
+### Forum
 
 Vérifiez grâce au moteur de recherche si votre problème ou votre question n'a pas déjà été posée, cela vous permettra de gagner du temps si une réponse a déjà été apportée.
 
 Comme précédemment, soyez courtois et décrivez le mieux possible votre demande.
 
-## Suggestion Box
+### Suggestion Box
 
 La Suggestion Box vous permet de suggérer de nouvelles fonctionnalités. Elle est uniquement en anglais.
 
@@ -59,7 +59,7 @@ Dans cet objectif, il vous est d'abord demandé de rechercher parmi les demandes
 
 Dans le cas contraire, vous pourrez créer une nouvelle suggestion. Soyez précis afin que votre demande puisse être considérée par d'autres utilisateurs.
 
-# Contribuer
+## Contribuer
 
 D'autres outils et ressources sont accessibles si vous souhaitez contribuer à BlueMind. Consultez notre [Guide du développeur](/Guide_du_développeur/) : [Contribuer à BlueMind](/Guide_du_développeur/Contribuer_à_BlueMind/)
 

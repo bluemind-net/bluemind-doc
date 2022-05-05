@@ -1,6 +1,6 @@
 ---
 title: "calDav/cardDav Server Administration"
-confluence_id: 79863364
+confluence_id: 57771794
 position: 60
 ---
 # calDav/cardDav Server Administration
@@ -9,18 +9,19 @@ position: 60
  
 
 
-# Adding DNS SRV records
+## Adding DNS SRV records
 
-## Calendar (calDav)
+### Calendar (calDav)
 
 The DNS domain configuration must be modified to allow the external network to recognize the BlueMind server *bm.mydomain.com* as the calDav server for the domain *mydomain.com*.
 
 The following SRV records must be added:
 
-
 | Key | Example |
 | --- | --- |
-| `_caldavs._tcp` | 
+| 
+`_caldavs._tcp`
+ | 
 
 ```
 \_caldavs.\_tcp 86400 IN SRV 0 1 443 server.example.com
@@ -28,17 +29,17 @@ The following SRV records must be added:
 
  |
 
-
-## Contacts (cardDav)
+### Contacts (cardDav)
 
 Similarly as for Calendar, the domain's DNS configuration must be modified to allow the external server to recognize the BlueMind server *bm.mydomain.com* as the cardDav server for the domain *mydomain.com*.
 
 The following SRV records must be added:
 
-
 | Clé | Exemple |
 | --- | --- |
-| `_carddavs._tcp` | 
+| 
+`_carddavs._tcp`
+ | 
 
 ```
 \_carddavs.\_tcp 86400 IN SRV 0 1 443 bm.mydomain.com

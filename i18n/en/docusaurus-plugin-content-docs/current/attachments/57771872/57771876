@@ -1,0 +1,14 @@
+# Pull base image.
+FROM debian:wheezy
+
+MAINTAINER Anthony Prades <anthony.prades@blue-mind.net>
+
+RUN \
+  cd /tmp && \
+  apt-get update && \
+  apt-get install --force-yes -y dpkg-dev openjdk-6-jdk git python \
+    cdbs debhelper ant postgresql devscripts unzip nginx && \
+  rm -rf /var/lib/apt/lists/*
+
+ENTRYPOINT ["/bluemind/bluemind-build.sh"]
+

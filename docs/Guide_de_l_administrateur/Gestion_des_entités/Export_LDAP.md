@@ -6,15 +6,14 @@ position: 66
 # Export LDAP
 
 
-# Présentation
+## Présentation
 
 BlueMind permet d'exporter son annuaire au format LDAP afin d'être vu et consultable par d'autres applications comme un annuaire LDAP.
 
 
-# Procédure
+## Procédure
 
-1 
-installer les paquets nécessaires sur le serveur hébergeant BlueMind :
+1. installer les paquets nécessaires sur le serveur hébergeant BlueMind :
 
 
 **
@@ -41,8 +40,7 @@ yum install bm-plugin-admin-console-ldap-export bm-plugin-core-ldap-export
 ```
 
 
-1 
-Redémarrer BlueMind :
+2. Redémarrer BlueMind :
 
 
 ```
@@ -50,8 +48,7 @@ bmctl restart
 ```
 
 
-1 
-Sur le serveur sur lequel on souhaite faire tourner l'annuaire LDAP (cela peut-être le serveur BlueMind lui-même ou un serveur séparé), installer le paquet *bm-ldap-role* :
+3. Sur le serveur sur lequel on souhaite faire tourner l'annuaire LDAP (cela peut-être le serveur BlueMind lui-même ou un serveur séparé), installer le paquet *bm-ldap-role* :
 
 
 **
@@ -78,17 +75,17 @@ yum install bm-ldap-role
 ```
 
 
-1 Attribuer le rôle au serveur. Pour cela :
-  - connecté en tant que superadministrateur admin0, se rendre dans la console d'administration > Serveurs de l'application
-  - s'il s'agit d'un serveur séparé et qu'il n'existe pas encore, l'ajouter au moyen du bouton Nouveau > Serveur ![](../../attachments/57771632/57771638.png)
-  - sélectionner le serveur et se rendre dans l'onglet "Rôles du serveur"
-  - dans la section "Annuaires", cocher «Annuaire LDAP maître généré par BlueMind»:![](../../attachments/57771632/57771637.png)
-1 Valider en cliquant sur «Enregistrer»
-1 Associer ensuite ce serveur au(x) domaine(s) souhaité(s).Pour cela, se rendre dans la partie Gestion du domaine > Domaines Supervisés et :
-  - sélectionner le domaine à exporter au format LDAP
-  - se rendre dans l'onglet "Services BM"
-  - sélectionner le serveur pour le service de même libellé "Annuaire LDAP maître généré par BlueMind"  :![](../../attachments/57771632/57771636.png)
-  - Valider en cliquant sur «Enregistrer»
+4. Attribuer le rôle au serveur. Pour cela :
+    - connecté en tant que superadministrateur admin0, se rendre dans la console d'administration > Serveurs de l'application
+    - s'il s'agit d'un serveur séparé et qu'il n'existe pas encore, l'ajouter au moyen du bouton Nouveau > Serveur ![](../../attachments/57771632/57771638.png)
+    - sélectionner le serveur et se rendre dans l'onglet "Rôles du serveur"
+    - dans la section "Annuaires", cocher «Annuaire LDAP maître généré par BlueMind»:![](../../attachments/57771632/57771637.png)
+5. Valider en cliquant sur «Enregistrer»
+6. Associer ensuite ce serveur au(x) domaine(s) souhaité(s).Pour cela, se rendre dans la partie Gestion du domaine > Domaines Supervisés et :
+    - sélectionner le domaine à exporter au format LDAP
+    - se rendre dans l'onglet "Services BM"
+    - sélectionner le serveur pour le service de même libellé "Annuaire LDAP maître généré par BlueMind"  :![](../../attachments/57771632/57771636.png)
+    - Valider en cliquant sur «Enregistrer»
 Répéter l'opération pour chaque domaine souhaité.
 
 

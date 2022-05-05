@@ -1,16 +1,16 @@
 ---
-title: "Rolling out BlueMind 4.0: What to Watch Out For"
-confluence_id: 79862651
+title: "Rolling out BlueMind 4.0: what to watch out for"
+confluence_id: 57771184
 position: 38
 ---
-# Rolling out BlueMind 4.0: What to Watch Out For
+# Rolling out BlueMind 4.0: what to watch out for
 
 
-# Introduction
+## Introduction
 
 BlueMind's version 4.0 incorporates major upgrades in terms of architecture including on the one hand, native Outlook support and on the other hand data replication to prepare the mail system's data for Outlook and other uses (new webmail, mobiles devices in particular).
 
-# Replication
+## Replication
 
 Replication -- one active one for each [mail shard](/Guide_d_installation/Installation/Installation_avec_répartition_des_données_sur_plusieurs_serveurs/) (and therefore one for each [mailbox-role](/Guide_de_l_administrateur/Configuration/Gestion_des_serveurs/)) – is what allows Cyrus to send a copy of messages to the bm-core service. The bm-core service uses replication to retrieve the necessary message metadata for bm-eas, bm-mapi and ElasticSearch. This metadata is stored as a database (like Exchange does) and in ElasticSearch.
 
@@ -22,21 +22,17 @@ As a result, you may have migrated an entire mail spool (on the Cyrus side), as 
 - to create filters in user settings or the admin console (the folders are not shown)
 
 
-## Data migration and replication
+### Data migration and replication
 
 Given current BlueMind-Outlook stability with the MAPI protocol, migrating data through a PST upload in Outlook is not an option. As a whole, server-side data migration is safer and the result will be more consistent.
 Recommended data migration solutions include:
-- 
-Exchange migration tool
+- Exchange migration tool
 
-- 
-server-side PST migration
+- server-side PST migration
 
-- 
-IMAP synchronization tools with imapsync (see recommendations below)
+- IMAP synchronization tools with imapsync (see recommendations below)
 
-- 
-Domino migration tool
+- Domino migration tool
 
 
 Replication extracts and stores mail spool information into BlueMind objects that must exist beforehand. For replication to work properly, only data known by BlueMind must be fed into Cyrus: domains and mailboxes must therefore be created in the admin console (or via API), ** **before** **the mailboxes are filled with data. 
@@ -55,7 +51,7 @@ This link shows an example of data migration which you can adapt depending on th
 
 As a whole, and in particular for version 4.0, we strongly recommend that you test data migration on a test server, which will be re-installed or destroyed later. The migration process, once verified, can be done on a blank server (or domain), with no trace of the operations carried out during testing. The LDAP/AD connection, imapsync or Exchange data migration, once prototyped successfully, can be replayed on the production server.
 
-# BlueMind archiving system redesign
+## BlueMind archiving system redesign
 
 From version 4, message archiving (HSM) is handled natively by Cyrus (see [Archivage](https://forge.bluemind.net/confluence/display/DA/.Archivage+vBM-4.0) for more details).
 
@@ -65,96 +61,96 @@ This has significant impact on mail storage spaces and typically entails lengthy
 
 The detailed upgrade to version 4 procedure describes the operations required for archive migration. It is available in our Partner Space:  [Procédure de mise à jour depuis BlueMind 3.5 vers BlueMind 4](https://forge.bluemind.net/confluence/pages/viewpage.action?pageId=58598516). Please make sure that you read it carefully. 
 
-# Storage space sizing
+## Storage space sizing
 
 Several architecture reorganization and changes to how BlueMind works affects BlueMind server storage space sizing. You must be extremely careful to avoid "full disks" which can interfere, block or cause the upgrade to fail. These are the storage changes that can impact your BlueMind install:
 
-- 
-*/var/spool/bm-replication*: anticipate a significant increase in used space. Your space available must be equal to 25% of */var/spool/cyrus/data*
+- */var/spool/bm-replication*: anticipate a significant increase in used space. Your space available must be equal to 25% of */var/spool/cyrus/data*
 
-- 
-*/var/spool/bm-elasticsearch*: 20 to 25% of the mail volume in two folders */var/spool/cyrus/data*  and  */var/spool/bm-hsm*
+- */var/spool/bm-elasticsearch*: 20 to 25% of the mail volume in two folders */var/spool/cyrus/data*  and  */var/spool/bm-hsm*
 
-- 
-*/var/lib/postgresql*: the database must be able to grow by 10% of mail volume (*/var/spool/cyrus/data*  et  */var/spool/bm-hsm*)
+- */var/lib/postgresql*: the database must be able to grow by 10% of mail volume (*/var/spool/cyrus/data*  et  */var/spool/bm-hsm*)
 
-- 
-*/var/log/bm/replication.log  *can also grow significantly. The corresponding partition must have at least 1Gb of available space.
+- */var/log/bm/replication.log  *can also grow significantly. The corresponding partition must have at least 1Gb of available space.
 
 
 In terms of memory resources, to allow the ElasticSearch service to work during the upgrade, it must be allocated an additional 1.5Go.
 
 These extra storage space needs are laid out in:  [Procédure de mise à jour depuis BlueMind 3.5 vers BlueMind 4](https://forge.bluemind.net/confluence/pages/viewpage.action?pageId=58598516).
 
-# BlueMind without MAPI
+## BlueMind without MAPI
 
 This option has limitations BlueMind isn't able to override. This is why BlueMind has developed a native connection with Outlook, which provides a better implementation of Outlook features.
 
 If your users are used to the Outlook connector and happy with it, it can be left as is. Otherwise, we recommend that you progressively move to Outlook via MAPI.
 
-#### Outlook
+##### Outlook
 
 Without the MAPI service, Outlook continues to work with the connector [like in version 3.5](https://forge.bluemind.net/confluence/display/BM35/Synchronisation+avec+Outlook). Administrators must carry out the same [provisioning procedure for the Outlook connector](https://forge.bluemind.net/confluence/display/BM35/Mise+a+disposition+du+connecteur+Outlook) so that users can download and install it on their machines.
 
 Outlook doesn't understand or translate  **folder mapping** . Default folders such as Inbox, Sent, etc. are shown in English because they are picked up via the IMAP protocol without being translated. This doesn't interfere with syncing from a technical point of view but may be disturbing for some users. You should note that MAPI handles mapping correctly.
 
-#### Cyrus
+##### Cyrus
 
 From version 4.1, the Cyrus folder structure is checked on BlueMind startup and an alert – a warning in logs – is sent if an inconsistency is found.
 
-# BlueMind with MAPI
+## BlueMind with MAPI
 
-#### Autodiscover
+##### Autodiscover
 
 From version 4.1, an autodiscover check is carried out on all installation domains and aliases. If no autodiscover works, then MAPI service will not start. If at least one autodiscover works, then the service starts in order to serve accessible domains.
 
 As a result, for each domain and alias, the MAPI server attempts a query to `domain.loc/autodiscover` and `autodiscover.domain.loc/autodiscover` and checks that itself receives the query. 
 
-A test is also carried out on the DNS server to check the recording service `_autodiscover.\_tcp.domain.loc` and `_autodiscover.&lt;all aliases>`.
-:::important
+A test is also carried out on the DNS server to check the recording service `_autodiscover.\_tcp.domain.loc` and `_autodiscover.<all aliases>`.
+
+
+:::info
 
 To make sure that the server is configured properly and can be reached at these urls, you can use Microsoft's online troubleshooting tool: [https://testconnectivity.microsoft.com/](https://testconnectivity.microsoft.com/)
 
 :::
 
-#### Cyrus
+##### Cyrus
 
 From version 4.1, the Cyrus folder structure is checked on BlueMind startup and an alert – a warning in logs – is sent if an inconsistency is found.
 
-## Outlook
+### Outlook
 
-### Recommendations and best practice
+#### Recommendations and best practice
 
 To work in its current version, Outlook must not be polluted by "objects" that do not come from BlueMind. This is why a blank Outlook profile must be created and no other Exchange/Office365 should be configured on the same profile.
 
 In addition, registry keys must be applied, among other things to avoid network configuration conflicts (DNS, ActiveDirectory). Registry keys can be found here: XXXXXXXXX
 
-### Creating a blank Outlook profile
+#### Creating a blank Outlook profile
 
 To enable connector-free Outlook, first make sure you follow the server-side implementation steps described in our documentation:
 
-##### [Implementing MAPI for Outlook](/Guide_de_l_administrateur/La_souscription_BlueMind/Mise_en_œuvre_de_MAPI_pour_Outlook/)
+###### [Implementing MAPI for Outlook](/Guide_de_l_administrateur/La_souscription_BlueMind/Mise_en_œuvre_de_MAPI_pour_Outlook/)
 
 **In particular, make sure you read the section about server communications prerequisites: autodiscover must work properly for Outlook to be able to communicate with BlueMind.**
 
 Then, for each workstation, follow our instructions on creating an Outlook profile:
 
-##### [Synchronization with Outlook](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/)
+###### [Synchronization with Outlook](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/)
 
 In this case, make sure you first confirm url **accessibilit****y from the workstation**.
 
-### Limitations of Outlook with BlueMind
+#### Limitations of Outlook with BlueMind
 
-Known limitations with Outlook are listed in our page on BlueMind's **  [compatibility with client software and devices](/FAQ_Foire_aux_questions_/Compatibilité/#Compatibility-compat-outlook). **
+Known limitations with Outlook are listed in our page on BlueMind's **  [compatibility with client software and devices](/FAQ_Foire_aux_questions_/Compatibilité/#Compatibilite-compat-outlook). **
 
-# If you encounter issues
+## If you encounter issues
 
-## Versions 4.0, 4.1, 4.2, 4.3 and 4.4
+### Versions 4.0, 4.1, 4.2, 4.3 and 4.4
 
 Many improvements have been made to BlueMind since version 4.0. All BlueMind versions earlier than 4.5 must be updated quickly to benefit from all the latest updates.
 
-## Checking that replication works properly
-:::important
+### Checking that replication works properly
+
+
+:::info
 
 Note
 
@@ -180,7 +176,7 @@ On the contrary, if this number is higher than the number of IMAP backends, it u
 To check if replication is working, you can perform an operation on an email (e.g. change it to unread) and using a `tail` command, check whether, at the same time, a line looking like the one below is added to the `/var/log/bm/replication.log` log file:
 
 
-## Replication progress
+### Replication progress
 
 We are planning tick improvements in future versions which will allow you to check the replication process's progress.
 
@@ -199,18 +195,20 @@ To start the replication on idle (unused) mailboxes, you must place them in the 
 
 `$DOMAIN_UID$` being the domain name, e.g.: [bluemind.net](http://bluemind.net)
 
-# Known limitations
+## Known limitations
 
 You can find a list of known limitations in our page on [BlueMind compatibility](/FAQ_Foire_aux_questions_/Compatibilité/).
 
-## Updating from BlueMind 4.0 to 4.x
+### Updating from BlueMind 4.0 to 4.x
 
-### Inbox subfolders
+#### Inbox subfolders
 
 In BlueMind versions 4.0.x, folders created in the inbox by Outlook are not mailbox folders but virtual folders.
 
 **BlueMind 4.1 brings inbox subfolder support**.
-:::important
+
+
+:::info
 
 Updating from 4.0.x to 4.x
 

@@ -1,12 +1,12 @@
 ---
 title: "Synchronisation IMAP sous Windows Phone"
 confluence_id: 57771161
-position: 74
+position: 76
 ---
 # Synchronisation IMAP sous Windows Phone
 
 
-:::important
+:::info
 
 Ce guide a été réalisé avec un Nokia Lumia 520 sous Lumia Black (Windows Phone 8.0)
 
@@ -15,7 +15,7 @@ Pour les autres téléphones Windows Phone, les opérations sont les mêmes mêm
 :::
 
 
-# Configuration du nouveau compte courrier
+## Configuration du nouveau compte courrier
 
 Sur l'écran d'accueil ou depuis la liste des applications, se rendre dans les paramètres :
 

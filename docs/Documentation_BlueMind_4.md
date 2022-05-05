@@ -13,10 +13,10 @@ slug: /
 Bienvenue dans l'espace documentaire de BlueMind 4, solution complète et OpenSource de messagerie d’entreprise, d’agendas et de travail collaboratif.
 
 
-#### ![](attachments/57770074/58592294.jpg) [Nouveautés BlueMind 4](/Nouveautés_BlueMind_4.0_à_4.3/)
+##### ![](attachments/57770074/58592294.jpg) [Nouveautés BlueMind 4](/Nouveautés_BlueMind_4.0_à_4.3/)
 
 
-#### ![](attachments/57770052/57770053.jpg) [Premiers pas avec BlueMind](/Premiers_pas_avec_BlueMind/)
+##### ![](attachments/57770052/57770053.jpg) [Premiers pas avec BlueMind](/Premiers_pas_avec_BlueMind/)
 
 
 - [Débuter avec le webmail](/Premiers_pas_avec_BlueMind/Débuter_avec_le_webmail/)
@@ -25,11 +25,12 @@ Bienvenue dans l'espace documentaire de BlueMind 4, solution complète et OpenSo
 - [Débuter avec les tâches](/Premiers_pas_avec_BlueMind/Débuter_avec_les_tâches/)
 
 
-#### ![](attachments/57770052/57770053.jpg) [Guide de l'utilisateur](/Guide_de_l_utilisateur/)
+##### ![](attachments/57770052/57770053.jpg) [Guide de l'utilisateur](/Guide_de_l_utilisateur/)
 
 
-- [La messagerie](/Guide_de_l_utilisateur/La_messagerie/)
-- [Les contacts](/Guide_de_l_utilisateur/Les_contacts/)
+- [Messagerie BlueMind - New webmail](/Guide_de_l_utilisateur/Messagerie_BlueMind/)
+- [La messagerie : l'ancien Webmail](/Guide_de_l_utilisateur/La_messagerie/)
+- [Les contacts [OLD]](/Guide_de_l_utilisateur/Les_contacts/)
 - [L'agenda](/Guide_de_l_utilisateur/L_agenda/)
 - [Les tâches](/Guide_de_l_utilisateur/Les_tâches/)
 - [La téléphonie](/Guide_de_l_utilisateur/La_téléphonie/)
@@ -42,7 +43,7 @@ Bienvenue dans l'espace documentaire de BlueMind 4, solution complète et OpenSo
 - [Configuration des périphériques mobiles](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/)
 
 
-#### ![](attachments/57770052/57770053.jpg) [Guide d'installation](/Guide_d_installation/)
+##### ![](attachments/57770052/57770053.jpg) [Guide d'installation](/Guide_d_installation/)
 
 
 - [Dimensionnement matériel](/Guide_d_installation/Dimensionnement_matériel/)
@@ -55,7 +56,7 @@ Bienvenue dans l'espace documentaire de BlueMind 4, solution complète et OpenSo
 - [Mise à jour de BlueMind](/Guide_d_installation/Mise_à_jour_de_BlueMind/)
 
 
-#### ![](attachments/57770052/57770053.jpg) [Guide de l'administrateur](/Guide_de_l_administrateur/)
+##### ![](attachments/57770052/57770053.jpg) [Guide de l'administrateur](/Guide_de_l_administrateur/)
 
 
 - [Présentation du produit](/Guide_de_l_administrateur/Présentation_du_produit/)
@@ -70,7 +71,7 @@ Bienvenue dans l'espace documentaire de BlueMind 4, solution complète et OpenSo
 - [Résolution de problèmes](/Guide_de_l_administrateur/Résolution_de_problèmes/)
 
 
-#### ![](attachments/57770052/57770053.jpg) [Guide du développeur](https://forge.bluemind.net/confluence/display/LATEST/Guide+du+developpeur)
+##### ![](attachments/57770052/57770053.jpg) [Guide du développeur](https://forge.bluemind.net/confluence/display/LATEST/Guide+du+developpeur)
 
 
 - [Construction de BlueMind](/Guide_du_développeur/Construction_de_BlueMind/)
@@ -82,7 +83,7 @@ Bienvenue dans l'espace documentaire de BlueMind 4, solution complète et OpenSo
 - [Installation d'une VM Android](/Guide_du_développeur/Installation_d_une_VM_Android/)
 
 
-#### ![](attachments/57770052/57770053.jpg) [Base de connaissance](/Base_de_connaissance/)
+##### ![](attachments/57770052/57770053.jpg) [Base de connaissance](/Base_de_connaissance/)
 
 
 - [Changement d'adresse IP d'un serveur BlueMind](/Base_de_connaissance/Changement_d_adresse_IP_d_un_serveur_BlueMind/)

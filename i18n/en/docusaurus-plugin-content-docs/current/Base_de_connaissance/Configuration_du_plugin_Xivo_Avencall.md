@@ -1,34 +1,33 @@
 ---
 title: "Setting Up the Xivo/Avencall Plugin"
-confluence_id: 79863502
+confluence_id: 57771915
 position: 48
 ---
 # Setting Up the Xivo/Avencall Plugin
 
 
-# Introduction
+## Introduction
 
 This document shows how to install and configure the BlueMind plugins that allow interconnexion with Avencall's XiVO.
 
 
-# Configuring Xivo
+## Configuring Xivo
 
 - create a *Xuc* user in *Services -> IPBX -> Users*
 - enable the Xivo client for this user using the following:
-  - login: *xuc*
-  - password: *0000*
-- 
-create a *Web Services user* in *Configuration > Web Services Access* using the following settings:
+    - login: *xuc*
+    - password: *0000*
+- create a *Web Services user* in *Configuration > Web Services Access* using the following settings:
 
-  - Login: *xivows*
-  - Password: *xivows*
-  - Host: *empty*
+    - Login: *xivows*
+    - Password: *xivows*
+    - Host: *empty*
 - Make sure that *Multiqueues call stats sharing *is enabled in *Services > Ipbx > Advanced configuration* > *Queues*
 
 
-# Installing the XiVO plugin for BlueMind
+## Installing the XiVO plugin for BlueMind
 
-## Prerequisite
+### Prerequisite
 
 The XUC service must be installed on the Avencall server and set up on port 8090.
 
@@ -50,10 +49,9 @@ xucami {
 ```
 
 
-## Procedure
+### Procedure
 
-1 
-Install the required packages:
+1. Install the required packages:
 **Debian/Ubuntu**
 
 ```
@@ -66,14 +64,14 @@ Install the required packages:
 yum install bm-plugin-core-cti-xivo bm-xivobridge bm-plugin-webserver-cti
 ```
 
-:::important
+
+:::info
 
 In the case of a distributed installation, the `bm-plugin-webserver-cti` package must be installed on the server hosting the `bm-webserver` service.
 
 :::
 
-1 
-Once they are installed, restart BlueMind:
+2. Once they are installed, restart BlueMind:
 
 
 ```
@@ -81,8 +79,7 @@ Once they are installed, restart BlueMind:
 ```
 
 
-1 
-Modify the file `/etc/bm/xivo.ini` with the following information:
+3. Modify the file `/etc/bm/xivo.ini` with the following information:
 
 
 ```
@@ -90,23 +87,22 @@ api.key=<xuc\_api\_key>
 xuc.host=<xuc\_host>:8090
 ```
 
-
 *Note: XUC's default port is 8090 but it might be 9000 on old XUC server versions*
 
 
-# Configuration in BlueMind
+## Configuration in BlueMind
 
-## Domain Configuration
+### Domain Configuration
 
 Still logged in as global admin0:
 
 - Go to System Management > Modify Domain.
 - Select the domain you want to set up to use Xivo.
-- In the "Telephony" tab, enter the relay server:![](../attachments/79863502/79863503.png)
+- In the "Telephony" tab, enter the relay server:![](../attachments/57771915/79856209.png)
 - Save this configuration.
 
 
-# Running a configuration test
+## Running a configuration test
 
 You can test this configuration by simulating a XIVO event using CURL:
 
@@ -131,7 +127,7 @@ Supported statuses are:
 - 8: ringing (blinking red)
 
 
-# Uses and integration
+## Uses and integration
 
 To know more about using and integrating telephony in BlueMind, please see user's guide pages:
 

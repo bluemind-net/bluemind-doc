@@ -6,13 +6,13 @@ position: 56
 # Client PHP
 
 
-# Installation
+## Installation
 
 Le client PHP s'installe pour le moment en récupérant une archive contenant le client, disponible à l'URL suivante : https://pkg.bluemind.net/pkg/&lt;numéro technique de BM>/clients/
 
-# Utilisation
+## Utilisation
 
-## Authentification
+### Authentification
 
 Le client s'initialise avec la classe BMClient :
 
@@ -57,7 +57,7 @@ print "sudo result : ".$token->status
 
 A noter qu'il est aussi possible d'utiliser la clé d'API d'un utilisateur à la place de son login.
 
-## Lister les domaines
+### Lister les domaines
 
 
 ```
@@ -83,7 +83,7 @@ foreach ($domains as $domain)
 ```
 
 
-## Lister les évènements
+### Lister les évènements
 
 
 ```
@@ -131,9 +131,9 @@ foreach ($containers as $container)
 
 Les examples sont disponibles sur notre git : [https://forge.bluemind.net/stash/projects/BA/repos/bluemind-samples/browse/php-api-examples](https://forge.bluemind.net/stash/projects/BA/repos/bluemind-samples/browse/php-api-examples)
 
-## FAQ
+### FAQ
 
-### Problèmes de certificat
+#### Problèmes de certificat
 
 Si vous utilisez un certificat non reconnu, il faut modifier la valeur de CURLOPT_SSL_VERIFYPEER à FALSE dans le fichier BM/GlobalEnv.php
 

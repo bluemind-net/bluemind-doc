@@ -1,17 +1,17 @@
 ---
 title: "Restoring messages deleted by a user"
-confluence_id: 79863561
+confluence_id: 66096543
 position: 74
 ---
 # Restoring messages deleted by a user
 
 
-# Introduction
+## Introduction
 
 From BlueMind 4.4, the trash folder has a "double bottom": there is a delay on the server side during which deleted emails are kept. During that time, users are able to recover messages in Outlook (MAPI-based) or the administrator can recover them in command line.
 
 
-# Procedure
+## Procedure
 
 When a user deletes an email, the Cyrus email server doesn't delete it immediately – the message is marked as deleted and is no longer available but the file is kept.
 
@@ -24,7 +24,8 @@ This means that during that time, the new bm-cli command can be used to retrieve
 bm-cli mail unexpunge
 ```
 
-:::important
+
+:::tip
 
 Why not use Cyrux's unexpunge command?
 
@@ -32,7 +33,7 @@ The bm-cli command is required because the Cyrus "unexpunge" command that seemin
 
 :::
 
-### Restoring a user's messages
+#### Restoring a user's messages
 
 The user John Doe (ID: jdoe@bluemind.loc) wants to recover the emails deleted in the past two days. You can use the following command:
 
@@ -50,7 +51,7 @@ Checked 1 deleted item(s), will restore 1 item(s)
 ```
 
 
-### Restoring messages from a shared mailbox
+#### Restoring messages from a shared mailbox
 
 To restore messages from a shared mailbox, you must log in as a user with writing privileges on that mailbox. Then add the `authn` parameter to the command.
 
@@ -71,15 +72,15 @@ Checked 1 deleted item(s), will restore 1 item(s)
 ```
 
 
-# More on recovering messages
+## More on recovering messages
 
-## Configuration
+### Configuration
 
 The maximum delay between an `expunge` command and an `unexpunge` recovery is configured in Cyrus `/etc/cyrus.conf` under the `delprune` command, -X parameter.
 
 The default delay is 7 days.
 
-## Use
+### Use
 
 You can use several parameters to make a more specific recovery:
 

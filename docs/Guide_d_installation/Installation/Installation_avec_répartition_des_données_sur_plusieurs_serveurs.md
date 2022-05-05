@@ -6,23 +6,24 @@ position: 48
 # Installation avec répartition des données sur plusieurs serveurs
 
 
-# Présentation
+## Présentation
 
 BlueMind 4.0 permet, en plus de la répartition des emails des utilisateurs, de répartir l'ensemble des données des utilisateurs sur plusieurs serveurs qui contiennent à présent une base de données en plus de cyrus.
 
 Ainsi, lorsque l'administrateur choisit de placer les données d'un utilisateur sur un serveur, ce ne sont plus seulement ses messages qui seront placés sur celui-ci mais aussi toutes les données de cet utilisateur qui seront placées dans la base de données de ce serveur (contacts, rendez-vous, paramètres, etc.).
 
 
-# Installation
+## Installation
 
-## Pré-requis
+### Pré-requis
 
 Avoir 2 machines [installées et à jour](/Guide_d_installation/Prérequis_à_l_installation/) dans un OS supporté :
 
 - machine principale qui va recevoir BlueMind
 - machine secondaire qui servira de serveur de stockage des données utilisateurs
 
-:::important
+
+:::tip
 
 Il est possible de répartir les données sur plusieurs serveurs de stockage, il suffira de répéter la préparation du serveur de stockage sur chacun d'entre eux.
 
@@ -30,21 +31,19 @@ Cela pourra être fait avant ou après l'installation du serveur principal, l'or
 
 :::
 
-## Procédure
+### Procédure
 
-### Préparation du serveur de stockage
+#### Préparation du serveur de stockage
 
 Sur le serveur secondaire, destiné à recevoir les données :
 
-1 déposer la souscription dans `/etc/apt/sources.list.d/bm.list`
-1 
-installer le paquet `bm-mailbox-role` :
+1. déposer la souscription dans `/etc/apt/sources.list.d/bm.list`
+2. installer le paquet `bm-mailbox-role` :
 
 
 ```
 aptitude install bm-mailbox-role
 ```
-
 
 Le message suivant peut apparaître selon les paquets déjà installés ou non sur votre système :
 
@@ -118,28 +117,28 @@ Accept this solution? [Y/n/q/?] Y
 ![](../../attachments/57769989/69896490.png) Taper "Y" puis &lt;Entrée> pour accepter la solution qui consiste à conserver ssmtp non installé afin de pouvoir installer Postfix dont BlueMind a besoin
 
 
-### Installation et configuration de BlueMind
+#### Installation et configuration de BlueMind
 
 Sur la machine principale :
 
-1 [installer BlueMind](/Guide_d_installation/Installation/)
-1 lors du [déroulement du Setup Wizard](/Guide_d_installation/Configuration_post_installation/), à l'étape de configuration du domaine, cocher la case "Data Server" et renseigner l'IP du serveur de stockage : ![](../../attachments/57771189/69896574.png)
-1 Poursuivre l'installation
-1 Se connecter à BlueMind en tant que superadministrateur admin0
-1 
-Se rendre dans Gestion du système > Serveurs de l'application : le serveur secondaire doit apparaître et avoir les tags mail/imap et bm/pgsql-data :
+1. [installer BlueMind](/Guide_d_installation/Installation/)
+2. lors du [déroulement du Setup Wizard](/Guide_d_installation/Configuration_post_installation/), à l'étape de configuration du domaine, cocher la case "Data Server" et renseigner l'IP du serveur de stockage : ![](../../attachments/57771189/69896574.png)
+3. Poursuivre l'installation
+4. Se connecter à BlueMind en tant que superadministrateur admin0
+5. Se rendre dans Gestion du système > Serveurs de l'application : le serveur secondaire doit apparaître et avoir les tags mail/imap et bm/pgsql-data :
  ![](../../attachments/57771189/69896573.png)
-:::important
+
+
+:::tip
 
 À ce stade, le nom du serveur est un nom généré, vous pouvez le modifier simplement dans sa fiche de gestion, accessible en cliquant sur la ligne correspondante :
 
 ![](../../attachments/57771189/69896571.png)
 
 :::
-
 Dans la fiche de gestion du serveur, dans l'onglet Rôles, le rôle "Données d'utilisateurs" est bien coché.
 
-1 Se rendre dans Gestion du système > Domaines supervisés > sélectionner le domaine > onglet Messagerie : le serveur est bien sélectionné comme serveur de stockage : ![](../../attachments/57771189/69896572.png)
+6. Se rendre dans Gestion du système > Domaines supervisés > sélectionner le domaine > onglet Messagerie : le serveur est bien sélectionné comme serveur de stockage : ![](../../attachments/57771189/69896572.png)
 
 
 Le serveur est prêt à recevoir les données.

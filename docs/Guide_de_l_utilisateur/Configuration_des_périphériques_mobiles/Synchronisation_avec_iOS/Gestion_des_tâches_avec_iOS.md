@@ -1,28 +1,30 @@
 ---
 title: "Gestion des tâches avec iOS"
 confluence_id: 57771099
-position: 72
+position: 74
 ---
 # Gestion des tâches avec iOS
 
 
-# Présentation
+## Présentation
 
 Vos tâches BlueMind peuvent être synchronisées et gérées sur votre appareil mobile Apple grâce à l'application « Rappels »
-:::important
+
+
+:::info
 
 Ce guide a été réalisé avec un modèle d'IPad, les écrans sont généralement identiques sur tous les produits Apple mais peuvent varier suivant les versions.
 
 :::
 
 
-# Activation
+## Activation
 
 Pour activer la synchronisation des tâches, se rendre dans les réglages > Mail, Contacts, Calendrier > choisir le compte concerné et activer les rappels :
 
 ![](../../../attachments/57771099/57771115.png)
 
-# Consulter ses tâches
+## Consulter ses tâches
 
 Dès l'activation de la fonctionnalité, les tâches sont automatiquement synchronisées et visibles dans l'application.
 
@@ -31,16 +33,16 @@ Celle-ci se présente en 2 colonnes :
 ![](../../../attachments/57771099/57771114.png)
 
 - la colonne de gauche propose les listes de tâches et accès aux fonctionnalités. De haut en bas :
-  - le champs de recherche
-  - listes de tâches de l'utilisateur
-  - les tâches du jour ("Programmé")
-  - actions sur les listes :ajouter, modifier
+    - le champs de recherche
+    - listes de tâches de l'utilisateur
+    - les tâches du jour ("Programmé")
+    - actions sur les listes :ajouter, modifier
 - la colonne de droite présente les tâches de la liste actuellement sélectionnée
 
 
-# Actions sur les tâches
+## Actions sur les tâches
 
-## Créer une tâche
+### Créer une tâche
 
 Pour ajouter une nouvelle liste, taper sur la ligne 1ère ligne disponible précédée du signe '+' en bas de la liste des tâches :
 
@@ -58,13 +60,13 @@ Taper sur l'icône ![](../../../attachments/57771099/57771103.png) en fin de lig
 
 ![](../../../attachments/57771099/57771101.png)
 
-## Marquer comme terminée
+### Marquer comme terminée
 
 Taper sur le bouton radio situé devant la tâche :
 
 ![](../../../attachments/57771099/57771100.png)
 
-## Supprimer une tâche
+### Supprimer une tâche
 
 Passer en mode modification en haut de la liste des tâches :
 
@@ -84,7 +86,7 @@ La tâche a disparu de la liste :
 
 Taper sur "OK" en haut à droite pour valider les modifications et revenir au mode consultation.
 
-# Créer une liste de tâches
+## Créer une liste de tâches
 
 Taper sur « Ajouter une liste » en bas à gauche de l'écran :
 

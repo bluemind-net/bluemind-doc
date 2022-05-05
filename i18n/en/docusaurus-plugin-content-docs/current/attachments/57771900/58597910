@@ -1,0 +1,16 @@
+upstream core2 {
+  ip_hash;
+  server {IP_HOST}:8090;
+}
+
+upstream hps2 {
+  ip_hash;
+  server {IP_HOST}:8090;
+}
+
+server {
+  listen   8090;
+  location / {
+    proxy_pass http://core2/;
+  }
+}

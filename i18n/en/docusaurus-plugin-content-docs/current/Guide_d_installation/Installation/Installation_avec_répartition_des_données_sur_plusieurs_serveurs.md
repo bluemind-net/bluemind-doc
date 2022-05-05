@@ -1,28 +1,29 @@
 ---
 title: "Multi-backend installation"
-confluence_id: 79862656
+confluence_id: 57771189
 position: 48
 ---
 # Multi-backend installation
 
 
-# Presentation
+## Presentation
 
 BlueMind 4.0 allows, in addition to the distribution of user emails, to distribute all user data on several servers which now contain a database in addition to cyrus.
 
 Thus, when the administrator chooses to place a user's data on a server, it is no longer only his or her messages that will be placed on that server, but also all of that user's data that will be placed in that server's database (contacts, appointments, settings, etc.).
 
 
-# Installation
+## Installation
 
-## Prerequisites
+### Prerequisites
 
-Have 2 machines [installed and up to date](https://forge.bluemind.net/confluence/display/BM4/Prerequis+a+l%27installation) in a supported OS:
+Have 2 machines [installed and up to date](/Guide_d_installation/Prérequis_à_l_installation/) in a supported OS:
 
 - main machine that will receive BlueMind
 - secondary machine which will be used as a server to store user data
 
-:::important
+
+:::tip
 
 It is possible to spread the data over several storage servers, it will be sufficient to repeat the preparation of the storage server on each of them.
 
@@ -30,21 +31,19 @@ This can be done before or after the installation of the main server, the order 
 
 :::
 
-## Procedure
+### Procedure
 
-### Preparing the storage server
+#### Preparing the storage server
 
 On the secondary server, intended to receive the data :
 
-1 drop the subscription in `/etc/apt/sources.list.d/bm.list`
-1 
-install the package `bm-mailbox-role` :
+1. drop the subscription in `/etc/apt/sources.list.d/bm.list`
+2. install the package `bm-mailbox-role` :
 
 
 ```
 aptitude install bm-mailbox-role
 ```
-
 
 The following message may appear depending on the packages already installed or not on your system:
 
@@ -115,31 +114,31 @@ Accept this solution? [Y/n/q/?] Y
 ```
 
 
-![](../../attachments/79862656/79862657.png) Type "Y" then &lt;Enter> to accept the solution of keeping ssmtp uninstalled so that Postfix can be installed which BlueMind needs
+![](../../attachments/57771189/69896570.png) Type "Y" then &lt;Enter> to accept the solution of keeping ssmtp uninstalled so that Postfix can be installed which BlueMind needs
 
 
-### Installation and configuration of BlueMind
+#### Installation and configuration of BlueMind
 
 On the main server:
 
-1 [install BlueMind](https://forge.bluemind.net/confluence/display/BM4/Installation)
-1 During [the Setup Wizard](https://forge.bluemind.net/confluence/display/BM4/Configuration+post-installation), at the domain configuration stage, check the "Data Server" box and enter the IP of the storage server:![](../../attachments/79862656/79862661.png)
-1 Continue with the installation
-1 Log in to BlueMind as superadministrator admin0
-1 
-Go to System Management > Application Servers: the secondary server should appear and have the tags mail/imap and bm/pgsql-data :
-![](../../attachments/79862656/79862660.png)
-:::important
+1. [install BlueMind](/Guide_d_installation/Installation/)
+2. During [the Setup Wizard](/Guide_d_installation/Configuration_post_installation/), at the domain configuration stage, check the "Data Server" box and enter the IP of the storage server:![](../../attachments/57771189/69896574.png)
+3. Continue with the installation
+4. Log in to BlueMind as superadministrator admin0
+5. Go to System Management > Application Servers: the secondary server should appear and have the tags mail/imap and bm/pgsql-data :
+![](../../attachments/57771189/69896573.png)
+
+
+:::tip
 
 At this stage, the name of the server is a generated name, you can modify it simply in its management form, accessible by clicking on the corresponding line:
 
-![](../../attachments/79862656/79862658.png)
+![](../../attachments/57771189/69896571.png)
 
 :::
-
 In the server management form, in the Roles tab, the "User data" role is checked.
 
-1 Go to System Management > Manage Domains > select the domain > Mail tab: the server is selected as *Mailbox storage server*:![](../../attachments/79862656/79862659.png)
+6. Go to System Management > Manage Domains > select the domain > Mail tab: the server is selected as *Mailbox storage server*:![](../../attachments/57771189/69896572.png)
 
 
 The server is ready to receive data.

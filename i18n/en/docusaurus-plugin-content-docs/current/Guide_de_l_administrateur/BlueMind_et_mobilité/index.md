@@ -1,6 +1,6 @@
 ---
 title: "BlueMind and Mobility"
-confluence_id: 79863322
+confluence_id: 57771752
 position: 48
 ---
 # BlueMind and Mobility

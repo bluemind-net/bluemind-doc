@@ -1,12 +1,12 @@
 ---
 title: "Synchronizing with Windows Phone"
-confluence_id: 79862603
-position: 68
+confluence_id: 57771136
+position: 70
 ---
 # Synchronizing with Windows Phone
 
 
-# Introduction
+## Introduction
 
 ActiveSync synchronization is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars while IMAP is restricted to messages.
 
@@ -15,7 +15,7 @@ To find out more, go to the page [Synchronisation des périphériques externes](
  
 
 
-:::important
+:::info
 
 This guide was written using a Nokia Lumia 520 running Lumia Black (Windows Phone 8.0).
 
@@ -25,8 +25,10 @@ For other Windows Phone devices, the process is the same although screenshots ma
 
  
 
-# Setting up an account
-:::important
+## Setting up an account
+
+
+:::info
 
 Being able to connect a** **smartphone to the BlueMind server depends on the authorization policy defined by administrators. Make sure you check with them whether you are indeed authorized to connect with a smartphone. In particular, some configurations require an administrator's manual authorization.
 
@@ -36,7 +38,7 @@ Please refer to the following page: [Configuring the EAS server](/Guide_de_l_adm
 
  
 
-## Creating an account
+### Creating an account
 
 From the home screen or the list of applications, go to settings:
 
@@ -78,7 +80,7 @@ Once this has been corrected, a connection with the server should be established
 
 ![](https://forge.blue-mind.net/confluence/download/attachments/8552776/windowsphone_08-09_en.png?version=2&modificationDate=1410530128470&api=v2)
 
-## Selecting which items to synchronize
+### Selecting which items to synchronize
 
 Once your account is set up correctly, you can customize its name, select which items to synchronize and how often (as items arrive, every 30 mins, 1 hour, etc. or for an extended period e.g. the last 7 days, the last month, etc.):
 
@@ -90,9 +92,10 @@ Access to BlueMind Mail is shown on the home screen and shows the number of unre
 
 All account data is synchronized and available: messages, contacts, calendar:
 
-![](../../../attachments/79862603/79862606.png)
 
-# Forcing the calendar to refresh
+![](../../../attachments/57771136/57771139.png)
+
+## Forcing the calendar to refresh
 
 To force the calendar to synchronize:
 
@@ -101,7 +104,7 @@ To force the calendar to synchronize:
 - Tap "Synchronize" in the menu that appears:
 
 
-![](../../../attachments/79862603/79862604.png)
+![](../../../attachments/57771136/57771137.png)
 
 
  

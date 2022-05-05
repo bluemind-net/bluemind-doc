@@ -8,7 +8,7 @@ position: 46
 
 Afin de simplifier la mise en place d'un projet de plugin BlueMind, un archetype Maven est disponible dans le dépôt BlueMind.
 
-# Créer le projet
+## Créer le projet
 
 Pour créer le projet, exécuter la commande suivante :
 
@@ -43,13 +43,14 @@ package: net.bluemind.filehosting.filesystem
 project-artifactId: filehosting.filesystem
 ```
 
-:::important
+
+:::info
 
 Il n'est pas nécessaire de préfixer l'artifactId par "net.bluemind"
 
 :::
 
-# Construire le projet
+## Construire le projet
 
 Le projet créé contiendra un projet maven parent contenant lui-même 2 sous-modules : un pour l'implémentation, l'autre pour les tests unitaires et d'intégration.
 

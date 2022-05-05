@@ -1,21 +1,21 @@
 ---
 title: "Building BlueMind"
-confluence_id: 79863443
+confluence_id: 57771872
 position: 40
 ---
 # Building BlueMind
 
 
-# Introduction
+## Introduction
 
 BlueMind source code is compiled by a continuous integration server, and binary installers are downloadable from our site to make the process as simple as possible. However, it is possible to compile BlueMind manually by following the instructions below.
 
-# Prerequisites
+## Prerequisites
 
 BlueMind must be build with Java 8
 
 
-# Fetching and building code
+## Fetching and building code
 
 BlueMind code is published here: [https://forge.bluemind.net/stash/projects/BM/repos/bluemind-public](https://forge.bluemind.net/stash/projects/BM/repos/bluemind-public). It is a public copy of our internal repository which follows the following guidelines:
 
@@ -36,9 +36,9 @@ mvn clean install -Dmaven.test.skip=true
 
 All BlueMind binary artifacts will be installed in your local maven repository.
 
-# Dependancies
+## Dependancies
 
-## bm-cyrus
+### bm-cyrus
 
 
 ```
@@ -48,7 +48,7 @@ cd bm-cyrus-imapd
 ```
 
 
-## bm-nginx
+### bm-nginx
 
 
 ```
@@ -58,11 +58,11 @@ cd bm-nginx
 ```
 
 
-# Environment
+## Environment
 
 Installing packages on a server that meets the prerequisites is not enough to to have a working BlueMind installation. The following steps must additionally be performed (convenience bm-installwizard package included in the installers does just this).
 
-## bm.ini configuration file
+### bm.ini configuration file
 
 The file /etc/bm/bm.ini must be created with the following content (to be tuned to your configuration):
 
@@ -79,13 +79,13 @@ password = "bj"
 ```
 
 
-## Postgresql database
+### Postgresql database
 
 The following instructions are related to postgresql 9.5, to be tuned to your DBMS version.
 
 We propose a configuration that you can adapt to your needs. Replace the following files in /etc/postgresql/9.5/main/:
 
-[&lt;!-- TODO incorrect embedded file link -->pg_hba.conf](/confluence/download/attachments/79863443/pg_hba.conf?version=1&modificationDate=1644233543367&api=v2) [&lt;!-- TODO incorrect embedded file link -->postgresql.conf](/confluence/download/attachments/79863443/postgresql.conf?version=1&modificationDate=1644233543338&api=v2)
+[&lt;!-- TODO incorrect embedded file link -->pg_hba.conf](/confluence/download/attachments/57771872/pg_hba.conf?version=1&modificationDate=1576233027500&api=v2) [&lt;!-- TODO incorrect embedded file link -->postgresql.conf](/confluence/download/attachments/57771872/postgresql.conf?version=1&modificationDate=1576233027079&api=v2)
 
 The postgresql.conf file must be edited to set the value of max_connections option. The recommended value being: &lt;NB CORES> * 10 + 10
 
@@ -125,7 +125,7 @@ bmctl restart
 
 Finally, we recommend that you set the value kernel.shmmax=300000 in /etc/sysctl.conf.
 
-# nginx configuration
+## nginx configuration
 
 The bm-webmail and bm-client-access files (in /etc/nginx/sites-available folder) must be edited to replace all  "`${externalUrl}`" occurences with the server external URL (as specified in bm.ini), then symlinked to `/etc/nginx/sites-enabled`.
 

@@ -1,14 +1,17 @@
 ---
 title: "Installation Prerequisites"
-confluence_id: 79862653
+confluence_id: 57771186
 position: 40
 ---
 # Installation Prerequisites
 
 
-# System
+## System
 
-**Available Memory**
+**Available Memory
+
+
+**
 
 BlueMind's default configuration requires at least **12Gb**.
 
@@ -30,12 +33,16 @@ en\_US.utf8
 
 
 **Linux distribution**
-:::important
+
+
+:::info
 
 **BlueMind requires a blank, dedicated server or virtual machine.**
 
 :::
-:::important
+
+
+:::info
 
 BlueMind doesn't support LXC technology, you should user KVM.
 
@@ -54,7 +61,9 @@ BlueMind requires a **64-bit** version of supported distributions (for Ubuntu, 
 
 
 ** from BlueMind 4.3.0*
-:::important
+
+
+:::info
 
 Repository signature
 
@@ -71,7 +80,9 @@ curl https://pkg.bluemind.net/bluemind-deb.asc | apt-key add -
 Otherwise, a warning may come up during earlier version updates. **Please note that this will not disrupt updates**.
 
 :::
-:::important
+
+
+:::info
 
 Ubuntu: universe repositories
 
@@ -91,13 +102,13 @@ apt update
 
 To ensure that the installation script is able to run commands with elevated privileges (*sudo*), the `requiretty` directive must not be enabled in the `/etc/sudoers` configuration file. If it is present, you must remove it or keep it as a comment.
 
-# Network & DNS
+## Network & DNS
 
-## IP address
+### IP address
 
 The server must have a static IP, system-defined or supplied by a DHCP server.
 
-## Hostname
+### Hostname
 
 The BlueMind server hostname must be configured correctly, and the server name must be resolvable by name from another machine.
 
@@ -110,8 +121,10 @@ mail
 ```
 
 
-![](../attachments/79861210/79861231.png) must return the short system name, e.g. here: mail
-:::important
+![](../attachments/57769989/69896490.png) must return the short system name, e.g. here: mail
+
+
+:::info
 
 For versions **preceding 4.0.5,** the short name must be returned by the `hostname` command without any options:
 
@@ -133,7 +146,7 @@ mail.blue-mind.net
 ```
 
 
-![](../attachments/79861210/79861231.png) must return the fully qualified system name (FQDN), e.g. here: mail.blue-mind.net
+![](../attachments/57769989/69896490.png) must return the fully qualified system name (FQDN), e.g. here: mail.blue-mind.net
 
 The hostname also has to be properly set in the server's `/etc/hosts` file:
 
@@ -143,24 +156,25 @@ IP\_SERVER mail.blue-mind.net mail
 ```
 
 
-## Network cards
+### Network cards
 
 If your server has several network cards, the first one (eth0) must bear the BlueMind server's external IP address.
 
-# Partitioning
+## Partitioning
 
 The guidelines below are not required but recommended to make your server's maintenance more straightforward.
 
-
-     | mount point | description | type |
+| mount point | description | type |
 | --- | --- | --- |
 | NFS | block device |
-| / | root | (tick) | (tick) |
-| /var/spool/cyrus | emails | (error) | (tick) |
-| /var/spool/bm-hsm | archived emails | (tick) | (tick) |
-| /var/spool/bm-elasticsearch | search index | (error) | (tick) |
-| /var/spool/bm-mail | email sending via EAS/mapi~2Gb | (tick) | (tick) |
-| /var/log | logs | (tick) | (tick) |
-| /var/backups/bluemind | backups | (tick) | (tick) |
+| / | root |  |  |
+| /var/spool/cyrus | emails |  |  |
+| /var/spool/bm-hsm | archived emails |  |  |
+| /var/spool/bm-elasticsearch | search index |  |  |
+| /var/spool/bm-mail | email sending via EAS/mapi | 
 
+
+ | ~2Gb |  |  |
+| /var/log | logs |  |  |
+| /var/backups/bluemind | backups |  |  |
 

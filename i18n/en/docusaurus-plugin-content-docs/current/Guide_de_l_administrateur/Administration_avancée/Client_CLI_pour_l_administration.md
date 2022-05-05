@@ -1,18 +1,18 @@
 ---
 title: "CLI Admin Client"
-confluence_id: 79863366
+confluence_id: 57771796
 position: 64
 ---
 # CLI Admin Client
 
 
-# Introduction
+## Introduction
 
 The CLI (Command Line Interface) client is used to perform BlueMind administration tasks in command line without having to create scripts.
 
 When coupled with the bm-tick monitoring system, it can be used, among others, to manage it.
 
-# Installation
+## Installation
 
 The bm-cli client is installed by default with BlueMind 4.
 
@@ -23,16 +23,17 @@ There is an additional component for Outlook MAPI which is optional and can be i
 $ aptitude install bm-plugin-cli-mapi
 ```
 
-:::important
+
+:::info
 
 No restart is required, the commands can be used immediately.
 
 :::
 
 
-# Using the client
+## Using the client
 
-## Commands
+### Commands
 
 Commands are passed using a terminal straight onto the server, connected via ssh for instance.
 
@@ -47,8 +48,10 @@ root@mail:~# bm-cli contact list jdoe@bluemind.loc
 ```
 
 
-## Getting help
-:::important
+### Getting help
+
+
+:::info
 
 Commands are improved with every version of BlueMind. You may have more (or fewer) commands depending on your installation version.
 
@@ -119,7 +122,8 @@ OPTIONS
 ...
 ```
 
-:::important
+
+:::info
 
 BlueMind 4.4 supports the `--help` option – you can now get help by adding this option after a command:
 
@@ -151,11 +155,11 @@ Exit Codes:
 :::
 
 
-## Practical examples
+### Practical examples
 
-### Administration & Maintenance
+#### Administration & Maintenance
 
-#### Performing a domain-wide *check&repair* 
+##### Performing a domain-wide *check&repair* 
 
 The following command is used to perform a "check and repair" operation on all domain users using 4 threads:
 
@@ -165,7 +169,7 @@ bm-cli maintenance repair domain.net --workers 4
 ```
 
 
-#### Changing the admin0 password
+##### Changing the admin0 password
 
 For multiple reasons – technical or practical, e.g. in case it is lost -- you may need to change the admin0 user's password without logging into BlueMind.
 
@@ -177,7 +181,7 @@ bm-cli user update admin0@global.virt --password "NewPassword"
 ```
 
 
-#### Updating Tick configuration
+##### Updating Tick configuration
 
 When [the Bm-Tick](/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/) monitoring tool is installed, you can use it to perform administration tasks. E.g. you can roll out its configuration on all domain servers again using the following command:
 
@@ -186,7 +190,8 @@ When [the Bm-Tick](/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/) m
 # bm-cli tick reconfigure
 ```
 
-:::important
+
+:::tip
 
 Add `--dry` to test the command: the operation is merely simulated.
 
@@ -198,7 +203,7 @@ Add `--dry` to test the command: the operation is merely simulated.
 
 :::
 
-#### Updating BlueMind
+##### Updating BlueMind
 
 From BlueMind 4.1, if your subscription includes it, BlueMind can be updated in command line, without running the browser-based wizard:
 
@@ -223,9 +228,9 @@ yum upgrade && bm-cli setup upgrade
 ```
 
 
-### Operations on users
+#### Operations on users
 
-#### Deleting archived (suspended) domain users
+##### Deleting archived (suspended) domain users
 
 Commands can be coupled to perform several operations at once. 
 
@@ -246,9 +251,9 @@ while read account; do bm-cli user delete --dry $account ;done < /tmp/archived.t
 ```
 
 
-### Operations on calendars
+#### Operations on calendars
 
-#### Sharing all user calendars with one user
+##### Sharing all user calendars with one user
 
 It may be useful for one user to have access privileges on all user calendars without being given an administrator role (e.g. a secretary might be able to view/create events for all other employees). To avoid having to go through each user's page to enable sharing, this can be done in command line.
 
@@ -261,7 +266,7 @@ while read account; do bm-cli calendar share $account « default » toto@domain.
 ```
 
 
-### Operations on contacts
+#### Operations on contacts
 
 The procedure below can be used to clean a user's collected address book and transfer their contacts to their personal address book (and testing the import process beforehand):
 

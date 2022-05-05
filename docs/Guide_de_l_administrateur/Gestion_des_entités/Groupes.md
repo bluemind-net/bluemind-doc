@@ -6,7 +6,7 @@ position: 52
 # Groupes
 
 
-# Présentation
+## Présentation
 
 Les administrateurs peuvent créer des groupes d'utilisateurs qui, s'ils sont publics, sont utilisables pour :
 
@@ -16,7 +16,7 @@ Les administrateurs peuvent créer des groupes d'utilisateurs qui, s'ils sont pu
 - envoyer un e-mail à un groupe de personnes (si le groupe possède une adresse e-mail) : liste de diffusion interne.
 
 
-# Création
+## Création
 
 Depuis l'interface d'administration, cliquer sur "Créer un groupe" sur la page d'accueil ou sur la page "Annuaires" :
 
@@ -37,7 +37,7 @@ Pour ajouter plusieurs utilisateurs, continuer la saisie à droite de l'utilisat
 
 ![](../../attachments/57771525/69895380.png)
 
-## Création rapide
+### Création rapide
 
 Comme pour la Création d'un utilisateur, un groupe peut être créé en édition rapide en cliquant sur le bouton "Créer".
 Il possède alors les informations saisies dans la popup et les propriétés par défaut suivantes :
@@ -48,21 +48,21 @@ Il possède alors les informations saisies dans la popup et les propriétés par
 
 Le groupe pourra par la suite être complété et modifié via l'interface d'administration.
 
-## Création et édition
+### Création et édition
 
 Le bouton "Créer et éditer" (touches &lt;Ctrl-Entrée>) crée le groupe avec les mêmes propriétés qu'en création rapide puis redirige automatiquement vers l'interface d'administration du groupe afin d'effectuer un paramétrage plus complet du groupe.
 
-# Édition et administration d'un groupe
+## Édition et administration d'un groupe
 
 Depuis la page Annuaires >> Entrées d'annuaires, filtrer les groupes en cliquant sur l'icône "groupe", puis sélectionner le groupe à éditer dans la liste.
 
 ![](../../attachments/57771525/69895378.png)
 
-## Général
+### Général
 
 L'onglet "Général" présente les informations et paramétrages de base du groupe : nom, délégation (en tant que membre seulement), description et options de visibilités pour le groupe lui-même et pour les membres.
 
-## Membres
+### Membres
 
 L'onglet "Membres" présente en 2 colonnes la gestion des membres du groupe : dans la colonne de gauche les membres déjà présents dans le groupe, dans la colonne de droite les autres utilisateurs et groupes présents dans l'annuaire.
 
@@ -70,20 +70,24 @@ L'onglet "Membres" présente en 2 colonnes la gestion des membres du groupe : da
 
 
 ![](../../attachments/57771525/69895374.png)
-:::important
+
+
+:::info
 
 Groupes dans des groupes
 
 Des groupes peuvent être inclus dans des groupes, cependant seuls les groupes ayant une adresse email seront pris en compte : si un groupe inclus n'a pas d'adresse email, ses membres ne recevront pas les messages envoyés au groupe parent.
 
 :::
-:::important
+
+
+:::tip
 
 Des utilisateurs externes peuvent être ajoutés aux groupes. Consultez la page dédiée pour en savoir plus : [Utilisateurs](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) > [Utilisateurs externes](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Utilisateurs_externes/)
 
 :::
 
-## Messagerie
+### Messagerie
 
 L'onglet Messagerie permet de paramétrer les adresses et alias du groupe ainsi que la conservation des messages : le groupe possède alors une boite partagée lui permettant de consulter les messages reçus.
 
@@ -92,7 +96,9 @@ L'onglet Messagerie permet de paramétrer les adresses et alias du groupe ainsi 
 Lorsque la case "Conserver une copie des messages reçus" est activée, les messages sont conservés dans une boite de messagerie, ils peuvent ainsi être conservés et consultés.
 
 Lorsque cette case est décochée, les nouveaux messages ne sont pas conservés.
-:::important
+
+
+:::tip
 
 Lors de la désactivation de cette option, le contenu de la boîte n'est pas supprimé.
 
@@ -109,13 +115,15 @@ La boîte de messagerie du groupe peut être partagée indépendamment de l'appa
 
 Dans l'arborescence de la messagerie, la boîte est placée avec les boites partagées et porte le nom du groupe précédé du symbole "_" (*underscore*).
 Par exemple pour un groupe "contact" la boîte partagée sera nommée "_contact" dans l'arborescence.
-:::important
+
+
+:::info
 
 Contrairement aux boites aux lettres partagées, la messagerie du groupe ne peut être utilisé pour créer une identité et écrire au nom du groupe.
 
 :::
 
-## Archivage
+### Archivage
 
 Lorsque qu'une [politique d'archivage globale](/Guide_de_l_administrateur/Configuration/Archivage/) est définie pour le domaine, les règles par défaut de celle-ci s'appliquent à tous les utilisateurs et groupes du domaine.
 
@@ -126,9 +134,10 @@ Il est cependant possible de surcharger les paramètres par défaut afin de déf
 Par défaut, ce sont donc les paramètres de l'archivage du domaine qui apparaissent dans le formulaire, pour les personnaliser il suffit de saisir les nouvelles valeurs souhaitées :
 
 - le nombre de jours souhaité, tous les messages antérieurs seront archivés.
-- 
-le quota d'espace disque alloué aux utilisateurs du groupe
-:::important
+- le quota d'espace disque alloué aux utilisateurs du groupe
+
+
+:::info
 
 le quota ne peut dépasser le quota maximum du domaine : si un nombre supérieur est entré, celui-ci sera ramené au quota maximum à l'enregistrement
 
@@ -144,7 +153,8 @@ La case "Ré-initialiser la règle d'archivage" permet de remettre les valeurs p
 - cliquer sur « Enregistrer »
 - les données sont enregistrées : la fiche du groupe est fermée, vous pouvez la rouvrir pour contrôler que les données ont bien été réinitialisées.
 
-:::important
+
+:::info
 
 L'unité MiB (MebiByte) est un multiple du byte (octet) à différencier du MB (megabyte, ou Mo méga-octet) : il représente 1024 kebibytes, lui-même représentant 1024 bytes (octets).
 
@@ -152,13 +162,13 @@ Ainsi 9 MiB sont équivalents à 9,43718 MB (Mo)
 
 :::
 
-## Maintenance
+### Maintenance
 
 L'onglet Maintenance vous permet d'effectuer les opérations de maintenance concernant la boîte de messagerie du groupe : consolidation et reconstruction de la boîte.
 
 ![](../../attachments/57771525/69895366.png)
 
-## Rôles
+### Rôles
 
 L'onglet Rôles permet d'attribuer les applications auxquelles les membres du groupe ont accès :
 
@@ -168,7 +178,7 @@ Cela permet de ne donner accès à certaines fonctionnalités qu'à certains uti
 
 On pourra ainsi par exemple donner accès à la téléphonie à l'équipe commerciale seulement afin de faciliter ses échanges avec l'extérieur et réserver la messagerie instantanée aux équipes techniques afin de faciliter leurs échanges écrits.
 
-# Suppression
+## Suppression
 
 Depuis la liste des entrées d'annuaires, cocher la case en début de ligne correspondant au groupe à supprimer puis cliquer sur "Supprimer" et confirmer la suppression.
 

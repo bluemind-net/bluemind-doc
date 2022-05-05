@@ -6,8 +6,10 @@ position: 42
 # Installation
 
 
-# Présentation
-:::important
+## Présentation
+
+
+:::info
 
 Nom de domaine technique "xxx.internal"
 
@@ -20,17 +22,15 @@ La visibilité de ce nom de domaine est temporaire ; il sera masqué dans les ve
 :::
 
 
-# Pré-requis
+## Pré-requis
 
 Avant de commencer l’installation : Vérifier les [Pré-requis à l'installation de BlueMind](/Guide_d_installation/Prérequis_à_l_installation/)
 
-# Installation
+## Installation
 
-1 
-Télécharger le script d’installation correspondant à votre version de Linux sur le [site de téléchargement de BlueMind](https://download.bluemind.net/bm-download/)
+1. Télécharger le script d’installation correspondant à votre version de Linux sur le [site de téléchargement de BlueMind](https://download.bluemind.net/bm-download/)
 
-1 
-Exécuter ce script en tant que root et suivre les étapes d'installation :
+2. Exécuter ce script en tant que root et suivre les étapes d'installation :
 
 
 ```
@@ -38,7 +38,7 @@ sudo sh bluemind-installer-xxx.bin
 ```
 
 
-# Terminer l’installation
+## Terminer l’installation
 
 Une fois BlueMind installé, procéder à la [Configuration post-installation](/Guide_d_installation/Configuration_post_installation/)
 

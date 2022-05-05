@@ -1,19 +1,19 @@
 ---
 title: "Synchronisation IMAP du Blackberry"
 confluence_id: 57771055
-position: 70
+position: 72
 ---
 # Synchronisation IMAP du Blackberry
 
 
-:::important
+:::info
 
 Ce guide a été réalisé sous Blackberry 10 OS, selon la version utilisée les opérations sont les mêmes même si les écrans peuvent différer sensiblement.
 
 :::
 
 
-# Configuration du compte courrier
+## Configuration du compte courrier
 
 La synchronisation du courrier dans Blackberry se fait dans le Blackberry Hub.
 Depuis cette application, ouvrir le menu :
@@ -80,7 +80,9 @@ La dernière partie, enfin, permet de paramétrer le comportement selon le type 
 
 
 Pour chaque type de connexion, il est possible de choisir de relever les messages entiers, les en-têtes seulement ou de limiter à une certaine taille.
-:::important
+
+
+:::info
 
 Ports et sécurité
 
@@ -95,8 +97,8 @@ IMAP (serveur entrant) :
 SMTP (serveur sortant) :
 
 - 25: TLS possible mais pas obligatoire
-  - sans authentification: envoi possible uniquement vers un des domaines BlueMind
-  - avec authentification ou depuis une IP listée dans l'interface de l'administrateur dans Gestion du système > Configuration système > onglet Messagerie > champs 'Mes réseaux': envoi possible vers n'importe quel destinataire
+    - sans authentification: envoi possible uniquement vers un des domaines BlueMind
+    - avec authentification ou depuis une IP listée dans l'interface de l'administrateur dans Gestion du système > Configuration système > onglet Messagerie > champs 'Mes réseaux': envoi possible vers n'importe quel destinataire
 - 465: SSL + authentification obligatoire - envoi possible vers n'importe quel destinataire
 - 587: TLS + authentification obligatoire - envoi possible vers n'importe quel destinataire
 

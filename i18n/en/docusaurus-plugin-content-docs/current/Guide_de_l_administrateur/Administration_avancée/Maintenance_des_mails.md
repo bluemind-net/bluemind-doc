@@ -1,6 +1,6 @@
 ---
 title: "Mail maintenance"
-confluence_id: 79863389
+confluence_id: 57771818
 position: 70
 ---
 # Mail maintenance
@@ -10,7 +10,7 @@ In the admin console, System Management > Maintenance > Manage Messaging system 
 
 Click "Execute" to run the regeneration:
 
-![](../../attachments/79863389/79863390.png)
+![](../../attachments/57771818/57771819.png)
 
 You don't need to restart the service after this procedure, all changes are effective immediately.
 

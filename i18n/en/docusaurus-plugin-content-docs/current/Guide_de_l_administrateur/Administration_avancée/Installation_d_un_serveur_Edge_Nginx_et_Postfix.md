@@ -1,56 +1,61 @@
 ---
 title: "Installing an Edge server: Nginx and Postfix"
-confluence_id: 79863369
+confluence_id: 57771799
 position: 68
 ---
 # Installing an Edge server: Nginx and Postfix
 
 
-# Introduction
+## Introduction
 
 This page describes the roll-out procedure for a BlueMind Edge server as a postfix and proxy relay.
 
-# Postulate
+## Postulate
 
 - BlueMind is installed on the main server
 - the role *bm-edge-role* is installed on the so-called "Edge" server 
 - the Edge server's nginx web server is set up as a proxy relay that serves as a main server
 
 
-|  |  |
-| --- | --- |
 | 
-
-
-|  |
-
+ | 
+| 
+ | ![](../../attachments/57771799/69894462.png) | 
+ |
+ | 
+ | 
+ | ![](../../attachments/57771799/69894462.png) | 
+ |
+| 
+ | ![](../../attachments/57771799/69894462.png) | 
  |
 
 
-# Roll-out procedure
+## Roll-out procedure
 
-1 
-Install BlueMind on the main server [following the usual procedure](https://forge.bluemind.net/confluence/display/LATEST/Guide+d%27installation)
+1. Install BlueMind on the main server [following the usual procedure](https://forge.bluemind.net/confluence/display/LATEST/Guide+d%27installation)
 
 
-:::important
+:::info
 
 The storage space for BlueMind backups must be accessible on this new server at `/var/backups/bluemind`
 
 :::
 
-1 
-Install the subscription on the secondary server as a file
-:::important
+2. Install the subscription on the secondary server as a file
+
+
+:::info
 
 Reminder: the text file for the subscription can be installed on a server manually
 
-  - for Ubuntu / Debian as `/etc/apt/sources.list.d/bm.list`
-  - for RedHat / CentOS as `/etc/yum.repos.d/bm.repo`
+- for Ubuntu / Debian as `/etc/apt/sources.list.d/bm.list`
+- for RedHat / CentOS as `/etc/yum.repos.d/bm.repo`
+
 
 :::
-1 
-Install the package `bm-edge-role` on the edge server
+
+3. Install the package `bm-edge-role` on the edge server
 
 
 **
@@ -73,39 +78,40 @@ bm35-edge.bluemind.loc:~$ sudo yum install bm-edge-role
 ```
 
 
-1 Add the smtp relay role to the edge server in the main server's admin panel:
-  - log into BlueMind on the main server as *admin0@global.virt *
-  - browse to *System management > Application servers* ![](../../attachments/79863369/79863378.png)
-  - click *New > Host*
-  - fill in the information for the new server: ![](../../attachments/79863369/79863379.png)
-  - click "Create & edit" or "Create" then click the corresponding row to edit it
-  - in the *Server roles *tab:![](../../attachments/79863369/79863370.png)
-    - enable the role "Mail relay"
-    - **if you are using the BlueMind** nginx on this server, also enable the role "Edge reverse proxy HTTPS (DMZ)"
-    - click **Save**
-  - back in the servers list, the server is shown with the mail relay tag *mail/smtp-edge*: ![](../../attachments/79863369/79863380.png)
-1 Set up the domain so that the edge server is used as a mail relay: 
-  - still signed in as *admin0@global.virt*, browse to *System management > Manage domains*
-  - click the row for the domain you want to configure
-  - in the *Mail system* tab, select the edge server you have created as mail server and click *Save*:**
-![](../../attachments/79863369/79863381.png)1 Set up the server to send outgoing messages through the relay:
-  - still signed in as *admin0@global.virt*, browse to *System Management > System Configuration*
-  - in the *Mail* tab, fill in the *Relay host* field with the IP address or the edge server's host name and click *Save*:**
-![](../../attachments/79863369/79863385.png)
+4. Add the smtp relay role to the edge server in the main server's admin panel:
+    - log into BlueMind on the main server as *admin0@global.virt *
+    - browse to *System management > Application servers* ![](../../attachments/57771799/69894452.png)
+    - click *New > Host*
+    - fill in the information for the new server: ![](../../attachments/57771799/69894453.png)
+    - click "Create & edit" or "Create" then click the corresponding row to edit it
+    - in the *Server roles *tab:![](../../attachments/57771799/69894444.png)
+        - enable the role "Mail relay"
+        - **if you are using the BlueMind** nginx on this server, also enable the role "Edge reverse proxy HTTPS (DMZ)"
+        - click **Save**
+    - back in the servers list, the server is shown with the mail relay tag *mail/smtp-edge*: ![](../../attachments/57771799/69894454.png)
+5. Set up the domain so that the edge server is used as a mail relay: 
+    - still signed in as *admin0@global.virt*, browse to *System management > Manage domains*
+    - click the row for the domain you want to configure
+    - in the *Mail system* tab, select the edge server you have created as mail server and click *Save*:**
+![](../../attachments/57771799/69894455.png)6. Set up the server to send outgoing messages through the relay:
+    - still signed in as *admin0@global.virt*, browse to *System Management > System Configuration*
+    - in the *Mail* tab, fill in the *Relay host* field with the IP address or the edge server's host name and click *Save*:**
+![](../../attachments/57771799/69894459.png)
 
 
-# Nginx
+## Nginx
 
-## Setting up web access
-:::important
+### Setting up web access
+
+
+:::info
 
 If you are using the BlueMind nginx, and therefore you have enabled the role "Mail relay" on this server (see above), then this section doesn't apply to you – please move on to paragraph 4.2 below.
 
 :::
 
-1 Log in as root on the edge server
-1 
-Browse to the folder `/etc/nginx/sites-available`:
+1. Log in as root on the edge server
+2. Browse to the folder `/etc/nginx/sites-available`:
 
 
 ```
@@ -113,8 +119,7 @@ bm35-edge.bluemind.loc:~# cd /etc/nginx/sites-available
 ```
 
 
-1 
-Create a configuration file `bm-proxy` and edit it, e.g. using vim:
+3. Create a configuration file `bm-proxy` and edit it, e.g. using vim:
 
 
 ```
@@ -122,8 +127,7 @@ bm35-edge.bluemind.loc:/etc/nginx/sites-available# vim bm-proxy
 ```
 
 
-1 
-Add the following command lines:
+4. Add the following command lines:
 
 
 ```
@@ -206,9 +210,8 @@ server {
 ```
 
 
-1 Save file and exit the editor
-1 
-Run the following commands to set up the configuration:
+5. Save file and exit the editor
+6. Run the following commands to set up the configuration:
 
 
 ```
@@ -217,8 +220,7 @@ bm35-edge.bluemind.loc:/etc/nginx/sites-available# rm /etc/nginx/sites-enabled/d
 ```
 
 
-1 
-Reload the nginx server configuration:
+7. Reload the nginx server configuration:
 
 
 ```
@@ -226,10 +228,9 @@ bm35-edge.bluemind.loc:/etc/nginx/sites-available# service bm-nginx reload
 ```
 
 
-## Setting up the mail service
+### Setting up the mail service
 
-1 
-On the edge server, copy the main server's configuration file located at `/etc/nginx/global.d/bm-proxy-mail.conf`. You can use scp to do this:
+1. On the edge server, copy the main server's configuration file located at `/etc/nginx/global.d/bm-proxy-mail.conf`. You can use scp to do this:
 
 
 ```
@@ -237,11 +238,9 @@ bm35-edge.bluemind.loc:~# scp root@srv1.bluemind.loc:/etc/nginx/global.d/bm-mail
 ```
 
 
-1 
-Edit the file `/etc/nginx/global.d/bm-mail-proxy.conf` on the relay server and replace the IP address in the line `auth_http` by the main server's IP address
+2. Edit the file `/etc/nginx/global.d/bm-mail-proxy.conf` on the relay server and replace the IP address in the line `auth_http` by the main server's IP address
 
-1 
-Reload the nginx configuration:
+3. Reload the nginx configuration:
 
 
 ```
@@ -249,12 +248,11 @@ bm35-edge.bluemind.loc:~# service bm-nginx reload
 ```
 
 
-## Setting up XMPP
+### Setting up XMPP
 
 For the server to manage the XMPP flow:
 
-1 
-create a file `/etc/nginx/global.d/bm-xmpp-proxy.conf` with the following contents:
+1. create a file `/etc/nginx/global.d/bm-xmpp-proxy.conf` with the following contents:
 
 
 ```
@@ -273,11 +271,9 @@ stream {
 }
 ```
 
+and replacing 1.2.3.4 by the main server's IP address or the server [with the XMPP role](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/#Gestiondesdomaines-ServicesBM) if appropriate
 
-and replacing 1.2.3.4 by the main server's IP address or the server [with the XMPP role](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/#ManagingDomains-ServicesBM) if appropriate
-
-1 
-Reload the nginx configuration:
+2. Reload the nginx configuration:
 
 
 ```
@@ -285,8 +281,10 @@ bm35-edge.bluemind.loc:~# service bm-nginx reload
 ```
 
 
-# Apache Proxy
-:::important
+## Apache Proxy
+
+
+:::info
 
 BlueMind advises against using Apache as a reverse proxy.
 
@@ -303,11 +301,11 @@ VirtualHost example for Apache:
 
 
 ```
-<VirtualHost *:80>
+<VirtualHost \*:80>
         Redirect / https://<bluemind\_external\_url>/
 </VirtualHost>
 
-<VirtualHost *:443>
+<VirtualHost \*:443>
         SSLEngine On
 
         SSLCertificateFile     "/etc/ssl/certs/bm\_cert.pem"
@@ -322,7 +320,7 @@ VirtualHost example for Apache:
         RewriteEngine on
         RewriteCond %{HTTP:UPGRADE} ^WebSocket$ [NC]
         RewriteCond %{HTTP:CONNECTION} Upgrade$ [NC]
-        RewriteRule .* wss://<internal\_srv>%{REQUEST\_URI} [P]
+        RewriteRule .\* wss://<internal\_srv>%{REQUEST\_URI} [P]
 
         ProxyPreserveHost On
         <Location />

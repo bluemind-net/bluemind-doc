@@ -1,19 +1,19 @@
 ---
 title: "Synchronisation avec Android"
 confluence_id: 57770962
-position: 62
+position: 64
 ---
 # Synchronisation avec Android
 
 
-# Présentation
+## Présentation
 
 La synchronisation ActiveSync est le mode de synchronisation à privilégier car il permet en une seule configuration de synchroniser les messages ainsi que les contacts et agendas alors que la [synchronisation IMAP](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android/) ne permet d'accéder qu'à ses emails.
 
 Pour en savoir plus, consulter la page [Synchronisation des périphériques externes](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
 
 
-:::important
+:::info
 
 Ce guide a été réalisé avec un LG Nexus 5 sous Android 4.4.2
 
@@ -23,8 +23,10 @@ Pour les autres téléphones Android, les opérations sont les mêmes même si l
 
 :::
 
-# Configuration du compte ActiveSync
-:::important
+## Configuration du compte ActiveSync
+
+
+:::info
 
 La possibilité de connecter un smartphone au serveur BlueMind dépend de la politique d'autorisation définie par les administrateurs. Assurez-vous auprès d'eux que vous êtes bien autorisé à vous connecter avec un smartphone. En particulier, certaines configurations nécessitent une autorisation manuelle d'un administrateur.
 
@@ -32,7 +34,7 @@ Se référer à cette page : [Configuration du serveur EAS](/Guide_de_l_administ
 
 :::
 
-## Création du compte
+### Création du compte
 
 Allez dans le menu de votre téléphone et choisissez « Paramètres » :
 
@@ -64,7 +66,8 @@ Sauf cas particulier :
 - le login est identique à votre adresse e-mail
 - l'adresse du serveur (ici *bluemind.loc*) est identique à l'url d'accès à BlueMind (en enlevant https://). Par exemple, si vous accédez à BlueMind depuis votre navigateur à l'adresse  [https://bm.bluemind.loc](https://bm.domaine.com)  alors vous devez saisir **bm.blumind.loc**
 
-:::important
+
+:::info
 
 Dans certaines versions d'Android, un champs supplémentaire "Domaine\nom d'utilisateur" est demandé, il faut alors indiquer dans ce champs le domaine et le nom d'utilisateur sans la partie droite de l'adresse e-mail.
 Par exemple, dans notre cas : `bluemind.loc\jdoe`
@@ -83,8 +86,10 @@ L'appareil procède alors au paramétrage puis affiche une confirmation de bon d
 
 Cliquer sur OK pour terminer.
 
-## Choix des éléments à synchroniser
-:::important
+### Choix des éléments à synchroniser
+
+
+:::info
 
 Multi-calendriers
 
@@ -101,7 +106,9 @@ Les paramètres de synchronisation peuvent être consultés et modifiés en alla
 Appuyer sur « Synchroniser les e-mails depuis le » pour choisir la période de synchronisation (la configuration par défaut dépend des appareils, elle peut être d'un mois ou d'une semaine seulement) :
 
 ![](../../../attachments/57770962/66093482.png) ![](../../../attachments/57770962/66093481.png)
-:::important
+
+
+:::info
 
 Fréquence de synchronisation
 
@@ -113,7 +120,9 @@ Plus bas, vous pouvez choisir de synchroniser toutes les données ou seulement l
 
 ![](../../../attachments/57770962/66093480.png)
 NB : bien que le choix "Tâches" apparaisse, très peu d'appareils mobiles sous Android permettent effectivement de synchroniser les tâches.
-:::important
+
+
+:::info
 
 Contacts
 

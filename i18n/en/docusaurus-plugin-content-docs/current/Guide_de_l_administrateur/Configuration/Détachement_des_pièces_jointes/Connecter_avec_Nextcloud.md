@@ -1,12 +1,12 @@
 ---
 title: "Connecting with Nextcloud"
-confluence_id: 79862866
+confluence_id: 57771360
 position: 70
 ---
 # Connecting with Nextcloud
 
 
-# Introduction
+## Introduction
 
 BlueMind offers the possibility to connect to an external drive, starting with Nextcloud.
 
@@ -14,22 +14,26 @@ Users are now able to use their Nextcloud personal space to manage the files the
 
 Tool handling for administrators is improved: easier, more detailed disk space management, user-specific management, centralized data, security and back-up monitoring.
 
-#### Supported versions
+##### Supported versions
 
 BlueMind supports Nextcloud version 11 and above.
 
 
-# Pre-requisites
+## Pre-requisites
 
-## Installing Nextcloud
+### Installing Nextcloud
 
 Nextcloud must be installed and operational.
-:::important
+
+
+:::info
 
 Nextcloud is an independent product with no ties to BlueMind. For more information on getting and installing it and how it works, please go to [https://Nextcloud.com/](https://nextcloud.com/)
 
 :::
-:::important
+
+
+:::info
 
 When Nextcloud is running in Apache + PHP-FPM, it is not capable of retrieving the file's contents. The uploaded file therefore weighs 0 bytes and no error is reported to BlueMind or shown in logs.
 
@@ -39,13 +43,12 @@ About this Apache bug: [https://bz.apache.org/bugzilla/show_bug.cgi?id=57087](ht
 
 :::
 
-## Uninstalling BlueMind's file storage
+### Uninstalling BlueMind's file storage
 
 Nextcloud can be used:
 
-1 ** **alongside BlueMind's internal storage****: if the user doesn't enter a Nextcloud login ID, BlueMind will be used.To do this, install the files as shown in the section below.
-1 
-** **instead of BlueMind's internal storage****: if the user doesn't enter a BlueMind login ID, they will not have access to the linked attachments feature.
+1. ** **alongside BlueMind's internal storage****: if the user doesn't enter a Nextcloud login ID, BlueMind will be used.To do this, install the files as shown in the section below.
+2. ** **instead of BlueMind's internal storage****: if the user doesn't enter a BlueMind login ID, they will not have access to the linked attachments feature.
 To do this, uninstall the BlueMind file hosting package:
 
 
@@ -54,18 +57,18 @@ aptitude remove bm-plugin-core-filehosting-filesystem
 bmctl restart
 ```
 
-:::important
+
+:::tip
 
 BlueMind must be restarted to complete uninstallation, but it doesn't have to be done immediately. You can install as described below and restart BlueMind later.
 
 :::
-
 Then install Nextcloud as described below.
 
 
-# Installation
+## Installation
 
-## From BlueMind 4.2
+### From BlueMind 4.2
 
 Install the dedicated packages:
 
@@ -98,23 +101,23 @@ aptitude install bm-nextcloud-common bm-nextcloud12
 - **with versions 12 or above, use the bm-nextcloud12 package.**
 
 
-## Versions prior to BlueMind 4.2
+### Versions prior to BlueMind 4.2
 
 - Download and extract the archive from the [BlueMind marketplace](https://marketplace.bluemind.net/addons/80/)
 - Get the jar files kept in:
-  - the `net.bluemind.filehosting.nextcloud` folder
-  - the `net.bluemind.filehosting.nextcloud*****`folder for your version of Nextcloud
-:::important
+    - the `net.bluemind.filehosting.nextcloud` folder
+    - the `net.bluemind.filehosting.nextcloud**\***`folder for your version of Nextcloud
+
+
+:::tip
 
 Note: The folders provided for version 12 are compatible with all subsequent versions.
 
 :::
-- 
-Place these 2 files in the server in the directory `/usr/share/bm-core/extensions/`
+- Place these 2 files in the server in the directory `/usr/share/bm-core/extensions/`
 
 - Delete the directory `/var/lib/bm-core`
-- 
-Restart the bm-core service:
+- Restart the bm-core service:
 
 
 ```
@@ -124,8 +127,7 @@ service bm-core restart
 
 - Place the file `net.bluemind.ui.adminconsole.nextcloud.settings-*.jar` in the server in the directory `/usr/share/bm-webserver/extensions`
 - Delete the directory `/var/lib/bm-webserver`
-- 
-Restart the webserver:
+- Restart the webserver:
 
 
 ```
@@ -133,27 +135,27 @@ service bm-webserver restart
 ```
 
 
-# Configuration
+## Configuration
 
-## For all domains
+### For all domains
 
 Only the platform administrator is able to connect BlueMind to Nextcloud for all domains:
 
 - log into the admin console as admin0
 - go to System Management > System Configuration > Nextcloud tab
-- enter the Nextcloud WebDAV database's url:![](../../../attachments/79862866/79862873.png)
+- enter the Nextcloud WebDAV database's url:![](../../../attachments/57771360/57771367.png)
 
 
-## For a specific domain
+### For a specific domain
 
 Anyone with the ["Domain Administrator"](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/)  role for a specific domain can configure BlueMind to connect to Nextcloud for this domain.
 
 - connect to the admin console as domain administrator
 - go to System Management > Manage Domain > select the domain > Nextcloud tab
-- enter the Nextcloud WebDAV database's url:![](../../../attachments/79862866/79862871.png)
+- enter the Nextcloud WebDAV database's url:![](../../../attachments/57771360/57771365.png)
 
 
-# Connecting user accounts
+## Connecting user accounts
 
 Once Nextcloud has been properly installed and configured, users can connect their Nextcloud account to their BlueMind account.
 

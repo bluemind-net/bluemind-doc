@@ -6,14 +6,14 @@ position: 54
 # Indexation
 
 
-# Présentation
+## Présentation
 
 A partir de la version 4.2.4 de BlueMind, les tâches d'indexation ont été supprimées de la planification afin d'alléger l'utilisation des ressources. Ces actions sont à présent effectuées automatiquement par le système lorsque nécessaire et peuvent être déclenchées manuellement par un administrateur depuis une page dédiée de la console d'administration.
 
 Pour investiguer et résoudre des problèmes d'indexation, vous pouvez consulter le guide [Problèmes de recherche et indexation](/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation/).
 
 
-# Réaliser les tâches d'indexation
+## Réaliser les tâches d'indexation
 
 Une indexation est à réaliser lorsque des problèmes se présentent dans le moteur de recherche d'une application chez de nombreux utilisateurs :
 

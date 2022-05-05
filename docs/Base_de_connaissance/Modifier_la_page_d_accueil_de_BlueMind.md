@@ -6,12 +6,14 @@ position: 60
 # Modifier la page d'accueil de BlueMind
 
 
-# Présentation
+## Présentation
 
 Par défaut, BlueMind permet de [personnaliser le logo](https://forge.bluemind.net/confluence/display/BM35/Personnaliser+le+logo+de+l+application) de la page d'accueil.
 
 Afin de remplacer la page d'accueil par défaut par une page personnalisée, il est nécessaire d'écrire une extension au service HPS.
-:::important
+
+
+:::info
 
 Cette méthode est fournie à titre d'exemple.
 
@@ -21,31 +23,32 @@ Si une telle extension est présente sur votre installation, nous vous conseillo
 
 :::
 
-# Pré-requis
+## Pré-requis
 
 Une installation de test de BlueMind à jour de la dernière version disponible.
 
-# Principe
+## Principe
 
 La modification de la page d'accueil de BlueMind se fait via l'écriture d'une extension HPS qui va surcharger le modèle et les ressources de la page d'accueil officielle afin de définir votre propre page d'accueil.
 
-# Initialiser l'extension
+## Initialiser l'extension
 
-## Définition du nom de l'extension
+### Définition du nom de l'extension
 
 Vous devez définir un nom pour votre extension. Ce nom peut-être composé des caractères *[a-z]* et *.* (point).
-:::important
+
+
+:::info
 
 Dans la suite de cette documentation, nous avons choisi le nom *my.sample.loginpage*, pensez à remplacer celui-ci par le nom choisi pour votre extension.
 
 :::
 
-## Création de la structure de l'extension
+### Création de la structure de l'extension
 
 Se connecter en tant qu'utilisateur *root* sur l'installation de test de BlueMind, puis :
 
-1 
-exécuter les commandes :
+1. exécuter les commandes :
 
 
 ```
@@ -56,8 +59,7 @@ mkdir META-INF templates web-resources
 ```
 
 
-1 
-créer le fichier `/root/my.sample.loginpage/META-INF/MANIFEST.MF, avec le contenu :`
+2. créer le fichier `/root/my.sample.loginpage/META-INF/MANIFEST.MF, avec le contenu :`
 
 
 ```
@@ -71,14 +73,15 @@ Fragment-Host: net.bluemind.webmodules.loginapp
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 ```
 
-:::important
+
+:::info
 
 Pensez à adapter les lignes `Bundle-Name` et `Bundle-SymbolicName` en fonction du nom choisi pour votre extension
 
 :::
 
 
-# Définir votre page d'accueil
+## Définir votre page d'accueil
 
 La page d'accueil se compose de 2 grand types de données :
 
@@ -86,17 +89,17 @@ La page d'accueil se compose de 2 grand types de données :
 - **les ressources** référencées par votre page (images, css...)
 
 
-## HTML
+### HTML
 
 Le code HTML de la page doit être placé dans le fichier `templates/login.xml`. Ce fichier modèle sera analysé par BlueMind qui y placera des données dynamiquement.
 
-Ce modèle doit contenir dans la section `&lt;body>` le code du formulaire d'authentification d'origine. Pour obtenir ce code dans sa dernière version à jour, rendez-vous sur [la page login.xml de notre dépôt git](https://forge.bluemind.net/stash/projects/BM/repos/bluemind-public/browse/ui/webmodules/net.bluemind.webmodules.loginapp/templates/login.xml) et recopiez les sections suivantes :
+Ce modèle doit contenir dans la section `<body>` le code du formulaire d'authentification d'origine. Pour obtenir ce code dans sa dernière version à jour, rendez-vous sur [la page login.xml de notre dépôt git](https://forge.bluemind.net/stash/projects/BM/repos/bluemind-public/browse/ui/webmodules/net.bluemind.webmodules.loginapp/templates/login.xml) et recopiez les sections suivantes :
 
-1 la section `de &lt;#if authErrorMsg??>` à `&lt;/#if>` (balises incluses)
-1 la section du formulaire en lui-même : de `&lt;form>` à `&lt;/form>` (balises incluses)
+1. la section `de <#if authErrorMsg??>` à `</#if>` (balises incluses)
+2. la section du formulaire en lui-même : de `<form>` à `</form>` (balises incluses)
 
 
-De plus, la balise `&lt;/body>` du modèle doit être précédée par :
+De plus, la balise `</body>` du modèle doit être précédée par :
 
 
 ```
@@ -104,7 +107,7 @@ ${jsRuntime}
 ```
 
 
-## Ressources
+### Ressources
 
 Les ressources de votre page d'accueil -  telles que les images, les feuilles CSS... - doivent-être placées dans le dossier `web-resources`.
 
@@ -115,7 +118,8 @@ Vous pouvez référencer les ressources directement à partir de ce répertoire 
 <img src="sample.jpg>Sample image</img>
 ```
 
-:::important
+
+:::tip
 
 Si vous créez une arborescence de dossiers, utilisez la notation relative pour les référencer en considérant toujours `web-resources` comme répertoire racine. Par exemple, pour une feuille CSS placée dans `/web-ressources/css/style.css` :
 
@@ -131,12 +135,11 @@ NB : notez que l'arborescence **ne commence pas** par '/', qui pointerait vers l
 
 Vous pouvez trouver les ressources par défaut sur notre dépôt git : [https://forge.bluemind.net/stash/projects/BM/repos/bluemind-public/browse/ui/webmodules/net.bluemind.webmodules.loginapp/web-resources](https://forge.bluemind.net/stash/projects/BM/repos/bluemind-public/browse/ui/webmodules/net.bluemind.webmodules.loginapp/web-resources)
 
-# Générer et installer l'extension
+## Générer et installer l'extension
 
 Se connecter en tant qu'utilisateur *root* sur l'installation de test de BlueMind, puis :
 
-1 
-générer l'extension :
+1. générer l'extension :
 
 
 ```
@@ -145,8 +148,7 @@ cd /root/my.sample.loginpage
 ```
 
 
-1 
-installer l'extension :
+2. installer l'extension :
 
 
 ```
@@ -156,8 +158,7 @@ mv /root/my.sample.loginpage\_1.0.0.jar my.sample.loginpage/
 ```
 
 
-1 
-re-démarrer le service HPS :
+3. re-démarrer le service HPS :
 
 
 ```
@@ -168,7 +169,9 @@ rm -rf /var/lib/bm-hps
 
 
 Connectez-vous ensuite à BlueMind, votre page doit s'afficher à la place de la page standard de BlueMind.
-:::important
+
+
+:::info
 
 Si la page ne s'affiche pas, forcez un rafraîchissement en maintenant la touche *shift* appuyée tout en rechargeant la page.
 
@@ -176,18 +179,19 @@ Vous pouvez utiliser un navigateur en mode de navigation privée pour éviter le
 
 :::
 
-# Notes
+## Notes
 
-## Exemple
+### Exemple
 
 Le code du plugin *my.sample.loginpage* décrit dans cette documentation est accessible sur ce site : [https://github.com/bluemind-net/loginapp-plugin-sample/tree/master/my.sample.loginpage](https://github.com/bluemind-net/loginapp-plugin-sample/tree/master/my.sample.loginpage)
 
 Pour la tester:
 
-1 télécharger l'extension générée depuis ce lien : [https://github.com/bluemind-net/loginapp-plugin-sample/raw/master/build/my.sample.loginpage_1.0.0.jar](https://github.com/bluemind-net/loginapp-plugin-sample/raw/master/build/my.sample.loginpage_1.0.0.jar)
-1 se référer aux étapes 2 et 3 du paragraphe [Générer et installer l'extension](#Modifierlapaged'accueildeBlueMind-buildAndInstall)
+1. télécharger l'extension générée depuis ce lien : [https://github.com/bluemind-net/loginapp-plugin-sample/raw/master/build/my.sample.loginpage_1.0.0.jar](https://github.com/bluemind-net/loginapp-plugin-sample/raw/master/build/my.sample.loginpage_1.0.0.jar)
+2. se référer aux étapes 2 et 3 du paragraphe [Générer et installer l'extension](#Modifierlapaged'accueildeBlueMind-buildAndInstall)
 
-:::important
+
+:::info
 
 Le contenu de l'[extension générée](https://github.com/bluemind-net/loginapp-plugin-sample/raw/master/build/my.sample.loginpage_1.0.0.jar) peut-être modifié directement depuis un logiciel supportant le format de compression zip (winzip par exemple).
 

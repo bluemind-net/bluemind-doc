@@ -6,11 +6,13 @@ position: 58
 # Frontend / UI
 
 
-# Présentation
+## Présentation
 
 
-# Les différents environnements front
-:::important
+## Les différents environnements front
+
+
+:::info
 
 Pré-requis
 
@@ -18,8 +20,10 @@ VM avec Bluemind en version 3.5 ou supérieure prête à l'utilisation.
 
 :::
 
-## Environnement VueJS
-:::important
+### Environnement VueJS
+
+
+:::info
 
 Pré-requis
 
@@ -72,15 +76,17 @@ Yarn installlé depuis [le site officiel](https://yarnpkg.com/fr/docs/install) (
 ```
 
 
-:::important
+:::info
 
 - Si le serveur de dev Webpack ne recompile pas à chaud les fichiers sources lorsqu'ils sont modifiés, c'est probablement à cause d'un nombre de "inotify watchers" insuffisant : [https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers](https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers)
 
 
 :::
 
-## Environnement GWT
-:::important
+### Environnement GWT
+
+
+:::info
 
 Pré-requis
 
@@ -88,7 +94,10 @@ Eclipse Oxygen ou Photon installé.
 
 :::
 
-** **
+** 
+
+
+**
 
 **Installation :**
 
@@ -96,32 +105,36 @@ Eclipse Oxygen ou Photon installé.
 - Lors de l'installation du plugin, cocher seulement [GWT 2.8](http://www.gwtproject.org/download.html)
 
 
-** **
+** 
+
+
+**
 
 **Pour lancer le serveur de développement :**
 
 - Clic-droit sur le projet qui fournit le bundle JS (par exemple net.bluemind.ui.adminconsole.main pour l'AC), puis "*Run As*" et enfin, "*GWT Development Mode with Jetty*"
 
 
-:::important
+:::info
 
 - Si un message de ce type *"could not find any host pages in project"* apparaît au lancement du server : clic-droit sur le projet / Propriétés / GWT / Web Application et sélectionner l'option "This directory has a WAR directory" (et configurer le dossier, web-resources par exemple).
 - Si ce message d'erreur apparaît : ![](../../attachments/57771900/58597901.png)Il y a plusieurs raisons possibles :
-  - Avec le devmode il peut être nécessaire de préciser une adresse IP au serveur de dev GWT. Elle peut être défini dans Run Configuration / Arguments en précisant un paramètre "`-bindAddress 0.0.0.0`" (par exemple)
-  - Vous avez un problème de Content Security Policy (regarder dans la console). Allez voir dans la section "En cas de problème de CSP" du devmode
-  - Vous avez un problème de [Mixed Content Security](https://developer.mozilla.org/fr/docs/S%C3%A9curit%C3%A9/MixedContent) (regarder dans la console). Allez voir dans la section "En cas de problème avec HTTPS" du devmode
+    - Avec le devmode il peut être nécessaire de préciser une adresse IP au serveur de dev GWT. Elle peut être défini dans Run Configuration / Arguments en précisant un paramètre "`-bindAddress 0.0.0.0`" (par exemple)
+    - Vous avez un problème de Content Security Policy (regarder dans la console). Allez voir dans la section "En cas de problème de CSP" du devmode
+    - Vous avez un problème de [Mixed Content Security](https://developer.mozilla.org/fr/docs/S%C3%A9curit%C3%A9/MixedContent) (regarder dans la console). Allez voir dans la section "En cas de problème avec HTTPS" du devmode
 
 
 :::
 
-## Environnement Closure
-:::important
+### Environnement Closure
+
+
+:::info
 
 Pré-requis
 
 - Créer les fichiers vide `/root/dev-unsecure-cookies et /root/dev-no-csp` sur sa VM et redémarrer le service bm-hps
-- 
-Compilation effectuée dans open/ui :
+- Compilation effectuée dans open/ui :
 
 
 ```
@@ -131,38 +144,42 @@ Compilation effectuée dans open/ui :
 
 :::
 
-** **
+** 
+
+
+**
 
 **Pour lancer le serveur de développement :**
 
 - Dans open/ui exécuter le script `plovr.sh`
 - Sur [http://localhost:9810](http://localhost:9810) sont listé les différentes configurations (~applications) gérées par plovr
 
-:::important
+
+:::info
 
 - Configurations Plovr pratiques (à ajouter dans l'URL, juste après index.html, par exemple : [https://virt.bluemind.loc/contact/index.html?mode=RAW](https://virt2.bluemind.loc/contact/index.html?mode=RAW)) 
-  - ?level=QUIET pour ne afficher les warnings au-dessus de l'application,
-  - ?mode=RAW qui permet d'être en mode non-compilé (tout le JS en clair)
+    - ?level=QUIET pour ne afficher les warnings au-dessus de l'application,
+    - ?mode=RAW qui permet d'être en mode non-compilé (tout le JS en clair)
 - Plus d'informations sur la config et les options disponibles dans plovr : [http://plovr.com/options.html](http://plovr.com/options.html)
 
 
 :::
 
-# Configurer le reverse proxy
+## Configurer le reverse proxy
 
 
-:::important
+:::info
 
 Configurer son environnement de développement pour que le bon fichier JS (celui en cours de développement) soit consommé par le webserver du Bluemind installé sur sa VM.
 
 :::
 
-## Via le plugin devmode (méthode conseillée)
+### Via le plugin devmode (méthode conseillée)
 
 *Avantage** : **ne nécessite pas de reverse proxy sur la machine de développement.*
 
 
-:::important
+:::info
 
 Pré-requis
 
@@ -173,8 +190,7 @@ Paquet [bm-plugin-webserver-devfilter](https://jenkins2.bluemind.net/job/addons
 
 **Mise en œuvre :**
 
-- 
-Un fichier de conf est automatiquement créé (`/etc/bm/dev.json`) lors de l'installation du paquet (seulement si aucun fichier de conf existant n'est détecté)
+- Un fichier de conf est automatiquement créé (`/etc/bm/dev.json`) lors de l'installation du paquet (seulement si aucun fichier de conf existant n'est détecté)
 
 - Ajouter "`IP_DE_VOTRE_HOST_SUR_RESEAU_VM dev.bluemind.test`" dans le `/etc/hosts` de votre host
 - Toujours sur l'host, démarrer le serveur de développement
@@ -193,8 +209,8 @@ Un fichier de conf est automatiquement créé (`/etc/bm/dev.json`) lors de l'ins
 Deux solutions sont possibles :
 
 - Lancer le navigateur en "*mode unsecure*" :
-  - Pour Firefox, depuis la page "*about:config*" passer le paramètre `security.mixed_content.block_active_content` à *false*
-  - Pour Chrome, à priori, ils ne permettent plus d'autoriser le mixed content (voir [https://support.google.com/chrome/thread/25175839?hl=en](https://support.google.com/chrome/thread/25175839?hl=en) et [https://docs.adobe.com/content/help/en/target/using/experiences/vec/troubleshoot-composer/mixed-content.html](https://docs.adobe.com/content/help/en/target/using/experiences/vec/troubleshoot-composer/mixed-content.html))
+    - Pour Firefox, depuis la page "*about:config*" passer le paramètre `security.mixed_content.block_active_content` à *false*
+    - Pour Chrome, à priori, ils ne permettent plus d'autoriser le mixed content (voir [https://support.google.com/chrome/thread/25175839?hl=en](https://support.google.com/chrome/thread/25175839?hl=en) et [https://docs.adobe.com/content/help/en/target/using/experiences/vec/troubleshoot-composer/mixed-content.html](https://docs.adobe.com/content/help/en/target/using/experiences/vec/troubleshoot-composer/mixed-content.html))
 
 
 - Passer en mode full HTTP :
@@ -236,7 +252,10 @@ Vider le cache de l'application, en particulier les cookies, créér le fichier�
 - Dans google-chrome/chromium, il est nécessaire de vider le cache HSTS (chrome://net-internals / Domain Security Policy / Delete domain security policies)
 
 
-****
+**
+
+
+**
 
 **Debug :**
 
@@ -251,8 +270,10 @@ Sinon, tentez les étapes suivants pour qualifier votre problème :
 - règles définies dans /etc/bm/dev.json correctes ?
 
 
-## Via un reverse proxy
-:::important
+### Via un reverse proxy
+
+
+:::info
 
 Pré-requis
 
@@ -267,7 +288,7 @@ Au choix le  *reverse proxy*  Nginx ou Apache doit être installé sur sa mach
 - Exemple de `/etc/hosts` (pour un Linux) :![](../../attachments/57771900/58597905.png)
 
 
-### Nginx
+#### Nginx
 
 Remarque : la configuration modifiée est celle du Nginx sur la machine **de développement**, pas sur la VM.
 
@@ -291,7 +312,7 @@ server {
 ```
 
 
-### Apache
+#### Apache
 
 
 ```

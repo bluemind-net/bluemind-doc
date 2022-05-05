@@ -1,11 +1,12 @@
 ---
 title: "User's Guide"
-confluence_id: 79861474
+confluence_id: 57770218
 position: 28
 ---
 # User's Guide
 
 
+- [BlueMind Mail](/Guide_de_l_utilisateur/Messagerie_BlueMind/)
 - [Mail](/Guide_de_l_utilisateur/La_messagerie/)
 - [Contacts](/Guide_de_l_utilisateur/Les_contacts/)
 - [Calendar](/Guide_de_l_utilisateur/L_agenda/)

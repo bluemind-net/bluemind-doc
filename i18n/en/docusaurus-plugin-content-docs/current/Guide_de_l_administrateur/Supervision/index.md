@@ -1,12 +1,12 @@
 ---
 title: "Monitoring"
-confluence_id: 79863208
+confluence_id: 57771639
 position: 44
 ---
 # Monitoring
 
 
-# Server monitoring
+## Server monitoring
 
 We recommend that you monitor the following aspects of the server:
 
@@ -14,7 +14,8 @@ We recommend that you monitor the following aspects of the server:
 - **RAM **usage
 - **CPU **usage
 
-:::important
+
+:::info
 
 Important
 In the event of a major BlueMind component failure, a file "*.hprof"* is generated in the directory "`/var/log"`.
@@ -29,7 +30,7 @@ You can perform this operation manually using a command such as:
 
 
 ```
-ls /var/log/*.hprof
+ls /var/log/\*.hprof
 ```
 
 
@@ -41,7 +42,7 @@ java\_pid1664.hprof
 
  In this example, "`1664"` is the ID of the process with the failure. This ID enables you to retrieve the component that causes the failure by using the command "`ps"` or "`jps"` **before** restarting BlueMind services. 
 
-# Service monitoring
+## Service monitoring
 
 BlueMind uses standard messaging components (Cyrus Imap, Postfix, nginx, tomcat...) that can be monitored by standard tools.
 
@@ -57,41 +58,29 @@ The list of BlueMind processes running on the server can be accessed using the c
 
 Typically, BlueMind-specific processes you can expect to see and are able to monitor are:
 
-- 
-`net.bluemind.eas.push`
+- `net.bluemind.eas.push`
 
-- 
-`org.elasticsearch.bootstrap.Elasticsearch start -p /var/run/bm-elasticsearch.pid`
+- `org.elasticsearch.bootstrap.Elasticsearch start -p /var/run/bm-elasticsearch.pid`
 
-- 
-`net.bluemind.xmpp.server.launcher.tigase`
+- `net.bluemind.xmpp.server.launcher.tigase`
 
-- 
-`net.bluemind.lmtp.id1`
+- `net.bluemind.lmtp.id1`
 
-- 
-`net.bluemind.ysnp.ysnp`
+- `net.bluemind.ysnp.ysnp`
 
-- 
-`net.bluemind.application.launcher.coreLauncher`
+- `net.bluemind.application.launcher.coreLauncher`
 
-- 
-`net.bluemind.hornetq.mqsrv`
+- `net.bluemind.hornetq.mqsrv`
 
-- 
-`net.bluemind.webmodules.launcher.webLauncher`
+- `net.bluemind.webmodules.launcher.webLauncher`
 
-- 
-`net.bluemind.locator.app`
+- `net.bluemind.locator.app`
 
-- 
-`net.bluemind.node.server.nodelauncher`
+- `net.bluemind.node.server.nodelauncher`
 
-- 
-`net.bluemind.tika.server.tika`
+- `net.bluemind.tika.server.tika`
 
-- 
-`net.bluemind.proxy.http.launcher.hpslauncher`
+- `net.bluemind.proxy.http.launcher.hpslauncher`
 
 
 The standard processes BlueMind uses include:
@@ -103,11 +92,11 @@ The standard processes BlueMind uses include:
 - cyrus (imapd et pop3d)
 
 
-## Using SNMP
+### Using SNMP
 
 BlueMind does not provide SNMP probes. In order to monitor a BlueMind server with SNMP, you must therefore set up monitoring for each service mentioned above manually.
 
-## BlueMind's monitoring scripts
+### BlueMind's monitoring scripts
 
 To be able to monitor BlueMind services, the package *bm-checks* must be installed.
 
@@ -123,7 +112,7 @@ Each script returns a code depending on the status of the BlueMind service:
 
 If an error is detected, a message is returned on the standard output.
 
-# Log monitoring
+## Log monitoring
 
 The BlueMind components log files can be retrieved in the directory "`/var/log"`:
 
@@ -154,13 +143,13 @@ To monitor other components the following locations can be used:
 - `/var/log/postgresql/`
 
 
-# Script-based control
+## Script-based control
 
 BlueMind uses standard system scripts to start and stop services.
 
 The command "`bmctl restart"` restarts all BlueMind services.
 
-# Script-based operations
+## Script-based operations
 
 As mentioned in the sections on integrating BlueMind with third-party applications, BlueMind can be fully script-controlled.
 

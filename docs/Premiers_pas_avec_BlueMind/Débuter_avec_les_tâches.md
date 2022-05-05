@@ -11,7 +11,7 @@ Ce guide vous présente comment faire vos premiers pas avec la nouvelle applicat
 Pour des informations plus complètes sur la gestion des tâches, consultez la page dédiée [Les tâches](/Guide_de_l_utilisateur/Les_tâches/).
 
 
-# Se repérer dans les tâches
+## Se repérer dans les tâches
 
 ![](../attachments/57770612/57770649.png)
 
@@ -22,7 +22,7 @@ La vue principale du gestionnaire de tâches se présente sous la forme d'une ap
 - ![](../attachments/57769989/69896473.png) : la 3ème colonne, zone d'affichage principale, présente la fiche de la tâche sélectionnée ou en cours de création
 
 
-# Créer et modifier une tâche
+## Créer et modifier une tâche
 
 Le bouton ![](../attachments/20054382/20054368.png)
 
@@ -45,7 +45,7 @@ Cliquer sur une tâche permettra d'afficher ses détails sous forme de formulair
 
 Une fois le formulaire rempli, cliquer sur ![](../attachments/57770612/57770619.png) pour créer la tâche ou valider les modifications.
 
-# Terminer une tâche
+## Terminer une tâche
 
 BlueMind offre plusieurs possibilités pour terminer une tâche accomplie :
 
@@ -54,7 +54,7 @@ BlueMind offre plusieurs possibilités pour terminer une tâche accomplie :
 - cliquer sur la coche ![](../attachments/25051180/25051216.png) dans le panneau des tâches de l'Agenda
 
 
-# Supprimer une tâche
+## Supprimer une tâche
 
 De même que pour terminer une tâche, plusieurs solutions sont possibles :
 
@@ -62,7 +62,7 @@ De même que pour terminer une tâche, plusieurs solutions sont possibles :
 - cliquer sur l'icône poubelle ![](../attachments/57770175/57770176.png) dans le panneau des tâches de l'Agenda
 
 
-# Intégration des tâches dans l'agenda
+## Intégration des tâches dans l'agenda
 
 Vous pouvez retrouver toutes vos tâches dans l'agenda. Les listes sont présentées comme des calendriers dans la colonne de gauche et les tâches sont présentées dans la zone "journée" à leur date d'échéance et une nouvelle colonne, sur la droite de la vue, permet une vue d'ensemble des tâches non encore terminées :
 

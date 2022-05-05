@@ -1,12 +1,12 @@
 ---
 title: "Synchronisation avec Blackberry"
 confluence_id: 57771034
-position: 64
+position: 66
 ---
 # Synchronisation avec Blackberry
 
 
-:::important
+:::info
 
 La possibilité de connecter un smartphone au serveur BlueMind dépend de la politique d'autorisation définie par les administrateurs. Assurez-vous auprès d'eux que vous êtes bien autorisé à vous connecter avec un smartphone. En particulier, certaines configurations nécessitent une autorisation manuelle d'un administrateur.
 
@@ -14,26 +14,26 @@ Se référer à cette page : [Configuration du serveur EAS](/Guide_de_l_administ
 
 :::
 
-# Présentation
+## Présentation
 
 La synchronisation ActiveSync est le mode de synchronisation à privilégier car il permet en une seule configuration de synchroniser les messages ainsi que les contacts et agendas alors que la [synchronisation IMAP](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry/) ne permet d'accéder qu'à ses emails.
 
 Pour en savoir plus, consulter la page [Synchronisation des périphériques externes](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
 
 
-:::important
+:::info
 
 Ce guide a été réalisé sous Blackberry 10 OS, selon la version utilisée les opérations sont les mêmes même si les écrans peuvent différer sensiblement.
 
 :::
 
-# BlackBerry supportés
+## BlackBerry supportés
 
 Seuls les périphériques équipés de BlackBerry OS 10 (Q5, Q10) sont supportés.
 
-# Configuration du compte ActiveSync
+## Configuration du compte ActiveSync
 
-## Création du compte
+### Création du compte
 
 Dans les paramètres systèmes, se rendre dans «Comptes» :
 
@@ -58,20 +58,22 @@ Sauf cas particulier :
 - l'adresse du serveur (*mail.bluemind.loc* dans cet exemple) est identique à l'adresse à laquelle vous accédez à BlueMind (en enlevant https://).Par exemple, si vous accédez à BlueMind depuis votre navigateur à l'adresse **https://bm.domaine.com** alors vous devez saisir bm.domaine.com
 
 
-## Choix des éléments à synchroniser
+### Choix des éléments à synchroniser
 
 Sur l'écran suivant,activer ou désactiver les éléments à synchroniser :
 
 ![](../../../attachments/57771034/57771049.png)
 
 Cliquer enfin sur «Terminé»
-:::important
+
+
+:::info
 
 Seuls les carnets d'adresses personnels sont synchronisés avec les contacts du smartphone, cependant les adresses des autres carnets (Annuaire, Contacts collectés...) sont accessibles via les fonctions de recherche du smartphone (contacts, e-mails...)
 
 :::
 
-## Fin de la création
+### Fin de la création
 
 Le système enregistre votre configuration et votre compte apparaît :
 
@@ -81,7 +83,7 @@ Vous pouvez dès lors consulter vos emails et votre calendrier sur votre Blackbe
 
 ![](../../../attachments/57771034/57771046.png)
 
-# Forcer le rafraichissement de l'agenda
+## Forcer le rafraichissement de l'agenda
 
 Afin de forcer la synchronisation de l'agenda, depuis l'application Calendrier faire apparaître le menu en bas à droite et appuyer sur «Actualiser» :
 

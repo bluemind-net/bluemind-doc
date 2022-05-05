@@ -6,16 +6,18 @@ position: 76
 # Retrouver les carnets de domaine dans Outlook
 
 
-# Présentation
+## Présentation
 
 Les carnets de domainen'apparaissent pas par défaut dans Outlook connecté en mapi, il convient de procéder à une configuration particulière sur le poste pour les voir apparaître dans l'interface et pouvoir les utiliser lors de la rédaction de messages.
 
-# Procédure
+## Procédure
 
-#### 1ère partie : Rattacher les carnets de domaine en tant que carnets d'adresses
+##### 1ère partie : Rattacher les carnets de domaine en tant que carnets d'adresses
 
 Déplier l'arborescence *Dossiers publics* > *Tous les dossiers* : sont ici visibles les carnets
-:::important
+
+
+:::tip
 
 Les dossiers publics ne sont visibles que depuis la vue Dossiers, celle-ci est accessible par le bouton "..." en bas de la fenêtre Outlook :
 
@@ -39,9 +41,9 @@ Dans la fenêtre qui s'ouvre, aller à l'onglet "*Carnet d'adresses Outlook*" et
 
 Cliquer sur **OK** pour prendre en compte le paramétrage et quitter.
 
-##### **Répéter l'opération pour chaque carnet**
+###### **Répéter l'opération pour chaque carnet**
 
-#### 2ème partie : Utiliser les carnets de domaine dans la complétion
+##### 2ème partie : Utiliser les carnets de domaine dans la complétion
 
 De retour à la vue principale, effectuer un clic droit sur le nom du compte et choisir "**Propriétés du fichier de données...**" :
 
@@ -77,5 +79,5 @@ Cliquer sur **OK** pour prendre en compte le paramétrage et quitter.
 
 Ce sont dès lors les carnets listés dans le champs qui seront pris en compte lors de la recherche pour complétion des adresses. La liste comporte par défaut la totalité des carnets, les carnets créés par la suite y seront automatiquement ajoutés par Outlook, il ne sera donc pas nécessaire de refaire la manipulation pour chaque carnet de domaine ajouté en suivant la procédure de la 1ère partie.
 
-##### Le paramétrage est terminé : les contacts doivent remonter lorsque vous lancer la complétion des noms lors de la rédaction d'un message.
+###### Le paramétrage est terminé : les contacts doivent remonter lorsque vous lancer la complétion des noms lors de la rédaction d'un message.
 

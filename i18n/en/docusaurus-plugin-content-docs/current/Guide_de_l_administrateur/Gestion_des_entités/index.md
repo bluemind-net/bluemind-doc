@@ -1,6 +1,6 @@
 ---
 title: "Entities"
-confluence_id: 79862967
+confluence_id: 57771417
 position: 42
 ---
 # Entities
@@ -18,7 +18,7 @@ position: 42
 - [LDAP Exports](/Guide_de_l_administrateur/Gestion_des_entités/Export_LDAP/)
 
 
-![](../../attachments/79862967/79862968.png)
+![](../../attachments/57771417/57771418.png)
 
 Enregistrer
 

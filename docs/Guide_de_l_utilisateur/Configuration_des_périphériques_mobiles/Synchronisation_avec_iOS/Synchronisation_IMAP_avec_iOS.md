@@ -1,19 +1,19 @@
 ---
 title: "Synchronisation IMAP avec iOS"
 confluence_id: 57771123
-position: 76
+position: 78
 ---
 # Synchronisation IMAP avec iOS
 
 
-:::important
+:::info
 
 Ce guide a été réalisé avec un modèle d'IPad, les écrans sont généralement identiques sur tous les produits Apple mais sur un iPhone le menu situé à gauche sera masqué à cause de la largeur de l'écran inférieure.
 
 :::
 
 
-# Configuration du nouveau compte courrier
+## Configuration du nouveau compte courrier
 
 Se rendre dans les réglages puis menu «Mail, Contacts, Calendrier» et appuyer sur «Ajouter un compte» :
 

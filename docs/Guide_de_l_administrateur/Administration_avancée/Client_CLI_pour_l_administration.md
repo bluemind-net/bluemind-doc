@@ -6,13 +6,13 @@ position: 64
 # Client CLI pour l'administration
 
 
-# Présentation
+## Présentation
 
 Le client CLI (« Command Line Interface » = Interface de lignes de commandes) permettant d'effectuer des tâches d'administration de la plateforme BlueMind directement en ligne de commande, sans avoir à créer de scripts pour cela.
 
 Couplé au système de monitoring bm-tick, il permet notamment des tâches d'administration de celui-ci.
 
-# Installation
+## Installation
 
 Le client bm-cli est installé par défaut dans BlueMind 4.
 
@@ -23,16 +23,17 @@ Un composant additionnel permettant des opération de gestion de mapi pour Outlo
 $ aptitude install bm-plugin-cli-mapi
 ```
 
-:::important
+
+:::info
 
 Aucun redémarrage de service n'est nécessaire, les commandes sont directement utilisables
 
 :::
 
 
-# Fonctionnement
+## Fonctionnement
 
-## Les commandes
+### Les commandes
 
 Les commandes sont passées via un terminal directement sur le serveur, connecté en ssh par exemple.
 
@@ -47,8 +48,10 @@ root@mail:~# bm-cli contact list jdoe@bluemind.loc
 ```
 
 
-## Obtenir de l'aide
-:::important
+### Obtenir de l'aide
+
+
+:::info
 
 Les commandes sont enrichies au fur et à mesure des versions de BlueMind. Il se peut donc que vous ayez plus (ou moins) de commandes selon la version de votre installation.
 
@@ -119,7 +122,8 @@ OPTIONS
 ...
 ```
 
-:::important
+
+:::info
 
 BlueMind 4.4 supporte l'option `--help`, il est désormais possible d'obtenir de l'aide en ajoutant cette option à la suite d'une commande :
 
@@ -150,11 +154,11 @@ Exit Codes:
 
 :::
 
-## Exemples pratiques
+### Exemples pratiques
 
-### Administration & Maintenance
+#### Administration & Maintenance
 
-#### Effectuer un *check&repair* global
+##### Effectuer un *check&repair* global
 
 La commande suivante permet d'effectuer l'opération "valider et réparer" sur l'ensemble des utilisateurs du domaine en utilisant 4 threads :
 
@@ -164,7 +168,7 @@ bm-cli maintenance repair domain.net --workers 4
 ```
 
 
-#### Modifier le mot de passe admin0
+##### Modifier le mot de passe admin0
 
 Pour diverses raisons, techniques ou pratiques (en cas de perte, par exemple), il peut être utile de modifier le mot de passe de l'utilisateur admin0 sans avoir à se loguer dans BlueMind.
 
@@ -176,7 +180,7 @@ bm-cli user update admin0@global.virt --password "NewPassword"
 ```
 
 
-#### Mettre à jour la configuration tick
+##### Mettre à jour la configuration tick
 
 Lorsque [l'outil de monitoring Bm-Tick](/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/) est installé, il est possible d'effectuer des tâches d'administration sur celui-ci. Par exemple, vous pouvez redéployer la configuration sur l'ensemble des serveurs du domaine avec la commande suivante :
 
@@ -185,7 +189,8 @@ Lorsque [l'outil de monitoring Bm-Tick](/Guide_de_l_administrateur/Supervision/M
 # bm-cli tick reconfigure
 ```
 
-:::important
+
+:::tip
 
 L'option `--dry` permet de tester la commande : l'opération est juste simulée
 
@@ -197,7 +202,7 @@ L'option `--dry` permet de tester la commande : l'opération est juste simulée
 
 :::
 
-#### Mettre à jour BlueMind
+##### Mettre à jour BlueMind
 
 À partir de BlueMind 4.1, si la souscription le permet, la mise à jour de BlueMind peut se faire complètement en ligne de commande, sans passer par l'exécution de l'assistant via navigateur :
 
@@ -222,9 +227,9 @@ yum upgrade && bm-cli setup upgrade
 ```
 
 
-### Gestion des utilisateurs
+#### Gestion des utilisateurs
 
-#### Supprimer les utilisateurs archivés (suspendus) du domaine
+##### Supprimer les utilisateurs archivés (suspendus) du domaine
 
 Les commandes peuvent être couplées afin d'effectuer plusieurs opérations en une seule fois.
 
@@ -245,9 +250,49 @@ while read account; do bm-cli user delete --dry $account ;done < /tmp/archived.t
 ```
 
 
-### Opérations sur les calendriers
+##### Transférer des comptes d'un backend sur un autre
 
-#### Partager les calendriers de tous les utilisateurs vers un utilisateur
+
+```
+
+
+root@xfer-core:~# bm-cli maintenance xfer --help
+
+Usage: bm-cli maintenance xfer [--dry] [--match=<match>]
+
+                               [--source-backend=<sourceBackendId>]
+
+                               --target-backend=<targetBackendId>
+
+                               [--workers=<workers>] <target>
+
+xfer users from one backend to another backend
+
+      <target>              email address, domain name or 'all' for all domains
+
+      --dry                 don't write antyhing, just print the todolist
+
+      --match=<match>       regex that entity must match, for example : [a-c].\*
+
+      --source-backend=<sourceBackendId>
+
+                            xfer all matching users from specified backend only
+
+                              (server uid, ip or name)
+
+      --target-backend=<targetBackendId>
+
+                            xfer all matching users to specified backend
+
+                              (server uid, ip or name)
+
+      --workers=<workers>   run with X workers
+```
+
+
+#### Opérations sur les calendriers
+
+##### Partager les calendriers de tous les utilisateurs vers un utilisateur
 
 Il peut s'avérer utile qu'un utilisateur ait des droits d'accès sur les calendriers de tous les autres utilisateurs sans pour autant qu'il soit désigné administrateur (par exemple une secrétaire devant pouvoir voir/créer des événements pour l'ensemble des collaborateurs). Afin d'éviter la tâche laborieuse de passer sur toutes les fiches d'administration des utilisateurs pour activer un partage, il est possible de réaliser cela en ligne de commande.
 
@@ -260,7 +305,7 @@ while read account; do bm-cli calendar share $account « default » toto@domain.
 ```
 
 
-### Opérations sur les contacts
+#### Opérations sur les contacts
 
 Exemple de procédure pour nettoyer le carnet des collectés d'un utilisateur puis transférer les contacts vers son carnet personnel (en testant au préalable l'import) :
 
@@ -283,7 +328,7 @@ Addressbook book:CollectedContacts\_05E25C2C-3643-4ED2-997C-4A4F39933D18 of jdoe
 ```
 
 
-## Maintenance
+### Maintenance
 
 L'outil bm-cli permet d'effectuer des opérations de maintenance sur les utilisateurs, comme par exemple :
 
@@ -294,14 +339,16 @@ bm-cli maintenance repair domain.net --numworkers 4	#réparer l'ensemble des uti
 bm-cli maintenance consolidateIndex user@domain.net	#consolider l'index de l'utilisateur user@domain.net
 bm-cli maintenance consolidateIndex domain.net --from 0 --size 100 #traite les 100 premiers utilisateurs retournés
 bm-cli maintenance consolidateIndex domain.net --from 101 --size 50 #traite les 50 utilisateurs suivants
-bm-cli maintenance consolidateIndex domain.net --match '[a-c].*' # traite les entités commencant par a, b ou c
+bm-cli maintenance consolidateIndex domain.net --match '[a-c].\*' # traite les entités commencant par a, b ou c
 ```
 
 
-## Installation et mise à jour
+### Installation et mise à jour
 
 La souscription donnant accès aux mises à jour automatisées de BlueMind, elle donne aussi accès à des opérations supplémentaires du client bm-cli pour celles-ci.
-:::important
+
+
+:::info
 
 Ces opérations étant sensibles et risquées, ce sont des commandes à réserver à une utilisation par des administrateurs avancés.
 
@@ -316,7 +363,7 @@ apt install bm-plugin-cli-setup
 ```
 
 
-### Commandes
+#### Commandes
 
 La commande supplémentaire "`setup`" est disponible dès l'installation du plugin :
 
@@ -335,13 +382,12 @@ bm-cli setup upgrade #lance la procédure de mise à jour post-installation en l
 - `--sw-pass` : permet de positionner le mot de passe de l'admin pour le *setupwizard*
 
 
-### Procédure de mise à jour
+#### Procédure de mise à jour
 
 Pour réaliser une mise à jour de l'installation en ligne de commande au moyen de l'outil bm-cli, la procédure suit le même déroulement que pour une [mise à jour classique](/Guide_d_installation/Mise_à_jour_de_BlueMind/) :
 
-1 **Préparation de la mise à jour :***NB : cette commande est disponible à partir de la version 3.5.14*****La commande "bm-cli setup" permet de paramétrer la version vers laquelle on souhaite mettre à jour.
-  - 
-saisir la commande suivante pour mettre à jour **dans la dernière version disponible** :
+1. **Préparation de la mise à jour :***NB : cette commande est disponible à partir de la version 3.5.14*****La commande "bm-cli setup" permet de paramétrer la version vers laquelle on souhaite mettre à jour.
+    - saisir la commande suivante pour mettre à jour **dans la dernière version disponible** :
 
 
 ```
@@ -349,19 +395,16 @@ bm-cli setup version latest
 ```
 
 
-  - 
-pour mettre à jour **dans une version particulière**, passer le numéro de la version en paramètre :
+    - pour mettre à jour **dans une version particulière**, passer le numéro de la version en paramètre :
 
 
 ```
 bm-cli setup version 3.5.14-2
 ```
 
-
 *NB : l'utilisation du numéro de version majeure ("3.5" ou "4" par exemple) aura les mêmes effets que l'option "latest" : la dernière version mineure disponible de celle-ci sera installée*
 
-  - 
-pour **bloquer la version et empêcher les mises à jour** dans une version supérieure :
+    - pour **bloquer la version et empêcher les mises à jour** dans une version supérieure :
 
 
 ```
@@ -369,9 +412,10 @@ bm-cli setup version current
 ```
 
 
-1 
-**Mettre à jour les paquets :**
-:::important
+2. **Mettre à jour les paquets :**
+
+
+:::info
 
 Si vous souhaitez limiter le temps d'interruption des services, vous pouvez passer la commande de mise à jour avec l'option "download-only" afin dans un premier temps de ne faire que télécharger l'ensemble des paquets.
 
@@ -411,8 +455,7 @@ yum upgrade
 ```
 
 
-1 
-**Lancer la procédure de mise à jour :**
+3. **Lancer la procédure de mise à jour :**
 
 
 ```
@@ -420,7 +463,7 @@ bm-cli setup upgrade
 ```
 
 
-## Gestion des certificats SSL
+### Gestion des certificats SSL
 
 Ces commandes sont disponibles à partir de la version 4.7.0.
 
@@ -437,7 +480,7 @@ Il y a 2 possibilités d'ajouter des certificats SSL, pour un domaine donné ou 
 
 ![](../../attachments/57771796/79863777.png)
 
-### Commandes
+#### Commandes
 
 
 ```
@@ -447,11 +490,11 @@ bm-cli certificate renew-lets-encrypt --contact=no-reply@<default-domain> --doma
 ```
 
 
-### Let's Encrypt
+#### Let's Encrypt
 
 Il est possible d'utiliser Let's Encrypt pour générer le certificat pour un domaine donné ou pour le système global.
 
-#### Activation
+##### Activation
 
 Afin de lancer une première génération de certificat avec Let's Encrypt, il faut jouer la commande suivante:
 
@@ -461,7 +504,7 @@ Afin de lancer une première génération de certificat avec Let's Encrypt, il f
 - --domain: par défaut 'global.virt', si elle n'est pas renseignée
 
 
-#### Renouvellement
+##### Renouvellement
 
 Si le domaine possède déjà une certificat généré par Let's Encrypt, celui-ci pourra être mis à jour en jouant la commande suivante:
 
@@ -471,7 +514,7 @@ Si le domaine possède déjà une certificat généré par Let's Encrypt, celui-
 - --domain: par défaut 'global.virt', si elle n'est pas renseignée
 
 
-### Manuelle
+#### Manuelle
 
 Il est possible d'importer manuellement un certificat SSL en ajoutant 3 fichiers obligatoires, grâce à la commande:
 

@@ -6,19 +6,21 @@ position: 64
 # Détachement des pièces jointes
 
 
-# Présentation
+## Présentation
 
 BlueMind permet de [détacher les pièces jointes des messages](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) afin de les présenter sous forme de lien de téléchargement aux destinataires. Ceci permet d'alléger le message envoyé, et de ce fait les serveurs et réseaux de communication : le fichier n'est plus transmis avec l'email pour être stocké sur le serveur qui le reçoit en plus du serveur émetteur, en étant éventuellement dupliqué et multiplié au grès des transferts et réponses.
 
 
-# Stockage des fichiers
+## Stockage des fichiers
 
-Les fichiers sont stockés sur le serveur BlueMind lui-même dans le répertoire `/var/spool/bm-filehosting/&lt;domaine>/`.
-:::important
+Les fichiers sont stockés sur le serveur BlueMind lui-même dans le répertoire `/var/spool/bm-filehosting/<domaine>/`.
+
+
+:::tip
 
 Arborescence des dossiers
 
-Les fichiers sont stockés dans des sous-dossiers par UID d'utilisateur, ils sont de la forme `/var/spool/bm-filehosting/&lt;domaine>/**&lt;initiale de l'UID>/&lt;UID>**/Attachments`
+Les fichiers sont stockés dans des sous-dossiers par UID d'utilisateur, ils sont de la forme `/var/spool/bm-filehosting/<domaine>/**<initiale de l'UID>/<UID>**/Attachments`
 
 Ainsi, les utilisateurs migrés depuis BlueMind 3.0 ont un dossier de la forme `/u/user_entity_XXX` et les utilisateurs créés en 3.5 ont un dossier de la forme `f/F149E21D-596B-49CF-AECC-AC354139A06B`.
 
@@ -28,10 +30,12 @@ Les fichiers ainsi stockés ne sont pas comptabilisés dans les quotas des utili
 
 Ainsi, suivant l'utilisation qui est faite et le nombre d'utilisateurs de l'installation, cet espace peut être amené à prendre beaucoup d'ampleur. Afin de prévenir une saturation de l'espace disque du serveur, il est donc recommandé de créer un montage permettant d'externaliser le stockage et de mettre en place une surveillance sur celui-ci.
 
-# Mise en œuvre
+## Mise en œuvre
 
-## Installation des paquets
-:::important
+### Installation des paquets
+
+
+:::info
 
 A partir de BlueMind 4.3 les paquets sont installés par défaut, il n'est pas nécessaire de procéder à leur installation manuelle.
 
@@ -60,7 +64,7 @@ RedHat/CentOS
 ```
 
 
-:::important
+:::info
 
 Actuellement, les fichiers sont hébergés sur le serveur BlueMind lui-même. Une [connexion avec le service Nextcloud](/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/Connecter_avec_Nextcloud/) est aussi possible.
 
@@ -68,7 +72,7 @@ Actuellement, les fichiers sont hébergés sur le serveur BlueMind lui-même. Un
 
 :::
 
-## Définition du serveur
+### Définition du serveur
 
 Il faut indiquer à BlueMind le serveur qui doit être utilisé pour stocker les fichiers détachés en attribuant le rôle "Fichier de Filehosting" au serveur souhaité, y compris dans le cas d'une architecture mono-serveur.
 
@@ -77,7 +81,7 @@ Il faut indiquer à BlueMind le serveur qui doit être utilisé pour stocker les
 - dans la section "Services BM", cocher la case "Fichiers de Filehosting" :![](../../../attachments/57771353/62557126.png)
 
 
-## Activation pour le domaine
+### Activation pour le domaine
 
 Une fois le serveur défini, il faut activer le service pour le ou les domaines souhaités.
 
@@ -85,17 +89,18 @@ Pour cela, se rendre dans Gestion du système > Domaines supervisés > choisir u
 
 ![](../../../attachments/57771353/62557121.png)
 
-## Activation pour les utilisateurs
+### Activation pour les utilisateurs
 
 Une fois les paquets installés et le serveur défini, la fonctionnalité doit être activée pour les utilisateurs en leur affectant le rôle adéquat ; ainsi la fonctionnalité peut être activée pour l'ensemble des utilisateurs ou certains seulement, de façon nominative ou via les groupes.
 
 2 droits complémentaires sont donc à présent disponibles :
 
 - **Pièces jointes détachées** : permet aux utilisateurs de détacher et lier des fichiers
-- 
-**Drive** : permet l'accès au sélecteur de fichiers BlueMind. L'utilisateur peut parcourir ses fichiers précédemment envoyés et les lier à nouveau à des messages.
+- **Drive** : permet l'accès au sélecteur de fichiers BlueMind. L'utilisateur peut parcourir ses fichiers précédemment envoyés et les lier à nouveau à des messages.
 Cela permet d'économiser de l'espace disque en ne stockant pas sur le serveur plusieurs fois le même fichier.
-:::important
+
+
+:::tip
 
 Couplé à une installation NextCloud, ce droit donne à l'utilisateur l'accès à son espace de stockage personnel sur celle-ci.
 
@@ -106,12 +111,12 @@ Dans la console d'administration, se rendre dans la gestion des entités > Entr�
 
 - choisir le groupe ou l'utilisateur souhaité.
 - Se rendre dans la gestion des rôles :
-  - Pour un groupe, se rendre dans l'onglet « Rôles »
-  - Pour un utilisateur, rester dans l'onglet « Général » et descendre à la section « Rôles »
+    - Pour un groupe, se rendre dans l'onglet « Rôles »
+    - Pour un utilisateur, rester dans l'onglet « Général » et descendre à la section « Rôles »
 - Dans la section « CLOUD », cocher la ou les fonctionnalités souhaitées :![](../../../attachments/57771353/62557124.png)
 
 
-# Configuration
+## Configuration
 
 La configuration peut se faire à plusieurs endroits de la console d'administration :
 
@@ -125,15 +130,15 @@ Pour modifier cette limite et accéder à plus d'options de configuration :
 
 - se connecter à BlueMind en tant qu'admin0
 - se rendre dans Gestion du système > Domaines supervisés > choisir un domaine > onglet Filehosting :  ![](../../../attachments/57771353/62557122.png)
-  - **Temps de conservation (jours)** : le nombre de jours pendant lesquels les fichiers seront conservés sur le serveur, à partir de leur date d'envoi initiale
-  - **Seuil de détachement auto (MiB)** : taille à partir de laquelle un fichier ajouté à un message est automatiquement détaché de celui-ci
-  - 
-**Taille maximale d'une pièce jointe détachée (MiB)** : taille maximale de fichier autorisée
+    - **Temps de conservation (jours)** : le nombre de jours pendant lesquels les fichiers seront conservés sur le serveur, à partir de leur date d'envoi initiale
+    - **Seuil de détachement auto (MiB)** : taille à partir de laquelle un fichier ajouté à un message est automatiquement détaché de celui-ci
+    - **Taille maximale d'une pièce jointe détachée (MiB)** : taille maximale de fichier autorisée
 Il s'agit de la taille autorisée **par fichier**, plusieurs fichiers dont la taille totale dépasse la limite peuvent donc être ajoutés et détachés à un seul et même message du moment que chacun d'eux respecte la limite.
 
-  - **Sauvegarde fichiers de Filehosting** : si cette case est cochée, le dossier de stockage sur le serveur sera inclus dans les tâches de [sauvegarde](/Guide_de_l_administrateur/Sauvegarde_et_restauration/) de BlueMind
+    - **Sauvegarde fichiers de Filehosting** : si cette case est cochée, le dossier de stockage sur le serveur sera inclus dans les tâches de [sauvegarde](/Guide_de_l_administrateur/Sauvegarde_et_restauration/) de BlueMind
 
-:::important
+
+:::info
 
 L'unité MiB (MebiByte) est un multiple du byte (octet) à différencier du MB (megabyte, ou Mo méga-octet) : il représente 1024 kebibytes, lui-même représentant 1024 bytes (octets).
 

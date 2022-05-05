@@ -6,16 +6,16 @@ position: 40
 # Construction de BlueMind
 
 
-# Présentation
+## Présentation
 
 Le code source de BlueMind est compilé par un serveur d'intégration continue, et les binaires produits sont téléchargeables sur notre site sous forme d'installeurs qui rendent le processus aussi simple que possible. Il est toutefois envisageable de compiler BlueMind manuellement en suivant les instructions suivantes.
 
-# Prérequis
+## Prérequis
 
 La compilation doit s'effectuer avec Java 8.
 
 
-# Récupération et construction du code
+## Récupération et construction du code
 
 Le code de BlueMind est publié dans [https://forge.bluemind.net/stash/projects/BM/repos/bluemind-public](https://forge.bluemind.net/stash/projects/BM/repos/bluemind-public). Il s'agit d'une copie de notre base de code interne, organisée de la façon suivante :
 
@@ -36,11 +36,11 @@ mvn clean install -Dmaven.test.skip=true
 
 Tous les artifacts binaires BlueMind sont installés dans votre repository local maven.
 
-# Dépendances
+## Dépendances
 
 Les paquets BlueMind dépendent de bm-cyrus et bm-nginx.
 
-## bm-cyrus
+### bm-cyrus
 
 
 ```
@@ -50,7 +50,7 @@ cd bm-cyrus-imapd
 ```
 
 
-## bm-nginx
+### bm-nginx
 
 
 ```
@@ -60,11 +60,11 @@ cd bm-nginx
 ```
 
 
-# Environnement
+## Environnement
 
 Il ne suffit pas d'installer les paquets sur un serveur répondant aux pré-requis pour disposer d'une installation BlueMind fonctionnelle. Les étapes suivantes sont réalisées automatiquement par le paquet bm-installwizard inclus dans les installeurs.
 
-## Fichier de configuration bm.ini
+### Fichier de configuration bm.ini
 
 Le fichier `/etc/bm/bm.ini` doit être créé avec le contenu suivant (à adapter selon votre configuration) :
 
@@ -81,7 +81,7 @@ password = "bj"
 ```
 
 
-## Base de données postgresql
+### Base de données postgresql
 
 Les instructions suivantes portent sur postgresql 9.4, à adapter selon votre version du SGBD.
 
@@ -89,7 +89,7 @@ Nous vous proposons une configuration que vous pouvez adapter à vos besoins, à
 
 [&lt;!-- TODO incorrect embedded file link -->pg_hba.conf](/confluence/download/attachments/57771872/pg_hba.conf?version=1&modificationDate=1576233027500&api=v2)[&lt;!-- TODO incorrect embedded file link -->postgresql.conf](/confluence/download/attachments/57771872/postgresql.conf?version=1&modificationDate=1576233027079&api=v2)
 
-Le fichier `postgresql.conf` doit être édité afin de positionner la valeur de l'option `max_connections` : la valeur recommandée étant : `&lt;NB CORES> * 10 + 10`
+Le fichier `postgresql.conf` doit être édité afin de positionner la valeur de l'option `max_connections` : la valeur recommandée étant : `<NB CORES> * 10 + 10`
 
 La base de données correspondant à la version compilée peut être récupérée à l'adresse suivante : [http://pkg.blue-mind.net/db/](http://pkg.blue-mind.net/db/)
 
@@ -127,7 +127,7 @@ bmctl restart
 
 Pour finir, nous vous conseillons de positionner la valeur `kernel.shmmax=300000` dans le fichier `/etc/sysctl.conf`.
 
-## Configuration de nginx
+### Configuration de nginx
 
 Les fichiers bm-webmail et bm-client-access (dossier `/etc/nginx/sites-available`) doivent être édités pour remplacer "`${externalUrl}`" par l'URL externe du serveur (telle que spécifiée également dans bm.ini), puis copiés ou liés dans `/etc/nginx/sites-enabled`.
 

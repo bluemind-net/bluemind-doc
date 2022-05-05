@@ -1,21 +1,21 @@
 ---
 title: "Autoconfiguration Outlook"
-confluence_id: 79863323
+confluence_id: 57771753
 position: 54
 ---
 # Autoconfiguration Outlook
 
 
-:::important
+:::info
 
 Translation in progress
 The English translation of this page is still in progress and will be available soon.
 :::
 
 
-# Présentation
+## Présentation
 
-## Installation
+### Installation
 
 Le package *bm-plugin-core-outlook *permet d'activer la synchronisation du connecteur Outlook et le service d'autoconfiguration de Outlook.
 

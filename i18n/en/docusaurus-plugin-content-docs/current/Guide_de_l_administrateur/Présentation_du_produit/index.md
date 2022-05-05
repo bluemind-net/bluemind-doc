@@ -1,6 +1,6 @@
 ---
 title: "Product Overview"
-confluence_id: 79862705
+confluence_id: 57771222
 position: 38
 ---
 # Product Overview
@@ -18,9 +18,9 @@ BlueMind supports the following browsers in particular:
 - Safari from version 5.
 
 
-![](../../attachments/79862705/79862706.png)
+![](../../attachments/57771222/57771223.png)
 
-### Full JavaScript User Interfaces
+#### Full JavaScript User Interfaces
 
 BlueMind's rich thick client-like ergonomics are available through a simple web browser with:
 
@@ -28,7 +28,7 @@ BlueMind's rich thick client-like ergonomics are available through a simple web 
 - Browser-based offline mode
 
 
-### Message Queue (MOM)
+#### Message Queue (MOM)
 
 BlueMind uses message queues to help restrict redundant traffic and centralize processes, in particular:
 
@@ -37,13 +37,13 @@ BlueMind uses message queues to help restrict redundant traffic and centralize p
 - load balancing and high availability.
 
 
-### Integrated SSO
+#### Integrated SSO
 
 BlueMind has its own SSO, which makes switching applications transparent. In web mode, whatever the web browser used, users are authenticated when they access BlueMind. Once their authentication is validated, users can access all BlueMind applications (Mail, Calendar, Contacts, Admin Console...) without having to authenticate again.
 
 In addition, the SSO enables single logout, which disconnects users from all BlueMind windows or tabs when they disconnect in one window.
 
-### Microsoft Environment
+#### Microsoft Environment
 
 BlueMind allows you to avoid having to re-authenticate when using a Microsoft environment.
 

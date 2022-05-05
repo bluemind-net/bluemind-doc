@@ -6,8 +6,10 @@ position: 54
 # Monitoring Bm-Tick
 
 
-# Présentation
-:::important
+## Présentation
+
+
+:::info
 ![](../../../attachments/57770017/66096251.png) L'outil de supervision est installé par défaut dans BlueMind 4 et ne doit ni ne peut être désinstallé
 :::
 
@@ -38,7 +40,7 @@ Nous vous invitons à consulter le reste de notre documentation afin d'installer
 - [Référence des métriques](/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/Référence_des_métriques/)
 
 
-# L'interface
+## L'interface
 
 La page d'accueil présente les informations importantes :
 
@@ -60,7 +62,9 @@ Vous pouvez zoomer sur un graphique en particulier en sélectionnant avec la sou
 
 Deux listes déroulantes en haut à droite de chaque tableau de bord permettent de modifier (ou figer) le délai de rafraichissement et la période à afficher :
  ![](../../../attachments/57771650/58592965.png)
-:::important
+
+
+:::tip
 
 Ces données restent mémorisées lorsque vous naviguez d'un tableau à l'autre.
 

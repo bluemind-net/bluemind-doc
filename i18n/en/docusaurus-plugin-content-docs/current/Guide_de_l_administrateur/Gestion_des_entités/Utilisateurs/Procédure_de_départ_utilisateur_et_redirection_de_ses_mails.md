@@ -1,12 +1,12 @@
 ---
 title: "User Departure and Email Redirection"
-confluence_id: 79863064
+confluence_id: 57771508
 position: 60
 ---
 # User Departure and Email Redirection
 
 
-# Introduction 
+## Introduction 
 
 When an employee leaves, you need to archive their user and retrieve their data. Your organization might also want to continue receiving their mail.
 
@@ -23,7 +23,7 @@ This article uses the following conventions:
 - the email address of the recipient of user1's incoming mail is userCS@bm.com
 
 
-# Archiving users and redirecting mail
+## Archiving users and redirecting mail
 
 In order to retrieve new incoming emails sent to an employee who has left the organization, you have two options:
 
@@ -33,24 +33,24 @@ In order to retrieve new incoming emails sent to an employee who has left the or
 
 To archive a user, save their data and redirect their mail, you must:
 
-1 Rename the user as user1.bck
-1 Set "user1.bck" as an alias for user1's address2'. OR: Create a shared mailbox "bp.userbck"
-1 Redirect (with or without local copy) messages from user1.bck to userCS
-1 Wait for the next global backup.
-1 To retrieve email messages - 3 ways:
-  2 Use a thick email client such as Thunderbird to copy all messages to the shared mailbox "bp.userbck".
-  2 Use a thick email client such as Thunderbird to retrieve all messages via POP.
-  2 Use the [Restoring user or mailshare mailbox contents](/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/) procedure
-1 To retrieve contacts and the calendar:
-  2 In the admin console, go to "DataProtect Navigator"
-  2 Click the last backup
-  2 Select the user "user1.bck"
-  2 Click the links to retrieve VCard files (address books) and the ICS file (calendar data).
-1 Delete the user "user1.bck"
-1 Create an alias "user1" for the user "userCS"
+1. Rename the user as user1.bck
+2. Set "user1.bck" as an alias for user1's address2'. OR: Create a shared mailbox "bp.userbck"
+3. Redirect (with or without local copy) messages from user1.bck to userCS
+4. Wait for the next global backup.
+5. To retrieve email messages - 3 ways:
+    1. Use a thick email client such as Thunderbird to copy all messages to the shared mailbox "bp.userbck".
+    2. Use a thick email client such as Thunderbird to retrieve all messages via POP.
+    3. Use the [Restoring user or mailshare mailbox contents](/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/) procedure
+6. To retrieve contacts and the calendar:
+    1. In the admin console, go to "DataProtect Navigator"
+    2. Click the last backup
+    3. Select the user "user1.bck"
+    4. Click the links to retrieve VCard files (address books) and the ICS file (calendar data).
+7. Delete the user "user1.bck"
+8. Create an alias "user1" for the user "userCS"
 
 
-# Auto-reply option
+## Auto-reply option
 
 Sometimes, you might not want to have all of an employee's messages forwarded to another for confidentiality issues and have an auto-reply message sent to senders asking them to contact someone else in the organization.
 
@@ -60,7 +60,7 @@ In that case you have two options:
 - Create one user "user.deactivated" with the addresses and aliases of all departed employees as aliases and set up a common message for all users. With this method, **one user** allows you to manage all departed users.
 
 
-# Deletion and AD synchronization
+## Deletion and AD synchronization
 
 When a user is deleted in the Active Directory, it is automatically archived in BlueMind during synchronization.
 

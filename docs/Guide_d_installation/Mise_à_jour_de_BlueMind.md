@@ -6,7 +6,7 @@ position: 50
 # Mise à jour de BlueMind
 
 
-:::important
+:::info
 
 Effectuer une sauvegarde de l'ensemble du système
 
@@ -15,7 +15,9 @@ BlueMind porte beaucoup d'efforts pour assurer la fiabilité des mises à jour. 
 Il est de votre responsabilité de vous assurer de ce risque en effectuant une sauvegarde complète de votre système.
 
 :::
-:::important
+
+
+:::info
 
 Mise à jour de la distribution Linux
 
@@ -26,7 +28,7 @@ Mise à jour de la distribution Linux
 :::
 
 
-:::important
+:::info
 
 Nouveauté 4.1 : préparation de la mise à jour
 
@@ -36,12 +38,14 @@ Pour plus de détails, les administrateurs sont invités à porter une attention
 
 :::
 
-# Présentation
+## Présentation
 
 La souscription BlueMind apporte un système de mise à jour simplifié et testé.
 
 La mise à jour de BlueMind vers une version supérieure corrective ou évolutive est alors simplifiée, plus sûre et plus rapide grâce à l'outil graphique d'administration.
-:::important
+
+
+:::info
 
 Changement de version majeure : migration 3.5 vers 4.0
 
@@ -49,22 +53,21 @@ La mise à jour de BlueMind lors d'un changement de version majeure (par exemple
 
 :::
 
-# Prérequis
+## Prérequis
 
-## Souscription
+### Souscription
 
 Pour accéder aux outils de mise à jour de BlueMind, il est nécessaire de posséder et d'avoir installé une [souscription en cours de validité](/Guide_de_l_administrateur/La_souscription_BlueMind/).
 
-## Accès à l'assistant d'installation
+### Accès à l'assistant d'installation
 
 Afin d'effectuer la mise à jour, il est nécessaire d'accéder à l'assistant d'installation (url http://&lt;votre.serveur.com>/setup ) pour lequel le mot de passe a été fourni [lors de l'installation de BlueMind](/Guide_d_installation/Configuration_post_installation/).
 
 En cas de perte, ce mot de passe peut être réinitialiser de 2 façons :
 
-1 Avant toute opération d'installation, en accédant à la console d'administration en tant qu'administrateur global admin0 > Gestion du système > Configuration Système > onglet «Serveur Mandataire» :remplir le nouveau mot de passe et enregistrer.
-1 La modification peut aussi se faire en ligne de commande :
-  - 
-se connecter au serveur BlueMind en tant que root et taper la ligne suivante :
+1. Avant toute opération d'installation, en accédant à la console d'administration en tant qu'administrateur global admin0 > Gestion du système > Configuration Système > onglet «Serveur Mandataire» :remplir le nouveau mot de passe et enregistrer.
+2. La modification peut aussi se faire en ligne de commande :
+    - se connecter au serveur BlueMind en tant que root et taper la ligne suivante :
 
 
 ```
@@ -72,10 +75,10 @@ rm -f /etc/nginx/sw.htpasswd; htpasswd -b -c /etc/nginx/sw.htpasswd admin admin
 ```
 
 
-  - se connecter à l'URL */setup* et utiliser le login et mot de passe admin/admin** **Cette étape est impérative, même si vous n'en êtes pas encore à l'étape de mise à jour de BlueMind.** **
+    - se connecter à l'URL */setup* et utiliser le login et mot de passe admin/admin** **Cette étape est impérative, même si vous n'en êtes pas encore à l'étape de mise à jour de BlueMind.** **
 
 
-## Signature des dépôts
+### Signature des dépôts
 
 Les dépôts sont désormais signés pour toutes les distributions Ubuntu/Debian supportées.
 
@@ -91,29 +94,31 @@ curl https://pkg.bluemind.net/bluemind-deb.asc | apt-key add -
 
 Sans cela, un warning peut survenir lors de la mise à jour de certaines versions précédentes sans que cela gêne pour autant la mise à jour.
 
-## Points de vigilance
+### Points de vigilance
 
 De même qu'avant une installation de BlueMind 4, nous conseillons la lecture attentive de la page [Déploiement BlueMind 4 : points de vigilance](/Guide_d_installation/Déploiement_BlueMind_4_points_de_vigilance/) avant une mise à jour de version importante.
 
-### Mise à jour 4.0 vers 4.1
+#### Mise à jour 4.0 vers 4.1
 
-#### Dossiers sous la boîte de réception
+##### Dossiers sous la boîte de réception
 
 Dans les versions 4.0.x de BlueMind (4.0.x), les dossiers créés sous la boîte de réception par Outlook ne sont pas des dossiers de messagerie mais des dossiers virtuels.** BlueMind 4.1 apporte le support des sous-dossiers de la boîte de réception (inbox)**.
 
  **Dans le cadre d'une mise à jour de BlueMind 4.0.x vers 4.1, les dossiers virtuels éventuellement créés par les utilisateurs ne seront pas migrés et seront supprimés.**  Pour se prémunir de cela, il est donc conseillé de déplacer ces dossiers virtuels en dehors de la boîte de réception avant la mise à jour de façon à les conserver, ils pourront ensuite y être remis et seront recréés en tant que dossiers de messagerie.
 
-# Procédure
+## Procédure
 
 Les dépôts logiciels étant pris en compte par le système dès [installation de la souscription](/Guide_d_installation/Mise_en_œuvre_de_la_souscription/), BlueMind sera mis à jour automatiquement lors de la mise à jour du système.
-:::important
+
+
+:::info
 
 Si vous avez modifié les fichiers de configuration manuellement, assurez-vous d'en faire une sauvegarde.
 Pour en savoir plus, voir en Annexes : [note sur les fichiers de configuration](#MiseajourdeBlueMind-note-conf)
 
 :::
 
-## Préparer la mise à jour
+### Préparer la mise à jour
 
 ![](../attachments/57771215/58594535.png) Pour une mise à jour d'un ** **BlueMind déjà en version 4.1 ou supérieure** **, le processus de mise à jour doit être initié. Cela permet une plus grande maîtrise des versions et limite le risque d'erreur : la version cible peut désormais être ouverte afin de toujours mettre à jour dans la dernière version publiée ou au contraire figée afin d'empêcher les mises à jour involontaires. Cela permet aussi de sécuriser le respect de la version majeure du serveur ainsi que l'installation des paquets additionnels : ils seront installés dans la version du serveur.
 
@@ -123,10 +128,12 @@ Cette préparation peut se faire via la console d'administration OU en ligne de 
 - Cliquer sur le bouton "Configurer" : **la dernière version disponible sera installée**.
 
 
-## Mettre à jour
+### Mettre à jour
 
 Le processus de mise à jour de BlueMind commence par la mise à jour des paquets sur tous les serveurs de l'installation, au moyen des commandes déjà utilisées lors de l'installation. Les **étapes 1 et 2** sont donc à appliquer sur **toutes les machines concernées**. Ensuite, la phase de mise à jour proprement dite sera jouée une seule fois, en se connectant à l'adresse /setup :
-:::important
+
+
+:::info
 
 Administration avancée
 
@@ -136,10 +143,11 @@ Pour en savoir plus, consulter la page dédiée au [Client CLI pour l'administra
 
 :::
 
-1 **Se connecter en tant que root** sur chacun des serveurs de la plate-forme
-1 
-**Mettre à jour les paquets sur chacun d'eux :**
-:::important
+1. **Se connecter en tant que root** sur chacun des serveurs de la plate-forme
+2. **Mettre à jour les paquets sur chacun d'eux :**
+
+
+:::info
 
 Si vous souhaitez limiter le temps d'interruption des services, vous pouvez passer la commande de mise à jour avec l'option "download-only" afin dans un premier temps de ne faire que télécharger l'ensemble des paquets.
 
@@ -184,40 +192,40 @@ yum upgrade
 
 
 ****Répéter ces commandes sur chaque serveur de la plate-forme.****
-:::important
+
+
+:::info
 
 Un warning peut survenir lors de la mise à jour de certaines versions précédentes, concernant la signature des dépôts. Cela ne gêne pas la mise à jour, il s'agit d'un simple avertissement, cependant vous pouvez y remédier : voir ci-dessus le paragraphe [2.3.c : Signature des dépôts](#MiseajourdeBlueMind-signature-depot).
 
 :::
 
-1 
-**Se rendre avec un navigateur sur l'interface de gestion** des mises à jour http://&lt;votre.serveur.com>/setup :
+3. **Se rendre avec un navigateur sur l'interface de gestion** des mises à jour http://&lt;votre.serveur.com>/setup :
 ![](../attachments/57771215/58594539.png)
-:::important
+
+
+:::tip
 
 NB : cette étape nécessite le mot de passe d'accès à l'assistant d'installation - voir [chapitre 2.2](#MiseajourdeBlueMind-setup-passwd) ci-dessus
 
 :::
 
-1 
-**Lancer la procédure automatique** de configuration de BlueMind en cliquant sur le bouton «Mise à jour»
+4. **Lancer la procédure automatique** de configuration de BlueMind en cliquant sur le bouton «Mise à jour»
 
-1 
-Une fois que cette procédure est finie, un message vous informe du bon déroulement de la procédure :
+5. Une fois que cette procédure est finie, un message vous informe du bon déroulement de la procédure :
 ![](../attachments/57771215/58594537.png)
-
 ![](../attachments/57769989/69896490.png) L'accès à BlueMind est alors possible à son url habituelle
 
 
-:::important
+:::info
 
 En cas de problèmes, les erreurs sont écrites dans les journaux de *bm-core* et *bm-webserver*.
 
 :::
 
-# Annexes
+## Annexes
 
-## Note sur les fichiers de configuration
+### Note sur les fichiers de configuration
 
 **La configuration postfix** est écrasée uniquement lors de la phase d'installation. Par la suite, cette configuration est mise à jour via la commande `postconf`.
 Il est possible de personnaliser les fichiers de configuration comme souhaité, à l'exception de :

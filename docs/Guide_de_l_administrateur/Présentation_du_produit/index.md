@@ -20,7 +20,7 @@ BlueMind supporte en particulier les navigateurs :
 
 ![](../../attachments/57771222/57771223.png)
 
-### Interfaces utilisateurs Full JavaScript
+#### Interfaces utilisateurs Full JavaScript
 
 BlueMind offre des ergonomies riches de type client lourd depuis de simples navigateurs :
 
@@ -28,7 +28,7 @@ BlueMind offre des ergonomies riches de type client lourd depuis de simples navi
 - Mode web déconnecté dans le navigateur
 
 
-### File de messages (MOM)
+#### File de messages (MOM)
 
 BlueMind utilise des files de messages afin de limiter le trafic superflu et centraliser certains traitements. C'est en particulier le cas pour :
 
@@ -37,13 +37,13 @@ BlueMind utilise des files de messages afin de limiter le trafic superflu et cen
 - la répartition de charge et la haute disponibilité.
 
 
-### SSO intégré
+#### SSO intégré
 
 BlueMind intègre son propre SSO, ce qui permet de passer de façon transparente d'une application à l'autre. Ainsi, un utilisateur en mode Web, quel que soit le navigateur, s'authentifie au moment de l'accès à BlueMind. Une fois cette authentification validée, il peut accéder à l'ensemble des applications BlueMind (Messagerie, Agenda, Contacts, Console d'administation...) sans nécessiter de nouvelle authentification.
 
 De plus, le SSO autorise le single logout, qui déconnecte l'utilisateur de l'ensemble des onglets ou fenêtres BlueMind lorsqu'il se déconnecte d'une fenêtre.
 
-### Environnement Microsoft
+#### Environnement Microsoft
 
 BlueMind permet d'éviter la ré-authentification dans le cas d'une utilisation dans un environnement Microsoft.
 

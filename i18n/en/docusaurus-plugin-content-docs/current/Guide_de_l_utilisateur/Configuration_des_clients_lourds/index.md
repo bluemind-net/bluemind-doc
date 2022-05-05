@@ -1,7 +1,7 @@
 ---
 title: "Configuring Thick Clients"
-confluence_id: 79862301
-position: 54
+confluence_id: 57770864
+position: 56
 ---
 # Configuring Thick Clients
 
