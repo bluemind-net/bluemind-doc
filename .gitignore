@@ -5,4 +5,5 @@ build/
 i18n/en/docusaurus-plugin-content-docs/current/*.html
 docs/*.html
 .docusaurus
+.DS_Store
 
