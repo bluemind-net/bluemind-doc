@@ -25,10 +25,10 @@ D'autres carnets d'adresses peuvent être créés, de façon illimitée et peuve
 
 ## L'interface
 
-![](../../attachments/57770410/62555135.png)
+![](../../../attachments/57770410/62555135.png)
 
-- ![](../../attachments/57769989/69896475.png) : dans la 1ère colonne se trouve, sous le bouton «Nouveau contact», la liste des carnets accessibles par l'utilisateur : ses carnets d'adresses par défaut, ses carnets personnels ainsi que ceux qui lui ont été partagé et auxquels il est abonné ;
-- ![](../../attachments/57769989/69896474.png) : dans la 2ème colonne se trouve la liste des contacts présents dans le carnet sélectionné en 1ère colonne
+- ![](../../../attachments/57769989/69896475.png) : dans la 1ère colonne se trouve, sous le bouton «Nouveau contact», la liste des carnets accessibles par l'utilisateur : ses carnets d'adresses par défaut, ses carnets personnels ainsi que ceux qui lui ont été partagé et auxquels il est abonné ;
+- ![](../../../attachments/57769989/69896474.png) : dans la 2ème colonne se trouve la liste des contacts présents dans le carnet sélectionné en 1ère colonne
 
 
 :::tip
@@ -37,8 +37,8 @@ l'alphabet vertical sur la gauche de la zone permet de naviguer plus rapidement 
 
 :::
 
-- ![](../../attachments/57769989/69896473.png) : la 3ème colonne, zone d'affichage principale, présente la fiche de l'utilisateur sélectionné en 2ème colonne.
-- ![](../../attachments/57769989/69896472.png) : champs de recherche
+- ![](../../../attachments/57769989/69896473.png) : la 3ème colonne, zone d'affichage principale, présente la fiche de l'utilisateur sélectionné en 2ème colonne.
+- ![](../../../attachments/57769989/69896472.png) : champs de recherche
 
 
 ## Édition des contacts
@@ -48,7 +48,7 @@ Pour éditer un contact, se rendre sur sa fiche en sélectionnant d'abord le car
 Si l'utilisateur n'a pas les droits d'écriture, alors les informations sont simplement affichées et les boutons d'actions sont absents. Si l'utilisateur a le droit d'édition sur la fiche alors les champs sont modifiables et les boutons d'actions sont présents :
 
 
-![](../../attachments/57770410/62555133.png)
+![](../../../attachments/57770410/62555133.png)
 
 
 Fiche éditable par l'utilisateur - Fiche non éditable par l'utilisateur
@@ -66,18 +66,18 @@ Voir [Les étiquettes (tags)](/Guide_de_l_utilisateur/Les_catégories_tags_/)
 
 Pour créer une liste de distribution, cliquer sur la flèche du bouton «Nouveau Contact» puis choisir «Liste de distribution» dans le menu :
 
-![](../../attachments/57770410/62555129.png)Sur la page d'édition, renseigner ensuite un titre puis ajouter les membres souhaités grâce au champs "Ajout d'un membre".
+![](../../../attachments/57770410/62555129.png)Sur la page d'édition, renseigner ensuite un titre puis ajouter les membres souhaités grâce au champs "Ajout d'un membre".
 
-![](../../attachments/57770410/62555125.png)
+![](../../../attachments/57770410/62555125.png)
 
 L'autocomplétion recherche dans tous les carnets d'adresses les fiches correspondantes en indiquant sous le nom trouvé le carnet duquel ce contact provient :
 
-![](../../attachments/57770410/62555123.png)
+![](../../../attachments/57770410/62555123.png)
 
 Que le nom soit trouvé ou non, le menu déroulant propose l'option «Créer nouveau membre» donnant accès à un formulaire de création rapide d'un contact avec un nom et une adresse de messagerie :
 
 
-![](../../attachments/57770410/62555127.png)
+![](../../../attachments/57770410/62555127.png)
 
 
 Ajout d'un membre pour une liste de distribution
@@ -89,7 +89,7 @@ Le contact est alors créé dans le carnet en cours de consultation et ajouté �
 
 Une liste de distribution peut être incluse dans une liste de distribution : lorsque l'utilisateur souhaitera écrire à la liste "mère", toutes les adresses seront ajoutées dans le message, celles directement comprises dans la liste ainsi que celles de la liste incluse :
 
-![](../../attachments/57770410/62555122.png)
+![](../../../attachments/57770410/62555122.png)
 
 
 :::info
@@ -106,7 +106,7 @@ Il est possible d'inclure dans une liste de distribution des contacts issus de c
 
 Afin de s'assurer que ces contacts sont bien à jour dans une liste de distribution, un bouton « Valider » permet de mettre à jour l'ensemble des contacts de la liste. Ainsi en cas de modification dans le carnet d'origine, par son propriétaire ou un ayant droit, l'utilisateur s'assure d'avoir la dernière version :
 
-![](../../attachments/57770410/62555121.png)
+![](../../../attachments/57770410/62555121.png)
 
 
 :::tip
@@ -120,7 +120,7 @@ Si le propriétaire du carnet dont proviennent les contacts inclus retire le dro
 
 Pour importer ou exporter un carnet d'adresses au format vCard, cliquer sur le bouton d'action situé en haut de la liste des contacts du carnet concerné :
 
-![](../../attachments/57770410/62555131.png)
+![](../../../attachments/57770410/62555131.png)
 
 Dans le cas d'un export, l'intégralité des contacts du carnet sont exportés dans un seul et même fichier, proposé instantanément au téléchargement.
 

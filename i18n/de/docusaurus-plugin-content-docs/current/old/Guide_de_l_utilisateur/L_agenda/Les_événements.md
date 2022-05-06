@@ -10,15 +10,15 @@ position: 46
 
 ### Schnelle Erstellung
 
-- Rufen Sie in der Kalenderansicht das gewünschte Datum und die Uhrzeit auf und klicken Sie, um den Termin zu erstellen (oder halten Sie die Maustaste gedrückt und ziehen Sie, um die gewünschte Dauer zu markieren):![](../../attachments/57770493/66099998.png)
+- Rufen Sie in der Kalenderansicht das gewünschte Datum und die Uhrzeit auf und klicken Sie, um den Termin zu erstellen (oder halten Sie die Maustaste gedrückt und ziehen Sie, um die gewünschte Dauer zu markieren):![](../../../attachments/57770493/66099998.png)
 
 
-- Für einen Termin, der den ganzen Tag dauert, klicken Sie oberhalb der Zeitfenster auf den entsprechenden Tag:![](../../attachments/57770493/66099996.png) Wenn sich der Termin über mehrere Tage erstreckt, ziehen Sie die Maus über die entsprechenden Tage.
+- Für einen Termin, der den ganzen Tag dauert, klicken Sie oberhalb der Zeitfenster auf den entsprechenden Tag:![](../../../attachments/57770493/66099996.png) Wenn sich der Termin über mehrere Tage erstreckt, ziehen Sie die Maus über die entsprechenden Tage.
 - Machen Sie die erforderlichen Angaben:
     - Titel
     - Kalenderauswahl: Die persönlichen Kalender des Benutzers oder Kalender, die mit Schreibberechtigung für ihn freigegeben wurden, können ausgewählt werden.**Es werden nur die in der aktuellen Ansicht angezeigten Kalender aufgeführt.**
 - Klicken Sie auf "Neuer Termin".
-![](../../attachments/57769989/69896490.png) Der Termin wird erstellt.
+![](../../../attachments/57769989/69896490.png) Der Termin wird erstellt.
 
 
 :::info
@@ -38,26 +38,26 @@ Wenn Sie auf die Schaltfläche "Details ändern" klicken, wechseln Sie zur umfas
 
 Klicken Sie auf die Schaltfläche "Neuer Termin" oben in der Seitenleiste, um das Fenster für die Erstellung eines Termins aufzurufen:
 
-![](../../attachments/57770493/66099932.png)
+![](../../../attachments/57770493/66099932.png)
 
 Im oberen Teil können Sie die wichtigsten Informationen des Termins eingeben:
 
 - **Titel**
 - **Start- und Enddatum und -Uhrzeit**
 - **Ganztägig**: Die Veranstaltung ist nicht durch Stunden begrenzt
-- ![](../../attachments/57770017/66096240.png) **Neue Zeitplanvorschläge zulassen**: Bei Aktivierung dieses Kontrollkästchens wird den Teilnehmern eine Schnittstelle vorgeschlagen, über die sie in der Antwort auf die Einladung eine neue Uhrzeit vorschlagen können
+- ![](../../../attachments/57770017/66096240.png) **Neue Zeitplanvorschläge zulassen**: Bei Aktivierung dieses Kontrollkästchens wird den Teilnehmern eine Schnittstelle vorgeschlagen, über die sie in der Antwort auf die Einladung eine neue Uhrzeit vorschlagen können
 
 
 Über die rechte Fensterseite können Teilnehmer eingeladen werden.
 Wenn Sie auf das Symbol am Anfang der Zeile jedes Teilnehmers klicken, können Sie angeben, ob seine Teilnahme optional oder erforderlich ist:
 
-![](../../attachments/57770493/66099994.png)
+![](../../../attachments/57770493/66099994.png)
 
 Zu beachten:
 
 - Sie können alle Ihnen bekannten Personen aus der Domain einladen, die Ihnen diese Berechtigung erteilt haben (Freigabe "Kann mich einladen" siehe Abschnitt [Freigabe des Kalenders](https://forge.blue-mind.net/confluence/display/DA/L%27agenda#L%27agenda-Lepartaged%27agenda)).
 - Sie können jede Person einladen, die in einem Ihrer Adressbücher aufgeführt ist, und jede externe Person, indem Sie ihre E-Mail-Adresse eingeben.
-- Es ist auch möglich, den Terminen Ressourcen zuzuordnen, indem Sie sie auf die gleiche Weise hinzufügen wie Benutzer. Dann wird eine [Reservierungsanfrage](/Guide_de_l_utilisateur/Les_ressources/) an ihren Verwalter gesendet.
+- Es ist auch möglich, den Terminen Ressourcen zuzuordnen, indem Sie sie auf die gleiche Weise hinzufügen wie Benutzer. Dann wird eine [Reservierungsanfrage](/old/Guide_de_l_utilisateur/Les_ressources/) an ihren Verwalter gesendet.
 - Beim Hinzufügen einer Gruppe werden die Mitglieder einzeln hinzugefügt.
 
 
@@ -69,17 +69,17 @@ Die erste Registerkarte, "Informationen", gestattet die Definition der wichtigst
 
 - **Ort** des Termin
 - **Organisator** (hier werden Benutzer angezeigt, die Schreibberechtigungen für ihre Termine erteilt haben UND deren Kalender in der Hauptansicht angezeigt wird)
-- [Kategorien (Tags)](/Guide_de_l_utilisateur/Les_catégories_tags_/)
+- [Kategorien (Tags)](/old/Guide_de_l_utilisateur/Les_catégories_tags_/)
 - **Beschreibung des Termin**
 - **Erinnerung**: Gestattet die Definition einer Erinnerung, damit der Termin nicht vergessen wird. In einer Dropdown-Liste können Sie die Art der Erinnerung auswählen:
-![](../../attachments/57770493/66099978.png)
+![](../../../attachments/57770493/66099978.png)
     - **Email**: Eine Nachricht wird an den Benutzer gesendet (vorheriges Standardverhalten).
-    - **Display**: Ein Popup-Fenster mit einer  [Browser-Benachrichtigung](/Guide_de_l_utilisateur/Paramètres_utilisateur/#Parametresutilisateur-Parametresutilisateurs-Notifications) wird angezeigt.
+    - **Display**: Ein Popup-Fenster mit einer  [Browser-Benachrichtigung](/old/Guide_de_l_utilisateur/Paramètres_utilisateur/#Parametresutilisateur-Parametresutilisateurs-Notifications) wird angezeigt.
 
 
 :::tip
 
-Es ist auch möglich, eine Standarderinnerung für Termine einzurichten (eine vorkonfigurierte Erinnerung für jeden neuen Termin). Für weitere Informationen siehe [Einstellungen für den Kalender](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/).
+Es ist auch möglich, eine Standarderinnerung für Termine einzurichten (eine vorkonfigurierte Erinnerung für jeden neuen Termin). Für weitere Informationen siehe [Einstellungen für den Kalender](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/).
 
 :::
 
@@ -87,15 +87,15 @@ Es ist auch möglich, eine Standarderinnerung für Termine einzurichten (eine vo
 - **Mich anzeigen als**: Gestattet Benutzern, die Ihren Kalender anzeigen, zu sehen, ob Sie während des Termin erreichbar sind.
 **Standardmäßig werden Sie bei kurzen Veranstaltungen als "Beschäftigt" und bei ganztägigen Veranstaltungen als "Verfügbar" angezeigt**. 
 Wenn ein Benutzer sich als "Verfügbar" erklärt, wird der Termin in seinem Kalender mit einem hellen Rand auf der linken Seite angezeigt:
-![](../../attachments/57770493/66099982.png)
+![](../../../attachments/57770493/66099982.png)
 
-- **Privatsphäre**: Gestattet, den Inhalt des Termin vor anderen Benutzern zu verbergen, sie sehen nur das reservierte Zeitfenster:![](../../attachments/57770493/66099984.png)
+- **Privatsphäre**: Gestattet, den Inhalt des Termin vor anderen Benutzern zu verbergen, sie sehen nur das reservierte Zeitfenster:![](../../../attachments/57770493/66099984.png)
 - ** **Anhänge****: Dieser Teil des Fensters gestattet, den Terminen im Kalender Anhänge hinzuzufügen.
 
 
 :::tip
 
-![](../../attachments/57770017/66096242.png) Diese Funktion ist ab Version 4.1 verfügbar. Weitere Informationen finden Sie im Abschnitt [Anhänge](#Lesevenements-pjevents).
+![](../../../attachments/57770017/66096242.png) Diese Funktion ist ab Version 4.1 verfügbar. Weitere Informationen finden Sie im Abschnitt [Anhänge](#Lesevenements-pjevents).
 
 :::
 
@@ -113,7 +113,7 @@ Die Registerkarte "Wiederholen" gestattet die Definition eines Wiederholungsinte
 
 Über der Registerkarte wird eine Zusammenfassung der Wiederholungsinformationen angezeigt und beim Ausfüllen des Formulars aktualisiert:
 
-![](../../attachments/57770493/66099992.png)
+![](../../../attachments/57770493/66099992.png)
 
 :::
 
@@ -128,18 +128,18 @@ So **löschen Sie ein Termin**:
 
 Die Registerkarte "Zeit finden" gestattet die Suche nach einem freien Zeitfenster für alle Teilnehmer:
 
-![](../../attachments/57770493/66099968.png)
+![](../../../attachments/57770493/66099968.png)
 
 BlueMind schlägt automatisch, grün und rot umrahmt, das erste Zeitfenster vor, das für das im Formular eingegebene Datum verfügbar ist.
 
 Das Zeitfenster kann durch Ziehen der Maus verschoben und durch Ziehen der grünen und der roten Linie verkleinert oder vergrößert werden.
 Wenn das Zeitfenster einen Termin von mindestens einem Benutzer enthält, erscheint oben auf der Seite eine Informationsmeldung:
 
-![](../../attachments/57770493/66099969.png)
+![](../../../attachments/57770493/66099969.png)
 
 ### Anlagen
 
-Ab Version 4.1 können Sie mit der Funktion[Abtrennen von Anlagen](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) des E-Mail-Systems auch Dateien an Kalendertermin anfügen.
+Ab Version 4.1 können Sie mit der Funktion[Abtrennen von Anlagen](/old/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) des E-Mail-Systems auch Dateien an Kalendertermin anfügen.
 
 
 :::info
@@ -158,7 +158,7 @@ Wenn Sie den unten angezeigten Bereich oder einen der Links nicht sehen, wenden 
 
 Sobald eine Datei mit einem Termin verknüpft ist, steht sie jederzeit in den Termindetails zum Download bereit und wird ggf. in der elektronischen Einladung an die Teilnehmer versendet.
 
-![](../../attachments/57770493/66099967.png)
+![](../../../attachments/57770493/66099967.png)
 
 #### Dateien hinzufügen/entfernen
 
@@ -169,17 +169,17 @@ So fügen Sie eine Datei hinzu:
 
 Wenn der Benutzer über die dedizierte Rolle ("Drive") verfügt, wird ein zweiter Link angezeigt:
 
-- Klicken Sie auf "Server", um die BlueMind-Dateiauswahl zu öffnen und eine bereits im Speicherplatz des Benutzers vorhandene Datei hinzuzufügen. Die Dateien können anschließend über die Dateiauswahl gefunden werden, um sie anderen Kalendertermin [oder Nachrichten](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) hinzuzufügen.
+- Klicken Sie auf "Server", um die BlueMind-Dateiauswahl zu öffnen und eine bereits im Speicherplatz des Benutzers vorhandene Datei hinzuzufügen. Die Dateien können anschließend über die Dateiauswahl gefunden werden, um sie anderen Kalendertermin [oder Nachrichten](/old/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) hinzuzufügen.
 
 
-Klicken Sie auf das Papierkorbsymbol ![](../../attachments/57770493/66099975.png) vor dem Dateinamen, um diese Datei zu löschen.
+Klicken Sie auf das Papierkorbsymbol ![](../../../attachments/57770493/66099975.png) vor dem Dateinamen, um diese Datei zu löschen.
 
 #### Übertragung von Dateien an Teilnehmer
 
 Einer Besprechung hinzugefügte Dateien werden in der elektronischen Einladung an die Teilnehmer übermittelt:
 
-- als Anlagen, wenn die Gesamtgröße der Nachricht die vom Server zugelassene Größe nicht überschreitet:![](../../attachments/57770493/66099974.png)
-- als Download-Links, wenn die Gesamtgröße der Nachricht die vom Server zugelassene Größe überschreitet:![](../../attachments/57770493/66099973.png)
+- als Anlagen, wenn die Gesamtgröße der Nachricht die vom Server zugelassene Größe nicht überschreitet:![](../../../attachments/57770493/66099974.png)
+- als Download-Links, wenn die Gesamtgröße der Nachricht die vom Server zugelassene Größe überschreitet:![](../../../attachments/57770493/66099973.png)
 
 
 :::info
@@ -192,11 +192,11 @@ Die Funktion des Anfügens/Abtrennens erfolgt automatisch und kann nicht gesteue
 
 Wenn ein Termin einen Anhang hat, wird der Anhang durch ein Piktogramm in der Kalenderansicht angezeigt:
 
-![](../../attachments/57770493/66099972.png)
+![](../../../attachments/57770493/66099972.png)
 
 Die Dateien in der Anlage zu einem Termin können jederzeit über das Abfrage-/Bearbeitungsformular heruntergeladen werden:
 
-![](../../attachments/57770493/66099971.png)
+![](../../../attachments/57770493/66099971.png)
 
 
 :::tip
@@ -227,7 +227,7 @@ Das Hinzufügen/Löschen/Ändern von Tags und Erinnerungen wird als private Änd
 
 Im Fall einer Änderung eines wiederkehrenden Termins durch Verschieben in der Kalenderansicht oder durch Aufrufen des ausgefüllten Formulars werden verschiedene Arten der Änderung zur Auswahl angeboten:
 
-![](../../attachments/57770493/66099966.png)
+![](../../../attachments/57770493/66099966.png)
 
 - **Nur dieser Termin**: Die Änderung bezieht sich nur auf der Termin, das der Benutzer angeklickt hat, alle anderen Termine dieser Serie bleiben unverändert.
 - **Alle folgenden**: Die Änderung bezieht sich auf der Termin, das der Benutzer angeklickt hat und alle darauf folgenden Termine dieser Serie. Alle davor liegenden Termine der Serie bleiben unverändert.
@@ -236,36 +236,36 @@ Im Fall einer Änderung eines wiederkehrenden Termins durch Verschieben in der K
 
 ## Duplizieren eines Termin
 
-![](../../attachments/57770017/66096248.png) Ab BlueMind 4.3 ist es möglich, ein Termin oder eine Besprechung zu duplizieren, um eine Kopie zu erstellen, die unabhängig vom ursprünglichen Termin geändert oder an einen anderen Organisator delegiert werden kann.
+![](../../../attachments/57770017/66096248.png) Ab BlueMind 4.3 ist es möglich, ein Termin oder eine Besprechung zu duplizieren, um eine Kopie zu erstellen, die unabhängig vom ursprünglichen Termin geändert oder an einen anderen Organisator delegiert werden kann.
 
 ### Im Allgemeinen
 
 So duplizieren Sie einen Termin:
 
 - Klicken Sie auf der Termin in der Kalenderansicht.
-- Rollen Sie das Menü unten rechts ab und wählen Sie die Option "Duplicate":![](../../attachments/57770493/66099957.png)
+- Rollen Sie das Menü unten rechts ab und wählen Sie die Option "Duplicate":![](../../../attachments/57770493/66099957.png)
 - Das Formular zur Erstellung eines Termins wird mit den Informationen des ursprünglichen Termins (Tag, Uhrzeit, Beschreibung, Organisator, Teilnehmer usw.) angezeigt.
 - Nehmen Sie die gewünschten Änderungen vor:
-![](../../attachments/57770493/66099956.png)
+![](../../../attachments/57770493/66099956.png)
 
 
 :::info
 
 Vorgenommene Änderungen werden wie Änderungen an einem bereits bestehenden Termin behandelt (siehe vorheriger Abschnitt).
 
-Bei freigegebenen Kalendern erscheinen daher nur die Benutzer in der Dropdown-Liste der Organisatoren, die eine [Schreibberechtigung für](/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda/) ihren Kalender erteilt haben und deren Kalender gerade in der Hauptansicht angezeigt wird.
+Bei freigegebenen Kalendern erscheinen daher nur die Benutzer in der Dropdown-Liste der Organisatoren, die eine [Schreibberechtigung für](/old/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda/) ihren Kalender erteilt haben und deren Kalender gerade in der Hauptansicht angezeigt wird.
 Weitere Informationen zu diesem Thema finden Sie weiter unten im Abschnitt *Freigegebene Kalender*.
 
 :::
 
-- **Klicken Sie auf "Speichern", um die Erstellung des neuen Termins zu bestätigen:** * ![](../../attachments/57770493/66099955.png) * ![](../../attachments/57770493/66099954.png) In unserem Beispiel wurde der Termin "Benutzerschulung" dupliziert und in "Administratorschulung" umbenannt, die Beschreibung wurde ebenfalls angepasst: So wurde ein neuer Termin mit den gleichen Zeit- und Ortsangaben und einer angepasster Beschreibung erstellt, das jetzt zur passenden Uhrzeit verschoben werden kann.
+- **Klicken Sie auf "Speichern", um die Erstellung des neuen Termins zu bestätigen:** * ![](../../../attachments/57770493/66099955.png) * ![](../../../attachments/57770493/66099954.png) In unserem Beispiel wurde der Termin "Benutzerschulung" dupliziert und in "Administratorschulung" umbenannt, die Beschreibung wurde ebenfalls angepasst: So wurde ein neuer Termin mit den gleichen Zeit- und Ortsangaben und einer angepasster Beschreibung erstellt, das jetzt zur passenden Uhrzeit verschoben werden kann.
 
 
 ### Wiederkehrender Termin
 
 Bei einem wiederkehrende Termin bietet das Dropdown-Menü für die Duplizierung zwei Optionen:
 
-![](../../attachments/57770493/66099953.png)
+![](../../../attachments/57770493/66099953.png)
 
 - **Duplicate**: Die gesamte Serie wird mit ihrer Wiederholung dupliziert.
 
@@ -323,37 +323,37 @@ Zwei Benutzer führen folgende Schritte durch:
 
 Nathalie zeigt den Kalender von Jean-Claude an und klickt auf den Termin "Benutzerschulung" und dann auf "Duplicate":
 
-![](../../attachments/57770493/66099952.png)
+![](../../../attachments/57770493/66099952.png)
 
 Da Nathalie über die Schreibberechtigung verfügt, wird der Organisator beibehalten, der duplizierte Termin verbleibt auf dem Kalender von Jean-Claude. Nathalie ändert der Termin in eine "Administratorschulung", die am nächsten Tag stattfindet:
 
-![](../../attachments/57770493/66099951.png)
+![](../../../attachments/57770493/66099951.png)
 
 Nach der Speicherung erscheint der neue Termin im Kalender von Jean-Claude:
 
-![](../../attachments/57770493/66099950.png)
+![](../../../attachments/57770493/66099950.png)
 
 ##### Fall 2: Jean-Claude möchte eine von Nathalie organisierte Besprechung kopieren, um sie in der folgenden Woche selbst zu organisieren.
 
 Auch wenn Jean-Claude den Kalender von Nathalie nicht verändern darf, hat er doch die Möglichkeit, ihre Termine zu duplizieren:
 
-![](../../attachments/57770493/66099949.png)
+![](../../../attachments/57770493/66099949.png)
 
 DerTermin wird dann in seinen Kalender kopiert (= er wird zum Organisator bestimmt) und Nathalie wird zur Besprechung eingeladen:
 
-![](../../attachments/57770493/66099948.png)
+![](../../../attachments/57770493/66099948.png)
 
 Jean-Claude ändert das Datum, um in der darauffolgenden Woche die Organisation dieser Besprechung zu übernehmen:
 
-![](../../attachments/57770493/66099947.png)
+![](../../../attachments/57770493/66099947.png)
 
 Nach dem Speichern erscheint die Besprechung wie konfiguriert in ihren Kalendern:
 
-![](../../attachments/57770493/66099946.png)
+![](../../../attachments/57770493/66099946.png)
 
 Die ursprüngliche Besprechung hat sich nicht geändert:
 
-![](../../attachments/57770493/66099945.png)
+![](../../../attachments/57770493/66099945.png)
 
 ## Löschen eines Termins
 
@@ -396,7 +396,7 @@ Diese Einstellung ist nicht standardmäßig aktiviert, kann aber nützlich sein,
 :::
 
 
-![](../../attachments/57770493/66099990.png)
+![](../../../attachments/57770493/66099990.png)
 
 
 Affichage des événements selon la participation de l'utilisateur
@@ -408,9 +408,9 @@ Um die Teilnahme an einem Termin zu bestätigen oder abzulehnen, gehen Sie wie f
 
 - Klicken Sie im Hauptfenster auf der Termin.
 - Klicken Sie im angezeigten Popup-Fenster auf die Schaltfläche Ihrer Wahl: 
-![](../../attachments/57770493/66099988.png) 
-![](../../attachments/57769989/69896490.png) Der Organisator der Besprechung erhält eine Nachricht, in der Ihre Wahl angegeben wird.
-![](../../attachments/57769989/69896490.png) Ihr Status wird in der Kalenderansicht des Organisators aktualisiert.
+![](../../../attachments/57770493/66099988.png) 
+![](../../../attachments/57769989/69896490.png) Der Organisator der Besprechung erhält eine Nachricht, in der Ihre Wahl angegeben wird.
+![](../../../attachments/57769989/69896490.png) Ihr Status wird in der Kalenderansicht des Organisators aktualisiert.
 
 
 :::info
@@ -422,11 +422,11 @@ In den Versionen vor 3.5.15 ist es möglich, die eigene Teilnahme zu ändern, oh
 :::
 
 
-Weitere Informationen zur Darstellung der Teilnahme an einer Besprechung finden Sie auf der Seite   [Kalender - Abschnitt 3 Verwaltung von Besprechungen](/Guide_de_l_utilisateur/L_agenda/#L'agenda-Modèledegestiondesréunions)
+Weitere Informationen zur Darstellung der Teilnahme an einer Besprechung finden Sie auf der Seite   [Kalender - Abschnitt 3 Verwaltung von Besprechungen](/old/Guide_de_l_utilisateur/L_agenda/#L'agenda-Modèledegestiondesréunions)
 
 ### Eine neue Uhrzeit vorschlagen
 
-![](../../attachments/57770017/66096240.png) Zu Version 4.4 gehört die Möglichkeit, dass Teilnehmer einen neuen Zeitplan für ein Meeting vorschlagen können.
+![](../../../attachments/57770017/66096240.png) Zu Version 4.4 gehört die Möglichkeit, dass Teilnehmer einen neuen Zeitplan für ein Meeting vorschlagen können.
 
 
 :::info
@@ -439,9 +439,9 @@ Genauso funktioniert es auch mit BlueMind in Thunderbird.
 
 Wenn der Organisator den Gästen das Recht dazu eingeräumt hat (siehe oben **§1.2 Vollständige Erstellung**), haben diese ein eigenes Menü im Popup des Termins im Kalender:
 
-![](../../attachments/57770493/66099931.png)Durch Anklicken gelangt der Benutzer in das komplette Such- und Vorschlagsformular.
+![](../../../attachments/57770493/66099931.png)Durch Anklicken gelangt der Benutzer in das komplette Such- und Vorschlagsformular.
 
-![](../../attachments/57770493/66099930.png)
+![](../../../attachments/57770493/66099930.png)
 
 Dort kann der Benutzer Folgendes angeben:
 
@@ -454,13 +454,13 @@ Dort kann der Benutzer Folgendes angeben:
 Klicken Sie nach Ausfüllen des Formulars oben auf der Seite auf „**Senden**“, um den Vorschlag an den Organisator zu senden.
 
 
-![](../../attachments/57769989/69896490.png) Im Termin-Popup wird sowohl beim Organisator als auch beim Teilnehmer der Vorschlag des Teilnehmers in orange in Klammern neben seinem Namen angezeigt:
+![](../../../attachments/57769989/69896490.png) Im Termin-Popup wird sowohl beim Organisator als auch beim Teilnehmer der Vorschlag des Teilnehmers in orange in Klammern neben seinem Namen angezeigt:
 
-![](../../attachments/57770493/66099922.png)
+![](../../../attachments/57770493/66099922.png)
 
 Der Organisator erhält eine Meldung dieser Art:
 
-![](../../attachments/57770493/66099929.png)
+![](../../../attachments/57770493/66099929.png)
 
 Die Kopfzeile der Nachricht fasst die Informationen zusammen und bietet Links, um die neue Uhrzeit direkt zu akzeptieren oder abzulehnen.
 
@@ -480,7 +480,7 @@ Die Kopfzeile der Nachricht fasst die Informationen zusammen und bietet Links, u
 
 Ein Vorschlag kann nur einmal bearbeitet werden, der Organisator kann seine Entscheidung nicht rückgängig machen. Sobald er geantwortet hat, wird der Kopfzeilen-Block nicht mehr angezeigt; stattdessen erscheint eine Information, die anzeigt, dass der Vorschlag bearbeitet wurde:
 
-![](../../attachments/57770493/66099928.png)
+![](../../../attachments/57770493/66099928.png)
 
 :::
 
@@ -499,7 +499,7 @@ Es ist jetzt möglich, den Erstellungs- und Änderungsverlauf einen Termin  anzu
 
 Klicken Sie in der Detailansicht einen Termin auf die Schaltfläche "Historie":
 
-![](../../attachments/57770493/66099970.png)Im Verlauf sind folgende Informationen enthalten:
+![](../../../attachments/57770493/66099970.png)Im Verlauf sind folgende Informationen enthalten:
 
 - Datum der Aktion
 - Art der Aktion: Erstellung ("Created") oder Änderung ("Updated")

@@ -10,14 +10,14 @@ position: 52
 
 Um auf die Kalendereinstellungen zuzugreifen, gehen Sie zu „Mein Konto“, indem Sie auf den Benutzernamen rechts in der Navigationsleiste klicken:
 
-![](../../attachments/57770060/57770071.png)
+![](../../../attachments/57770060/57770071.png)
 
 
 ## Allgemeine Einstellungen
 
 Auf der ersten Registerkarte der Kalendereinstellungen kann der Benutzer seine Anzeige- und Zeitverwaltungseinstellungen festlegen:
 
-![](../../attachments/57770563/62558501.png)
+![](../../../attachments/57770563/62558501.png)
 
 Mit den Angaben zu Tagesbeginn und -ende sowie den Arbeitstagen lassen sich die Zeitfenster definieren, die von BlueMind als gearbeitet betrachtet werden. So wird z. B. bei der Suche nach Verfügbarkeiten oder beim Verschicken einer Einladung dem Veranstalter mitgeteilt, dass der Termin außerhalb der Arbeitszeiten des Benutzers liegt.
 
@@ -40,17 +40,17 @@ Ist eine Erinnerung deaktiviert, ist das Feld leer und die entsprechende Dropdow
 
 Die Registerkarte „Meine Kalender“ ermöglicht den Zugriff auf die Kalenderverwaltung des Benutzers:
 
-- persönliche Kalender: siehe Seite [Kalender](/Guide_de_l_utilisateur/L_agenda/) - §3 Multi-Kalender
-- externe Kalender: siehe die entsprechende Seite [Externe Kalender](/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes/)
+- persönliche Kalender: siehe Seite [Kalender](/old/Guide_de_l_utilisateur/L_agenda/) - §3 Multi-Kalender
+- externe Kalender: siehe die entsprechende Seite [Externe Kalender](/old/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes/)
 
 
-![](../../attachments/57770563/62558504.png)
+![](../../../attachments/57770563/62558504.png)
 
 ## Abonnements
 
 Auf dieser Registerkarte kann der Benutzer persönliche, freigegebene oder Domänenkalender abonnieren und ihre Synchronisierung für die Verwendung offline oder auf Client Tiers (Fat-Client-Software oder Mobilgerät) aktivieren.
 
-![](../../attachments/57770563/62558512.png)
+![](../../../attachments/57770563/62558512.png)
 
 Wenn die Synchronisierung für einen Kalender aktiviert ist, werden die Daten in die Client-Software hochgeladen. Daher:
 
@@ -108,7 +108,7 @@ So fügen Sie einen Kalender hinzu:
 
 So löschen Sie einen Kalender:
 
-- Klicken Sie auf das Papierkorbsymbol am Ende der Zeile ![](../../attachments/57770563/62558516.png)
+- Klicken Sie auf das Papierkorbsymbol am Ende der Zeile ![](../../../attachments/57770563/62558516.png)
 - **Klicken Sie auf die Schaltfläche „Speichern“, um die Änderungen zu speichern.**
 
 
@@ -122,9 +122,9 @@ Auf „Speichern“ klicken, um eine Änderung des Synchronisationsstatus zu ber
 
 Auf dieser Registerkarte kann der Benutzer die Freigabe von ihm geführter Kalender verwalten: seine Kalender, aber auch die der Ressourcen oder Benutzer, die ihm die Änderungs- und Verwaltungsrechte erteilt haben.
 
-Die Freigabeverwaltung ermöglicht zudem, [einen Kalender für Benutzer außerhalb der](/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda/#Lepartaged'agenda-partage-exterieur) BlueMind-Domäne freizugeben
+Die Freigabeverwaltung ermöglicht zudem, [einen Kalender für Benutzer außerhalb der](/old/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda/#Lepartaged'agenda-partage-exterieur) BlueMind-Domäne freizugeben
 
-![](../../attachments/57770563/62558510.png)
+![](../../../attachments/57770563/62558510.png)
 
 
 :::info
@@ -135,10 +135,10 @@ Standardmäßig wird die eigene Freigabe des Benutzers angezeigt, der über die 
 
 So verwalten Sie die Freigaben
 
-- Wählen Sie in der ersten Dropdown-Liste die zu verwaltende Entität (den Benutzer oder eine seiner Delegationen):![](../../attachments/57770563/62558508.png)
+- Wählen Sie in der ersten Dropdown-Liste die zu verwaltende Entität (den Benutzer oder eine seiner Delegationen):![](../../../attachments/57770563/62558508.png)
 - Geben Sie im zugehörigen Eingabefeld den Namen der Person oder Gruppe ein, für die Sie den Kalender freigeben möchten
 - Mit der Eingabetaste bestätigen oder in der von der Autovervollständigung vorgeschlagenen Liste wählen
-- Der Benutzer wird zur Liste hinzugefügt, wählen Sie in der Dropdown-Liste seiner Zeile das Recht, das ihm zugeordnet werden soll:![](../../attachments/57770563/62558506.png) 
+- Der Benutzer wird zur Liste hinzugefügt, wählen Sie in der Dropdown-Liste seiner Zeile das Recht, das ihm zugeordnet werden soll:![](../../../attachments/57770563/62558506.png) 
     1. **Kann mich zu einer Sitzung einladen**: Der Benutzer kann mich einladen, indem er mich zur Teilnehmerliste eines Termins hinzufügt
     2. **Kann mich einladen und meine Termine sehen**: zusätzlich zum obigen Recht kann der Benutzer meinen Kalender einsehen
     3. **Kann meine Termine ändern**: zusätzlich zu den obigen Rechten kann der Benutzer einen Termin zu meinem Kalender hinzufügen, ihn ändern, löschen oder meine Teilnahme an einem Termin bestätigen oder ablehnen
@@ -152,6 +152,6 @@ Im Bereich „Öffentliche Freigabe“ können Sie die Freigabe für **alle Benu
 
 :::
 
-Für weitere Informationen siehe [Verwaltung der Freigaben](/Guide_de_l_utilisateur/Gestion_des_partages/)
+Für weitere Informationen siehe [Verwaltung der Freigaben](/old/Guide_de_l_utilisateur/Gestion_des_partages/)
 
 

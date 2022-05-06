@@ -10,7 +10,7 @@ BlueMind permet de créer plusieurs "**identités**" pour un même compte, avec 
 
 La gestion des identités se fait dans les paramètres de la messagerie. Pour modifier et ajouter des identités, aller sur **Préférences - Messagerie - Identités**
 
-![](../../../attachments/86762550/86764474.png)
+![](../../attachments/86762550/86764474.png)
 
 
 ## Modifier une identité
@@ -26,7 +26,7 @@ Une identité est créée par défaut par BlueMind. Pour la modifier, aller sur 
 - **Signature** : rédaction de la signature au format HTML, avec possibilité d'insérer les images, logos, etc.****
 
 
-![](../../../attachments/86762550/86764473.png)
+![](../../attachments/86762550/86764473.png)
 
 
 ## Créer une identité
@@ -34,7 +34,7 @@ Une identité est créée par défaut par BlueMind. Pour la modifier, aller sur 
 **"Ajouter une identité"** permet de créer d'autres identités avec, par exemple, une signature différente. Il est également possible de choisir l'identité par défaut, c'est-à-dire l'identité qui sera sélectionnée par défaut lors de la création d'un nouveau message.
 
 
-![](../../../attachments/86762550/86764472.png)
+![](../../attachments/86762550/86764472.png)
 
 
 :::tip
@@ -49,12 +49,12 @@ Pour voir et sélectionner l'expéditeur (identité) lors de l'envoi de messages
 
 **"Sélectionner automatiquement le champ "DE" (expéditeur)"** permet de préciser dans quel contexte l'application pourra choisir automatiquement l'identité la plus adaptée : jamais, uniquement pour les réponses ou pour les réponses et les nouveaux messages.
 
-![](../../../attachments/86762550/86764471.png)
+![](../../attachments/86762550/86764471.png)
 
 
 :::tip
 
-Il est également possible d'afficher l'expéditeur (champs "De") de façon occasionnelle en sélectionnant l'option "Afficher le champ "De"" dans la barre d'outils du [composeur](/STAGING/Guide_de_l_utilisateur_4.7/La_messagerie_4.7/Envoyer_un_message/).
+Il est également possible d'afficher l'expéditeur (champs "De") de façon occasionnelle en sélectionnant l'option "Afficher le champ "De"" dans la barre d'outils du [composeur](/Guide_de_l_utilisateur/La_messagerie_4.7/Envoyer_un_message/).
 
 :::
 

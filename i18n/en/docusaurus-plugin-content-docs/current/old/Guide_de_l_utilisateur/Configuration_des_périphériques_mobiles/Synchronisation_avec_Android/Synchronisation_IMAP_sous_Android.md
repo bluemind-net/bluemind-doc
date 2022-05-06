@@ -19,37 +19,37 @@ For other smartphones or Android versions, operations are the same although scre
 
 Open the Gmail application:
 
-![](../../../attachments/57771006/57771020.png)
+![](../../../../attachments/57771006/57771020.png)
 
 *Note: the Email application is still shown but when you open it, an alert warns you that you are being redirected to the Gmail application.*
 
 If there is no account, choose to add an account from the application's home screen:
 
-![](../../../attachments/57771006/57771019.png)
+![](../../../../attachments/57771006/57771019.png)
 
 If an account already exists, open the menu and choose to add an account:
 
-![](../../../attachments/57771006/57771017.png) ![](../../../attachments/57771006/57771018.png)
+![](../../../../attachments/57771006/57771017.png) ![](../../../../attachments/57771006/57771018.png)
 
 Select a personal type of account:
 
-![](../../../attachments/57771006/57771016.png)
+![](../../../../attachments/57771006/57771016.png)
 
 Enter the email address:
 
-![](../../../attachments/57771006/57771015.png)
+![](../../../../attachments/57771006/57771015.png)
 
 Select IMAP account setup:
 
-![](../../../attachments/57771006/57771014.png)
+![](../../../../attachments/57771006/57771014.png)
 
 Enter your password:
 
-![](../../../attachments/57771006/57771013.png)
+![](../../../../attachments/57771006/57771013.png)
 
 Enter the incoming server information (the server that allows you to receive/view messages):
 
-![](../../../attachments/57771006/57771012.png)
+![](../../../../attachments/57771006/57771012.png)
 
 Barring special cases:
 
@@ -60,7 +60,7 @@ Barring special cases:
 
 Enter the outgoing server information (the server that allows you to send messages):
 
-![](../../../attachments/57771006/57771011.png)
+![](../../../../attachments/57771006/57771011.png)
 
 Barring special cases, this information, including server address, is the same as for the incoming server.
 
@@ -98,20 +98,20 @@ SMTP (outgoing server):
 
 Once the connection has been duly tested and established, the application offers you to configure the account's main options:
 
-![](../../../attachments/57771006/57771010.png)
+![](../../../../attachments/57771006/57771010.png)
 
 Check the options you want and tap "Next".
 
 Enter the account's name and the name that will be shown as the account's user in sent messages:
 
-![](../../../attachments/57771006/57771009.png)
+![](../../../../attachments/57771006/57771009.png)
 
 The mail account is then shown in the application's list of accounts:
 
-![](../../../attachments/57771006/57771008.png)
+![](../../../../attachments/57771006/57771008.png)
 
 Messages are retrieved and displayed:
 
-![](../../../attachments/57771006/57771007.png)
+![](../../../../attachments/57771006/57771007.png)
 
 

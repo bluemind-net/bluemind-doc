@@ -26,11 +26,11 @@ You can define and set a default identity to use when composing new messages.
 
 To manage identities, go to user settings:
 
- ![](../../attachments/57770060/57770070.png) 
+ ![](../../../attachments/57770060/57770070.png) 
 
 Then go to Mail > Identities tab.
 
-![](../../attachments/57770334/57770340.png)
+![](../../../attachments/57770334/57770340.png)
 
 By default, you are assigned an identity which includes your email address and user name (first and last name).
 The identity's signature has a name but no content.
@@ -41,7 +41,7 @@ The identity's signature has a name but no content.
 
 This opens the following dialog box:
 
-![](../../attachments/57770334/57770338.png)
+![](../../../attachments/57770334/57770338.png)
 
 - **Sender name** is the name that will appear in the messages you send.
 - **The signature name** is designed to identify it in the list of identities as one same address and one same name displayed can be used for several identities. 
@@ -75,7 +75,7 @@ You can create several identities with the same "Sender name" for a single email
 
 In this case, the signature name is the distinguishing feature for these identities and allows you to tell them apart:
 
-![](../../attachments/57770334/57770336.png)
+![](../../../attachments/57770334/57770336.png)
 
 :::
 

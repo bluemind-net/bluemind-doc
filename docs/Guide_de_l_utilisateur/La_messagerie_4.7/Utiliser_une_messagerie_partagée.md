@@ -6,19 +6,19 @@ position: 80
 # Utiliser une messagerie partagée
 
 
-En plus de leur messagerie nominative, les utilisateurs peuvent accéder aux **messageries individuelles** [partagées](/STAGING/Guide_de_l_utilisateur_4.7/La_messagerie_4.7/Partager_une_messagerie/) par d'autres utilisateurs ainsi qu'aux messageries collaboratives, créées par l'administrateur du domaine : les **messageries de groupe** et les **boîtes aux lettres partagées**.
+En plus de leur messagerie nominative, les utilisateurs peuvent accéder aux **messageries individuelles** [partagées](/Guide_de_l_utilisateur/La_messagerie_4.7/Partager_une_messagerie/) par d'autres utilisateurs ainsi qu'aux messageries collaboratives, créées par l'administrateur du domaine : les **messageries de groupe** et les **boîtes aux lettres partagées**.
 
 ## S'abonner à une messagerie partagée
 
 Lorsque des droits d'accès sur une messagerie sont attribués à un utilisateur, celui-ci reçoit une notification par e-mail
 
-![](../../../attachments/86762642/86764579.png)
+![](../../attachments/86762642/86764579.png)
 
 
 Une fois la notification reçue, l'utilisateur doit **activer l'abonnement** à la boîte aux lettres dans ses paramètres de messagerie : **Préférences - Messagerie - Autres boîtes aux lettres**
 
 
-**![](../../../attachments/86762642/86764578.png)
+**![](../../attachments/86762642/86764578.png)
 
 
 **
@@ -30,18 +30,18 @@ Cliquer sur "**S'abonner à d'autres boîtes aux lettres"** pour afficher la fen
 
 Afin de valider l'abonnement, relancer l'application en cliquant sur le lien
 
-![](../../../attachments/86762642/86764577.png)
+![](../../attachments/86762642/86764577.png)
 
 :::
 
 
 ## Utiliser une messagerie partagée par un utilisateur
 
-**Une fois l'abonnement validé**, la messagerie de l'utilisateur apparait dans la [liste des dossiers](/STAGING/Guide_de_l_utilisateur_4.7/La_messagerie_4.7/Organiser_les_dossiers/).
+**Une fois l'abonnement validé**, la messagerie de l'utilisateur apparait dans la [liste des dossiers](/Guide_de_l_utilisateur/La_messagerie_4.7/Organiser_les_dossiers/).
 
-![](../../../attachments/86762642/86764576.png)
+![](../../attachments/86762642/86764576.png)
 
-En fonction du **[niveau de droits accordés](/STAGING/Guide_de_l_utilisateur_4.7/La_messagerie_4.7/Partager_une_messagerie/) **à l'utilisateur, celui-ci pourra :
+En fonction du **[niveau de droits accordés](/Guide_de_l_utilisateur/La_messagerie_4.7/Partager_une_messagerie/) **à l'utilisateur, celui-ci pourra :
 
 - **Droit de lecture** : consulter les messages
 - **Droit de lecture avancé** : consulter les messages, y répondre et les transférer
@@ -66,17 +66,17 @@ Ce fonctionnement, parfaitement adapté à un **travail d'équipe**, peut être 
 Les boîtes aux lettres partagées sont créées et gérées par l'administrateur du domaine, qui peut déléguer la gestion des droits de partage à un ou des administrateur(s) de la messagerie.
 
 
-**Une fois l'abonnement activé**, la boite aux lettres partagée apparait dans les **Dossiers partagés** de la [liste des dossiers](/STAGING/Guide_de_l_utilisateur_4.7/La_messagerie_4.7/Organiser_les_dossiers/).
+**Une fois l'abonnement activé**, la boite aux lettres partagée apparait dans les **Dossiers partagés** de la [liste des dossiers](/Guide_de_l_utilisateur/La_messagerie_4.7/Organiser_les_dossiers/).
 
-![](../../../attachments/86762642/86764575.png)
+![](../../attachments/86762642/86764575.png)
 
 
-En fonction du **[niveau de droits accordés](/STAGING/Guide_de_l_utilisateur_4.7/La_messagerie_4.7/Partager_une_messagerie/) **à l'utilisateur, celui-ci pourra :
+En fonction du **[niveau de droits accordés](/Guide_de_l_utilisateur/La_messagerie_4.7/Partager_une_messagerie/) **à l'utilisateur, celui-ci pourra :
 
 - **Droit de lecture** : consulter les messages
 - **Droit de lecture avancé** : consulter les messages, y répondre et les transférer
 - **Droit d'écriture** : en plus des droits précédents, l'utilisateur peut déplacer et/ou supprimer les messages
-- **Droit de gestion** : en plus des droits précédents, l'utilisateur peur gérer les droits de partage et **envoyer des messages au nom de la boite aux lettres partagée** en se créant [**une identité**](/STAGING/Guide_de_l_utilisateur_4.7/La_messagerie_4.7/Gérer_les_identités_du_compte/) avec la messagerie de la boîte aux lettres partagée
+- **Droit de gestion** : en plus des droits précédents, l'utilisateur peur gérer les droits de partage et **envoyer des messages au nom de la boite aux lettres partagée** en se créant [**une identité**](/Guide_de_l_utilisateur/La_messagerie_4.7/Gérer_les_identités_du_compte/) avec la messagerie de la boîte aux lettres partagée
 
 
 ## Utiliser une messagerie de groupe
@@ -100,15 +100,15 @@ La possibilité de consulter les messages et dossiers de la messagerie sera disp
 
 ## Gérer les partages d'une messagerie partagée
 
-Cliquer sur l'icône de partage ![](../../../attachments/86762642/86764574.png) pour ouvrir la fenêtre pop-up et suivre la **procédure de [partage d'une messagerie](/STAGING/Guide_de_l_utilisateur_4.7/La_messagerie_4.7/Partager_une_messagerie/)**
+Cliquer sur l'icône de partage ![](../../attachments/86762642/86764574.png) pour ouvrir la fenêtre pop-up et suivre la **procédure de [partage d'une messagerie](/Guide_de_l_utilisateur/La_messagerie_4.7/Partager_une_messagerie/)**
 
 
-![](../../../attachments/86762642/86764573.png)
+![](../../attachments/86762642/86764573.png)
 
 
 :::info
 
-Afin de pouvoir modifier les droits d'accès d'une messagerie qui lui a été partagée, l'utilisateur doit avoir les [droits de gestion](/STAGING/Guide_de_l_utilisateur_4.7/La_messagerie_4.7/Partager_une_messagerie/) sur la messagerie et y être **abonné**.
+Afin de pouvoir modifier les droits d'accès d'une messagerie qui lui a été partagée, l'utilisateur doit avoir les [droits de gestion](/Guide_de_l_utilisateur/La_messagerie_4.7/Partager_une_messagerie/) sur la messagerie et y être **abonné**.
 
 :::
 

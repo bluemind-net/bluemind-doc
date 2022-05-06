@@ -16,9 +16,9 @@ Siehe diese Seite: [EAS-Server-Konfiguration](/Guide_de_l_administrateur/BlueMin
 
 ## Präsentation
 
-Die ActiveSync-Synchronisierung ist der bevorzugte Synchronisierungsmodus, da Sie damit sowohl Nachrichten als auch Kontakte und Kalender in einer einzigen Konfiguration synchronisieren, während Sie [bei der IMAP-Synchronisierung](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry/) nur auf Ihre E-Mails zugreifen können.
+Die ActiveSync-Synchronisierung ist der bevorzugte Synchronisierungsmodus, da Sie damit sowohl Nachrichten als auch Kontakte und Kalender in einer einzigen Konfiguration synchronisieren, während Sie [bei der IMAP-Synchronisierung](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry/) nur auf Ihre E-Mails zugreifen können.
 
-Weitere Informationen finden Sie unter [Synchronisation externer Geräte](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
+Weitere Informationen finden Sie unter [Synchronisation externer Geräte](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
 
 
 :::info
@@ -37,19 +37,19 @@ Es werden nur Geräte mit BlackBerry OS 10 (Q5, Q10) unterstützt.
 
 Gehen Sie in den Systemeinstellungen auf „Konten“:
 
-![](../../../attachments/57771034/57771054.png)
+![](../../../../attachments/57771034/57771054.png)
 
 Fügen Sie ein Konto „E-Mail, Kalender und Kontakte“ hinzu:
 
-![](../../../attachments/57771034/57771053.png)
+![](../../../../attachments/57771034/57771053.png)
 
 Wählen Sie den Kontotyp Microsoft&lt;sup>®&lt;/sup> Exchange ActiveSync:
 
-![](../../../attachments/57771034/57771052.png)
+![](../../../../attachments/57771034/57771052.png)
 
 Geben Sie die Konto- und Serverinformationen ein:
 
-![](../../../attachments/57771034/57771044.png)
+![](../../../../attachments/57771034/57771044.png)
 
 Außer in Sonderfällen:
 
@@ -62,7 +62,7 @@ Außer in Sonderfällen:
 
 Aktivieren oder deaktivieren Sie im nächsten Bildschirm die zu synchronisierenden Elemente:
 
-![](../../../attachments/57771034/57771049.png)
+![](../../../../attachments/57771034/57771049.png)
 
 Klicken Sie abschließend auf „Fertig“
 
@@ -77,17 +77,17 @@ Nur die persönlichen Adressbücher werden mit den Smartphone-Kontakten synchron
 
 Das System speichert Ihre Konfiguration und Ihr Konto wird angezeigt:
 
-![](../../../attachments/57771034/57771045.png)
+![](../../../../attachments/57771034/57771045.png)
 
 Sie können jetzt Ihre E-Mails und Ihren Kalender auf Ihrem Blackberry abrufen!
 
-![](../../../attachments/57771034/57771046.png)
+![](../../../../attachments/57771034/57771046.png)
 
 ## Erzwingen der Terminkalender-Aktualisierung
 
 Um die Synchronisierung des Kalenders zu erzwingen, rufen Sie in der Kalenderanwendung das Menü unten rechts auf und drücken Sie „Aktualisieren“:
 
-![](../../../attachments/57771034/57771036.png)
+![](../../../../attachments/57771034/57771036.png)
 
 
  

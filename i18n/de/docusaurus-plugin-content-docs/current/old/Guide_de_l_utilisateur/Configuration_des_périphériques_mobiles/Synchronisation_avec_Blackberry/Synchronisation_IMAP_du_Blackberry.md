@@ -18,35 +18,35 @@ Diese Anleitung wurde auf Blackberry 10 OS erstellt. Je nach verwendeter Version
 Die E-Mail-Synchronisation im Blackberry erfolgt im Blackberry Hub.
 Öffnen Sie in dieser Anwendung das Menü:
 
-![](../../../attachments/57771055/57771056.png)
+![](../../../../attachments/57771055/57771056.png)
 
 Gehen Sie zu Einstellungen („Settings“):
 
-![](../../../attachments/57771055/57771068.png)
+![](../../../../attachments/57771055/57771068.png)
 
 Gehen Sie in die E-Mail-Konten-Konfiguration („Email-Accounts“):
 
-![](../../../attachments/57771055/57771067.png)
+![](../../../../attachments/57771055/57771067.png)
 
 Fügen Sie ein neues Konto hinzu („Add account“):
 
-![](../../../attachments/57771055/57771066.png)
+![](../../../../attachments/57771055/57771066.png)
 
 Wählen Sie das Hinzufügen des Kontotyps „Email, Calendar and Contacts“ (E-Mail, Kalender und Kontakte):
 
-![](../../../attachments/57771055/57771065.png)
+![](../../../../attachments/57771055/57771065.png)
 
 Geben Sie die E-Mail-Adresse des Benutzers ein und drücken Sie „Weiter“:
 
-![](../../../attachments/57771055/57771064.png)
+![](../../../../attachments/57771055/57771064.png)
 
 Wählen Sie den Kontotyp IMAP:
 
-![](../../../attachments/57771055/57771063.png)
+![](../../../../attachments/57771055/57771063.png)
 
 Auf dem nächsten Bildschirm können Sie die Verbindungsparameter zu den Ein- und Ausgangsservern eingeben und die Synchronisationsoptionen konfigurieren, scrollen Sie nach oben, um auf die Felder zuzugreifen:
 
-![](../../../attachments/57771055/57771062.png)
+![](../../../../attachments/57771055/57771062.png)
 
 Auf dem ersten Teil des Bildschirms:
 
@@ -60,7 +60,7 @@ Im folgenden Abschnitt können Sie den Posteingangsserver einstellen:
 - der Sicherheitstyp kann SSL oder TLS sein, je nach Konfiguration (siehe unten, Kasten *„Ports und Sicherheit“*)
 
 
-![](../../../attachments/57771055/57771061.png)
+![](../../../../attachments/57771055/57771061.png)
 
 Im folgenden Abschnitt können Sie den Postausgangsserver (SMTP) zum Versenden von Nachrichten einrichten. Außer in Sonderfällen sind die Verbindungs- und Adressinformationen die gleichen wie beim Eingangsserver, nur die Portnummer ändert sich.
 
@@ -109,15 +109,15 @@ Nach der Eingabe aller Parameter drücken Sie „Done“ („Bestätigen“) obe
 
 Das Gerät prüft die Verbindungen zu den Servern und informiert Sie über ein mögliches Zertifikatsproblem. Drücken Sie „Continue“ („Weiter“):
 
-![](../../../attachments/57771055/57771060.png) ![](../../../attachments/57771055/57771059.png)
+![](../../../../attachments/57771055/57771060.png) ![](../../../../attachments/57771055/57771059.png)
 
 Die Anwendung kehrt dann zur Hub-Startseite zurück und zeigt die Nachrichten für alle Konten an. Um nur die des neuen Kontos anzuzeigen, öffnen Sie das Menü und wählen Sie das erstellte Konto:
 
-![](../../../attachments/57771055/57771058.png)
+![](../../../../attachments/57771055/57771058.png)
 
  
 
-![](../../../attachments/57771055/57771057.png)
+![](../../../../attachments/57771055/57771057.png)
 
 
  

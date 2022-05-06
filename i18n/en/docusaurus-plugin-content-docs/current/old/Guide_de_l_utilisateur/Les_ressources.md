@@ -29,18 +29,18 @@ You can be granted the following rights levels for resources:
 
 To book a resource, follow the steps below:
 
-1. Add the resource you want to book to the list of event participants, either when you create or edit the event. You can check its availability just like you would for attendees:![](../attachments/57770793/57770800.png)
+1. Add the resource you want to book to the list of event participants, either when you create or edit the event. You can check its availability just like you would for attendees:![](../../attachments/57770793/57770800.png)
 
 2. When you save an event, you can choose whether to send an invitation or not. This invitation is a resource booking request sent by email.
 3. The resource's appointed manager(s) receive(s) a request via Calendar alert if the resource's calendar is currently displayed in their application ** **and** **by email if an invitation has been sent.
 
 
-![](../attachments/57770793/57770798.png)
+![](../../attachments/57770793/57770798.png)
 
 The manager can accept the request from within the booking request email
 
 
-![](../attachments/57770793/57770796.png)
+![](../../attachments/57770793/57770796.png)
 
 The manager can see the resource's event as pending validation
 
@@ -54,7 +54,7 @@ The manager can see the resource's event as pending validation
     2. Auto-accept and reject are both disabled, the resource manager must confirm the booking request using one of the following methods:
         - in Mail, using the "Participation" link in the email they have received
         - in Calendar, in the pending events list (clicking the numbered icon in the navigation bar)
-        - in Calendar by clicking the event: ![](../attachments/57770793/57770794.png)
+        - in Calendar by clicking the event: ![](../../attachments/57770793/57770794.png)
 
 
 :::tip

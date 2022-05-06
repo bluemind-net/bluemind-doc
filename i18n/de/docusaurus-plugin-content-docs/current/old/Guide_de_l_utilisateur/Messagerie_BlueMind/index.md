@@ -16,10 +16,10 @@ Sie können sie ab sofort ausprobieren und testen! Aber seien Sie wachsam: in di
 
 Wir freuen uns schon auf Ihr Feedback!
 
-![](../../attachments/66096291/66099873.png)
+![](../../../attachments/66096291/66099873.png)
 
 
-![](../../attachments/66096291/66099892.png)
+![](../../../attachments/66096291/66099892.png)
 
 ## Den neuen E-Mail-Client testen
 
@@ -27,11 +27,11 @@ Die Administratoren müssen [den neuen Webmailer installieren und den Benutzern 
 
 Danach kann über einen Schalter oben rechts im Postfach zwischen dem klassischen Postfach und dem neuen BlueMind-Webmailer gewechselt werden:
 
-![](../../attachments/66096291/66099889.png)
+![](../../../attachments/66096291/66099889.png)
 
 Der Benutzer kann den Wechsel auch über die Verwaltung seiner Parameter, Rubrik Messaging, vornehmen:
 
-![](../../attachments/66096291/66099841.png)
+![](../../../attachments/66096291/66099841.png)
 
 ## Anzeige
 
@@ -39,16 +39,16 @@ Der Benutzer kann den Wechsel auch über die Verwaltung seiner Parameter, Rubrik
 
 Die obere Leiste des Fensters wurde modernisiert und mit der neuen Benutzeroberfläche in Einklang gebracht. Sie ermöglicht:
 
-- Im linken Teil den Wechsel zwischen Anwendungen:![](../../attachments/66096291/66099895.png)
-- Im rechten Teil den Zugang zu den Einstellungen und die Abmeldung:![](../../attachments/66096291/66099894.png)
-- ![](../../attachments/57770017/66096241.png) Im rechten Teil (über das Fragezeichen-Symbol) den direkten Zugriff auf die BlueMind-Online-Dokumentation:![](../../attachments/66096291/66099893.png)
+- Im linken Teil den Wechsel zwischen Anwendungen:![](../../../attachments/66096291/66099895.png)
+- Im rechten Teil den Zugang zu den Einstellungen und die Abmeldung:![](../../../attachments/66096291/66099894.png)
+- ![](../../../attachments/57770017/66096241.png) Im rechten Teil (über das Fragezeichen-Symbol) den direkten Zugriff auf die BlueMind-Online-Dokumentation:![](../../../attachments/66096291/66099893.png)
 
 
 ### Der E-Mail-Client (Webmailer)
 
 Die Hauptansicht des Postfachs besteht aus 3 Spalten:
 
-![](../../attachments/66096291/66099896.png)
+![](../../../attachments/66096291/66099896.png)
 
 1.  **Linke Spalte:**  OrdnerbaumEr zeigt die Ordner in separaten einklappbaren Baumstrukturen an, um zum einen die Ordner des Benutzers und zum anderen die Ordner der freigegebenen Postfächer gruppieren zu können.
 2.  **Mittlere Spalte:**  Die Liste der Nachrichten, die in dem in Spalte A ausgewählten Ordner enthalten sindMit den Filtern am oberen Rand der Liste kann ausgewählt werden, welche Nachrichten angezeigt werden sollen; wenn die Maus über eine Nachricht bewegt wird, werden Informationen und die möglichen Aktionen angezeigt.
@@ -81,11 +81,11 @@ Bei Auswahl eines Ordners:
 - erscheint der Aufzählungspunkt, der die Anzahl der ungelesenen Nachrichten im Ordner anzeigt, leuchtend blau:
 
 
-![](../../attachments/66096291/66099891.png) *Hier ist der Ordner "restored-2021-01-14" ausgewählt*
+![](../../../attachments/66096291/66099891.png) *Hier ist der Ordner "restored-2021-01-14" ausgewählt*
 
 Bei Bewegung des Mauszeigers über einen Ordner erscheint ein Menü, das die möglichen Aktionen für diesen Ordner und die darin enthaltenen Nachrichten vorschlägt:
 
-![](../../attachments/66096291/66099843.png)
+![](../../../attachments/66096291/66099843.png)
 
 Die verfügbaren Aktionen sind:
 
@@ -113,8 +113,8 @@ Die Verwaltung der Ordner erfolgt direkt aus der Ordnerliste.
 
 #### Einen Ordner erstellen
 
-- Unten in der Baumstruktur des Benutzers befindet sich der Eintrag "Neuer Ordner":![](../../attachments/66096291/66099887.png)
-- Klicken Sie darauf, um das Eingabefeld anzuzeigen:![](../../attachments/66096291/66099886.png) 
+- Unten in der Baumstruktur des Benutzers befindet sich der Eintrag "Neuer Ordner":![](../../../attachments/66096291/66099887.png)
+- Klicken Sie darauf, um das Eingabefeld anzuzeigen:![](../../../attachments/66096291/66099886.png) 
     - Erstellung bestätigen: &lt;Eingabe> drücken.
     - Erstellung abbrechen: Drücken Sie &lt;Escape> oder klicken Sie auf das Kreuz am Ende der Zeile
 
@@ -123,7 +123,7 @@ Die Verwaltung der Ordner erfolgt direkt aus der Ordnerliste.
 
 - Wechseln Sie in den übergeordneten Ordner des Ordners, den Sie erstellen möchten
 - Klappen Sie das Menü auf (siehe oben)
-- Klicken Sie auf „Unterordner erstellen“: es erscheint ein neuer Ordner unter dem gewählten Ordner mit einem Feld zur Eingabe des Namens:![](../../attachments/66096291/66099890.png)
+- Klicken Sie auf „Unterordner erstellen“: es erscheint ein neuer Ordner unter dem gewählten Ordner mit einem Feld zur Eingabe des Namens:![](../../../attachments/66096291/66099890.png)
     - Erstellung bestätigen: &lt;Eingabe> drücken.
     - Erstellung abbrechen: Drücken Sie &lt;Escape> oder klicken Sie auf das Kreuz am Ende der Zeile
 
@@ -132,7 +132,7 @@ Die Verwaltung der Ordner erfolgt direkt aus der Ordnerliste.
 
 - Wechseln Sie zu dem Ordner, den Sie umbenennen möchten
 - Klappen Sie das Menü auf (siehe oben)
-- Klicken Sie auf „Ordner umbenennen“, der Name des Ordners kann nun bearbeitet werden:![](../../attachments/66096291/66099888.png) 
+- Klicken Sie auf „Ordner umbenennen“, der Name des Ordners kann nun bearbeitet werden:![](../../../attachments/66096291/66099888.png) 
     - Erstellung bestätigen: &lt;Eingabe> drücken.
     - Erstellung abbrechen: Drücken Sie &lt;Escape> oder klicken Sie auf das Kreuz am Ende der Zeile
 
@@ -166,7 +166,7 @@ Um dies zu umgehen, müssen die darin enthaltenen Nachrichten verschoben werden:
 
 ### Präsentation
 
-![](../../attachments/66096291/66099844.png)
+![](../../../attachments/66096291/66099844.png)
 
 
 :::tip
@@ -177,11 +177,11 @@ Die Liste der Nachrichten ist derzeit nur nach Datum sortiert, dies wird sich in
 
 Ungelesene Nachrichten sind durch ein blaues Banner am Anfang der Zeile gekennzeichnet und ihr Text ist fett gedruckt:
 
-![](../../attachments/66096291/66099861.png)
+![](../../../attachments/66096291/66099861.png)
 
 3 Felder oben in der Liste ermöglichen ein Filtern der Anzeige:
 
-![](../../attachments/66096291/66099883.png)
+![](../../../attachments/66096291/66099883.png)
 
 - **Alle**
 - **Ungelesen**
@@ -190,7 +190,7 @@ Ungelesene Nachrichten sind durch ein blaues Banner am Anfang der Zeile gekennze
 
 Mit dem Optionsfeld vor den Filtern können alle aktuell angezeigten Meldungen ausgewählt werden.
 
-Einzelheiten zur individuellen Einstellung der Nachrichtenliste enthält Seite [Webmailer-Einstellungen](/Guide_de_l_utilisateur/Messagerie_BlueMind/Préférences_du_webmail/)
+Einzelheiten zur individuellen Einstellung der Nachrichtenliste enthält Seite [Webmailer-Einstellungen](/old/Guide_de_l_utilisateur/Messagerie_BlueMind/Préférences_du_webmail/)
 
 ### Aktionen für Nachrichten
 
@@ -198,7 +198,7 @@ Einzelheiten zur individuellen Einstellung der Nachrichtenliste enthält Seite [
 
 Die wichtigsten Aktionen sind zugänglich, wenn mit dem Mauszeiger über eine Nachricht in der Liste gefahren wird:
 
-![](../../attachments/66096291/66099882.png)
+![](../../../attachments/66096291/66099882.png)
 
 Hier kann eine Nachricht:
 
@@ -214,22 +214,22 @@ Hier kann eine Nachricht:
 
 Wenn der Mauszeiger über eine Nachricht bewegt wird, erscheint ein Optionsfeld, mit dem die Nachricht ausgewählt werden kann. Auf die Schaltflächen der gewünschten Nachricht(en) klicken um sie auszuwählen:
 
-![](../../attachments/66096291/66099881.png)
+![](../../../attachments/66096291/66099881.png)
 
 ##### Alle Nachrichten auswählen
 
 Mit dem Optionsfeld am oberen Rand der Liste können Sie je nach aktiviertem Filter alle Nachrichten im Ordner auswählen bzw. abwählen:
 
-![](../../attachments/66096291/66099855.png)
+![](../../../attachments/66096291/66099855.png)
 
 #### Gruppierte Aktionen für Nachrichten
 
 Wenn eine oder mehrere Nachrichten ausgewählt sind, erscheinen die möglichen Aktionen in der Aktionsleiste und im Hauptanzeigebereich:
 
-![](../../attachments/66096291/66099853.png)Die verfügbaren gruppierten Aktionen sind:
+![](../../../attachments/66096291/66099853.png)Die verfügbaren gruppierten Aktionen sind:
 
 - **Als gelesen kennzeichnen**
-- **Verschieben**: Öffnet ein Menü für die Suche nach dem gewünschten Zielordner:![](../../attachments/66096291/66099854.png)
+- **Verschieben**: Öffnet ein Menü für die Suche nach dem gewünschten Zielordner:![](../../../attachments/66096291/66099854.png)
 - **Löschen**
 - **Verfolgen**: markiert Nachrichten mit einem „Wichtig“-Flag (wird nur angezeigt, wenn nicht markierte Nachrichten ausgewählt sind)
 - **Nicht mehr verfolgen**: entfernt das Flag von Nachrichten (wird nur angezeigt, wenn markierte Nachrichten ausgewählt sind)
@@ -240,26 +240,26 @@ Wenn eine oder mehrere Nachrichten ausgewählt sind, erscheinen die möglichen A
 
 Nachrichten können durch Ziehen und Ablegen verschoben werden, indem eine einzelne Nachricht direkt gezogen oder mehrere Nachrichten markiert werden (siehe oben):
 
-![](../../attachments/66096291/66099885.png)
+![](../../../attachments/66096291/66099885.png)
 
 Eine Bestätigungsmeldung zeigt an, dass der Vorgang abgeschlossen ist. Auf den Ordnernamen in der Nachricht klicken, um automatisch zum Zielordner umgeleitet zu werden:
-![](../../attachments/66096291/66099884.png)
+![](../../../attachments/66096291/66099884.png)
 
 ## Anzeige einer Nachricht
 
 Im Hauptanzeigebereich wird die ausgewählte Nachricht angezeigt:
 
-![](../../attachments/66096291/66099880.png)Die Aktionsleiste oberhalb der Nachricht schlägt die für diese Nachricht verfügbaren Aktionen vor:
+![](../../../attachments/66096291/66099880.png)Die Aktionsleiste oberhalb der Nachricht schlägt die für diese Nachricht verfügbaren Aktionen vor:
 
-![](../../attachments/66096291/66099877.png)
+![](../../../attachments/66096291/66099877.png)
 
 Die Aktionen „Antworten“ und „Weiterleiten“ sind oben rechts in der Nachricht zugänglich:
 
-![](../../attachments/66096291/66099879.png)
+![](../../../attachments/66096291/66099879.png)
 
 ### Anhänge
 
-Ein ausklappbares Feld unterhalb der Kopfzeile zeigt die in der Nachricht eingebetteten Anhänge an, wenn möglich mit einer Vorschau. Jede Datei kann über das Symbol heruntergeladen werden ![](../../attachments/66096291/66099878.png)
+Ein ausklappbares Feld unterhalb der Kopfzeile zeigt die in der Nachricht eingebetteten Anhänge an, wenn möglich mit einer Vorschau. Jede Datei kann über das Symbol heruntergeladen werden ![](../../../attachments/66096291/66099878.png)
 
 Je nach Art der Anlage wird durch Anklicken das Vorschaufenster geöffnet oder das Herunterladen oder Öffnen der Datei angeboten.
 

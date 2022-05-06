@@ -10,7 +10,7 @@ position: 48
 
 L'interface de gestion des paramètres permet à l'utilisateur de personnaliser son environnement BlueMind.
 
-Cette interface est accessible depuis le bandeau de navigation présent en haut de toutes les pages de BlueMind : ![](../attachments/57770060/57770071.png)
+Cette interface est accessible depuis le bandeau de navigation présent en haut de toutes les pages de BlueMind : ![](../../attachments/57770060/57770071.png)
 
 
 ## Mon compte
@@ -25,7 +25,7 @@ Le premier onglet de la page "Mon compte" permet de régler les paramètres gén
 - Le changement du mot de passe
 
 
-![](../attachments/57770769/62555169.png)
+![](../../attachments/57770769/62555169.png)
 
 
 :::tip
@@ -46,13 +46,13 @@ Les administrateurs de BlueMind ont à partir de la version 4.3 de BlueMind la p
 
 Dans l'un ou l'autre des cas, lorsqu'il essaie de se connecter avec son ancien mot de passe, l'utilisateur voit apparaître le formulaire suivant :
 
-![](../attachments/57770769/62555147.png)Une fois le mot de passe modifié, l'utilisateur est dirigé de nouveau vers le formulaire de connexion et peut se connecter à BlueMind avec son nouveau mot de passe.
+![](../../attachments/57770769/62555147.png)Une fois le mot de passe modifié, l'utilisateur est dirigé de nouveau vers le formulaire de connexion et peut se connecter à BlueMind avec son nouveau mot de passe.
 
 ## Réinitialisation des données
 
 L'onglet "Avancée" de la page "Mon compte" donne accès aux fonctions avancées de gestion des préférences, à savoir la réinitialisation des données locales de l'application :
 
-![](../attachments/57770769/62555148.png)
+![](../../attachments/57770769/62555148.png)
 
 ## Notifications
 
@@ -71,13 +71,13 @@ Les navigateurs non supportés sont :
 - Opera
 
 
-![](../attachments/57770769/62555155.png)
+![](../../attachments/57770769/62555155.png)
 
 
 Notifications d'événement et de nouveau message avec Chrome sous Debian
 
 
-![](../attachments/57770769/62555154.png)
+![](../../attachments/57770769/62555154.png)
 
 
 Deux notifications simultanées avec Chrome sous Debian
@@ -90,10 +90,10 @@ Une notification disparaît seule au bout de quelques secondes. Pour forcer sa f
 ### Activation
 
 - se rendre dans l'onglet "Avancée"
-- cliquer sur le bouton "Activer les notifications" :![](../attachments/57770769/62555161.png)
+- cliquer sur le bouton "Activer les notifications" :![](../../attachments/57770769/62555161.png)
 - Confirmer l'activation dans votre navigateur
-    - Sous Firefox cliquer sur l'icône de la barre d'adresse du navigateur  :![](../attachments/57770769/62555152.png)
-    - Sous Chrome, en choisissant de les autoriser lorsque la requête apparaît :![](../attachments/57770769/62555150.png)
+    - Sous Firefox cliquer sur l'icône de la barre d'adresse du navigateur  :![](../../attachments/57770769/62555152.png)
+    - Sous Chrome, en choisissant de les autoriser lorsque la requête apparaît :![](../../attachments/57770769/62555150.png)
 
 
 ### Désactivation
@@ -101,7 +101,7 @@ Une notification disparaît seule au bout de quelques secondes. Pour forcer sa f
 #### Firefox
 
 - De même que pour l'activation, cliquer sur l'icône de la barre d'adresse du navigateur
-- Modifier votre choix dans le menu déroulant des permissions :![](../attachments/57770769/62555159.png)
+- Modifier votre choix dans le menu déroulant des permissions :![](../../attachments/57770769/62555159.png)
 
 
 :::info
@@ -114,7 +114,7 @@ Choisir «Bloquer» aura pour effet d'empêcher la réactivation future des noti
 #### Chrome
 
 - Cliquer sur l'icône de la barre d'adresse du navigateur
-- Rechercher la ligne "Notifications" et modifier le choix du menu déroulant correspondant :![](../attachments/57770769/62555158.png)
+- Rechercher la ligne "Notifications" et modifier le choix du menu déroulant correspondant :![](../../attachments/57770769/62555158.png)
 
 
 ## Téléchargements
@@ -125,21 +125,21 @@ La section téléchargements des paramètres permet aux utilisateurs de téléch
 
 Cette section permet à l'utilisateur de générer des clés d'accès à l'API BlueMind afin de pouvoir identifier son ou ses projets de développement.
 
-![](../attachments/57770769/62555167.png)
+![](../../attachments/57770769/62555167.png)
 
 ### Générer une clé d'API
 
 Pour générer une clé d'API pour un projet :
 
 1. Taper le nom du projet dans le champs «Nom»
-2. Cliquer sur le bouton «Créer»![](../attachments/57769989/69896490.png) la clé est automatiquement et immédiatement créée et ajoutée à la liste des clés d'API avec le nom du projet correspondant, elle peut dès à présent être copiée et utilisée
+2. Cliquer sur le bouton «Créer»![](../../attachments/57769989/69896490.png) la clé est automatiquement et immédiatement créée et ajoutée à la liste des clés d'API avec le nom du projet correspondant, elle peut dès à présent être copiée et utilisée
 
 
 ### Supprimer une clé d'API
 
 Pour révoquer une clé d'API :
 
-1. Cliquer sur l'icône de corbeille ![](../attachments/57769989/69896481.png) en fin de ligne correspondante
+1. Cliquer sur l'icône de corbeille ![](../../attachments/57769989/69896481.png) en fin de ligne correspondante
 2. Valider la suppression
 
 
@@ -155,6 +155,6 @@ La suppression est effective immédiatement, sans cliquer sur le bouton «Enregi
 
 Ce lien affiche l'écran d'information sur la version de BlueMind installée et ses informations de souscription le cas échéant :
 
-![](../attachments/57770769/62555165.png)
+![](../../attachments/57770769/62555165.png)
 
 

@@ -10,7 +10,7 @@ BlueMind permet une synchronisation différenciée pour chaque liste de tâches 
 
 La synchronisation des agendas s'effectue dans les [paramètres](https://forge.bluemind.net/confluence/display/DA/.Parametrer+l%27agenda+vBM-4) des tâches, en allant sur **Préférences - Tâches - Mes listes de tâches **ou **Autres listes de tâches.** Puis activer le bouton "**Synchronisation**" pour les listes souhaitées.
 
-![](../../../attachments/86764866/86764868.png)
+![](../../attachments/86764866/86764868.png)
 
 Lorsque la synchronisation est activée pour une liste, les données sont téléchargées sur le logiciel client. De ce fait :
 

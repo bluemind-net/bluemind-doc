@@ -56,19 +56,19 @@ Se référer à cette page : [Configuration du serveur EAS](/Guide_de_l_administ
 
 Se rendre dans les réglages de l'appareil > rubrique «Mails, Contacts, Calendrier» et appuyer sur «Ajouter un compte» :
 
-![](../../../attachments/57771069/57771098.png) ![](../../../attachments/57771069/57771096.png)
+![](../../../../attachments/57771069/57771098.png) ![](../../../../attachments/57771069/57771096.png)
 
 Choisir d'ajouter un compte de type «Exchange» :
 
-![](../../../attachments/57771069/57771094.png)
+![](../../../../attachments/57771069/57771094.png)
 
 Remplir les informations de l'utilisateur (la description est libre, elle servira à identifier le compte sur l'appareil) puis appuyer sur "Suivant" en haut à droite :
 
-![](../../../attachments/57771069/57771092.png)
+![](../../../../attachments/57771069/57771092.png)
 
 Saisir les informations détaillées de connexion au serveur :
 
-![](../../../attachments/57771069/57771090.png)
+![](../../../../attachments/57771069/57771090.png)
 
 - **Adresse** : votre adresse e-mail
 - **Serveur** : l'adresse (l'URL) à laquelle votre téléphone doit accéder au service Active Sync. Il s'agit généralement de ce qui est décrit comme «*external URL*», elle est identique à l'adresse à laquelle vous accéder à BlueMind (en enlevant https://).
@@ -86,19 +86,19 @@ Votre appareil iOS tente maintenant de se connecter à votre serveur BlueMind.
 
 Une fois cela effectif, vous pouvez choisir les éléments à synchroniser avant d'appuyer sur « Suivant » ou « Enregistrer »  :
 
-![](../../../attachments/57771069/57771088.png)
+![](../../../../attachments/57771069/57771088.png)
 
 Votre compte apparaît alors dans la liste des comptes de l'appareil :
 
-![](../../../attachments/57771069/57771086.png)
+![](../../../../attachments/57771069/57771086.png)
 
 En appuyant sur celui-ci vous pouvez accéder à la modification des réglages de synchronisation (éléments à synchroniser, durée) :
 
-![](../../../attachments/57771069/57771084.png)
+![](../../../../attachments/57771069/57771084.png)
 
 Félicitations ! Votre appareil est maintenant synchronisé avec BlueMind !
 
-![](../../../attachments/57771069/57771082.png)
+![](../../../../attachments/57771069/57771082.png)
 
 ## Forcer le rafraichissement du calendrier
 
@@ -112,15 +112,15 @@ Cette partie du guide a été réalisée avec un iPad sous iOS 8.4
 
 Dans l'application, faire apparaître la fenêtre des calendriers affichés :
 
-![](../../../attachments/57771069/57771075.png)
+![](../../../../attachments/57771069/57771075.png)
 
 Faire glisser le contenu en le tirant vers le bas :
 
-![](../../../attachments/57771069/57771073.png)
+![](../../../../attachments/57771069/57771073.png)
 
 La roue de mise à jour apparaît alors, indiquant que l'appareil est en train d'effectuer la synchronisation des calendriers :
 
-![](../../../attachments/57771069/57771071.png)
+![](../../../../attachments/57771069/57771071.png)
 
 Lorsqu'elle disparait et que le contenu reprend sa place, le rafraichissement est terminé.
 

@@ -24,22 +24,22 @@ La synchronisation de ces calendriers se fait de façon unilatérale : les calen
 Pour ajouter un calendrier externe :
 
 - se rendre dans la gestion des paramètres > Agenda > onglet « Mes Calendriers »
-- dans le formulaire de création d'un nouveau calendrier, sélectionner le type « external ics » ("ics externe") : un champ "ICS url" apparaît alors, avec un icône à la suite, indiquant la validité de l'url saisie (l'icône est tout d'abord un "warning" rouge, le champ étant vide) :![](../../attachments/57770592/57770611.png)
+- dans le formulaire de création d'un nouveau calendrier, sélectionner le type « external ics » ("ics externe") : un champ "ICS url" apparaît alors, avec un icône à la suite, indiquant la validité de l'url saisie (l'icône est tout d'abord un "warning" rouge, le champ étant vide) :![](../../../attachments/57770592/57770611.png)
 
 
 - Copier dans le champ "ICS url" l'adresse du calendrier externe puis quitter le champ pour valider (touche "tab" ou clic dans une zone vide de la page)
-- le moteur valide alors l'url et rempli le champ "label" s'il accède bien au calendrier et que le nom du calendrier est correctement inclus dans celui-ci :![](../../attachments/57770592/57770609.png)
+- le moteur valide alors l'url et rempli le champ "label" s'il accède bien au calendrier et que le nom du calendrier est correctement inclus dans celui-ci :![](../../../attachments/57770592/57770609.png)
 
 
 :::tip
 
 NB : le champ "label" reste éditable, le nom du calendrier peut être personnalisé ou ajouté s'il n'a pas été rempli automatiquement :
 
-![](../../attachments/57770592/57770607.png)
+![](../../../attachments/57770592/57770607.png)
 
 :::
 
-- Cliquer enfin sur "Ajouter" pour créer le calendrier, celui-ci s'ajoute à la liste des calendriers personnels de l'utilisateur :![](../../attachments/57770592/57770605.png)Le calendrier externe possède 2 liens particuliers :
+- Cliquer enfin sur "Ajouter" pour créer le calendrier, celui-ci s'ajoute à la liste des calendriers personnels de l'utilisateur :![](../../../attachments/57770592/57770605.png)Le calendrier externe possède 2 liens particuliers :
     - Réinitialiser : permet de réinitialiser la synchronisation en cas de soucis avec celle-ci
     - Synchroniser : permet de forcer la synchronisation du calendrier
 
@@ -54,7 +54,7 @@ Voir [L'agenda](/Guide_de_l_utilisateur/L_agenda/)
 
 Le calendrier peut ensuite être recherché et ajouté par autocomplétion à la vue de l'utilisateur comme n'importe quel autre calendrier :
 
-![](../../attachments/57770592/57770599.png)
+![](../../../attachments/57770592/57770599.png)
 
 
 :::info
@@ -73,8 +73,8 @@ NB : selon l'encombrement des serveurs et du réseau, la synchronisation peut pr
 La seule modification que l'on peut apporter à un calendrier externe porte sur son nom :
 
 - se rendre dans la gestion des paramètres > Agenda > onglet « Mes Calendriers »
-- dans la liste des calendriers, cliquer sur la ligne du calendrier concerné afin de faire apparaître le champ de saisie : ![](../../attachments/57770592/57770603.png)
-- modifier le label du calendrier puis valider avec la coche (ou en quittant simplement le champ) ou annuler avec la croix. ![](../../attachments/57770592/57770601.png)
+- dans la liste des calendriers, cliquer sur la ligne du calendrier concerné afin de faire apparaître le champ de saisie : ![](../../../attachments/57770592/57770603.png)
+- modifier le label du calendrier puis valider avec la coche (ou en quittant simplement le champ) ou annuler avec la croix. ![](../../../attachments/57770592/57770601.png)
 
 
 :::info
@@ -89,14 +89,14 @@ L'url d'un calendrier ne peut être modifiée, pour charger une nouvelle url sup
 
 Un calendrier externe peut être retiré de la vue par défaut comme un autre calendrier, en cliquant sur son icône de couleur puis sur "remove" :
 
-![](../../attachments/57770592/57770594.png)
+![](../../../attachments/57770592/57770594.png)
 
 ### Supprimer un calendrier
 
 Pour supprimer un calendrier de sa configuration :
 
 - se rendre dans la gestion des paramètres > Agenda > onglet « Mes Calendriers »
-- cliquer sur l'icône ![](../../attachments/57769989/69896481.png) à la fin de la ligne correspondante
+- cliquer sur l'icône ![](../../../attachments/57769989/69896481.png) à la fin de la ligne correspondante
 
 
 Le calendrier est immédiatement supprimé et retiré de la vue.

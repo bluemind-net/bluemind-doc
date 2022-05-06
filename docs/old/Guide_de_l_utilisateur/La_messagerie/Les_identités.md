@@ -24,11 +24,11 @@ Une identité par défaut peut être définie et sera sélectionnée par défaut
 
 ## Gérer les identités
 
-Pour accéder à la gestion des identités, se rendre dans l'interface de gestion des paramètres utilisateurs :![](../../attachments/57770060/57770071.png)
+Pour accéder à la gestion des identités, se rendre dans l'interface de gestion des paramètres utilisateurs :![](../../../attachments/57770060/57770071.png)
 
 Puis aller à la rubrique Messagerie > onglet Identités.
 
-![](../../attachments/57770334/57770341.png)
+![](../../../attachments/57770334/57770341.png)
 
 Par défaut l'utilisateur possède une identité avec son adresse de messagerie et son nom d'utilisateur (prénom+nom).
 Sa signature possède un label mais elle est vierge.
@@ -39,7 +39,7 @@ Sa signature possède un label mais elle est vierge.
 
 Les deux actions mènent au même formulaire de gestion d'une identité :
 
-![](../../attachments/57770334/57770339.png)
+![](../../../attachments/57770334/57770339.png)
 
 - **Le nom de l'expéditeur** est le nom qui apparaîtra dans les messages envoyés par l'utilisateur
 - **Le label de la signature** sert à la distinguer dans la liste des identités, une même adresse et un même nom d'affichage pouvant être utilisés dans plusieurs identités
@@ -74,7 +74,7 @@ Un utilisateur peut créer plusieurs identités avec le même nom d'expéditeur 
 
 La signature est alors l'élément différenciateur de ces identités et son label permet de les reconnaître dans la liste des identités :
 
-![](../../attachments/57770334/57770337.png)
+![](../../../attachments/57770334/57770337.png)
 
 :::
 

@@ -29,7 +29,7 @@ However, reply and forward information is shared: if one user has replied to a m
 
 This is useful in collaborative work situations to manage shared inboxes (such as a contact mailbox) that include sub-folders such as "resolved, "sent", or "reply templates".
 
-![](../../attachments/57770342/72189526.png)
+![](../../../attachments/57770342/72189526.png)
 
 ## Managing shared mailboxes
 
@@ -39,9 +39,9 @@ If you have been granted management rights to a shared mailbox, you can access i
 
 In this tab, select the mailbox whose share options you want to manage from the first drop-down list – this can be your own mailbox or a shared mailbox you have access to:
 
-![](../../attachments/57770342/72189529.png)
+![](../../../attachments/57770342/72189529.png)
 
-See [Managing Shares](/Guide_de_l_utilisateur/Gestion_des_partages/).
+See [Managing Shares](/old/Guide_de_l_utilisateur/Gestion_des_partages/).
 
 ## Using shared mailboxes
 
@@ -50,7 +50,7 @@ See [Managing Shares](/Guide_de_l_utilisateur/Gestion_des_partages/).
 To write a message "as" a shared mailbox, i.e. to use the mailbox's email address as the sender, you must:
 
 - be given the minimum right "can edit messages" by the administrator or the mailbox manager
-- [create an identity for yourself](/Guide_de_l_utilisateur/La_messagerie/Les_identités/#Lesidentites-mailshare) with this mailbox as the sender's address
+- [create an identity for yourself](/old/Guide_de_l_utilisateur/La_messagerie/Les_identités/#Lesidentites-mailshare) with this mailbox as the sender's address
 
 
 :::tip
@@ -81,15 +81,15 @@ First, you need to:
 - Send it to the desired mailbox if it has an email address, or copy (or drag) it straight into the mailbox from your webmail or email client (Outlook, Thunderbird, etc.).
 
 
-![](../../attachments/57770342/72189524.png)
+![](../../../attachments/57770342/72189524.png)
 
 The email appears in the shared mailbox and can be seen by all its users:
 
-![](../../attachments/57770342/72189522.png)
+![](../../../attachments/57770342/72189522.png)
 
 Next, to use the message stored in this mailbox, just select it in webmail and click "More actions" > Edit as new:
 
-![](../../attachments/57770342/72189520.png)
+![](../../../attachments/57770342/72189520.png)
 
 
 :::info
@@ -100,7 +100,7 @@ In Thunderbird, this option is available from the "Messages" menu or directly by
 
 A window containing the pre-filled message opens: the recipient's address and content are those of the original message and your signature is added.
 
-![](../../attachments/57770342/72189518.png)
+![](../../../attachments/57770342/72189518.png)
 
 
 :::info
@@ -109,11 +109,11 @@ Signature position depends on your settings and the email client used, therefore
 
 In BlueMind's webmail, to check/edit signature position, go to user settings by clicking the wrench icon in the top right corner of the screen:
 
-![](../../attachments/57770060/57770070.png)
+![](../../../attachments/57770060/57770070.png)
 
 Next in Mail > Preferences > Composing Messages.
 
-![](../../attachments/57770060/57770064.png)
+![](../../../attachments/57770060/57770064.png)
 
 Signature options must be set as:
 
@@ -132,7 +132,7 @@ If you want to keep your signature above the quotes for other messages, cut/drag
 
 ## Subscriptions and third-party software
 
-From BlueMind version 4.3, you can manage subscriptions to shared mailboxes to show the ones you like in Outlook [connected over mapi](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/) and/or on mobile devices [connected over EAS](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
+From BlueMind version 4.3, you can manage subscriptions to shared mailboxes to show the ones you like in Outlook [connected over mapi](/old/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/) and/or on mobile devices [connected over EAS](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
 
 
 :::info
@@ -143,10 +143,10 @@ Subscriptions only concern third-party applications, they have no incidence on h
 
 Once a mailbox has been shared and you have received the notification email (see above):
 
-- go to the settings page: My account > Mail > Subscriptions tab:![](../../attachments/57770342/72189508.png)
-- Start typing the name of the mailbox in the box at the top of the tab and autocomplete will suggest a list of mailboxes you have sharing rights to:![](../../attachments/57770342/72189510.png)
+- go to the settings page: My account > Mail > Subscriptions tab:![](../../../attachments/57770342/72189508.png)
+- Start typing the name of the mailbox in the box at the top of the tab and autocomplete will suggest a list of mailboxes you have sharing rights to:![](../../../attachments/57770342/72189510.png)
 - Select the mailbox you want to add to the list. It is added with synchronization enabled by default:
-![](../../attachments/57770342/72189509.png)
+![](../../../attachments/57770342/72189509.png)
 
 
 :::info
@@ -162,7 +162,7 @@ Once a mailbox has been shared and you have received the notification email (see
 
 :::info
 
-You can modify subscriptions (synchronization enabled/disabled) or delete them (click the ![](../../attachments/57770342/72189511.png) icon) at any time.
+You can modify subscriptions (synchronization enabled/disabled) or delete them (click the ![](../../../attachments/57770342/72189511.png) icon) at any time.
 
 :::
 

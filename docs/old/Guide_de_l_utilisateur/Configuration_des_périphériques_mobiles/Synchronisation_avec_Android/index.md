@@ -38,28 +38,28 @@ Se référer à cette page : [Configuration du serveur EAS](/Guide_de_l_administ
 
 Allez dans le menu de votre téléphone et choisissez « Paramètres » :
 
-![](../../../attachments/57770962/66093492.png)
+![](../../../../attachments/57770962/66093492.png)
 
 Se rendre dans la gestion des comptes :
 
-![](../../../attachments/57770962/66093491.png)
+![](../../../../attachments/57770962/66093491.png)
 
 Choisir ici « Ajouter un nouveau compte » :
 
-![](../../../attachments/57770962/66093490.png)
+![](../../../../attachments/57770962/66093490.png)
 
 Choisir de créer un compte de type « Exchange » :
 
-![](../../../attachments/57770962/66093488.png)
+![](../../../../attachments/57770962/66093488.png)
 
 Saisir l'adresse de messagerie et le mot de passe de l'utilisateur puis appuyer sur « Configurer manuellement »
 
-![](../../../attachments/57770962/66093489.png)
+![](../../../../attachments/57770962/66093489.png)
 
 
 Les informations sont alors pré-remplies en fonction de l'adresse de messagerie. Vérifier qu'elles sont correctes, il peut notamment être nécessaire de corriger l'adresse du serveur :
 
-![](../../../attachments/57770962/66093487.png) ![](../../../attachments/57770962/66093486.png)
+![](../../../../attachments/57770962/66093487.png) ![](../../../../attachments/57770962/66093486.png)
 
 Sauf cas particulier :
 
@@ -78,11 +78,11 @@ Certains appareils mobiles acceptent aussi pour ce champs l'adresse mail complè
 
 Si cela est demandé, confirmer l'autorisation d'accès en appuyant sur « OK » :
 
-![](../../../attachments/57770962/66093512.png)
+![](../../../../attachments/57770962/66093512.png)
 
 L'appareil procède alors au paramétrage puis affiche une confirmation de bon déroulement :
 
-![](../../../attachments/57770962/66093485.png) ![](../../../attachments/57770962/66093484.png)
+![](../../../../attachments/57770962/66093485.png) ![](../../../../attachments/57770962/66093484.png)
 
 Cliquer sur OK pour terminer.
 
@@ -101,11 +101,11 @@ Il est cependant possible d'activer la fonctionnalité afin de la coupler avec u
 
 Les paramètres de synchronisation peuvent être consultés et modifiés en allant dans la configuration du compte :
 
-![](../../../attachments/57770962/66093483.png)
+![](../../../../attachments/57770962/66093483.png)
 
 Appuyer sur « Synchroniser les e-mails depuis le » pour choisir la période de synchronisation (la configuration par défaut dépend des appareils, elle peut être d'un mois ou d'une semaine seulement) :
 
-![](../../../attachments/57770962/66093482.png) ![](../../../attachments/57770962/66093481.png)
+![](../../../../attachments/57770962/66093482.png) ![](../../../../attachments/57770962/66093481.png)
 
 
 :::info
@@ -118,7 +118,7 @@ Par défaut, c'est le mode * [Push Mail](http://fr.wikipedia.org/wiki/Push_mail)
 
 Plus bas, vous pouvez choisir de synchroniser toutes les données ou seulement l'une ou l'autre parmi Messagerie (e-mails), Contacts (Carnet d'adresse "Mes contacts") et Agenda (votre calendrier seulement, voir encart ci-dessus) :
 
-![](../../../attachments/57770962/66093480.png)
+![](../../../../attachments/57770962/66093480.png)
 NB : bien que le choix "Tâches" apparaisse, très peu d'appareils mobiles sous Android permettent effectivement de synchroniser les tâches.
 
 

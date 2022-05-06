@@ -10,14 +10,14 @@ position: 52
 
 Pour accéder aux préférences de l'agenda, se rendre dans "Mon compte" en cliquant sur le nom d'utilisateur à droite du bandeau de navigation :
 
-![](../../attachments/57770060/57770071.png)
+![](../../../attachments/57770060/57770071.png)
 
 
 ## Préférences générales
 
 Le premier onglet des préférences de l'agenda permet à l'utilisateur de positionner ses préférences d'affichage et de gestion du temps :
 
-![](../../attachments/57770563/62558501.png)
+![](../../../attachments/57770563/62558501.png)
 
 Les informations de début et fin de journée ainsi que les jours ouvrés permettent de définir les plages horaires qui seront considérées comme ouvrées par BlueMind. Ainsi, lors de la recherche de disponibilité ou lors d'une invitation par exemple, l'organisateur de l'événement sera informé du fait que l'événement se situe hors des heures travaillées de l'utilisateur.
 
@@ -44,13 +44,13 @@ L'onglet «Mes calendriers» donne accès à la gestion des calendriers de l'uti
 - calendriers externes : voir la page dédiée [Les calendriers externes](/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes/)
 
 
-![](../../attachments/57770563/62558504.png)
+![](../../../attachments/57770563/62558504.png)
 
 ## Abonnements
 
 Cet onglet permet à l'utilisateur de s'abonner à des agendas, personnels, partagés ou de domaine et d'activer leur synchronisation pour une utilisation hors ligne ou sur des clients tiers (logiciel client lourd ou périphérique mobile).
 
-![](../../attachments/57770563/62558512.png)
+![](../../../attachments/57770563/62558512.png)
 
 Lorsque la synchronisation est activée pour un agenda, les données sont téléchargées sur le logiciel client. De ce fait :
 
@@ -108,7 +108,7 @@ Pour ajouter un agenda :
 
 Pour supprimer un agenda :
 
-- Cliquer sur l'icône corbeille en fin de ligne ![](../../attachments/57770563/62558516.png)
+- Cliquer sur l'icône corbeille en fin de ligne ![](../../../attachments/57770563/62558516.png)
 - **Cliquer sur le bouton «Enregistrer» pour prendre en compte les changements.**
 
 
@@ -124,7 +124,7 @@ Cet onglet permet à l'utilisateur de gérer les partages des agendas dont il es
 
 La gestion des partages permet en outre, de [partager un agenda avec des utilisateurs extérieurs](/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda/#Lepartaged'agenda-partage-exterieur) au domaine BlueMind
 
-![](../../attachments/57770563/62558510.png)
+![](../../../attachments/57770563/62558510.png)
 
 
 :::info
@@ -135,10 +135,10 @@ Par défaut un partage apparaît, qui est celui de l'utilisateur lui-même ayant
 
 Pour gérer les partages
 
-- Sélectionner dans la première liste déroulante l'entité à gérer (l'utilisateur ou une de ses délégations) :![](../../attachments/57770563/62558508.png)
+- Sélectionner dans la première liste déroulante l'entité à gérer (l'utilisateur ou une de ses délégations) :![](../../../attachments/57770563/62558508.png)
 - Dans la zone de saisie dédiée, saisir le nom de la personne ou du groupe avec qui partager l'agenda
 - Valider avec la touche &lt;Entrée> ou sélectionner le nom dans la liste proposée par l'autocomplétion
-- L'utilisateur est ajouté dans la liste, choisir dans la liste déroulante de sa ligne le droit à lui attribuer :![](../../attachments/57770563/62558506.png) 
+- L'utilisateur est ajouté dans la liste, choisir dans la liste déroulante de sa ligne le droit à lui attribuer :![](../../../attachments/57770563/62558506.png) 
     1. **Peut m'inviter à une réunion** : l'utilisateur peut m'inviter en m'ajoutant à la liste des participants à un événement
     2. **Peut m'inviter et voir mes rendez-vous** : en plus du droit précédent, l'utilisateur peut visualiser mon agenda
     3. **Peut modifier mes rendez-vous** : en plus des droits précédents, l'utilisateur peut ajouter un événement dans mon agenda, le modifier, le supprimer ou encore confirmer ou refuser ma participation à un événement

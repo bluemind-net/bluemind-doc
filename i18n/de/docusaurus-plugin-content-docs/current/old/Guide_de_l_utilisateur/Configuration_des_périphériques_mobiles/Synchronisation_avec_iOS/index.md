@@ -10,9 +10,9 @@ position: 68
 
 ### Die Synchronisation
 
-Die ActiveSync-Synchronisierung ist der bevorzugte Synchronisierungsmodus, da Sie damit sowohl Nachrichten als auch Kontakte und Kalender in einer einzigen Konfiguration synchronisieren, während Sie bei der [IMAP-Synchronisierung](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Synchronisation_IMAP_avec_iOS/) nur auf Ihre E-Mails zugreifen können.
+Die ActiveSync-Synchronisierung ist der bevorzugte Synchronisierungsmodus, da Sie damit sowohl Nachrichten als auch Kontakte und Kalender in einer einzigen Konfiguration synchronisieren, während Sie bei der [IMAP-Synchronisierung](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Synchronisation_IMAP_avec_iOS/) nur auf Ihre E-Mails zugreifen können.
 
-Weitere Informationen finden Sie unter [Synchronisation externer Geräte](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
+Weitere Informationen finden Sie unter [Synchronisation externer Geräte](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
 
 
 :::info
@@ -56,19 +56,19 @@ Siehe diese Seite: [EAS-Server-Konfiguration](/Guide_de_l_administrateur/BlueMin
 
 Gehen Sie zu den Geräteeinstellungen > „E-Mails, Kontakte, Kalender“ und drücken Sie „Konto hinzufügen“:
 
-![](../../../attachments/57771069/57771098.png) ![](../../../attachments/57771069/57771096.png)
+![](../../../../attachments/57771069/57771098.png) ![](../../../../attachments/57771069/57771096.png)
 
 Fügen Sie ein „Exchange“-Konto hinzu:
 
-![](../../../attachments/57771069/57771094.png)
+![](../../../../attachments/57771069/57771094.png)
 
 Geben Sie die Benutzerinformationen ein (die Beschreibung ist frei und wird zur Identifizierung des Kontos auf dem Gerät verwendet) und drücken Sie oben rechts auf „Weiter“:
 
-![](../../../attachments/57771069/57771092.png)
+![](../../../../attachments/57771069/57771092.png)
 
 Geben Sie detaillierte Informationen zur Serververbindung ein:
 
-![](../../../attachments/57771069/57771090.png)
+![](../../../../attachments/57771069/57771090.png)
 
 - **Adresse**: Ihre E-MailAdresse
 - **Server**: Die Adresse (URL), unter der Ihr Telefon auf den Active-Sync-Dienst zugreifen muss. Dies ist im Allgemeinen das, was als *„externe URL“* bezeichnet wird, sie ist identisch mit der Adresse, unter der Sie auf BlueMind zugreifen (https:// wird entfernt).
@@ -86,19 +86,19 @@ Ihr iOS-Gerät versucht nun, eine Verbindung zu Ihrem BlueMind-Server herzustell
 
 Danach können Sie die zu synchronisierenden Elemente auswählen, bevor Sie auf „Weiter“ oder „Speichern“ drücken:
 
-![](../../../attachments/57771069/57771088.png)
+![](../../../../attachments/57771069/57771088.png)
 
 Ihr Konto wird dann in der Kontoliste des Geräts angezeigt:
 
-![](../../../attachments/57771069/57771086.png)
+![](../../../../attachments/57771069/57771086.png)
 
 Durch Drücken dieser Taste können Sie auf die Änderung der Synchronisationseinstellungen (zu synchronisierende Elemente, Dauer) zugreifen:
 
-![](../../../attachments/57771069/57771084.png)
+![](../../../../attachments/57771069/57771084.png)
 
 Herzlichen Glückwunsch! Ihr Gerät ist nun mit BlueMind synchronisiert!
 
-![](../../../attachments/57771069/57771082.png)
+![](../../../../attachments/57771069/57771082.png)
 
 ## Das Erzwingen der Kalenderaktualisierung
 
@@ -112,15 +112,15 @@ Dieser Teil der Anleitung wurde mit einem iPad unter iOS 8.4 erstellt
 
 Rufen Sie in der Anwendung das Kalenderfenster auf:
 
-![](../../../attachments/57771069/57771075.png)
+![](../../../../attachments/57771069/57771075.png)
 
 Verschieben Sie den Inhalt, indem Sie ihn nach unten ziehen:
 
-![](../../../attachments/57771069/57771073.png)
+![](../../../../attachments/57771069/57771073.png)
 
 Das Aktualisierungsrad erscheint und zeigt an, dass das Gerät die Kalender synchronisiert:
 
-![](../../../attachments/57771069/57771071.png)
+![](../../../../attachments/57771069/57771071.png)
 
 Wenn es verschwindet und der Inhalt wieder angezeigt wird, ist die Aktualisierung abgeschlossen.
 

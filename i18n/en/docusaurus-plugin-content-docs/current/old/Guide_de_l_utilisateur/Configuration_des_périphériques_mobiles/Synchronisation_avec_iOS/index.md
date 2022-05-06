@@ -10,9 +10,9 @@ position: 68
 
 ### Synchronization
 
-ActiveSync is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars while [IMAP synchronization](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Synchronisation_IMAP_avec_iOS/) is restricted to messages.
+ActiveSync is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars while [IMAP synchronization](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/Synchronisation_IMAP_avec_iOS/) is restricted to messages.
 
-To find out more, please go to [Synchronizing with mobile phones and tablets](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
+To find out more, please go to [Synchronizing with mobile phones and tablets](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
 
 
 :::info
@@ -47,19 +47,19 @@ Please refer to the following page: [Configuring the EAS server](/Guide_de_l_adm
 
 Go to Settings > Mail, Contacts, Calendars and tap "Add account":
 
-![](../../../attachments/57771069/57771097.png) ![](../../../attachments/57771069/57771095.png)
+![](../../../../attachments/57771069/57771097.png) ![](../../../../attachments/57771069/57771095.png)
 
 Choose to add an Exchange account:
 
-![](../../../attachments/57771069/57771093.png)
+![](../../../../attachments/57771069/57771093.png)
 
 Fill in user information and tap "Next" in the top right corner:
 
-![](../../../attachments/57771069/57771091.png)
+![](../../../../attachments/57771069/57771091.png)
 
 Fill in the detailed server information:
 
-![](../../../attachments/57771069/57771089.png)
+![](../../../../attachments/57771069/57771089.png)
 
 - **Email**: your email address
 - **Server**: the address (URL)  your phone uses to access the ActiveSync service. It is typically called external URL and is similar to the address you are using to access BlueMind (excluding https://).
@@ -77,19 +77,19 @@ Your iOS device will then try to connect to your BlueMind server.
 
 Once the connection is complete, you can choose the items you want to synchronize, and tap "Save":
 
-![](../../../attachments/57771069/57771087.png)
+![](../../../../attachments/57771069/57771087.png)
 
 Your account now is shown in the list of accounts in the device:
 
-![](../../../attachments/57771069/57771085.png)
+![](../../../../attachments/57771069/57771085.png)
 
 Tap the account to access the synchronization settings (items to synchronize, duration):
 
-![](../../../attachments/57771069/57771083.png)
+![](../../../../attachments/57771069/57771083.png)
 
 Congratulations! Your device is now synchronized with BlueMind!
 
-![](../../../attachments/57771069/57771081.png)
+![](../../../../attachments/57771069/57771081.png)
 
 ## Forcing the calendar to refresh
 
@@ -102,15 +102,15 @@ This part of the guide was written using an iPad running iOS 8.4.
 
 From the Calendar application, open the displayed calendars' window:
 
-![](../../../attachments/57771069/57771074.png)
+![](../../../../attachments/57771069/57771074.png)
 
 Tap the window and drag it downwards:
 
-![](../../../attachments/57771069/57771072.png)
+![](../../../../attachments/57771069/57771072.png)
 
 The spinning wheel is displayed, showing that the device is synchronizing the calendars:
 
-![](../../../attachments/57771069/57771070.png)
+![](../../../../attachments/57771069/57771070.png)
 
 When the spinning wheel goes away and the window returns to normal, refreshing is complete.
 

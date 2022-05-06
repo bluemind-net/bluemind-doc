@@ -11,7 +11,7 @@ position: 44
 L'interface de gestion des préférences des contacts permet à l'utilisateur de gérer ses carnets d'adresses propres ainsi que ses abonnements aux carnets d'adresses externes (domaine, autres utilisateurs...).
 
 L'interface est  accessible depuis la gestion des préférences utilisateur, section Contacts (l'accès y est automatique lorsqu'on accède depuis l'application "Contacts") :
-![](../../attachments/57770060/57770071.png)
+![](../../../attachments/57770060/57770071.png)
 
 
 ## Carnets d'adresses de l'utilisateur
@@ -30,7 +30,7 @@ Le 3ème carnet par défaut, l'annuaire des utilisateurs, n'étant pas géré pa
 
 Ces carnets ne sont pas modifiables ni supprimables, mais l'utilisateur peut en faire une libre utilisation en gérant les contacts qui le composent.
 
-![](../../attachments/57770425/57770436.png)
+![](../../../attachments/57770425/57770436.png)
 
 ### Création et modification
 
@@ -43,13 +43,13 @@ Pour **créer** un nouveau carnet d'adresses :
 
 Pour **modifier** un carnet d'adresses :
 
-- Cliquer sur le libellé du carnet afin de faire apparaître le champs de saisie :![](../../attachments/57770425/57770434.png)
-- Saisir le nouveau nom et valider avec la touche &lt;Entrée> ou en cliquant sur le symbole ![](../../attachments/57769989/69896489.png) Pour annuler en cours de saisie, appuyer sur la touche &lt;Échap> ou cliquer sur le symbole ![](../../attachments/57769989/69896488.png)
+- Cliquer sur le libellé du carnet afin de faire apparaître le champs de saisie :![](../../../attachments/57770425/57770434.png)
+- Saisir le nouveau nom et valider avec la touche &lt;Entrée> ou en cliquant sur le symbole ![](../../../attachments/57769989/69896489.png) Pour annuler en cours de saisie, appuyer sur la touche &lt;Échap> ou cliquer sur le symbole ![](../../../attachments/57769989/69896488.png)
 
 
 Pour **supprimer** un carnet d'adresses :
 
-- Cliquer sur l'icône ![](../../attachments/57769989/69896481.png) en fin de ligne
+- Cliquer sur l'icône ![](../../../attachments/57769989/69896481.png) en fin de ligne
 - Confirmer la suppression
 
 
@@ -75,7 +75,7 @@ BlueMind offre la possibilité de partager ses carnets d'adresses personnels ave
 Pour **partager** un carnet d'adresses :
 
 Se rendre dans l'interface de gestion des préférences de l'utilisateur > section Contacts > onglet « Gestion des partages » :
-![](../../attachments/57770425/57770440.png)
+![](../../../attachments/57770425/57770440.png)
 
 1. Choisir le carnet d'adresse à partager.Un utilisateur peut partager :
     - ses carnets d'adresses personnels : Contacts (ou «Mes Contacts»), Contacts Collectés et les carnets qu'il a créé
@@ -91,7 +91,7 @@ Se rendre dans l'interface de gestion des préférences de l'utilisateur > secti
 
 L'affichage des carnets d'adresses de l'utilisateur ainsi que des carnets d'adresses qui ont été partagés avec lui se fait via l'onglet *Abonnements* des préférences.
 
-![](../../attachments/57770425/57770432.png)
+![](../../../attachments/57770425/57770432.png)
 
 
 :::info
@@ -145,7 +145,7 @@ Avertissement de volumétrie
 
 Lorsque le volume des données contenues dans un carnet est important (plus de 1 000 contacts), un message avertit de possibles problèmes de synchronisation :
 
-![](../../attachments/57770425/57770426.png)
+![](../../../attachments/57770425/57770426.png)
 
 :::
 
@@ -156,7 +156,7 @@ Les carnets d'adresses créés par l'utilisateur dans l'application Contacts de 
 
 Pour ajouter un carnet d'adresses :
 
-- Commencer à taper le nom du carnet d'adresses dans le champs de saisie :![](../../attachments/57770425/57770428.png)
+- Commencer à taper le nom du carnet d'adresses dans le champs de saisie :![](../../../attachments/57770425/57770428.png)
 - L'autocomplétion propose alors les carnets auxquels l'utilisateur n'est pas encore abonné : ses carnets propres et les carnets que d'autres utilisateurs ont partagé avec lui (voir ci-dessus)
 - Choisir dans la liste proposée par l'autocomplétion le carnet à ajouter et appuyer sur la touche &lt;Entrée> ou cliquer dessus
 - Désactiver la synchronisation si désiré
@@ -173,6 +173,6 @@ Il est nécessaire de cliquer sur « Enregistrer » pour prendre en compte un ch
 
 Lorsqu'un utilisateur partage un de ses carnets avec un autre utilisateur, ce dernier est informé par un message automatique. Ce message électronique lui permet de s'abonner directement au carnet d'adresses depuis l'interface de messagerie :
 
-![](../../attachments/57770425/57770443.png)
+![](../../../attachments/57770425/57770443.png)
 
 

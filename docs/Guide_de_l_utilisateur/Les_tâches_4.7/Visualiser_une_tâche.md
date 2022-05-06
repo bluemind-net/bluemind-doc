@@ -10,7 +10,7 @@ position: 78
 
 Dans l'interface de gestion des tâches, celles-ci sont **classées par liste **et apparaissent **triées suivant leur état** dans des sous-listes dépliables. Le détail de chaque tâche est visible dans la zone d'édition.
 
-![](../../../attachments/86762910/86764851.png)
+![](../../attachments/86762910/86764851.png)
 
 
 **Classement des tâches** :
@@ -30,23 +30,23 @@ Les listes sont regroupées dans le sous-menu "**Listes de tâches**"
 Les tâches sont présentées dans la partie haute de la vue, comme les **événements sur journée complète**, à leur date d'échéance.
 
 
-![](../../../attachments/86762910/86764850.png)
+![](../../attachments/86762910/86764850.png)
 
 
 De plus, l'utilisateur peut afficher un **panneau en partie droite de la page** afin d'afficher les **tâches non terminées** sous forme de liste, présentées suivant le même tri que dans l'application de gestion des tâches.
 
-Chaque tâche est présentée avec le code couleur de la liste à laquelle elle appartient et son titre. La coche ![](../../../attachments/86762910/86764845.png) permet de marquer la tâche comme terminée et l'icône poubelle ![](../../../attachments/86762910/86764844.png) de la supprimer.
+Chaque tâche est présentée avec le code couleur de la liste à laquelle elle appartient et son titre. La coche ![](../../attachments/86762910/86764845.png) permet de marquer la tâche comme terminée et l'icône poubelle ![](../../attachments/86762910/86764844.png) de la supprimer.
 
 
 :::tip
 
-En haut à droite de l'agenda, le bouton ![](../../../attachments/86762910/86764843.png) permet de faire apparaître ou masquer le panneau des tâches.
+En haut à droite de l'agenda, le bouton ![](../../attachments/86762910/86764843.png) permet de faire apparaître ou masquer le panneau des tâches.
 
 :::
 
 
 **Pour voir le détail d'une tâche** depuis l'agenda, **cliquer sur l'évènement** puis sur "**Détails**"
 
-![](../../../attachments/86762910/86764846.png)
+![](../../attachments/86762910/86764846.png)
 
 

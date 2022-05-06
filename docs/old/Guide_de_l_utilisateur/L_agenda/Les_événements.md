@@ -10,15 +10,15 @@ position: 46
 
 ### Création rapide
 
-- Dans la vue du calendrier, se positionner sur la date et l'heure souhaitées et cliquer pour créer le rdv (ou laisser appuyé et glisser pour dessiner la durée souhaitée) :![](../../attachments/57770493/66099998.png)
+- Dans la vue du calendrier, se positionner sur la date et l'heure souhaitées et cliquer pour créer le rdv (ou laisser appuyé et glisser pour dessiner la durée souhaitée) :![](../../../attachments/57770493/66099998.png)
 
 
-- Pour un rendez-vous sur la journée entière, cliquer sur le jour concerné au dessus des plages horaires :![](../../attachments/57770493/66099996.png) Glisser sur plusieurs jours si le rdv s'étend sur plusieurs jours.
+- Pour un rendez-vous sur la journée entière, cliquer sur le jour concerné au dessus des plages horaires :![](../../../attachments/57770493/66099996.png) Glisser sur plusieurs jours si le rdv s'étend sur plusieurs jours.
 - Renseigner les informations utiles :
     - titre
     - choix de l'agenda : peuvent être sélectionnés les agendas personnels de l'utilisateur ou ceux qui lui ont été partagés avec droit d'écritures.**Seuls apparaissent les agendas actuellement affichés dans la vue courante.**
 - Cliquer sur « Nouvel événement »
-![](../../attachments/57769989/69896490.png) Le rdv est créé.
+![](../../../attachments/57769989/69896490.png) Le rdv est créé.
 
 
 :::info
@@ -38,20 +38,20 @@ Le lien « Modifier les détails » permet de basculer en création complète 
 
 Cliquer sur le bouton "Nouvel événement" en haut de la barre latérale afin d'accéder à la page de création d'un rendez-vous :
 
-![](../../attachments/57770493/66099932.png)
+![](../../../attachments/57770493/66099932.png)
 
 La partie haute de la page permet de saisir les informations principales du rendez-vous :
 
 - **Titre**
 - **Dates et heures** de début et fin
 - **Toute la journée** : l'événement n'est pas borné par des heures
-- ![](../../attachments/57770017/66096240.png) **Permettre de nouvelles propositions d'horaires** : lorsque cette case est cochée, une interface permettant de proposer un nouvel horaire en réponse à l'invitation sera proposée aux participants
+- ![](../../../attachments/57770017/66096240.png) **Permettre de nouvelles propositions d'horaires** : lorsque cette case est cochée, une interface permettant de proposer un nouvel horaire en réponse à l'invitation sera proposée aux participants
 
 
 La partie droite de la fenêtre permet d'inviter des participants.
 En cliquant sur l'icône de début de ligne de chaque participant on peut indiquer si leur participation est optionnelle ou requise :
 
-![](../../attachments/57770493/66099994.png)
+![](../../../attachments/57770493/66099994.png)
 
 À noter :
 
@@ -72,7 +72,7 @@ Le premier onglet, "Informations", permet de définir les propriétés principal
 - [Les étiquettes (tags)](/Guide_de_l_utilisateur/Les_catégories_tags_/)
 - **Description** de l'événement
 - **Rappel** : permet de définir une alerte pour être prévenu avant l'événement. Une liste déroulante permet de choisir le type de notification :
-![](../../attachments/57770493/66099978.png)
+![](../../../attachments/57770493/66099978.png)
     - **Email** : un message est envoyé à l'utilisateur (ancien comportement par défaut)
     - **Notification** : une popup de  [notification du navigateur](/Guide_de_l_utilisateur/Paramètres_utilisateur/#Parametresutilisateur-Parametresutilisateurs-Notifications)   est affichée
 
@@ -87,15 +87,15 @@ Il est aussi possible de définir un rappel par défaut pour les événements (u
 - **Disponibilité** : permet aux utilisateurs visionnant votre agenda de voir si vous êtes joignable pendant l'événement.
 **La disponibilité par défaut pour les événements courts est "Occupé", en revanche la disponibilité par défaut des événements sur journée entière est "Disponible".** 
 Lorsqu'un utilisateur se déclare comme disponible, l'événement apparaît alors dans son agenda avec une bordure claire sur le côté gauche :
-![](../../attachments/57770493/66099982.png)
+![](../../../attachments/57770493/66099982.png)
 
-- **Confidentialité** : permet de masquer aux autres utilisateurs le contenu de l'événement, ils verront simplement la plage horaire réservée :![](../../attachments/57770493/66099984.png)
+- **Confidentialité** : permet de masquer aux autres utilisateurs le contenu de l'événement, ils verront simplement la plage horaire réservée :![](../../../attachments/57770493/66099984.png)
 - ** **Pièces jointes** ** : cette partie de la page permet de joindre des fichiers aux événements de calendrier.
 
 
 :::tip
 
-![](../../attachments/57770017/66096242.png) Cette fonctionnalité est disponible à partir de la version 4.1. Pour plus d'information, voir le paragraphe dédié [Pièces jointes](#Lesevenements-pjevents)
+![](../../../attachments/57770017/66096242.png) Cette fonctionnalité est disponible à partir de la version 4.1. Pour plus d'information, voir le paragraphe dédié [Pièces jointes](#Lesevenements-pjevents)
 
 :::
 
@@ -113,7 +113,7 @@ L'onglet "récurrence" permet de définir une fréquence de répétition pour un
 
 Une phrase d'information permettant de visualiser la récurrence est mise à jour au dessus de l'onglet au fur et à mesure du remplissage du formulaire :
 
-![](../../attachments/57770493/66099992.png)
+![](../../../attachments/57770493/66099992.png)
 
 :::
 
@@ -128,14 +128,14 @@ Pour **supprimer une occurrence** :
 
 L'onglet de recherche de disponibilités permet de rechercher un créneau disponible commun aux participants :
 
-![](../../attachments/57770493/66099968.png)
+![](../../../attachments/57770493/66099968.png)
 
 BlueMind propose automatiquement, encadré de vert et rouge, le premier créneau disponible en fonction de la date saisie dans le formulaire.
 
 Il est possible de déplacer le créneau par glisser-déplacer avec la souris, ainsi que de le réduire ou l'agrandir en faisant glisser les lignes verte ou rouge indépendamment.
 Lorsque le créneau inclut un rendez-vous d'au moins un utilisateur, un message d'information apparaît en haut de la page :
 
-![](../../attachments/57770493/66099969.png)
+![](../../../attachments/57770493/66099969.png)
 
 ### Pièces jointes
 
@@ -158,7 +158,7 @@ Si vous ne voyez pas la zone indiquée ci-dessous, ou l'un des liens, veuillez v
 
 Une fois lié à un événement, le fichier est disponible au téléchargement à tout moment dans les détails de l'événement et il est envoyé dans l'email d'invitation aux participants le cas échéant.
 
-![](../../attachments/57770493/66099967.png)
+![](../../../attachments/57770493/66099967.png)
 
 #### Ajouter/Supprimer des fichiers
 
@@ -172,14 +172,14 @@ Si l'utilisateur possède le rôle dédié (« Drive »), un 2ème lien est disp
 - cliquer sur "Depuis le serveur" pour ouvrir le sélecteur de fichier BlueMind et joindre un fichier déjà disponible dans l'espace de stockage de l'utilisateurLes fichiers peuvent ensuite être retrouvés via le sélecteur de fichier afin d'être joints à d'autres événements d'agenda [ou à des messages](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/).
 
 
-Cliquer sur l'icône poubelle ![](../../attachments/57770493/66099975.png) en face du nom de fichier pour supprimer celui-ci.
+Cliquer sur l'icône poubelle ![](../../../attachments/57770493/66099975.png) en face du nom de fichier pour supprimer celui-ci.
 
 #### Transmission des fichiers aux participants
 
 Les fichiers joints à une réunion sont transmis aux participants dans l'email d'invitation :
 
-- sous forme de fichiers joints si la taille totale du message ne dépasse pas la taille autorisée par le serveur :![](../../attachments/57770493/66099974.png)
-- sous forme de liens de téléchargement si la taille totale du message dépasse la limite autorisée par le serveur :![](../../attachments/57770493/66099973.png)
+- sous forme de fichiers joints si la taille totale du message ne dépasse pas la taille autorisée par le serveur :![](../../../attachments/57770493/66099974.png)
+- sous forme de liens de téléchargement si la taille totale du message dépasse la limite autorisée par le serveur :![](../../../attachments/57770493/66099973.png)
 
 
 :::info
@@ -192,11 +192,11 @@ Le système d'attachement/détachement est entièrement automatique, il ne peut 
 
 Lorsqu'un événement comporte une pièce jointe, celle-ci est signalée par un pictogramme dans la vue de l'agenda :
 
-![](../../attachments/57770493/66099972.png)
+![](../../../attachments/57770493/66099972.png)
 
 À tout moment les fichiers joints à un événement peuvent être téléchargés en se rendant sur ce même formulaire de consultation/édition complet de l'événement :
 
-![](../../attachments/57770493/66099971.png)
+![](../../../attachments/57770493/66099971.png)
 
 
 :::tip
@@ -227,7 +227,7 @@ Les ajouts/suppressions/modifications des tags et des rappels sont considérés 
 
 En cas de modification d'un événement récurrent, par un déplacement dans la vue d'agenda ou en accédant au formulaire complet, l'interface propose le choix du type de modification à effectuer :
 
-![](../../attachments/57770493/66099966.png)
+![](../../../attachments/57770493/66099966.png)
 
 - **Uniquement cet événement** : seul l'événement sur lequel l'utilisateur a cliqué sera modifié, il deviendra une exception de la série qui reste inchangée
 - **Tous les événements ultérieurs** : l'événement sur lequel l'utilisateur a cliqué ainsi que toute la suite de la série seront modifiés. Tous les événements antérieurs de la série restent inchangés.
@@ -236,17 +236,17 @@ En cas de modification d'un événement récurrent, par un déplacement dans la 
 
 ## Duplication d'un événement
 
-![](../../attachments/57770017/66096248.png) A partir de BlueMind 4.3, il est possible de dupliquer un événement ou une réunion afin d'en créer une copie qui pourra être modifiée ou déléguée à un autre organisateur indépendamment de l'événement d'origine.
+![](../../../attachments/57770017/66096248.png) A partir de BlueMind 4.3, il est possible de dupliquer un événement ou une réunion afin d'en créer une copie qui pourra être modifiée ou déléguée à un autre organisateur indépendamment de l'événement d'origine.
 
 ### Cas général
 
 Pour dupliquer un événement :
 
 - cliquer sur l'événement dans la vue d'agenda
-- dérouler le menu en bas à droite et choisir l'option "Dupliquer" :![](../../attachments/57770493/66099957.png)
+- dérouler le menu en bas à droite et choisir l'option "Dupliquer" :![](../../../attachments/57770493/66099957.png)
 - Le formulaire de création d'événement est proposé avec les informations de l'événement d'origine (jour, horaires, description, organisateur, participants, etc.)
 - Effectuer les modifications souhaitées :
-![](../../attachments/57770493/66099956.png)
+![](../../../attachments/57770493/66099956.png)
 
 
 :::info
@@ -258,14 +258,14 @@ Pour plus d'informations à ce sujet, voir ci-dessous la section *Agenda partag�
 
 :::
 
-- **Cliquer sur Enregistrer pour valider la création du nouvel événement :** * ![](../../attachments/57770493/66099955.png) * ![](../../attachments/57770493/66099954.png) Ici l'événement "Formation Utilisateurs" a été dupliqué et renommé en "Formation Administrateur", la description a aussi été adaptée : on a ainsi créé un nouvel événement avec les mêmes informations de durée et de lieu mais une description adaptée, il suffira ensuite de le déplacer à l'horaire adéquat.
+- **Cliquer sur Enregistrer pour valider la création du nouvel événement :** * ![](../../../attachments/57770493/66099955.png) * ![](../../../attachments/57770493/66099954.png) Ici l'événement "Formation Utilisateurs" a été dupliqué et renommé en "Formation Administrateur", la description a aussi été adaptée : on a ainsi créé un nouvel événement avec les mêmes informations de durée et de lieu mais une description adaptée, il suffira ensuite de le déplacer à l'horaire adéquat.
 
 
 ### Événement récurrent
 
 Dans le cas d'un événement récurrent, le menu déroulant de duplication propose 2 options :
 
-![](../../attachments/57770493/66099953.png)
+![](../../../attachments/57770493/66099953.png)
 
 - **Dupliquer** : duplique toute la série avec sa récurrence
 
@@ -323,37 +323,37 @@ Dans ce cas, si l'utilisateur était organisateur, il devient participant à la 
 
 Nathalie affiche le calendrier de Jean-Claude et clique sur son événement "Formation utilisateur" puis sur "Dupliquer" :
 
-![](../../attachments/57770493/66099952.png)
+![](../../../attachments/57770493/66099952.png)
 
 Nathalie ayant le droit d'écriture, l'organisateur est conservé, l'événement cible sera toujours sur l'agenda de Jean-Claude. Nathalie modifie l'événement afin de le transformer en "Formation administrateur" le lendemain :
 
-![](../../attachments/57770493/66099951.png)
+![](../../../attachments/57770493/66099951.png)
 
 Une fois enregistré, le nouvel événement apparait sur l'agenda de Jean-Claude :
 
-![](../../attachments/57770493/66099950.png)
+![](../../../attachments/57770493/66099950.png)
 
 ##### 2ème cas : Jean-Claude souhaite copier une réunion organisée par Nathalie afin de l'organiser lui-même la semaine suivante
 
 Bien que n'ayant pas le droit de modifier le calendrier de Nathalie, Jean-Claude a tout de même la possibilité de dupliquer ses événements :
 
-![](../../attachments/57770493/66099949.png)
+![](../../../attachments/57770493/66099949.png)
 
 L'événement est alors copié sur son agenda à lui (=il est désigné organisateur) et Nathalie est invitée à la réunion :
 
-![](../../attachments/57770493/66099948.png)
+![](../../../attachments/57770493/66099948.png)
 
 Jean-Claude modifie la date pour prendre en charge l'organisation de la même réunion la semaine suivante :
 
-![](../../attachments/57770493/66099947.png)
+![](../../../attachments/57770493/66099947.png)
 
 Après enregistrement, la réunion apparait dans leurs agendas telle que paramétrée :
 
-![](../../attachments/57770493/66099946.png)
+![](../../../attachments/57770493/66099946.png)
 
 La réunion d'origine n'a pas changé :
 
-![](../../attachments/57770493/66099945.png)
+![](../../../attachments/57770493/66099945.png)
 
 ## Suppression d'un événement
 
@@ -396,7 +396,7 @@ Cette option n'est pas activée par défaut mais peut s'avérer utile dans le ca
 :::
 
 
-![](../../attachments/57770493/66099990.png)
+![](../../../attachments/57770493/66099990.png)
 
 
 Affichage des événements selon la participation de l'utilisateur
@@ -408,9 +408,9 @@ Pour confirmer ou refuser un événement :
 
 - cliquer sur celui-ci dans la fenêtre principale
 - dans la popup qui s'affiche, cliquer sur le bouton de son choix
-![](../../attachments/57770493/66099988.png) 
-![](../../attachments/57769989/69896490.png) Un message est envoyé à l'organisateur de la réunion pour lui indiquer le choix de l'utilisateur.
-![](../../attachments/57769989/69896490.png) Le statut est mis à jour dans la vue d'agenda de l'organisateur.
+![](../../../attachments/57770493/66099988.png) 
+![](../../../attachments/57769989/69896490.png) Un message est envoyé à l'organisateur de la réunion pour lui indiquer le choix de l'utilisateur.
+![](../../../attachments/57769989/69896490.png) Le statut est mis à jour dans la vue d'agenda de l'organisateur.
 
 
 :::info
@@ -426,7 +426,7 @@ Pour plus d'informations sur la visualisation des participations à une réunion
 
 ### Proposer un nouvel horaire
 
-![](../../attachments/57770017/66096240.png) La version 4.4 apporte la possibilité pour les participants de proposer un nouvel horaire pour une réunion.
+![](../../../attachments/57770017/66096240.png) La version 4.4 apporte la possibilité pour les participants de proposer un nouvel horaire pour une réunion.
 
 
 :::info
@@ -439,9 +439,9 @@ Le fonctionnement est identique avec BlueMind dans Thunderbird.
 
 Lorsque l'organisateur a accordé aux invités le droit de le faire (voir ci-dessus **§1.2 Création complète**), ceux-ci ont alors dans la popup de l'événement de l'agenda un menu dédié :
 
-![](../../attachments/57770493/66099931.png)En cliquant dessus, l'utilisateur accède au formulaire complet de recherche et proposition :
+![](../../../attachments/57770493/66099931.png)En cliquant dessus, l'utilisateur accède au formulaire complet de recherche et proposition :
 
-![](../../attachments/57770493/66099930.png)
+![](../../../attachments/57770493/66099930.png)
 
 L'utilisateur peut alors indiquer :
 
@@ -454,13 +454,13 @@ L'utilisateur peut alors indiquer :
 Une fois le formulaire rempli, cliquer sur « **Envoyer** » en haut de page pour envoyer la proposition à l'organisateur.
 
 
-![](../../attachments/57769989/69896490.png) Dans la popup de l'événement, tant chez l'organisateur que chez le participant, la proposition du participant est indiquée en orange entre parenthèses à côté de son nom :
+![](../../../attachments/57769989/69896490.png) Dans la popup de l'événement, tant chez l'organisateur que chez le participant, la proposition du participant est indiquée en orange entre parenthèses à côté de son nom :
 
-![](../../attachments/57770493/66099922.png)
+![](../../../attachments/57770493/66099922.png)
 
 L'organisateur reçoit un message de ce type :
 
-![](../../attachments/57770493/66099929.png)
+![](../../../attachments/57770493/66099929.png)
 
 Le bloc d'en-tête du message résume les informations et propose des liens permettant d'accepter ou refuser directement le nouvel horaire.
 
@@ -480,7 +480,7 @@ Modification de réponse
 
 Une demande ne peut être traitée qu'une seule fois, l'organisateur ne peut pas revenir se sa décision. Une fois qu'il a répondu, le bloc n'est plus proposé mais une information apparait, indiquant que la proposition a été traitée :
 
-![](../../attachments/57770493/66099928.png)
+![](../../../attachments/57770493/66099928.png)
 
 :::
 
@@ -499,7 +499,7 @@ Il est désormais possible de visualiser l'historique de création et modificati
 
 Depuis la vue détaillée d'un événement, cliquer sur le bouton « History » :
 
-![](../../attachments/57770493/66099970.png)L'historique renseigne sur :
+![](../../../attachments/57770493/66099970.png)L'historique renseigne sur :
 
 - la date de l'action
 - le type d'action : création ("created") ou modification ("updated")

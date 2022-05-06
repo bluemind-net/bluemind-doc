@@ -30,11 +30,11 @@ Ein neues E-Mail-Konto kann auf mehrere Arten erstellt werden:
 
 Wählen Sie „Add other mail account“ („Anderes Mailkonto hinzufügen“):
 
-![](../../../attachments/57770866/57770872.png)
+![](../../../../attachments/57770866/57770872.png)
 
 Geben Sie die gewünschten Informationen ein:
 
-![](../../../attachments/57770866/57770871.png)
+![](../../../../attachments/57770866/57770871.png)
 
 - Vollständiger Name: Vollständiger Name, der für das Konto und in den gesendeten Nachrichten erscheinen wird, er ist frei wählbar.
 - E-Mail-Adresse: die E-Mail-Adresse, die Ihnen zur Verfügung gestellt wurde
@@ -45,7 +45,7 @@ Klicken Sie auf „Next“ („Weiter“)
 
 Prüfen und korrigieren Sie ggf. die Anmeldeinformationen:
 
-![](../../../attachments/57770866/57770870.png)
+![](../../../../attachments/57770866/57770870.png)
 
 - Mail-Server: Die Adresse des Servers muss Ihnen von Ihrem Administrator mitgeteilt werden, sie hat in der Regel das Format &lt;Servername>.domain.com 
 - Benutzername: Der Benutzername muss der **vollständige **Benutzername mit der Domäne sein****.
@@ -60,7 +60,7 @@ Klicken Sie auf „Next“ („Weiter“)
 
 Eine Warnung zeigt an, dass die Verbindung nicht sicher ist, was technisch nicht ganz richtig ist:
 
-![](../../../attachments/57770866/57770869.png)
+![](../../../../attachments/57770866/57770869.png)
 
  
 
@@ -68,11 +68,11 @@ Klicken Sie auf „Connect“ („Verbinden“), um die Verbindung mit dem Serve
 
 Überprüfen und korrigieren Sie ggf. die Verbindungsinformationen zum Postausgangsserver:
 
-![](../../../attachments/57770866/57770868.png)
+![](../../../../attachments/57770866/57770868.png)
 
 Bestätigen Sie mit einem Klick auf „Create“ („Erstellen“), um das Mailkonto anzulegen.
 
-![](../../../attachments/57770866/57770867.png)
+![](../../../../attachments/57770866/57770867.png)
 
 
  

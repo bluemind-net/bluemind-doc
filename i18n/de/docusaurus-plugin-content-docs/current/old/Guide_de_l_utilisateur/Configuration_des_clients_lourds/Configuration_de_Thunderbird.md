@@ -23,12 +23,12 @@ Wenn Thunderbird bereits mit einem Benutzerkonto und dessen Mailkonto installier
 :::
 
 - Die für die Verbindung mit dem BlueMind-Server erforderlichen Namen, E-Mail-Adresse und Passwort eingeben und auf „Weiter“ klicken.
-![](../../attachments/57770889/58599120.png)
+![](../../../attachments/57770889/58599120.png)
 
-- Thunderbird versucht mit diesen Informationen eine Verbindung zu einem Server herzustellen und zeigt dann die getesteten bzw. gefundenen Informationen an:![](../../attachments/57770889/58599122.png)
+- Thunderbird versucht mit diesen Informationen eine Verbindung zu einem Server herzustellen und zeigt dann die getesteten bzw. gefundenen Informationen an:![](../../../attachments/57770889/58599122.png)
 - Thunderbird bietet eine abgekürzte Kennung, die auf dem ersten Teil der E-Mail-Adresse basiert. Die vom BlueMind-Server erwartete Kennung entspricht der vollständigen E-Mail-Adresse.
 Sie müssen daher in den manuellen Konfigurationsmodus wechseln (Schaltfläche am unteren Rand des Fensters), um dies zu korrigieren:
-![](../../attachments/57770889/58599124.png)
+![](../../../attachments/57770889/58599124.png)
 
 
 :::info
@@ -53,7 +53,7 @@ Wenn Thunderbird die Adressen der Eingangs- und Ausgangsserver nicht „erraten�
 - Thunderbird zeigt das Hauptfenster an und ruft die Mails von dem eingestellten Konto ab.
 
 
-![](../../attachments/57770889/58599126.png)
+![](../../../attachments/57770889/58599126.png)
 
 ## Verbindung mit einer freigegebenen Mailbox
 
@@ -61,17 +61,17 @@ Um auf eine freigegebene Mailbox zuzugreifen, müssen Sie sie in Thunderbird „
 
 Klicken Sie dazu mit der rechten Maustaste in den linken Bereich des Fensters und wählen Sie im Menü die Option „Abonnieren“:
 
-![](../../attachments/57770889/58599135.png)
+![](../../../attachments/57770889/58599135.png)
 
 Ein Fenster wird geöffnet, in dem die Liste der für den Benutzer zugänglichen Ordner angezeigt wird.
 
 Erweitern Sie das ausgegraute Menü „Gemeinsame Ordner“ (Doppelklick auf den Namen oder Einfachklick auf den Pfeil am Zeilenanfang) und aktivieren Sie das/die Kästchen für den/die gewünschten Ordner und klicken Sie dann auf „OK“:
 
-![](../../attachments/57770889/58599136.png)
+![](../../../attachments/57770889/58599136.png)
 
 Das freigegebene Feld erscheint im Hauptfenster mit den anderen Ordnern des Kontos in einem Unterbaum namens „Gemeinsame Ordner“:
 
-![](../../attachments/57770889/58599140.png)
+![](../../../attachments/57770889/58599140.png)
 
 
 :::tip
@@ -100,13 +100,13 @@ Wenn Sie eine E-Mail mit der Maus in diese Mailbox ziehen, wird die Mail **versc
 
 **Um eine Nachricht zu kopieren**, klicken Sie mit der rechten Maustaste auf den Nachrichtenkopf im rechten Teil des Fensters und wählen Sie Kopieren in > Benutzer-Mailbox > Freigegebene Ordner > wählen Sie die freigegebene Mailbox und dann den Speicherort über die Option „Hierher kopieren“ im Untermenü, das dem gewünschten Ordner entspricht:
 
-![](../../attachments/57770889/58599138.png)
+![](../../../attachments/57770889/58599138.png)
 
 :::
 
 ## Der BlueMind-Connector
 
-Der von BlueMind bereitgestellte Connector ermöglicht die Synchronisation von BlueMinds Kalender und Adressbüchern mit Thunderbird. Er bietet außerdem Zugriff auf die Aufgabenverwaltung und das [Abtrennen von großen Anlagen](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) beim Schreiben von Nachrichten.
+Der von BlueMind bereitgestellte Connector ermöglicht die Synchronisation von BlueMinds Kalender und Adressbüchern mit Thunderbird. Er bietet außerdem Zugriff auf die Aufgabenverwaltung und das [Abtrennen von großen Anlagen](/old/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) beim Schreiben von Nachrichten.
 
 ### Installation des Connectors
 
@@ -122,9 +122,9 @@ Falls der Connector nicht in den Downloads angeboten wird, wenden Sie sich bitte
 :::
 
 - gehen Sie in Thunderbird zu Tools > Zusatzmodule
-- ziehen Sie die Datei aus dem Datei-Explorer in das Thunderbird-Hauptfenster oder wählen Sie im Menü „Modultools“ die Option zur Installation eines neuen Moduls:![](../../attachments/57770889/58599128.png)
+- ziehen Sie die Datei aus dem Datei-Explorer in das Thunderbird-Hauptfenster oder wählen Sie im Menü „Modultools“ die Option zur Installation eines neuen Moduls:![](../../../attachments/57770889/58599128.png)
 - folgen Sie den Installationsanweisungen für Thunderbird und starten Sie es neu
-- gehen Sie zu Tools > Moduloptionen > BlueMind Connector und stellen Sie die Serveradresse ein![](../../attachments/57770889/58599197.png)Hinweis: Je nach Betriebssystem und Thunderbird-Version kann der Zugriff auf verschiedene Arten erfolgen:
+- gehen Sie zu Tools > Moduloptionen > BlueMind Connector und stellen Sie die Serveradresse ein![](../../../attachments/57770889/58599197.png)Hinweis: Je nach Betriebssystem und Thunderbird-Version kann der Zugriff auf verschiedene Arten erfolgen:
     - Tools > Zusatzmodule > Schaltfläche „Optionen“ am entsprechenden Modul
     - Tools (oder Voreinstellungen) > Optionen > Registerkarte BlueMind
 - Klicken Sie zum Beenden auf OK
@@ -139,7 +139,7 @@ Der Thunderbird-Connector synchronisiert automatisch alle Elemente alle 2 Minute
 
 ### BlueMind-Einstellungsmanagement
 
-![](../../attachments/57770017/66096245.png) BlueMind Version 4.1 bietet Thunderbird-Anwendern die Möglichkeit, all ihre BlueMind-Einstellungen direkt aus der Software heraus zu verwalten, ohne die BlueMind-Webanwendung aufrufen zu müssen.
+![](../../../attachments/57770017/66096245.png) BlueMind Version 4.1 bietet Thunderbird-Anwendern die Möglichkeit, all ihre BlueMind-Einstellungen direkt aus der Software heraus zu verwalten, ohne die BlueMind-Webanwendung aufrufen zu müssen.
 
 Es gibt mehrere Möglichkeiten, auf die Einstellungsverwaltung zuzugreifen:
 
@@ -149,29 +149,29 @@ Es gibt mehrere Möglichkeiten, auf die Einstellungsverwaltung zuzugreifen:
 
 Die Schnittstelle sieht genauso aus und funktioniert genauso wie die Verwaltung der Einstellungen in der BlueMind-Webanwendung:
 
-![](../../attachments/57770889/58599174.png)
+![](../../../attachments/57770889/58599174.png)
 
 Weitere Erklärungen finden Sie im gewünschten Abschnitt:
 
-- [Einstellungen für das E-Mail-System](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/)
-- [Kontakt-Einstellungen](/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses/)
-- [Kalender-Einstellungen](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)
-- [Benutzereinstellungen](/Guide_de_l_utilisateur/Paramètres_utilisateur/)
+- [Einstellungen für das E-Mail-System](/old/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/)
+- [Kontakt-Einstellungen](/old/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses/)
+- [Kalender-Einstellungen](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)
+- [Benutzereinstellungen](/old/Guide_de_l_utilisateur/Paramètres_utilisateur/)
 
 
 ### Abtrennen von Anlagen
 
-Ist der Connector installiert, ist die Funktion zum [Abtrennen von Anlagen](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) direkt im Texteingabefenster zugänglich.
+Ist der Connector installiert, ist die Funktion zum [Abtrennen von Anlagen](/old/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) direkt im Texteingabefenster zugänglich.
 
 #### Grundlegende Bedienung
 
 Fügen Sie Ihre Anlage auf die übliche Weise hinzu (mit der entsprechenden Schaltfläche oder über Drag & Drop). Wenn seine Größe die in BlueMind eingestellte automatische Abtrennschwelle überschreitet, bietet Thunderbird Ihnen die Abtrennung der Datei an:
 
-![](../../attachments/57770889/58599145.png)
+![](../../../attachments/57770889/58599145.png)
 
 Die Datei wird dann automatisch an den Server gesendet und mit der Nachricht verbunden:
 
-![](../../attachments/57770889/58599146.png)
+![](../../../attachments/57770889/58599146.png)
 
 Wie bei der Abtrennung vom BlueMind-Webmailer wird der Download-Block unabhängig vom E-Mail-Client des Empfängers beim Empfänger angezeigt.
 
@@ -180,7 +180,7 @@ Wie bei der Abtrennung vom BlueMind-Webmailer wird der Download-Block unabhängi
 
 Bei der 1. Verwendung werden Sie aufgefordert, den zu verwendenden Dienst zu wählen:
 
-![](../../attachments/57770889/58599185.png)
+![](../../../attachments/57770889/58599185.png)
 
 1. BlueMind auswählen
 2. Klicken Sie auf die Schaltfläche „Konto einrichten“
@@ -194,17 +194,17 @@ Bei der 1. Verwendung werden Sie aufgefordert, den zu verwendenden Dienst zu wä
 
 Um eine Datei abzutrennen, die bereits an die Nachricht angehängt ist, klicken Sie mit der rechten Maustaste auf den Namen des Anhangs und wählen Sie Umwandeln in > BlueMind:
 
-![](../../attachments/57770889/58599150.png)
+![](../../../attachments/57770889/58599150.png)
 
 Umgekehrt können Sie eine abgetrennte Datei wieder integrieren, indem Sie Konvertieren in > Normale Anlage wählen. Die Datei wird an die Nachricht angehängt und der Download-Block wird gelöscht.
 
 Eine Datei kann auch direkt als Anlage an die Nachricht angehängt werden. Klicken Sie dazu auf den Pfeil der Schaltfläche „Anhängen“, um im Optionsmenü nach unten zu scrollen, und wählen Sie Dateibereich > BlueMind
 
-![](../../attachments/57770889/58599147.png)
+![](../../../attachments/57770889/58599147.png)
 
 Die Dateiauswahl Ihres Systems öffnet sich und sobald die Datei ausgewählt ist, wird sie automatisch und sofort an den Server gesendet und mit der Nachricht:
 
-![](../../attachments/57770889/58599148.png)
+![](../../../attachments/57770889/58599148.png)
 
 #### BlueMind Dateiauswahl
 
@@ -212,15 +212,15 @@ Wie von BlueMind Webmailer gewohnt, können Sie auf die Dateiauswahl zugreifen, 
 
 Um darauf zuzugreifen, klicken Sie auf den Pfeil der Schaltfläche „Anhängen“, um das Optionsmenü aufzurufen und wählen Sie „Vom BlueMind-Dateiserver“:
 
-![](../../attachments/57770889/58599149.png)Die BlueMind-Dateiauswahl wird geöffnet, so dass Sie die verfügbaren Dateien auswählen können. Klicken Sie auf eine oder mehrere Dateien und dann auf die Schaltfläche „Auswählen“, um sie der Nachricht hinzuzufügen:
+![](../../../attachments/57770889/58599149.png)Die BlueMind-Dateiauswahl wird geöffnet, so dass Sie die verfügbaren Dateien auswählen können. Klicken Sie auf eine oder mehrere Dateien und dann auf die Schaltfläche „Auswählen“, um sie der Nachricht hinzuzufügen:
 
-![](../../attachments/57770889/58599184.png)
+![](../../../attachments/57770889/58599184.png)
 
 #### Parametrierung
 
 In den Thunderbird-Einstellungen, Registerkarte Anlagen, können Sie die automatische Abtrennung von Anlagen oberhalb eines bestimmten Schwellenwertes deaktivieren, indem Sie das Kontrollkästchen aktivieren oder deaktivieren:
 
-![](../../attachments/57770889/58599183.png)
+![](../../../attachments/57770889/58599183.png)
 
 
 :::info
@@ -235,31 +235,31 @@ Der Schwellenwert kann in diesem Fenster geändert werden, er wird jedoch bei je
 
 Ist der Connector installiert und die Verbindung hergestellt, ist der Kalender über das Menü Tools > BlueMind > Kalender oder über eine neue Schaltfläche auf der Thunderbird-Hauptschnittstelle zugänglich:
 
-![](../../attachments/57770889/58599182.png)
+![](../../../attachments/57770889/58599182.png)
 
-Er hat die gleichen Anzeigefunktionen und die gleiche Bedienung wie der [Online-Kalender](/Guide_de_l_utilisateur/L_agenda/):
+Er hat die gleichen Anzeigefunktionen und die gleiche Bedienung wie der [Online-Kalender](/old/Guide_de_l_utilisateur/L_agenda/):
 
-![](../../attachments/57770889/58599187.png)
+![](../../../attachments/57770889/58599187.png)
 
 #### Einstellungen und Kalender
 
 Die Verwaltung der angezeigten Kalender sowie das Anlegen von Nebenkalendern oder die Vergabe von Freigaberechten an andere Benutzer erfolgt innerhalb der Einstellungsverwaltung (siehe oben): Menü Tools > BlueMind > BlueMind-Einstellungen > Bereich Kalender.
 
-Ausführlichere Informationen finden Sie auf der Seite [Kalendereinstellungen](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)
+Ausführlichere Informationen finden Sie auf der Seite [Kalendereinstellungen](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)
 
 ### Die Aufgaben
 
 Wie der Kalender ist auch die Aufgabenverwaltung auf einer separaten Registerkarte zugänglich und bietet online die gleiche Schnittstelle wie in BlueMind:
 
-![](../../attachments/57770889/58599144.png)
+![](../../../attachments/57770889/58599144.png)
 
-Um mehr über die Funktionsweise zu erfahren, können Sie die entsprechende Seite einsehen: [Die Aufgaben](/Guide_de_l_utilisateur/Les_tâches/)
+Um mehr über die Funktionsweise zu erfahren, können Sie die entsprechende Seite einsehen: [Die Aufgaben](/old/Guide_de_l_utilisateur/Les_tâches/)
 
 ### Kontakte
 
 Alle BlueMind-Adressbücher des Benutzers können mit Thunderbird synchronisiert werden und sind über den Adressbuchverwalter (Menü Tools > Adressbuch) zugänglich:
 
-![](../../attachments/57770889/58599130.png)
+![](../../../attachments/57770889/58599130.png)
 
 Damit ein Adressbuch in Thunderbird sichtbar ist, müssen Sie es zunächst in BlueMind abonnieren, egal ob es sich um ein persönliches Adressbuch oder ein von einem anderen Benutzer freigegebenes handelt.
 
@@ -269,7 +269,7 @@ So fügen Sie einem Adressbuch ein Abonnement hinzu:
 
 - beginnen Sie im Eingabefeld mit der Eingabe des Namens des Adressbuchs, der dann von der Autovervollständigung vorgeschlagen wird:
 
-![](../../attachments/57770889/58599132.png) 
+![](../../../attachments/57770889/58599132.png) 
 Hinweis: Die persönlichen Adressbücher des Benutzers werden automatisch hinzugefügt, wenn sie erstellt werden
 
 
@@ -296,7 +296,7 @@ Weitere Informationen finden Sie auf der Seite [Adressbuchverwaltung - §3 Abonn
 :::
 
 - Zurück zum Adressbuchmodul
-- Klicken Sie auf die Schaltfläche „Synchronisieren“ oder verwenden Sie das Menü Tools > BlueMind > Synchronisieren. Das Adressbuch wird angezeigt:![](../../attachments/57770889/58599133.png)
+- Klicken Sie auf die Schaltfläche „Synchronisieren“ oder verwenden Sie das Menü Tools > BlueMind > Synchronisieren. Das Adressbuch wird angezeigt:![](../../../attachments/57770889/58599133.png)
 
 
 ### Firmenunterschrift
@@ -305,7 +305,7 @@ Wenn eine [Firmenunterschrift](/Guide_de_l_administrateur/Configuration/Signatur
 
 Im Bearbeitungsfenster wird eine Vorschau angeboten, damit der Benutzer sehen kann, dass eine Unterschrift vorhanden ist und welche, wenn mehrere Unterschriften eingestellt sind (intern, extern, für eine Gruppe, usw.):
 
-![](../../attachments/57770889/58599196.png)
+![](../../../attachments/57770889/58599196.png)
 
 #### Einfügen der Unterschrift
 
@@ -315,11 +315,11 @@ Wenn der Administrator die entsprechende Option aktiviert hat, können Benutzer 
 
 Um das Einfügen zu erleichtern, kann der Benutzer diese Zeichenkette als Standardunterschrift in Thunderbird festlegen:
 
-![](../../attachments/57770889/58599165.png)
+![](../../../attachments/57770889/58599165.png)
 
 Beim Verfassen oder beim Beantworten einer E-Mail wird das Tag dann automatisch in der Nachricht angebracht:
 
-![](../../attachments/57770889/58599166.png)
+![](../../../attachments/57770889/58599166.png)
 
 
 :::tip
@@ -330,7 +330,7 @@ Auch im vorliegenden Fall einer Platzierung durch Thunderbird kann das Tag vom B
 
 Die Unterschrift wird dann von dem Server eingefügt, auf dem sich das Tag befindet:
 
-![](../../attachments/57770889/58599167.png)
+![](../../../attachments/57770889/58599167.png)
 
 
 :::info
@@ -354,7 +354,7 @@ Beim Auftreten von Störungen, die nicht durch den Neustart der Software behoben
 Dies geschieht wie folgt:
 
 - zu den Connectoreinstellungen gehen
-- klicken Sie auf die Schaltfläche „Zurücksetzen“:![](../../attachments/57770889/58599173.png)
+- klicken Sie auf die Schaltfläche „Zurücksetzen“:![](../../../attachments/57770889/58599173.png)
 - Beenden durch Klicken auf OK
 
 
@@ -367,7 +367,7 @@ Wenn Probleme ohne offensichtliche Ursache auftreten, muss die detaillierte Prot
 Vorgehensweise:
 
 - zu den Connectoreinstellungen gehen
-- aktivieren Sie das Kontrollkästchen „Detaillierte Protokollierung aktivieren“:![](../../attachments/57770889/58599172.png)
+- aktivieren Sie das Kontrollkästchen „Detaillierte Protokollierung aktivieren“:![](../../../attachments/57770889/58599172.png)
 - Bestätigen Sie mit der „OK“-Taste
 - Thunderbird neu starten
 

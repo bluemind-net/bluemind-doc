@@ -19,37 +19,37 @@ Für andere Telefone oder Android-Versionen ist die Bedienung gleich, auch wenn 
 
 Öffnen Sie die Gmail-Anwendung:
 
-![](../../../attachments/57771006/57771033.png)
+![](../../../../attachments/57771006/57771033.png)
 
 *Hinweis: Die E-Mail-Anwendung ist weiterhin vorhanden, aber eine Warnmeldung leitet auf die Gmail-Anwendung um, wenn sie geöffnet wird*
 
 Öffnen Sie das Menü:
 
-![](../../../attachments/57771006/57771032.png)
+![](../../../../attachments/57771006/57771032.png)
 
 Wählen Sie „Hinzufügen eines Kontos“:
 
-![](../../../attachments/57771006/57771031.png)
+![](../../../../attachments/57771006/57771031.png)
 
 Wählen Sie einen persönlichen Kontotyp:
 
-![](../../../attachments/57771006/57771030.png)
+![](../../../../attachments/57771006/57771030.png)
 
 Geben Sie die E-Mail-Adresse ein:
 
-![](../../../attachments/57771006/57771029.png)
+![](../../../../attachments/57771006/57771029.png)
 
 Wählen Sie die Konfiguration eines IMAP-Kontos:
 
-![](../../../attachments/57771006/57771028.png)
+![](../../../../attachments/57771006/57771028.png)
 
 Geben Sie das Passwort des Benutzers ein:
 
-![](../../../attachments/57771006/57771027.png)
+![](../../../../attachments/57771006/57771027.png)
 
 Geben Sie die Informationen des Eingangsservers ein (Server, der die Nachrichten empfangen/abfragen darf):
 
-![](../../../attachments/57771006/57771026.png)
+![](../../../../attachments/57771006/57771026.png)
 
 Außer in Sonderfällen:
 
@@ -60,7 +60,7 @@ Außer in Sonderfällen:
 
 Die Informationen des Postausgangsservers (Server, der das Senden von Nachrichten erlaubt) eingeben:
 
-![](../../../attachments/57771006/57771025.png)
+![](../../../../attachments/57771006/57771025.png)
 
 Außer in Sonderfällen sind die Informationen und insbesondere die Serveradresse die gleichen wie beim Eingangsserver.
 
@@ -98,21 +98,21 @@ SMTP (Postausgangsserver):
 
 Nachdem die Verbindung ordnungsgemäß getestet und hergestellt wurde, bietet die Anwendung an, die wichtigsten Optionen des Kontos zu konfigurieren:
 
-![](../../../attachments/57771006/57771024.png)
+![](../../../../attachments/57771006/57771024.png)
 
 Markieren Sie die gewünschten Optionen und klicken Sie auf „Weiter“.
 
 Geben Sie den Kontonamen und den Namen ein, der in gesendeten Nachrichten als Benutzername erscheinen soll:
 
-![](../../../attachments/57771006/57771023.png)
+![](../../../../attachments/57771006/57771023.png)
 
 Das E-Mail-Konto erscheint dann in der Kontoliste der Anwendung:
 
-![](../../../attachments/57771006/57771022.png)
+![](../../../../attachments/57771006/57771022.png)
 
 Die E-Mails werden abgerufen und angezeigt:
 
-![](../../../attachments/57771006/57771021.png)
+![](../../../../attachments/57771006/57771021.png)
 
 
  

@@ -16,9 +16,9 @@ Please refer to the following page: [Configuring the EAS server](/Guide_de_l_ad
 
 ## Introduction
 
-ActiveSync is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars while [IMAP Synchronization](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry/) is restricted to messages.
+ActiveSync is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars while [IMAP Synchronization](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/Synchronisation_IMAP_du_Blackberry/) is restricted to messages.
 
-To find out more, please go to [Synchronizing with mobile phones and tablets](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
+To find out more, please go to [Synchronizing with mobile phones and tablets](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
 
  
 
@@ -39,17 +39,17 @@ Only BlackBerry devices running OS 10 (Q5, Q10) are supported.
 
 In system settings, go to "Accounts":
 
-![](../../../attachments/57771034/57771043.png)
+![](../../../../attachments/57771034/57771043.png)
 
 Add an "email, contacts and calendar" account:
 
-![](../../../attachments/57771034/57771039.png)Select Microsoft&lt;sup>®&lt;/sup> Exchange ActiveSync:
+![](../../../../attachments/57771034/57771039.png)Select Microsoft&lt;sup>®&lt;/sup> Exchange ActiveSync:
 
-![](../../../attachments/57771034/57771042.png)
+![](../../../../attachments/57771034/57771042.png)
 
 Enter the account and server information:
 
-![](../../../attachments/57771034/57771041.png)
+![](../../../../attachments/57771034/57771041.png)
 
 Barring special cases:
 
@@ -62,7 +62,7 @@ Barring special cases:
 
 In the screenshot below, enable or disable the items you want to synchronize:
 
-![](../../../attachments/57771034/57771038.png)Click "Done".
+![](../../../../attachments/57771034/57771038.png)Click "Done".
 
 
 :::info
@@ -75,17 +75,17 @@ Only personal address books are synchronized with your smartphone's contacts. Yo
 
 The system saves your configuration and your account is shown:
 
-![](../../../attachments/57771034/57771040.png)
+![](../../../../attachments/57771034/57771040.png)
 
 You can now access your email and calendar on your Blackberry!
 
-![](../../../attachments/57771034/57771037.png)
+![](../../../../attachments/57771034/57771037.png)
 
 ## Forcing the calendar to refresh
 
 To force the calendar to synchronize, from the Calendar application, open the menu at the bottom right of the screen and tap "Refresh":
 
-![](../../../attachments/57771034/57771035.png)
+![](../../../../attachments/57771034/57771035.png)
 
 
  

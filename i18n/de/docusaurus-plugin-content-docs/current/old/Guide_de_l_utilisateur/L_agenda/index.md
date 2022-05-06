@@ -26,27 +26,27 @@ BlueMind umfasst einen kompletten freigegebenen Kalender mit zahlreichen Funktio
 - Verwaltung von Wiederholungen, Ausnahmen, privaten Terminen usw.
 
 
-![](../../attachments/57770444/72188625.png)
+![](../../../attachments/57770444/72188625.png)
 
 ## Anzeige und Navigation
 
 Die standardmäßige Hauptansicht des BlueMind-Kalenders besteht aus mehreren Teilen:
 
-- ![](../../attachments/57769989/69896475.png) : Die Taskleiste gestattet den Wechsel zwischen den verschiedenen Anwendungen.
-- ![](../../attachments/57769989/69896474.png) : Der Kalender gestattet, ein bestimmtes Datum zu suchen und aufzurufen, indem Sie die Monate mit den Pfeiltasten abrollen und auf das gewünschte Datum klicken. Im Hauptbereich wird der Zeitraum angezeigt, der das ausgewählte Datum enthält (Tag, Woche, Monat, je nach aktueller Einstellung).
-- ![](../../attachments/57769989/69896473.png) : Dieser Bereich zeigt Liste der aktuell angezeigten Kalender und bietet Zugriff auf Ansichten und Kategorien.
-- ![](../../attachments/57769989/69896472.png) : Die Suchmaschine gestattet, Termine nach Name, Kategorien, Details, Teilnehmer usw. zu suchen.
-- ![](../../attachments/57769989/69896471.png) : Dieser Bereich ist diese Hauptanzeige des Kalenders des Benutzers sowie der von ihm abonnierten Kalender und/oder weiterer Kalender seiner Wahl (Benutzer, Ressourcen).
+- ![](../../../attachments/57769989/69896475.png) : Die Taskleiste gestattet den Wechsel zwischen den verschiedenen Anwendungen.
+- ![](../../../attachments/57769989/69896474.png) : Der Kalender gestattet, ein bestimmtes Datum zu suchen und aufzurufen, indem Sie die Monate mit den Pfeiltasten abrollen und auf das gewünschte Datum klicken. Im Hauptbereich wird der Zeitraum angezeigt, der das ausgewählte Datum enthält (Tag, Woche, Monat, je nach aktueller Einstellung).
+- ![](../../../attachments/57769989/69896473.png) : Dieser Bereich zeigt Liste der aktuell angezeigten Kalender und bietet Zugriff auf Ansichten und Kategorien.
+- ![](../../../attachments/57769989/69896472.png) : Die Suchmaschine gestattet, Termine nach Name, Kategorien, Details, Teilnehmer usw. zu suchen.
+- ![](../../../attachments/57769989/69896471.png) : Dieser Bereich ist diese Hauptanzeige des Kalenders des Benutzers sowie der von ihm abonnierten Kalender und/oder weiterer Kalender seiner Wahl (Benutzer, Ressourcen).
     - Mit den Schaltflächen oben links im Hauptbereich können Sie zu dem Zeitraum mit dem aktuellen Datum zurückkehren und zu davor oder danach liegenden Daten navigieren.
-    - Die Schaltflächen oben rechts gestatten die Auswahl des Zeitraums und der Art der Darstellung: Tag, Woche, Monat, Liste (letztere zeigt nur die Liste der Termine an) und den Zugriff auf die Funktionen**Als PDF drucken** und **ICS-Datei importieren/Als ICS-Datei exportieren**. Das Toolmenü gestattet auch die Aktualisierung der aktuellen Ansicht:![](../../attachments/57770444/72188600.png)
-- ![](../../attachments/57769989/69896470.png) : Das Anzeigefeld der Aufgaben kann mit der Schaltfläche ||| oben rechts ein- oder ausgeblendet werden.
+    - Die Schaltflächen oben rechts gestatten die Auswahl des Zeitraums und der Art der Darstellung: Tag, Woche, Monat, Liste (letztere zeigt nur die Liste der Termine an) und den Zugriff auf die Funktionen**Als PDF drucken** und **ICS-Datei importieren/Als ICS-Datei exportieren**. Das Toolmenü gestattet auch die Aktualisierung der aktuellen Ansicht:![](../../../attachments/57770444/72188600.png)
+- ![](../../../attachments/57769989/69896470.png) : Das Anzeigefeld der Aufgaben kann mit der Schaltfläche ||| oben rechts ein- oder ausgeblendet werden.
 
 
 Die Symbole auf den Terminen gestatten, die Eigenschaften des Termins auf einen Blick zu erfassen:
 
-- ![](../../attachments/57770444/72188583.png) Es gibt mehrere Teilnehmer.
-- ![](../../attachments/57770444/72188581.png) Der Termin ist privat.
-- ![](../../attachments/57770444/72188580.png) Der Terminist wiederkehrend.
+- ![](../../../attachments/57770444/72188583.png) Es gibt mehrere Teilnehmer.
+- ![](../../../attachments/57770444/72188581.png) Der Termin ist privat.
+- ![](../../../attachments/57770444/72188580.png) Der Terminist wiederkehrend.
 
 
 ## Verwaltung von Besprechungen
@@ -78,8 +78,8 @@ Wenn also John Doe einen Termin in John Smiths Kalender erstellen möchte, sind 
 - Der Benutzer Smith erteilt dem Benutzer Doe die Berechtigung "Kann meine Termine aktualisieren".
 - Doe zeigt in seiner Ansicht den Kalender von Smith an.
 - Doe erstellt einen Termin, indem er Smith auswählt:
-    - in der Dropdown-Liste "Kalender" für eine schnelle Erstellung:![](../../attachments/57770444/72188590.png) Hinweis: Die Farbe des Termins wird geändert und erhält die Farbe der Termine von J. Smith.
-    - in der Auswahlliste "Organisateur" (Organisator) für das vollständige Formular:![](../../attachments/57770444/72188588.png)
+    - in der Dropdown-Liste "Kalender" für eine schnelle Erstellung:![](../../../attachments/57770444/72188590.png) Hinweis: Die Farbe des Termins wird geändert und erhält die Farbe der Termine von J. Smith.
+    - in der Auswahlliste "Organisateur" (Organisator) für das vollständige Formular:![](../../../attachments/57770444/72188588.png)
 
 
 ### Einladungen und Benachrichtigungen
@@ -99,8 +99,8 @@ Das Hinzufügen/Löschen/Ändern von Tags und Erinnerungen wird als private Änd
 
 :::
 
-Weitere Informationen finden Sie im Abschnitt zu [L'agenda](/Guide_de_l_utilisateur/L_agenda/).
-Wir verweisen insbesondere auf die Seiten über [Termine](/Guide_de_l_utilisateur/L_agenda/Les_événements/) und die [Organisation von Besprechungen](/Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion/).
+Weitere Informationen finden Sie im Abschnitt zu [L'agenda](/old/Guide_de_l_utilisateur/L_agenda/).
+Wir verweisen insbesondere auf die Seiten über [Termine](/old/Guide_de_l_utilisateur/L_agenda/Les_événements/) und die [Organisation von Besprechungen](/old/Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion/).
 
 
 :::info
@@ -125,7 +125,7 @@ Wenn der Teilnehmer keine Benachrichtigung an den Organisator sendet, wird nur d
 Da die Informationen der Teilnehmer nur den Organisator erreichen, **sieht ein anderer Teilnehmer in seiner Version der Besprechung den Status der anderen Teilnehmer erst **zu dem Zeitpunkt, zu dem der Organisator die letzte Version gesendet hat**** (Versand der Einladung oder einer Änderung). Wenn Sie sicher sein möchten, den aktuellen Status zu sehen, müssen Sie die Version der Besprechung **im Kalender des Organisators** einsehen (vorausgesetzt der Organisator hat die Leseberechtigung für seinen Kalender erteilt):
 
 
-![](../../attachments/57770444/72188620.png)
+![](../../../attachments/57770444/72188620.png)
 
 
 Une même réunion consultée par l'utilisateur John Smith sur l'agenda de l'organisateur et sur le sien.
@@ -139,7 +139,7 @@ Um also, wie im allgemeinen Fall, einen Termin direkt im Kalender der Ressource 
 
 Wenn der Benutzer nur über eine einfache Reservierungsberechtigung verfügt, muss er ein Termin in seinem eigenen Kalender erstellen und die Ressource dazu einladen.
 
-Darüber hinaus ermöglichen die Funktionen zur Ressourcenreservierung in einigen Fällen eine automatische Reservierung oder die Verhinderung von Doppelreservierungen. Weitere Details finden Sie auf der Seite, die den [Ressourcen](/Guide_de_l_utilisateur/Les_ressources/) gewidmet ist.
+Darüber hinaus ermöglichen die Funktionen zur Ressourcenreservierung in einigen Fällen eine automatische Reservierung oder die Verhinderung von Doppelreservierungen. Weitere Details finden Sie auf der Seite, die den [Ressourcen](/old/Guide_de_l_utilisateur/Les_ressources/) gewidmet ist.
 
 ### Domain-Kalender
 
@@ -153,23 +153,23 @@ Domain-Kalender sind Kalender, die der Information der Benutzer dienen, z. B. zu
 
 Domain-Kalender können in 2 Fällen verwendet werden:
 
-- Für den **Informationsplaner**, über den die Benutzer Informationen abrufen können.![](../../attachments/57770444/72188586.png) **Der Domain-Kalender eignet sich gut für die Verwaltung dieses Kalendertyps.** Er kann z. B. als Marketing-Kalender dienen und die Messen enthalten, an denen das Verkaufsteam teilnimmt, oder über öffentliche Versammlungen und Veranstaltungen informieren, die das Bürgermeisteramt organisiert.
-- Für den **betrieblichen Terminplaner**, der zum Erstellen von Terminen für Benutzer verwendet wird.![](../../attachments/57770444/72188586.png) ** Um diese Funktionsweise zu ermöglichen, muss ein [Ressourcenkalender](/Guide_de_l_utilisateur/Les_ressources/) verwendet werden.** Zum Beispiel bei einem Bereitschaftsplaner: Es wird ein wöchentlicher Termin "Bereitschaft Wochenende" erstellt und jede Woche wird der betroffene Benutzer eingeladen. Dies ermöglicht eine Zentralisierung der Informationen und bietet den Benutzern die Möglichkeit, die Einladung anzunehmen, abzulehnen oder anzugeben, wann sie nicht verfügbar sind.
+- Für den **Informationsplaner**, über den die Benutzer Informationen abrufen können.![](../../../attachments/57770444/72188586.png) **Der Domain-Kalender eignet sich gut für die Verwaltung dieses Kalendertyps.** Er kann z. B. als Marketing-Kalender dienen und die Messen enthalten, an denen das Verkaufsteam teilnimmt, oder über öffentliche Versammlungen und Veranstaltungen informieren, die das Bürgermeisteramt organisiert.
+- Für den **betrieblichen Terminplaner**, der zum Erstellen von Terminen für Benutzer verwendet wird.![](../../../attachments/57770444/72188586.png) ** Um diese Funktionsweise zu ermöglichen, muss ein [Ressourcenkalender](/old/Guide_de_l_utilisateur/Les_ressources/) verwendet werden.** Zum Beispiel bei einem Bereitschaftsplaner: Es wird ein wöchentlicher Termin "Bereitschaft Wochenende" erstellt und jede Woche wird der betroffene Benutzer eingeladen. Dies ermöglicht eine Zentralisierung der Informationen und bietet den Benutzern die Möglichkeit, die Einladung anzunehmen, abzulehnen oder anzugeben, wann sie nicht verfügbar sind.
 
 
 ## Multikalender
 
-Der BlueMind-Kalender gestattet einem Benutzer, beliebig viele persönliche Kalender zu erstellen und zu verwenden und deren [Freigabe](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/) auf die gleiche Weise zu verwalten wie seinen Standardkalender.
+Der BlueMind-Kalender gestattet einem Benutzer, beliebig viele persönliche Kalender zu erstellen und zu verwenden und deren [Freigabe](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/) auf die gleiche Weise zu verwalten wie seinen Standardkalender.
 
-![](../../attachments/57770444/72188579.png)
+![](../../../attachments/57770444/72188579.png)
 
 ### Erstellung eines neuen Kalenders
 
 So erstellen Sie einen neuen Kalender:
 
 - Rufen Sie die Verwaltung der Einstellungen > Abschnitt "Kalender" > Registerkarte "Meine Kalender" auf.
-- Wählen Sie im Formular "Neuer Kalender" oben auf der Seite den Kalendertyp "Standard" und geben Sie ihm einen Namen:![](../../attachments/57770444/72188598.png)
-- Klicken Sie auf "Hinzufügen", der Kalender erscheint sofort in Ihrer Kalenderliste:![](../../attachments/57770444/72188596.png)
+- Wählen Sie im Formular "Neuer Kalender" oben auf der Seite den Kalendertyp "Standard" und geben Sie ihm einen Namen:![](../../../attachments/57770444/72188598.png)
+- Klicken Sie auf "Hinzufügen", der Kalender erscheint sofort in Ihrer Kalenderliste:![](../../../attachments/57770444/72188596.png)
 
 
 ### Bearbeitung
@@ -177,7 +177,7 @@ So erstellen Sie einen neuen Kalender:
 So ändern Sie den Namen eines Kalenders:
 
 - Rufen Sie die Verwaltung der Einstellungen > Abschnitt "Kalender" > Registerkarte "Meine Kalender" auf.
-- Klicken Sie im Bereich "Kalender" auf den Namen des Kalenders, damit das Bearbeitungsfeld und die Aktionsschaltflächen angezeigt werden:![](../../attachments/57770444/72188594.png)
+- Klicken Sie im Bereich "Kalender" auf den Namen des Kalenders, damit das Bearbeitungsfeld und die Aktionsschaltflächen angezeigt werden:![](../../../attachments/57770444/72188594.png)
 - Geben Sie den neuen Namen ein und 
     - bestätigen Sie mit der Eingabetaste oder indem Sie auf das Häkchen am Ende des Felds klicken.
     - oder annullieren Sie, indem Sie auf das Kreuz am Ende des Felds klicken.
@@ -188,7 +188,7 @@ So ändern Sie den Namen eines Kalenders:
 So löschen Sie einen Kalender:
 
 - Rufen Sie die Verwaltung der Einstellungen > Abschnitt "Kalender" > Registerkarte "Meine Kalender" auf.
-- Klicken Sie im Bereich "Kalender" auf das Papierkorbsymbol ![](../../attachments/57769989/69896481.png) am Ende der Zeile.
+- Klicken Sie im Bereich "Kalender" auf das Papierkorbsymbol ![](../../../attachments/57769989/69896481.png) am Ende der Zeile.
 
 
 :::info
@@ -214,7 +214,7 @@ Wenn die Kalender ausgewählt sind, füllen Sie das Formular zur Verwaltung der 
 - oder indem Sie die individuelle Freigabe aktivieren, um den Status nur bestimmten Benutzern oder Gruppen anzuzeigen.
 
 
-![](../../attachments/57770444/72188592.png)
+![](../../../attachments/57770444/72188592.png)
 
 Mögliche Arten der Freigabe sind:
 
@@ -226,17 +226,17 @@ Mögliche Arten der Freigabe sind:
 
 Um die aktuelle Ansicht zu drucken, öffnen Sie das Toolmenü oben rechts im Hauptanzeigebereich:
 
-![](../../attachments/57770444/72188610.png)
+![](../../../attachments/57770444/72188610.png)
 
 Das Dialogfeld „Als PDF drucken“ schlägt dann den Druck der aktuellen Ansicht in Kalender- oder Listenform vor, wobei die Druckoptionen eine direkte Vorschau der Auswahl erlauben:
 
-![](../../attachments/57770444/72188608.png)
+![](../../../attachments/57770444/72188608.png)
 
-Die dargestellte Wochenansicht ergibt die folgende PDF-Datei: [calendarSemaine.pdf](../../attachments/57770444/72188584.pdf)
+Die dargestellte Wochenansicht ergibt die folgende PDF-Datei: [calendarSemaine.pdf](../../../attachments/57770444/72188584.pdf)
 
-![](../../attachments/57770444/72188606.png)
+![](../../../attachments/57770444/72188606.png)
 
-Die dargestellte Listenansicht ergibt die folgende PDF-Datei: [calendarListe.pdf](../../attachments/57770444/72188585.pdf)
+Die dargestellte Listenansicht ergibt die folgende PDF-Datei: [calendarListe.pdf](../../../attachments/57770444/72188585.pdf)
 
 Klicken Sie auf "Speichern", um die Datei herunterzuladen.
 
@@ -254,22 +254,22 @@ Klicken Sie auf "Speichern", um die Datei herunterzuladen.
 
 Der Export und Import von ICS-Dateien erfolgt über das Toolmenü oben rechts im Hauptbereich:
 
-![](../../attachments/57770444/72188610.png)
+![](../../../attachments/57770444/72188610.png)
 
 ### ICS-Export
 
 Das Dialogfeld, das geöffnet wird, gestattet die Auswahl der zu exportierenden Termine. Wenn Sie auf "Export" klicken, wird die entsprechende ICS-Datei je nach Konfiguration der Umgebung des Benutzers zum Download oder Öffnen angeboten:
 
-![](../../attachments/57770444/72188604.png)
+![](../../../attachments/57770444/72188604.png)
 
 ### TRP Import
 
 Das Dialogfeld, das geöffnet wird, gestattet, eine Datei auf dem Computer zu suchen und anschließend den Kalender auszuwählen, in den die darin enthaltenen Termine importiert werden sollen. Vorgeschlagen werden alle Kalender, für die Sie die Schreibberechtigung haben:
 
-![](../../attachments/57770444/72188602.png)
+![](../../../attachments/57770444/72188602.png)
 
 ## ICS-Synchronisation
 
-Siehe [Externe Kalender](/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes/)
+Siehe [Externe Kalender](/old/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes/)
 
 

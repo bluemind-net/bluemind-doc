@@ -16,10 +16,10 @@ Nous vous invitons donc à la tester et l'expérimenter dès maintenant ! Nous v
 
 Nous attendons vos retours avec impatience !
 
-![](../../attachments/66096291/66099873.png)
+![](../../../attachments/66096291/66099873.png)
 
 
-![](../../attachments/66096291/66099892.png)
+![](../../../attachments/66096291/66099892.png)
 
 ## Tester le nouveau client de messagerie
 
@@ -27,11 +27,11 @@ Les administrateurs doivent [installer et mettre à disposition des utilisateurs
 
 Une fois fait, un commutateur permet de basculer entre la messagerie classique et le nouveau webmail BlueMind, en haut à droite de la messagerie :
 
-![](../../attachments/66096291/66099889.png)
+![](../../../attachments/66096291/66099889.png)
 
 L'utilisateur a aussi la possibilité de basculer depuis la gestion de ses paramètres, rubrique messagerie :
 
-![](../../attachments/66096291/66099841.png)
+![](../../../attachments/66096291/66099841.png)
 
 ## Affichage
 
@@ -39,16 +39,16 @@ L'utilisateur a aussi la possibilité de basculer depuis la gestion de ses param
 
 Le bandeau du haut de la fenêtre a été modernisé et harmonisé avec la nouvelle interface. Il permet :
 
-- de passer d'une application à l'autre dans sa partie gauche :![](../../attachments/66096291/66099895.png)
-- d'accéder aux préférences et se déconnecter dans sa partie droite :![](../../attachments/66096291/66099894.png)
-- ![](../../attachments/57770017/66096241.png) d'accéder directement à la documentation BlueMind en ligne grâce au point d'interrogation en partie droite :![](../../attachments/66096291/66099893.png)
+- de passer d'une application à l'autre dans sa partie gauche :![](../../../attachments/66096291/66099895.png)
+- d'accéder aux préférences et se déconnecter dans sa partie droite :![](../../../attachments/66096291/66099894.png)
+- ![](../../../attachments/57770017/66096241.png) d'accéder directement à la documentation BlueMind en ligne grâce au point d'interrogation en partie droite :![](../../../attachments/66096291/66099893.png)
 
 
 ### Le client de messagerie (webmail)
 
 La vue principale de la messagerie est une vue en 3 colonnes :
 
-![](../../attachments/66096291/66099896.png)
+![](../../../attachments/66096291/66099896.png)
 
 1.  **Colonne de gauche**  : l'arborescence de dossiersElle propose les dossiers dans des arborescences séparées et repliables, permettant ainsi le regroupement des dossiers de l'utilisateur d'une part et des boîtes partagées d'autre part.
 2.  **Colonne du milieu**  : la liste des messages contenus dans le dossier sélectionné en colonne ADes filtres en haut de liste permettent de n'afficher que certains types de messages et le passage de la souris sur un message fait apparaître des informations et actions possibles.
@@ -81,11 +81,11 @@ Lorsqu'un dossier est sélectionné :
 - la puce indiquant le nombre de messages non lus dans le dossier apparait en bleu vif :
 
 
-![](../../attachments/66096291/66099891.png) *Ici le dossier "restored-2021-01-14" est sélectionné*
+![](../../../attachments/66096291/66099891.png) *Ici le dossier "restored-2021-01-14" est sélectionné*
 
 En passant la souris sur un dossier, un menu apparait, proposant les actions possibles sur ce dossier et les messages qu'il contient :
 
-![](../../attachments/66096291/66099843.png)
+![](../../../attachments/66096291/66099843.png)
 
 Les actions actuellement disponibles sont :
 
@@ -113,8 +113,8 @@ La gestion des dossiers se fait directement depuis la liste des dossiers.
 
 #### Créer un dossier
 
-- En bas de l'arborescence de l'utilisateur, se trouve une entrée "Nouveau dossier" :![](../../attachments/66096291/66099887.png)
-- Cliquer dessus pour faire apparaître le champs de saisie :![](../../attachments/66096291/66099886.png) 
+- En bas de l'arborescence de l'utilisateur, se trouve une entrée "Nouveau dossier" :![](../../../attachments/66096291/66099887.png)
+- Cliquer dessus pour faire apparaître le champs de saisie :![](../../../attachments/66096291/66099886.png) 
     - Pour valider la création : appuyer sur &lt;Entrée>
     - Pour annuler la création : appuyer sur &lt;Echap> ou cliquer sur la croix en fin de ligne
 
@@ -123,7 +123,7 @@ La gestion des dossiers se fait directement depuis la liste des dossiers.
 
 - Se placer sur le dossier parent du dossier que l'on veut créer
 - Dérouler le menu (voir ci-dessus)
-- Cliquer sur "Créer un sous-dossier", un nouveau dossier apparait sous le dossier sélectionné avec un champ permettant de saisir le nom :![](../../attachments/66096291/66099890.png)
+- Cliquer sur "Créer un sous-dossier", un nouveau dossier apparait sous le dossier sélectionné avec un champ permettant de saisir le nom :![](../../../attachments/66096291/66099890.png)
     - Pour valider la création : appuyer sur &lt;Entrée>
     - Pour annuler la création : appuyer sur &lt;Echap> ou cliquer sur la croix en fin de ligne
 
@@ -132,7 +132,7 @@ La gestion des dossiers se fait directement depuis la liste des dossiers.
 
 - Se placer sur le dossier que l'on veut renommer
 - Dérouler le menu (voir ci-dessus)
-- Cliquer sur "Renommer le dossier", le nom du dossier devient modifiable :![](../../attachments/66096291/66099888.png) 
+- Cliquer sur "Renommer le dossier", le nom du dossier devient modifiable :![](../../../attachments/66096291/66099888.png) 
     - Pour valider la création : appuyer sur &lt;Entrée>
     - Pour annuler la création : appuyer sur &lt;Echap> ou cliquer sur la croix en fin de ligne
 
@@ -166,7 +166,7 @@ Pour contourner cela, il faut procéder à un déplacement des messages qu'il co
 
 ### Présentation
 
-![](../../attachments/66096291/66099844.png)
+![](../../../attachments/66096291/66099844.png)
 
 
 :::tip
@@ -177,11 +177,11 @@ La liste des messages est actuellement triée par date uniquement, cela est amen
 
 Les messages non lus sont signalés par un bandeau bleu en début de ligne et leur texte est en gras :
 
-![](../../attachments/66096291/66099861.png)
+![](../../../attachments/66096291/66099861.png)
 
 En haut de liste, 3 champs permettent de filtrer l'affichage :
 
-![](../../attachments/66096291/66099883.png)
+![](../../../attachments/66096291/66099883.png)
 
 - **Tous**
 - **Non lus**
@@ -198,7 +198,7 @@ Pour personnaliser l'affichage de la liste des messages, consultez la page [Pré
 
 Les actions principales sont accessibles au survol d'un message dans la liste :
 
-![](../../attachments/66096291/66099882.png)
+![](../../../attachments/66096291/66099882.png)
 
 Un message peut ici être :
 
@@ -214,22 +214,22 @@ Un message peut ici être :
 
 Lors du survol d'un message, un bouton radio apparait, permettant de le sélectionner. Cliquer sur les boutons du ou des messages désirés pour les sélectionner :
 
-![](../../attachments/66096291/66099881.png)
+![](../../../attachments/66096291/66099881.png)
 
 ##### Sélectionner tous les messages
 
 Le bouton radio en haut de liste permet de sélectionner/désélectionner l'ensemble des messages du dossier, selon le filtre activé :
 
-![](../../attachments/66096291/66099855.png)
+![](../../../attachments/66096291/66099855.png)
 
 #### Actions groupées sur des messages
 
 Lorsqu'un ou plusieurs messages sont sélectionnés, les actions possibles apparaissent dans la barre d'action et dans la zone d'affichage principale :
 
-![](../../attachments/66096291/66099853.png)Les actions groupées disponibles sont :
+![](../../../attachments/66096291/66099853.png)Les actions groupées disponibles sont :
 
 - **Marquer comme lus**
-- **Déplacer** : ouvre un menu permettant de rechercher le dossier de destination souhaité :![](../../attachments/66096291/66099854.png)
+- **Déplacer** : ouvre un menu permettant de rechercher le dossier de destination souhaité :![](../../../attachments/66096291/66099854.png)
 - **Supprimer**
 - **Assurer un suivi** : marque les messages d'un drapeau "important" (affiché seulement si des messages non marqués sont sélectionnés)
 - **Ne plus suivre** : retire le drapeau marqueur des messages (affiché seulement si des messages marqués sont sélectionnés)
@@ -240,26 +240,26 @@ Lorsqu'un ou plusieurs messages sont sélectionnés, les actions possibles appar
 
 Les messages peuvent être déplacés par glisser-déposer simplement en prenant un message seul directement ou en sélectionnant plusieurs messages (voir ci-dessus) :
 
-![](../../attachments/66096291/66099885.png)
+![](../../../attachments/66096291/66099885.png)
 
 Un message de confirmation indique que l'opération a été réalisée. Cliquer sur le nom du dossier dans le message pour être automatiquement redirigé vers le dossier de destination :
-![](../../attachments/66096291/66099884.png)
+![](../../../attachments/66096291/66099884.png)
 
 ## Affichage d'un message
 
 La zone d'affichage principale affiche le message sélectionné :
 
-![](../../attachments/66096291/66099880.png)La barre d'action au dessus du message propose les actions disponibles pour ce message :
+![](../../../attachments/66096291/66099880.png)La barre d'action au dessus du message propose les actions disponibles pour ce message :
 
-![](../../attachments/66096291/66099877.png)
+![](../../../attachments/66096291/66099877.png)
 
 Les actions de réponse et transfert sont accessibles en haut à droite du message :
 
-![](../../attachments/66096291/66099879.png)
+![](../../../attachments/66096291/66099879.png)
 
 ### Les pièces jointes
 
-Un encart repliable sous l'en-tête présente les pièces jointes intégrées au message, avec un aperçu lorsqu'il est possible. Chaque fichier peut être téléchargés au moyen de l'icône ![](../../attachments/66096291/66099878.png)
+Un encart repliable sous l'en-tête présente les pièces jointes intégrées au message, avec un aperçu lorsqu'il est possible. Chaque fichier peut être téléchargés au moyen de l'icône ![](../../../attachments/66096291/66099878.png)
 
 Selon la nature de la pièce jointe, cliquer dessus ouvrira la fenêtre d'aperçu ou proposera de télécharger ou ouvrir le fichier.
 

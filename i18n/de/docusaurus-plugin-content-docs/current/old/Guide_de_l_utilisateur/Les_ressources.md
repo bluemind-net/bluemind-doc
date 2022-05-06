@@ -29,17 +29,17 @@ Die Rechte, die Benutzern für eine Ressource zugewiesen werden können, sind wi
 
 Die Reservierung einer Ressource erfolgt in mehreren Schritten:
 
-1. Der Benutzer, der die Ressource reservieren möchte, fügt sie beim Erstellen oder Bearbeiten den Teilnehmern seiner Veranstaltung hinzu.Dazu kann er die Verfügbarkeitssuche wie bei anderen Teilnehmern verwenden: ![](../attachments/57770793/57770801.png)
+1. Der Benutzer, der die Ressource reservieren möchte, fügt sie beim Erstellen oder Bearbeiten den Teilnehmern seiner Veranstaltung hinzu.Dazu kann er die Verfügbarkeitssuche wie bei anderen Teilnehmern verwenden: ![](../../attachments/57770793/57770801.png)
 2. Speichert der Benutzer seinen Termin, hat er die Wahl, eventuell eine Einladung zu senden, es handelt sich um eine Reservierungsanfrage per E-Mail.
 3. Der/die benannte(n) Verwalter der Ressource erhalten eine Anfrage per Kalenderalarm, wenn der Ressourcenkalender derzeit in ihrer Anwendung angezeigt wird ** **und** ** per E-Mail, wenn eine Einladung verschickt wurde.
 
 
-![](../attachments/57770793/57770799.png)
+![](../../attachments/57770793/57770799.png)
 
 Le gestionaire peut accepter la demande depuis le mail de réservation
 
 
-![](../attachments/57770793/57770797.png)
+![](../../attachments/57770793/57770797.png)
 
 La ressource est vue en attente de validation par le gestionnaire
 
@@ -53,7 +53,7 @@ La ressource est vue en attente de validation par le gestionnaire
     2. Wenn die automatische Annahme und Ablehnung nicht aktiviert sind, muss der Verwalter die Reservierungsanfrage auf eine der folgenden Arten validieren:
         - per E-Mail, über die „Teilnahme“-Links der erhaltenen E-Mail
         - in seinem Kalender, über die Liste der anstehenden Termine (klicken Sie auf das verschlüsselte Symbol in der Navigationsleiste)
-        - in seinem Kalender durch das Anklicken des Termin: ![](../attachments/57770793/57770795.png)
+        - in seinem Kalender durch das Anklicken des Termin: ![](../../attachments/57770793/57770795.png)
 
 
 :::tip

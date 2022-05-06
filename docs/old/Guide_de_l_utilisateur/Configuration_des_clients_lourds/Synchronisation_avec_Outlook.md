@@ -74,9 +74,9 @@ Au stade actuel de l'implémentation du protocole MAPI dans BlueMind, le profil 
 
 Pour cela :
 
-    - se rendre dans le Panneau de configuration > Comptes Utilisateurs > Mail Microsoft Outlook (selon la configuration de l'affichage, ce menu peut se trouver à la racine du panneau de configuration) :![](../../attachments/57770953/72199840.png)
-    - Dans la fenêtre Courrier qui s'ouvre, cliquer sur "Ajouter" afin de créer un nouveau profil vierge :![](../../attachments/57770953/72199839.png)
-    - Donner un nom à ce profil :![](../../attachments/57770953/72199838.png)
+    - se rendre dans le Panneau de configuration > Comptes Utilisateurs > Mail Microsoft Outlook (selon la configuration de l'affichage, ce menu peut se trouver à la racine du panneau de configuration) :![](../../../attachments/57770953/72199840.png)
+    - Dans la fenêtre Courrier qui s'ouvre, cliquer sur "Ajouter" afin de créer un nouveau profil vierge :![](../../../attachments/57770953/72199839.png)
+    - Donner un nom à ce profil :![](../../../attachments/57770953/72199838.png)
     - l'interface vous amène dès lors à l'étape suivante de création du compte de messagerie
 1. Ajouter un nouveau compte Email
 
@@ -88,7 +88,7 @@ Ne pas choisir la configuration manuelle
 :::
 
 2. Renseigner l'adresse email et le mot de passe de l'utilisateur :
-![](../../attachments/57770953/72199851.png)
+![](../../../attachments/57770953/72199851.png)
 
 
 :::info
@@ -97,9 +97,9 @@ Il est important d'utiliser l'adresse par défaut de l'utilisateur : les alias n
 
 :::
 
-3. Après quelques instants, Outlook signale que le compte a été ajouté avec succès :![](../../attachments/57770953/72199850.png)
+3. Après quelques instants, Outlook signale que le compte a été ajouté avec succès :![](../../../attachments/57770953/72199850.png)
 4. Cocher "Modifier les paramètres du compte" et cliquer sur "Suivant"
-5.  **Cocher "Utiliser le cache Exchange" et amener le curseur le plus à droite possible, jusqu'à "Tout" :**  ![](../../attachments/57770953/72199849.png)
+5.  **Cocher "Utiliser le cache Exchange" et amener le curseur le plus à droite possible, jusqu'à "Tout" :**  ![](../../../attachments/57770953/72199849.png)
 6. Cliquer sur "Terminer"
 
 
@@ -123,7 +123,7 @@ L'accès aux boîtes aux lettres d'utilisateurs n'est pas disponible de la même
 
 Pour faire apparaitre une boîte d'utilisateur dans Outlook, se rendre dans les Paramètres du compte > onglet "Fichiers de données" > "Paramètres" > onglet "Avancé" :
 
-![](../../attachments/57770953/72199842.png)
+![](../../../attachments/57770953/72199842.png)
 
 ## Configuration de Windows pour une organisation
 
@@ -315,21 +315,21 @@ Dans Outlook se rendre dans Fichier > Gérer le compte > Gérer les profils
 
 Selon les versions d'Outlook et/ou de Windows, il se peut que l'option "Gérer les profils" ne soit pas présente dans ce menu. Dans ce cas, se rendre dans le panneau de configuration du poste et choisir "Courrier" ("Mail" peut apparaître, même sur des système en français) :
 
-![](../../attachments/57770953/72199846.png)
+![](../../../attachments/57770953/72199846.png)
 
 Si le tri par catégorie est activé, l'option se trouve alors dans Panneau de configuration > Comptes utilisateurs :
 
-![](../../attachments/57770953/72199840.png)
+![](../../../attachments/57770953/72199840.png)
 
 :::
 
 Cliquer sur le bouton "Afficher les profils" :
 
-![](../../attachments/57770953/72199845.png)
+![](../../../attachments/57770953/72199845.png)
 
 Sélectionner le profil et le supprimer :
 
-![](../../attachments/57770953/72199844.png)
+![](../../../attachments/57770953/72199844.png)
 
 **Relancer Outlook.**
 
@@ -370,9 +370,9 @@ Pour supprimer le mauvais mot de passe :
 
 - s'assurer qu'Outlook et l'écran de création de compte soient fermés
 - ouvrir le Gestionnaire d'identification en tapant Windows + R
-- saisir "`control /name Microsoft.CredentialManager`" :![](../../attachments/57770953/72199848.png)
+- saisir "`control /name Microsoft.CredentialManager`" :![](../../../attachments/57770953/72199848.png)
 - cliquer sur OK (ou touche &lt;Entrée>)
-- Supprimer les entrées de type  `autodiscover.domaine.tld`  et  `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  Par exemple pour supprimer le mot de passe de *  [tom@bm.lan](mailto:tom@bm.lan)  * :![](../../attachments/57770953/72199847.png)
+- Supprimer les entrées de type  `autodiscover.domaine.tld`  et  `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  Par exemple pour supprimer le mot de passe de *  [tom@bm.lan](mailto:tom@bm.lan)  * :![](../../../attachments/57770953/72199847.png)
 
 
 ### Les boîtes partagées n'apparaissent pas parmi les dossiers de l'utilisateur
@@ -381,6 +381,6 @@ Pour supprimer le mauvais mot de passe :
 
 **Si votre BlueMind est en version 4.4 ou antérieure** : les boites aux lettres partagées se trouvent dans les dossiers publics. Ceux-ci peuvent être trouvés en cliquant sur les points de suspension en bas de l'arborescence :
 
-![](../../attachments/57770953/72199843.png)
+![](../../../attachments/57770953/72199843.png)
 
 

@@ -25,10 +25,10 @@ You can create an unlimited number of address books and precisely specify how th
 
 ## Display
 
-![](../../attachments/57770410/62555134.png)
+![](../../../attachments/57770410/62555134.png)
 
-- ![](../../attachments/57769989/69896496.png) : the first column, under the "New contact" button, shows the list of address books you have access to: your default address books, your personal address books as well as those shared with you and you are subscribed to;
-- ![](../../attachments/57769989/69896495.png) : the second column shows the list of contacts in the address book selected in the first column.
+- ![](../../../attachments/57769989/69896496.png) : the first column, under the "New contact" button, shows the list of address books you have access to: your default address books, your personal address books as well as those shared with you and you are subscribed to;
+- ![](../../../attachments/57769989/69896495.png) : the second column shows the list of contacts in the address book selected in the first column.
 
 
 :::tip
@@ -37,8 +37,8 @@ The vertical alphabet on the left of the area allows you to navigate more quickl
 
 :::
 
-- ![](../../attachments/57769989/69896494.png) : the third column, the main display area, shows the contact card for the user selected in the second column.
-- ![](../../attachments/57769989/69896493.png) : search box.
+- ![](../../../attachments/57769989/69896494.png) : the third column, the main display area, shows the contact card for the user selected in the second column.
+- ![](../../../attachments/57769989/69896493.png) : search box.
 
 
 ## Editing contacts
@@ -48,7 +48,7 @@ To edit a contact, go to the contact's card by first selecting the address book 
 If you don't have editing rights, the information will simply be displayed and the action buttons grayed out. If you do have editing rights, you will be able to edit the card's contents:
 
 
-![](../../attachments/57770410/62555132.png)
+![](../../../attachments/57770410/62555132.png)
 
 
 Non-editable form - Editable form
@@ -58,7 +58,7 @@ The "Add" button allows you to add other types of information from those availab
 
 ## Adding tags to a contact
 
-See [Tags](/Guide_de_l_utilisateur/Les_catégories_tags_/) 
+See [Tags](/old/Guide_de_l_utilisateur/Les_catégories_tags_/) 
 
 ## Distribution lists
 
@@ -66,20 +66,20 @@ See [Tags](/Guide_de_l_utilisateur/Les_catégories_tags_/) 
 
 To create a distribution list, click the drop-down arrow in the "New contact" button and choose "New distribution list":
 
-![](../../attachments/57770410/62555128.png)
+![](../../../attachments/57770410/62555128.png)
 
 In the editing page, first enter a title then add the contacts you want to include in the distribution list in the "Add members" box.
 
-![](../../attachments/57770410/62555124.png)
+![](../../../attachments/57770410/62555124.png)
 
 Autocomplete searches all address books for matching contacts. The address book the contact belongs to is shown under the contact's name:
 
-![](../../attachments/57770410/62555120.png)
+![](../../../attachments/57770410/62555120.png)
 
 Whether a matching name is found or not, a "Create new member" button is displayed. It opens a "Create a new contact" form which allows you to enter a name and an email address:
 
 
-![](../../attachments/57770410/62555126.png)
+![](../../../attachments/57770410/62555126.png)
 
 
 Adding a member to a distribution list
@@ -91,7 +91,7 @@ The new contact is then added to the distribution list as well as the current ad
 
 A distribution list can be included within another distribution list: when you want to write to the "parent" list, all addresses will be added as recipients – those belonging to the parent list and those belonging to the child list:
 
-![](../../attachments/57770410/62555119.png)
+![](../../../attachments/57770410/62555119.png)
 
 
 :::info
@@ -108,7 +108,7 @@ You can include contacts from other users' shared address books in distribution 
 
 To make sure that the contacts in a distribution list are up to date, click the "Validate" button to update the whole list. This ensures that you have the latest version if changes have been made the source address books by their owner or right holders.  
 
-![](../../attachments/57770410/62555118.png)
+![](../../../attachments/57770410/62555118.png)
 
 
 :::tip
@@ -122,7 +122,7 @@ If the owner of the address book the contacts come from revokes sharing rights o
 
 To import or export an address book as a vCard file, click the gears button above the contacts list in the address book:
 
-![](../../attachments/57770410/62555130.png)
+![](../../../attachments/57770410/62555130.png)
 
 When exporting, all contacts in the address book are exported to a single file which opens automatically upon download.
 

@@ -26,7 +26,7 @@ BlueMind intègre un agenda partagé complet, proposant de nombreuses fonctionna
 - gestion des récurrences, exceptions, rdv privés,..
 
 
-![](../../attachments/57770444/72188625.png)
+![](../../../attachments/57770444/72188625.png)
 
 ## Affichage et navigation
 
@@ -34,30 +34,30 @@ BlueMind intègre un agenda partagé complet, proposant de nombreuses fonctionna
 
 La vue principale par défaut de l'agenda BlueMind se compose de plusieurs parties :
 
-- ![](../../attachments/57769989/69896475.png) : la barre des tâches, permettant de passer d'une application à l'autre
-- ![](../../attachments/57769989/69896474.png) : Le calendrier permet de rechercher et se rendre à une date : faire défiler les mois avec les flèches « et » puis cliquer sur la date. Dans la zone principale s'affiche alors la période comprenant la date sélectionnée (jour, semaine, mois, selon le paramétrage en cours).
-- ![](../../attachments/57769989/69896473.png) : la liste des calendriers actuellement affichés, ainsi que l'accès aux vues et étiquettes
-- ![](../../attachments/57769989/69896472.png) : le moteur de recherche permet de rechercher des événements par nom, étiquettes, détails, participant, etc.
-- ![](../../attachments/57769989/69896471.png) : l'affichage principal de l'agenda de l'utilisateur ainsi que les agendas auxquels il est abonné et/ou d'autres agendas de son choix (utilisateurs, ressources)
+- ![](../../../attachments/57769989/69896475.png) : la barre des tâches, permettant de passer d'une application à l'autre
+- ![](../../../attachments/57769989/69896474.png) : Le calendrier permet de rechercher et se rendre à une date : faire défiler les mois avec les flèches « et » puis cliquer sur la date. Dans la zone principale s'affiche alors la période comprenant la date sélectionnée (jour, semaine, mois, selon le paramétrage en cours).
+- ![](../../../attachments/57769989/69896473.png) : la liste des calendriers actuellement affichés, ainsi que l'accès aux vues et étiquettes
+- ![](../../../attachments/57769989/69896472.png) : le moteur de recherche permet de rechercher des événements par nom, étiquettes, détails, participant, etc.
+- ![](../../../attachments/57769989/69896471.png) : l'affichage principal de l'agenda de l'utilisateur ainsi que les agendas auxquels il est abonné et/ou d'autres agendas de son choix (utilisateurs, ressources)
     - Les boutons en haut à gauche de la zone principale permettent de ramener à la période incluant la date du jour et naviguer vers des dates précédentes ou suivantes.
-    - Les boutons en haut à droite permettent de choisir la période ou le type d'affichage : jour, semaine, mois, liste (cette dernière affiche la liste des événements seulement) ainsi que d'accéder aux fonctions d'**impression** et d'**import/export ics**. Le menu des outils permet aussi de rafraîchir la vue en cours :![](../../attachments/57770444/72188600.png)
-- ![](../../attachments/57769989/69896470.png) : le panneau de visualisation des tâches peut être affiché ou masqué grâce au bouton ||| situé en haut à droite
+    - Les boutons en haut à droite permettent de choisir la période ou le type d'affichage : jour, semaine, mois, liste (cette dernière affiche la liste des événements seulement) ainsi que d'accéder aux fonctions d'**impression** et d'**import/export ics**. Le menu des outils permet aussi de rafraîchir la vue en cours :![](../../../attachments/57770444/72188600.png)
+- ![](../../../attachments/57769989/69896470.png) : le panneau de visualisation des tâches peut être affiché ou masqué grâce au bouton ||| situé en haut à droite
 
 
 Des icônes sur les événements permettent de voir d'un seul coup d’œil les propriétés de l'événement :
 
-- ![](../../attachments/57770444/72188583.png) il y a plusieurs participants
-- ![](../../attachments/57770444/72188581.png) l'événement est privé
-- ![](../../attachments/57770444/72188580.png) l'événement est récurrent
+- ![](../../../attachments/57770444/72188583.png) il y a plusieurs participants
+- ![](../../../attachments/57770444/72188581.png) l'événement est privé
+- ![](../../../attachments/57770444/72188580.png) l'événement est récurrent
 
 
 ### Afficher des agendas
 
-La liste des agendas affichés est visible à gauche de la page, en ![](../../attachments/57770444/72188578.png)
+La liste des agendas affichés est visible à gauche de la page, en ![](../../../attachments/57770444/72188578.png)
 
-- Pour **ajouter** un agenda, taper son nom dans le champs de saisie et choisir l'agenda proposé par l'autocomplétion :![](../../attachments/57770444/72188577.png)
-- Pour **masquer** temporairement un agenda, cliquer sur son nom dans la liste : le nom devient grisé et les événements disparaissent de la vue :![](../../attachments/57770444/72188576.png)
-- Pour **retirer** un agenda cliquer sur l'icône de couleur en face de son nom puis cliquer sur "Remove" dans le menu de personnalisation proposé :![](../../attachments/57770444/72188615.png)
+- Pour **ajouter** un agenda, taper son nom dans le champs de saisie et choisir l'agenda proposé par l'autocomplétion :![](../../../attachments/57770444/72188577.png)
+- Pour **masquer** temporairement un agenda, cliquer sur son nom dans la liste : le nom devient grisé et les événements disparaissent de la vue :![](../../../attachments/57770444/72188576.png)
+- Pour **retirer** un agenda cliquer sur l'icône de couleur en face de son nom puis cliquer sur "Remove" dans le menu de personnalisation proposé :![](../../../attachments/57770444/72188615.png)
 
 
 ## Modèle de gestion des réunions
@@ -89,8 +89,8 @@ Ainsi, si John Doe veut créer un rendez-vous dans l'agenda de John Smith :
 - l'utilisateur Smith donne le droit "Peut modifier mes rendez-vous" à l'utilisateur Doe
 - Doe affiche dans sa vue l'agenda de Smith
 - Doe crée un rendez-vous en sélectionnant Smith
-    - dans la liste déroulante "Agenda" pour la création rapide :![](../../attachments/57770444/72188590.png) NB : la couleur de l'événement est aussitôt modifiée et prend la couleur des événements de J. Smith
-    - dans la liste déroulante "Organisateur" pour le formulaire complet :![](../../attachments/57770444/72188588.png)
+    - dans la liste déroulante "Agenda" pour la création rapide :![](../../../attachments/57770444/72188590.png) NB : la couleur de l'événement est aussitôt modifiée et prend la couleur des événements de J. Smith
+    - dans la liste déroulante "Organisateur" pour le formulaire complet :![](../../../attachments/57770444/72188588.png)
 
 
 ### Invitations et notifications
@@ -136,7 +136,7 @@ Si le participant choisit de ne pas envoyer de notification à l'organisateur, c
 La remontée des informations ne s'effectuant de la part des participants que vers l'organisateur, **un autre participant voit dans sa version de la réunion les statuts des autres participants **au moment où l'organisateur a envoyé la dernière version**** (envoi de l'invitation ou d'une modification). Pour s'assurer de voir les statuts à jour, il faut consulter la version de la réunion **dans l'agenda de l'organisateur** (si celui-ci lui a donné le droit de lecture sur son agenda) :
 
 
-![](../../attachments/57770444/72188620.png)
+![](../../../attachments/57770444/72188620.png)
 
 
 Une même réunion consultée par l'utilisateur John Smith sur l'agenda de l'organisateur et sur le sien.
@@ -164,23 +164,23 @@ Les calendriers de domaines sont considérés comme des calendriers servant à l
 
 Les agendas de domaine peuvent être envisagés dans 2 cas :
 
-- **l'agenda d'information**, via lequel les utilisateurs peuvent consulter des informations.![](../../attachments/57770444/72188586.png) **L'agenda de domaine est le bon moyen de gérer ce type de d'agenda.** Par exemple un agenda marketing contenant les salons auxquels l'équipe commerciale participe, ou encore un agenda de mairie informant des réunions publiques et événements organisés.
-- **l'agenda opérationnel**, servant à créer des événements pour des utilisateurs.![](../../attachments/57770444/72188586.png) ** Il faut utiliser un agenda de [ressource](/Guide_de_l_utilisateur/Les_ressources/) pour permettre ce fonctionnement.** Par exemple sur un agenda des astreintes : on crée un événement hebdomadaire "astreinte week-end" et chaque semaine on y invite l'utilisateur concerné. Cela permet de centraliser l'information mais aussi aux utilisateurs d'accepter, refuser ou indiquer leur indisponibilité.
+- **l'agenda d'information**, via lequel les utilisateurs peuvent consulter des informations.![](../../../attachments/57770444/72188586.png) **L'agenda de domaine est le bon moyen de gérer ce type de d'agenda.** Par exemple un agenda marketing contenant les salons auxquels l'équipe commerciale participe, ou encore un agenda de mairie informant des réunions publiques et événements organisés.
+- **l'agenda opérationnel**, servant à créer des événements pour des utilisateurs.![](../../../attachments/57770444/72188586.png) ** Il faut utiliser un agenda de [ressource](/Guide_de_l_utilisateur/Les_ressources/) pour permettre ce fonctionnement.** Par exemple sur un agenda des astreintes : on crée un événement hebdomadaire "astreinte week-end" et chaque semaine on y invite l'utilisateur concerné. Cela permet de centraliser l'information mais aussi aux utilisateurs d'accepter, refuser ou indiquer leur indisponibilité.
 
 
 ## Multi-Calendriers
 
 L'agenda BlueMind permet à un utilisateur de créer et utiliser autant de calendriers personnels qu'il le souhaite et d'en [gérer les partages](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/) de la même façon que pour son calendrier par défaut.
 
-![](../../attachments/57770444/72188579.png)
+![](../../../attachments/57770444/72188579.png)
 
 ### Créer un nouveau calendrier
 
 Pour créer un nouveau calendrier :
 
 - se rendre dans la gestion des préférences > section Agenda > onglet « Mes Calendriers »
-- dans le formulaire « Nouveau Calendrier » en haut de page, choisir un type de calendrier "simple" et lui attribuer un nom :![](../../attachments/57770444/72188598.png)
-- cliquer sur « Ajouter », le calendrier apparaît aussitôt dans la liste des calendriers de l'utilisateur :![](../../attachments/57770444/72188596.png)
+- dans le formulaire « Nouveau Calendrier » en haut de page, choisir un type de calendrier "simple" et lui attribuer un nom :![](../../../attachments/57770444/72188598.png)
+- cliquer sur « Ajouter », le calendrier apparaît aussitôt dans la liste des calendriers de l'utilisateur :![](../../../attachments/57770444/72188596.png)
 
 
 ### Éditer
@@ -188,7 +188,7 @@ Pour créer un nouveau calendrier :
 Pour modifier le nom d'un calendrier :
 
 - se rendre dans la gestion des préférences > section Agenda > onglet « Mes Calendriers »
-- dans la section "Calendriers", cliquer sur le nom du calendrier pour faire apparaître le champs de modification et les boutons d'action :![](../../attachments/57770444/72188594.png)
+- dans la section "Calendriers", cliquer sur le nom du calendrier pour faire apparaître le champs de modification et les boutons d'action :![](../../../attachments/57770444/72188594.png)
 - Entrer le nouveau nom et 
     - valider avec la touche entrée ou en cliquant sur la coche en fin de champs
     - annuler en cliquant sur la croix en fin de champs
@@ -199,7 +199,7 @@ Pour modifier le nom d'un calendrier :
 Pour supprimer un calendrier :
 
 - se rendre dans la gestion des préférences > section Agenda > onglet « Mes Calendriers »
-- dans la section "Calendriers", cliquer sur l'icône "poubelle" ![](../../attachments/57769989/69896481.png) en fin de ligne
+- dans la section "Calendriers", cliquer sur l'icône "poubelle" ![](../../../attachments/57769989/69896481.png) en fin de ligne
 
 
 :::info
@@ -225,7 +225,7 @@ Une fois les calendriers sélectionnés, remplir le formulaire de gestion des pa
 - soit par le partage individuel afin de partager son statut avec des utilisateurs ou groupes spécifiques
 
 
-![](../../attachments/57770444/72188592.png)
+![](../../../attachments/57770444/72188592.png)
 
 Les types de partages possibles sont :
 
@@ -237,17 +237,17 @@ Les types de partages possibles sont :
 
 Pour imprimer la vue en cours, ouvrir le menu Outils situé en haut à droite de la zone d'affichage principale :
 
-![](../../attachments/57770444/72188610.png)
+![](../../../attachments/57770444/72188610.png)
 
 La boite de dialogue d'impression propose alors l'impression de la vue en cours, sous forme de calendrier ou de liste, les options d'impression permettant de visualiser directement en aperçu la sélection :
 
-![](../../attachments/57770444/72188608.png)
+![](../../../attachments/57770444/72188608.png)
 
-La vue semaine telle que présentée a pour résultat le fichier PDF suivant : [calendarSemaine.pdf](../../attachments/57770444/72188584.pdf)
+La vue semaine telle que présentée a pour résultat le fichier PDF suivant : [calendarSemaine.pdf](../../../attachments/57770444/72188584.pdf)
 
-![](../../attachments/57770444/72188606.png)
+![](../../../attachments/57770444/72188606.png)
 
-La vue liste telle que présentée aura pour résultat le fichier PDF suivant : [calendarListe.pdf](../../attachments/57770444/72188585.pdf)
+La vue liste telle que présentée aura pour résultat le fichier PDF suivant : [calendarListe.pdf](../../../attachments/57770444/72188585.pdf)
 
 Cliquer sur «Enregistrer» pour télécharger le fichier.
 
@@ -265,19 +265,19 @@ Cliquer sur «Enregistrer» pour télécharger le fichier.
 
 L'export et l'import ICS se font au moyen du menu Outils situé en haut à droite de la zone principale :
 
-![](../../attachments/57770444/72188610.png)
+![](../../../attachments/57770444/72188610.png)
 
 ### Export ICS
 
 La boite de dialogue qui s'ouvre permet de sélectionner les événements à exporter. En cliquant sur «Exporter» le fichier ICS correspondant est proposé au téléchargement ou à l'ouverture selon la configuration de l'environnement de l'utilisateur :
 
-![](../../attachments/57770444/72188604.png)
+![](../../../attachments/57770444/72188604.png)
 
 ### Import ICS
 
 La boite de dialogue qui s'ouvre permet de rechercher un fichier sur l'ordinateur puis sélectionner l'agenda dans lequel importer les événements qui s'y trouvent. Tous les agendas auxquels l'utilisateur a accès en écriture sont proposés :
 
-![](../../attachments/57770444/72188602.png)
+![](../../../attachments/57770444/72188602.png)
 
 ## Synchronisation ICS
 

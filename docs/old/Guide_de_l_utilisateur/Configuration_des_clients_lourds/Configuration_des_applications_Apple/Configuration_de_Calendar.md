@@ -26,19 +26,19 @@ Le protocole CalDav n'est actuellement validé qu'avec les clients Mac OS X **na
 
 Se rendre dans la gestion des comptes internet : System Preferences > «Internet Accounts» :
 
-![](../../../attachments/57770879/57770888.png)
+![](../../../../attachments/57770879/57770888.png)
 
 Choisir «Add other account» :
 
-![](../../../attachments/57770879/57770887.png)
+![](../../../../attachments/57770879/57770887.png)
 
 Sélectionner «Add a CalDAV account» et cliquer sur le bouton «create» :
 
-![](../../../attachments/57770879/57770886.png)
+![](../../../../attachments/57770879/57770886.png)
 
 Choisir le type de compte manuel (un compte automatique nécessite que des enregistrements DNS SRV soient en place) et saisir les informations du compte :
 
-![](../../../attachments/57770879/57770885.png)
+![](../../../../attachments/57770879/57770885.png)
 
 - Le nom d'utilisateur doit être le nom d'utilisateur **complet **avec le domaine****. 
 - Le mot de passe est le mot de passe qui a été fourni par l'administrateur et permet de se connecter à BlueMind.
@@ -53,17 +53,17 @@ Validez l'alerte.
 
 Cliquer une seconde fois sur «Create», le système précise alors que le problème est que le certificat est "autosigné" :
 
-![](../../../attachments/57770879/57770884.png)
+![](../../../../attachments/57770879/57770884.png)
 
 Cochez "Always trust..." pour dire de faire confiance au certificat et cliquer sur «Continue» pour continuer :
 
-![](../../../attachments/57770879/57770883.png)
+![](../../../../attachments/57770879/57770883.png)
 
 Valider l'ajout du certificat en saisissant votre nom d'utilisateur et mot de passe système.
 
 Le compte est alors créé avec les réglages suivants :
 
-![](../../../attachments/57770879/57770882.png)
+![](../../../../attachments/57770879/57770882.png)
 
 
 :::info
@@ -74,7 +74,7 @@ Ne pas activer les reminders, cela n'est pas encore implémenté.
 
 Lancer Calendar, les rendez-vous doivent apparaître :
 
-![](../../../attachments/57770879/57770881.png)
+![](../../../../attachments/57770879/57770881.png)
 
 ### Affichage des agendas partagés
 
@@ -92,7 +92,7 @@ Pour cela :
 Une fois les abonnements réalisés dans BlueMind, se rendre dans les préférences de Calendar > onglet «Accounts» > sélectionner le compte créé > rubrique «Delegation» : les agendas auxquels l'utilisateur a accès (les siens ainsi que ceux pour lesquels il a reçu des droits de partage) apparaissent.
 Cocher les cases de la colonne "Show" pour sélectionner les agendas à afficher :
 
-![](../../../attachments/57770879/57770880.png)
+![](../../../../attachments/57770879/57770880.png)
 
  
 

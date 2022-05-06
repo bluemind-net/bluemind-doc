@@ -10,12 +10,12 @@ position: 52
 
 Pour accéder aux préférences de la messagerie, se rendre dans "Mon compte" en cliquant sur le nom d'utilisateur à droite du bandeau de navigation :
 
-![](../../../attachments/57770359/62557701.png)
+![](../../../../attachments/57770359/62557701.png)
 
 Lorsque l'utilisateur clique depuis le webmail il est automatiquement dirigé vers la section correspondante, sinon il suffit de cliquer sur la rubrique "Messagerie" du menu de gauche :
 
 
-![](../../../attachments/57770359/62557711.png)
+![](../../../../attachments/57770359/62557711.png)
 
 ## Préférences générales
 
@@ -27,12 +27,12 @@ Pour la période déterminée, lorsque l'utilisateur recevra un message, un mail
 
 Cela permet, par exemple, d'indiquer son absence du bureau lors de congés.
 
-![](../../../attachments/57770359/62557709.png)
+![](../../../../attachments/57770359/62557709.png)
 
 - Les dates de début et de fin ne sont pas obligatoires :
     - si aucune date de début n'est spécifiée, le répondeur s'active dès l'enregistrement des nouveaux paramètres
     - si aucune date de fin n'est spécifiée, le répondeur reste actif jusqu'à ce que l'utilisateur modifie ses paramètres et sélectionne "Ne pas envoyer de réponses automatiques"
-Lorsque l'utilisateur clique sur la zone de saisie d'une date, un calendrier d'aide au choix de la date s'affiche :![](../../../attachments/57770359/62557707.png)- Le sujet est optionnel : s'il n'est pas rempli, un message avec un objet vide sera envoyé
+Lorsque l'utilisateur clique sur la zone de saisie d'une date, un calendrier d'aide au choix de la date s'affiche :![](../../../../attachments/57770359/62557707.png)- Le sujet est optionnel : s'il n'est pas rempli, un message avec un objet vide sera envoyé
 - Le contenu du message est obligatoire, il apparaitra dans le corps du message envoyé.
 
 
@@ -67,7 +67,7 @@ Ce formulaire permet de transférer l'ensemble des messages entrant vers une ou 
 
 Pour activer le transfert, cocher la case et indiquer les adresses des destinataires souhaités :
 
-![](../../../attachments/57770359/62557702.png)
+![](../../../../attachments/57770359/62557702.png)
 
 
 :::tip
@@ -91,7 +91,7 @@ Les filtres permettent d'appliquer des règles de tri et actions à effectuer au
 
 Ils permettent ainsi par exemple le rangement dans un sous-dossier en fonction de l'expéditeur ou l'effacement en fonction de l'objet sans que l'utilisateur ait à effectuer lui-même cette action manuellement.
 
-![](../../../attachments/57770359/62557705.png)
+![](../../../../attachments/57770359/62557705.png)
 
 Pour en savoir plus sur la gestion des filtres de messages, consultez la page dédiée [Les filtres de messages](/Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages/)
 
@@ -99,7 +99,7 @@ Pour en savoir plus sur la gestion des filtres de messages, consultez la page d�
 
 Cet onglet permet à l'utilisateur de gérer ses identités et les signatures qui s'y rattachent.
 
-![](../../../attachments/57770359/62557700.png)
+![](../../../../attachments/57770359/62557700.png)
 
 Pour plus d'informations, consulter la page [Les identités](/Guide_de_l_utilisateur/La_messagerie/Les_identités/).
 
@@ -114,7 +114,7 @@ Les abonnements ne concernent que les outils tiers, ils n'ont pas d'incidence su
 
 :::
 
-![](../../../attachments/57770359/62557691.png)
+![](../../../../attachments/57770359/62557691.png)
 
 L'abonnement avec ou sans synchronisation permet une visibilité différenciée pour chaque boîte, la synchronisation activée permettant de faire apparaître la boîte concernée sur les appareils connectés en EAS.
 Ainsi :
@@ -122,14 +122,14 @@ Ainsi :
 |  | Synchronisation active | Synchronisation inactive |
 | --- | --- | --- |
 | Outlook mapi | 
-![](../../../attachments/57770359/62557696.png)
+![](../../../../attachments/57770359/62557696.png)
  | 
-![](../../../attachments/57770359/62557696.png)
+![](../../../../attachments/57770359/62557696.png)
  |
 | EAS | 
-![](../../../attachments/57770359/62557696.png)
+![](../../../../attachments/57770359/62557696.png)
  | 
-![](../../../attachments/57770359/62557695.png)
+![](../../../../attachments/57770359/62557695.png)
  |
 | webmail | 
 - pas d'abonnement nécessaire
@@ -145,10 +145,10 @@ Ainsi :
 Pour ajouter un abonnement à une boîte :
 
 - S'assurer d'avoir un droit de partage en lecture minimum (voir [Les boites aux lettres partagées](/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/)) auprès d'un administrateur (administrateur général ou de la boîte)
-- Commencer à taper le nom de la boîte souhaitée dans le champ de saisie en haut de l'onglet, l'autocomplétion propose les boîtes correspondantes à la frappe et sur lesquelles l'utilisateur a un droit de partage  :![](../../../attachments/57770359/62557699.png)
+- Commencer à taper le nom de la boîte souhaitée dans le champ de saisie en haut de l'onglet, l'autocomplétion propose les boîtes correspondantes à la frappe et sur lesquelles l'utilisateur a un droit de partage  :![](../../../../attachments/57770359/62557699.png)
 - Sélectionner la boîte voulue.
 La boîte est ajoutée à la liste avec la synchronisation active par défaut :
-![](../../../attachments/57770359/62557698.png)
+![](../../../../attachments/57770359/62557698.png)
 
 -  **Cliquer sur Enregistrer pour prendre en compte les abonnements** 
 
@@ -164,7 +164,7 @@ Par défaut un partage apparait, qui est celui de l'utilisateur lui-même ayant 
 
 :::
 
-![](../../../attachments/57770359/62557690.png)
+![](../../../../attachments/57770359/62557690.png)
 
 Les types de partages possibles sont :
 

@@ -16,10 +16,10 @@ We therefore encourage you to test it right now, although we do recommend that y
 
 We look forward to hearing your feedback!
 
-![](../../attachments/66096291/66099873.png)
+![](../../../attachments/66096291/66099873.png)
 
 
-![](../../attachments/66096291/66099868.png)
+![](../../../attachments/66096291/66099868.png)
 
 ## How to try the new webmail
 
@@ -27,11 +27,11 @@ BlueMind's new webmail has to be [installed and provisioned to users by the admi
 
 Once this is done, a toggle button in the top right hand corner of the application lets you switch between classic BlueMind webmail and the new webmail:
 
-![](../../attachments/66096291/66099871.png)
+![](../../../attachments/66096291/66099871.png)
 
 You can also switch between versions in your Mail preferences settings:
 
-![](../../attachments/66096291/66099840.png)
+![](../../../attachments/66096291/66099840.png)
 
 ## Display
 
@@ -39,16 +39,16 @@ You can also switch between versions in your Mail preferences settings:
 
 The navigation ribbon at the top of the window has been updated and redesigned to our new interface's standards. It is used to:
 
-- switch between applications (left-hand section):![](../../attachments/66096291/66099895.png)
-- access preferences and log out (right-hand section):![](../../attachments/66096291/66099870.png)
-- ![](../../attachments/57770017/66096238.png) access BlueMind online documentation by clicking the question mark in the right-hand section:![](../../attachments/66096291/66099869.png)
+- switch between applications (left-hand section):![](../../../attachments/66096291/66099895.png)
+- access preferences and log out (right-hand section):![](../../../attachments/66096291/66099870.png)
+- ![](../../../attachments/57770017/66096238.png) access BlueMind online documentation by clicking the question mark in the right-hand section:![](../../../attachments/66096291/66099869.png)
 
 
 ### The Webmail application
 
 The webmail application has a three-column view:
 
-![](../../attachments/66096291/66099867.png)
+![](../../../attachments/66096291/66099867.png)
 
 1. **Left-hand side column**: folder listThe folder column shows the list of folders which can be grouped into user and shared mailboxes and expanded or collapsed.
 2. **Center-column**: list of messages in the folder selected in column A.Filters at the top of the list are used to display a certain type of messages only. Hovering over a message displays information and possible actions.
@@ -81,12 +81,12 @@ When a folder is selected:
 - the chip showing the number of unread messages in the folder is bright blue:
 
 
-![](../../attachments/66096291/66099866.png)
+![](../../../attachments/66096291/66099866.png)
  *The "restored-2021-01-14" folder is selected*
 
 When you hover over a folder, a menu opens showing the actions available for this folder and for the messages it contains:
 
-![](../../attachments/66096291/66099842.png)Actions currently available are:
+![](../../../attachments/66096291/66099842.png)Actions currently available are:
 
 - **Create a subfolder **(see details below)
 - **Rename folder **(see details below)
@@ -112,8 +112,8 @@ Folders are managed in the folder list.
 
 #### Creating a folder
 
-- At the bottom of your folder list you will find a "New folder" button:![](../../attachments/66096291/66099865.png)
-- Click it to open the text box:![](../../attachments/66096291/66099864.png)
+- At the bottom of your folder list you will find a "New folder" button:![](../../../attachments/66096291/66099865.png)
+- Click it to open the text box:![](../../../attachments/66096291/66099864.png)
     - Press &lt;Enter> to confirm
     - Press &lt;Esc> or click the "x" at the end of the row to cancel
 
@@ -122,7 +122,7 @@ Folders are managed in the folder list.
 
 - Place your cursor on the parent folder you want to create a folder in
 - Expand the menu (see above)
-- Click "Create subfolder", a new folder is shown under the selected folder with a text box to enter a name in:![](../../attachments/66096291/66099863.png)
+- Click "Create subfolder", a new folder is shown under the selected folder with a text box to enter a name in:![](../../../attachments/66096291/66099863.png)
     - Press &lt;Enter> to confirm
     - Press &lt;Esc> or click the "x" at the end of the row to cancel
 
@@ -131,7 +131,7 @@ Folders are managed in the folder list.
 
 - Place your cursor on the parent folder you want to modify
 - Expand the menu (see above)
-- Click "Rename folder" to enable editing: ![](../../attachments/66096291/66099862.png)
+- Click "Rename folder" to enable editing: ![](../../../attachments/66096291/66099862.png)
     - Press &lt;Enter> to confirm
     - Press &lt;Esc> or click the "x" at the end of the row to cancel
 
@@ -167,7 +167,7 @@ To work around this, you can move the messages the folder contains:
 
 ### Introduction
 
-![](../../attachments/66096291/66099845.png)
+![](../../../attachments/66096291/66099845.png)
 
 
 :::tip
@@ -178,11 +178,11 @@ The messages list is currently sorted by date only – we are working on updatin
 
 Unread messages are shown with a blue vertical stripe at the beginning of the row and in bold type:
 
-![](../../attachments/66096291/66099860.png)
+![](../../../attachments/66096291/66099860.png)
 
 At the top of the list, you have 3 options to change what messages are displayed:
 
-![](../../attachments/66096291/66099859.png)
+![](../../../attachments/66096291/66099859.png)
 
 - **All**
 - **Unread**
@@ -199,7 +199,7 @@ To customize the display for the message list, please refer to the page
 
 Key actions are available when you hover over a message in the list:
 
-![](../../attachments/66096291/66099858.png)
+![](../../../attachments/66096291/66099858.png)
 
 Messages can be:
 
@@ -215,24 +215,24 @@ Messages can be:
 
 When you hover over a message, a radio button appears, which you can use to select the message. Click the buttons of as many messages as you want to select:
 
-![](../../attachments/66096291/66099857.png)
+![](../../../attachments/66096291/66099857.png)
 
 ##### Selecting all messages
 
 The radio button button at the top of the list is used to select/unselect all the messages in the folder, depending on the filter that is enabled:
 
-![](../../attachments/66096291/66099856.png)
+![](../../../attachments/66096291/66099856.png)
 
 #### Grouped actions on messages
 
 When one or several messages are selected, possible actions are enabled in the action bar and in the main display area:
 
-![](../../attachments/66096291/66099852.png)
+![](../../../attachments/66096291/66099852.png)
 
 Grouped actions available are:
 
 - **Mark as read**
-- **Move**: opens a menu that lets you search for a destination folder:![](../../attachments/66096291/66099851.png)
+- **Move**: opens a menu that lets you search for a destination folder:![](../../../attachments/66096291/66099851.png)
 - **Delete**
 - **Flag**: flags the messages as "important" (shown only if unflagged messages are selected)
 - **Remove flag**: removes the flag from the messages (shown only if flagged messages are selected)
@@ -243,28 +243,28 @@ Grouped actions available are:
 
 Messages can be moved by dragging and dropping them either one by one or by selecting multiple messages (see above):
 
-![](../../attachments/66096291/66099850.png)
+![](../../../attachments/66096291/66099850.png)
 
 A confirmation message shows that the operation was successful. Click the folder name in the message for the messages to be redirected directly to the destination folder
-![](../../attachments/66096291/66099849.png)
+![](../../../attachments/66096291/66099849.png)
 
 ## Displaying a message
 
 The main display window shows the selected message:
 
-![](../../attachments/66096291/66099848.png)
+![](../../../attachments/66096291/66099848.png)
 
 The action bar above the message shows you the actions available for that message:
 
-![](../../attachments/66096291/66099847.png)
+![](../../../attachments/66096291/66099847.png)
 
 Reply and forwarding buttons are available in the top right corner of the message:
 
-![](../../attachments/66096291/66099846.png)
+![](../../../attachments/66096291/66099846.png)
 
 ### Attachments
 
-A collapsible pane below the header shows message attachments, with a preview when available. Each file can be downloaded using the ![](../../attachments/66096291/66099878.png) button.
+A collapsible pane below the header shows message attachments, with a preview when available. Each file can be downloaded using the ![](../../../attachments/66096291/66099878.png) button.
 
 Depending on the type of attachment, clicking this will either open the preview pane or will prompt you to download or open the file.
 

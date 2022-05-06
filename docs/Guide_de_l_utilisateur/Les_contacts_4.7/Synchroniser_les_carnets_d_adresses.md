@@ -10,13 +10,13 @@ BlueMind permet une synchronisation différenciée pour chaque carnet avec les l
 
 La synchronisation des carnets d'adresses s'effectue dans les paramètres des contacts, en allant sur **Préférences - Contact - Mes carnets d'adresses **ou **Autres carnets d'adresses**.
 
-![](../../../attachments/86762727/86764721.png)
+![](../../attachments/86762727/86764721.png)
 
 
 Puis activer le bouton "**Synchronisation**" pour les carnets souhaités.
 
 
-![](../../../attachments/86762727/86764720.png)
+![](../../attachments/86762727/86764720.png)
 
 
 Lorsque la synchronisation est activée, les données sont téléchargées sur le logiciel client. De ce fait :

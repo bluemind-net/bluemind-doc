@@ -34,12 +34,12 @@ L'émission d'appel depuis une interface est communément désignée par le term
 
 Présent dans la barre de menu principale, le numéroteur est disponible sur toutes les pages de l'interface de BlueMind. Il permet de lancer des appels en saisissant un numéro de téléphone ou, par autocomplétion, en recherchant un contact.
 
-1. Cliquer sur le bouton ![](../attachments/57770060/57770066.png) de la barre de menu pour faire apparaître le numéroteur :![](../attachments/57770060/57770067.png)
+1. Cliquer sur le bouton ![](../../attachments/57770060/57770066.png) de la barre de menu pour faire apparaître le numéroteur :![](../../attachments/57770060/57770067.png)
 2. Saisir (directement ou par copier/coller) le numéro de la personne à appeler ou son nom.
 L'autocomplétion propose les personnes correspondantes au cours de la frappe :
-![](../attachments/57770666/57770678.png)
+![](../../attachments/57770666/57770678.png)
 
-3. Cliquer sur le bouton ![](../attachments/57770060/57770063.png) ou sur le numéro souhaité ou naviguer avec les flèches haut/bas du clavier et valider avec la touche entrée.
+3. Cliquer sur le bouton ![](../../attachments/57770060/57770063.png) ou sur le numéro souhaité ou naviguer avec les flèches haut/bas du clavier et valider avec la touche entrée.
 
 
 :::tip
@@ -56,45 +56,45 @@ XIVO effectue la recherche dans les annuaires suivants :
 
 Il est possible de lancer un appel directement depuis l'application Contacts de BlueMind :
 
-- depuis la liste des contacts, en cliquant sur l'icône qui apparait au survol d'un contact :![](../attachments/57770666/57770676.png)
-- depuis la fiche du contact, en cliquant sur l'icône en face de la ligne souhaitée :![](../attachments/57770666/57770674.png)
+- depuis la liste des contacts, en cliquant sur l'icône qui apparait au survol d'un contact :![](../../attachments/57770666/57770676.png)
+- depuis la fiche du contact, en cliquant sur l'icône en face de la ligne souhaitée :![](../../attachments/57770666/57770674.png)
 
 
 ### Depuis la messagerie
 
-Lorsqu'un message est laissé sur le répondeur vocal de l'utilisateur, celui-ci reçoit un message pour l'en informer. Il est alors possible de rappeler la personne depuis l'icône ![](../attachments/57770060/57770063.png) présente dans l'en-tête du message :
+Lorsqu'un message est laissé sur le répondeur vocal de l'utilisateur, celui-ci reçoit un message pour l'en informer. Il est alors possible de rappeler la personne depuis l'icône ![](../../attachments/57770060/57770063.png) présente dans l'en-tête du message :
 
-![](../attachments/57770666/57770672.png)
+![](../../attachments/57770666/57770672.png)
 
 ## Indicateur de présence
 
-Dans la messagerie instantanée, la disponibilité téléphonique par une icône ![](../attachments/57769989/69896483.png) (téléphone) de couleur, devant la disponibilité en ligne de l'utilisateur :
+Dans la messagerie instantanée, la disponibilité téléphonique par une icône ![](../../attachments/57769989/69896483.png) (téléphone) de couleur, devant la disponibilité en ligne de l'utilisateur :
 
 
-![](../attachments/57770666/57770686.png)
+![](../../attachments/57770666/57770686.png)
 
 
 Utilisateur hors ligne au téléphone mais disponible pour la messagerie instantanée
 
 La disponibilité téléphonique peut être :
 
-![](../attachments/57770666/57770680.png) Disponible
+![](../../attachments/57770666/57770680.png) Disponible
 
-![](../attachments/57770666/57770681.png) En ligne mais occupé
+![](../../attachments/57770666/57770681.png) En ligne mais occupé
 
-![](../attachments/57770666/57770683.png) Hors ligne / Disponibilité inconnue
+![](../../attachments/57770666/57770683.png) Hors ligne / Disponibilité inconnue
 
-![](../attachments/57770666/57770684.png) (clignote du rouge au blanc) Téléphone en train de sonner
+![](../../attachments/57770666/57770684.png) (clignote du rouge au blanc) Téléphone en train de sonner
 
 La disponibilité de la messagerie instantanée peut être :
 
-![](../attachments/57770666/57770680.png) Disponible
+![](../../attachments/57770666/57770680.png) Disponible
 
-![](../attachments/57770666/57770682.png) Occupé
+![](../../attachments/57770666/57770682.png) Occupé
 
-![](../attachments/57770666/57770681.png) Absent
+![](../../attachments/57770666/57770681.png) Absent
 
-![](../attachments/57770666/57770683.png) Hors ligne
+![](../../attachments/57770666/57770683.png) Hors ligne
 
 *Pour en savoir plus sur la disponibilité dans la messagerie instantanée et sa gestion, consulter la page dédiée * * [La messagerie instantanée](/Guide_de_l_utilisateur/La_messagerie_instantanée/) * *.*
 
@@ -110,7 +110,7 @@ Pour cela, se rendre dans la gestion des [Paramètres utilisateurs](/Guide_de_l_
 - activer le répondeur ou un transfert pour la téléphonie :
 
 
-![](../attachments/57770666/57770670.png)
+![](../../attachments/57770666/57770670.png)
 
 ### Avec la messagerie instantanée
 
@@ -118,6 +118,6 @@ BlueMind permet de paramétrer un renvoi automatique vers le répondeur vocal ou
 
 Pour cela, se rendre dans la gestion des [Paramètres utilisateurs](/Guide_de_l_utilisateur/Paramètres_utilisateur/) > section Mon Compte > onglet Général et activer l'option souhaitée :
 
-![](../attachments/57770666/57770668.png)
+![](../../attachments/57770666/57770668.png)
 
 

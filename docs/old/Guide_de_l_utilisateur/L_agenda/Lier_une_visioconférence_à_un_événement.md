@@ -24,16 +24,16 @@ Les systèmes actuellement compatibles sont :
 
 Dans le formulaire de création d'un événement, onglet Informations, cliquer sur le bouton "Ajouter une visioconférence" :
 
-![](../../attachments/72187959/72190609.png)
+![](../../../attachments/72187959/72190609.png)
 
 Après une information de réservation en cours (peut durer quelques secondes), un lien est ajouté à l'événement, avec un texte d'accompagnement s'il a été paramétré par les administrateurs :
 
-![](../../attachments/72187959/72190606.png)
+![](../../../attachments/72187959/72190606.png)
 
 2 icônes sont disponibles à côté de l'événement :
 
-- ![](../../attachments/72187959/72190605.png)  la croix permet de supprimer une visioconférence de l'événement
-- ![](../../attachments/72187959/72190604.png) les fichiers servent à copier l'adresse dans le presse-papier de l'ordinateur
+- ![](../../../attachments/72187959/72190605.png)  la croix permet de supprimer une visioconférence de l'événement
+- ![](../../../attachments/72187959/72190604.png) les fichiers servent à copier l'adresse dans le presse-papier de l'ordinateur
 
 
 :::tip
@@ -46,11 +46,11 @@ Le lien est effectif dès l'instant où il est généré, même si l'événement
 
 Le lien et la description sont visibles et fonctionnels dans l'email d'invitation reçu par les invités :
 
-![](../../attachments/72187959/72190607.png)
+![](../../../attachments/72187959/72190607.png)
 
 Ces éléments peuvent aussi être retrouvés dans la popup d'information de l'événement, dans le calendrier de chaque participant (organisateur et invités) :
 
-![](../../attachments/72187959/72190608.png)
+![](../../../attachments/72187959/72190608.png)
 
 
 :::info
@@ -66,17 +66,17 @@ Nouveau webmail
 
 Dans le [nouveau client de messagerie en ligne BlueMind](/Guide_de_l_utilisateur/Messagerie_BlueMind/) la visioconférence peut être accéder grâce au bandeau présent en en-tête du mail d'invitation :
 
-![](../../attachments/72187959/72190603.png)
+![](../../../attachments/72187959/72190603.png)
 
 En plus du message, qui se présente comme précédemment, les informations peuvent aussi être retrouvées dans l'onglet "Invitation" présentant tous les détails de l'événement :
 
-![](../../attachments/72187959/72190602.png)
+![](../../../attachments/72187959/72190602.png)
 
 :::
 
 ## Dissocier une visioconférence
 
-A tout moment, l'organisateur peut éditer son événement et supprimer le lien de visioconférence en cliquant sur l'icône croix ![](../../attachments/72187959/72190605.png) à côté de celui-ci.
+A tout moment, l'organisateur peut éditer son événement et supprimer le lien de visioconférence en cliquant sur l'icône croix ![](../../../attachments/72187959/72190605.png) à côté de celui-ci.
 
 
 :::info

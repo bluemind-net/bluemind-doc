@@ -12,7 +12,7 @@ En cas d'absence ou d'impossibilité de gérer la messagerie, il est possible de
 
 Pour paramétrer les réponses automatiques, aller dans les paramètres de la messagerie : **Préférences - Messagerie - Général - Message d'absence **et cocher l'option "**Activer le message d'absence**"
 
-![](../../../attachments/86762649/86764596.png)
+![](../../attachments/86762649/86764596.png)
 
 
 Remplir les champs :
@@ -59,7 +59,7 @@ Ce formulaire permet de **transférer l'ensemble des messages entrant **vers une
 
 Pour activer le transfert, aller dans les paramètres de la messagerie : **Préférences - Messagerie - Général - Transfert d'emails **et cocher l'option "**Transférer les messages reçus à**"
 
-![](../../../attachments/86762649/86764595.png)
+![](../../attachments/86762649/86764595.png)
 
 
 Saisir le(s) e-mail(s) du ou des destinataire(s) du transfert, l'autocomplétion propose les adresses dans tous les carnets de l'utilisateur (annuaire, carnets personnels, etc.) et choisir de conserver ou non une copie de l'e-mail reçu.

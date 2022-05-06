@@ -24,16 +24,16 @@ This feature is currently compatible with the following systems:
 
 In the event-creation form, Information tab, click the button "Add video-conference":
 
-![](../../attachments/72187959/72190601.png)
+![](../../../attachments/72187959/72190601.png)
 
 After a booking-in-progress notification (which may take a few seconds), a link is added to the event, along with a text if one has been set up by administrators:
 
-![](../../attachments/72187959/72190600.png)
+![](../../../attachments/72187959/72190600.png)
 
 Two icons are shown next to the event:
 
-- ![](../../attachments/72187959/72190605.png)  lets you remove the video-conference from the event
-- ![](../../attachments/72187959/72190604.png) lets you copy the address to your computer's clipboard
+- ![](../../../attachments/72187959/72190605.png)  lets you remove the video-conference from the event
+- ![](../../../attachments/72187959/72190604.png) lets you copy the address to your computer's clipboard
 
 
 :::tip
@@ -46,11 +46,11 @@ The link is effective as soon as it is generated, even if the event has not been
 
 The link and the description are shown and enabled in the email invitation received by guests:
 
-![](../../attachments/72187959/72190599.png)
+![](../../../attachments/72187959/72190599.png)
 
 These items can also be found in the event information popup window, in each participant's calendar (organizer and guests):
 
-![](../../attachments/72187959/72190598.png)
+![](../../../attachments/72187959/72190598.png)
 
 
 :::info
@@ -64,19 +64,19 @@ The link can be copied and forwarded, anyone with the link can join the video-co
 
 New webmail
 
-In BlueMind's new [webmail client](/Guide_de_l_utilisateur/Messagerie_BlueMind/), users can join video-conferences by clicking the link in the ribbon at the top of the invitation email:
+In BlueMind's new [webmail client](/old/Guide_de_l_utilisateur/Messagerie_BlueMind/), users can join video-conferences by clicking the link in the ribbon at the top of the invitation email:
 
-![](../../attachments/72187959/72190597.png)
+![](../../../attachments/72187959/72190597.png)
 
 In addition to the message, as shown above, the video-conference's information can be found in the "Invitation" tab which shows the event's details:
 
-![](../../attachments/72187959/72190596.png)
+![](../../../attachments/72187959/72190596.png)
 
 :::
 
 ## Removing a link to a video-conference
 
-Organizers can edit their event and delete the video-conference link at any time, by clicking the![](../../attachments/72187959/72190605.png) next to it.
+Organizers can edit their event and delete the video-conference link at any time, by clicking the![](../../../attachments/72187959/72190605.png) next to it.
 
 
 :::info

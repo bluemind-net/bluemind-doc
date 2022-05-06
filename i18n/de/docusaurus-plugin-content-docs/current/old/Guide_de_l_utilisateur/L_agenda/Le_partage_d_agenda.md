@@ -29,7 +29,7 @@ Die möglichen Rechte lauten wie folgt:
 
 Um Ihren Kalender zu delegieren, gehen Sie zur Verwaltung der Benutzereinstellungen („Mein Konto“) > Rubrik Kalender > Registerkarte Freigabeverwaltung:
 
-![](../../attachments/57770530/57770540.png)
+![](../../../attachments/57770530/57770540.png)
 
 1. Wählen Sie den gewünschten Kalender aus.
 
@@ -79,19 +79,19 @@ Die folgende Tabelle zeigt die Funktionen, auf die Benutzer entsprechend den ihn
 
 | Gewährte Funktionalität\Rechte | Einladung | Einladung+Sehen | Bearbeiten | Bearbeiten+Verwalten |
 | --- | --- | --- | --- | --- |
-| Einladen | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Abonnieren des Kalenders | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Öffentliche Termine einsehen | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Private Termine einsehen | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Details zu privaten Terminen einsehen | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| Ausstehende Einladungen einsehen | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| Akzeptieren/Ablehnen einer Einladung zu einem öffentlichen Termin | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Akzeptieren/Ablehnen einer Einladung zu einem privaten Termin | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| Einen öffentlichen Termin erstellen | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Ein privater Termin erstellen | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Ändern einen öffentlichen Termin | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Ändern einen privaten Termin | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| Zuweisen/Löschen eines Freigaberechts an Dritte | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
+| Einladen | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Abonnieren des Kalenders | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Öffentliche Termine einsehen | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Private Termine einsehen | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Details zu privaten Terminen einsehen | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| Ausstehende Einladungen einsehen | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| Akzeptieren/Ablehnen einer Einladung zu einem öffentlichen Termin | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Akzeptieren/Ablehnen einer Einladung zu einem privaten Termin | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| Einen öffentlichen Termin erstellen | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Ein privater Termin erstellen | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Ändern einen öffentlichen Termin | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Ändern einen privaten Termin | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| Zuweisen/Löschen eines Freigaberechts an Dritte | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
 
 
 :::tip
@@ -110,9 +110,9 @@ Um einen Kalender in der eigenen Ansicht zu sehen, muss er nicht abonniert werde
 
 **Den gewünschten Kalender anzeigen**:
 
-- ![](../../attachments/57769989/69896473.png) geben Sie im Feld „Kalender hinzufügen“ den Namen des gesuchten Benutzers ein.Die Autovervollständigung schlägt die Benutzer vor, die der Texteingabe entsprechen
-- Wählen Sie den entsprechenden Namen in der Liste aus:![](../../attachments/57770530/57770547.png)
-- Der ausgewählte Kalender wird in einer anderen Farbe angezeigt als die bereits angezeigten Kalender:![](../../attachments/57770530/57770545.png)
+- ![](../../../attachments/57769989/69896473.png) geben Sie im Feld „Kalender hinzufügen“ den Namen des gesuchten Benutzers ein.Die Autovervollständigung schlägt die Benutzer vor, die der Texteingabe entsprechen
+- Wählen Sie den entsprechenden Namen in der Liste aus:![](../../../attachments/57770530/57770547.png)
+- Der ausgewählte Kalender wird in einer anderen Farbe angezeigt als die bereits angezeigten Kalender:![](../../../attachments/57770530/57770545.png)
 
 
 :::info
@@ -127,7 +127,7 @@ Gruppenspezifische Regeln
 
 **Um einen der angezeigten Kalender vorübergehend auszublenden**, klicken Sie auf den entsprechenden Benutzer in der Liste, er erscheint ausgegraut und sein Kalender ist nicht mehr sichtbar:
 
-![](../../attachments/57770530/57770543.png)
+![](../../../attachments/57770530/57770543.png)
 
 ** So ändern Sie die Farbe eines Kalenders:**
 
@@ -135,11 +135,11 @@ Die Farben der angezeigten Kalender können so angepasst werden, dass dem gleich
 
 Dazu das Menü ausklappen, indem in der Liste der angezeigten Kalender auf das Farbsymbol am Ende der Zeile geklickt und die gewünschte Farbe gewählt wird:
 
-![](../../attachments/57770530/57770538.png)
+![](../../../attachments/57770530/57770538.png)
 
 Für weitere Informationen auf „Wählen einer personalisierten Farbe...“ klicken, um die Farbpalette anzuzeigen:
 
-![](../../attachments/57770530/57770536.png)
+![](../../../attachments/57770530/57770536.png)
 
 
 :::tip
@@ -150,19 +150,19 @@ Die Farbe wird für die Anzeige dieses Kalenders automatisch gespeichert, in den
 
 **Zum Entfernen eines Kalenders aus der Anzeige** in der Liste der angezeigten Kalender auf das farbige Symbol am Ende der Zeile klicken, um das Menü aufzurufen und auf „Remove“ klicken:
 
-![](../../attachments/57770530/57770535.png)
+![](../../../attachments/57770530/57770535.png)
 
 ### In Outlook und auf mobilen Geräten
 
 Um einen freigegebenen Kalender in Outlook oder auf einem mit EAS verbundenen mobilen Gerät anzuzeigen, muss dieser Kalender abonniert und seine Synchronisierung aktiviert werden.
 
-Dies kann unter Verwendung der entsprechenden Links direkt aus der erhaltenen Info-Mail heraus geschehen oder jederzeit über den Bereich „Abonnements“ in den BlueMind-Kalendereinstellungen. Weitere Details zur Vorgehensweise und zu den Elementen, die synchronisiert werden, finden Sie im entsprechenden Abschnitt: [Kalender-Einstellungen - §4. Abonnements](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/#Preferencesdelagenda-abonnements)
+Dies kann unter Verwendung der entsprechenden Links direkt aus der erhaltenen Info-Mail heraus geschehen oder jederzeit über den Bereich „Abonnements“ in den BlueMind-Kalendereinstellungen. Weitere Details zur Vorgehensweise und zu den Elementen, die synchronisiert werden, finden Sie im entsprechenden Abschnitt: [Kalender-Einstellungen - §4. Abonnements](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/#Preferencesdelagenda-abonnements)
 
 ## Domänen-Kalender
 
 Der Administrator kann [Domänen-Kalender](/Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines/), d. h. Kalender, die einem oder mehreren Benutzern gehören, zur Einsicht oder Änderung gemäß den ihnen zugewiesenen Rechten erstellen.
 
-Wenn er zumindest über das Recht zur Einsicht verfügt, kann ein Benutzer dann auf die gleiche Weise darauf zugreifen wie auf den Kalender eines Benutzers: über das Suchfeld der Hauptansicht ![](../../attachments/57769989/69896473.png) (siehe oben) oder durch die Verwaltung seiner Abonnements (siehe [Kalendereinstellungen](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)).
+Wenn er zumindest über das Recht zur Einsicht verfügt, kann ein Benutzer dann auf die gleiche Weise darauf zugreifen wie auf den Kalender eines Benutzers: über das Suchfeld der Hauptansicht ![](../../../attachments/57769989/69896473.png) (siehe oben) oder durch die Verwaltung seiner Abonnements (siehe [Kalendereinstellungen](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)).
 
 ## Freigabe nach außen
 
@@ -181,7 +181,7 @@ Vorgehensweise:
 
 - zur Einstellungsverwaltung > Bereich Kalender > Registerkarte „Freigabeverwaltung“ gehen
 - wählen Sie in der Dropdown-Liste oben auf der Seite den betreffenden Kalender aus
-- aktivieren Sie das Kontrollkästchen für die gewünschte Freigabe (öffentlich oder privat):![](../../attachments/57770530/57770534.png)
+- aktivieren Sie das Kontrollkästchen für die gewünschte Freigabe (öffentlich oder privat):![](../../../attachments/57770530/57770534.png)
 
 - **klicken Sie auf Speichern, um die Aktivierung zu berücksichtigen**
 

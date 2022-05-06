@@ -8,14 +8,14 @@ position: 48
 
 ## Introduction
 
-To access task preferences, go to "My Account" by clicking your username to the right of the navigation bar:![](../../attachments/57770650/57770665.png)
+To access task preferences, go to "My Account" by clicking your username to the right of the navigation bar:![](../../../attachments/57770650/57770665.png)
 
 
 ## To-do lists
 
 The first tab allows you to manage your to-do lists, in addition to what you can do within the application itself:
 
-![](../../attachments/57770650/57770662.png)
+![](../../../attachments/57770650/57770662.png)
 
 By default, each user has a personal list named "My To-do List", which cannot be edited or deleted.
 
@@ -33,24 +33,24 @@ The list is shown below and is immediately available in the application.
 
 To rename a list, click its name to open the text box:
 
-![](../../attachments/57770650/57770660.png)
+![](../../../attachments/57770650/57770660.png)
 
 Enter the new name and click the check mark at the end of the row to confirm, or type Enter or simply leave the box:
 
-![](../../attachments/57770650/57770658.png)
+![](../../../attachments/57770650/57770658.png)
 
 
 :::tip
 
-Until you have confirmed your changes, you can click the "x" at the end of the row to cancel them: ![](../../attachments/57770650/57770657.png)
+Until you have confirmed your changes, you can click the "x" at the end of the row to cancel them: ![](../../../attachments/57770650/57770657.png)
 
 :::
 
 ### Deleting to-do lists
 
-To delete a to-do list, click the ![](../../attachments/57770650/57770664.png) trash icon at the end of the corresponding row:
+To delete a to-do list, click the ![](../../../attachments/57770650/57770664.png) trash icon at the end of the corresponding row:
 
-![](../../attachments/57770650/57770655.png)
+![](../../../attachments/57770650/57770655.png)
 
 
 :::info
@@ -63,7 +63,7 @@ The tasks contained in the list will be deleted with the list.
 
 This tab allows you to subscribe to to-do lists or to access your lists to enable their synchronization for offline or third-party client (thick client software or mobile device):
 
- ** ![](../../attachments/57770650/57770653.png) ** 
+ ** ![](../../../attachments/57770650/57770653.png) ** 
 
 When synchronization is enabled for a list, the data is downloaded into the software client. As a result:
 
@@ -103,7 +103,7 @@ To add a list:
 
 To delete a list:
 
-- Click  ![](../../attachments/57770650/57770664.png)  at the end of the row.
+- Click  ![](../../../attachments/57770650/57770664.png)  at the end of the row.
 - **Click "Save" to apply changes.**
 
 
@@ -117,7 +117,7 @@ You must click "Save" for the change in synchronization status to be applied the
 
 BlueMind allows you to share to-do lists with others to make them available for viewing or to create shared lists with read and write rights.
 
-![](../../attachments/57770650/57770651.png)
+![](../../../attachments/57770650/57770651.png)
 
 Possible sharing rights are:
 

@@ -11,7 +11,7 @@ Les utilisateurs ont la possibilité de partager leur messagerie avec les membre
 
 Pour **partager sa messagerie**, aller dans les paramètres de la messagerie : **Préférences - Messagerie - Ma boîte aux lettres**
 
-**![](../../../attachments/86764567/86764570.png)
+**![](../../attachments/86764567/86764570.png)
 
 
 **
@@ -19,7 +19,7 @@ Pour **partager sa messagerie**, aller dans les paramètres de la messagerie : *
 
 Cliquer sur "**Gérer mes partages**" pour ouvrir la fenêtre pop-up de gestion des partages
 
-![](../../../attachments/86764567/86764569.png)
+![](../../attachments/86764567/86764569.png)
 
 
 Dans la fenêtre pop-up, **rechercher l'utilisateur** ou le groupe d'utilisateur en tapant les premières lettres - l'autocomplétion proposera tous les utilisateurs disponibles puis **sélectionner le niveau de partage** souhaité.

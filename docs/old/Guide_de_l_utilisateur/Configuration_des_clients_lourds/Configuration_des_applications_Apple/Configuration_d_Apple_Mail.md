@@ -30,11 +30,11 @@ Un nouveau compte de courrier peut être créé de plusieurs façons :
 
 Choisir «Add other mail account» ("Ajouter un autre compte courrier") :
 
-![](../../../attachments/57770866/57770872.png)
+![](../../../../attachments/57770866/57770872.png)
 
 Saisir les informations demandées :
 
-![](../../../attachments/57770866/57770871.png)
+![](../../../../attachments/57770866/57770871.png)
 
 - Full Name : Nom Complet, c'est le nom qui apparaîtra pour le compte et dans les messages envoyés, il est libre.
 - Email Address : l'adresse mail qui vous a été fournie
@@ -45,7 +45,7 @@ Cliquer sur «Next» ("Suivant")
 
 Vérifier et corriger si besoin les informations de connexion au compte :
 
-![](../../../attachments/57770866/57770870.png)
+![](../../../../attachments/57770866/57770870.png)
 
 - Mail Server : L'adresse du serveur doit vous être indiquée par votre administrateur, elle est en général de la forme &lt;nom-serveur>.domaine.com 
 - User Name : Le nom d'utilisateur doit être le nom d'utilisateur **complet **avec le domaine****.
@@ -60,7 +60,7 @@ Cliquer sur «Next» ("Suivant")
 
 Une alerte indique que la connexion n'est pas sécurisée, ce qui n'est techniquement pas totalement vrai :
 
-![](../../../attachments/57770866/57770869.png)
+![](../../../../attachments/57770866/57770869.png)
 
  
 
@@ -68,11 +68,11 @@ Cliquer sur «Connect» ("se connecter") pour confirmer la connexion au serveur.
 
 Vérifier et corriger si besoin les informations de connexion au serveur sortant :
 
-![](../../../attachments/57770866/57770868.png)
+![](../../../../attachments/57770866/57770868.png)
 
 Valider en cliquant sur «Create» ("Créer") afin de créer le compte de courrier.
 
-![](../../../attachments/57770866/57770867.png)
+![](../../../../attachments/57770866/57770867.png)
 
 
  

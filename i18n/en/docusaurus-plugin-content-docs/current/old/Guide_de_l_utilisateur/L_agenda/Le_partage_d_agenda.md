@@ -27,7 +27,7 @@ Possible permission levels are:
 
 To delegate your calendar, go to your user preferences ("My Account") > Calendar section > Sharings tab:
 
-![](../../attachments/57770530/57770539.png)
+![](../../../attachments/57770530/57770539.png)
 
 1. Select the calendar you want to share.
 
@@ -78,19 +78,19 @@ The table below shows the features available to users depending on the rights th
 
 | Features\Right Granted | Invite | Invite+View | Edit | Edit+Manage |
 | --- | --- | --- | --- | --- |
-| Invite | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Subscribe | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| View public meeting | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| View private meetings without details | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| View details in private meetings | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| View alerts for pending invitations | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| Accept/Reject an invitation to a public meeting | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Accept/Reject an invitation to a private meeting | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| Create a public event | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Create a private event | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Edit a public event | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Edit a private event | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| Grant/Remove a sharing right to a third-party | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
+| Invite | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Subscribe | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| View public meeting | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| View private meetings without details | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| View details in private meetings | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| View alerts for pending invitations | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| Accept/Reject an invitation to a public meeting | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Accept/Reject an invitation to a private meeting | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| Create a public event | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Create a private event | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Edit a public event | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Edit a private event | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| Grant/Remove a sharing right to a third-party | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
 
 
 :::tip
@@ -110,8 +110,8 @@ You don't have to subscribe to a calendar to display it.
 **To display a calendar:**
 
 - in the "Add a calendar" text box, type the name of the user you are looking for.Autocomplete suggests users' names as you type.
-- Select the name you are looking for in the list of suggestions:![](../../attachments/57770530/57770546.png)
-- The calendar is then shown in a different color from those already displayed:![](../../attachments/57770530/57770544.png)
+- Select the name you are looking for in the list of suggestions:![](../../../attachments/57770530/57770546.png)
+- The calendar is then shown in a different color from those already displayed:![](../../../attachments/57770530/57770544.png)
 
 
 :::info
@@ -127,18 +127,18 @@ Group-specific rules
 
 **To hide a calendar temporarily,** click its user in the list. This user will then be grayed out and their events will no longer be shown:
 
-![](../../attachments/57770530/57770542.png)
+![](../../../attachments/57770530/57770542.png)
 
 ** To change a calendar color:**
 
 You can customize calendar display colors and assign colors to specific users.
 
-To do this, click the color icon at the bottom of the list of calendars shown to unfold the menu and select a color:![](../../attachments/57770530/57770537.png)
+To do this, click the color icon at the bottom of the list of calendars shown to unfold the menu and select a color:![](../../../attachments/57770530/57770537.png)
 
 For a greater choice of colors, click "Choose a personalized color..." to display the color palette:
 
 
-![](../../attachments/57770530/57770536.png)
+![](../../../attachments/57770530/57770536.png)
 
 
 :::tip
@@ -149,19 +149,19 @@ The color is automatically saved for this calendar, it will be used again in fut
 
 **To remove a calendar's custom display**, click the color icon at the end of the row in the list of calendars to open the menu and click "Remove":
 
-![](../../attachments/57770530/57770535.png)
+![](../../../attachments/57770530/57770535.png)
 
 ### In Outlook and on mobile devices
 
 To view a shared calendar in Outlook or on a mobile device connected through EAS, you have to subscribe to this calendar and enable syncing for it.
 
-This can be done straight from the notification email you've received, through dedicated links, or at any time in the Subscription preferences section of the BlueMind calendar. For more details, please refer to the paragraph: [Calendar preferences - §4. Subscriptions](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/#Preferencesdelagenda-abonnements)
+This can be done straight from the notification email you've received, through dedicated links, or at any time in the Subscription preferences section of the BlueMind calendar. For more details, please refer to the paragraph: [Calendar preferences - §4. Subscriptions](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/#Preferencesdelagenda-abonnements)
 
 ## Domain calendars
 
 Administrators can [create domain calendars](/Guide_de_l_administrateur/Présentation_du_produit/Messagerie_multi_domaines/) which are calendars shared between one or several users, as read-only or read and write depending on their permissions level.
 
-Users with read permission are able to access a domain calendar in the same way as they would a user's calendar: in the main view (see above) or in their subscriptions page (see [Calendar Preferences](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)).
+Users with read permission are able to access a domain calendar in the same way as they would a user's calendar: in the main view (see above) or in their subscriptions page (see [Calendar Preferences](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)).
 
 ## Sharing externally
 
@@ -180,7 +180,7 @@ To do this:
 
 - go to the preferences page > Calendar section > "Sharings" tab
 - in the drop-down list at the top of the page, select the calendar you want to share
-- check the box for how you want to share it (public or private):![](../../attachments/57770530/57770533.png)
+- check the box for how you want to share it (public or private):![](../../../attachments/57770530/57770533.png)
 - **click Save to confirm **
 
 

@@ -10,15 +10,15 @@ position: 46
 
 ### Quick-creating an event
 
-- In Calendar view, click the date and time you want to create an event for, or drag you mouse over the area to select the duration you want:![](../../attachments/57770493/66099997.png)
+- In Calendar view, click the date and time you want to create an event for, or drag you mouse over the area to select the duration you want:![](../../../attachments/57770493/66099997.png)
 
 
-- To create an all-day event, click the day's date at the top of the hourly column:![](../../attachments/57770493/66099995.png) Drag your mouse along the days you want to include if your event takes place over several days.
+- To create an all-day event, click the day's date at the top of the hourly column:![](../../../attachments/57770493/66099995.png) Drag your mouse along the days you want to include if your event takes place over several days.
 - Fill in the relevant information:
     - Title
     - Calendar: you can choose either a personal calendar or one you have been given writing permission on**Only the calendars displayed in the current view are shown**
 - Click "New event"
-![](../../attachments/57769989/69896490.png) Your event has now been created
+![](../../../attachments/57769989/69896490.png) Your event has now been created
 
 
 :::info
@@ -38,19 +38,19 @@ The "Modify details" link takes you to the detailed event creation window.
 
 Click "New event" at the top of the sidebar to open the event creation window:
 
-![](../../attachments/57770493/66099927.png)
+![](../../../attachments/57770493/66099927.png)
 
 Key event details are shown at the top of the page:
 
 - **Title**
 - **Start/end dates and times**
 - **All day**: the event doesn't have any specific start/end times
-- ![](../../attachments/57770017/66096239.png) **Allow date propositions**: when this box is checked, participants will be shown an interface where they can suggest a new time/date in response to the invitation
+- ![](../../../attachments/57770017/66096239.png) **Allow date propositions**: when this box is checked, participants will be shown an interface where they can suggest a new time/date in response to the invitation
 
 
 You can invite others in the right-hand side of the window. Click the icon before each guest's name to set their participation as optional or required:
 
-![](../../attachments/57770493/66099993.png)
+![](../../../attachments/57770493/66099993.png)
 
 Note:
 
@@ -68,11 +68,11 @@ The "Information" tab is used to set key event properties:
 
 - **Location**.
 - **Organizer** (shows the users who have given writing rights on their events AND whose calendar is displayed in main view).
-- **  [Tags](/Guide_de_l_utilisateur/Les_catégories_tags_/)  **.
+- **  [Tags](/old/Guide_de_l_utilisateur/Les_catégories_tags_/)  **.
 - **Description**.
-- **Reminder**: to set event alerts and reminders. You can choose how notifications are shown using the "display" drop-down menu:![](../../attachments/57770493/66099976.png) 
+- **Reminder**: to set event alerts and reminders. You can choose how notifications are shown using the "display" drop-down menu:![](../../../attachments/57770493/66099976.png) 
     - **Email**: an email message is sent to the user - former default behavior 
-    - **Notification**: a [browser notification](/Guide_de_l_utilisateur/Paramètres_utilisateur/#Parametresutilisateur-Parametresutilisateurs-Notifications) popup is shown
+    - **Notification**: a [browser notification](/old/Guide_de_l_utilisateur/Paramètres_utilisateur/#Parametresutilisateur-Parametresutilisateurs-Notifications) popup is shown
 
 
 :::tip
@@ -80,8 +80,8 @@ The "Information" tab is used to set key event properties:
 You can also set up default reminders for events. For more information go to: [Calendar preferences](https://forge.bluemind.net/confluence/display/DA/.Preferences+de+l+agenda+vBM-3.5)
 
 :::
-- **Availability**: allows users viewing your calendar to see if you can be reached during the event.**Default availability for short events is "Busy", while default availability for all-day events is "Available".** When you confirm that you are available, the event is shown in your calendar with a light border on the left hand side:![](../../attachments/57770493/66099982.png)
--  **Privacy**: allows you to hide event content from other users. All they will see is that the time slot is unavailable:![](../../attachments/57770493/66099983.png)
+- **Availability**: allows users viewing your calendar to see if you can be reached during the event.**Default availability for short events is "Busy", while default availability for all-day events is "Available".** When you confirm that you are available, the event is shown in your calendar with a light border on the left hand side:![](../../../attachments/57770493/66099982.png)
+-  **Privacy**: allows you to hide event content from other users. All they will see is that the time slot is unavailable:![](../../../attachments/57770493/66099983.png)
 - ** **Attachments****: used to attach files to calendar events
 
 
@@ -98,7 +98,7 @@ Go to the "Repeat" tab to set how often an event is repeated: daily, weekly, mon
 
 A sentence summarizing repeat settings above the "Repeat" tab is updated as you fill in the form:
 
-![](../../attachments/57770493/66099991.png)
+![](../../../attachments/57770493/66099991.png)
 
 :::
 
@@ -113,18 +113,18 @@ To **delete one instance of an event**:
 
 The "Find a time" tab is used to search for a common available time slot for event guests:
 
-![](../../attachments/57770493/66099964.png)
+![](../../../attachments/57770493/66099964.png)
 
 BlueMind automatically suggests the first available slot, shown between a green line and red line, based on the date entered in the form.
 
 You can drag and move the whole slot with your mouse, or widen or narrow it by dragging the green and red lines separately.
 When the time slot overlaps with one or several users' event(s), a warning message appears at the top of the page:
 
-![](../../attachments/57770493/66099965.png)
+![](../../../attachments/57770493/66099965.png)
 
 ### Attachments
 
-BlueMind Mail's [linked attachments](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) service allows you to attach files to calendar events – from version 3.5.13.
+BlueMind Mail's [linked attachments](/old/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) service allows you to attach files to calendar events – from version 3.5.13.
 
 
 :::info
@@ -143,7 +143,7 @@ If you can't see either of these sections, please ask your administrator.
 
 Once it is linked to an event, the file is available for download in the event details section at any time and it is sent in the invitation email to the event's participants if appropriate.
 
-![](../../attachments/57770493/66099963.png)
+![](../../../attachments/57770493/66099963.png)
 
 #### Adding/Deleting files
 
@@ -154,17 +154,17 @@ To add a file:
 
 If you have the appropriate role enabled – i.e. "Drive" – a second link is available:
 
-- click "From server" to open the BlueMind file browser and attach a file already available in your storage spaceFiles can be found again using the file chooser and be attached to other calendar events or [messages](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/).
+- click "From server" to open the BlueMind file browser and attach a file already available in your storage spaceFiles can be found again using the file chooser and be attached to other calendar events or [messages](/old/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/).
 
 
-Click the trash ![](../../attachments/57770493/66099975.png) icon next to the file's name to delete it.
+Click the trash ![](../../../attachments/57770493/66099975.png) icon next to the file's name to delete it.
 
 #### Sending files to event attendees
 
 Files attached to an event are sent to attendees in the invitation email:
 
-- as file attachments if the total message size is under the limit authorized by the server:![](../../attachments/57770493/66099962.png)
-- as download links if the total message size is above the limit authorized by the server:![](../../attachments/57770493/66099961.png)
+- as file attachments if the total message size is under the limit authorized by the server:![](../../../attachments/57770493/66099962.png)
+- as download links if the total message size is above the limit authorized by the server:![](../../../attachments/57770493/66099961.png)
 
 
 :::info
@@ -177,11 +177,11 @@ File attachment/linking is completely automatic, it cannot be forced and applies
 
 When an event has an attachment, a paperclip is shown in calendar view:
 
-![](../../attachments/57770493/66099960.png)
+![](../../../attachments/57770493/66099960.png)
 
 Files attached to an event can be downloaded at any time by opening the event's editing form:
 
-![](../../attachments/57770493/66099959.png)
+![](../../../attachments/57770493/66099959.png)
 
 
 :::tip
@@ -212,7 +212,7 @@ Changes made to tags or reminders are considered personal and are not notified t
 
 When you make changes to a recurring event – either by sliding the time slot in the calendar or using the event form –  you are prompted to choose one of the following options:
 
-![](../../attachments/57770493/66099958.png)
+![](../../../attachments/57770493/66099958.png)
 
 - **Only this instance**: only the instance the user has clicked will be modified – it will become an exception to the series which will remain unchanged.
 - **All the subsequent**: the instance of the event the user has clicked as well as all subsequent instances will be modified. All previous instances of the series will remain unchanged.
@@ -221,14 +221,14 @@ When you make changes to a recurring event – either by sliding the time slot i
 
 ## Event duplication
 
-![](../../attachments/57770493/66099944.png) From BlueMind 4.3, you can duplicate an event or meeting, i.e. create a copy that can be edited or delegated to another organizer independently from the original event.
+![](../../../attachments/57770493/66099944.png) From BlueMind 4.3, you can duplicate an event or meeting, i.e. create a copy that can be edited or delegated to another organizer independently from the original event.
 
 ### General
 
 To duplicate an event:
 
 - click the event in calendar view
-- open the drop-down menu at the bottom right of the popup and choose "Duplicate":![](../../attachments/57770493/66099943.png)
+- open the drop-down menu at the bottom right of the popup and choose "Duplicate":![](../../../attachments/57770493/66099943.png)
 - The event creation form is filled in with the event's original contents (day, times, description, organizer, participants, etc.)
 - Make the desired changes
 
@@ -237,19 +237,19 @@ To duplicate an event:
 
 Changes work the same way as those made on existing events (see above paragraph).
 
-For instance, for shared calendars, the organizer's drop-down list only shows users who have given [read/write rights](/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda/) on their calendar and whose calendar is currently displayed in main view.
+For instance, for shared calendars, the organizer's drop-down list only shows users who have given [read/write rights](/old/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda/) on their calendar and whose calendar is currently displayed in main view.
 For more details, please read the *Shared calendar *section below.
 
 :::
 
-- **Click Save to confirm the creation of the new event:** ![](../../attachments/57770493/66099942.png) ![](../../attachments/57770493/66099954.png) In this instance, the "User training" event has been duplicated and renamed "Admin training" and the description has been edited – a new event has therefore been created with the same duration and location but with a different description. You then need to move the meeting to the desired time slot.
+- **Click Save to confirm the creation of the new event:** ![](../../../attachments/57770493/66099942.png) ![](../../../attachments/57770493/66099954.png) In this instance, the "User training" event has been duplicated and renamed "Admin training" and the description has been edited – a new event has therefore been created with the same duration and location but with a different description. You then need to move the meeting to the desired time slot.
 
 
 ### Recurring event
 
 For recurring events, the duplication drop-down menu offers two options:
 
-![](../../attachments/57770493/66099941.png)
+![](../../../attachments/57770493/66099941.png)
 
 - **Duplicate**: duplicates the whole series including recurring instances.
 
@@ -305,37 +305,37 @@ In this case, if the original user was the organizer, they become a participant 
 
 Alice opens John's calendar and clicks his event "User training" then "Duplicate":
 
-![](../../attachments/57770493/66099940.png)
+![](../../../attachments/57770493/66099940.png)
 
 As Alice has read/write rights, the organizer stays the same, the target event will still be on John's calendar. Alice edits the event and changes the title to "Admin training" the next day:
 
-![](../../attachments/57770493/66099939.png)
+![](../../../attachments/57770493/66099939.png)
 
 Once it is saved, the new event is shown on John's calendar:
 
-![](../../attachments/57770493/66099938.png)
+![](../../../attachments/57770493/66099938.png)
 
 ##### Second example: John wants to copy a meeting organized by Alice to organize his own event the following week.
 
 Although he doesn't have read/rights on Alice's calendar, John can still duplicate her events:
 
-![](../../attachments/57770493/66099937.png)
+![](../../../attachments/57770493/66099937.png)
 
 The event is then copied on his own calendar (i.e. he becomes the organizer) and Alice is invited to the meeting:
 
-![](../../attachments/57770493/66099936.png)
+![](../../../attachments/57770493/66099936.png)
 
 John edits the date to organize the meeting himself the following week:
 
-![](../../attachments/57770493/66099935.png)
+![](../../../attachments/57770493/66099935.png)
 
 After it is saved, the meeting is shown in their calendar with the new settings:
 
-![](../../attachments/57770493/66099934.png)
+![](../../../attachments/57770493/66099934.png)
 
 The original meeting remains unchanged:
 
-![](../../attachments/57770493/66099933.png)
+![](../../../attachments/57770493/66099933.png)
 
 ## Deleting events
 
@@ -371,7 +371,7 @@ In Calendar, events are shown differently depending on your attendance status:
 - Event declined: transparent color, contents crossed out
 
 
-![](../../attachments/57770493/66099989.png)
+![](../../../attachments/57770493/66099989.png)
 
 
 Event display depending on user attendance status
@@ -388,14 +388,14 @@ You can choose not to display declined events. To do this, go to your settings >
 To accept or decline an invitation:
 
 - Click the event in the main window.
-- In the dialog box that opens, click the appropriate response button.![](../../attachments/57770493/66099987.png) ![](../../attachments/57769989/69896490.png) Depending on your choice, a notification of your response will be sent to the event organizer.
+- In the dialog box that opens, click the appropriate response button.![](../../../attachments/57770493/66099987.png) ![](../../../attachments/57769989/69896490.png) Depending on your choice, a notification of your response will be sent to the event organizer.
 
 
-For more information, please see [Calendar](/Guide_de_l_utilisateur/L_agenda/)
+For more information, please see [Calendar](/old/Guide_de_l_utilisateur/L_agenda/)
 
 ### Proposing a new date/time
 
-![](../../attachments/57770017/66096239.png) With version 4.4, meeting participants can propose a new date/time for a meeting.
+![](../../../attachments/57770017/66096239.png) With version 4.4, meeting participants can propose a new date/time for a meeting.
 
 
 :::info
@@ -408,11 +408,11 @@ It works the same way as with BlueMind in Thunderbird.
 
 When the meeting's organizer has allowed participants to (see above **§1.2 Creating a detailed event**), a dedicated menu is then shown in the calendar's event popup window:
 
-![](../../attachments/57770493/66099926.png)
+![](../../../attachments/57770493/66099926.png)
 
 By clicking it, a search and proposal form opens:
 
-![](../../attachments/57770493/66099925.png)
+![](../../../attachments/57770493/66099925.png)
 
 You can then choose:
 
@@ -425,13 +425,13 @@ You can then choose:
 Once the form is filled in, click "**Send**" at the top of the page to send the proposal to the organizer.
 
 
-![](../../attachments/57770493/66099954.png) In the event popup, both in the organizer's and the participant's application, the participant's proposal is shown in orange between parentheses next to their name:
+![](../../../attachments/57770493/66099954.png) In the event popup, both in the organizer's and the participant's application, the participant's proposal is shown in orange between parentheses next to their name:
 
-![](../../attachments/57770493/66099924.png)
+![](../../../attachments/57770493/66099924.png)
 
 The organizer receives a message like this one:
 
-![](../../attachments/57770493/66099923.png)
+![](../../../attachments/57770493/66099923.png)
 
 An infobox summarizes the information and proposes the appropriate links to accept or decline the new date/time.
 
@@ -451,7 +451,7 @@ Changes to response
 
 A request can only be processed once – organizers cannot go back on their decision. Once they have responded, the infobox is no longer shown but a new one is shown indicating that the proposal has been processed:
 
-![](../../attachments/57770493/66099921.png)
+![](../../../attachments/57770493/66099921.png)
 
 :::
 
@@ -470,7 +470,7 @@ You can view event creation and editing history.
 
 In an event's detailed view, click "History":
 
-![](../../attachments/57770493/66099981.png)
+![](../../../attachments/57770493/66099981.png)
 
 Event history shows:
 

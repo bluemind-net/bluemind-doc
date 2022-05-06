@@ -11,7 +11,7 @@ position: 44
 Die Verwaltung der Kontakteinstellungen gestattet dem Benutzer, seine eigenen Adressbücher und seine Abonnements für externe Adressbücher (Domain, andere Benutzer usw.) zu verwalten.
 
 Der Zugriff erfolgt über die Verwaltung der Benutzereinstellungen, Bereich "Kontakte" (über die Anwendung "Kontakte" erfolgt der Zugriff automatisch):
-![](../../attachments/57770060/57770071.png)
+![](../../../attachments/57770060/57770071.png)
 
 
 ## Adressbücher des Benutzers
@@ -30,7 +30,7 @@ Das dritte Standardadressbuch, das Verzeichnis der Benutzer, wird nicht vom Benu
 
 Diese Adressbücher können weder geändert noch gelöscht werden, aber der Benutzer kann sie frei verwenden und die enthaltenen Kontakte verwalten.
 
-![](../../attachments/57770425/57770436.png)
+![](../../../attachments/57770425/57770436.png)
 
 ### Erstellen und ändern
 
@@ -43,13 +43,13 @@ So **erstellen** Sie ein neues Adressbuch:
 
 So **bearbeiten** Sie ein Adressbuch:
 
-- Klicken Sie auf die Bezeichnung des Adressbuchs, damit das Eingabefeld angezeigt wird:![](../../attachments/57770425/57770434.png)
-- Geben Sie den neuen Namen ein und bestätigen Sie mit der Eingabetaste oder durch Klicken auf das Symbol ![](../../attachments/57769989/69896489.png).Wenn Sie während der Eingabe abbrechen möchten, drücken Sie die Escapetaste oder klicken Sie auf das Symbol ![](../../attachments/57769989/69896488.png)
+- Klicken Sie auf die Bezeichnung des Adressbuchs, damit das Eingabefeld angezeigt wird:![](../../../attachments/57770425/57770434.png)
+- Geben Sie den neuen Namen ein und bestätigen Sie mit der Eingabetaste oder durch Klicken auf das Symbol ![](../../../attachments/57769989/69896489.png).Wenn Sie während der Eingabe abbrechen möchten, drücken Sie die Escapetaste oder klicken Sie auf das Symbol ![](../../../attachments/57769989/69896488.png)
 
 
 So **löschen** Sie ein Adressbuch:
 
-- Klicken Sie auf das Symbol ![](../../attachments/57769989/69896481.png) am Ende der Zeile.
+- Klicken Sie auf das Symbol ![](../../../attachments/57769989/69896481.png) am Ende der Zeile.
 - Bestätigen Sie den Löschvorgang.
 
 
@@ -75,7 +75,7 @@ BlueMind bietet die Möglichkeit, persönliche Adressbücher mit anderen Benutze
 So erfolgt die **Freigabe** eines Adressbuchs:
 
 Rufen Sie die Verwaltung der Benutzereinstellungen > Bereich Kontakte > Registerkarte "Freigaben" auf:
-![](../../attachments/57770425/57770440.png)
+![](../../../attachments/57770425/57770440.png)
 
 1. Wählen Sie das Adressbuch aus, das Sie freigeben möchten.Ein Benutzer kann freigeben:
     - Seine persönlichen Adressbücher: Kontakte (oder "Meine Kontakte"), "Gesammelte Kontakte" und die von ihm erstellten Adressbücher.
@@ -91,7 +91,7 @@ Rufen Sie die Verwaltung der Benutzereinstellungen > Bereich Kontakte > Register
 
 Die Adressbücher eines Benutzers und die Adressbücher, die für diesen Benutzer freigegeben wurden, werden in der Registerkarte *Abonnements* der Einstellungen angezeigt.
 
-![](../../attachments/57770425/57770432.png)
+![](../../../attachments/57770425/57770432.png)
 
 
 :::info
@@ -145,7 +145,7 @@ Warnung bei großer Datenmenge
 
 Wenn die Datenmenge in einem Adressbuch sehr groß ist (mehr als 1.000 Kontakte), warnt eine Meldung vor möglichen Synchronisierungsproblemen:
 
-![](../../attachments/57770425/57770426.png)
+![](../../../attachments/57770425/57770426.png)
 
 :::
 
@@ -156,7 +156,7 @@ Adressbücher, die vom Benutzer in der BlueMind-Anwendung "Kontakte" erstellt wu
 
 So fügen Sie ein Adressbuch hinzu:
 
-- Beginnen Sie mit der Eingabe des Namen des Adressbuchs in das Eingabefeld:![](../../attachments/57770425/57770428.png)
+- Beginnen Sie mit der Eingabe des Namen des Adressbuchs in das Eingabefeld:![](../../../attachments/57770425/57770428.png)
 - Die automatische Vervollständigung schlägt dann die Adressbücher vor, die Sie noch nicht abonniert haben: Ihre eigenen Adressbücher und Adressbücher, die andere Benutzer für Sie freigegeben haben (siehe oben).
 - Wählen Sie in der von der automatischen Vervollständigung vorgeschlagenen Liste das hinzuzufügende Adressbuch aus und drücken Sie die Eingabetaste oder klicken Sie auf
 - Falls gewünscht können Sie die Synchronisation deaktivieren
@@ -173,6 +173,6 @@ Auf „Speichern“ klicken, um eine Änderung des Synchronisationsstatus zu ber
 
 Wenn ein Benutzer eines seiner Adressbücher für einen anderen Benutzer freigibt, erhält dieser automatisch eine Nachricht zur Information. Diese elektronische Nachricht gestattet ihm, das Adressbuch ausgehend von der E-Mail-Oberfläche direkt zu abonnieren:
 
-![](../../attachments/57770425/57770443.png)
+![](../../../attachments/57770425/57770443.png)
 
 

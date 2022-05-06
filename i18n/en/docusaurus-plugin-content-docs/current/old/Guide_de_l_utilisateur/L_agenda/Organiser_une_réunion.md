@@ -12,18 +12,18 @@ position: 54
 
 First create an event in the calendar. Either click "New event", or use quick-create – select the event's duration in the calendar and then click "Modify details" to open the event creation window:
 
-![](../../attachments/57770580/58597825.png)
+![](../../../attachments/57770580/58597825.png)
 
 In the event creation window, fill in the relevant information: location, tags, description, etc.
 
 
-![](../../attachments/57770580/58597816.png)
+![](../../../attachments/57770580/58597816.png)
 
 ### Scheduling a recurrence
 
 If you'd like to organize a recurring meeting, go to the "Repeat" tab to set the meeting's periodicity:
 
-![](../../attachments/57770580/58597822.png)
+![](../../../attachments/57770580/58597822.png)
 
 
 :::tip
@@ -38,7 +38,7 @@ In the right-hand side of the page, add the users or groups you want to invite.
 
 You can choose for their participation to be required (default) or optional, by clicking the icon shown before their name after they are added:
 
-![](../../attachments/57770580/58597823.png)
+![](../../../attachments/57770580/58597823.png)
 
 ### Booking resources
 
@@ -47,7 +47,7 @@ To book a resource, simply add it to the meeting as you would another attendee.
 
 :::tip
 
-To find out more about booking resources, please go to the page [Resources](/Guide_de_l_utilisateur/Les_ressources/).
+To find out more about booking resources, please go to the page [Resources](/old/Guide_de_l_utilisateur/Les_ressources/).
 
 :::
 
@@ -55,7 +55,7 @@ To find out more about booking resources, please go to the page [Resources](/Gui
 
 If one or several attendees are not available during the selected time slot, or if you want to look for another one, you can use the availability search tool in the "Find a time" tab:
 
-![](../../attachments/57770580/58597821.png)
+![](../../../attachments/57770580/58597821.png)
 
 This tab allows you to view busy or available time slots for the attendees and resources invited. 
 
@@ -68,9 +68,9 @@ This tab allows you to view busy or available time slots for the attendees and r
 
 Once the meeting's parameters are set, you must send an invitation to each attendee.
 
-![](../../attachments/57770017/66096247.png) **From version 4.2**, BlueMind's interface has been revised and made clearer. An event's organizer has the following options:
+![](../../../attachments/57770017/66096247.png) **From version 4.2**, BlueMind's interface has been revised and made clearer. An event's organizer has the following options:
 
-![](../../attachments/57770580/58597810.png)
+![](../../../attachments/57770580/58597810.png)
 
 - ****Send****
 
@@ -105,7 +105,7 @@ In an effort to limit errors and inconsistencies, saving event modifications as 
 
 When the change made only adds/removes one or several attendees, a popup window offers 2 options:
 
-![](../../attachments/57770580/58597809.png)
+![](../../../attachments/57770580/58597809.png)
 
 - ****Send to All****: all attendees' invitee list is updated in their calendar, including their participation status (as known by the organizer at the time the email is sent)
 
@@ -117,7 +117,7 @@ This choice limits the number of emails sent when it is not necessary for all at
 
 In each user's or resource's calendar, solid colors indicate participation is confirmed, transparent colors indicate participation is pending confirmation (either a reply is pending or the user has replied "maybe") and in a striped transparent color if the user has declined the invitation:
 
-![](../../attachments/57770580/58597820.png)
+![](../../../attachments/57770580/58597820.png)
 
 :::
 
@@ -128,7 +128,7 @@ Versions earlier than 4.2
 
 In earlier BlueMind versions, click "Save" at the top of the page. The following dialog box opens:
 
-![](../../attachments/57770580/58597817.png)
+![](../../../attachments/57770580/58597817.png)
 
 - Click "**Yes**" to send an email to each participant and resource manager – the event is added to their calendar pending their response. 
 - **If you click "No", the invitation isn't sent by email and not added to attendees' calendars. **This enables you to finalize the event as a draft and edit it before you send the invitations.
@@ -142,11 +142,11 @@ In earlier BlueMind versions, click "Save" at the top of the page. The following
 
 When an attendee accepts, declines or puts on hold an invitation (replies "maybe"), the meeting's organizer is notified by email.
 
-![](../../attachments/57770017/66096247.png) To avoid confusions or discrepancies between organizers' and attendees' calendars, from BlueMind 4.2 **attendees are no longer able to change their participation status without notifying the organizer**.
+![](../../../attachments/57770017/66096247.png) To avoid confusions or discrepancies between organizers' and attendees' calendars, from BlueMind 4.2 **attendees are no longer able to change their participation status without notifying the organizer**.
 
 Attendees can still send simple responses or add a note to the response. For recurring meetings, they can still respond for the whole series or one occurence only:
 
-![](../../attachments/57770580/58597808.png)
+![](../../../attachments/57770580/58597808.png)
 
 
 :::info
@@ -161,7 +161,7 @@ If an attendee later changes their participation status, they can choose whether
 
 Attendees other than the organizer cannot see other attendees' participation statuses in their version of the event. To see them, they must consult the organizer's version – provided they have reading privileges over that calendar:
 
-![](../../attachments/57770493/66099985.png)
+![](../../../attachments/57770493/66099985.png)
 
 - users who have **confirmed** participation are shown in black
 - users whose response **is pending** (or replied "maybe") are grayed out
@@ -191,7 +191,7 @@ To invite new attendees or to exclude some, simply edit the event:
 
 When the change made only concerns adding/removing one or several attendees, a popup window offers 2 options:
 
-![](../../attachments/57770580/58597809.png)
+![](../../../attachments/57770580/58597809.png)
 
 - ****Send to All****: when you use this option, all attendees' guest lists are updated in their calendars, including attendance status (as known to the organizer when it is sent)
 

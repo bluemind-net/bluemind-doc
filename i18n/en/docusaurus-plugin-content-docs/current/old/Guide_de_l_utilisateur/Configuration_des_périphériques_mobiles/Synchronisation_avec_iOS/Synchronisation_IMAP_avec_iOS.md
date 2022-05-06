@@ -17,21 +17,21 @@ This guide was written using a specific model of iPad. Screenshots are usually i
 
 Go to settings and in the "Mail, Contacts, Calendars" section tap "Add Account":
 
-![](../../../attachments/57771123/57771134.png)
+![](../../../../attachments/57771123/57771134.png)
 
 Choose "Other" as type of account:
 
-![](../../../attachments/57771123/57771132.png)
+![](../../../../attachments/57771123/57771132.png)
 
 Choose "Add Mail Account":
 
-![](../../../attachments/57771123/57771130.png)Enter the main account information:
+![](../../../../attachments/57771123/57771130.png)Enter the main account information:
 
-![](../../../attachments/57771123/57771128.png)
+![](../../../../attachments/57771123/57771128.png)
 
 Check and correct the connection information if needed:
 
-![](../../../attachments/57771123/57771126.png)
+![](../../../../attachments/57771123/57771126.png)
 
 Barring special cases:
 
@@ -41,7 +41,7 @@ Barring special cases:
 
 Choose to synchronize messages only BlueMind does not offer note synchronization:
 
-![](../../../attachments/57771123/57771124.png)
+![](../../../../attachments/57771123/57771124.png)
 
 
  

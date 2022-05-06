@@ -24,11 +24,11 @@ Es kann eine Standardidentität festgelegt werden, die beim Erstellen einer neue
 
 ## Verwaltung der Identitäten
 
-Dern Zugriff auf die Verwaltung der Identitäten erhalten Sie in der Verwaltungsoberfläche der Benutzereinstellungen:![](../../attachments/57770060/57770071.png)
+Dern Zugriff auf die Verwaltung der Identitäten erhalten Sie in der Verwaltungsoberfläche der Benutzereinstellungen:![](../../../attachments/57770060/57770071.png)
 
 Gehen Sie dann zur Rubrik Email > Registerkarte "Identitäten".
 
-![](../../attachments/57770334/57770341.png)
+![](../../../attachments/57770334/57770341.png)
 
 Standardmäßig hat der Benutzer eine Identität bestehend aus seiner E-Mail-Adresse und seinem Benutzernamen (Vorname+Name).
 Die Unterschrift hat einen Namen, ist aber leer.
@@ -39,7 +39,7 @@ Die Unterschrift hat einen Namen, ist aber leer.
 
 Beide Aktionen rufen dasselbe Formular zur Verwaltung einer Identität auf:
 
-![](../../attachments/57770334/57770339.png)
+![](../../../attachments/57770334/57770339.png)
 
 - Der **Absendername** ist der Name, der in den vom Benutzer gesendeten Nachrichten erscheint.
 - Der **Name der Unterschrift** dient zur Unterscheidung in der Liste der Identitäten, da mehrere Identitäten die gleiche Adresse und den gleichen Anzeigename verwenden können.
@@ -74,7 +74,7 @@ Ein Benutzer kann mehrere Identitäten mit demselben Absendernamen für dieselbe
 
 Die Unterschrift ist dann das Unterscheidungsmerkmal dieser Identitäten und ihr Name gestattet, sie in der Liste der Identitäten zu erkennen:
 
-![](../../attachments/57770334/57770337.png)
+![](../../../attachments/57770334/57770337.png)
 
 :::
 

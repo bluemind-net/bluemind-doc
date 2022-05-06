@@ -24,21 +24,21 @@ Le protocole CardDav n'est actuellement validé qu'avec les clients Mac OS X **n
 
 Se rendre dans la gestion des comptes internet : System Preferences > «Internet Accounts» :
 
-![](../../../attachments/57770873/57770874.png)
+![](../../../../attachments/57770873/57770874.png)
 
 Choisir «Add other account» ("Ajouter un autre compte") :
 
-![](../../../attachments/57770873/57770878.png)
+![](../../../../attachments/57770873/57770878.png)
 
 Choisir «Add a CardDav account» ("ajouter un compte CardDav") :
 
-![](../../../attachments/57770873/57770877.png)
+![](../../../../attachments/57770873/57770877.png)
 
 Valider avec le bouton «Create» ("Créer")
 
 Saisir les informations de connexion du compte utilisateur :
 
-![](../../../attachments/57770873/57770876.png)
+![](../../../../attachments/57770873/57770876.png)
 
 - User Name : nom d'utilisateur (nom complet comprenant le domaine, généralement l'adresse email principale de l'utilisateur)
 - Password : le mot de passe est le mot de passe qui a été fourni par l'administrateur et permet de se connecter à BlueMind.
@@ -49,7 +49,7 @@ Valider en cliquant sur «Create»
 
 L'application Contacts s'ouvre alors en présentant les contacts :
 
-![](../../../attachments/57770873/57770875.png)
+![](../../../../attachments/57770873/57770875.png)
 
 
 :::info

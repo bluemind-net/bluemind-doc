@@ -15,7 +15,7 @@ En fonction du paramétrage de la gestion des réservations, leur rôle va du si
 
 :::info
 
-Pour suivre les réservations d'une ressource, le gestionnaire doit **[afficher son calendrier dans son agenda](/STAGING/Guide_de_l_utilisateur_4.7/L_agenda_4.7/Afficher_plusieurs_calendriers/)**
+Pour suivre les réservations d'une ressource, le gestionnaire doit **[afficher son calendrier dans son agenda](/Guide_de_l_utilisateur/L_agenda_4.7/Afficher_plusieurs_calendriers/)**
 
 :::
 
@@ -25,10 +25,10 @@ Pour suivre les réservations d'une ressource, le gestionnaire doit **[afficher 
 - Le système accepte ou refuse la demande automatiquement en fonction des disponibilités
 - L’utilisateur et le gestionnaire reçoivent la notification de validation ou de refus par e-mail
 - **Le gestionnaire ****n'a pas d'action à réaliser******
-- L'évènement apparait dans le calendrier de la ressource comme "validé"ou "peut-être" ou "refusé" (si l'option "Afficher les évènements refusés" est activée dans les [paramètres de l'agenda](/STAGING/Guide_de_l_utilisateur_4.7/L_agenda_4.7/Paramétrer_l_agenda/))
+- L'évènement apparait dans le calendrier de la ressource comme "validé"ou "peut-être" ou "refusé" (si l'option "Afficher les évènements refusés" est activée dans les [paramètres de l'agenda](/Guide_de_l_utilisateur/L_agenda_4.7/Paramétrer_l_agenda/))
 
 
-![](../../../attachments/86762893/86764790.png)
+![](../../attachments/86762893/86764790.png)
 
 
 ****Cas n°2** : La gestion des réservations n'est pas automatique**
@@ -39,7 +39,7 @@ Pour suivre les réservations d'une ressource, le gestionnaire doit **[afficher 
 - L'utilisateur reçoit la notification de validation ou de refus par e-mail
 
 
-**![](../../../attachments/86762893/86764789.png)**
+**![](../../attachments/86762893/86764789.png)**
 
 
 :::info

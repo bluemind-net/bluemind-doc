@@ -26,7 +26,7 @@ Just like for earlier versions of BlueMind, using Outlook requires a subscriptio
 
 :::info
 
-Connector-free, MAPI-based Outlook doesn't enable the use of the [linked attachments feature](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) (it is built into BlueMind and currently requires the Outlook connector).
+Connector-free, MAPI-based Outlook doesn't enable the use of the [linked attachments feature](/old/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) (it is built into BlueMind and currently requires the Outlook connector).
 
 :::
 
@@ -88,7 +88,7 @@ Do not choose manual configuration.
 :::
 
 - Enter your email address and password:
-![](../../attachments/57770953/72199851.png)
+![](../../../attachments/57770953/72199851.png)
 
 
 :::info
@@ -97,9 +97,9 @@ You must use your default user address: aliases are not taken into account prope
 
 :::
 
-- After a few moments, Outlook announces that the account has been successfully configured:![](../../attachments/57770953/72199850.png)
+- After a few moments, Outlook announces that the account has been successfully configured:![](../../../attachments/57770953/72199850.png)
 - Check "Change account settings" and click "Next"
--  **Check "Use Cached Exchange Mode"**  and slide the cursor all the way to the right to   "All":![](../../attachments/57770953/72199849.png)
+-  **Check "Use Cached Exchange Mode"**  and slide the cursor all the way to the right to   "All":![](../../../attachments/57770953/72199849.png)
 - Click "Finish".
 
 
@@ -113,8 +113,8 @@ To do this, just log into your BlueMind account and go to your account settings 
 
 For more details about subscriptions, please go to:
 
-- [Shared mailboxes - Subscriptions and third-party software](/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/#Lesboitesauxlettrespartagees-abonnements)
-- [Mail preferences - Subscriptions](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/#Preferencesdemessagerie-abonnements)
+- [Shared mailboxes - Subscriptions and third-party software](/old/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/#Lesboitesauxlettrespartagees-abonnements)
+- [Mail preferences - Subscriptions](/old/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/#Preferencesdemessagerie-abonnements)
 
 
 ## Shared user mailboxes
@@ -123,7 +123,7 @@ Access to user mailboxes is not available in public folders in the same way as f
 
 To display user box in Outlook, go to Account Settings > Data Files tab > Settings > Advanced tab:
 
-![](../../attachments/57770953/72199841.png)
+![](../../../attachments/57770953/72199841.png)
 
 ## Known Issues
 
@@ -181,9 +181,9 @@ To remove the wrong password:
 
 - make sure that Outlook and the account creation window are closed.
 - open the Credential Manager by typing Windows + R
-- then "`control /name Microsoft.CredentialManager`" in the run box:![](../../attachments/57770953/72199848.png)
+- then "`control /name Microsoft.CredentialManager`" in the run box:![](../../../attachments/57770953/72199848.png)
 - click OK (or type &lt;Enter>)
-- delete entries such as  `autodiscover.domaine.tld`  and  `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  E.g. to delete the password for *  [tom@bm.lan](mailto:tom@bm.lan)*:![](../../attachments/57770953/72199847.png)
+- delete entries such as  `autodiscover.domaine.tld`  and  `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  E.g. to delete the password for *  [tom@bm.lan](mailto:tom@bm.lan)*:![](../../../attachments/57770953/72199847.png)
 
 
 ### Shared mailboxes aren't shown in the list of user folders
@@ -192,6 +192,6 @@ Mailshares are shown in the "Public folders" section.
 
 Public folders can be found by clicking the three dots at the bottom of the Outlook navigation pane:
 
-![](../../attachments/57770953/72199843.png)
+![](../../../attachments/57770953/72199843.png)
 
 

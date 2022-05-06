@@ -15,11 +15,11 @@ You can use them, for example, to store messages from a specific sender into a s
 
 To manage message filters, open the user settings management:
 
-![](../../attachments/57770060/57770071.png)
+![](../../../attachments/57770060/57770071.png)
 
 Go to Mail > Filters tab:
 
-![](../../attachments/57770399/57770408.png)
+![](../../../attachments/57770399/57770408.png)
 
 
 :::info
@@ -32,7 +32,7 @@ The "Save" option is shown at the bottom of the page for each step. If you want 
 
 To create a filter, click "Add filter" to open the dialog box:
 
-![](../../attachments/57770399/57770406.png)
+![](../../../attachments/57770399/57770406.png)
 
 1. Select the field you want to apply the rule to (From, To, Subject, etc.)
 2. Choose the type of control you want to apply:
@@ -53,7 +53,7 @@ In the example above, messages will be moved to the "A team" folder and marked a
     - mark as important
     - delete
     - move to + choose folder
-    - forward to + recipient email addresses : you can select several addresses to forward messages to.![](../../attachments/57770399/57770401.png) 
+    - forward to + recipient email addresses : you can select several addresses to forward messages to.![](../../../attachments/57770399/57770401.png) 
         - Autocomplete searches for addresses in all user directories (directory, personal address book, etc.).
         - You can also add external addresses manually. These will not be added to the collected addresses address book when the message is sent.
 4. Click "Validate".
@@ -62,7 +62,7 @@ In the example above, messages will be moved to the "A team" folder and marked a
 
 ## Modifying filters
 
-1. Click the pencil icon ![](../../attachments/57770399/57770400.png) at the end of the row of the filter you want to make changes to:![](../../attachments/57770399/57770404.png)
+1. Click the pencil icon ![](../../../attachments/57770399/57770400.png) at the end of the row of the filter you want to make changes to:![](../../../attachments/57770399/57770404.png)
 2. The editing window opens. Make the changes you want.
 3. Click "Validate".
 4. **When all filters are up to date, click "Save" to apply all changes.**
@@ -72,7 +72,7 @@ In the example above, messages will be moved to the "A team" folder and marked a
 
 Filters are applied to emails in the order shown below.
 
-![](../../attachments/57770399/57770402.png)
+![](../../../attachments/57770399/57770402.png)
 
 **Once filters are in the desired order, click "Save" to apply changes.**
 
@@ -85,7 +85,7 @@ One single filter can be applied to one single message: once a filter has been a
 
 ## Deleting filters
 
-1. Click the trash icon at the end of the row ![](../../attachments/57769989/69896481.png)
+1. Click the trash icon at the end of the row ![](../../../attachments/57769989/69896481.png)
 2. **Click "Save" to apply changes.**
 
 

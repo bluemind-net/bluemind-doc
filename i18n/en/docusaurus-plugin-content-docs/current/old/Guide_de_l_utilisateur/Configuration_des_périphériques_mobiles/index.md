@@ -24,9 +24,9 @@ ActiveSync synchronization is compatible with all smartphone Email/Gmail (defaul
 :::
 
 
-- [Synchronizing with Android](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/)
-- [Synchronizing with Blackberry](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/)
-- [Synchronizing with iOS](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/)
-- [Synchronizing with Windows Phone](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/)
+- [Synchronizing with Android](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/)
+- [Synchronizing with Blackberry](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/)
+- [Synchronizing with iOS](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/)
+- [Synchronizing with Windows Phone](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/)
 
 

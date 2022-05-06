@@ -8,9 +8,9 @@ position: 88
 
 BlueMind permet une synchronisation différenciée pour chaque calendrier avec les logiciels clients (application web, clients lourds ou appareils mobiles).
 
-La synchronisation des agendas s'effectue dans les [paramètres](/STAGING/Guide_de_l_utilisateur_4.7/L_agenda_4.7/Paramétrer_l_agenda/) des contacts, en allant sur **Préférences - Agenda - Mes calendriers **ou **Autres calendriers**. Puis activer le bouton "**Synchronisation**" pour les calendriers souhaités.
+La synchronisation des agendas s'effectue dans les [paramètres](/Guide_de_l_utilisateur/L_agenda_4.7/Paramétrer_l_agenda/) des contacts, en allant sur **Préférences - Agenda - Mes calendriers **ou **Autres calendriers**. Puis activer le bouton "**Synchronisation**" pour les calendriers souhaités.
 
-![](../../../attachments/86762901/86764797.png)
+![](../../attachments/86762901/86764797.png)
 
 
 Lorsque la synchronisation est activée pour un calendrier, les données sont téléchargées sur le logiciel client. De ce fait :

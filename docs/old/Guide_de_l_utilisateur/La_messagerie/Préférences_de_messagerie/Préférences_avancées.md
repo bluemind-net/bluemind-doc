@@ -22,14 +22,14 @@ Les préférences avancées de la messagerie permettent de personnaliser de faç
 
 L'accès à la gestion de ces préférences se fait via la gestion des préférences de BlueMind > section Messagerie > lien *Préférences avancées du client de messagerie * :
 
-![](../../../attachments/57770374/57770398.png)
+![](../../../../attachments/57770374/57770398.png)
 
 
 :::tip
 
 Il est aussi possible d'accéder aux préférences avancées depuis la messagerie directement en utilisant le menu "engrenages" au bas de la liste des dossiers > Organiser les dossiers > «Préférences»
 
-![](../../../attachments/57770374/57770396.png)
+![](../../../../attachments/57770374/57770396.png)
 
 :::
 
@@ -43,10 +43,10 @@ Il est aussi possible d'accéder aux préférences avancées depuis la messageri
 
 Ne pas oublier d'accepter la demande de validation du navigateur après avoir cliqué sur le lien :
 
-- Firefox : ![](../../../attachments/57770374/57770393.png) Cette opération est réversible et personnalisable dans les Préférences > Applications > Type de contenus : mailto :
-![](../../../attachments/57770374/57770390.png)
+- Firefox : ![](../../../../attachments/57770374/57770393.png) Cette opération est réversible et personnalisable dans les Préférences > Applications > Type de contenus : mailto :
+![](../../../../attachments/57770374/57770390.png)
 
-- Chrome : ![](../../../attachments/57770374/57770394.png) Dans Chrome, ce comportement est réversible et personnalisable via la gestion des Paramètres > Afficher les paramètres avancés > Section Confidentialité > Paramètres de contenu > Section Gestionnaires > Gérer les gestionnaires : ![](../../../attachments/57770374/57770391.png)
+- Chrome : ![](../../../../attachments/57770374/57770394.png) Dans Chrome, ce comportement est réversible et personnalisable via la gestion des Paramètres > Afficher les paramètres avancés > Section Confidentialité > Paramètres de contenu > Section Gestionnaires > Gérer les gestionnaires : ![](../../../../attachments/57770374/57770391.png)
 
 
 :::
@@ -55,11 +55,11 @@ Ne pas oublier d'accepter la demande de validation du navigateur après avoir cl
 
 Cette section permet de personnaliser l'affichage de la vue principale de l'interface de messagerie : vue en panneaux, affichage des messages, réponses de notification, délai de recherche des nouveaux messages, etc.
 
-![](../../../attachments/57770374/57770378.png)
+![](../../../../attachments/57770374/57770378.png)
 
 - **Afficher le panneau d'aperçu** : permet d'activer ou non l'aperçu d'un message dans la vue principale de la messagerie. Cette option permet de basculer d'une vue en 3 panneaux (liste des dossiers à gauche, liste des messages en haut à droite, aperçu en bas à droite) à une vue en 2 panneaux (liste des dossiers à gauche, liste des messages à droite) dans laquelle un double-clic sur un message permet de le consulter.
 - **Marquer les messages prévisualisés comme lus** : délai d'attente avant de marquer un message comme lu
-- **Notifications à l'expéditeur** : il s'agit du comportement à adopter lorsque l'expéditeur a demandé un accusé de réception ou de lecture du message : ![](../../../attachments/57770374/57770380.png)
+- **Notifications à l'expéditeur** : il s'agit du comportement à adopter lorsque l'expéditeur a demandé un accusé de réception ou de lecture du message : ![](../../../../attachments/57770374/57770380.png)
 - **Développer les sujets** : indique si les sujets doivent être présentés en arborescence dépliée lorsque la liste des messages est en vue par sujets (voir [La messagerie §4.5 Actions sur la liste des messages](https://forge.blue-mind.net/confluence/display/BM35/La+messagerie#Lamessagerie-Actionssurlalistedemessages))
 - **Nombre de lignes par page** : indique le nombre de messages à présenter sur un écran de la liste des messages
 - **Vérifier tous les dossiers pour les nouveaux messages** : cette option force BlueMind à vérifier tous les dossiers (dossiers par défaut, sous-dossiers, boîtes partagées...) auxquels l'utilisateur est abonné à chaque fois que le courrier est relevé. Par défaut, seule la boîte de réception est vérifiée à intervalle régulier.
@@ -70,12 +70,12 @@ Lorsque cette option est activée les dossiers sont vérifiés par groupes de **
 
 Il est possible de forcer la vérification d'un dossier à chaque relevé de courrier de la façon suivante :
 
-- aller dans la gestion des dossiers : menu de gauche du même écran ou bouton ![](../../../attachments/57770219/58592434.png) en bas de la liste des dossiers dans le webmail
+- aller dans la gestion des dossiers : menu de gauche du même écran ou bouton ![](../../../../attachments/57770219/58592434.png) en bas de la liste des dossiers dans le webmail
 - choisir le dossier concerné
-- cocher l'option "Vérifier les nouveaux courriers" : ![](../../../attachments/57770374/57770382.png)
+- cocher l'option "Vérifier les nouveaux courriers" : ![](../../../../attachments/57770374/57770382.png)
 
 
-![](../../../attachments/57770374/57770375.png) le nombre maximum de 20 dossiers s'applique là aussi mais **il n'est possible de forcer la vérification que de 16 dossiers**, 4 "places" étant réservées par le système afin de vérifier l'ensemble de l'arborescence à raison de 4 dossiers à chaque relevé.
+![](../../../../attachments/57770374/57770375.png) le nombre maximum de 20 dossiers s'applique là aussi mais **il n'est possible de forcer la vérification que de 16 dossiers**, 4 "places" étant réservées par le système afin de vérifier l'ensemble de l'arborescence à raison de 4 dossiers à chaque relevé.
 
 :::
 
@@ -86,7 +86,7 @@ Cette section permet de définir les options de composition des nouveaux message
 
 C'est ici que sont positionnées les préférences de demandes de notifications ainsi que les options de signature notamment.
 
-![](../../../attachments/57770374/57770388.png)
+![](../../../../attachments/57770374/57770388.png)
 
 ### Options principales
 
@@ -124,7 +124,7 @@ Attention, cela ne signifie pas que le destinataire a vu le message, seulement q
 
 Cette section permet de personnaliser les préférences générales d'affichage des messages reçus : format HTML ou non, affichage des images et comportement après suppression.
 
-![](../../../attachments/57770374/57770386.png)
+![](../../../../attachments/57770374/57770386.png)
 
 - **Afficher en HTML** : lorsque cette option est décochée, les éléments de mise en forme des messages sont retirés et ils sont affichés en texte brut
 - **Afficher les images distantes** : permet de choisir dans quels cas afficher ou non les images distantes intégrées à un message (jamais, toujours ou seulement si l'expéditeur est connu)
@@ -138,7 +138,7 @@ Cette section permet de paramétrer le comportement de BlueMind lors de la suppr
 
 C'est notamment ici qu'est paramétré le comportement de la corbeille lorsque l'utilisateur se déconnecte.
 
-![](../../../attachments/57770374/57770384.png)
+![](../../../../attachments/57770374/57770384.png)
 
 ### Options principales
 

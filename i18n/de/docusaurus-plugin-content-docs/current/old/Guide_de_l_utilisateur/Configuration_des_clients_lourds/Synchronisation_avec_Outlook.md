@@ -26,7 +26,7 @@ Wie bei den früheren Versionen von BlueMind wird die Nutzung von Outlook durch 
 
 :::info
 
-Die Verwendung von Outlook in MAPI ohne Connector impliziert, dass der Connector keine [großen Anlagen abtrennen](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/)kann, da dies eine BlueMind-Funktion ist, die derzeit vom Connector bereitgestellt wird.
+Die Verwendung von Outlook in MAPI ohne Connector impliziert, dass der Connector keine [großen Anlagen abtrennen](/old/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/)kann, da dies eine BlueMind-Funktion ist, die derzeit vom Connector bereitgestellt wird.
 
 :::
 
@@ -67,7 +67,7 @@ Wählen Sie nicht die manuelle Konfiguration
 :::
 
 - Geben Sie die E-Mail-Adresse und das Passwort des Benutzers ein:
-![](../../attachments/57770953/72199851.png)
+![](../../../attachments/57770953/72199851.png)
 
 
 :::info
@@ -76,9 +76,9 @@ Es ist wichtig, die Standardadresse des Benutzers zu verwenden: Aliasnamen werde
 
 :::
 
-- Nach wenigen Augenblicken meldet Outlook, dass das Konto erfolgreich hinzugefügt wurde:![](../../attachments/57770953/72199850.png)
+- Nach wenigen Augenblicken meldet Outlook, dass das Konto erfolgreich hinzugefügt wurde:![](../../../attachments/57770953/72199850.png)
 - Aktivieren Sie „Kontoeinstellungen ändern“ und klicken Sie auf „Weiter“
--  **Aktivieren Sie „Exchange-Cache verwenden“ und bewegen Sie den Cursor so weit wie möglich nach rechts auf „Alle“:**  ![](../../attachments/57770953/72199849.png)
+-  **Aktivieren Sie „Exchange-Cache verwenden“ und bewegen Sie den Cursor so weit wie möglich nach rechts auf „Alle“:**  ![](../../../attachments/57770953/72199849.png)
 - Klicken Sie auf „Beenden“
 
 
@@ -92,8 +92,8 @@ Sie müssen sich nur mit Ihrem BlueMind-Konto verbinden und zu Ihrer Kontoverwal
 
 Weitere Details zum Anmeldeverfahren und dessen Auswirkungen finden Sie auf den entsprechenden Seiten:
 
-- [Geteilte Posteingänge - Abonnements und Software von Drittanbietern](/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/#Lesboitesauxlettrespartagees-abonnements)
-- [Einstellungen für das E-Mail-System - Abonnements](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/#Preferencesdemessagerie-abonnements)
+- [Geteilte Posteingänge - Abonnements und Software von Drittanbietern](/old/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/#Lesboitesauxlettrespartagees-abonnements)
+- [Einstellungen für das E-Mail-System - Abonnements](/old/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/#Preferencesdemessagerie-abonnements)
 
 
 ## Bekannte Probleme
@@ -113,17 +113,17 @@ Gehen Sie in Outlook auf Datei > Konto verwalten > Profile verwalten
 
 Je nach Outlook- und/oder Windows-Version kann es sein, dass es die Option „Profile verwalten“ in diesem Menü nicht gibt. Gehen Sie in diesem Fall in die Systemsteuerung des Computers und wählen Sie „Mail“ („Mail“ kann auch in französischen Systemen erscheinen):
 
-![](../../attachments/57770953/72199846.png)
+![](../../../attachments/57770953/72199846.png)
 
 :::
 
 Klicken Sie auf die Schaltfläche „Profile anzeigen“:
 
-![](../../attachments/57770953/72199845.png)
+![](../../../attachments/57770953/72199845.png)
 
 Wählen Sie das Profil und löschen Sie es:
 
-![](../../attachments/57770953/72199844.png)
+![](../../../attachments/57770953/72199844.png)
 
 **Starten Sie Outlook neu.**
 
@@ -164,15 +164,15 @@ Das falsche Passwort löschen:
 
 - Sicherstellen, dass Outlook und der Bildschirm für Kontoerstellung geschlossen sind
 - öffnen Sie den Identifikationsverwalter durch Eingabe von Windows + R
-- `"control /name Microsoft.CredentialManager`" eingeben:![](../../attachments/57770953/72199848.png)
+- `"control /name Microsoft.CredentialManager`" eingeben:![](../../../attachments/57770953/72199848.png)
 - Auf OK klicken (oder Taste &lt;Enter>)
-- Löschen von Einträgen des Typs  `autodiscover.domaine.tld`  und  `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  Zum Beispiel, um das Passwort aus *  [tom@bm.lan](mailto:tom@bm.lan)  * zu löschen:![](../../attachments/57770953/72199847.png)
+- Löschen von Einträgen des Typs  `autodiscover.domaine.tld`  und  `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  Zum Beispiel, um das Passwort aus *  [tom@bm.lan](mailto:tom@bm.lan)  * zu löschen:![](../../../attachments/57770953/72199847.png)
 
 
 ### Freigegebene Mailboxen erscheinen nicht in den Ordnern des Benutzers
 
 Geteilte Posteingänge befinden sich in den öffentlichen Ordnern. Diese finden Sie, indem Sie auf die Auslassungspunkte am unteren Ende des Baums klicken:
 
-![](../../attachments/57770953/72199843.png)
+![](../../../attachments/57770953/72199843.png)
 
 

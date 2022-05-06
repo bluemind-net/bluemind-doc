@@ -10,14 +10,14 @@ position: 48
 
 Zum Zugriff auf die Aufgabeneinstellungen zu „Mein Konto“ gehen, indem Sie auf den Benutzernamen rechts in der Navigationsleiste klicken:
 
-![](../../attachments/57770060/57770071.png)
+![](../../../attachments/57770060/57770071.png)
 
 
 ## Aufgabenlisten
 
 Die 1. Registerkarte ermöglicht die Verwaltung Ihrer Aufgabenlisten, zusätzlich zur Verwaltung innerhalb der Anwendung:
 
-![](../../attachments/57770650/57770663.png)
+![](../../../attachments/57770650/57770663.png)
 
 Standardmäßig hat jeder Benutzer eine private Liste „Meine Aufgaben“, die nicht geändert oder gelöscht werden kann.
 
@@ -35,24 +35,24 @@ Die Liste erscheint in der Liste unten und ist somit in der Anwendung zugänglic
 
 Um eine Liste umzubenennen, auf ihre Bezeichnung klicken, um das Eingabefeld aufzurufen:
 
-![](../../attachments/57770650/57770661.png)
+![](../../../attachments/57770650/57770661.png)
 
 Die neue eintragen und bestätigen, indem Sie auf das Häkchen am Ende der Zeile klicken, die Eingabetaste drücken oder das Feld verlassen:
 
-![](../../attachments/57770650/57770659.png)
+![](../../../attachments/57770650/57770659.png)
 
 
 :::tip
 
-solange Sie Ihre Änderungen nicht validiert haben, können Sie auf das Kreuz am Ende der Zeile klicken, um sie zu abzubrechen: ![](../../attachments/57770650/57770657.png)
+solange Sie Ihre Änderungen nicht validiert haben, können Sie auf das Kreuz am Ende der Zeile klicken, um sie zu abzubrechen: ![](../../../attachments/57770650/57770657.png)
 
 :::
 
 ### Löschung
 
-Um eine Aufgabenliste zu löschen, klicken Sie auf das Papierkorbsymbol  ![](../../attachments/57769989/69896481.png) der entsprechenden Zeile:
+Um eine Aufgabenliste zu löschen, klicken Sie auf das Papierkorbsymbol  ![](../../../attachments/57769989/69896481.png) der entsprechenden Zeile:
 
-![](../../attachments/57770650/57770656.png)
+![](../../../attachments/57770650/57770656.png)
 
 
 :::info
@@ -65,7 +65,7 @@ In einer Liste enthaltene Aufgaben werden zusammen mit der Liste gelöscht.
 
 Auf dieser Registerkarte kann der Benutzer gemeinsame oder eigene Aufgabenlisten abonnieren und ihre Synchronisierung für die Verwendung offline oder auf Client Tier (Fat-Client-Software oder Mobilgerät) aktivieren:
 
-![](../../attachments/57770650/57770654.png)Wenn die Synchronisierung für eine Liste aktiviert ist, werden die Daten in die Client-Software hochgeladen. Daher:
+![](../../../attachments/57770650/57770654.png)Wenn die Synchronisierung für eine Liste aktiviert ist, werden die Daten in die Client-Software hochgeladen. Daher:
 
 |  | Synchronisierung aktiviert | Synchronisierung deaktiviert | Webanwendung und Thunderbird | EAS iOS | EAS (andere) | DAV | Outlook |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -103,7 +103,7 @@ Zum Hinzufügen einer Liste:
 
 So löschen Sie eine Liste:
 
-- Klicken Sie auf das Papierkorbsymbol am Ende der Zeile ![](../../attachments/57770650/57770664.png)
+- Klicken Sie auf das Papierkorbsymbol am Ende der Zeile ![](../../../attachments/57770650/57770664.png)
 - **Klicken Sie auf die Schaltfläche „Speichern“, um die Änderungen zu speichern.**
 
 
@@ -117,7 +117,7 @@ Auf „Speichern“ klicken, um eine Änderung des Synchronisationsstatus zu ber
 
 Mit BlueMind können Sie Ihre To-Do-Listen für andere Benutzer freigeben, um sie leicht einsehbar zu machen oder gemeinsame Listen mit Schreibberechtigung zu erstellen.
 
-![](../../attachments/57770650/57770652.png)
+![](../../../attachments/57770650/57770652.png)
 
 Die möglichen Rechte lauten wie folgt:
 

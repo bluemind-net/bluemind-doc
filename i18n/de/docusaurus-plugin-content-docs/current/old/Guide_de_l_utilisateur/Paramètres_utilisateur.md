@@ -10,7 +10,7 @@ position: 48
 
 Die Schnittstelle zur Verwaltung von Einstellungen ermöglicht es dem Benutzer, seine BlueMind-Umgebung anzupassen.
 
-Diese Schnittstelle ist über die Navigationsleiste am oberen Rand aller BlueMind-Seiten zugänglich: ![](../attachments/57770060/57770071.png)
+Diese Schnittstelle ist über die Navigationsleiste am oberen Rand aller BlueMind-Seiten zugänglich: ![](../../attachments/57770060/57770071.png)
 
 
 ## Mein Konto
@@ -25,7 +25,7 @@ Auf der ersten Registerkarte der Seite „Mein Konto“ können Sie die allgemei
 - Passwort-Änderung
 
 
-![](../attachments/57770769/62555169.png)
+![](../../attachments/57770769/62555169.png)
 
 
 :::tip
@@ -46,13 +46,13 @@ BlueMind-Administratoren haben ab BlueMind Version 4.3 die Möglichkeit, eine Pa
 
 In beiden Fällen wird, wenn der Benutzer versucht, sich mit seinem alten Passwort anzumelden, das folgende Formular angezeigt:
 
-![](../attachments/57770769/62555147.png)Nachdem das Passwort geändert wurde, wird der Benutzer zurück zum Anmeldeformular geleitet und kann sich mit dem neuen Passwort bei BlueMind anmelden.
+![](../../attachments/57770769/62555147.png)Nachdem das Passwort geändert wurde, wird der Benutzer zurück zum Anmeldeformular geleitet und kann sich mit dem neuen Passwort bei BlueMind anmelden.
 
 ## Daten zurücksetzen
 
 Die Registerkarte „Erweitert“ auf der Seite „Mein Konto“ ermöglicht den Zugriff auf die erweiterten Funktionen der Einstellungsverwaltung, d.h. das Zurücksetzen der lokalen Daten der Anwendung:
 
-![](../attachments/57770769/62555148.png)
+![](../../attachments/57770769/62555148.png)
 
 ## Benachrichtigungen
 
@@ -71,13 +71,13 @@ Nicht unterstützte Browser sind:
 - Opera
 
 
-![](../attachments/57770769/62555155.png)
+![](../../attachments/57770769/62555155.png)
 
 
 Notifications d'événement et de nouveau message avec Chrome sous Debian
 
 
-![](../attachments/57770769/62555154.png)
+![](../../attachments/57770769/62555154.png)
 
 
 Deux notifications simultanées avec Chrome sous Debian
@@ -90,10 +90,10 @@ Die Benachrichtigung verschwindet nach ein paar Sekunden von selbst. Um das Schl
 ### Aktivierung
 
 - zur Registerkarte „Erweitert“ gehen
-- klicken Sie auf die Schaltfläche „Benachrichtigungen aktivieren“:![](../attachments/57770769/62555161.png)
+- klicken Sie auf die Schaltfläche „Benachrichtigungen aktivieren“:![](../../attachments/57770769/62555161.png)
 - Bestätigung der Aktivierung in Ihrem Browser
-    - Klicken Sie unter Firefox auf das Symbol der Adresszeile des Browsers:![](../attachments/57770769/62555152.png)
-    - Wählen Sie unter Chrome die Option „zulassen“, wenn die Anfrage erscheint:![](../attachments/57770769/62555150.png)
+    - Klicken Sie unter Firefox auf das Symbol der Adresszeile des Browsers:![](../../attachments/57770769/62555152.png)
+    - Wählen Sie unter Chrome die Option „zulassen“, wenn die Anfrage erscheint:![](../../attachments/57770769/62555150.png)
 
 
 ### Deaktivierung
@@ -101,7 +101,7 @@ Die Benachrichtigung verschwindet nach ein paar Sekunden von selbst. Um das Schl
 #### Firefox
 
 - Genau wie bei Aktivierung auf das Symbol der Adresszeile des Browsers klicken
-- Ändern Sie Ihre Auswahl im Dropdown-Menü der Berechtigungen:![](../attachments/57770769/62555159.png)
+- Ändern Sie Ihre Auswahl im Dropdown-Menü der Berechtigungen:![](../../attachments/57770769/62555159.png)
 
 
 :::info
@@ -114,7 +114,7 @@ Die Auswahl von „Blockieren“ verhindert die künftige Reaktivierung von Bena
 #### Chrome
 
 - Klicken Sie auf das Symbol in der Adressleiste des Browsers
-- Suchen Sie die Zeile „Benachrichtigungen“ und ändern Sie die Auswahl des entsprechenden Dropdown-Menüs:![](../attachments/57770769/62555158.png)
+- Suchen Sie die Zeile „Benachrichtigungen“ und ändern Sie die Auswahl des entsprechenden Dropdown-Menüs:![](../../attachments/57770769/62555158.png)
 
 
 ## Downloads
@@ -125,21 +125,21 @@ Im Bereich Einstellungen herunterladen können Benutzer den von ihrem Administra
 
 In diesem Abschnitt kann der Benutzer Zugangsschlüssel zur BlueMind API generieren, um sein(e) Entwicklungsprojekt(e) zu identifizieren.
 
-![](../attachments/57770769/62555167.png)
+![](../../attachments/57770769/62555167.png)
 
 ### Erzeugen eines API-Schlüssels
 
 So erstellen Sie einen API-Schlüssel für ein Projekt:
 
 1. Den Projektnamen in das Feld „Name“ eingeben
-2. Klicken Sie auf die Schaltfläche „Erstellen“,![](../attachments/57769989/69896490.png) der Schlüssel wird automatisch und sofort erstellt und in die Liste der API-Schlüssel mit dem entsprechenden Projektnamen aufgenommen und kann kopiert und sofort verwendet werden
+2. Klicken Sie auf die Schaltfläche „Erstellen“,![](../../attachments/57769989/69896490.png) der Schlüssel wird automatisch und sofort erstellt und in die Liste der API-Schlüssel mit dem entsprechenden Projektnamen aufgenommen und kann kopiert und sofort verwendet werden
 
 
 ### Löschen eines API-Schlüssels
 
 So widerrufen Sie einen API-Schlüssel :
 
-1. Klicken Sie auf das Papierkorbsymbol ![](../attachments/57769989/69896481.png) am Ende der entsprechenden Zeile
+1. Klicken Sie auf das Papierkorbsymbol ![](../../attachments/57769989/69896481.png) am Ende der entsprechenden Zeile
 2. Bestätigung der Löschung
 
 
@@ -155,6 +155,6 @@ Die Löschung ist sofort wirksam, ohne dass Sie auf die Schaltfläche „Speiche
 
 Dieser Link zeigt den Informationsbildschirm über die installierte Version von BlueMind und die Abonnementinformationen an, sofern vorhanden:
 
-![](../attachments/57770769/62555165.png)
+![](../../attachments/57770769/62555165.png)
 
 

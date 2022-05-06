@@ -29,17 +29,17 @@ Les droits que les utilisateurs peuvent se voir attribuer sur une ressource sont
 
 La réservation d'une ressource se fait en plusieurs étapes :
 
-1. L'utilisateur souhaitant réserver la ressource ajoute celle-ci aux participants de son événement lors de la création ou de l'édition de celui-ci.Pour cela il peut utiliser la recherche de disponibilités comme pour les autres participants :![](../attachments/57770793/57770801.png)
+1. L'utilisateur souhaitant réserver la ressource ajoute celle-ci aux participants de son événement lors de la création ou de l'édition de celui-ci.Pour cela il peut utiliser la recherche de disponibilités comme pour les autres participants :![](../../attachments/57770793/57770801.png)
 2. Lorsque l'utilisateur enregistre son événement, il a le choix d'envoyer ou non une invitation, il s'agit d'un email de demande de réservation.
 3. Le ou les gestionnaire désignés de la ressource reçoivent alors une demande par alerte d'agenda si le calendrier de la ressource est actuellement affiché dans leur application ** **et** ** par mail si une invitation a été envoyée.
 
 
-![](../attachments/57770793/57770799.png)
+![](../../attachments/57770793/57770799.png)
 
 Le gestionaire peut accepter la demande depuis le mail de réservation
 
 
-![](../attachments/57770793/57770797.png)
+![](../../attachments/57770793/57770797.png)
 
 La ressource est vue en attente de validation par le gestionnaire
 
@@ -53,7 +53,7 @@ La ressource est vue en attente de validation par le gestionnaire
     2. Si l'acceptation et le refus automatiques ne sont pas activés, le gestionnaire doit valider la demande de réservation d'une des différentes manières possible :
         - depuis sa messagerie, par les liens "Participation" de l'email reçu
         - depuis son agenda, par la liste des événements en attente (clic sur l'icône chiffrée du bandeau de navigation)
-        - depuis son agenda en cliquant sur l'événement :![](../attachments/57770793/57770795.png)
+        - depuis son agenda en cliquant sur l'événement :![](../../attachments/57770793/57770795.png)
 
 
 :::tip

@@ -20,35 +20,35 @@ This guide was written using a Blackberry 10 OS. Depending on the version your d
 In Blackberry, mail synchronization is handled by Blackberry Hub.
 In this application, open the menu:
 
-![](../../../attachments/57771055/57771056.png)
+![](../../../../attachments/57771055/57771056.png)
 
 Go to "Settings":
 
-![](../../../attachments/57771055/57771068.png)
+![](../../../../attachments/57771055/57771068.png)
 
 Go to "Email Accounts":
 
-![](../../../attachments/57771055/57771067.png)
+![](../../../../attachments/57771055/57771067.png)
 
 Select "Add account":
 
-![](../../../attachments/57771055/57771066.png)
+![](../../../../attachments/57771055/57771066.png)
 
 Select "Email, Calendar and Contacts":
 
-![](../../../attachments/57771055/57771065.png)
+![](../../../../attachments/57771055/57771065.png)
 
 Enter the user's email address and tap "Next":
 
-![](../../../attachments/57771055/57771064.png)
+![](../../../../attachments/57771055/57771064.png)
 
 Select IMAP as account type:
 
-![](../../../attachments/57771055/57771063.png)
+![](../../../../attachments/57771055/57771063.png)
 
 The next screen allows you to enter incoming and outgoing server connection settings as well as set up synchronization options. Scroll up to access the fields:
 
-![](../../../attachments/57771055/57771062.png)
+![](../../../../attachments/57771055/57771062.png)
 
 In the first part of the screen:
 
@@ -62,7 +62,7 @@ The next section allows you to configure the incoming server:
 - Encryption can be SSL or TLS, depending on the configuration (see *"Ports and security" *box below).
 
 
-![](../../../attachments/57771055/57771061.png)
+![](../../../../attachments/57771055/57771061.png)
 
 The next section allows you to configure the outgoing server (SMTP), which is used to send messages. Barring special cases, connection information and addresses are the same as for the incoming server, only the port number is different.
 
@@ -111,15 +111,15 @@ Tap "Done" at the top of the screen once all parameters are entered.
 
 The device checks the server connections and informs you of possible issues with certificates if any. Tap "Continue":
 
-![](../../../attachments/57771055/57771060.png) ![](../../../attachments/57771055/57771059.png)
+![](../../../../attachments/57771055/57771060.png) ![](../../../../attachments/57771055/57771059.png)
 
 The application returns to Hub's homepage showing all messages for all accounts. To view the new account's messages only, open the menu and select the account:
 
-![](../../../attachments/57771055/57771058.png)
+![](../../../../attachments/57771055/57771058.png)
 
  
 
-![](../../../attachments/57771055/57771057.png)
+![](../../../../attachments/57771055/57771057.png)
 
  
 

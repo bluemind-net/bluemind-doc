@@ -17,7 +17,7 @@ Le modérateur peut décider de **couper ou redémarrer les microphones et camé
 Pour cela, cliquer sur l'icône "**Participants**" dans la barre d'actions en bas de l'écran pour ouvrir le panneau de gestion des participants.
 
 
-![](../../../attachments/86762914/86764883.png)
+![](../../attachments/86762914/86764883.png)
 
 
 ## Sécuriser l'accès à la visioconférence
@@ -26,7 +26,7 @@ Toute personne ayant le lien de visioconférence peut y accéder. Cependant, le 
 Pour cela, aller dans le menu de la barre d'actions en bas de l'écran et cliquer sur "**Options de sécurité**"
 
 
-![](../../../attachments/86762914/86764882.png)
+![](../../attachments/86762914/86764882.png)
 
 
 ## Enregistrer la visioconférence
@@ -34,6 +34,6 @@ Pour cela, aller dans le menu de la barre d'actions en bas de l'écran et clique
 Le modérateur peut également **enregistrer la visioconférence**.
 Pour cela, aller dans le menu de la barre d'actions en bas de l'écran et cliquer sur "**Commandes de l'enregistrement local**"
 
-![](../../../attachments/86762914/86764881.png)
+![](../../attachments/86762914/86764881.png)
 
 

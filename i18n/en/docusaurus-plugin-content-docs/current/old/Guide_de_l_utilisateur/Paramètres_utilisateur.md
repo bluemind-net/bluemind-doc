@@ -12,7 +12,7 @@ The user settings manager allows you to customize your BlueMind environment.
 
 To access user settings, go to "My account" in the navigation toolbar at the top of all BlueMind pages:
 
-![](../attachments/57770060/57770070.png)
+![](../../attachments/57770060/57770070.png)
 
 
 ## My account
@@ -27,7 +27,7 @@ The General tab in "Account" allows you to specify general localization and disp
 - Change password.
 
 
-![](../attachments/57770769/62555168.png)
+![](../../attachments/57770769/62555168.png)
 
 
 :::tip
@@ -48,13 +48,13 @@ From BlueMind version 4.3, administrators can set up a password expiry policy:
 
 In either case, when you attempt to log in with the old password, the window below will open:
 
-![](../attachments/57770769/62555146.png)Once the password has been changed, you will be redirected to the log in window again you will be able to log into BlueMind with your new password.
+![](../../attachments/57770769/62555146.png)Once the password has been changed, you will be redirected to the log in window again you will be able to log into BlueMind with your new password.
 
 ## Resetting data
 
 The "Advanced" tab in "Account" gives you access to advanced settings. Specifically it allows you to reset the application's data and enable notifications (see below).
 
-![](../attachments/57770769/62555163.png)
+![](../../attachments/57770769/62555163.png)
 
 ## Notifications 
 
@@ -73,19 +73,19 @@ The following browsers do not support this feature:
 - Opera
 
 
-![](../attachments/57770769/62555155.png)
+![](../../attachments/57770769/62555155.png)
 
 
 Event reminder and new message notification with Chrome on OS X
 
 
-![](../attachments/57770769/62555154.png)
+![](../../attachments/57770769/62555154.png)
 
 
 Two simultaneous notifications with Chrome on OS X
 
 
-![](../attachments/57770769/62555153.png)
+![](../../attachments/57770769/62555153.png)
 
 
 New message notification with Chrome on Windows
@@ -98,8 +98,8 @@ Notifications go away on their own after a few seconds. To force-close them with
 ### Enabling notifications
 
 - Go to the "Advanced" tab.
-- Click "Enable notifications":![](../attachments/57770769/62555160.png)
-- Confirm that you want to enable notifications in your browser. In Firefox, for example, select "Always Show Notifications" in the drop-down menu:![](../attachments/57770769/62555151.png)
+- Click "Enable notifications":![](../../attachments/57770769/62555160.png)
+- Confirm that you want to enable notifications in your browser. In Firefox, for example, select "Always Show Notifications" in the drop-down menu:![](../../attachments/57770769/62555151.png)
 
 
 ### Disabling notifications
@@ -110,7 +110,7 @@ If you no longer want to receive BlueMind notifications, the steps to follow dif
 
 - Go to the Tools menu > Page Info > Permissions tab.
 - Look for "Show Notifications" and enable "Always Ask":
-![](../attachments/57770769/62555156.png)
+![](../../attachments/57770769/62555156.png)
 
 
 :::info
@@ -122,27 +122,27 @@ Choosing "Block" will stop any future attempt to enable BlueMind notifications. 
 
 ## Downloads
 
-The downloads section in settings allows you to download the connector to synchronize BlueMind with your [Thunderbird](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird/).
+The downloads section in settings allows you to download the connector to synchronize BlueMind with your [Thunderbird](/old/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Configuration_de_Thunderbird/).
 
 ## API keys
 
 This section allows you to generate access keys to the BlueMind API in order to identify your development "projects".
 
-![](../attachments/57770769/62555166.png)
+![](../../attachments/57770769/62555166.png)
 
 ### Generating an API key
 
 To generate an API key for a project:
 
 1. Type the project name in the "Name" text box.
-2. Click "Create".![](../attachments/57769989/69896490.png) the key is generated and created automatically, and immediately added to the list of API keys with the project name you have given it. It can be copied and used right away. 
+2. Click "Create".![](../../attachments/57769989/69896490.png) the key is generated and created automatically, and immediately added to the list of API keys with the project name you have given it. It can be copied and used right away. 
 
 
 ### Deleting an API key
 
 To revoke an API key:
 
-1. Click ![](../attachments/57769989/69896481.png) at the end of the key's row.
+1. Click ![](../../attachments/57769989/69896481.png) at the end of the key's row.
 2. Confirm deletion.
 
 
@@ -156,6 +156,6 @@ Deletions are effective immediately, without clicking "Save" at the bottom of th
 
 This section shows BlueMind's installed version details and relevant subscription information:
 
-![](../attachments/57770769/62555164.png)
+![](../../attachments/57770769/62555164.png)
 
 

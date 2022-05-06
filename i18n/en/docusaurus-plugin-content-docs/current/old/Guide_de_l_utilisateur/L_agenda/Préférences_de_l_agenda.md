@@ -10,14 +10,14 @@ position: 52
 
 To access Calendar preferences, go to "My account" in the navigation toolbar and go to "Calendar":
 
-![](../../attachments/57770060/57770070.png)
+![](../../../attachments/57770060/57770070.png)
 
 
 ## General preferences
 
 The General tab in Calendar preferences is used to choose display and time settings:
 
-![](../../attachments/57770563/62558502.png)
+![](../../../attachments/57770563/62558502.png)
 
 Day start and end times as well as working days settings allow you to specify the hours BlueMind will consider as working. As a result, when someone searches your availability for a meeting for example, they will be alerted if the event is scheduled outside of your working hours.
 
@@ -40,19 +40,19 @@ When alerts are disabled, the alert box is empty and the drop-down list is set t
 
 The "My calendars" tab allows you to manage your calendars:
 
-- personal calendars: see [Calendar](/Guide_de_l_utilisateur/L_agenda/) - §3 Multiple calendars
-- external calendars: see [External Calendars](/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes/)
+- personal calendars: see [Calendar](/old/Guide_de_l_utilisateur/L_agenda/) - §3 Multiple calendars
+- external calendars: see [External Calendars](/old/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes/)
 
 
-![](../../attachments/57770563/62558503.png)
+![](../../../attachments/57770563/62558503.png)
 
 ## Subscriptions
 
 In this tab, you can subscribe to calendars – personal, shared or domain calendars – and enable calendar synchronization for online or third-party client use (thick client software or mobile device).
 
-![](../../attachments/57770563/62558511.png)
+![](../../../attachments/57770563/62558511.png)
 
-![](../../attachments/57770017/66096259.png) When synchronization is enabled for a calendar, the data is downloaded into the thick client. As a result:
+![](../../../attachments/57770017/66096259.png) When synchronization is enabled for a calendar, the data is downloaded into the thick client. As a result:
 
 |  | Synchronization Enabled | Synchronization Disabled | Web Application and Thunderbird | EAS iOS | EAS (other) | DAV | Outlook |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -108,7 +108,7 @@ To add a calendar:
 
 To delete a calendar:
 
-- Click ![](../../attachments/57769989/69896481.png) at the end of the row.
+- Click ![](../../../attachments/57769989/69896481.png) at the end of the row.
 - **Click "Save" to apply changes.**
 
 
@@ -122,7 +122,7 @@ You must click "Save" for the change in synchronization status to be applied the
 
 The "Sharings" tab allows you to manage the shared calendars you are the manager of: your own calendar as well as those of resources or other users you have been given editing and management rights on.
 
-![](../../attachments/57770563/62558509.png)
+![](../../../attachments/57770563/62558509.png)
 
 
 :::info
@@ -133,10 +133,10 @@ By default, your personal sharing rights (modification and management) are shown
 
 To manage sharing settings: 
 
-- Select the entity (user or one of its delegates) you want to manage from the drop-down list:![](../../attachments/57770563/62558507.png)
+- Select the entity (user or one of its delegates) you want to manage from the drop-down list:![](../../../attachments/57770563/62558507.png)
 - In the text box, type the name of the person or group you want to share the calendar with.
 - Type &lt;Enter> or select a name from the list of autocomplete suggestions to confirm.
-- The user is then added to the list. Select the rights you want to grant them from the drop-down list:![](../../attachments/57770563/62558505.png) 
+- The user is then added to the list. Select the rights you want to grant them from the drop-down list:![](../../../attachments/57770563/62558505.png) 
     1. **Can invite me**: the user can invite you by adding you to a list of event participants.
     2. **Can invite me and see my events**: in addition to the right above, the user is able to view your calendar. 
     3. **Can update my events**: in addition to the rights above, the user can add events to your calendar, edit and delete them and accept or reject event invitations in your name.
@@ -150,6 +150,6 @@ The "Public share" area allows you to enable and apply sharing options to all** 
 
 :::
 
-For more details, see [Managing Shares](/Guide_de_l_utilisateur/Gestion_des_partages/)
+For more details, see [Managing Shares](/old/Guide_de_l_utilisateur/Gestion_des_partages/)
 
 

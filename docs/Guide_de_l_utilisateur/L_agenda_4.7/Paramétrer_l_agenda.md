@@ -11,12 +11,12 @@ Les paramètres généraux de l'agenda permettent à l'utilisateur de définir s
 Pour cela, aller dans **Préférences - Agenda - Général**
 
 
-![](../../../attachments/86762754/86762759.png)
+![](../../attachments/86762754/86762759.png)
 
 
 ## Paramétrer l'affichage de l'agenda
 
-![](../../../attachments/86762754/86762758.png)
+![](../../attachments/86762754/86762758.png)
 
 L'utilisateur peut choisir :
 
@@ -30,14 +30,14 @@ L'utilisateur peut choisir :
 
 Cette vue peut-être modifiée temporairement directement dans la barre d'actions au-dessus de l'agenda
 
-![](../../../attachments/86762754/86762760.png)
+![](../../attachments/86762754/86762760.png)
 
 :::
 
 
 ## Paramétrer le temps de travail
 
-![](../../../attachments/86762754/86762757.png)
+![](../../attachments/86762754/86762757.png)
 
 Les informations de début et fin de journée ainsi que les jours ouvrés permettent de **définir les plages horaires** qui seront considérées comme ouvrées par BlueMind.
 
@@ -45,7 +45,7 @@ Ainsi, lors de la recherche de disponibilité ou lors d'une invitation par exemp
 
 
 ## Paramétrer les rappels 
-![](../../../attachments/86762754/86762756.png)
+![](../../attachments/86762754/86762756.png)
 
 
 Il est possible de définir :

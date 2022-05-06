@@ -22,7 +22,7 @@ BlueMind incorporates a complete shared calendar with many features such as:
 - recurring events, exceptions, private appointments...
 
 
-![](../../attachments/57770444/72188624.png)
+![](../../../attachments/57770444/72188624.png)
 
 ## Display and navigation
 
@@ -30,31 +30,31 @@ BlueMind incorporates a complete shared calendar with many features such as:
 
 The primary default view of the BlueMind calendar is made up of:
 
-- ![](../../attachments/57769989/69896496.png): task bar, used to switch between applications.
-- ![](../../attachments/57769989/69896495.png): search for and go to a specific date. Scroll through months using the arrows *and* then click on the date. The main display area then shows the period including the date selected (day, week, or month depending on the current settings).
-- ![](../../attachments/57769989/69896494.png): list of calendars currently displayed, as well as access to views and tags.
-- ![](../../attachments/57769989/69896493.png): search engine to look for events by name, tag, details, participant, etc.
-- ![](../../attachments/57769989/69896492.png): shows your calendar as well as those you are subscribed to and/or other selected calendars (users, resources).
+- ![](../../../attachments/57769989/69896496.png): task bar, used to switch between applications.
+- ![](../../../attachments/57769989/69896495.png): search for and go to a specific date. Scroll through months using the arrows *and* then click on the date. The main display area then shows the period including the date selected (day, week, or month depending on the current settings).
+- ![](../../../attachments/57769989/69896494.png): list of calendars currently displayed, as well as access to views and tags.
+- ![](../../../attachments/57769989/69896493.png): search engine to look for events by name, tag, details, participant, etc.
+- ![](../../../attachments/57769989/69896492.png): shows your calendar as well as those you are subscribed to and/or other selected calendars (users, resources).
     - The buttons in the top left corner are used to return to the period that includes the current date and navigate to earlier or later dates.
-    - The buttons in the top right corner are used to choose the period or the type of display as well as access to **printing** and **ics import/export**. The tools drop-down menu can be used to refresh the current view:![](../../attachments/57770444/72188599.png)
+    - The buttons in the top right corner are used to choose the period or the type of display as well as access to **printing** and **ics import/export**. The tools drop-down menu can be used to refresh the current view:![](../../../attachments/57770444/72188599.png)
 
-- ![](../../attachments/57769989/69896491.png): the task panel may be shown or hidden using the ![](../../attachments/57770612/57770623.png) button in the top right corner
+- ![](../../../attachments/57769989/69896491.png): the task panel may be shown or hidden using the ![](../../../attachments/57770612/57770623.png) button in the top right corner
 
 
 Events are marked with icons that give you a quick view of their properties:
 
-- ![](../../attachments/57770444/72188583.png) event with multiple attendees
-- ![](../../attachments/57770444/72188581.png) private event
-- ![](../../attachments/57770444/72188580.png) recurring event
+- ![](../../../attachments/57770444/72188583.png) event with multiple attendees
+- ![](../../../attachments/57770444/72188581.png) private event
+- ![](../../../attachments/57770444/72188580.png) recurring event
 
 
 ### Selecting calendars
 
-The list of calendars currently displayed is shown to the left of the page, in ![](../../attachments/57769989/69896494.png)
+The list of calendars currently displayed is shown to the left of the page, in ![](../../../attachments/57769989/69896494.png)
 
-- To **add** a calendar, type its name in the text box and choose the calendar suggested by autocomplete:![](../../attachments/57770444/72188575.png)
-- To **hide** a calendar temporarily, click its name in the list: the name becomes grayed out and events are no longer displayed:![](../../attachments/57770444/72188574.png)
-- To **remove** a calendar, click the color icon opposite its name, then click "Remove":![](../../attachments/57770444/72188615.png)
+- To **add** a calendar, type its name in the text box and choose the calendar suggested by autocomplete:![](../../../attachments/57770444/72188575.png)
+- To **hide** a calendar temporarily, click its name in the list: the name becomes grayed out and events are no longer displayed:![](../../../attachments/57770444/72188574.png)
+- To **remove** a calendar, click the color icon opposite its name, then click "Remove":![](../../../attachments/57770444/72188615.png)
 
 
 ## Working with meetings
@@ -86,8 +86,8 @@ E.g. if John Doe wants to create a new meeting in John Smith's calendar:
 - the user "Smith" must grant the right "Can edit my events" to the user "Doe"
 - Doe displays Smith's calendar 
 - Doe creates an event, selecting Smith
-    - in the "Calendar" drop-down list – when quick-creating an event:![](../../attachments/57770444/72188589.png) Note: the event color changes immediately and takes the color of J. Smith's events
-    - in the "Organizer" drop-down list -- when using the detailed event creation form:![](../../attachments/57770444/72188587.png)
+    - in the "Calendar" drop-down list – when quick-creating an event:![](../../../attachments/57770444/72188589.png) Note: the event color changes immediately and takes the color of J. Smith's events
+    - in the "Organizer" drop-down list -- when using the detailed event creation form:![](../../../attachments/57770444/72188587.png)
 
 
 ### Invitations and notifications
@@ -107,8 +107,8 @@ Changes made to tags or reminders are considered personal and are not notified t
 
 :::
 
-To find out more, please refer to the [L'agenda](/Guide_de_l_utilisateur/L_agenda/) section.
-You might want to look closely at the pages on [Events](/Guide_de_l_utilisateur/L_agenda/Les_événements/) et [Organizing Meetings](/Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion/).
+To find out more, please refer to the [L'agenda](/old/Guide_de_l_utilisateur/L_agenda/) section.
+You might want to look closely at the pages on [Events](/old/Guide_de_l_utilisateur/L_agenda/Les_événements/) et [Organizing Meetings](/old/Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion/).
 
 
 :::info
@@ -133,7 +133,7 @@ If participant choose not to send a notification to the organizer, only their ve
 As a meeting's information is gathered by organizers only, **a participant can only see other participants' statuses **according to the latest version sent by the organizer** **(through an invitation or modification). To see up-to-date participant statuses, you must view the meeting in the organizer's calendar (provided they have granted you reading rights to their calendar):
 
 
-![](../../attachments/57770444/72188619.png)
+![](../../../attachments/57770444/72188619.png)
 
 
 The same meeting as viewed by John Smith on the organizer's calendar and on his own.
@@ -147,7 +147,7 @@ As a result, to be able to create an event in a resource's calendar, users must 
 
 User with resource booking rights only must create an event in their own calendar and invite the resource.
 
-Resource booking features also allows, in certain cases, automatic bookings or prevents overbooking. To find out more, go to the page about [resources](/Guide_de_l_utilisateur/Les_ressources/).
+Resource booking features also allows, in certain cases, automatic bookings or prevents overbooking. To find out more, go to the page about [resources](/old/Guide_de_l_utilisateur/Les_ressources/).
 
 ### Domain calendars
 
@@ -161,23 +161,23 @@ Domain calendars are considered as entities that provide information such as pub
 
 Domain calendars can be used for:
 
-- **information purposes**, i.e. for users to view information.![](../../attachments/57770444/72188586.png) **Domain calendars are a good way showing information.** E.g. for a marketing calendar showing the trade shows the sales team is due to attend, or a town council's calendar showing planned meetings and events.
-- **operational purposes**, to create events for users.![](../../attachments/57770444/72188586.png) ** You need to use a [resource](/Guide_de_l_utilisateur/Les_ressources/) calendar to do this.** E.g. for an on-call duty calendar: create a weekly event "weekend duty" and invite the user concerned each week. This allows you to centralize information and allows users to accept or reject invitations and show their availability.
+- **information purposes**, i.e. for users to view information.![](../../../attachments/57770444/72188586.png) **Domain calendars are a good way showing information.** E.g. for a marketing calendar showing the trade shows the sales team is due to attend, or a town council's calendar showing planned meetings and events.
+- **operational purposes**, to create events for users.![](../../../attachments/57770444/72188586.png) ** You need to use a [resource](/old/Guide_de_l_utilisateur/Les_ressources/) calendar to do this.** E.g. for an on-call duty calendar: create a weekly event "weekend duty" and invite the user concerned each week. This allows you to centralize information and allows users to accept or reject invitations and show their availability.
 
 
 ## Multiple calendars
 
-BlueMind users can create and use as many personal calendars as they like and manage how they are [shared](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/) the same way they would their default calendar.
+BlueMind users can create and use as many personal calendars as they like and manage how they are [shared](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/) the same way they would their default calendar.
 
-![](../../attachments/57770078/69895218.png)
+![](../../../attachments/57770078/69895218.png)
 
 ### Creating a new calendar
 
 To create a new calendar:
 
 - go to preferences > Calendar section > "My calendars" tab
-- in the "new calendar" section at the top of the tab, select the "Simple" calendar type and name it:![](../../attachments/57770444/72188597.png)
-- click "Add" and the calendar is added to your list of calendars:![](../../attachments/57770444/72188595.png)
+- in the "new calendar" section at the top of the tab, select the "Simple" calendar type and name it:![](../../../attachments/57770444/72188597.png)
+- click "Add" and the calendar is added to your list of calendars:![](../../../attachments/57770444/72188595.png)
 
 
 ### Editing a calendar
@@ -185,7 +185,7 @@ To create a new calendar:
 To edit a calendar's name:
 
 - go to preferences > Calendar section > "My calendars" tab
-- in the "Calendars" section, click the calendar's name to open the text box and enable the action buttons:![](../../attachments/57770444/72188593.png)
+- in the "Calendars" section, click the calendar's name to open the text box and enable the action buttons:![](../../../attachments/57770444/72188593.png)
 - Enter the new name and 
     - confirm with enter or by clicking the check mark at the end of the text box
     - cancel by clicking the "x" at the end of the text box
@@ -196,7 +196,7 @@ To edit a calendar's name:
 To delete a calendar:
 
 - go to preferences > Calendar section > "My calendars" tab
-- in the "Calendars" section, click the trash icon ![](../../attachments/57769989/69896481.png) at the end of the row
+- in the "Calendars" section, click the trash icon ![](../../../attachments/57769989/69896481.png) at the end of the row
 
 
 :::info
@@ -219,7 +219,7 @@ Availability on default user calendars cannot be disabled. To avoid this, that b
 Once you've selected the calendar(s), fill in the "freebusy sharing" form:
 
 - either by enabling public share which makes availability visible to all domain users
-- or by specifying "share with specific people or group":![](../../attachments/57770444/72188591.png)
+- or by specifying "share with specific people or group":![](../../../attachments/57770444/72188591.png)
 
 
 Sharing can be set as:
@@ -232,17 +232,17 @@ Sharing can be set as:
 
 To print the current view, open the Tools menu at the top right of the main display area:
 
-![](../../attachments/57770148/72188549.png)
+![](../../../attachments/57770148/72188549.png)
 
 In the print dialog box, you can choose to print the current view as a calendar or as a list, a preview the selection is shown:
 
-![](../../attachments/57770444/72188607.png)
+![](../../../attachments/57770444/72188607.png)
 
-The weekly view shown above produces the following pdf file: [calendarSemaine.pdf](../../attachments/57770444/72188584.pdf)
+The weekly view shown above produces the following pdf file: [calendarSemaine.pdf](../../../attachments/57770444/72188584.pdf)
 
-![](../../attachments/57770444/72188605.png)
+![](../../../attachments/57770444/72188605.png)
 
-The list view shown above produces the following pdf file: [calendarListe.pdf](../../attachments/57770444/72188585.pdf)
+The list view shown above produces the following pdf file: [calendarListe.pdf](../../../attachments/57770444/72188585.pdf)
 
 Click "Save" to download the file.
 
@@ -260,22 +260,22 @@ Click "Save" to download the file.
 
 ICS exporting and importing is available from the Tools menu at the top right of the main display area:
 
-![](../../attachments/57770444/72188609.png)
+![](../../../attachments/57770444/72188609.png)
 
 ### ICS Export
 
 The dialog box that opens allows you to select the calendar and the events you want to export. By clicking "Export", you are offered to download or open the corresponding ICS file depending on the user's environment configuration:
 
-![](../../attachments/57770444/72188603.png)
+![](../../../attachments/57770444/72188603.png)
 
 ### ICS Import 
 
 The dialog box that opens allows you look for a file on your computer and select the calendar in which you want to import the events. You can choose from all the calendars you have write access to:
 
-![](../../attachments/57770444/72188601.png)
+![](../../../attachments/57770444/72188601.png)
 
 ## ICS Synchronization
 
-See [External Calendars](/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes/)
+See [External Calendars](/old/Guide_de_l_utilisateur/L_agenda/Les_calendriers_externes/)
 
 

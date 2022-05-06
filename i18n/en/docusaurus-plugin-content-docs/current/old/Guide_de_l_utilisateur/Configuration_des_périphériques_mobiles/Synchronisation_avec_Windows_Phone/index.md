@@ -10,7 +10,7 @@ position: 70
 
 ActiveSync synchronization is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars while IMAP is restricted to messages.
 
-To find out more, go to the page [Synchronisation des périphériques externes](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
+To find out more, go to the page [Synchronisation des périphériques externes](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
 
  
 
@@ -78,13 +78,13 @@ Barring special cases, the settings are as follows:
 
 Once this has been corrected, a connection with the server should be established; Windows Phone performs an initial synchronization and the account is shown in settings:
 
-![](https://forge.blue-mind.net/confluence/download/attachments/8552776/windowsphone_08-09_en.png?version=2&modificationDate=1410530128470&api=v2)
+![](https://forge.blue-mind.net/confluence/downlo../../attachments/8552776/windowsphone_08-09_en.png?version=2&modificationDate=1410530128470&api=v2)
 
 ### Selecting which items to synchronize
 
 Once your account is set up correctly, you can customize its name, select which items to synchronize and how often (as items arrive, every 30 mins, 1 hour, etc. or for an extended period e.g. the last 7 days, the last month, etc.):
 
-![](https://forge.blue-mind.net/confluence/download/attachments/8552776/windowsphone_10_en.png?version=2&modificationDate=1410530138790&api=v2)
+![](https://forge.blue-mind.net/confluence/downlo../../attachments/8552776/windowsphone_10_en.png?version=2&modificationDate=1410530138790&api=v2)
 
 Access to BlueMind Mail is shown on the home screen and shows the number of unread messages if any:
 
@@ -93,7 +93,7 @@ Access to BlueMind Mail is shown on the home screen and shows the number of unre
 All account data is synchronized and available: messages, contacts, calendar:
 
 
-![](../../../attachments/57771136/57771139.png)
+![](../../../../attachments/57771136/57771139.png)
 
 ## Forcing the calendar to refresh
 
@@ -104,7 +104,7 @@ To force the calendar to synchronize:
 - Tap "Synchronize" in the menu that appears:
 
 
-![](../../../attachments/57771136/57771137.png)
+![](../../../../attachments/57771136/57771137.png)
 
 
  

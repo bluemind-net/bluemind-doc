@@ -41,16 +41,16 @@ Wenn Sie nach dem Erstellen des BlueMind EAS-Kontos exportieren, exportieren Sie
 Nachdem die Datei erzeugt wurde, senden Sie sie per E-Mail an die Adresse des Benutzers.
 
 
-    - Wenn Sie keine Anwendung eines Drittanbieters verwenden oder nicht alle Kontakte exportieren möchten, kann jeder Kontakt einzeln exportiert werden.Drücken Sie in der Anwendung „Kontakte“ auf jeden zu exportierenden Kontaktdatensatz auf „Diesen Datensatz senden“ und dann auf „Per E-Mail senden“. Eine .vcf-Datei wird an eine neue Nachricht angehängt, die an die Adresse des Benutzers gesendet werden muss.![](../../../attachments/57771116/57771120.png)
+    - Wenn Sie keine Anwendung eines Drittanbieters verwenden oder nicht alle Kontakte exportieren möchten, kann jeder Kontakt einzeln exportiert werden.Drücken Sie in der Anwendung „Kontakte“ auf jeden zu exportierenden Kontaktdatensatz auf „Diesen Datensatz senden“ und dann auf „Per E-Mail senden“. Eine .vcf-Datei wird an eine neue Nachricht angehängt, die an die Adresse des Benutzers gesendet werden muss.![](../../../../attachments/57771116/57771120.png)
 1. Anmeldung über einen Browser bei BlueMind
 2. Öffnen Sie die Nachricht(en), welche die zu importierenden Dateien enthalten, und speichern Sie diese Dateien auf dem Computer
-3. Gehen Sie zur Anwendung Kontakte und [importieren Sie die Datei](/Guide_de_l_utilisateur/Les_contacts/)
-4. Wenn es noch nicht existiert, [erstellen Sie das entsprechende Benutzerkonto](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/) auf dem IOS-Gerät
+3. Gehen Sie zur Anwendung Kontakte und [importieren Sie die Datei](/old/Guide_de_l_utilisateur/Les_contacts/)
+4. Wenn es noch nicht existiert, [erstellen Sie das entsprechende Benutzerkonto](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/) auf dem IOS-Gerät
 5. Stellen Sie sicher, dass die Synchronisation der Kontakte aktiviert wurde: 
     - Nach der Erstellung bei der Auswahl der zu synchronisierenden Elemente (siehe Link oben zur Erstellung eines Benutzers)
-    - Wenn das Konto bereits existiert, gehen Sie zu den Einstellungen und wählen Sie das Konto aus:![](../../../attachments/57771116/57771122.png)
+    - Wenn das Konto bereits existiert, gehen Sie zu den Einstellungen und wählen Sie das Konto aus:![](../../../../attachments/57771116/57771122.png)
 6. Um spätere Duplikate zu vermeiden, wählen Sie das Löschen der Kontakte, wenn das Gerät dies bei aktivierter Synchronisation anbietet:
-![](../../../attachments/57771116/57771118.png)
+![](../../../../attachments/57771116/57771118.png)
 
 
 :::tip

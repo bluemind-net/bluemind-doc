@@ -1,12 +1,12 @@
 ---
-title: "STAGING"
+title: "old"
 confluence_id: 86762455
 position: 38
 ---
-# STAGING
+# old
 
 
 :::info
-ESPACE DE MISE À JOUR DE LA DOCUMENTATION
+Ancienne documentation utilisateur, conservée temporairement pour référence
 :::
 

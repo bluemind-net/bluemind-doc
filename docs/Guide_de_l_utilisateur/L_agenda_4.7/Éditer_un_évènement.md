@@ -12,17 +12,17 @@ Il est également possible de **dupliquer** un évènement. Cela permet de réut
 Pour réaliser l'une de ces actions, **Cliquer sur l'évènement** dans la zone principale de l'agenda, puis **cliquer sur l'action souhaitée** :
 
 
-![](../../../attachments/86762830/86762842.png)
+![](../../attachments/86762830/86762842.png)
 
 ## Éditer un évènement individuel
 
 - **Supprimer** : supprime définitivement l'évènement du calendrier
 
 
-- **Modifier les détails** : ouvre la [fiche de création](/STAGING/Guide_de_l_utilisateur_4.7/L_agenda_4.7/Créer_un_évènement/) de l'évènement => Apporter les modifications souhaitées et enregistrer
+- **Modifier les détails** : ouvre la [fiche de création](/Guide_de_l_utilisateur/L_agenda_4.7/Créer_un_évènement/) de l'évènement => Apporter les modifications souhaitées et enregistrer
 
 
-- **Dupliquer **: ouvre une nouvelle [fiche de création](/STAGING/Guide_de_l_utilisateur_4.7/L_agenda_4.7/Créer_un_évènement/) d'évènement contenant les mêmes informations, organisateur et propriétés que l'évènement sélectionné => Apporter les modifications souhaitées et enregistrer pour créer le nouvel évènement
+- **Dupliquer **: ouvre une nouvelle [fiche de création](/Guide_de_l_utilisateur/L_agenda_4.7/Créer_un_évènement/) d'évènement contenant les mêmes informations, organisateur et propriétés que l'évènement sélectionné => Apporter les modifications souhaitées et enregistrer pour créer le nouvel évènement
 
 
 ## Éditer une réunion en tant qu'organisateur
@@ -30,7 +30,7 @@ Pour réaliser l'une de ces actions, **Cliquer sur l'évènement** dans la zone 
 - **Supprimer** : supprime la réunion du calendrier de l'organisateur et des participants. Ces derniers reçoivent une notification par e-mail indiquant l'annulation de la réunion.
 
 
-- **Modifier les détails** : ouvre la [fiche de création](/STAGING/Guide_de_l_utilisateur_4.7/L_agenda_4.7/Créer_un_évènement/) de la réunion 
+- **Modifier les détails** : ouvre la [fiche de création](/Guide_de_l_utilisateur/L_agenda_4.7/Créer_un_évènement/) de la réunion 
 => Apporter les modifications souhaitées et cliquer sur "Envoyer" pour enregistrer. Les participants reçoivent une notification par e-mail et la réunion se met à jour dans leur calendrier
 
 
@@ -42,12 +42,12 @@ Lorsque la seule modification apportée à une réunion est l’**ajout et/ou la
 - d'envoyer une notification uniquement aux participants ajoutés ou supprimés
 
 
-![](../../../attachments/86762830/86762840.png)
+![](../../attachments/86762830/86762840.png)
 
 :::
 
 
-- **Dupliquer **: ouvre une nouvelle [fiche de création](/STAGING/Guide_de_l_utilisateur_4.7/L_agenda_4.7/Créer_un_évènement/) d'évènement contenant les mêmes informations, organisateur, propriétés et participants que l'évènement sélectionné 
+- **Dupliquer **: ouvre une nouvelle [fiche de création](/Guide_de_l_utilisateur/L_agenda_4.7/Créer_un_évènement/) d'évènement contenant les mêmes informations, organisateur, propriétés et participants que l'évènement sélectionné 
 => Apporter les modifications souhaitées et cliquer sur "Envoyer" pour enregistrer créer la nouvelle réunion
 
 
@@ -73,7 +73,7 @@ Voir aussi [Éditer une réunion en tant qu'invité](https://forge.bluemind.net/
 
 Pour les évènement récurrents, l'utilisateur peut choisir les évènements qu'il souhaite supprimer ou modifier :
 
-![](../../../attachments/86762830/86762839.png)
+![](../../attachments/86762830/86762839.png)
 
 
 - **Uniquement cet événement** : seul l'événement sur lequel l'utilisateur a cliqué sera modifié, il deviendra une exception de la série qui reste inchangée
@@ -84,21 +84,21 @@ Pour les évènement récurrents, l'utilisateur peut choisir les évènements qu
 - **Supprimer** : supprime la série d'évènements ou l'évènement sélectionné du calendrier de l'utilisateur et des participants pour les [réunions](#editerunevenement-reunion). Ces derniers reçoivent une notification par e-mail indiquant l'annulation de la réunion.
 
 
-- **Modifier les détails** : ouvre la [fiche de création](/STAGING/Guide_de_l_utilisateur_4.7/L_agenda_4.7/Créer_un_évènement/) de l'évènement => Apporter les modifications souhaitées sur la série d'évènements ou l'évènement sélectionné et enregistrer ou cliquer sur "Envoyer" pour les [réunions](#editerunevenement-reunion)
+- **Modifier les détails** : ouvre la [fiche de création](/Guide_de_l_utilisateur/L_agenda_4.7/Créer_un_évènement/) de l'évènement => Apporter les modifications souhaitées sur la série d'évènements ou l'évènement sélectionné et enregistrer ou cliquer sur "Envoyer" pour les [réunions](#editerunevenement-reunion)
 
 
-- **Dupliquer** : ouvre une nouvelle [fiche de création](/STAGING/Guide_de_l_utilisateur_4.7/L_agenda_4.7/Créer_un_évènement/) d'évènement contenant les mêmes informations, organisateur, propriétés et participants que l'évènement sélectionné => Choisir de dupliquer l'ensemble des évènements ou une seule occurrence
+- **Dupliquer** : ouvre une nouvelle [fiche de création](/Guide_de_l_utilisateur/L_agenda_4.7/Créer_un_évènement/) d'évènement contenant les mêmes informations, organisateur, propriétés et participants que l'évènement sélectionné => Choisir de dupliquer l'ensemble des évènements ou une seule occurrence
 
 
-![](../../../attachments/86762830/86762832.png)
+![](../../attachments/86762830/86762832.png)
 => Apporter les modifications souhaitées et enregistrer pour créer un nouvel évènement ou cliquer sur "Envoyer" pour créer une nouvelle [réunion](#editerunevenement-reunion)
 
 
 ## Consulter l'historique
 
-Il est possible de consulter l'historique de création et de modifications d'un évènement depuis sa fiche, en cliquant sur ![](../../../attachments/86762830/86762841.png) puis **Historique**
+Il est possible de consulter l'historique de création et de modifications d'un évènement depuis sa fiche, en cliquant sur ![](../../attachments/86762830/86762841.png) puis **Historique**
 
-![](../../../attachments/86762830/86762834.png)
+![](../../attachments/86762830/86762834.png)
 
 
 L'historique renseigne sur :

@@ -29,7 +29,7 @@ Les droits possibles sont :
 
 Pour déléguer son agenda, se rendre dans la gestion des préférences utilisateur (« Mon compte ») > rubrique Agenda > onglet Gestion des partages :
 
-![](../../attachments/57770530/57770540.png)
+![](../../../attachments/57770530/57770540.png)
 
 1. Sélectionner le calendrier souhaité.
 
@@ -79,19 +79,19 @@ Le tableau suivant indique les fonctionnalités qui seront accessibles aux utili
 
 | Fonctionnalité\Droit accordé | Invitation | Invitation+Voir | Modifier | Modifier+Gérer |
 | --- | --- | --- | --- | --- |
-| Inviter | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| S'abonner au calendrier | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Voir les rendez-vous publics | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Voir les rendez-vous privés sans détails | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Voir les détails des rendez-vous privés | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| Voir les alertes d'invitation en attente | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| Accepter/Refuser une invitation à un rdv public | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Accepter/Refuser une invitation à un rdv privé | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| Créer un événement public | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Créer un événement privé | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Modifier un événement public | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) | ![](../../attachments/57770530/57770532.png) |
-| Modifier un événement privé | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
-| Affecter/Supprimer un droit de partage à un tiers | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770531.png) | ![](../../attachments/57770530/57770532.png) |
+| Inviter | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| S'abonner au calendrier | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Voir les rendez-vous publics | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Voir les rendez-vous privés sans détails | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Voir les détails des rendez-vous privés | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| Voir les alertes d'invitation en attente | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| Accepter/Refuser une invitation à un rdv public | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Accepter/Refuser une invitation à un rdv privé | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| Créer un événement public | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Créer un événement privé | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Modifier un événement public | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) | ![](../../../attachments/57770530/57770532.png) |
+| Modifier un événement privé | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
+| Affecter/Supprimer un droit de partage à un tiers | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770531.png) | ![](../../../attachments/57770530/57770532.png) |
 
 
 :::tip
@@ -110,9 +110,9 @@ L'abonnement à un agenda n'est pas nécessaire pour faire apparaître celui-ci 
 
 **Pour afficher l'agenda souhaité** :
 
-- ![](../../attachments/57769989/69896473.png) dans le champs "Ajouter un calendrier", saisir le nom de l'utilisateur recherché.L'autocomplétion propose les utilisateurs correspondant au cours de la frappe
-- Sélectionner dans la liste proposée le nom correspondant :![](../../attachments/57770530/57770547.png)
-- Le calendrier sélectionné s'affiche alors avec une couleur différente de celle du ou des agendas déjà affichés :![](../../attachments/57770530/57770545.png)
+- ![](../../../attachments/57769989/69896473.png) dans le champs "Ajouter un calendrier", saisir le nom de l'utilisateur recherché.L'autocomplétion propose les utilisateurs correspondant au cours de la frappe
+- Sélectionner dans la liste proposée le nom correspondant :![](../../../attachments/57770530/57770547.png)
+- Le calendrier sélectionné s'affiche alors avec une couleur différente de celle du ou des agendas déjà affichés :![](../../../attachments/57770530/57770545.png)
 
 
 :::info
@@ -127,7 +127,7 @@ Règles spécifiques aux groupes
 
 **Pour masquer temporairement un des agendas affichés**, cliquer sur l'utilisateur correspondant dans la liste, il apparait alors grisé et son agenda n'est plus visible :
 
-![](../../attachments/57770530/57770543.png)
+![](../../../attachments/57770530/57770543.png)
 
 ** Pour changer la couleur d'un agenda :**
 
@@ -135,11 +135,11 @@ Il est possible de personnaliser les couleurs des agendas affichés et ainsi fai
 
 Pour cela, déplier le menu en cliquant sur l'icône de couleur en fin de ligne dans la liste des agendas affichés et choisir la couleur voulue :
 
-![](../../attachments/57770530/57770538.png)
+![](../../../attachments/57770530/57770538.png)
 
 Pour plus de précision, cliquer sur "Choose a personalized color..." afin d'afficher la palette de choix de couleur :
 
-![](../../attachments/57770530/57770536.png)
+![](../../../attachments/57770530/57770536.png)
 
 
 :::tip
@@ -150,7 +150,7 @@ La couleur est automatiquement sauvegardée pour l'affichage de cet agenda, elle
 
 **Pour supprimer de l'affichage un des agendas**, cliquer sur l'icône de couleur en fin de ligne dans la liste des agendas affichés pour faire apparaître le menu et cliquer sur "Remove" :
 
-![](../../attachments/57770530/57770535.png)
+![](../../../attachments/57770530/57770535.png)
 
 ### Dans Outlook et les appareils mobiles
 
@@ -162,7 +162,7 @@ Ceci peut être fait directement directement depuis l'email d'information reçu,
 
 L'administrateur peut [créer des agendas de domaine](/Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines/), qui sont des agendas commun à un ou plusieurs utilisateurs, en consultation ou en modification selon les droits qui leur sont attribués.
 
-S'il a au moins le droit de consultation, un utilisateur peut alors y accéder de la même façon qu'à l'agenda d'un utilisateur : par le champs de recherche de la vue principale ![](../../attachments/57769989/69896473.png) (voir ci-dessus) soit par la gestion de ses abonnements (voir [Préférences de l'agenda](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)).
+S'il a au moins le droit de consultation, un utilisateur peut alors y accéder de la même façon qu'à l'agenda d'un utilisateur : par le champs de recherche de la vue principale ![](../../../attachments/57769989/69896473.png) (voir ci-dessus) soit par la gestion de ses abonnements (voir [Préférences de l'agenda](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)).
 
 ## Partager vers l'extérieur
 
@@ -181,7 +181,7 @@ Pour cela :
 
 - se rendre dans la gestion des préférences > section Agenda > onglet « Gestion des partages »
 - dans la liste déroulante en haut de page, sélectionner l'agenda concerné
-- cocher la case correspondant au type de partage à activer (public ou privé) :![](../../attachments/57770530/57770534.png)
+- cocher la case correspondant au type de partage à activer (public ou privé) :![](../../../attachments/57770530/57770534.png)
 
 - **cliquer sur Enregistrer pour prendre en compte l'activation**
 

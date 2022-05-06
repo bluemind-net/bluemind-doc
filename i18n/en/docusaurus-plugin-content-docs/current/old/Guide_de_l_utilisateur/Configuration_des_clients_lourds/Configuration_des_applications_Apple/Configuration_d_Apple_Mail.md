@@ -30,11 +30,11 @@ There are several ways to create a new email account:
 
 Select "Add Other Mail Account":
 
-![](../../../attachments/57770866/57770872.png)
+![](../../../../attachments/57770866/57770872.png)
 
 Enter the information requested:
 
-![](../../../attachments/57770866/57770871.png)
+![](../../../../attachments/57770866/57770871.png)
 
 - Full Name: this is the name that will appear for the account and in sent messages, you a free to use any name.
 - Email Address: the email address provided to you
@@ -45,7 +45,7 @@ Click "Next" .
 
 Check and correct the account connection information if necessary:
 
-![](../../../attachments/57770866/57770870.png)
+![](../../../../attachments/57770866/57770870.png)
 
 - Mail Server: The server address must be provided to you by your administrator. Typically, it is in the form &lt;server-name>.[domain.com](http://domaine.com) 
 - User Name: the user name must be the **full user name, including the **domain name****.
@@ -60,7 +60,7 @@ Click "Next".
 
 An alert warns you that the connection isn't secure, which isn't entirely true:
 
-![](../../../attachments/57770866/57770869.png)
+![](../../../../attachments/57770866/57770869.png)
 
  
 
@@ -68,11 +68,11 @@ Click "Connect" to confirm that you want to connect to the server.
 
 Check and correct the outgoing server connection information if necessary:
 
-![](../../../attachments/57770866/57770868.png)
+![](../../../../attachments/57770866/57770868.png)
 
 Validate by clicking "Create" and the mail account is created.
 
-![](../../../attachments/57770866/57770867.png)
+![](../../../../attachments/57770866/57770867.png)
 
 
  

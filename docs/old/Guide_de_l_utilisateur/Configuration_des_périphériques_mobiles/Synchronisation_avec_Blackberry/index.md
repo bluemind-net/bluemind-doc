@@ -37,19 +37,19 @@ Seuls les périphériques équipés de BlackBerry OS 10 (Q5, Q10) sont supporté
 
 Dans les paramètres systèmes, se rendre dans «Comptes» :
 
-![](../../../attachments/57771034/57771054.png)
+![](../../../../attachments/57771034/57771054.png)
 
 Ajouter un compte "Messagerie électronique, calendrier et contacts" :
 
-![](../../../attachments/57771034/57771053.png)
+![](../../../../attachments/57771034/57771053.png)
 
 Choisir un type de compte Microsoft&lt;sup>®&lt;/sup> Exchange ActiveSync :
 
-![](../../../attachments/57771034/57771052.png)
+![](../../../../attachments/57771034/57771052.png)
 
 Renseigner les informations de compte et serveur :
 
-![](../../../attachments/57771034/57771044.png)
+![](../../../../attachments/57771034/57771044.png)
 
 Sauf cas particulier :
 
@@ -62,7 +62,7 @@ Sauf cas particulier :
 
 Sur l'écran suivant,activer ou désactiver les éléments à synchroniser :
 
-![](../../../attachments/57771034/57771049.png)
+![](../../../../attachments/57771034/57771049.png)
 
 Cliquer enfin sur «Terminé»
 
@@ -77,17 +77,17 @@ Seuls les carnets d'adresses personnels sont synchronisés avec les contacts du 
 
 Le système enregistre votre configuration et votre compte apparaît :
 
-![](../../../attachments/57771034/57771045.png)
+![](../../../../attachments/57771034/57771045.png)
 
 Vous pouvez dès lors consulter vos emails et votre calendrier sur votre Blackberry !
 
-![](../../../attachments/57771034/57771046.png)
+![](../../../../attachments/57771034/57771046.png)
 
 ## Forcer le rafraichissement de l'agenda
 
 Afin de forcer la synchronisation de l'agenda, depuis l'application Calendrier faire apparaître le menu en bas à droite et appuyer sur «Actualiser» :
 
-![](../../../attachments/57771034/57771036.png)
+![](../../../../attachments/57771034/57771036.png)
 
 
  

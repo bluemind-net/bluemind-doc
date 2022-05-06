@@ -24,15 +24,15 @@ Certaines sections sont en cours de rédaction.
 
 Les préférences sont accessibles depuis le menu en haut à droite de la page :
 
-![](../../attachments/66096322/86743062.png)
+![](../../../attachments/66096322/86743062.png)
 
 ## Gérer le compte
 
-![](../../attachments/66096322/86743069.png)
+![](../../../attachments/66096322/86743069.png)
 
 ## Préférences de la messagerie
 
-![](../../attachments/66096322/86743059.png)
+![](../../../attachments/66096322/86743059.png)
 
 ### Général
 
@@ -40,17 +40,17 @@ Les préférences sont accessibles depuis le menu en haut à droite de la page :
 
 L'affichage des messages permet d’organiser les messages par conversation.
 
-![](../../attachments/66096322/86743058.png)
+![](../../../attachments/66096322/86743058.png)
 
 #### Densité de l'affichage
 
 La densité d'affichage permet de paramétrer la liste des messages afin d'afficher plus ou moins d'informations et ainsi avoir un affichage plus complet ou diminuer les informations mais afficher plus de messages dans le même espace :
 
-![](../../attachments/66096322/86743077.png)
+![](../../../attachments/66096322/86743077.png)
 
 #### Signature
 
-![](../../attachments/66096322/86743050.png)
+![](../../../attachments/66096322/86743050.png)
 
 L'option "Ajouter la signature automatiquement" permet d'activer ou désactiver les signatures paramétrées dans les [identités](/Guide_de_l_utilisateur/La_messagerie/Les_identités/) du compte.
 
@@ -62,7 +62,7 @@ Les contenus distants sont des images ou des pixels invisibles qui ne sont pas i
 
 Afin de préserver votre vie privée, BlueMind ne télécharge par défaut que les contenus provenant d'émetteurs connus. Bien de que fortement déconseillé, il est possible d'activer le téléchargement de tous les contenus.
 
-![](../../attachments/66096322/86743063.png)
+![](../../../attachments/66096322/86743063.png)
 
 Lorsque l'option "Faire confiance à tous les contenus" est désactivée, une alerte apparaît proposant 2 options :
 
@@ -71,7 +71,7 @@ Lorsque l'option "Faire confiance à tous les contenus" est désactivée, une al
 - toujours faire confiance à cet expéditeur - dans ce cas, l’émetteur s'ajoutera dans les "[contacts collectés](/Guide_de_l_utilisateur/Les_contacts/)" et sera alors considéré comme "connu"
 
 
-![](../../attachments/66096322/86743061.png)
+![](../../../attachments/66096322/86743061.png)
 
 #### Capacité de stockage
 
@@ -81,7 +81,7 @@ Lorsque l'option "Faire confiance à tous les contenus" est désactivée, une al
 
 #### Filtres de messagerie
 
-![](../../attachments/66096322/86743057.png)
+![](../../../attachments/66096322/86743057.png)
 
 Les filtres permettent d'appliquer des règles de tri et actions à effectuer automatiquement aux nouveaux messages entrants.
 
@@ -91,7 +91,7 @@ Les filtres peuvent être également être activés ou désactivés, modifiés e
 
 Afin de créer un nouveau filtre, cliquez sur "+Ajouter un filtre" pour ouvrir la fenêtre popup de création
 
-![](../../attachments/66096322/86743056.png)
+![](../../../attachments/66096322/86743056.png)
 
 - Donner un nom au filtre afin de pouvoir le reconnaître facilement
 
@@ -104,16 +104,16 @@ Afin de créer un nouveau filtre, cliquez sur "+Ajouter un filtre" pour ouvrir l
 - Cocher l'option "Filtre terminal" pour que ce filtre soit le dernier de la liste des filtres créés à s'appliquer
 
 
-![](../../attachments/66096322/86743055.png) Dans ce cas, tous les e-mails contenant "documentation BlueMind" dans leur objet, iront directement dans le dossier sélectionné, sauf s'ils sont envoyés par John Smith
+![](../../../attachments/66096322/86743055.png) Dans ce cas, tous les e-mails contenant "documentation BlueMind" dans leur objet, iront directement dans le dossier sélectionné, sauf s'ils sont envoyés par John Smith
 
 Il est possible de créer autant de filtres que nécessaire et de les ordonner. L'ordre est important.
-Les filtres seront en effet appliqués selon l'ordre défini.Pour modifier l'ordre des filtres, il suffit d'utiliser les flèches ![](../../attachments/66096322/86743051.png).
+Les filtres seront en effet appliqués selon l'ordre défini.Pour modifier l'ordre des filtres, il suffit d'utiliser les flèches ![](../../../attachments/66096322/86743051.png).
 Lorsqu'un filtre est un "Filtre terminal", tous les filtres situés en-dessous ne seront pas appliqués.
 
-![](../../attachments/66096322/86743052.png)
+![](../../../attachments/66096322/86743052.png)
 
-![](../../attachments/66096322/86743055.png) Dans ce cas, le filtre "Urgent" est un "filtre terminal". Lors de la réception d'un e-mail ayant pour "Urgent - Documentation BlueMind", celui-ci sera "marqué comme important" mais ne sera classé dans le dossier "Documentation BlueMind"
-À noter qu'il est également possible de modifier ![](../../attachments/66096322/86743054.png)ou supprimer ![](../../attachments/66096322/86743053.png) les filtres.
+![](../../../attachments/66096322/86743055.png) Dans ce cas, le filtre "Urgent" est un "filtre terminal". Lors de la réception d'un e-mail ayant pour "Urgent - Documentation BlueMind", celui-ci sera "marqué comme important" mais ne sera classé dans le dossier "Documentation BlueMind"
+À noter qu'il est également possible de modifier ![](../../../attachments/66096322/86743054.png)ou supprimer ![](../../../attachments/66096322/86743053.png) les filtres.
 ### Ma boite aux lettres
 
 ### Autres boites aux lettres
@@ -122,7 +122,7 @@ Lorsqu'un filtre est un "Filtre terminal", tous les filtres situés en-dessous n
 
 BlueMind permet de créer plusieurs "identités" pour un même compte, avec un libellé, une adresse mail et une signature différente pour chacune d'entre elles.
 
-![](../../attachments/66096322/86743067.png)
+![](../../../attachments/66096322/86743067.png)
 
 
 Une identité est créée par défaut par BlueMind. Pour la modifier, aller sur "Gérer" puis renseigner les champs : 
@@ -136,7 +136,7 @@ Une identité est créée par défaut par BlueMind. Pour la modifier, aller sur 
 - **Signature** : rédaction de la signature au format HTML, avec possibilité d'insérer les images, logos, etc.****
 
 
-![](../../attachments/66096322/86743066.png)
+![](../../../attachments/66096322/86743066.png)
 
 
 :::tip
@@ -151,14 +151,14 @@ Pour en savoir plus sur l'affectation des droits, consultez la page du [Guide de
 
 **"Ajouter une identité"** permet de créer d'autres identités avec, par exemple, une signature différente. Il est également possible de choisir l'identité par défaut, c'est-à-dire l'identité qui sera sélectionnée par défaut lors de la création d'un nouveau message.
 
-![](../../attachments/66096322/86743065.png)
+![](../../../attachments/66096322/86743065.png)
 
 
 Pour voir et sélectionner l'expéditeur (identité) lors de l'envoi de messages, cocher l'option **"Afficher en permanence le champs "De" (expéditeur)"**.
 
 **"Sélectionner automatiquement le champ "DE" (expéditeur)"** permet de préciser dans quel contexte l'application pourra choisir automatiquement l'identité la plus adaptée : jamais, uniquement pour les réponses ou pour les réponses et les nouveaux messages.
 
-![](../../attachments/66096322/86743064.png)
+![](../../../attachments/66096322/86743064.png)
 
 
 :::tip
@@ -173,6 +173,6 @@ Il est également possible d'afficher l'expéditeur (champs "De") de façon occa
 ## Préférences générales BlueMind
 
 Un lien en colonne de droite, sous le nom d'utilisateur, permet de basculer vers les [Paramètres utilisateur BlueMind](/Guide_de_l_utilisateur/Paramètres_utilisateur/) :
-![](../../attachments/66096322/86743060.png)
+![](../../../attachments/66096322/86743060.png)
 
 

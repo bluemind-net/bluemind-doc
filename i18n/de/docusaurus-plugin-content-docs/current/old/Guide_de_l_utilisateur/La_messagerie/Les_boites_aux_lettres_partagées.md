@@ -22,7 +22,7 @@ Andererseits gelten Antwort- und Weiterleitungsinformationen für alle Benutzer:
 
 Diese Funktionsweise eignet sich gut, um für eine Zusammenarbeit einen freigegebenen Posteingang (z. B. eine Mailbox "Kontakt") zu verwalten, der z. B. die Unterordner "Bearbeitet", "Gesendete Nachrichten" oder auch "Antwortvorlagen" enthält.
 
-![](../../attachments/57770342/72189527.png)
+![](../../../attachments/57770342/72189527.png)
 
 ## Verwaltung der Freigaben
 
@@ -39,7 +39,7 @@ In dieser Registerkarte gehen Sie wie folgt vor:
 1. Wählen Sie in der ersten Dropdown-Liste die Mailbox aus, deren Freigaben Sie verwalten möchten:
 
 
-![](../../attachments/57770342/72189530.png)
+![](../../../attachments/57770342/72189530.png)
 
 1. Vergeben Sie dann die gewünschten Berechtigungen entweder an alle Benutzer der Domain oder an bestimmte Benutzer oder Gruppen:
     - **Lesen**: Die Benutzer können die Nachrichten lesen.
@@ -49,9 +49,9 @@ In dieser Registerkarte gehen Sie wie folgt vor:
 3. **Klicken Sie dann auf "Speichern", damit die Änderungen berücksichtigt werden.**
 
 
-![](../../attachments/57769989/69896490.png) Die entsprechenden Benutzer erhalten dann per E-Mail eine Benachrichtigung, dass die Mailbox freigegeben wurde. Nach der nächsten Aktualisierung ihrer Benutzeroberfläche (möglicherweise muss hierfür die Verbindung getrennt/wiederhergestellt werden) erscheint die Mailbox dann im E-Mail-System in der Baumstruktur "Dossiers partagés" (Freigegebene Ordner):
+![](../../../attachments/57769989/69896490.png) Die entsprechenden Benutzer erhalten dann per E-Mail eine Benachrichtigung, dass die Mailbox freigegeben wurde. Nach der nächsten Aktualisierung ihrer Benutzeroberfläche (möglicherweise muss hierfür die Verbindung getrennt/wiederhergestellt werden) erscheint die Mailbox dann im E-Mail-System in der Baumstruktur "Dossiers partagés" (Freigegebene Ordner):
 
-![](../../attachments/57770342/72189515.png)Für detaillierte Informationen zur Funktionsweise des Formulars für die Freigabe siehe [Verwaltung der Freigaben](/Guide_de_l_utilisateur/Gestion_des_partages/).
+![](../../../attachments/57770342/72189515.png)Für detaillierte Informationen zur Funktionsweise des Formulars für die Freigabe siehe [Verwaltung der Freigaben](/old/Guide_de_l_utilisateur/Gestion_des_partages/).
 
 ## Verwendung einer freigegebenen Mailbox
 
@@ -60,7 +60,7 @@ In dieser Registerkarte gehen Sie wie folgt vor:
 Damit Sie stellvertretend für eine freigegebene Mailbox, d. h. mit der Adresse der Mailbox als Absender, Nachrichten verfassen können, ist erforderlich:
 
 - dass der Administrator oder ein Verwalter der Mailbox, Sie mindestens berechtigt, Nachrichten zu ändern,
-- dass Sie für sich [eine Identität erstellen](/Guide_de_l_utilisateur/La_messagerie/Les_identités/#Lesidentites-mailshare) und diese Mailbox als Absenderadresse wählen.
+- dass Sie für sich [eine Identität erstellen](/old/Guide_de_l_utilisateur/La_messagerie/Les_identités/#Lesidentites-mailshare) und diese Mailbox als Absenderadresse wählen.
 
 
 :::tip
@@ -87,10 +87,10 @@ Eine freigegebene Mailbox kann verwendet werden, um Nachrichten freizugeben, die
 
 Gehen Sie zunächst wie folgt vor:
 
-- Erstellen Sie die Nachricht und senden Sie sie an die Mailbox, wenn sie eine E-Mail-Adresse hat, oder kopieren (oder verschieben) Sie sie direkt aus dem Webmailer- oder E-Mail-Client (Outlook, Thunderbird usw.) in die Mailbox:![](../../attachments/57770342/72189525.png)
-- Die Nachricht ist in der freigegebenen Mailbox für alle Benutzer der Mailbox sichtbar und kann durch einfaches Ziehen und Ablegen in einem bestimmten Verzeichnis platziert werden, damit sie leichter gefunden wird:![](../../attachments/57770342/72189523.png)
+- Erstellen Sie die Nachricht und senden Sie sie an die Mailbox, wenn sie eine E-Mail-Adresse hat, oder kopieren (oder verschieben) Sie sie direkt aus dem Webmailer- oder E-Mail-Client (Outlook, Thunderbird usw.) in die Mailbox:![](../../../attachments/57770342/72189525.png)
+- Die Nachricht ist in der freigegebenen Mailbox für alle Benutzer der Mailbox sichtbar und kann durch einfaches Ziehen und Ablegen in einem bestimmten Verzeichnis platziert werden, damit sie leichter gefunden wird:![](../../../attachments/57770342/72189523.png)
 
-- Der zweite Schritt: Wenn ein Benutzer die gespeicherte Nachricht verwenden möchte, muss er sie nur im Webmailer auswählen und dann auf "Mehr..." klicken und auf "Als neue Nachricht öffnen" klicken:![](../../attachments/57770342/72189521.png)
+- Der zweite Schritt: Wenn ein Benutzer die gespeicherte Nachricht verwenden möchte, muss er sie nur im Webmailer auswählen und dann auf "Mehr..." klicken und auf "Als neue Nachricht öffnen" klicken:![](../../../attachments/57770342/72189521.png)
 
 
 :::info
@@ -107,9 +107,9 @@ Die Position der Unterschrift hängt von den Benutzereinstellungen und dem verwe
 
 Im Webmailer von BlueMind können Sie die Position der Unterschrift in den Benutzereinstellungen überprüfen/ändern, die Sie über das Symbol oben rechts auf dem Bildschirm erreichen:
 
-![](../../attachments/57770342/72189531.png)Rufen Sie dann unter Email > Erweiterte Email-Einstellungen > Nachrichtenerstellung auf:
+![](../../../attachments/57770342/72189531.png)Rufen Sie dann unter Email > Erweiterte Email-Einstellungen > Nachrichtenerstellung auf:
 
-![](../../attachments/57770342/72189517.png)
+![](../../../attachments/57770342/72189517.png)
 
 Wählen Sie folgende Einstellungen:
 
@@ -126,7 +126,7 @@ Um diese Optionen in Thunderbird zu ändern, rufen Sie das Menü Bearbeiten (Ext
 
 ## Abonnements und Software von Drittanbietern
 
-Ab Version 4.3 von BlueMind ist es möglich, Abonnements für freigegebene Mailboxen so zu verwalten, dass die gewünschten Mailboxen in einem Outlook-Client, der [mit MAPI angebunden ist](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/), oder auf mobilen Geräten, [die per EAS verbunden](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/) sind, angezeigt werden.
+Ab Version 4.3 von BlueMind ist es möglich, Abonnements für freigegebene Mailboxen so zu verwalten, dass die gewünschten Mailboxen in einem Outlook-Client, der [mit MAPI angebunden ist](/old/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/), oder auf mobilen Geräten, [die per EAS verbunden](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/) sind, angezeigt werden.
 
 
 :::info
@@ -137,10 +137,10 @@ Die Abonnements betreffen nur Tools von Drittanbietern, sie wirken sich nicht au
 
 Sobald eine Mailbox freigegeben wurde und Sie die Informationsmail erhalten haben (siehe oben):
 
-- Rufen Sie die Verwaltung der Einstellungen auf: Mein Konto > Email > Registerkarte "Abonnements":![](../../attachments/57770342/72189514.png)
-- Tippen Sie die ersten Buchstaben des Namens der gewünschten Mailbox in das Eingabefeld oben in der Registerkarte ein. Die automatische Vervollständigung schlägt die Mailboxen vor, die der Eingabe entsprechen und für Sie freigegeben wurden:![](../../attachments/57770342/72189513.png)
+- Rufen Sie die Verwaltung der Einstellungen auf: Mein Konto > Email > Registerkarte "Abonnements":![](../../../attachments/57770342/72189514.png)
+- Tippen Sie die ersten Buchstaben des Namens der gewünschten Mailbox in das Eingabefeld oben in der Registerkarte ein. Die automatische Vervollständigung schlägt die Mailboxen vor, die der Eingabe entsprechen und für Sie freigegeben wurden:![](../../../attachments/57770342/72189513.png)
 - Wählen Sie die gewünschte Mailbox aus, um sie der Liste hinzuzufügen. Die Mailbox wird standardmäßig mit aktiver Synchronisierung hinzugefügt:
-![](../../attachments/57770342/72189512.png)
+![](../../../attachments/57770342/72189512.png)
 
 
 :::info
@@ -156,7 +156,7 @@ Sobald eine Mailbox freigegeben wurde und Sie die Informationsmail erhalten habe
 
 :::info
 
-Ein Abonnement kann jederzeit durch den Benutzer geändert (Aktivierung/Deaktivierung der Synchronisierung) oder gelöscht werden (klicken Sie auf das Symbol ![](../../attachments/57769989/69896481.png)).
+Ein Abonnement kann jederzeit durch den Benutzer geändert (Aktivierung/Deaktivierung der Synchronisierung) oder gelöscht werden (klicken Sie auf das Symbol ![](../../../attachments/57769989/69896481.png)).
 
 :::
 

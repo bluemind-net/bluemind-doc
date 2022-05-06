@@ -22,14 +22,14 @@ Advanced settings allow you to customize how BlueMind Mail behaves and displays 
 
 To access advanced settings, in the user preferences go to Mail > * Email client advanced settings  *link:
 
-![](../../../attachments/57770374/57770397.png)
+![](../../../../attachments/57770374/57770397.png)
 
 
 :::tip
 
 You can also access advanced settings directly in webmail by clicking the gears menu at the bottom left of the folders list > Manage folders > Preferences:
 
-![](../../../attachments/57770374/57770395.png)
+![](../../../../attachments/57770374/57770395.png)
 
 :::
 
@@ -43,11 +43,11 @@ You can also access advanced settings directly in webmail by clicking the gears 
 
 Don't forget to accept your browser's validation request after you click the link. For example, with Firefox:
 
-![](../../../attachments/57770374/57770392.png)
+![](../../../../attachments/57770374/57770392.png)
 
 You can undo or customize this in Preferences > Applications > Content Type: mailto:
 
-![](../../../attachments/57770374/57770389.png)
+![](../../../../attachments/57770374/57770389.png)
 
 :::
 
@@ -55,13 +55,13 @@ You can undo or customize this in Preferences > Applications > Content Type: mai
 
 The mailbox view window allows you to customize the main Mail display options: pane display, message display, notification responses, how often Mail checks for new messages, etc.
 
-![](../../../attachments/57770374/57770377.png)
+![](../../../../attachments/57770374/57770377.png)
 
 ### Main mailbox view options
 
 -  **Show preview pane**: enables/disables message previews in the main Mail window. This option allows you to switch from a three-pane view (folders list on the left, list of messages in the main window, preview at the bottom right of the page) to a two-pane view (folders list on the left, list of messages on the right). In two-pane view, double-click a message to read it.
 - **Mark previewed messages as read**: time interval before messages are marked as read
-- **On request for return receipt**: allows you choose how BlueMind responds to return or read receipt requests: ![](../../../attachments/57770374/57770379.png)
+- **On request for return receipt**: allows you choose how BlueMind responds to return or read receipt requests: ![](../../../../attachments/57770374/57770379.png)
 - **Expand message threads**: sets whether subjects threads are expanded in subject view (see [Mail §4.5 Message actions](https://forge.blue-mind.net/confluence/display/BM35/La+messagerie#Lamessagerie-Actionssurlalistedemessages))
 - **Rows per page**: sets the number of messages to display in the message list
 
@@ -75,12 +75,12 @@ The mailbox view window allows you to customize the main Mail display options: p
 
 You can force BlueMind to check a specific folder for new messages by following the steps below:
 
-- Go to folder properties: in the left hand side menu in the same screen, or by clicking ![](../../../attachments/57770219/58592434.png) at the bottom of the webmail folders list.
+- Go to folder properties: in the left hand side menu in the same screen, or by clicking ![](../../../../attachments/57770219/58592434.png) at the bottom of the webmail folders list.
 - Select the folder you want to apply this to.
-- Check the "Check for new mails" box:![](../../../attachments/57770374/57770381.png)
+- Check the "Check for new mails" box:![](../../../../attachments/57770374/57770381.png)
 
 
-![](../../../attachments/57770374/57770375.png) The 20-folder maximum limit applies here too, but **you can only force-check for new messages for 16 folders** as 4 "slots" are reserved for the system to check the entire folder structure 4 folders at a time.
+![](../../../../attachments/57770374/57770375.png) The 20-folder maximum limit applies here too, but **you can only force-check for new messages for 16 folders** as 4 "slots" are reserved for the system to check the entire folder structure 4 folders at a time.
 
 :::
 
@@ -91,7 +91,7 @@ This section allows you to choose message composition and signature options: HTM
 
 It also includes notification preferences and signature options.
 
-![](../../../attachments/57770374/57770387.png)
+![](../../../../attachments/57770374/57770387.png)
 
 ### Main compose message options
 
@@ -129,7 +129,7 @@ Warning, this does not mean that the recipient has seen your message. All this d
 
 This section allows you to customize general display preferences for messages received: HTML or plain text format, image attachments and behavior after message deletions.
 
-![](../../../attachments/57770374/57770385.png)
+![](../../../../attachments/57770374/57770385.png)
 
 - **Display HTML**: when this option is unchecked, text formatting is removed and messages are shown in plain text
 - **Display remote inline images**: allows you to chose whether or when to display remote inline messages (never, always or when the sender is known)
@@ -143,7 +143,7 @@ Server settings options allow you to configure how BlueMind behaves when you del
 
 You can also choose whether to clear Trash on log out or not in this window.
 
-![](../../../attachments/57770374/57770383.png)
+![](../../../../attachments/57770374/57770383.png)
 
 ### Main server options
 

@@ -10,14 +10,14 @@ position: 48
 
 Pour accéder aux préférences des tâches, se rendre dans "Mon compte" en cliquant sur le nom d'utilisateur à droite du bandeau de navigation :
 
-![](../../attachments/57770060/57770071.png)
+![](../../../attachments/57770060/57770071.png)
 
 
 ## Les listes de tâches
 
 Le 1er onglet vous permet de gérer vos listes de tâches, en complément de la gestion au sein de l'application elle-même :
 
-![](../../attachments/57770650/57770663.png)
+![](../../../attachments/57770650/57770663.png)
 
 Par défaut, chaque utilisateur a une liste personnelle "Mes tâches", celle-ci ne peut être ni modifiée ni supprimée.
 
@@ -35,24 +35,24 @@ La liste apparaît dans la liste au dessous et est dès lors accessible dans l'a
 
 Pour renommer une liste, cliquer sur son libellé afin de faire apparaître le champs de saisie :
 
-![](../../attachments/57770650/57770661.png)
+![](../../../attachments/57770650/57770661.png)
 
 Renseigner le nouveau et valider en cliquant sur la coche en fin de ligne ou grâce à la touche Entrée ou simplement en quittant le champs :
 
-![](../../attachments/57770650/57770659.png)
+![](../../../attachments/57770650/57770659.png)
 
 
 :::tip
 
-tant que vous n'avez pas validé vos modifications, vous pouvez cliquer sur la croix en fin de ligne pour les annuler : ![](../../attachments/57770650/57770657.png)
+tant que vous n'avez pas validé vos modifications, vous pouvez cliquer sur la croix en fin de ligne pour les annuler : ![](../../../attachments/57770650/57770657.png)
 
 :::
 
 ### Suppression
 
-Pour supprimer une liste de tâches, cliquer sur l'icône poubelle ![](../../attachments/57769989/69896481.png) de la ligne correspondante :
+Pour supprimer une liste de tâches, cliquer sur l'icône poubelle ![](../../../attachments/57769989/69896481.png) de la ligne correspondante :
 
-![](../../attachments/57770650/57770656.png)
+![](../../../attachments/57770650/57770656.png)
 
 
 :::info
@@ -65,7 +65,7 @@ Les tâches contenues dans une liste sont supprimées avec la liste.
 
 Cet onglet permet à l'utilisateur de s'abonner à des listes de tâches partagées ou à ses propres listes et d'activer leur synchronisation pour une utilisation hors ligne ou sur des clients tiers (logiciel client lourd ou périphérique mobile) :
 
-![](../../attachments/57770650/57770654.png)Lorsque la synchronisation est activée pour une liste, les données sont téléchargées sur le logiciel client. De ce fait :
+![](../../../attachments/57770650/57770654.png)Lorsque la synchronisation est activée pour une liste, les données sont téléchargées sur le logiciel client. De ce fait :
 
 |  | Synchronisation activée | Synchronisation désactivée | Application web et Thunderbird | EAS iOS | EAS (autres) | DAV | Outlook |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -103,7 +103,7 @@ Pour ajouter une liste :
 
 Pour supprimer une liste :
 
-- Cliquer sur l'icône corbeille en fin de ligne ![](../../attachments/57770650/57770664.png)
+- Cliquer sur l'icône corbeille en fin de ligne ![](../../../attachments/57770650/57770664.png)
 - **Cliquer sur le bouton «Enregistrer» pour prendre en compte les changements.**
 
 
@@ -117,7 +117,7 @@ Il est nécessaire de cliquer sur « Enregistrer » pour prendre en compte un ch
 
 BlueMind permet de partager ses listes de tâches avec les autres utilisateurs afin de les rendre simplement consultable ou de créer des listes partagées grâce au droit d'écriture.
 
-![](../../attachments/57770650/57770652.png)
+![](../../../attachments/57770650/57770652.png)
 
 Les droits possibles sont :
 

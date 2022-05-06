@@ -9,10 +9,10 @@ position: 72
 Un utilisateur peut décider de partager avec d'autres utilisateurs l'ensemble de ses calendriers et d'attribuer différents niveaux de droits d'accès.
 
 
-La gestion des droits d'accès aux calendriers s'effectue dans les [paramètres](/STAGING/Guide_de_l_utilisateur_4.7/Paramétrer_le_compte_utilisateur/) de l'agenda, en allant sous **Préférences - Agenda - Mes calendriers**
+La gestion des droits d'accès aux calendriers s'effectue dans les [paramètres](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/) de l'agenda, en allant sous **Préférences - Agenda - Mes calendriers**
 
 
-![](../../../attachments/86762776/86762785.png)
+![](../../attachments/86762776/86762785.png)
 
 
 ## Partager un calendrier en interne
@@ -20,7 +20,7 @@ La gestion des droits d'accès aux calendriers s'effectue dans les [paramètres]
 Pour partager un calendrier avec un ou plusieurs membres de l'organisation, **se positionner sur le calendrier** puis cliquer sur "**Partager**" dans le menu pour ouvrir la fenêtre pop-up.
 
 
-![](../../../attachments/86762776/86762784.png)
+![](../../attachments/86762776/86762784.png)
 
 **Rechercher l'utilisateur** ou le groupe d'utilisateur dans la barre de recherche en tapant les premières lettres - l'autocomplétion proposera tous les utilisateurs disponibles puis **sélectionner le niveau de partage** souhaité.
 
@@ -39,7 +39,7 @@ Les droits possibles sont :
 
 "Tous les utilisateurs de mon organisation" correspond au partage public du calendrier, le niveau de droits choisi sera appliqué à l'ensemble des utilisateurs du domaine
 
-![](../../../attachments/86762776/86762778.png)
+![](../../attachments/86762776/86762778.png)
 
 :::
 
@@ -58,7 +58,7 @@ Le calendrier BlueMind peut être partagé vers l'extérieur **via une adresse**
 Pour partager un calendrier avec une personne extérieure, **se positionner sur le calendrier** puis cliquer sur "**Partager**" dans le menu pour ouvrir la fenêtre pop-up.
 
 
-![](../../../attachments/86762776/86762783.png)
+![](../../attachments/86762776/86762783.png)
 
 En bas de la fenêtre, dans la partie "**En dehors de mon organisation**", cliquer sur "**Copier**" pour copier le lien de partage **puis l'envoyer** au(x) destinataire(s) extérieur(s).
 
@@ -78,7 +78,7 @@ L'utilisateur peut également **supprimer l'adresse **de partage extérieur.
 
 Si aucune adresse n'apparait dans la zone "En dehors de mon organisation", contacter l'administrateur afin qu'il paramètre une adresse publique ou privée.
 
-![](../../../attachments/86762776/86762779.png)
+![](../../attachments/86762776/86762779.png)
 
 :::
 

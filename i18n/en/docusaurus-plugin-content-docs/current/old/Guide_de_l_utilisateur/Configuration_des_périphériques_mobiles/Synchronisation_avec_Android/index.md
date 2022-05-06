@@ -8,9 +8,9 @@ position: 64
 
 ## Introduction
 
-ActiveSync is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars in a single configuration while [IMAP synchronization](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android/) is restricted to messages.
+ActiveSync is the preferred synchronization mode as it allows you to synchronize messages as well as contacts and calendars in a single configuration while [IMAP synchronization](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/Synchronisation_IMAP_sous_Android/) is restricted to messages.
 
-To find out more, please go to [Synchronizing with external devices](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
+To find out more, please go to [Synchronizing with external devices](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
 
 
 :::info
@@ -38,23 +38,23 @@ Please refer to the following page: [Configuring the EAS server](/Guide_de_l_ad
 
 Go to your smartphone's "Settings":
 
-![](../../../attachments/57770962/66093506.png)
+![](../../../../attachments/57770962/66093506.png)
 
 In the "Accounts" tab, tap "Add account":
 
-![](../../../attachments/57770962/66093507.png)
+![](../../../../attachments/57770962/66093507.png)
 
 Select "Microsoft Exchange ActiveSync":
 
-![](../../../attachments/57770962/66093508.png)
+![](../../../../attachments/57770962/66093508.png)
 
 Enter your email address and password and tap "Next":
 
-![](../../../attachments/57770962/66093509.png)
+![](../../../../attachments/57770962/66093509.png)
 
 Server settings are filled in automatically based on your email address:
 
-![](../../../attachments/57770962/66093511.png)
+![](../../../../attachments/57770962/66093511.png)
 
 Barring special cases, double check and correct the settings as follows:
 
@@ -66,7 +66,7 @@ Once you've checked the settings, tap "Next".
 
 Confirm access authorization by tapping "OK":
 
-![](../../../attachments/57770962/66093513.png)
+![](../../../../attachments/57770962/66093513.png)
 
 ### Choosing what items to synchronize
 
@@ -81,7 +81,7 @@ You may however enable this functionality in order to couple it with a third-par
 
 The application next displays synchronizing options. These can be modified later by going to "Account options":
 
-![](../../../attachments/57770962/66093514.png)  
+![](../../../../attachments/57770962/66093514.png)  
 
 
 :::info
@@ -96,13 +96,13 @@ Tap "Next".
 
 Your account is set up, you can now choose a name for it:
 
-![](../../../attachments/57770962/66093515.png)
+![](../../../../attachments/57770962/66093515.png)
 
 Tap "Done" to complete setup.
 
 You can now see the account in Settings > Account > Microsoft Exchange ActiveSync and quickly access synchronizing options and information:
 
-![](../../../attachments/57770962/66093517.png) ![](../../../attachments/57770962/66093519.png) ![](../../../attachments/57770962/66093521.png)
+![](../../../../attachments/57770962/66093517.png) ![](../../../../attachments/57770962/66093519.png) ![](../../../../attachments/57770962/66093521.png)
 
 
 :::info
@@ -113,12 +113,12 @@ Only personal address book "My Contacts" is synchronized with your smartphone's 
 
 You can now access your messages from your smartphone's email app and appointments are synchronized in the calendar app.
 
-![](../../../attachments/57770962/66093525.png)
+![](../../../../attachments/57770962/66093525.png)
 
 ## Forcing the calendar to refresh
 
 To force the calendar to synchronize, open the menu in the top right corner of the application and tap "Refresh":
 
-![](../../../attachments/57770962/66093527.png)
+![](../../../../attachments/57770962/66093527.png)
 
 

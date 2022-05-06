@@ -27,7 +27,7 @@ To add a user (individual or group):
 
 ## Removing users
 
-- In the list of users with share rights, click the trash icon at the end of the row:![](../attachments/57770060/57770061.png)
+- In the list of users with share rights, click the trash icon at the end of the row:![](../../attachments/57770060/57770061.png)
 - Do this for all the users you want to remove from the list.
 - ****Once all users are set as desired, click "Save" at the bottom of the page to apply changes**.**
 

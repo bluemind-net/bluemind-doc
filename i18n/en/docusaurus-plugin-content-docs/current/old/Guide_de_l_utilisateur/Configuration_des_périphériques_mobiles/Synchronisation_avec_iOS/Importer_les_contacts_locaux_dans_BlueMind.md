@@ -37,15 +37,15 @@ If you export after having created the BlueMind EAS account, restrict the export
 :::
 Once the file has been generated, email it to the user.
 
-    - If you do not want to use a third-party application, or if you do not want to export all the contacts, you can export each contact individually.In the Contacts application, on every contact card you want to export, tap "Share Contact" then send it by email. A .vcf file is attached to a new message which you must address to the user.![](../../../attachments/57771116/57771119.png)
+    - If you do not want to use a third-party application, or if you do not want to export all the contacts, you can export each contact individually.In the Contacts application, on every contact card you want to export, tap "Share Contact" then send it by email. A .vcf file is attached to a new message which you must address to the user.![](../../../../attachments/57771116/57771119.png)
 2. Log into BlueMind on a web browser.
-3. Open the message(s) contains the .vcf. files and save them on your computer. Go to the Contacts application and [import the file](/Guide_de_l_utilisateur/Les_contacts/).
-4. If it doesn't exist yet, [create the user account](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/) on the iOS device.
+3. Open the message(s) contains the .vcf. files and save them on your computer. Go to the Contacts application and [import the file](/old/Guide_de_l_utilisateur/Les_contacts/).
+4. If it doesn't exist yet, [create the user account](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/) on the iOS device.
 5. Make sure that contact synchronization is enabled: 
     - At the end of the account creation procedure, you are given the option of selecting the items you want to synchronize (see the link above about creating a user account).
-    - If the account exists already, go to settings and select the account:![](../../../attachments/57771116/57771121.png)
+    - If the account exists already, go to settings and select the account:![](../../../../attachments/57771116/57771121.png)
 6. In order to avoid duplicates in the future, choose to delete the local contacts on the device when you are prompted to when you activate synchronization:
-![](../../../attachments/57771116/57771117.png)
+![](../../../../attachments/57771116/57771117.png)
 
 
 :::tip

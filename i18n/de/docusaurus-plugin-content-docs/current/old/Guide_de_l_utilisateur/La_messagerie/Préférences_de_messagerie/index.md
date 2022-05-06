@@ -10,12 +10,12 @@ position: 52
 
 Um auf die E-Mail-Einstellungen zuzugreifen, rufen Sie "Mein Konto" auf, indem Sie auf den Benutzernamen auf der rechten Seite der Navigationsleiste klicken:
 
-![](../../../attachments/57770359/62557701.png)
+![](../../../../attachments/57770359/62557701.png)
 
 Wird dieser Schritt auf dem Webmailer durchgeführt, werden Sie automatisch an den entsprechenden Bereich weitergeleitet, klicken Sie dann im Menü links auf "Email":
 
 
-![](../../../attachments/57770359/62557711.png)
+![](../../../../attachments/57770359/62557711.png)
 
 ## Allgemeine Einstellungen
 
@@ -27,12 +27,12 @@ Wenn Sie eine Nachricht erhalten, wird für den angegebenen Zeitraum automatisch
 
 Damit ist es z. B. möglich, Ihre Abwesenheit vom Büro im Urlaub anzuzeigen.
 
-![](../../../attachments/57770359/62557709.png)
+![](../../../../attachments/57770359/62557709.png)
 
 - Start- und Enddatum sind nicht zwingend erforderlich:
     - Wenn kein Startdatum angegeben ist, wird die automatische Antwort aktiviert, sobald die neuen Einstellungen gespeichert sind.
     - Wenn kein Enddatum angegeben ist, bleibt die automatische Antwort so lange aktiv, bis die Einstellungen geändert und "Abwesenheitsnotiz AUS" gewählt wird.
-Wenn Sie auf das Eingabefeld für ein Datum klicken, wird ein Kalender angezeigt, der bei der Auswahl des Datums hilft:![](../../../attachments/57770359/62557707.png)- Der Betreff ist optional: Wenn er nicht ausgefüllt wird, wird eine Nachricht mit leerem Betreff gesendet
+Wenn Sie auf das Eingabefeld für ein Datum klicken, wird ein Kalender angezeigt, der bei der Auswahl des Datums hilft:![](../../../../attachments/57770359/62557707.png)- Der Betreff ist optional: Wenn er nicht ausgefüllt wird, wird eine Nachricht mit leerem Betreff gesendet
 - Der Inhalt der Nachricht ist obligatorisch, er wird im Textkörper der gesendeten Nachricht angezeigt.
 
 
@@ -67,7 +67,7 @@ Dieses Formular gestattet, alle eingehenden Nachrichten an eine oder mehrere int
 
 Um die Weiterleitung zu aktivieren, müssen Sie das Kontrollkästchen aktivieren und die Adressen der gewünschten Empfänger eingeben:
 
-![](../../../attachments/57770359/62557702.png)
+![](../../../../attachments/57770359/62557702.png)
 
 
 :::tip
@@ -91,21 +91,21 @@ Filter gestatten die Anwendung von Sortierregeln und von Aktionen, die automatis
 
 Sie ermöglichen z. B. das Ablegen in einem Unterordner anhand des Absenders oder das Löschen anhand des Betreffs, ohne dass Sie diese Aktion selbst manuell durchführen müssen.
 
-![](../../../attachments/57770359/62557705.png)
+![](../../../../attachments/57770359/62557705.png)
 
-Weitere Informationen über die Verwaltung von Nachrichtenfiltern finden Sie auf der Seite [Nachrichtenfilter](/Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages/)
+Weitere Informationen über die Verwaltung von Nachrichtenfiltern finden Sie auf der Seite [Nachrichtenfilter](/old/Guide_de_l_utilisateur/La_messagerie/Les_filtres_de_messages/)
 
 ## Identitäten
 
 Auf dieser Registerkarte kann der Benutzer seine Identitäten und die mit ihnen verbundenen Unterschriften verwalten.
 
-![](../../../attachments/57770359/62557700.png)
+![](../../../../attachments/57770359/62557700.png)
 
-Weitere Informationen finden Sie auf der Seite [Identitäten](/Guide_de_l_utilisateur/La_messagerie/Les_identités/).
+Weitere Informationen finden Sie auf der Seite [Identitäten](/old/Guide_de_l_utilisateur/La_messagerie/Les_identités/).
 
 ## Abonnements
 
-Dieser neue Abschnitt, der ab Version 4.3 zur Verfügung steht, gestattet die Verwaltung von Abonnements für freigegebene Mailboxen, um sie in einem [Outlook-Client, der mit MAPI angebunden ist](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/), oder auf [mobilen Geräten, die per EAS verbunden sind](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/), anzuzeigen (bzw. nicht anzuzeigen).
+Dieser neue Abschnitt, der ab Version 4.3 zur Verfügung steht, gestattet die Verwaltung von Abonnements für freigegebene Mailboxen, um sie in einem [Outlook-Client, der mit MAPI angebunden ist](/old/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/), oder auf [mobilen Geräten, die per EAS verbunden sind](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/), anzuzeigen (bzw. nicht anzuzeigen).
 
 
 :::info
@@ -114,7 +114,7 @@ Die Abonnements betreffen nur Tools von Drittanbietern, sie wirken sich nicht au
 
 :::
 
-![](../../../attachments/57770359/62557691.png)
+![](../../../../attachments/57770359/62557691.png)
 
 Das Abonnement mit oder ohne Synchronisierung ermöglicht eine differenzierte Sichtbarkeit für jede Mailbox, wobei die aktivierte Synchronisierung gestattet, die betreffende Mailbox auf den per EAS verbundenen Geräten anzuzeigen.
 Daher gilt:
@@ -122,14 +122,14 @@ Daher gilt:
 |  | Synchronisierung aktiv | Synchronisierung nicht aktiv |
 | --- | --- | --- |
 | Outlook MAPI | 
-![](../../../attachments/57770359/62557696.png)
+![](../../../../attachments/57770359/62557696.png)
  | 
-![](../../../attachments/57770359/62557696.png)
+![](../../../../attachments/57770359/62557696.png)
  |
 | EAS | 
-![](../../../attachments/57770359/62557696.png)
+![](../../../../attachments/57770359/62557696.png)
  | 
-![](../../../attachments/57770359/62557695.png)
+![](../../../../attachments/57770359/62557695.png)
  |
 | Webmailer | 
 - Kein Abonnement erforderlich
@@ -138,17 +138,17 @@ Daher gilt:
  |
 | IMAP | 
 - Kein Abonnement erforderlich
-- Anzeige entsprechend den [Einstellungen der Client-Software](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/)
+- Anzeige entsprechend den [Einstellungen der Client-Software](/old/Guide_de_l_utilisateur/Configuration_des_clients_lourds/)
 
  |
 
 So fügen Sie einer Mailbox ein Abonnement hinzu:
 
-- Vergewissern Sie sich bei einem Administrator (des Systems oder der Mailbox), dass Ihnen mit der Freigabe mindestens die Leseberechtigung erteilt wurde (siehe [Geteilte Posteingänge](/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/)).
-- Tippen Sie die ersten Buchstaben des Namens der gewünschten Mailbox in das Eingabefeld oben in der Registerkarte ein, die automatische Vervollständigung schlägt die Mailboxen vor, die der Eingabe entsprechen und die für Sie freigegeben wurden:![](../../../attachments/57770359/62557699.png)
+- Vergewissern Sie sich bei einem Administrator (des Systems oder der Mailbox), dass Ihnen mit der Freigabe mindestens die Leseberechtigung erteilt wurde (siehe [Geteilte Posteingänge](/old/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/)).
+- Tippen Sie die ersten Buchstaben des Namens der gewünschten Mailbox in das Eingabefeld oben in der Registerkarte ein, die automatische Vervollständigung schlägt die Mailboxen vor, die der Eingabe entsprechen und die für Sie freigegeben wurden:![](../../../../attachments/57770359/62557699.png)
 - Wählen Sie die gewünschte Mailbox aus.
 Die Mailbox wird der Liste hinzugefügt, wobei die Synchronisierung standardmäßig aktiviert ist:
-![](../../../attachments/57770359/62557698.png)
+![](../../../../attachments/57770359/62557698.png)
 
 -  **Klicken Sie auf "Speichern", damit die Abonnements berücksichtigt werden.** 
 
@@ -164,7 +164,7 @@ Standardmäßig wird eine Freigabe und zwar die des Benutzers selbst mit der Än
 
 :::
 
-![](../../../attachments/57770359/62557690.png)
+![](../../../../attachments/57770359/62557690.png)
 
 Mögliche Arten der Freigabe sind:
 
@@ -174,6 +174,6 @@ Mögliche Arten der Freigabe sind:
 - **Kann mein Mailkonto aktualisieren und Freigaben verwalten**: Der angegebene Benutzer kann zusätzlich zu den oben genannten Berechtigungen auch Freigaben für das Mailkonto des Benutzers ändern.
 
 
-Siehe [Verwaltung der Freigaben](/Guide_de_l_utilisateur/Gestion_des_partages/).
+Siehe [Verwaltung der Freigaben](/old/Guide_de_l_utilisateur/Gestion_des_partages/).
 
 

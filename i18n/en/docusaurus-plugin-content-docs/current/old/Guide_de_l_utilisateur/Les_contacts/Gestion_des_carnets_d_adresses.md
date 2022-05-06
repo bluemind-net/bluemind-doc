@@ -12,7 +12,7 @@ You can manage your own address books as well as subscriptions to external addre
 
 To access Contact preferences, click "Settings" in the navigation bar and go to "Contacts". It can also be accessed straight from the Contacts application:
 
-![](../../attachments/57770060/57770070.png)
+![](../../../attachments/57770060/57770070.png)
 
 
 ## User address books
@@ -31,7 +31,7 @@ The third default address book, the user directory, is a subscription to the dom
 
 You cannot modify or delete default address books, but you are free to use them and their contents as you wish.
 
-![](../../attachments/57770425/57770435.png)
+![](../../../attachments/57770425/57770435.png)
 
 ### Creating and modifying address books
 
@@ -44,13 +44,13 @@ To** create **a new address book:
 
 To **modify** an address book:
 
-- Click the address book's name to open the text box:![](../../attachments/57770425/57770433.png)
-- Enter the new name and type &lt;Enter> or by click ![](../../attachments/57769989/69896489.png) to confirm.To cancel typing, press &lt;Esc> or click ![](../../attachments/57769989/69896488.png).
+- Click the address book's name to open the text box:![](../../../attachments/57770425/57770433.png)
+- Enter the new name and type &lt;Enter> or by click ![](../../../attachments/57769989/69896489.png) to confirm.To cancel typing, press &lt;Esc> or click ![](../../../attachments/57769989/69896488.png).
 
 
 To **delete **an address book:
 
-- Click ![](../../attachments/57769989/69896481.png) at the end of the row.
+- Click ![](../../../attachments/57769989/69896481.png) at the end of the row.
 - Confirm delete.
 
 
@@ -75,7 +75,7 @@ BlueMind allows you to share personal address books with users.
 
 To** share **an address book, go to user preferences > Contacts > "Sharings" tab:
 
-![](../../attachments/57770425/57770439.png)
+![](../../../attachments/57770425/57770439.png)
 
 1. Select the address book you want to share.Users can share:
     - their personal address books: Contacts (aka "My Contacts"), Collected Contacts and address books they have created.
@@ -91,7 +91,7 @@ To** share **an address book, go to user preferences > Contacts > "Sharings" tab
 
 You can see your own address books as well as those shared with you in the *Synchronization* tab in settings.
 
-![](../../attachments/57770425/57770431.png)
+![](../../../attachments/57770425/57770431.png)
 
 
 :::info
@@ -141,7 +141,7 @@ Volume Warning
 
 When an address book contains a large amount of data (more than 1,000 contacts), a message warning of possible synchronization issues is displayed:
 
-![](../../attachments/57770425/57770426.png)
+![](../../../attachments/57770425/57770426.png)
 
 :::
 
@@ -152,7 +152,7 @@ The address books you create in the BlueMind Contacts application, as well as th
 
 To add an address book:
 
-- Start typing the name of the address book in the text box:![](../../attachments/57770425/57770427.png)
+- Start typing the name of the address book in the text box:![](../../../attachments/57770425/57770427.png)
 - As you type, autocomplete suggests address books your are not subscribed to yet: your own address books and those that other users have shared with you (see above).
 - Choose from the list of suggestions and press &lt;Enter> or click the name**.**
 - Disabled synchronization is desired.
@@ -169,6 +169,6 @@ You must click "Save" for the change in synchronization status to be applied the
 
 When a user shares an address book with you, you are notified via an automatic email message. This message allows you to subscribe to this address book directly:
 
-![](../../attachments/57770425/57770442.png)
+![](../../../attachments/57770425/57770442.png)
 
 

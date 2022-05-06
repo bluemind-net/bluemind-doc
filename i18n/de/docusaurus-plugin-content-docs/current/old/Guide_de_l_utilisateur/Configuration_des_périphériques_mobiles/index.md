@@ -24,10 +24,10 @@ Die ActiveSync-Synchronisierung ist mit den Anwendungen E-Mail/Gmail (Android-St
 :::
 
 
-- [Synchronisation mit Android](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/)
-- [Synchronisation mit Blackberry](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/)
-- [Synchronisation mit iOS](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/)
-- [Synchronisation mit Windows Phone](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/)
+- [Synchronisation mit Android](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Android/)
+- [Synchronisation mit Blackberry](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Blackberry/)
+- [Synchronisation mit iOS](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_iOS/)
+- [Synchronisation mit Windows Phone](/old/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/Synchronisation_avec_Windows_Phone/)
 
 
 Speichern

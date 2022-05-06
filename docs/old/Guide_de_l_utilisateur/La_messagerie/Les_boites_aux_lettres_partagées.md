@@ -24,7 +24,7 @@ En revanche, les informations de réponse et transfert sont partagées : si un d
 
 Ce fonctionnement répond bien à un travail collaboratif pour gérer une boite partagée entrante (telle qu'une boite contact), qui intègre par exemple des sous-dossiers "traité", "messages envoyés", voire "modèle de réponse".
 
-![](../../attachments/57770342/72189527.png)
+![](../../../attachments/57770342/72189527.png)
 
 ## Gestion des partages
 
@@ -41,7 +41,7 @@ Dans cet onglet :
 1. choisir dans la première liste déroulante la boite dont on veut gérer les partages :
 
 
-![](../../attachments/57770342/72189530.png)
+![](../../../attachments/57770342/72189530.png)
 
 1. Affecter ensuite les droits souhaités soit à l'ensemble des utilisateurs du domaine, soit à des utilisateurs ou groupes désignés :
     - **lecture** : les utilisateurs peuvent consulter les messages
@@ -51,9 +51,9 @@ Dans cet onglet :
 3. **Cliquer sur Enregistrer pour prendre en compte les modifications**
 
 
-![](../../attachments/57769989/69896490.png) Les utilisateurs désignés reçoivent alors un email d'information leur indiquant que la boîte leur a été partagée. Au prochain rafraichissement de leur interface (une déconnexion/reconnexion peut être nécessaire) la boîte apparait alors dans le client de Messagerie sous l'arborescence "Dossiers partagés" :
+![](../../../attachments/57769989/69896490.png) Les utilisateurs désignés reçoivent alors un email d'information leur indiquant que la boîte leur a été partagée. Au prochain rafraichissement de leur interface (une déconnexion/reconnexion peut être nécessaire) la boîte apparait alors dans le client de Messagerie sous l'arborescence "Dossiers partagés" :
 
-![](../../attachments/57770342/72189515.png)Pour des informations détaillées sur le fonctionnement du formulaire de partage, consulter la page [Gestion des partages](/Guide_de_l_utilisateur/Gestion_des_partages/).
+![](../../../attachments/57770342/72189515.png)Pour des informations détaillées sur le fonctionnement du formulaire de partage, consulter la page [Gestion des partages](/Guide_de_l_utilisateur/Gestion_des_partages/).
 
 ## Utilisations d'une boite partagée
 
@@ -89,10 +89,10 @@ Une boite aux lettres partagée peut être utilisée pour partager des mails qui
 
 Dans un premier temps :
 
-- Créer le mail et l'envoyer à la boite si elle possède une adresse mail ou le copier (ou déplacer) dans la boite directement depuis le webmail ou client de messagerie (Outlook, Thunderbird, etc.) :![](../../attachments/57770342/72189525.png)
-- Le mail apparaît dans la boite partagée pour tous les utilisateurs de la boite, il pourra être placé par un simple glisser/déposer dans un répertoire spécifique afin d'être retrouvé plus facilement :![](../../attachments/57770342/72189523.png)
+- Créer le mail et l'envoyer à la boite si elle possède une adresse mail ou le copier (ou déplacer) dans la boite directement depuis le webmail ou client de messagerie (Outlook, Thunderbird, etc.) :![](../../../attachments/57770342/72189525.png)
+- Le mail apparaît dans la boite partagée pour tous les utilisateurs de la boite, il pourra être placé par un simple glisser/déposer dans un répertoire spécifique afin d'être retrouvé plus facilement :![](../../../attachments/57770342/72189523.png)
 
-- Dans un second temps, lorsqu'un utilisateur souhaite utiliser le message ainsi stocké, il lui suffit depuis le webmail de sélectionner le message et enfin de cliquer sur "Plus d'actions..." > Éditer en tant que nouveau message :![](../../attachments/57770342/72189521.png)
+- Dans un second temps, lorsqu'un utilisateur souhaite utiliser le message ainsi stocké, il lui suffit depuis le webmail de sélectionner le message et enfin de cliquer sur "Plus d'actions..." > Éditer en tant que nouveau message :![](../../../attachments/57770342/72189521.png)
 
 
 :::info
@@ -109,9 +109,9 @@ La position de la signature dépend des paramètres de l'utilisateur et du clien
 
 Dans le webmail BlueMind, pour vérifier/modifier l'emplacement de la signature, se rendre dans les paramètres utilisateur en cliquant sur l'icône en haut à droite de l'écran :
 
-![](../../attachments/57770342/72189531.png)Puis dans Messagerie > Paramètres avancés du client de messagerie > Écriture des messages :
+![](../../../attachments/57770342/72189531.png)Puis dans Messagerie > Paramètres avancés du client de messagerie > Écriture des messages :
 
-![](../../attachments/57770342/72189517.png)
+![](../../../attachments/57770342/72189517.png)
 
 Les paramètres doivent être :
 
@@ -139,10 +139,10 @@ Les abonnements ne concernent que les outils tiers, ils n'ont pas d'incidence su
 
 Une fois qu'une boite a été partagée et que l'utilisateur a reçu le mail d'information (voir plus haut) :
 
-- se rendre dans la gestion des paramètres : Mon Compte > Messagerie > onglet Abonnements :![](../../attachments/57770342/72189514.png)
-- commencer à taper le nom de la boîte souhaitée dans le champ de saisie en haut de l'onglet, l'autocomplétion propose les boîtes correspondantes à la frappe et sur lesquelles l'utilisateur a un droit de partage  :![](../../attachments/57770342/72189513.png)
+- se rendre dans la gestion des paramètres : Mon Compte > Messagerie > onglet Abonnements :![](../../../attachments/57770342/72189514.png)
+- commencer à taper le nom de la boîte souhaitée dans le champ de saisie en haut de l'onglet, l'autocomplétion propose les boîtes correspondantes à la frappe et sur lesquelles l'utilisateur a un droit de partage  :![](../../../attachments/57770342/72189513.png)
 - sélectionner la boîte voulue pour l'ajouter à la liste, la boîte est ajoutée avec la synchronisation active par défaut :
-![](../../attachments/57770342/72189512.png)
+![](../../../attachments/57770342/72189512.png)
 
 
 :::info
@@ -158,7 +158,7 @@ Une fois qu'une boite a été partagée et que l'utilisateur a reçu le mail d'i
 
 :::info
 
-Un abonnement peut être modifié (activation/désactivation de synchronisation) ou supprimé (clic sur l'icône ![](../../attachments/57769989/69896481.png)) à tout moment par l'utilisateur.
+Un abonnement peut être modifié (activation/désactivation de synchronisation) ou supprimé (clic sur l'icône ![](../../../attachments/57769989/69896481.png)) à tout moment par l'utilisateur.
 
 :::
 
@@ -169,7 +169,7 @@ Trouver les boîtes partagées dans Outlook
 
 Jusqu'à la version 4.4.x de BlueMind, les boîtes apparaissent dans la section "Dossiers publics". **A partir de la version 4.5 de BlueMind**, les boîtes aux lettres partagées se trouvent dans l'arborescence principale :
 
-![](../../attachments/57770342/72189507.png)
+![](../../../attachments/57770342/72189507.png)
 
 :::
 

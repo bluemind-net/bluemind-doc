@@ -22,14 +22,14 @@ Erweiterte Email-Einstellungen ermöglichen eine genauere Anpassung des Verhalte
 
 Der Zugriff auf die Verwaltung dieser Einstellungen erfolgt über die Verwaltung der BlueMind-Einstellungen > Rubrik Email > Link *Erweiterte Email-Einstellungen*:
 
-![](../../../attachments/57770374/57770398.png)
+![](../../../../attachments/57770374/57770398.png)
 
 
 :::tip
 
 Es ist auch möglich, die erweiterten Einstellungen direkt aus dem E-Mail-System über das Symbol der Zahnräder am unteren Rand der Ordnerliste > "Ordner verwalten" > "Einstellungen" aufzurufen.
 
-![](../../../attachments/57770374/57770396.png)
+![](../../../../attachments/57770374/57770396.png)
 
 :::
 
@@ -43,10 +43,10 @@ Es ist auch möglich, die erweiterten Einstellungen direkt aus dem E-Mail-System
 
 Vergessen Sie nicht, nach dem Anklicken des Links die Bestätigungsanforderung des Browsers zu akzeptieren:
 
-- Firefox: ![](../../../attachments/57770374/57770393.png) Dieser Vorgang ist umkehrbar und kann in Einstellungen > Anwendungen > Dateityp: mailto angepasst werden:
-![](../../../attachments/57770374/57770390.png)
+- Firefox: ![](../../../../attachments/57770374/57770393.png) Dieser Vorgang ist umkehrbar und kann in Einstellungen > Anwendungen > Dateityp: mailto angepasst werden:
+![](../../../../attachments/57770374/57770390.png)
 
-- Chrome: ![](../../../attachments/57770374/57770394.png) In Chrome ist dieses Verhalten über die Verwaltung der Einstellungen > Erweiterte Einstellungen anzeigen > Bereich Datenschutz > Inhaltseinstellungen > Bereich Handler> Handler verwalten umkehrbar und anpassbar: ![](../../../attachments/57770374/57770391.png)
+- Chrome: ![](../../../../attachments/57770374/57770394.png) In Chrome ist dieses Verhalten über die Verwaltung der Einstellungen > Erweiterte Einstellungen anzeigen > Bereich Datenschutz > Inhaltseinstellungen > Bereich Handler> Handler verwalten umkehrbar und anpassbar: ![](../../../../attachments/57770374/57770391.png)
 
 
 :::
@@ -55,11 +55,11 @@ Vergessen Sie nicht, nach dem Anklicken des Links die Bestätigungsanforderung d
 
 In diesem Bereich wird die Anzeige der Hauptansicht der E-Mail-Anwendung angepasst: Felder der Ansicht, Nachrichtenvorschau, Empfangsbestätigungen, Überprüfung auf neue Nachrichten usw.
 
-![](../../../attachments/57770374/57770378.png)
+![](../../../../attachments/57770374/57770378.png)
 
 - **Nachrichtenvorschau anzeigen**: Gestattet, die Vorschau einer Nachricht in der Hauptansicht der E-Mail-Anwendung zu aktivieren oder zu deaktivieren. Diese Option gestattet, von einer Ansicht mit drei Feldern (Ordnerliste links, Nachrichtenliste rechts oben, Vorschau rechts unten) auf eine Ansicht mit zwei Feldern (Ordnerliste links, Nachrichtenliste rechts) umzuschalten, in der eine Nachricht per Doppelklick angezeigt wird.
 - **Nachricht in Vorschau als gelesen markieren**: Wartezeit, bevor eine Nachricht als gelesen markiert wird.
-- **Empfangsbestätigung senden**: Hier geht es um das gewünschte Verhalten, wenn der Absender eine Empfangs- oder Lesebestätigung für die Nachricht angefordert hat: ![](../../../attachments/57770374/57770380.png)
+- **Empfangsbestätigung senden**: Hier geht es um das gewünschte Verhalten, wenn der Absender eine Empfangs- oder Lesebestätigung für die Nachricht angefordert hat: ![](../../../../attachments/57770374/57770380.png)
 - **Konversationen aufklappen**: Gibt an, ob Konversationen in einer erweiterten Baumstruktur dargestellt werden sollen, wenn die Nachrichten in einer Ansicht nach Konversationen gezeigt werden (siehe [E-Mail-System, Abschnitt 4.5 Aktionen in der Nachrichtenliste](https://forge.blue-mind.net/confluence/display/BM35/La+messagerie#Lamessagerie-Actionssurlalistedemessages)).
 - **Einträge pro Seite**: Gibt die Anzahl der Nachrichten an, die auf einer Seite der Nachrichtenliste aufgeführt werden sollen.
 - **Alle Ordner auf neue Nachrichten prüfen**: Diese Option zwingt BlueMind, bei jedem Abruf der E-Mail alle Ordner (Standardordner, Unterordner, freigegebene Mailboxen usw.) zu prüfen, die der Benutzer abonniert hat. Standardmäßig wird in regelmäßigen Abständen nur der Posteingang überprüft.
@@ -70,12 +70,12 @@ Wenn diese Option aktiviert ist, werden die Ordner in Gruppen von ****maximal 20
 
 Es ist möglich, die Prüfung eines Ordners bei jedem Abrufen der E-Mail wie folgt zu forcieren:
 
-- Rufen Sie die Ordnerverwaltung auf: entweder über das Menü links auf demselben Bildschirm oder mit der Schaltfläche ![](../../../attachments/57770219/58592434.png) am unteren Ende der Ordnerliste in der Webmailer.
+- Rufen Sie die Ordnerverwaltung auf: entweder über das Menü links auf demselben Bildschirm oder mit der Schaltfläche ![](../../../../attachments/57770219/58592434.png) am unteren Ende der Ordnerliste in der Webmailer.
 - Wählen Sie den gewünschten Ordner.
-- Aktivieren Sie die Option "Check for new mails: ![](../../../attachments/57770374/57770382.png)
+- Aktivieren Sie die Option "Check for new mails: ![](../../../../attachments/57770374/57770382.png)
 
 
-![](../../../attachments/57770374/57770375.png) Auch hier gilt die maximale Anzahl von 20 Ordnern, allerdings **kann nur die Überprüfung von 16 Ordnern forciert werden**, da 4 "Plätze" vom System für die Überprüfung der gesamten Baumstruktur mit 4 Ordnern pro Mailabruf reserviert werden.
+![](../../../../attachments/57770374/57770375.png) Auch hier gilt die maximale Anzahl von 20 Ordnern, allerdings **kann nur die Überprüfung von 16 Ordnern forciert werden**, da 4 "Plätze" vom System für die Überprüfung der gesamten Baumstruktur mit 4 Ordnern pro Mailabruf reserviert werden.
 
 :::
 
@@ -86,7 +86,7 @@ In diesem Bereich können Sie die Optionen für die Erstellung neuer Nachrichten
 
 Hier werden insbesondere die Einstellungen für die Anforderung von Bestätigungen und die Optionen für Unterschriften definiert.
 
-![](../../../attachments/57770374/57770388.png)
+![](../../../../attachments/57770374/57770388.png)
 
 ### Allgemein
 
@@ -124,7 +124,7 @@ Achtung: Das bedeutet nicht, dass der Empfänger die Nachricht gesehen hat, sond
 
 In diesem Bereich werden die allgemeinen Einstellungen für die Anzeige empfangener Nachrichten angepasst: HTML-Format oder nicht, Anzeige von Bildern und Verhalten nach dem Löschen.
 
-![](../../../attachments/57770374/57770386.png)
+![](../../../../attachments/57770374/57770386.png)
 
 - **HTML anzeigen**: Wenn diese Option nicht aktiviert ist, wird die Formatierung der Nachrichten entfernt und sie werden als "Nur-Text" angezeigt.
 - **Eingebettete Bilder vom Internet laden**: Hier kann der Benutzer wählen, in welchen Fällen remote gespeicherte Bilder, die in eine Nachricht eingebettet sind, angezeigt werden sollen (nie, immer, bei bekannten Absendern).
@@ -138,7 +138,7 @@ In diesem Bereich wird das Verhalten von BlueMind beim Löschen von Nachrichten 
 
 Hier wird insbesondere eingestellt, wie sich der Papierkorb nach dem Abmelden des Benutzers verhält.
 
-![](../../../attachments/57770374/57770384.png)
+![](../../../../attachments/57770374/57770384.png)
 
 ### Allgemein
 
