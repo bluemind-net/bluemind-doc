@@ -1,0 +1,18 @@
+pipeline {
+    agent none
+    stages {
+        stage('Generate') {
+	    agent { node { label 'bm-docs' } }
+            steps {
+                script {
+		    sh "yarn"
+		    sh "mkdir -p /var/www/bm-docs/${BRANCH_NAME}"
+		    sh """sed -i "s|  baseUrl: .*|  baseUrl: '/${BRANCH_NAME}/',|" docusaurus.config.js"""
+		    sh "yarn build --out-dir /var/www/bm-docs/${BRANCH_NAME}"
+		    echo "Branch doc available at https://doc.bluemind.net/${BRANCH_NAME}/"
+                }
+            }
+        }
+    }
+    post { always { node('dumb-slave || master'){ notifyBitbucket() } } }
+}
