@@ -86,7 +86,7 @@ La solution BlueMind est dotée d'un **nouveau moteur de recherche performant**,
 
 La recherche dans BlueMind :
 
-- se fait l'ensemble des mots contenus dans **messages**, les fiches des **contacts** ou des **évènements**, y compris les [catégories](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/)
+- se fait l'ensemble des mots contenus dans **messages**, les fiches des **contacts** ou des **évènements**, y compris les [catégories](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/#créer-des-catégories)
 - se fait sur des mots exacts : le mot "invitation" sera recherché au singulier
 - ne tient pas compte des accents : "réservation" ou "reservation" donnera les mêmes résultats
 
