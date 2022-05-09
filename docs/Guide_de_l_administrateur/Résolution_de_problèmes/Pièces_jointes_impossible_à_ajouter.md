@@ -1,7 +1,7 @@
 ---
 title: "Pièces jointes impossible à ajouter"
 confluence_id: 57771850
-position: 74
+sidebar_position: 74
 ---
 # Pièces jointes impossible à ajouter
 

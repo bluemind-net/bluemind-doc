@@ -1,7 +1,7 @@
 ---
 title: "MDM - Mobile Device Management"
 confluence_id: 57771754
-position: 56
+sidebar_position: 56
 ---
 # MDM - Mobile Device Management
 

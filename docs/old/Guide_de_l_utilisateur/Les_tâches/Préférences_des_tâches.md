@@ -1,7 +1,7 @@
 ---
 title: "Préférences des tâches"
 confluence_id: 57770650
-position: 48
+sidebar_position: 48
 ---
 # Préférences des tâches
 

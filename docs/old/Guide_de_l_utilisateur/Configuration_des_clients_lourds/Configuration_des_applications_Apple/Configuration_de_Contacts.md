@@ -1,7 +1,7 @@
 ---
 title: "Configuration de Contacts"
 confluence_id: 57770873
-position: 70
+sidebar_position: 70
 ---
 # Configuration de Contacts
 

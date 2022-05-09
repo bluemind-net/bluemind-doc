@@ -1,7 +1,7 @@
 ---
 title: "Monitoring Bm-Tick"
 confluence_id: 57771650
-position: 54
+sidebar_position: 54
 ---
 # Monitoring Bm-Tick
 

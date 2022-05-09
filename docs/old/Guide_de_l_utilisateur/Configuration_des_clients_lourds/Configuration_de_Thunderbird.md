@@ -1,7 +1,7 @@
 ---
 title: "Configuration de Thunderbird"
 confluence_id: 57770889
-position: 64
+sidebar_position: 64
 ---
 # Configuration de Thunderbird
 

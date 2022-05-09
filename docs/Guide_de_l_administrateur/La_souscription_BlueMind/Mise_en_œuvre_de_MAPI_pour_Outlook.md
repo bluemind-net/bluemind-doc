@@ -1,7 +1,7 @@
 ---
 title: "Mise en œuvre de MAPI pour Outlook"
 confluence_id: 57771792
-position: 58
+sidebar_position: 58
 ---
 # Mise en œuvre de MAPI pour Outlook
 

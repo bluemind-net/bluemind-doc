@@ -1,7 +1,7 @@
 ---
 title: "Configuration du plugin Xivo/Avencall"
 confluence_id: 57771915
-position: 48
+sidebar_position: 48
 ---
 # Configuration du plugin Xivo/Avencall
 

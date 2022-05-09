@@ -1,7 +1,7 @@
 ---
 title: "La console d'administration"
 confluence_id: 57771267
-position: 46
+sidebar_position: 46
 ---
 # La console d'administration
 

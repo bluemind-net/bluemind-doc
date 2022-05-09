@@ -1,7 +1,7 @@
 ---
 title: "L'autodiscover n'est pas trouvé par les mobiles Android"
 confluence_id: 57771846
-position: 68
+sidebar_position: 68
 ---
 # L'autodiscover n'est pas trouvé par les mobiles Android
 

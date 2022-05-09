@@ -1,7 +1,7 @@
 ---
 title: "Préférences du webmail"
 confluence_id: 66096322
-position: 42
+sidebar_position: 42
 ---
 # Préférences du webmail
 

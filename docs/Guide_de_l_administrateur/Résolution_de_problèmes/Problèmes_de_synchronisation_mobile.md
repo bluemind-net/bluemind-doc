@@ -1,7 +1,7 @@
 ---
 title: "Problèmes de synchronisation mobile"
 confluence_id: 57771853
-position: 78
+sidebar_position: 78
 ---
 # Problèmes de synchronisation mobile
 

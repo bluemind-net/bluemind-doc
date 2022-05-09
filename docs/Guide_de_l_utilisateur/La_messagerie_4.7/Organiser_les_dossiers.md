@@ -1,7 +1,7 @@
 ---
 title: "Organiser les dossiers"
 confluence_id: 86762556
-position: 70
+sidebar_position: 60
 ---
 # Organiser les dossiers
 
@@ -49,6 +49,13 @@ Les actions actuellement disponibles sont :
 :::info
 La suppression d'un dossier et de son contenu est une suppression définitive : les messages contenus dans le dossier ne sont pas placés à la corbeille.
 :::
+
+## Rechercher un dossier
+
+La fonction "**Filter mes dossiers**" en haut de la colonne permet de retrouver rapidement un dossier. 
+**Taper les premières lettres** du dossier dans le champ de recherche, seuls les dossiers correspondant apparaissent dans la liste
+
+![](../../attachments/86762556/86764497.png)
 
 
 ## Déplacer un dossier

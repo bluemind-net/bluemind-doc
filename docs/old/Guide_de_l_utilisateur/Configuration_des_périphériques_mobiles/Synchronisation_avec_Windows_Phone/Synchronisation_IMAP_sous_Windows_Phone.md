@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation IMAP sous Windows Phone"
 confluence_id: 57771161
-position: 76
+sidebar_position: 76
 ---
 # Synchronisation IMAP sous Windows Phone
 

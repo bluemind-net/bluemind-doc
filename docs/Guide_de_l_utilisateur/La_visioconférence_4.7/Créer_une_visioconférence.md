@@ -1,7 +1,7 @@
 ---
 title: "Créer une visioconférence"
 confluence_id: 86764870
-position: 68
+sidebar_position: 20
 ---
 # Créer une visioconférence
 

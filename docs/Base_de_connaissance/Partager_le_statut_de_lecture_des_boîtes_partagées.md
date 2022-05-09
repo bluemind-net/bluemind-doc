@@ -1,7 +1,7 @@
 ---
 title: "Partager le statut de lecture des boîtes partagées"
 confluence_id: 57771944
-position: 66
+sidebar_position: 66
 ---
 # Partager le statut de lecture des boîtes partagées
 

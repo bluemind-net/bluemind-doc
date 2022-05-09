@@ -1,7 +1,7 @@
 ---
 title: "Frontend / UI"
 confluence_id: 57771900
-position: 58
+sidebar_position: 58
 ---
 # Frontend / UI
 

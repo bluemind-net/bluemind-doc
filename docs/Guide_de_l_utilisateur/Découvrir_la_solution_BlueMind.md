@@ -1,7 +1,7 @@
 ---
 title: "Découvrir la solution BlueMind"
 confluence_id: 86762459
-position: 50
+sidebar_position: 10
 ---
 # Découvrir la solution BlueMind
 
@@ -86,7 +86,7 @@ La solution BlueMind est dotée d'un **nouveau moteur de recherche performant**,
 
 La recherche dans BlueMind :
 
-- se fait l'ensemble des mots contenus dans **messages**, les fiches des **contacts** ou des **évènements**, y compris les [catégories](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/)
+- se fait l'ensemble des mots contenus dans **messages**, les fiches des **contacts** ou des **évènements**, y compris les [catégories](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/#créer-des-catégories)
 - se fait sur des mots exacts : le mot "invitation" sera recherché au singulier
 - ne tient pas compte des accents : "réservation" ou "reservation" donnera les mêmes résultats
 

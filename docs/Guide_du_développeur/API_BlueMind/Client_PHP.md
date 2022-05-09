@@ -1,7 +1,7 @@
 ---
 title: "Client PHP"
 confluence_id: 57771891
-position: 56
+sidebar_position: 56
 ---
 # Client PHP
 

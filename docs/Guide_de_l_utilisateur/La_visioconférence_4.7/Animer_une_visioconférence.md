@@ -1,7 +1,7 @@
 ---
 title: "Animer une visioconférence"
 confluence_id: 86762914
-position: 72
+sidebar_position: 40
 ---
 # Animer une visioconférence
 

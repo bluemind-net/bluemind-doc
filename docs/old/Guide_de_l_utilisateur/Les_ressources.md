@@ -1,7 +1,7 @@
 ---
 title: "Les ressources"
 confluence_id: 57770793
-position: 52
+sidebar_position: 52
 ---
 # Les ressources
 

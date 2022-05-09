@@ -1,7 +1,7 @@
 ---
 title: "Les contacts"
 confluence_id: 57770410
-position: 38
+sidebar_position: 38
 ---
 # Les contacts
 

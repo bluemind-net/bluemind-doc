@@ -1,7 +1,7 @@
 ---
 title: "Vues"
 confluence_id: 57770548
-position: 50
+sidebar_position: 50
 ---
 # Vues
 

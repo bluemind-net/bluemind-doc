@@ -1,7 +1,7 @@
 ---
 title: "Documentation Wazo"
 confluence_id: 79863817
-position: 54
+sidebar_position: 54
 ---
 # Documentation Wazo
 

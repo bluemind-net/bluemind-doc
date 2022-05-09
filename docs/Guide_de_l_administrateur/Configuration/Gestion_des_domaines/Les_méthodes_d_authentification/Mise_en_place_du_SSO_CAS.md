@@ -1,7 +1,7 @@
 ---
 title: "Mise en place du SSO CAS"
 confluence_id: 57771293
-position: 62
+sidebar_position: 62
 ---
 # Mise en place du SSO CAS
 

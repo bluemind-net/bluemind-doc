@@ -1,7 +1,7 @@
 ---
 title: "BlueMind plugin Maven Archetype"
 confluence_id: 57771893
-position: 46
+sidebar_position: 46
 ---
 # BlueMind plugin Maven Archetype
 

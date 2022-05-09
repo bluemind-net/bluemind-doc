@@ -1,7 +1,7 @@
 ---
 title: "Configuration"
 confluence_id: 57771266
-position: 40
+sidebar_position: 40
 ---
 # Configuration
 

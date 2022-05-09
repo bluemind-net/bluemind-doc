@@ -1,7 +1,7 @@
 ---
 title: "Nettoyage du cache du navigateur client"
 confluence_id: 57771927
-position: 64
+sidebar_position: 64
 ---
 # Nettoyage du cache du navigateur client
 

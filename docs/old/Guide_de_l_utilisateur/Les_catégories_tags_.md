@@ -1,7 +1,7 @@
 ---
 title: "Les catégories (tags)"
 confluence_id: 57770802
-position: 54
+sidebar_position: 54
 ---
 # Les catégories (tags)
 

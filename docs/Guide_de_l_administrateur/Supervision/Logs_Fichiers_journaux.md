@@ -1,7 +1,7 @@
 ---
 title: "Logs - Fichiers journaux"
 confluence_id: 57771649
-position: 52
+sidebar_position: 52
 ---
 # Logs - Fichiers journaux
 

@@ -1,7 +1,7 @@
 ---
 title: "Partager une liste de tâches"
 confluence_id: 86764820
-position: 72
+sidebar_position: 40
 ---
 # Partager une liste de tâches
 

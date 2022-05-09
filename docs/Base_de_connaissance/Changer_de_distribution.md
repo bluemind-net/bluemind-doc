@@ -1,7 +1,7 @@
 ---
 title: "Changer de distribution"
 confluence_id: 57771914
-position: 44
+sidebar_position: 44
 ---
 # Changer de distribution
 

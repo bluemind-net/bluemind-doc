@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation avec iOS"
 confluence_id: 57771069
-position: 68
+sidebar_position: 68
 ---
 # Synchronisation avec iOS
 

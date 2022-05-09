@@ -1,7 +1,7 @@
 ---
 title: "Référence des métriques"
 confluence_id: 57771727
-position: 64
+sidebar_position: 64
 ---
 # Référence des métriques
 

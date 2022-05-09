@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation avec Android"
 confluence_id: 57770962
-position: 64
+sidebar_position: 64
 ---
 # Synchronisation avec Android
 

@@ -1,7 +1,7 @@
 ---
 title: "Configuration de Calendar"
 confluence_id: 57770879
-position: 72
+sidebar_position: 72
 ---
 # Configuration de Calendar
 

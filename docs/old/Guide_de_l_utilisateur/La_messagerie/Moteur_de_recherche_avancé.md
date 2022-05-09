@@ -1,7 +1,7 @@
 ---
 title: "Moteur de recherche avancé"
 confluence_id: 57770315
-position: 46
+sidebar_position: 46
 ---
 # Moteur de recherche avancé
 

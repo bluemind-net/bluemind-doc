@@ -1,7 +1,7 @@
 ---
 title: "Utilisateurs externes"
 confluence_id: 57771509
-position: 62
+sidebar_position: 62
 ---
 # Utilisateurs externes
 

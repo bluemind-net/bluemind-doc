@@ -1,7 +1,7 @@
 ---
 title: "Maintenance des mails"
 confluence_id: 57771818
-position: 70
+sidebar_position: 70
 ---
 # Maintenance des mails
 

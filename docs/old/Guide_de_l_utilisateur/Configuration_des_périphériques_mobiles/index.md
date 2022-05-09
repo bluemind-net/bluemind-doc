@@ -1,7 +1,7 @@
 ---
 title: "Configuration des périphériques mobiles"
 confluence_id: 57770961
-position: 58
+sidebar_position: 58
 ---
 # Configuration des périphériques mobiles
 

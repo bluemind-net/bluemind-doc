@@ -1,7 +1,7 @@
 ---
 title: "Configuration système"
 confluence_id: 57771321
-position: 56
+sidebar_position: 56
 ---
 # Configuration système
 

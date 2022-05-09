@@ -1,7 +1,7 @@
 ---
 title: "Pare-feu"
 confluence_id: 57771350
-position: 70
+sidebar_position: 70
 ---
 # Pare-feu
 

@@ -1,7 +1,7 @@
 ---
 title: "La messagerie instantanée"
 confluence_id: 57770687
-position: 46
+sidebar_position: 46
 ---
 # La messagerie instantanée
 

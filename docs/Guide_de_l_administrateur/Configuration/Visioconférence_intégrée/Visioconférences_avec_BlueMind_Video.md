@@ -1,7 +1,7 @@
 ---
 title: "Visioconférences avec BlueMind Video"
 confluence_id: 79856114
-position: 74
+sidebar_position: 74
 ---
 # Visioconférences avec BlueMind Video
 

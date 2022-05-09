@@ -1,7 +1,7 @@
 ---
 title: "Eclipse"
 confluence_id: 57771895
-position: 54
+sidebar_position: 54
 ---
 # Eclipse
 

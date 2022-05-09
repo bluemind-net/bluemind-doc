@@ -1,7 +1,7 @@
 ---
 title: "Installation d'un serveur Edge : Nginx et Postfix"
 confluence_id: 57771799
-position: 68
+sidebar_position: 68
 ---
 # Installation d'un serveur Edge : Nginx et Postfix
 

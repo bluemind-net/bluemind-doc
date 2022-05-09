@@ -1,7 +1,7 @@
 ---
 title: "Client Java"
 confluence_id: 57771890
-position: 54
+sidebar_position: 54
 ---
 # Client Java
 

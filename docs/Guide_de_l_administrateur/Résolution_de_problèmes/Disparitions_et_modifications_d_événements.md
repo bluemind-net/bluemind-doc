@@ -1,7 +1,7 @@
 ---
 title: "Disparitions et modifications d'événements"
 confluence_id: 57771841
-position: 66
+sidebar_position: 66
 ---
 # Disparitions et modifications d'événements
 

@@ -1,7 +1,7 @@
 ---
 title: "Configuration des applications Apple"
 confluence_id: 57770865
-position: 62
+sidebar_position: 62
 ---
 # Configuration des applications Apple
 

@@ -1,7 +1,7 @@
 ---
 title: "Paramétrer l'agenda"
 confluence_id: 86762754
-position: 66
+sidebar_position: 20
 ---
 # Paramétrer l'agenda
 

@@ -1,7 +1,7 @@
 ---
 title: "Export LDAP"
 confluence_id: 57771632
-position: 66
+sidebar_position: 66
 ---
 # Export LDAP
 

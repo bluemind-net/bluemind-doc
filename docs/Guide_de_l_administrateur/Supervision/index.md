@@ -1,7 +1,7 @@
 ---
 title: "Supervision"
 confluence_id: 57771639
-position: 44
+sidebar_position: 44
 ---
 # Supervision
 

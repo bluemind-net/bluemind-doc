@@ -1,7 +1,7 @@
 ---
 title: "Préférences avancées"
 confluence_id: 57770374
-position: 58
+sidebar_position: 58
 ---
 # Préférences avancées
 

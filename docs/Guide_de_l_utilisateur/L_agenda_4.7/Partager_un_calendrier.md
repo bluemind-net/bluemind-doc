@@ -1,7 +1,7 @@
 ---
 title: "Partager un calendrier"
 confluence_id: 86762776
-position: 72
+sidebar_position: 50
 ---
 # Partager un calendrier
 

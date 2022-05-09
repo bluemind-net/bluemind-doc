@@ -1,7 +1,7 @@
 ---
 title: "Utiliser un calendrier partagé"
 confluence_id: 86764741
-position: 74
+sidebar_position: 60
 ---
 # Utiliser un calendrier partagé
 

@@ -1,7 +1,7 @@
 ---
 title: "Procédure de départ utilisateur et redirection de ses mails"
 confluence_id: 57771508
-position: 60
+sidebar_position: 60
 ---
 # Procédure de départ utilisateur et redirection de ses mails
 

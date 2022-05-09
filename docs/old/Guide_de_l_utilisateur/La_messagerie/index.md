@@ -1,7 +1,7 @@
 ---
 title: "La messagerie"
 confluence_id: 57770219
-position: 36
+sidebar_position: 36
 ---
 # La messagerie
 

@@ -1,7 +1,7 @@
 ---
 title: "Nouveautés BlueMind 4.0 à 4.3"
 confluence_id: 57770078
-position: 22
+sidebar_position: 70
 ---
 # Nouveautés BlueMind 4.0 à 4.3
 

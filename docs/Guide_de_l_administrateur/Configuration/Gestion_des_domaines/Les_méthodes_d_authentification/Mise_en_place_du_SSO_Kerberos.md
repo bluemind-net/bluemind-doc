@@ -1,7 +1,7 @@
 ---
 title: "Mise en place du SSO Kerberos"
 confluence_id: 57771301
-position: 64
+sidebar_position: 64
 ---
 # Mise en place du SSO Kerberos
 

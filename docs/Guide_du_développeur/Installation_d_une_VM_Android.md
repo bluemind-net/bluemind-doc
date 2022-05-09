@@ -1,7 +1,7 @@
 ---
 title: "Installation d'une VM Android"
 confluence_id: 62559016
-position: 52
+sidebar_position: 52
 ---
 # Installation d'une VM Android
 

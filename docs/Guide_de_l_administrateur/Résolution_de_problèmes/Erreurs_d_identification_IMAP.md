@@ -1,7 +1,7 @@
 ---
 title: "Erreurs d'identification IMAP"
 confluence_id: 57771838
-position: 64
+sidebar_position: 64
 ---
 # Erreurs d'identification IMAP
 

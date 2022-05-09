@@ -1,7 +1,7 @@
 ---
 title: "Configuration post-installation"
 confluence_id: 57771194
-position: 44
+sidebar_position: 44
 ---
 # Configuration post-installation
 

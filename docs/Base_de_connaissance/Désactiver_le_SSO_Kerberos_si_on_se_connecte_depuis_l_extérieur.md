@@ -1,7 +1,7 @@
 ---
 title: "Désactiver le SSO Kerberos si on se connecte depuis l'extérieur"
 confluence_id: 57771921
-position: 52
+sidebar_position: 52
 ---
 # Désactiver le SSO Kerberos si on se connecte depuis l'extérieur
 

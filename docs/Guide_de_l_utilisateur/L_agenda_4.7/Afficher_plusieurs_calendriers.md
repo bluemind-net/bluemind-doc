@@ -1,10 +1,9 @@
 ---
 title: "Afficher plusieurs calendriers"
 confluence_id: 86762786
-position: 76
+sidebar_position: 70
 ---
 # Afficher plusieurs calendriers
-
 
 En plus de son agenda personnel créé et affiché automatiquement, l'utilisateur peut visualiser **ses **[**calendriers personnels supplémentaires**](/Guide_de_l_utilisateur/L_agenda_4.7/Créer_et_éditer_un_calendrier/), les [**calendriers qui lui ont été partagés**](/Guide_de_l_utilisateur/L_agenda_4.7/Partager_un_calendrier/) par d'autres utilisateurs ou bien par l'administrateur pour **les calendriers de domaine**.
 

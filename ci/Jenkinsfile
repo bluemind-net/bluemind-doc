@@ -5,6 +5,7 @@ pipeline {
 	    agent { node { label 'bm-docs' } }
             steps {
                 script {
+		    notifyBitbucket()
 		    sh "yarn"
 		    sh "mkdir -p /var/www/bm-docs/${BRANCH_NAME}"
 		    sh """sed -i "s|  baseUrl: .*|  baseUrl: '/${BRANCH_NAME}/',|" docusaurus.config.js"""

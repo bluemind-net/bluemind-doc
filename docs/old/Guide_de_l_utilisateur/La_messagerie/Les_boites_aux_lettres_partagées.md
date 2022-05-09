@@ -1,7 +1,7 @@
 ---
 title: "Les boites aux lettres partagées"
 confluence_id: 57770342
-position: 50
+sidebar_position: 50
 ---
 # Les boites aux lettres partagées
 

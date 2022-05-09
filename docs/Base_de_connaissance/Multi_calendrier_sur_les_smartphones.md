@@ -1,7 +1,7 @@
 ---
 title: "Multi-calendrier sur les smartphones"
 confluence_id: 57771926
-position: 62
+sidebar_position: 62
 ---
 # Multi-calendrier sur les smartphones
 

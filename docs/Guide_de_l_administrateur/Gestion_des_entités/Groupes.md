@@ -1,7 +1,7 @@
 ---
 title: "Groupes"
 confluence_id: 57771525
-position: 52
+sidebar_position: 52
 ---
 # Groupes
 

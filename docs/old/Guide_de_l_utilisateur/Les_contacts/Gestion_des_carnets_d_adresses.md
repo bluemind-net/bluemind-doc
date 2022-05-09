@@ -1,7 +1,7 @@
 ---
 title: "Gestion des carnets d'adresses"
 confluence_id: 57770425
-position: 44
+sidebar_position: 44
 ---
 # Gestion des carnets d'adresses
 

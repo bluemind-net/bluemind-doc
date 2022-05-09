@@ -1,7 +1,7 @@
 ---
 title: "Problèmes de recherche et indexation"
 confluence_id: 57771851
-position: 76
+sidebar_position: 76
 ---
 # Problèmes de recherche et indexation
 

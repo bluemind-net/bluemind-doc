@@ -1,7 +1,7 @@
 ---
 title: "Le serveur est utilisé pour envoyer du SPAM"
 confluence_id: 57771848
-position: 72
+sidebar_position: 72
 ---
 # Le serveur est utilisé pour envoyer du SPAM
 

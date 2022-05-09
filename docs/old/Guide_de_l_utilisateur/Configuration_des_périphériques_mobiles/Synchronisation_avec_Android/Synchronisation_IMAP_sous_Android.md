@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation IMAP sous Android"
 confluence_id: 57771006
-position: 70
+sidebar_position: 70
 ---
 # Synchronisation IMAP sous Android
 

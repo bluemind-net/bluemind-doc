@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation avec Blackberry"
 confluence_id: 57771034
-position: 66
+sidebar_position: 66
 ---
 # Synchronisation avec Blackberry
 

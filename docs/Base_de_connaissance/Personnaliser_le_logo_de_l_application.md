@@ -1,7 +1,7 @@
 ---
 title: "Personnaliser le logo de l'application"
 confluence_id: 57771947
-position: 68
+sidebar_position: 68
 ---
 # Personnaliser le logo de l'application
 
