@@ -1,7 +1,7 @@
 ---
 title: "Découvrir la messagerie"
 confluence_id: 86762493
-position: 60
+position: 10
 ---
 # Découvrir la messagerie
 
