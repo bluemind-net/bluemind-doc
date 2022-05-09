@@ -1,7 +1,7 @@
 ---
 title: "Découvrir les tâches"
 confluence_id: 86762906
-sidebar_position: 66
+sidebar_position: 10
 ---
 # Découvrir les tâches
 

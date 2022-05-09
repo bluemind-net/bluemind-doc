@@ -1,7 +1,8 @@
 ---
 title: "Éditer un contact"
 confluence_id: 86762696
-sidebar_position: 72
+sidebar_position: 60
+
 ---
 # Éditer un contact
 

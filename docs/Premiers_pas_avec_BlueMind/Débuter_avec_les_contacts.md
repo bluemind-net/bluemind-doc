@@ -1,7 +1,7 @@
 ---
 title: "Débuter avec les contacts"
 confluence_id: 57770164
-sidebar_position: 34
+sidebar_position: 30
 ---
 # Débuter avec les contacts
 

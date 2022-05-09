@@ -1,7 +1,7 @@
 ---
 title: "Débuter avec le webmail"
 confluence_id: 57770136
-sidebar_position: 30
+sidebar_position: 20
 ---
 # Débuter avec le webmail
 

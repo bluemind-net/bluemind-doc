@@ -1,7 +1,7 @@
 ---
 title: "Débuter avec les tâches"
 confluence_id: 57770175
-sidebar_position: 36
+sidebar_position: 50
 ---
 # Débuter avec les tâches
 

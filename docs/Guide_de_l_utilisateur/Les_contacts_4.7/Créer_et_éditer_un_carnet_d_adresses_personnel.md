@@ -1,7 +1,7 @@
 ---
 title: "Créer et éditer un carnet d'adresses personnel"
 confluence_id: 86764629
-sidebar_position: 64
+sidebar_position: 20
 ---
 # Créer et éditer un carnet d'adresses personnel
 

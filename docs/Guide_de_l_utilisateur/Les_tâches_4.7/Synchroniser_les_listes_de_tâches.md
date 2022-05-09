@@ -1,7 +1,7 @@
 ---
 title: "Synchroniser les listes de tâches"
 confluence_id: 86764866
-sidebar_position: 82
+sidebar_position: 110
 ---
 # Synchroniser les listes de tâches
 

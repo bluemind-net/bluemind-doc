@@ -1,7 +1,7 @@
 ---
 title: "Débuter avec l'agenda"
 confluence_id: 57770148
-sidebar_position: 32
+sidebar_position: 40
 ---
 # Débuter avec l'agenda
 

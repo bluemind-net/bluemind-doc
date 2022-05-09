@@ -1,7 +1,7 @@
 ---
 title: "Gérer les réservations de ressources"
 confluence_id: 86762893
-sidebar_position: 86
+sidebar_position: 120
 ---
 # Gérer les réservations de ressources
 

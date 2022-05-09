@@ -1,7 +1,7 @@
 ---
 title: "Créer et éditer une liste de tâches"
 confluence_id: 86764808
-sidebar_position: 68
+sidebar_position: 20
 ---
 # Créer et éditer une liste de tâches
 

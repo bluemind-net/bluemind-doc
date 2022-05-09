@@ -1,7 +1,7 @@
 ---
 title: "Ajouter une tâche"
 confluence_id: 86762908
-sidebar_position: 76
+sidebar_position: 80
 ---
 # Ajouter une tâche
 

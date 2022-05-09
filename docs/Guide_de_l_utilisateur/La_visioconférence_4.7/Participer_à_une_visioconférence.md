@@ -1,7 +1,7 @@
 ---
 title: "Participer à une visioconférence"
 confluence_id: 86762916
-sidebar_position: 70
+sidebar_position: 30
 ---
 # Participer à une visioconférence
 

@@ -1,7 +1,7 @@
 ---
 title: "Importer et exporter des contacts"
 confluence_id: 86762721
-sidebar_position: 66
+sidebar_position: 30
 ---
 # Importer et exporter des contacts
 

@@ -1,7 +1,7 @@
 ---
 title: "Synchroniser les calendriers"
 confluence_id: 86762901
-sidebar_position: 88
+sidebar_position: 130
 ---
 # Synchroniser les calendriers
 

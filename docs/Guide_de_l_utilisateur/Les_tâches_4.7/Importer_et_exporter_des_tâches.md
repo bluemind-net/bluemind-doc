@@ -1,7 +1,7 @@
 ---
 title: "Importer et exporter des tâches"
 confluence_id: 86764818
-sidebar_position: 70
+sidebar_position: 30
 ---
 # Importer et exporter des tâches
 
