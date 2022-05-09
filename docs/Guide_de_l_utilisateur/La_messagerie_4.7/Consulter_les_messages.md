@@ -2,6 +2,7 @@
 title: "Consulter les messages"
 confluence_id: 86743273
 position: 20
+---
 # Consulter les messages
 
 
