@@ -1,7 +1,7 @@
 ---
 title: "Organiser les dossiers"
 confluence_id: 86762556
-position: 70
+position: 60
 ---
 # Organiser les dossiers
 

@@ -1,7 +1,7 @@
 ---
 title: "Classer et suivre les messages"
 confluence_id: 86762591
-position: 74
+position: 80
 ---
 # Classer et suivre les messages
 

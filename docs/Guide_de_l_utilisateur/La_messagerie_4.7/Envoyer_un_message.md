@@ -1,7 +1,7 @@
 ---
 title: "Envoyer un message"
 confluence_id: 86762509
-position: 64
+position: 30
 ---
 # Envoyer un message
 

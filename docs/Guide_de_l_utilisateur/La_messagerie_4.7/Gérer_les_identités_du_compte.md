@@ -1,7 +1,7 @@
 ---
 title: "Gérer les identités du compte"
 confluence_id: 86762550
-position: 68
+position: 50
 ---
 # Gérer les identités du compte
 

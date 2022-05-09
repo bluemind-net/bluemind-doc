@@ -1,7 +1,7 @@
 ---
 title: "Gérer la liste des messages"
 confluence_id: 86762569
-position: 72
+position: 70
 ---
 # Gérer la liste des messages
 
