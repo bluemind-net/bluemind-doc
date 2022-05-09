@@ -37,3 +37,16 @@ html[data-theme='dark'] {
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+h1, h2, h3 {
+    color: var(--ifm-color-primary);
+    font-variant: small-caps;
+}
+
+h2 {
+    border-bottom: 2px solid var(--ifm-color-primary);
+}
+
+.theme-doc-sidebar-item-category-level-1 > div > .menu__link {
+    font-weight: bold;
+}
