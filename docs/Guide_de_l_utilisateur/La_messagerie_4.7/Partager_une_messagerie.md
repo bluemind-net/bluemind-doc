@@ -1,7 +1,7 @@
 ---
 title: "Partager une messagerie"
 confluence_id: 86764567
-position: 100
+sidebar_position: 100
 ---
 # Partager une messagerie
 

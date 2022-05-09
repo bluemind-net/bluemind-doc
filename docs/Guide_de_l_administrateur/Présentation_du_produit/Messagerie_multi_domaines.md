@@ -1,7 +1,7 @@
 ---
 title: "Messagerie multi-domaines"
 confluence_id: 57771242
-position: 46
+sidebar_position: 46
 ---
 # Messagerie multi-domaines
 

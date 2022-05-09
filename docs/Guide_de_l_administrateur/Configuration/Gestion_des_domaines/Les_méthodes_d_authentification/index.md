@@ -1,7 +1,7 @@
 ---
 title: "Les méthodes d'authentification"
 confluence_id: 57771292
-position: 56
+sidebar_position: 56
 ---
 # Les méthodes d'authentification
 

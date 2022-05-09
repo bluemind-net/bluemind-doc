@@ -1,7 +1,7 @@
 ---
 title: "Haute disponibilité logicielle et BlueMind"
 confluence_id: 57771769
-position: 50
+sidebar_position: 50
 ---
 # Haute disponibilité logicielle et BlueMind
 

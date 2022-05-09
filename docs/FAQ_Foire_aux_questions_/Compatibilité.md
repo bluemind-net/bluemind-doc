@@ -1,7 +1,7 @@
 ---
 title: "Compatibilité"
 confluence_id: 57770212
-position: 32
+sidebar_position: 32
 ---
 # Compatibilité
 

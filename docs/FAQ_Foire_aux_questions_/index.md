@@ -1,7 +1,7 @@
 ---
 title: "FAQ (Foire aux questions)"
 confluence_id: 57770192
-position: 26
+sidebar_position: 26
 ---
 # FAQ (Foire aux questions)
 

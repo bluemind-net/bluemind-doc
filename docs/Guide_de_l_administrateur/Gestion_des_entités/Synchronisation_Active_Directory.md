@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation Active Directory"
 confluence_id: 57771618
-position: 62
+sidebar_position: 62
 ---
 # Synchronisation Active Directory
 

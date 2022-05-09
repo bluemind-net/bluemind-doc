@@ -1,7 +1,7 @@
 ---
 title: "Administration du serveur XMPP"
 confluence_id: 57771795
-position: 62
+sidebar_position: 62
 ---
 # Administration du serveur XMPP
 

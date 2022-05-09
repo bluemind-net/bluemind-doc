@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation avec Outlook"
 confluence_id: 57770953
-position: 66
+sidebar_position: 66
 ---
 # Synchronisation avec Outlook
 

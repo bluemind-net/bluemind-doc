@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation LDAP"
 confluence_id: 57771626
-position: 64
+sidebar_position: 64
 ---
 # Synchronisation LDAP
 

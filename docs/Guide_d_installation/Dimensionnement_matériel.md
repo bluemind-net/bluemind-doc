@@ -1,7 +1,7 @@
 ---
 title: "Dimensionnement matériel"
 confluence_id: 57771183
-position: 36
+sidebar_position: 36
 ---
 # Dimensionnement matériel
 

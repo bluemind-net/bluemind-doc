@@ -1,7 +1,7 @@
 ---
 title: "Configuration des url externes"
 confluence_id: 79863716
-position: 58
+sidebar_position: 58
 ---
 # Configuration des url externes
 

@@ -1,7 +1,7 @@
 ---
 title: "Changement d'adresse IP d'un serveur BlueMind"
 confluence_id: 58593019
-position: 42
+sidebar_position: 42
 ---
 # Changement d'adresse IP d'un serveur BlueMind
 

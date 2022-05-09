@@ -1,7 +1,7 @@
 ---
 title: "Plan de Reprise d'Activité (PRA)"
 confluence_id: 57771731
-position: 52
+sidebar_position: 52
 ---
 # Plan de Reprise d'Activité (PRA)
 

@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation IMAP du Blackberry"
 confluence_id: 57771055
-position: 72
+sidebar_position: 72
 ---
 # Synchronisation IMAP du Blackberry
 

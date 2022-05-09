@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation avec Windows Phone"
 confluence_id: 57771136
-position: 70
+sidebar_position: 70
 ---
 # Synchronisation avec Windows Phone
 

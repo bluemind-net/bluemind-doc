@@ -1,7 +1,7 @@
 ---
 title: "Utiliser une liste de tâches partagée"
 confluence_id: 86764826
-position: 74
+sidebar_position: 74
 ---
 # Utiliser une liste de tâches partagée
 

@@ -1,7 +1,7 @@
 ---
 title: "Certificats SSL"
 confluence_id: 57771347
-position: 68
+sidebar_position: 68
 ---
 # Certificats SSL
 

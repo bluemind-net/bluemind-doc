@@ -1,7 +1,7 @@
 ---
 title: "L'administration déléguée"
 confluence_id: 57771479
-position: 58
+sidebar_position: 58
 ---
 # L'administration déléguée
 

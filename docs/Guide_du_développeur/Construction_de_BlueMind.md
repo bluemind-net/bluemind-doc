@@ -1,7 +1,7 @@
 ---
 title: "Construction de BlueMind"
 confluence_id: 57771872
-position: 40
+sidebar_position: 40
 ---
 # Construction de BlueMind
 

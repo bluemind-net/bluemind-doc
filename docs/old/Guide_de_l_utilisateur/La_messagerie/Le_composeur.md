@@ -1,7 +1,7 @@
 ---
 title: "Le composeur"
 confluence_id: 57770262
-position: 42
+sidebar_position: 42
 ---
 # Le composeur
 

@@ -1,7 +1,7 @@
 ---
 title: "Installation et Accès"
 confluence_id: 57771690
-position: 60
+sidebar_position: 60
 ---
 # Installation et Accès
 

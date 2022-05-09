@@ -1,7 +1,7 @@
 ---
 title: "API d'utilisateurs"
 confluence_id: 57771887
-position: 52
+sidebar_position: 52
 ---
 # API d'utilisateurs
 

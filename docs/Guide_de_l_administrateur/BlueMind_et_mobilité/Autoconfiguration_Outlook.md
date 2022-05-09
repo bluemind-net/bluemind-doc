@@ -1,7 +1,7 @@
 ---
 title: "Autoconfiguration Outlook"
 confluence_id: 57771753
-position: 54
+sidebar_position: 54
 ---
 # Autoconfiguration Outlook
 

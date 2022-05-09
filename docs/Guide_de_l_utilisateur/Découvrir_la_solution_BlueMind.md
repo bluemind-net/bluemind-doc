@@ -1,7 +1,7 @@
 ---
 title: "Découvrir la solution BlueMind"
 confluence_id: 86762459
-position: 10
+sidebar_position: 10
 ---
 # Découvrir la solution BlueMind
 

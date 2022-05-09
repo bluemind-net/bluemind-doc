@@ -1,7 +1,7 @@
 ---
 title: "Administration avancée"
 confluence_id: 57771793
-position: 54
+sidebar_position: 54
 ---
 # Administration avancée
 

@@ -1,7 +1,7 @@
 ---
 title: "Configuration des clients lourds"
 confluence_id: 57770864
-position: 56
+sidebar_position: 56
 ---
 # Configuration des clients lourds
 

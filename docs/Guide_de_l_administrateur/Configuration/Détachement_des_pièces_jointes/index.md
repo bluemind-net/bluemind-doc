@@ -1,7 +1,7 @@
 ---
 title: "Détachement des pièces jointes"
 confluence_id: 57771353
-position: 64
+sidebar_position: 64
 ---
 # Détachement des pièces jointes
 

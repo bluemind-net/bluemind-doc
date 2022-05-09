@@ -1,7 +1,7 @@
 ---
 title: "Client CLI pour l'administration"
 confluence_id: 57771796
-position: 64
+sidebar_position: 64
 ---
 # Client CLI pour l'administration
 

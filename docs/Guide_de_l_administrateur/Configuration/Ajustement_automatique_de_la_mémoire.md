@@ -1,7 +1,7 @@
 ---
 title: "Ajustement automatique de la mémoire"
 confluence_id: 57771328
-position: 58
+sidebar_position: 58
 ---
 # Ajustement automatique de la mémoire
 

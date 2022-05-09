@@ -1,7 +1,7 @@
 ---
 title: "Préférences de messagerie"
 confluence_id: 57770359
-position: 52
+sidebar_position: 52
 ---
 # Préférences de messagerie
 

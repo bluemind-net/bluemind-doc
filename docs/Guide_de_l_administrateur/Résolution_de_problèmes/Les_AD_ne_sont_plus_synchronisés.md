@@ -1,7 +1,7 @@
 ---
 title: "Les AD ne sont plus synchronisés"
 confluence_id: 57771847
-position: 70
+sidebar_position: 70
 ---
 # Les AD ne sont plus synchronisés
 

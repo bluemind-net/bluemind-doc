@@ -1,7 +1,7 @@
 ---
 title: "Restaurer les messages supprimés par un utilisateur"
 confluence_id: 66096543
-position: 74
+sidebar_position: 74
 ---
 # Restaurer les messages supprimés par un utilisateur
 

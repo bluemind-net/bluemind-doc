@@ -1,7 +1,7 @@
 ---
 title: "Configuration des logs"
 confluence_id: 57771798
-position: 66
+sidebar_position: 66
 ---
 # Configuration des logs
 

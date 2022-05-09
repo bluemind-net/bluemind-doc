@@ -1,7 +1,7 @@
 ---
 title: "Créer et éditer un calendrier"
 confluence_id: 86762762
-position: 68
+sidebar_position: 68
 ---
 # Créer et éditer un calendrier
 

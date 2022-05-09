@@ -1,7 +1,7 @@
 ---
 title: "Importer et exporter un calendrier"
 confluence_id: 86764733
-position: 70
+sidebar_position: 70
 ---
 # Importer et exporter un calendrier
 

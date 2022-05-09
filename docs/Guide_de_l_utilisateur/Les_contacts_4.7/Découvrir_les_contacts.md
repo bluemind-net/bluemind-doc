@@ -1,7 +1,7 @@
 ---
 title: "Découvrir les contacts"
 confluence_id: 86762658
-position: 62
+sidebar_position: 62
 ---
 # Découvrir les contacts
 

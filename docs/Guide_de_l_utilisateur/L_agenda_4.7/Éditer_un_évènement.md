@@ -1,7 +1,7 @@
 ---
 title: "Éditer un évènement"
 confluence_id: 86762830
-position: 82
+sidebar_position: 82
 ---
 # Éditer un évènement
 

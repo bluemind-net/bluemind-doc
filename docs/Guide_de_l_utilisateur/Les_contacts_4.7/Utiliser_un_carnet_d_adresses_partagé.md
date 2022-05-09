@@ -1,7 +1,7 @@
 ---
 title: "Utiliser un carnet d'adresses partagé"
 confluence_id: 86762682
-position: 70
+sidebar_position: 70
 ---
 # Utiliser un carnet d'adresses partagé
 

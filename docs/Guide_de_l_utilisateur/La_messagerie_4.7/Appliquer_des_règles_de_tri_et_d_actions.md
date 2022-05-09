@@ -1,7 +1,7 @@
 ---
 title: "Appliquer des règles de tri et d'actions"
 confluence_id: 86762608
-position: 90
+sidebar_position: 90
 ---
 # Appliquer des règles de tri et d'actions
 

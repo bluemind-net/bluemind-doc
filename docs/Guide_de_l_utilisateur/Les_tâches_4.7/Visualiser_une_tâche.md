@@ -1,7 +1,7 @@
 ---
 title: "Visualiser une tâche"
 confluence_id: 86762910
-position: 78
+sidebar_position: 78
 ---
 # Visualiser une tâche
 

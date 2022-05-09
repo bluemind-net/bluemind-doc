@@ -1,7 +1,7 @@
 ---
 title: "Installation avec répartition des données sur plusieurs serveurs"
 confluence_id: 57771189
-position: 48
+sidebar_position: 48
 ---
 # Installation avec répartition des données sur plusieurs serveurs
 

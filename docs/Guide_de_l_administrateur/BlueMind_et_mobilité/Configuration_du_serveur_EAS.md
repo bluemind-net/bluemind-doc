@@ -1,7 +1,7 @@
 ---
 title: "Configuration du serveur EAS"
 confluence_id: 57771756
-position: 58
+sidebar_position: 58
 ---
 # Configuration du serveur EAS
 

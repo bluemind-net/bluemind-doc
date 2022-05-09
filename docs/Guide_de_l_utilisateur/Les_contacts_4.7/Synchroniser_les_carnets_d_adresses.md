@@ -1,7 +1,7 @@
 ---
 title: "Synchroniser les carnets d'adresses"
 confluence_id: 86762727
-position: 76
+sidebar_position: 76
 ---
 # Synchroniser les carnets d'adresses
 

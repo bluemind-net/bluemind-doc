@@ -1,7 +1,7 @@
 ---
 title: "Résolution de problèmes"
 confluence_id: 57771834
-position: 56
+sidebar_position: 56
 ---
 # Résolution de problèmes
 

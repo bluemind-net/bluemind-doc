@@ -1,7 +1,7 @@
 ---
 title: "Fichiers volumineux et détachement des pièces jointes"
 confluence_id: 57770278
-position: 44
+sidebar_position: 44
 ---
 # Fichiers volumineux et détachement des pièces jointes
 

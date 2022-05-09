@@ -1,7 +1,7 @@
 ---
 title: "La souscription BlueMind"
 confluence_id: 57771780
-position: 52
+sidebar_position: 52
 ---
 # La souscription BlueMind
 

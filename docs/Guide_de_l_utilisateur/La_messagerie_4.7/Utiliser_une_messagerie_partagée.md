@@ -1,7 +1,7 @@
 ---
 title: "Utiliser une messagerie partagée"
 confluence_id: 86762642
-position: 110
+sidebar_position: 110
 ---
 # Utiliser une messagerie partagée
 

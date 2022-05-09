@@ -1,7 +1,7 @@
 ---
 title: "Restauration manuelle d'une boîte utilisateur ou partagée"
 confluence_id: 57771953
-position: 76
+sidebar_position: 76
 ---
 # Restauration manuelle d'une boîte utilisateur ou partagée
 

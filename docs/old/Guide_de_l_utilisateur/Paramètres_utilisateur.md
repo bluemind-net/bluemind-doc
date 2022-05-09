@@ -1,7 +1,7 @@
 ---
 title: "Paramètres utilisateur"
 confluence_id: 57770769
-position: 48
+sidebar_position: 48
 ---
 # Paramètres utilisateur
 

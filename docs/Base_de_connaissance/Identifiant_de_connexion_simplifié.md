@@ -1,7 +1,7 @@
 ---
 title: "Identifiant de connexion simplifié"
 confluence_id: 57771922
-position: 56
+sidebar_position: 56
 ---
 # Identifiant de connexion simplifié
 

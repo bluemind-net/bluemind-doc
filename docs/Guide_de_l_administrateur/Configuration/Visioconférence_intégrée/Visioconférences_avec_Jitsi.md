@@ -1,7 +1,7 @@
 ---
 title: "Visioconférences avec Jitsi"
 confluence_id: 72188042
-position: 76
+sidebar_position: 76
 ---
 # Visioconférences avec Jitsi
 

@@ -1,7 +1,7 @@
 ---
 title: "Importer les contacts locaux dans BlueMind"
 confluence_id: 57771116
-position: 76
+sidebar_position: 76
 ---
 # Importer les contacts locaux dans BlueMind
 

@@ -1,7 +1,7 @@
 ---
 title: "Mise à jour de BlueMind"
 confluence_id: 57771215
-position: 50
+sidebar_position: 50
 ---
 # Mise à jour de BlueMind
 

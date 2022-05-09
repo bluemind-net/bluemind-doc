@@ -1,7 +1,7 @@
 ---
 title: "API BlueMind"
 confluence_id: 57771883
-position: 44
+sidebar_position: 44
 ---
 # API BlueMind
 

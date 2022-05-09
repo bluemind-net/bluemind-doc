@@ -1,7 +1,7 @@
 ---
 title: "Configuration du plugin Wazo"
 confluence_id: 79856201
-position: 46
+sidebar_position: 46
 ---
 # Configuration du plugin Wazo
 

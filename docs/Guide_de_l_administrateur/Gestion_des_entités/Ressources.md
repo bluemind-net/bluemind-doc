@@ -1,7 +1,7 @@
 ---
 title: "Ressources"
 confluence_id: 57771552
-position: 56
+sidebar_position: 56
 ---
 # Ressources
 

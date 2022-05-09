@@ -1,7 +1,7 @@
 ---
 title: "Afficher plusieurs calendriers"
 confluence_id: 86762786
-position: 76
+sidebar_position: 76
 ---
 # Afficher plusieurs calendriers
 

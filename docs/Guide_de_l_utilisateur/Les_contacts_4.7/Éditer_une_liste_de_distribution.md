@@ -1,7 +1,7 @@
 ---
 title: "Éditer une liste de distribution"
 confluence_id: 86762706
-position: 74
+sidebar_position: 74
 ---
 # Éditer une liste de distribution
 

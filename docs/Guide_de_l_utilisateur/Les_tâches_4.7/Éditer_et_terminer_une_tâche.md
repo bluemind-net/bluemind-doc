@@ -1,7 +1,7 @@
 ---
 title: "Éditer et terminer une tâche"
 confluence_id: 86764853
-position: 80
+sidebar_position: 80
 ---
 # Éditer et terminer une tâche
 

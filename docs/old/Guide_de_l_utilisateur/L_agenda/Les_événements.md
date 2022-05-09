@@ -1,7 +1,7 @@
 ---
 title: "Les événements"
 confluence_id: 57770493
-position: 46
+sidebar_position: 46
 ---
 # Les événements
 

@@ -1,7 +1,7 @@
 ---
 title: "Résolution des problèmes avec Outlook"
 confluence_id: 57771859
-position: 80
+sidebar_position: 80
 ---
 # Résolution des problèmes avec Outlook
 

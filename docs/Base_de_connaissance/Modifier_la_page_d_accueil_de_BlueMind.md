@@ -1,7 +1,7 @@
 ---
 title: "Modifier la page d'accueil de BlueMind"
 confluence_id: 57771925
-position: 60
+sidebar_position: 60
 ---
 # Modifier la page d'accueil de BlueMind
 

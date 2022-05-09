@@ -1,7 +1,7 @@
 ---
 title: "Documentation BlueMind 4"
 confluence_id: 57770074
-position: 12
+sidebar_position: 12
 slug: /
 ---
 # Documentation BlueMind 4

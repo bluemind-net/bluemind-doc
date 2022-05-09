@@ -1,7 +1,7 @@
 ---
 title: "Console de monitoring"
 confluence_id: 57771640
-position: 50
+sidebar_position: 50
 ---
 # Console de monitoring
 

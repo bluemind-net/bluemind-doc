@@ -1,7 +1,7 @@
 ---
 title: "Gestion des domaines"
 confluence_id: 57771276
-position: 50
+sidebar_position: 50
 ---
 # Gestion des domaines
 

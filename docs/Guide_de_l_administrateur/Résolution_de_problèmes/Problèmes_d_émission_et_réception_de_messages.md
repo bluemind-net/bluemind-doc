@@ -1,7 +1,7 @@
 ---
 title: "Problèmes d'émission et réception de messages"
 confluence_id: 57771835
-position: 62
+sidebar_position: 62
 ---
 # Problèmes d'émission et réception de messages
 

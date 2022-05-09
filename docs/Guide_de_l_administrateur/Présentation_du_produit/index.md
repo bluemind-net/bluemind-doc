@@ -1,7 +1,7 @@
 ---
 title: "Présentation du produit"
 confluence_id: 57771222
-position: 38
+sidebar_position: 38
 ---
 # Présentation du produit
 

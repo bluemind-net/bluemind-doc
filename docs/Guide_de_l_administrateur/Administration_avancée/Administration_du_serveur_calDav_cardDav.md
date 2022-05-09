@@ -1,7 +1,7 @@
 ---
 title: "Administration du serveur calDav/cardDav"
 confluence_id: 57771794
-position: 60
+sidebar_position: 60
 ---
 # Administration du serveur calDav/cardDav
 

@@ -1,7 +1,7 @@
 ---
 title: "Client Python"
 confluence_id: 57771892
-position: 58
+sidebar_position: 58
 ---
 # Client Python
 

@@ -1,7 +1,7 @@
 ---
 title: "Signatures d'entreprise"
 confluence_id: 57771370
-position: 66
+sidebar_position: 66
 ---
 # Signatures d'entreprise
 

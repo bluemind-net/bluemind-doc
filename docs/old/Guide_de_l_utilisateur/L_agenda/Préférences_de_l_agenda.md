@@ -1,7 +1,7 @@
 ---
 title: "Préférences de l'agenda"
 confluence_id: 57770563
-position: 52
+sidebar_position: 52
 ---
 # Préférences de l'agenda
 

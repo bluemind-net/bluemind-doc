@@ -1,7 +1,7 @@
 ---
 title: "Explorer et analyser les données avec bm-tick"
 confluence_id: 57771695
-position: 62
+sidebar_position: 62
 ---
 # Explorer et analyser les données avec bm-tick
 

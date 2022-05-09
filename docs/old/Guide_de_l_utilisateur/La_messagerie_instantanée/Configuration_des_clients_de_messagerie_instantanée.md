@@ -1,7 +1,7 @@
 ---
 title: "Configuration des clients de messagerie instantanée"
 confluence_id: 57770743
-position: 52
+sidebar_position: 52
 ---
 # Configuration des clients de messagerie instantanée
 

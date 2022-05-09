@@ -1,7 +1,7 @@
 ---
 title: "Connecter avec Nextcloud"
 confluence_id: 57771360
-position: 70
+sidebar_position: 70
 ---
 # Connecter avec Nextcloud
 

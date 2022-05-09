@@ -1,7 +1,7 @@
 ---
 title: "Organiser une réunion"
 confluence_id: 57770580
-position: 54
+sidebar_position: 54
 ---
 # Organiser une réunion
 

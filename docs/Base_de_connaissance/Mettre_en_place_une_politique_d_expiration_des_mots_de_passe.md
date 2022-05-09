@@ -1,7 +1,7 @@
 ---
 title: "Mettre en place une politique d'expiration des mots de passe"
 confluence_id: 58599264
-position: 58
+sidebar_position: 58
 ---
 # Mettre en place une politique d'expiration des mots de passe
 

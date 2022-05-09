@@ -1,7 +1,7 @@
 ---
 title: "Restaurer l'agenda d'un utilisateur"
 confluence_id: 57771957
-position: 72
+sidebar_position: 72
 ---
 # Restaurer l'agenda d'un utilisateur
 

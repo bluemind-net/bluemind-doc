@@ -1,7 +1,7 @@
 ---
 title: "Outils et ressources BlueMind"
 confluence_id: 57770216
-position: 34
+sidebar_position: 34
 ---
 # Outils et ressources BlueMind
 

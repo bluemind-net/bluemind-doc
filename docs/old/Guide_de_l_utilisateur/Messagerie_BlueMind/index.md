@@ -1,7 +1,7 @@
 ---
 title: "Messagerie BlueMind"
 confluence_id: 66096291
-position: 34
+sidebar_position: 34
 ---
 # Messagerie BlueMind
 

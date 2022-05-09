@@ -1,7 +1,7 @@
 ---
 title: "Les connecteurs BlueMind pour clients lourds"
 confluence_id: 57771768
-position: 60
+sidebar_position: 60
 ---
 # Les connecteurs BlueMind pour clients lourds
 

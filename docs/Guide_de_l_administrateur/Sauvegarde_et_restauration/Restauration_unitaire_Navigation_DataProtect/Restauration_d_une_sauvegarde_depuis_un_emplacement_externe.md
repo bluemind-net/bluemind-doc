@@ -1,7 +1,7 @@
 ---
 title: "Restauration d'une sauvegarde depuis un emplacement externe"
 confluence_id: 57771751
-position: 60
+sidebar_position: 60
 ---
 # Restauration d'une sauvegarde depuis un emplacement externe
 

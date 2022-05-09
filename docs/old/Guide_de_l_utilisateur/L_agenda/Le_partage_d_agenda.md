@@ -1,7 +1,7 @@
 ---
 title: "Le partage d'agenda"
 confluence_id: 57770530
-position: 48
+sidebar_position: 48
 ---
 # Le partage d'agenda
 

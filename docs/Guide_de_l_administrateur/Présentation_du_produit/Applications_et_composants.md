@@ -1,7 +1,7 @@
 ---
 title: "Applications et composants"
 confluence_id: 57771225
-position: 44
+sidebar_position: 44
 ---
 # Applications et composants
 

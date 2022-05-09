@@ -1,7 +1,7 @@
 ---
 title: "Découvrir l'agenda"
 confluence_id: 86762732
-position: 64
+sidebar_position: 64
 ---
 # Découvrir l'agenda
 

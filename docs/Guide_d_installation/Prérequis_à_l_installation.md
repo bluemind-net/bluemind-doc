@@ -1,7 +1,7 @@
 ---
 title: "Prérequis à l'installation"
 confluence_id: 57771186
-position: 40
+sidebar_position: 40
 ---
 # Prérequis à l'installation
 

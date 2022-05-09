@@ -1,7 +1,7 @@
 ---
 title: "Guide de l'utilisateur"
 confluence_id: 57770218
-position: 28
+sidebar_position: 28
 ---
 # Guide de l'utilisateur
 

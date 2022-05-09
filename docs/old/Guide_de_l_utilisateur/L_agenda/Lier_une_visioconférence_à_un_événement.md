@@ -1,7 +1,7 @@
 ---
 title: "Lier une visioconférence à un événement"
 confluence_id: 72187959
-position: 58
+sidebar_position: 58
 ---
 # Lier une visioconférence à un événement
 

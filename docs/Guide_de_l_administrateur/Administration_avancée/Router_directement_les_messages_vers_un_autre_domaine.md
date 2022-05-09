@@ -1,7 +1,7 @@
 ---
 title: "Router directement les messages vers un autre domaine"
 confluence_id: 57771821
-position: 72
+sidebar_position: 72
 ---
 # Router directement les messages vers un autre domaine
 

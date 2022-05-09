@@ -1,7 +1,7 @@
 ---
 title: "Premiers pas avec BlueMind"
 confluence_id: 57770134
-position: 24
+sidebar_position: 24
 ---
 # Premiers pas avec BlueMind
 

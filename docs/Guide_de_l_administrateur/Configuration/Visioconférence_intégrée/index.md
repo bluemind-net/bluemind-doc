@@ -1,7 +1,7 @@
 ---
 title: "Visioconférence intégrée"
 confluence_id: 72190253
-position: 68
+sidebar_position: 68
 ---
 # Visioconférence intégrée
 

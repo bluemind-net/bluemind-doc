@@ -1,7 +1,7 @@
 ---
 title: "L'agenda"
 confluence_id: 57770444
-position: 40
+sidebar_position: 40
 ---
 # L'agenda
 

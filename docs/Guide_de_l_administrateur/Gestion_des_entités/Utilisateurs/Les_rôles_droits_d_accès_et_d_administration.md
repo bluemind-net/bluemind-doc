@@ -1,7 +1,7 @@
 ---
 title: "Les rôles : droits d'accès et d'administration"
 confluence_id: 57771478
-position: 56
+sidebar_position: 56
 ---
 # Les rôles : droits d'accès et d'administration
 

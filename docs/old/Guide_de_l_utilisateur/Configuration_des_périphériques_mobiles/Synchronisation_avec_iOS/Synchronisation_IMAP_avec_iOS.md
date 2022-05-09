@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation IMAP avec iOS"
 confluence_id: 57771123
-position: 78
+sidebar_position: 78
 ---
 # Synchronisation IMAP avec iOS
 

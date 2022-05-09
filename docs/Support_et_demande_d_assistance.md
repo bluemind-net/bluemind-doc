@@ -1,7 +1,7 @@
 ---
 title: "Support et demande d'assistance"
 confluence_id: 57771961
-position: 40
+sidebar_position: 40
 ---
 # Support et demande d'assistance
 

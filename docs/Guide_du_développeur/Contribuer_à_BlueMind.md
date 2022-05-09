@@ -1,7 +1,7 @@
 ---
 title: "Contribuer à BlueMind"
 confluence_id: 57771878
-position: 42
+sidebar_position: 42
 ---
 # Contribuer à BlueMind
 

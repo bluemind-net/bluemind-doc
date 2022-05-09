@@ -1,7 +1,7 @@
 ---
 title: "Les filtres de messages"
 confluence_id: 57770399
-position: 54
+sidebar_position: 54
 ---
 # Les filtres de messages
 

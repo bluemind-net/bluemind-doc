@@ -1,7 +1,7 @@
 ---
 title: "Authentification"
 confluence_id: 57771885
-position: 50
+sidebar_position: 50
 ---
 # Authentification
 

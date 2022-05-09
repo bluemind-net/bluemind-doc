@@ -1,7 +1,7 @@
 ---
 title: "Déploiement BlueMind 4 : points de vigilance"
 confluence_id: 57771184
-position: 38
+sidebar_position: 38
 ---
 # Déploiement BlueMind 4 : points de vigilance
 

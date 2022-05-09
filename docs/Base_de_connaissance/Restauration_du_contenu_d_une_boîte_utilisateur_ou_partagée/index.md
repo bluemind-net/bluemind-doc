@@ -1,7 +1,7 @@
 ---
 title: "Restauration du contenu d'une boîte utilisateur ou partagée"
 confluence_id: 57771950
-position: 70
+sidebar_position: 70
 ---
 # Restauration du contenu d'une boîte utilisateur ou partagée
 

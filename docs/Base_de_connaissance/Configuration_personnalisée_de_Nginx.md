@@ -1,7 +1,7 @@
 ---
 title: "Configuration personnalisée de Nginx"
 confluence_id: 57771920
-position: 50
+sidebar_position: 50
 ---
 # Configuration personnalisée de Nginx
 

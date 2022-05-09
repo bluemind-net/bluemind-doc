@@ -1,7 +1,7 @@
 ---
 title: "Installation du nouveau client de messagerie"
 confluence_id: 66096434
-position: 46
+sidebar_position: 46
 ---
 # Installation du nouveau client de messagerie
 

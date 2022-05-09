@@ -1,7 +1,7 @@
 ---
 title: "Participer à un évènement"
 confluence_id: 86762873
-position: 84
+sidebar_position: 84
 ---
 # Participer à un évènement
 

@@ -1,7 +1,7 @@
 ---
 title: "Gestion des partages"
 confluence_id: 57770792
-position: 50
+sidebar_position: 50
 ---
 # Gestion des partages
 
