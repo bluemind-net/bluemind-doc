@@ -6,7 +6,7 @@ sidebar_position: 90
 # Appliquer des règles de tri et d'actions
 
 
-Les filtres permettent d'appliquer des **règles de tri et actions à effectuer automatiquement **aux nouveaux messages entrants.
+Les filtres permettent d'appliquer des **règles de tri et actions à effectuer automatiquement** aux nouveaux messages entrants.
 
 Ils permettent, par exemple, de classer tous les messages d'un même expéditeur dans un sous-dossier ou de supprimer des messages en fonction de leur objet, sans que l'utilisateur ait à effectuer lui-même cette action.
 
@@ -25,7 +25,7 @@ Afin de créer un nouveau filtre, cliquez sur "**+Ajouter un filtre**" pour ouvr
 
 - Choisir une **condition** parmi la liste (par exemple "L'objet contient" : documentation BlueMind)
 
-- Choisir une **action **parmi la liste (par exemple "Déplacer vers" puis choisir un dossier existant - pour créer un dossier voir [Gérer les dossiers](/Guide_de_l_utilisateur/La_messagerie_4.7/Organiser_les_dossiers/))
+- Choisir une **action** parmi la liste (par exemple "Déplacer vers" puis choisir un dossier existant - pour créer un dossier voir [Gérer les dossiers](/Guide_de_l_utilisateur/La_messagerie_4.7/Organiser_les_dossiers/))
 
 - Indiquer une **exception** si besoin (par exemple "L'expéditeur est" John Smith)
 
@@ -51,6 +51,6 @@ Lorsqu'un filtre est un "**Filtre terminal**", tous les filtres situés en-desso
 
 ## Modifier et supprimer les filtres
 
-Une fois les filtres créés, cliquer ![](../../attachments/86762608/86764554.png) pour les **modifier **et sur ![](../../attachments/86762608/86764553.png)pour les **supprimer**.
+Une fois les filtres créés, cliquer ![](../../attachments/86762608/86764554.png) pour les **modifier** et sur ![](../../attachments/86762608/86764553.png) pour les **supprimer**.
 
 

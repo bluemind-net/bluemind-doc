@@ -34,7 +34,7 @@ Si le commutateur n'apparait pas, veuillez contacter l'administrateur afin d'obt
 :::
 
 
-L'utilisateur a aussi la possibilité de basculer **depuis ses [paramètres](/Guide_de_l_utilisateur/Paramètres_utilisateur/),** rubrique messagerie :
+L'utilisateur a aussi la possibilité de basculer **depuis ses paramètres**, rubrique messagerie :
 
 ![](../attachments/86762459/86765390.png)
 
@@ -59,12 +59,12 @@ La partie gauche du bandeau permet un accès direct aux applications [Messagerie
 L'accès à la téléphonie, la [Visioconférence](/Guide_de_l_utilisateur/La_visioconférence_4.7/), l'aide en ligne et le [paramétrage du compte](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/) est à droite du bandeau.
 
 
-**![](../attachments/86762459/86765388.png)![](../attachments/86762459/86765385.png)**
+![](../attachments/86762459/86765388.png)![](../attachments/86762459/86765385.png)
 
 
 Pour connaître la **version** installée de BlueMind, aller sur **À propos** pour ouvrir le panneau d'informations
 
-![](../attachments/86762459/86765387.png)
+![](../attachments/86762459/86765387bd.png)
 
 
 :::tip

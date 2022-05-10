@@ -37,7 +37,7 @@ BlueMind est actuellement traduit et en cours de traduction dans plusieurs langu
 
 ## Définir l'application d'ouverture
 
-Toujours dans les paramètres généraux,** Application par défaut  **permet de choisir l'application qui s'ouvrira par défaut lors de la connexion à BlueMind
+Toujours dans les paramètres généraux,**Application par défaut** permet de choisir l'application qui s'ouvrira par défaut lors de la connexion à BlueMind
 
 ![](../attachments/86762475/86764364.png)
 
@@ -64,10 +64,10 @@ Pour **ajouter une catégorie** personnelle, aller sur "**+Créer une catégorie
 - cliquer sur **Enregistrer**
 
 
-**![](../attachments/86762475/86764362.png)
+![](../attachments/86762475/86764362.png)
 
 
-**
+
 
 
 Aller sur ![](../attachments/86762475/86764359.png)pour **modifier** et sur ![](../attachments/86762475/86764358.png)pour **supprimer** une catégorie.
@@ -90,16 +90,13 @@ Pour changer son **mot de passe** et générer une **clé d'API,** aller dans le
 
 ## Gérer les données locales et notifications
 
-L'onglet "**+Avancé"** des préférences du compte utilisateur donne accès à la **réinitialisation des données locales** de l'application ainsi qu'à l'**activation des notifications**.
+L'onglet "**+Avancé**" des préférences du compte utilisateur donne accès à la **réinitialisation des données locales** de l'application ainsi qu'à l'**activation des notifications**.
 
 ![](../attachments/86762475/86764356.png)
 
-*
 
 
-*
-
-Les **notifications **permettent de recevoir une alerte à l'écran lors de l'arrivée d'un nouveau message ainsi que pour les rappels d'événements.
+Les **notifications** permettent de recevoir une alerte à l'écran lors de l'arrivée d'un nouveau message ainsi que pour les rappels d'événements.
 
 Les navigateurs supportant cette fonctionnalité sont :
 

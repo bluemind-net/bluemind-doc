@@ -28,13 +28,13 @@ Pour cela aller dans les paramètres de la messagerie : **Préférences - Messag
 
 ## Filtrer et rechercher les messages de la liste
 
-Pour rechercher un message de la liste, utiliser [le moteur de recherche](/Guide_de_l_utilisateur/Découvrir_la_solution_BlueMind/) en saisissant du texte libre dans le champ "**Recherche**".
+Pour rechercher un message de la liste, utiliser [le moteur de recherche](/Guide_de_l_utilisateur/Découvrir_la_solution_BlueMind/#utiliser-le-moteur-de-recherche) en saisissant du texte libre dans le champ "**Recherche**".
 
 À noter qu'il est possible d'étendre la recherche à tous les messages ou au contraire de **spécifier le dossier** dans le lequel la recherche doit être effectuée.
 
 ![](../../attachments/86762569/86764500.png)
 
-Il est également possible de **filtrer les messages** en fonction de leur suivi : **Tous - Non lus - Marqués **(affiche seulement les messages marqués comme important).
+Il est également possible de **filtrer les messages** en fonction de leur suivi : **Tous - Non lus - Marqués** (affiche seulement les messages marqués comme important).
 
 
 ## Sélectionner les messages

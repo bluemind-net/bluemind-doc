@@ -18,10 +18,10 @@ Lorsque des droits d'accès sur une messagerie sont attribués à un utilisateur
 Une fois la notification reçue, l'utilisateur doit **activer l'abonnement** à la boîte aux lettres dans ses paramètres de messagerie : **Préférences - Messagerie - Autres boîtes aux lettres**
 
 
-**![](../../attachments/86762642/86764578.png)
+![](../../attachments/86762642/86764578.png)
 
 
-**
+
 
 Cliquer sur "**S'abonner à d'autres boîtes aux lettres"** pour afficher la fenêtre pop-up, **cocher** la ou les boîtes aux lettres parmi celles proposées puis cliquer sur **Ajouter 1 boîte aux lettres**.
 
@@ -41,7 +41,7 @@ Afin de valider l'abonnement, relancer l'application en cliquant sur le lien
 
 ![](../../attachments/86762642/86764576.png)
 
-En fonction du **[niveau de droits accordés](/Guide_de_l_utilisateur/La_messagerie_4.7/Partager_une_messagerie/) **à l'utilisateur, celui-ci pourra :
+En fonction du **[niveau de droits accordés](/Guide_de_l_utilisateur/La_messagerie_4.7/Partager_une_messagerie/)** à l'utilisateur, celui-ci pourra :
 
 - **Droit de lecture** : consulter les messages
 - **Droit de lecture avancé** : consulter les messages, y répondre et les transférer
@@ -61,7 +61,7 @@ Les boites aux lettres partagées sont des boites aux lettres qui, à la différ
 
 **Toute action** de suivi, réponse ou transfert réalisée par l'un des utilisateurs **sera visible par l'ensemble des collaborateurs**. Par exemple, si un des utilisateurs marque un message comme "Important", tous les utilisateurs verront le drapeau de suivi.
 
-Ce fonctionnement, parfaitement adapté à un **travail d'équipe**, peut être utilisé par un service d'entreprise, dans le cadre d'un projet ou bien encore pour mettre à disposition des [modèles](https://forge.bluemind.net/confluence/display/DA/.Envoyer+un+message+vBM-4) d'e-mail.
+Ce fonctionnement, parfaitement adapté à un **travail d'équipe**, peut être utilisé par un service d'entreprise, dans le cadre d'un projet ou bien encore pour mettre à disposition des [modèles](Envoyer_un_message.md/#utiliser-un-modèle) d'e-mail.
 
 Les boîtes aux lettres partagées sont créées et gérées par l'administrateur du domaine, qui peut déléguer la gestion des droits de partage à un ou des administrateur(s) de la messagerie.
 
@@ -71,7 +71,7 @@ Les boîtes aux lettres partagées sont créées et gérées par l'administrateu
 ![](../../attachments/86762642/86764575.png)
 
 
-En fonction du **[niveau de droits accordés](/Guide_de_l_utilisateur/La_messagerie_4.7/Partager_une_messagerie/) **à l'utilisateur, celui-ci pourra :
+En fonction du **[niveau de droits accordés](/Guide_de_l_utilisateur/La_messagerie_4.7/Partager_une_messagerie/)** à l'utilisateur, celui-ci pourra :
 
 - **Droit de lecture** : consulter les messages
 - **Droit de lecture avancé** : consulter les messages, y répondre et les transférer
@@ -83,9 +83,9 @@ En fonction du **[niveau de droits accordés](/Guide_de_l_utilisateur/La_message
 
 **Les groupes d'utilisateurs**, créés par l'administrateur, rassemblent les membres de l'organisation ayant des besoins ou des objectifs communs (par exemple un groupe "responsables de services" pour rassembler tous les responsables de services d'une entreprise). Cela permet notamment de gérer plus facilement les droits d'accès communs à tous les membres d'un groupe.
 
-Un groupe peut également avoir une **messagerie spécifique**, fonctionnant comme une** **liste de distribution d'entreprise : **les messages** envoyés à la messagerie de groupe **sont réceptionnés dans les messageries nominatives de chaque membre du groupe. **
+Un groupe peut également avoir une **messagerie spécifique**, fonctionnant comme une liste de distribution d'entreprise : **les messages** envoyés à la messagerie de groupe **sont réceptionnés dans les messageries nominatives de chaque membre du groupe**.
 
-Ainsi, t**ous les utilisateurs ont le même niveau de droits** : chaque membre peut consulter, modifier, déplacer ou répondre à un message.
+Ainsi, **tous les utilisateurs ont le même niveau de droits** : chaque membre peut consulter, modifier, déplacer ou répondre à un message.
 
 **Les actions** réalisées sur les messages **sont individuelles**. Par exemple, si un des utilisateurs marque un message comme "Important", le suivi ne sera effectif que dans sa messagerie. Les autres utilisateurs ne le verront pas.
 

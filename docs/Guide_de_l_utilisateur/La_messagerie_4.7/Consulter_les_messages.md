@@ -42,15 +42,15 @@ Les contenus distants sont des images ou des pixels invisibles qui ne sont pas i
 Afin de préserver votre vie privée, **BlueMind ne télécharge par défaut que les contenus provenant d'émetteurs connus**. Bien de que fortement déconseillé, il est possible d'activer le téléchargement de tous les contenus.
 
 
-Pour activer le téléchargement de tous les contenus, aller dans les paramètres de la messagerie:** Préférences - Messagerie - Général - Images distantes**
+Pour activer le téléchargement de tous les contenus, aller dans les paramètres de la messagerie: **Préférences - Messagerie - Général - Images distantes**
 
-**![](../../attachments/86743273/86764395.png)
-
-
-**
+![](../../attachments/86743273/86764395.png)
 
 
-Lorsque l'option "Faire confiance à tous les contenus" est désactivée, **une alerte apparaît **proposant 2 options :
+
+
+
+Lorsque l'option "Faire confiance à tous les contenus" est désactivée, **une alerte apparaît** proposant 2 options :
 
 - afficher le contenu distant tant que le message est ouvert
 

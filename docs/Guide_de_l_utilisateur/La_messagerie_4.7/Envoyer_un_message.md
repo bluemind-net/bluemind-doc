@@ -17,7 +17,7 @@ sidebar_position: 30
 ![](../../attachments/86762509/86764423.png)
 
 
-- Pour** modifier un message reçu **et le renvoyer ou le transférer, aller sur Autres puis **Éditer en tant que nouveau message**
+- Pour **modifier un message reçu** et le renvoyer ou le transférer, aller sur Autres puis **Éditer en tant que nouveau message**
 
 
 ![](../../attachments/86762509/86764422.png)
@@ -37,12 +37,12 @@ Après avoir choisi l'une de ces actions, le **composeur de la messagerie** Blue
 
 ## Choisir les destinataires
 
-**Pour ajouter un destinataire**, saisir les premiers caractères. Les champs de destinataires (À, Cc ou Cci) proposent des résultats par recherche parmi [tous les contacts](https://forge.bluemind.net/confluence/pages/viewpage.action?pageId=86743918#id-.D%C3%A9couvrirlescontactsvBM4-Identifierlestypesdecontacts) des carnets d'adresses de l'utilisateur et de l'[annuaire](https://forge.bluemind.net/confluence/pages/viewpage.action?pageId=86744314#id-.G%C3%A9rerlescarnetsd%27adressespartag%C3%A9svBM4-Utiliserl%27Annuaireannuaire).
+**Pour ajouter un destinataire**, saisir les premiers caractères. Les champs de destinataires (À, Cc ou Cci) proposent des résultats par recherche parmi [tous les contacts](../Les_contacts_4.7/Découvrir_les_contacts/#identifier-les-types-de-contacts) des carnets d'adresses de l'utilisateur et de l'[annuaire](../Les_contacts_4.7/Utiliser_un_carnet_d_adresses_partagé.md/#utiliser-lannuaire).
 
-- Le champ «** À **» permet de saisir le ou les destinataires principaux du message.
+- Le champ «**À**» permet de saisir le ou les destinataires principaux du message.
 
-- Le champ «** CC **» (« Copie Carbone ») permet d'ajouter des destinataires en copie
-- Le bouton «** CCi **» (« Copie Carbone invisible ») permet d'ajouter un champ de saisie pour des destinataires en **copie cachée**.
+- Le champ «**CC**» (« Copie Carbone ») permet d'ajouter des destinataires en copie
+- Le bouton «**CCi**» (« Copie Carbone invisible ») permet d'ajouter un champ de saisie pour des destinataires en **copie cachée**.
 
 
 ![](../../attachments/86762509/86764420.png)

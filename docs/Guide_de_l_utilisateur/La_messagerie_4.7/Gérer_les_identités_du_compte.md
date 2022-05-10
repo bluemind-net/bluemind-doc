@@ -23,7 +23,7 @@ Une identité est créée par défaut par BlueMind. Pour la modifier, aller sur 
 
 - **Adresse email** : il est possible de choisir l'une des adresses de messagerie qui sont affectées ou partagées au compte utilisateur : alias de domaines, boites partagées, etc.
 
-- **Signature** : rédaction de la signature au format HTML, avec possibilité d'insérer les images, logos, etc.****
+- **Signature** : rédaction de la signature au format HTML, avec possibilité d'insérer les images, logos, etc.
 
 
 ![](../../attachments/86762550/86764473.png)
