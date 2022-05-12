@@ -8,13 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'BlueMind doc',
   tagline: 'Collaborative messaging',
-  url: 'http://repository.blue-mind.loc/',
+  url: 'https://www.bluemind.net/',
   baseUrl: '/docs/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'BlueMind',
   projectName: 'BlueMind',
+  noIndex: true,
 
     i18n: {
 	defaultLocale: 'fr',

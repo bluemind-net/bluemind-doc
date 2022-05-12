@@ -55,8 +55,8 @@ Pour **revenir à l'ancienne version**, désactiver le commutateur en haut à dr
 ![](../attachments/86762459/86765384.png)
 
 
-La partie gauche du bandeau permet un accès direct aux applications [Messagerie](/Guide_de_l_utilisateur/La_messagerie_4.7/), [Contacts](/Guide_de_l_utilisateur/Les_contacts_4.7/), [Agenda](/Guide_de_l_utilisateur/L_agenda_4.7/) et [Tâches](/Guide_de_l_utilisateur/Les_tâches_4.7/). 
-L'accès à la téléphonie, la [Visioconférence](/Guide_de_l_utilisateur/La_visioconférence_4.7/), l'aide en ligne et le [paramétrage du compte](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/) est à droite du bandeau.
+La partie gauche du bandeau permet un accès direct aux applications [Messagerie](/Guide_de_l_utilisateur/La_messagerie/), [Contacts](/Guide_de_l_utilisateur/Les_contacts/), [Agenda](/Guide_de_l_utilisateur/L_agenda/) et [Tâches](/Guide_de_l_utilisateur/Les_tâches/). 
+L'accès à la téléphonie, la [Visioconférence](/Guide_de_l_utilisateur/La_visioconférence/), l'aide en ligne et le [paramétrage du compte](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/) est à droite du bandeau.
 
 
 ![](../attachments/86762459/86765388.png)![](../attachments/86762459/86765385.png)
