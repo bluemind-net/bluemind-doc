@@ -5,7 +5,6 @@ sidebar_position: 30
 ---
 # Importer et exporter des contacts
 
-
 Il est possible d'ajouter les contacts issus d'un carnet d'adresses externe dans un carnet BlueMind en **important un fichier vCard.**
 
 Les carnets d'adresses BlueMind peuvent également être **exportés dans un fichier vCard**.
@@ -15,7 +14,6 @@ Les carnets d'adresses BlueMind peuvent également être **exportés dans un fic
 Pour importer un ou plusieurs contacts dans un carnet d'adresses [partagé avec les droits d'écriture](/Guide_de_l_utilisateur/Les_contacts/Partager_un_carnet_d_adresses/), se positionner sur le carnet d'adresses où les contacts doivent être importés, cliquer sur le bouton d'action situé en haut de la liste puis "**Importer un fichier vCard dans ce carnet d'adresses**"
 
 ![](../../attachments/86762721/86764646.png)
-
 
 **Sélectionner le fichier** vCard à importer
 
@@ -28,12 +26,12 @@ L'intégralité des contacts présents dans le fichier est ajoutée au carnet. B
 
 :::
 
+
 ## Importer des contacts dans un carnet d'adresses personnel
 
 L'import de contacts externes dans un carnet personnel peut se faire depuis l'interface, comme pour les carnets d'adresses partagés, ou dans les paramètres des contacts, en allant sous **Contacts - Mes carnets d'adresses**
 
 ![](../../attachments/86762721/86764644.png)
-
 
 Se positionner sur le carnet d'adresses dans lequel les contacts doivent être importés, cliquer sur "**Importer**" pour ouvrir la fenêtre pop-up d'importation et choisir le fichier **vCard** à importer
 
@@ -45,6 +43,7 @@ Se positionner sur le carnet d'adresses dans lequel les contacts doivent être i
 L'import de contacts est également possible au moment de la [création d'un carnet d'adresses](/Guide_de_l_utilisateur/Les_contacts/Créer_et_éditer_un_carnet_d_adresses_personnel/).
 
 :::
+
 
 ## Exporter un carnet d'adresses
 

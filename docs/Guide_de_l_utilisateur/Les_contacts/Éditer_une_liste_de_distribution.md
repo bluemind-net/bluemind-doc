@@ -5,16 +5,13 @@ sidebar_position: 70
 ---
 # Éditer une liste de distribution
 
-
 Les listes de distribution permettent d'inviter un ensemble de personnes, par exemple tous les membres d'un projet, à un évènement ou une réunion en sélectionnant un seul destinataire. 
-
 
 :::info
 
 La possibilité de sélectionner une liste de distribution comme destinataire d'un message sera disponible dans la prochaine version
 
 :::
-
 
 Des listes de distribution personnelles peuvent être ajoutées ou modifiées dans les **[carnets personnels](/Guide_de_l_utilisateur/Les_contacts/Créer_et_éditer_un_carnet_d_adresses_personnel/) de l'utilisateur **ainsi que dans ses **[carnets partagés](/Guide_de_l_utilisateur/Les_contacts/Partager_un_carnet_d_adresses/) avec des droits d'écriture**.
 
@@ -31,7 +28,6 @@ Sur la page d'édition, **renseigner un titre** puis **ajouter les membres** sou
 L'**autocomplétion** recherche les fiches correspondantes dans tous les carnets d'adresses. La liste indique le nom et le carnet d'adresses des contacts trouvés :
 
 ![](../../attachments/86762706/86764705.png)
-
 
 :::tip
 
@@ -52,7 +48,6 @@ Lorsque l'utilisateur souhaitera écrire à la liste "mère", toutes les adresse
 
 ![](../../attachments/86762706/86764703.png)
 
-
 :::info
 
 Il est possible d'inclure des listes provenant d'**un même carnet uniquement**, les listes d'un autre carnet (du même utilisateur ou d'un carnet partagé) ne peuvent pas être incluses.
@@ -68,13 +63,11 @@ Afin de faciliter leur recherche, il est possible d'ajouter une ou plusieurs [ca
 
 Pour cela, **sélectionner la ou les catégories** dans la liste en saisissant les premières lettres de la catégorie souhaitée - l'autocomplétion proposera les termes correspondant au cours de la frappe.
 
-
 ![](../../attachments/86762706/86764711.png)
 
 Si la catégorie n'existe pas, il suffit de saisir le texte de la nouvelle catégorie puis cliquer sur **Créer**. Une fois les modifications de la fiche contact enregistrées, la nouvelle catégorie sera ajoutée à la liste des catégories personnelles.
 
 Pour la supprimer, cliquer sur la croix ![](../../attachments/86762706/86764710.png)
-
 
 Il est possible d'affecter **autant de catégories que désiré**. Les catégories sont alors visibles dans la liste des contacts par des icônes de couleurs (2 au maximum). Au survol de la souris, la liste complète des catégories affectées au contact est affichée.
 
@@ -104,7 +97,6 @@ En plus de la modification des champs, une fiche existante peut-être **copiée 
 Il est possible d'inclure dans une liste de distribution des contacts issus de carnets partagés par d'autres utilisateurs (droit de lecture minimum).
 
 Afin de s'assurer que ces **contacts sont bien à jour** dans une liste de distribution, un bouton « **Valider **» permet de mettre à jour l'ensemble des contacts de la liste. Ainsi en cas de modification dans le carnet d'origine, par son propriétaire ou un ayant droit, l'utilisateur s'assure d'avoir la dernière version :
-
 
 ![](../../attachments/86762706/86764702.png)
 
