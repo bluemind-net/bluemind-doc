@@ -70,7 +70,7 @@ Un bouton est disponible dans l'interface de création des événements des ayan
 
 ![](../../../attachments/79856114/79856120.png)
 
-Pour en savoir plus sur le fonctionnement, se reporter à la page de documentation du guide utilisateur : [Lier une visioconférence à un événement](/Guide_de_l_utilisateur/L_agenda/Lier_une_visioconférence_à_un_événement/).
+Pour en savoir plus sur le fonctionnement, se reporter à la page de documentation du guide utilisateur : [Lier une visioconférence à un événement](../../../Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion.md/#ajouter-une-visioconférence).
 
 ## Profil "Collaboratif + visio"
 

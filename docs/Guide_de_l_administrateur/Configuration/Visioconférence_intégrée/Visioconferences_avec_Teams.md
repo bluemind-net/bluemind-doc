@@ -15,20 +15,20 @@ Une souscription Teams est nécessaire https://www.microsoft.com/fr-fr/microsoft
  - Inscrire une nouvelle application dans Azure Active Directory > Inscription d'application -> Nouvelle Inscription
  - Renseigner le nom de l'application (ex BlueMindTeams)
 
-    ![New app](Teams/new_app_fr.png)
+    ![New app](Visioconferences_avec_Teams_attachments/new_app_fr.png)
 
 ### Générer un secret
  - Dans la vue d'ensemble de l'application > Ajouter un certificat ou un secret > Nouveau secret client
  - Saisir une description et une date d'expiration
 
-    ![API](Teams/secret_fr.png)
+    ![API](Visioconferences_avec_Teams_attachments/secret_fr.png)
 
 ### Récupérer les identifiants Teams
  - Dans la vue d'ensemble, récupérer
    - ID d'application (APPLICATION_ID)
    - ID de l'annuaire (TENANT)
 
-    ![API](Teams/teams_ids_fr.png)
+    ![API](Visioconferences_avec_Teams_attachments/teams_ids_fr.png)
 
 ### Autoriser l'application à accéder aux API de création de réunion Teams
  - Dans l'écran API Autorisées > Ajouter une autorisation > Microsoft Graph
@@ -40,7 +40,7 @@ Une souscription Teams est nécessaire https://www.microsoft.com/fr-fr/microsoft
      - User.Read.All
  - Accorder le consentement de l'administrateur
 
-    ![API](Teams/api_fr.png)
+    ![API](Visioconferences_avec_Teams_attachments/api_fr.png)
 
 ### Ajout d'une politique d'accès
 
@@ -72,13 +72,13 @@ New-CsApplicationAccessPolicy -Identity BlueMindTeams-policy -AppIds "APPLICATIO
 ```
 
 - Assigner la politique d'accès
-  - A tous les utilisateurs de l'annuaire
+  - À tous les utilisateurs de l'annuaire
 
 ```
 Get-CsOnlineUser | Grant-CsApplicationAccessPolicy -PolicyName "BlueMindTeams-policy"
 ```
 
-  - A un utilisateur 
+  - À un utilisateur 
 
 ```
 PS C:\> Grant-CsApplicationAccessPolicy -Identity "USER_ID" -PolicyName "BlueMindTeams-policy"
@@ -110,7 +110,7 @@ bmctl restart
 - Se rendre dans la console d'administration dans la Gestion du système > Domaines supervisés > choisir le domaine souhaité > onglet *Visioconférence*
 - Renseigner les informations récupérées depuis le portail Azure
 
-![AC_TEAMS_CONFIG](Teams/bm_ac_teams_config_fr.png)
+![AC_TEAMS_CONFIG](Visioconferences_avec_Teams_attachments/bm_ac_teams_config_fr.png)
 
 - Cliquer sur "Enregistrer"
 
@@ -165,13 +165,13 @@ Teams;david@bluemind.lan;david@teams.com
 Chaque utilisateur pourra renseigner son identifiant Teams dans les paramètres BlueMind
 - Se rentre dans les Paramètres > Comptes externes > Teams
 
-![SETTINGS_TEAMS_CONFIG](Teams/bm_settings_ext_account_fr.png)
+![SETTINGS_TEAMS_CONFIG](Visioconferences_avec_Teams_attachments/bm_settings_ext_account_fr.png)
 
 ### Droits d'accès
 
 L'accès à la nouvelle fonctionnalité se fait au moyen de la ressource Teams créée lors de la [Configuration du serveur](#configuration-du-serveur)
 
-![AC_DIRECTORY](Teams/bm_ac_directory_teams_fr.png)
+![AC_DIRECTORY](Visioconferences_avec_Teams_attachments/bm_ac_directory_teams_fr.png)
 
 Cette ressource s'administre comme toute autre [ressource](/Guide_de_l_administrateur/Gestion_des_entités/Ressources/), la gestion des partages ouvrant les droits à la réservation et, de fait, à la génération de liens de visioconférences. Ainsi il faut donner un droit de réservation aux utilisateurs ou groupes souhaités pour que ceux-ci puissent créer à la volée des visioconférences pour leurs événements :
 
@@ -182,7 +182,7 @@ En tant que ressource, il est possible de lui attribuer des heures ouvrées ou e
 
 Un bouton est alors disponible dans l'interface de création des événements des ayant-droit :
 
-![AC_TEAMS_CONFIG](Teams/bm_cal_new_event_fr.png)
+![AC_TEAMS_CONFIG](Visioconferences_avec_Teams_attachments/bm_cal_new_event_fr.png)
 
 Pour en savoir plus sur le fonctionnement, se reporter à la page de documentation du guide utilisateur : [Lier une visioconférence à un événement](/Guide_de_l_utilisateur/La_visioconférence/Créer_une_visioconférence/).
 
