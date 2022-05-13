@@ -15,32 +15,14 @@ La synchronisation des agendas s'effectue dans les [paramètres](/Guide_de_l_uti
 
 Lorsque la synchronisation est activée pour un calendrier, les données sont téléchargées sur le logiciel client. De ce fait :
 
-|  | Synchronisation activée | Synchronisation désactivée | Application web et Thunderbird | EAS iOS | EAS (autres) | DAV | Outlook (connecteur) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| le calendrier est consultable et disponible hors connexion | le calendrier est consultable en mode connecté mais indisponible hors connexion |
-| 
-le calendrier est visible et disponible hors connexion
+|     | Synchronisation activée | Synchronisation désactivée |
+| --- | ----------------------- | -------------------------- |
+| Application web et Thunderbird | Le calendrier est consultable et disponible hors connexion | Le calendrier est consultable en mode connecté mais indisponible hors connexion |
+| EAS iOS | Le calendrier est visible et disponible hors connexion. *Calendriers partagés* : dans BlueMind version 4, cela concerne uniquement les calendriers de l'utilisateur (par défaut et secondaires), les calendriers partagés ne seront pas affichés, qu'ils soient de domaine ou d'autres utilisateurs.| Le calendrier n'est pas visible |
+| EAS (autres) | **Si cette fonctionnalité est activée par l'administrateur** (voir la page [Compatibilité](https://forge.bluemind.net/confluence/display/DA/.Compatibilite+vBM-4) pour plus de détails) : le calendrier est visible et disponible hors connexion. *Calendriers partagés* : dans BlueMind version 4, cela concerne uniquement les calendriers de l'utilisateur (par défaut et secondaires), les calendriers partagés ne seront pas affichés, qu'ils soient de domaine ou d'autres utilisateurs.| Le calendrier n'est pas visible|
+| DAV | Le calendrier est visible et disponible hors connexion |
+| Outlook (connecteur) | Le calendrier est visible et disponible hors connexion. Si un abonnement à un calendrier est ajouté dans Outlook, il est automatique ajouté dans BlueMind avec la synchronisation activée | Le calendrier n'est pas visible | 
 
-Calendriers partagés
- 
-Dans BlueMind version 4, cela concerne uniquement les calendriers de l'utilisateur (par défaut et secondaires), les calendriers partagés ne seront pas affichés, qu'ils soient de domaine ou d'autres utilisateurs.
- | le calendrier n'est pas visible |
-| 
-**si cette fonctionnalité est activée par l'administrateur** (voir la page [Compatibilité](https://forge.bluemind.net/confluence/display/DA/.Compatibilite+vBM-4) pour plus de détails) :
-- le calendrier est visible
-- le calendrier est disponible hors connexion
-
-Calendriers partagés
- 
-Dans BlueMind version 4, cela concerne uniquement les calendriers de l'utilisateur (par défaut et secondaires), les calendriers partagés ne seront pas affichés, qu'ils soient de domaine ou d'autres utilisateurs.
- | 
-le calendrier n'est pas visible
- |
-| le calendrier est visible et disponible hors connexion |
-| - le calendrier est visible et disponible hors connexion | 
-
-
- | - Si un abonnement à un calendrier est ajouté dans Outlook, il est automatique ajouté dans BlueMind avec la synchronisation activée | le calendrier n'est pas visible |
 
 
 :::info
