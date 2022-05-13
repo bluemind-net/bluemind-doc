@@ -5,13 +5,11 @@ sidebar_position: 20
 ---
 # Paramétrer le compte utilisateur
 
-
 L'interface de gestion des paramètres permet à l'utilisateur de **personnaliser son environnement BlueMind**.
 
 Cette interface est accessible **depuis le bandeau de navigation** présent en haut de toutes les pages de BlueMind :
 
 ![](../attachments/86762475/86764366.png)
-
 
 ## Paramétrer la localisation
 
@@ -21,7 +19,6 @@ Cette interface est accessible **depuis le bandeau de navigation** présent en h
 - Le fuseau horaire sur lequel il se trouve, cela permet à l'application de régler automatiquement son horloge
 - Le format d'affichage des dates : jour/mois/année ou mois/jour/année ou année-mois-jour
 - Le format d'affichage des heures : sur 24 heures ("13:00") ou au format anglo-saxon ("1:00 pm")
-
 
 ![](../attachments/86762475/86764365.png)
 
@@ -40,7 +37,6 @@ BlueMind est actuellement traduit et en cours de traduction dans plusieurs langu
 Toujours dans les paramètres généraux,**Application par défaut** permet de choisir l'application qui s'ouvrira par défaut lors de la connexion à BlueMind
 
 ![](../attachments/86762475/86764364.png)
-
 
 ## Créer des catégories
 
@@ -63,14 +59,9 @@ Pour **ajouter une catégorie** personnelle, aller sur "**+Créer une catégorie
 - cliquer sur **Créer**
 - cliquer sur **Enregistrer**
 
-
 ![](../attachments/86762475/86764362.png)
 
-
-
-
-
-Aller sur ![](../attachments/86762475/86764359.png)pour **modifier** et sur ![](../attachments/86762475/86764358.png)pour **supprimer** une catégorie.
+Aller sur ![](../attachments/86762475/86764359.png) pour **modifier** et sur ![](../attachments/86762475/86764358.png) pour **supprimer** une catégorie.
 
 
 :::info
@@ -87,14 +78,11 @@ Pour changer son **mot de passe** et générer une **clé d'API,** aller dans le
 
 ![](../attachments/86762475/86764357.png)
 
-
 ## Gérer les données locales et notifications
 
 L'onglet "**+Avancé**" des préférences du compte utilisateur donne accès à la **réinitialisation des données locales** de l'application ainsi qu'à l'**activation des notifications**.
 
 ![](../attachments/86762475/86764356.png)
-
-
 
 Les **notifications** permettent de recevoir une alerte à l'écran lors de l'arrivée d'un nouveau message ainsi que pour les rappels d'événements.
 
@@ -104,12 +92,10 @@ Les navigateurs supportant cette fonctionnalité sont :
 - Firefox
 - Safari
 
-
 Les navigateurs non supportés sont :
 
 - Internet Explorer
 - Opera
-
 
 ## Téléchargements
 
