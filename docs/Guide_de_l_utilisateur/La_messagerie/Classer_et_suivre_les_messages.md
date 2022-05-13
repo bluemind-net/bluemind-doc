@@ -5,7 +5,6 @@ sidebar_position: 80
 ---
 # Classer et suivre les messages
 
-
 **L'ensemble des actions** possibles sur un message est disponible dans barre d'action au dessus de celui-ci :
 
 ![](../../attachments/86762591/86764536.png)
@@ -24,11 +23,9 @@ Les actions permettant de suivre et/ou de mettre en avant certains messages sont
 
 - **Marquer non lu**: les messages non lus apparaissent en gras dans la liste des messages![](../../attachments/86762591/86764533.png)
 
-
 → Cliquer sur **Marquer comme non lus** pour annuler l'action ![](../../attachments/86762591/86764532.png)
 
 - **Assurer un suivi**: marque les messages d'un drapeau "important" ![](../../attachments/86762591/86764531.png)
-
 
 → Cliquer sur **Ne plus assurer le suivi** pour retirer le drapeau ![](../../attachments/86762591/86764530.png)
 
@@ -46,15 +43,12 @@ Pour classer un ou plusieurs messages dans un dossier, choisir l'action **Dépla
 
 ![](../../attachments/86762591/86764529.png)
 
-
 Les messages peuvent également être déplacés par **glisser-déposer** simplement en prenant le ou les messages à déplacer
 
 ![](../../attachments/86762591/86764528.png)
 
-
 Un message de confirmation indique que l'opération a été réalisée. Cliquer sur le nom du dossier dans le message pour être automatiquement redirigé vers le dossier de destination :
 ![](../../attachments/86762591/86764527.png)
-
 
 ## Supprimer des messages
 

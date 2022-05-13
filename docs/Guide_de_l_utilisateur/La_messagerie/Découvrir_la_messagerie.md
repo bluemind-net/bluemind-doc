@@ -5,7 +5,6 @@ sidebar_position: 10
 ---
 # Découvrir la messagerie
 
-
 ## Accéder à la messagerie
 
 **L'accès** à la messagerie s'effectue dans la barre de navigation principale BlueMind.
@@ -27,7 +26,6 @@ Par défaut, l'interface s'ouvre sur la messagerie mais peut également s'ouvrir
 **La vue principale** de la messagerie est une vue en 3 colonnes :
 
 ![](../../attachments/86762493/86764384.png)
-
 
 1. ![](../../attachments/86762493/86764389.png) : l'arborescence de dossiers. Elle propose les dossiers dans des arborescences séparées et repliables, permettant ainsi le regroupement des dossiers de l'utilisateur d'une part et des boîtes partagées d'autre part.
 2. ![](../../attachments/86762493/86764388.png) : la liste des messages contenus dans le dossier sélectionné en colonne A. Des filtres en haut de liste permettent de n'afficher que certains types de messages et le passage de la souris sur un message fait apparaître des informations et actions possibles.

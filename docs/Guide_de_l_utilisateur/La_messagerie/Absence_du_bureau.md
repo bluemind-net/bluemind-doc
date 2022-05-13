@@ -5,7 +5,6 @@ sidebar_position: 120
 ---
 # Absence du bureau
 
-
 En cas d'absence ou d'impossibilité de gérer la messagerie, il est possible de paramétrer un répondeur automatique ou de transférer l'ensemble des messages reçus.
 
 ## Activer le répondeur automatique
@@ -14,7 +13,6 @@ Pour paramétrer les réponses automatiques, aller dans les paramètres de la me
 
 ![](../../attachments/86762649/86764596.png)
 
-
 Remplir les champs :
 
 - **Sujet** (obligatoire) : sujet de l'e-mail envoyé
@@ -22,7 +20,6 @@ Remplir les champs :
 - **Dates de début et de fin** (optionnel)
     - si aucune date de début n'est spécifiée, le répondeur s'active dès l'enregistrement des nouveaux paramètres
     - si aucune date de fin n'est spécifiée, le répondeur reste actif jusqu'à ce que l'utilisateur modifie ses paramètres et désactive le message d'absence
-
 
 Une fois les paramètres enregistrés, quand l'utilisateur recevra un message, un e-mail sera automatiquement envoyé à l'expéditeur.
 
@@ -60,7 +57,6 @@ Ce formulaire permet de **transférer l'ensemble des messages entrant** vers une
 Pour activer le transfert, aller dans les paramètres de la messagerie : **Préférences - Messagerie - Général - Transfert d'emails** et cocher l'option "**Transférer les messages reçus à**"
 
 ![](../../attachments/86762649/86764595.png)
-
 
 Saisir le(s) e-mail(s) du ou des destinataire(s) du transfert, l'autocomplétion propose les adresses dans tous les carnets de l'utilisateur (annuaire, carnets personnels, etc.) et choisir de conserver ou non une copie de l'e-mail reçu.
 

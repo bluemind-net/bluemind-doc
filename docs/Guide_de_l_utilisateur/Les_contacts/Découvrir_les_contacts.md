@@ -20,7 +20,6 @@ Il est également possible d'envoyer un message ou d'appeler un contact directem
 
 ![](../../attachments/86762658/86764612.png)
 
-
 ## Naviguer dans l'interface
 
 ![](../../attachments/86762658/86764611.png)
