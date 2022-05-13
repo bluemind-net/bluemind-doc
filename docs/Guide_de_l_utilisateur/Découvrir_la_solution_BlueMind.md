@@ -5,7 +5,6 @@ sidebar_position: 10
 ---
 # Découvrir la solution BlueMind
 
-
 ## Découvrir l'interface
 
 BlueMind a développé un tout **nouveau webmail** basé sur les technologies web proposées par les navigateurs récents : Web App Javascript, elle offre une **ergonomie repensée et intuitive**, avec les 3 volets adaptés aux écrans larges. Elle permet surtout un **fonctionnement plus rapide et fluide** grâce à l'utilisation du stockage local du navigateur.
@@ -16,9 +15,7 @@ Nous vous invitons donc à la tester et l'expérimenter dès maintenant ! Nous v
 
 Nous attendons vos retours avec impatience !
 
-
 ![](../attachments/86762459/86765392.png)
-
 
 ## Accéder à la nouvelle interface
 
@@ -58,9 +55,7 @@ Pour **revenir à l'ancienne version**, désactiver le commutateur en haut à dr
 La partie gauche du bandeau permet un accès direct aux applications [Messagerie](/Guide_de_l_utilisateur/La_messagerie/), [Contacts](/Guide_de_l_utilisateur/Les_contacts/), [Agenda](/Guide_de_l_utilisateur/L_agenda/) et [Tâches](/Guide_de_l_utilisateur/Les_tâches/). 
 L'accès à la téléphonie, la [Visioconférence](/Guide_de_l_utilisateur/La_visioconférence/), l'aide en ligne et le [paramétrage du compte](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/) est à droite du bandeau.
 
-
 ![](../attachments/86762459/86765388.png)![](../attachments/86762459/86765385.png)
-
 
 Pour connaître la **version** installée de BlueMind, aller sur **À propos** pour ouvrir le panneau d'informations
 
@@ -80,22 +75,18 @@ Par défaut, l'interface s'ouvre sur la messagerie mais peut également s'ouvrir
 
 La solution BlueMind est dotée d'un **nouveau moteur de recherche performant**, permettant d'effectuer des **recherches full-text** dans les messages, les contacts ou les évènements.
 
-
 ![](../attachments/86762459/86765386.png)
-
 
 La recherche dans BlueMind :
 
-- se fait l'ensemble des mots contenus dans **messages**, les fiches des **contacts** ou des **évènements**, y compris les [catégories](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/#créer-des-catégories)
+- se fait l'ensemble des mots contenus dans les **messages**, les fiches des **contacts** ou des **évènements**, y compris les [catégories](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/#créer-des-catégories)
 - se fait sur des mots exacts : le mot "invitation" sera recherché au singulier
 - ne tient pas compte des accents : "réservation" ou "reservation" donnera les mêmes résultats
-
 
 Il est possible d'utiliser le caractère * afin de remplacer une partie de mot dans une recherche. Par exemple :
 
 - invit* : recherchera les mots commençant par invit et trouvera par exemple "invité" ou "invitation"
 - inv*ion : recherchera les mots commençant par "in" et finissant par "ion" tels que "invitation" ou "invention".
-
 
 Attention : les temps de réponse lors de recherches avec le caractère "*" sont sensiblement plus longs qu'une recherche simple.
 
