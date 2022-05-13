@@ -23,13 +23,11 @@ BlueMind intègre un agenda partagé complet, proposant de nombreuses fonctionna
 - impressions des agendas
 - gestion des récurrences, exceptions, rdv privés,..
 
-
 ## Accéder à l'agenda
 
 **L'accès** à l'agenda s'effectue dans la barre de navigation principale BlueMind.
 
 ![](../../attachments/86762732/86762741.png)
-
 
 :::tip
 
@@ -56,11 +54,10 @@ Par défaut, l'interface s'ouvre sur la messagerie mais peut également **s'ouvr
 
 Afin de faciliter la lecture des évènements, leurs **principales informations et propriétés** sont **visibles directement depuis le calendrier**. Sur chaque évènement apparait :
 
-
 - les horaires, le titre et lieu
 - les icônes représentant les propriétés
-    - ![](../../attachments/86762732/86762740.png)il y a plusieurs participants
-    - ![](../../attachments/86762732/86762739.png)l'événement est privé
+    - ![](../../attachments/86762732/86762740.png) il y a plusieurs participants
+    - ![](../../attachments/86762732/86762739.png) l'événement est privé
     - ![](../../attachments/86762732/86762738.png) l'événement est récurrent
     - ![](../../attachments/86762732/86762736.png) l'évènement contient des pièces jointes
 - la disponibilité de l'utilisateur pendant l'évènement :  indiquée par la bordure claire

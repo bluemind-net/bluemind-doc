@@ -5,13 +5,11 @@ sidebar_position: 50
 ---
 # Gérer les identités du compte
 
-
 BlueMind permet de créer plusieurs "**identités**" pour un même compte, avec un libellé, un e-mail et une signature différente pour chacune d'entre elles
 
 La gestion des identités se fait dans les paramètres de la messagerie. Pour modifier et ajouter des identités, aller sur **Préférences - Messagerie - Identités**
 
 ![](../../attachments/86762550/86764474.png)
-
 
 ## Modifier une identité
 
@@ -25,14 +23,11 @@ Une identité est créée par défaut par BlueMind. Pour la modifier, aller sur 
 
 - **Signature** : rédaction de la signature au format HTML, avec possibilité d'insérer les images, logos, etc.
 
-
 ![](../../attachments/86762550/86764473.png)
-
 
 ## Créer une identité
 
 **"Ajouter une identité"** permet de créer d'autres identités avec, par exemple, une signature différente. Il est également possible de choisir l'identité par défaut, c'est-à-dire l'identité qui sera sélectionnée par défaut lors de la création d'un nouveau message.
-
 
 ![](../../attachments/86762550/86764472.png)
 

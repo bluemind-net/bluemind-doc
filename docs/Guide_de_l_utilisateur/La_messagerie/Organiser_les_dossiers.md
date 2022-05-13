@@ -5,12 +5,10 @@ sidebar_position: 60
 ---
 # Organiser les dossiers
 
-
 La colonne de gauche présente la liste hiérarchique des dossiers accessibles par l'utilisateur, en lecture ou en lecture-écriture, triés en 2 arborescences repliables :
 
 1. **Le compte de l'utilisateur** regroupe ses dossiers propres : dossiers par défaut (boîte de réception, messages envoyés, corbeille, etc.) suivis des dossiers créés par l'utilisateur triés par ordre alphabétique
 2. **Dossiers partagés** : regroupe les boîtes partagées sur lesquelles l'utilisateur a un droit de lecture ou d'écriture.
-
 
 Lorsqu'un dossier est sélectionné :
 
@@ -18,8 +16,8 @@ Lorsqu'un dossier est sélectionné :
 - le nom du dossier apparait sur fond bleu
 - la puce indiquant le nombre de messages non lus dans le dossier apparait en bleu vif :
 
-
 ![](../../attachments/86762556/86764485.png)
+
 *Ici le dossier "restored-2021-01-14" est sélectionné*
 
 ## Créer un dossier
@@ -29,13 +27,11 @@ Lorsqu'un dossier est sélectionné :
     - Pour valider la création : appuyer sur "Entrée"
     - Pour annuler la création : appuyer sur "Echap" ou cliquer sur la croix en fin de ligne
 
-
 ## Gérer les dossiers
 
 En passant la souris sur un dossier, un menu apparait, proposant les **actions possibles** sur ce dossier et les messages qu'il contient :
 
 ![](../../attachments/86762556/86764482.png)
-
 
 Les actions actuellement disponibles sont :
 
@@ -57,7 +53,6 @@ La fonction "**Filter mes dossiers**" en haut de la colonne permet de retrouver 
 
 ![](../../attachments/86762556/86764497.png)
 
-
 ## Déplacer un dossier
 
 Cette fonctionnalité n'est pas encore disponible dans la version test du webmail.
@@ -68,7 +63,6 @@ Pour contourner cela, il faut procéder à un déplacement des messages qu'il co
 - Se rendre dans le dossier source
 - Sélectionner l'ensemble des messages (bouton "Tous" en haut de liste)
 - Déplacer les messages en les faisant glisser dans le nouveau dossier (voir ci-après)
-
 
 ## Vider la corbeille
 
@@ -87,14 +81,14 @@ Pour cela, aller dans les paramètres de la messagerie : **Préférences - Messa
 
 :::info
 
-** **À propos des quotas** **
+**À propos des quotas**
 
-Lorsque le quota est activé, le taux d’occupation (quota) du stockage des messages est indiqué en bas de la liste des dossiers . 
+Lorsque le quota est activé, le taux d’occupation (quota) du stockage des messages est indiqué en bas de la liste des dossiers. 
 
 Lorsqu'un quota est atteint, il bloque la réception de mails. Ces mails sont conservés par le serveur pendant quelques jours.
 Les opérations d'envoi et même de suppression peuvent aussi être perturbées, le système ayant besoin d'effectuer des copies dans un répertoire temporaire et/ou dans la corbeille.
 
-Pour baisser le quota, supprimer des messages avec la fonction de suppression complète (Shift-Suppr)
+Pour baisser le quota, supprimer des messages avec la fonction de suppression complète (Shift-Suppr).
 
 Un quota atteint peut être manuellement augmenté par l'administrateur, puis redescendu à tout moment vers le quota initial.
 

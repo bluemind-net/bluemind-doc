@@ -5,7 +5,6 @@ sidebar_position: 110
 ---
 # Participer à un évènement
 
-
 ## Accepter l'invitation
 
 Lorsqu'une réunion est organisée, l'agenda BlueMind envoie systématiquement une notification par e-mail à chaque invité et ajoute la réunion à son calendrier.
@@ -16,16 +15,13 @@ Cela peut être fait directement depuis la **notification reçue par e-mail**,
 
 ![](../../attachments/86762873/86764781.png)
 
-
 en cliquant **sur la réunion dans l'agenda**,
 
 ![](../../attachments/86762873/86764784.png)
 
-
 ou sur la notification d'invitations qui apparait **dans la barre d'actions de l'agenda**
 
 ![](../../attachments/86762873/86764785.png)
-
 
 **Cliquer sur la réponse** adéquate puis choisir d'envoyer la réponse directement à l'organisateur ou en ajoutant une note. L'organisateur reçoit une notification des réponses par e-mail.
 
@@ -46,7 +42,6 @@ Dans l'agenda, **l'affichage d'une réunion** apparaît différemment selon la p
 - Rendez-vous accepté : couleur pleine
 - Participation à "peut-être" et "proposition de nouvel horaire" : couleur pleine entourée de pointillés
 - Rendez-vous refusé : transparence, contenu barré
-
 
 ![](../../attachments/86762873/86764771.png)
 
@@ -77,12 +72,11 @@ Si l'**organisateur accepte**, tous les participants reçoivent un e-mail de mod
 
 Si l'**organisateur refuse**, seul participant ayant fait une proposition reçoit un message indiquant le refus de l'organisateur
 
-
 ## Éditer une réunion en tant qu'invité
 
 Les participants peuvent [modifier, supprimer ou dupliquer](/Guide_de_l_utilisateur/L_agenda/Éditer_un_évènement/) une réunion à laquelle ils sont invités mais **les changements resteront privés**. Toutes les modifications réalisées par un invité seront prises en compte **uniquement sur son calendrier**. L'organisateur et les autres participants n'auront pas accès aux modifications.
 
-Lorsqu'un invité **supprime** une réunion de son calendrier, l'organisateur reçoit une** notification d'annulation **de sa participation à la réunion
+Lorsqu'un invité **supprime** une réunion de son calendrier, l'organisateur reçoit une **notification d'annulation** de sa participation à la réunion.
 
 ## Télécharger les pièces jointes
 
@@ -101,10 +95,9 @@ L'invité peut ajouter des pièces jointes à l'évènement, mais comme toute mo
 
 ## Participer à une visioconférence
 
-Pour accéder à une [visioconférence](/Guide_de_l_utilisateur/La_visioconférence/), **cliquer sur le lien** disponible dans l'e-mail d'invitation
+Pour accéder à une [visioconférence](../La_visioconférence/index.md), **cliquer sur le lien** disponible dans l'e-mail d'invitation
 
 ![](../../attachments/86762873/86764769.png)
-
 
 ou dans la fenêtre pop-up de l'évènement
 
@@ -113,7 +106,7 @@ ou dans la fenêtre pop-up de l'évènement
 
 :::tip
 
-![](../../attachments/86762873/86764766.png)permet de copier de le lien pour le partager. Toute personne ayant le lien pourra accéder à la visioconférence.
+![](../../attachments/86762873/86764766.png) permet de copier de le lien pour le partager. Toute personne ayant le lien pourra accéder à la visioconférence.
 
 :::
 

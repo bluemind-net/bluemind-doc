@@ -5,14 +5,11 @@ sidebar_position: 20
 ---
 # Consulter les messages
 
-
 ## Lire les messages
 
 Les messages arrivent dans [le dossier](/Guide_de_l_utilisateur/La_messagerie/Organiser_les_dossiers/) **Boîte de réception**. Tous les messages de la boîte de réception s'affichent dans [la liste des messages](/Guide_de_l_utilisateur/La_messagerie/Gérer_la_liste_des_messages/). Le contenu du message sélectionné apparait dans la zone d'affichage principale.
 
-
 ![](../../attachments/86743273/86764397.png)
-
 
 ## Ouvrir les pièces jointes
 
@@ -41,21 +38,15 @@ Les contenus distants sont des images ou des pixels invisibles qui ne sont pas i
 
 Afin de préserver votre vie privée, **BlueMind ne télécharge par défaut que les contenus provenant d'émetteurs connus**. Bien de que fortement déconseillé, il est possible d'activer le téléchargement de tous les contenus.
 
-
 Pour activer le téléchargement de tous les contenus, aller dans les paramètres de la messagerie: **Préférences - Messagerie - Général - Images distantes**
 
 ![](../../attachments/86743273/86764395.png)
-
-
-
-
 
 Lorsque l'option "Faire confiance à tous les contenus" est désactivée, **une alerte apparaît** proposant 2 options :
 
 - afficher le contenu distant tant que le message est ouvert
 
 - toujours faire confiance à cet expéditeur - dans ce cas, l’émetteur s'ajoutera dans les "[contacts collectés](/Guide_de_l_utilisateur/Les_contacts/Créer_et_éditer_un_carnet_d_adresses_personnel/)" et sera alors considéré comme "connu"
-
 
 ![](../../attachments/86743273/86764394.png)
 

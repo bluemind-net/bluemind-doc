@@ -10,7 +10,6 @@ Les paramètres généraux de l'agenda permettent à l'utilisateur de définir s
 
 Pour cela, aller dans **Préférences - Agenda - Général**
 
-
 ![](../../attachments/86762754/86762759.png)
 
 
@@ -24,7 +23,6 @@ L'utilisateur peut choisir :
 - d'afficher ou non les week-ends
 - d'afficher ou les évènements refusés
 - d'afficher par défaut son agenda par jour, semaine, mois ou liste
-
 
 :::tip
 
@@ -43,10 +41,8 @@ Les informations de début et fin de journée ainsi que les jours ouvrés permet
 
 Ainsi, lors de la recherche de disponibilité ou lors d'une invitation par exemple, l'organisateur de l'événement sera informé du fait que l'événement se situe hors des heures travaillées de l'utilisateur.
 
-
 ## Paramétrer les rappels 
 ![](../../attachments/86762754/86762756.png)
-
 
 Il est possible de définir :
 
@@ -54,9 +50,7 @@ Il est possible de définir :
 - un rappel pour les événements sur une journée complète : indique l'heure du rappel et le nombre jours avant l'évènement
 - le type de rappel : par e-mail ou notification
 
-
 Lorsqu'un rappel est désactivé, le champs est vide et la liste déroulante correspondante est sur "Secondes".
-
 
 :::info
 
