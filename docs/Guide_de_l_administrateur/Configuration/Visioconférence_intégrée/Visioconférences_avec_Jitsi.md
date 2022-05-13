@@ -137,7 +137,7 @@ Un bouton est alors disponible dans l'interface de création des événements de
 
 ![](../../../attachments/72188042/72194050.png)
 
-Pour en savoir plus sur le fonctionnement, se reporter à la page de documentation du guide utilisateur : [Lier une visioconférence à un événement](/Guide_de_l_utilisateur/L_agenda/Lier_une_visioconférence_à_un_événement/).
+Pour en savoir plus sur le fonctionnement, se reporter à la page de documentation du guide utilisateur : [Lier une visioconférence à un événement](../../../Guide_de_l_utilisateur/L_agenda/Organiser_une_réunion.md/#ajouter-une-visioconférence).
 
 ## Appareils mobiles et logiciels tiers
 
