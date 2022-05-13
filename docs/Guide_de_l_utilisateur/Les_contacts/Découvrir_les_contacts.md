@@ -10,9 +10,9 @@ BlueMind propose une gestion des contacts par **carnets d'adresses**.
 Ces carnets d'adresses, [synchronisables](/Guide_de_l_utilisateur/Les_contacts/Synchroniser_les_carnets_d_adresses/) avec les logiciels de messagerie (Outlook, Thunderbird) et les smartphones (IPhone, Android, ... selon les possibilités des appareils) sont organisés en 2 catégories :
 
 - [les carnets d'adresses personnels](/Guide_de_l_utilisateur/Les_contacts/Créer_et_éditer_un_carnet_d_adresses_personnel/)
-- [les carnets d'adresses partagés](/Guide_de_l_utilisateur/Les_contacts/Utiliser_un_carnet_d_adresses_partagé/#utiliser-lannuaire))
+- [les carnets d'adresses partagés](/Guide_de_l_utilisateur/Les_contacts/Utiliser_un_carnet_d_adresses_partagé/#utiliser-lannuaire)
 
-Il est également possible d'envoyer un message ou d'appeler un contact directement depuis sa fiche, d'indexer les contacts avec les [catégories](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/), de créer des [listes de distribution](/Guide_de_l_utilisateur/Les_contacts/Éditer_une_liste_de_distribution/), de partager les contacts entre groupes ou utilisateurs ainsi que d'accéder à un [carnet d'adresses d'entreprise](/Guide_de_l_utilisateur/Les_contacts/Utiliser_un_carnet_d_adresses_partagé/).
+Il est également possible d'envoyer un message ou d'appeler un contact directement depuis sa fiche, d'indexer les contacts avec les [catégories](/Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur/#créer-des-catégories), de créer des [listes de distribution](/Guide_de_l_utilisateur/Les_contacts/Éditer_une_liste_de_distribution/), de partager les contacts entre groupes ou utilisateurs ainsi que d'accéder à un [carnet d'adresses d'entreprise](/Guide_de_l_utilisateur/Les_contacts/Utiliser_un_carnet_d_adresses_partagé/#utiliser-lannuaire).
 
 ## Accéder aux contacts
 
