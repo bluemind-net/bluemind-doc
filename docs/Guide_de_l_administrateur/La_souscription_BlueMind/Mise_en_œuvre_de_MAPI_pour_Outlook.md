@@ -77,7 +77,7 @@ Parallèlement à [l'application d'Agenda en ligne](/Guide_de_l_utilisateur/L_ag
 
 **Outlook en mode MAPI ne peut fonctionner sans un autodiscover correctement configuré**. Au démarrage, le service MAPI vérifie que l'autodiscover est configuré pour le domaine ou au moins un de ses alias ; **dans le cas contraire, le service MAPI ne démarre pas**.
 
-Pour s'assurer que le serveur est correctement configuré et joignable, on pourra utiliser l'outil de diagnostique en ligne de Microsoft : [https://testconnectivity.microsoft.com/](https://testconnectivity.microsoft.com/)
+Pour s'assurer que le serveur est correctement configuré et joignable, vérifier que les enregistrements DNS soient actifs pour que le service bm-mapi démarre, puis utiliser l'outil de diagnostique en ligne de Microsoft : [https://testconnectivity.microsoft.com/](https://testconnectivity.microsoft.com/)
 
 :::
 3. En accédant à ces adresses depuis un navigateur, **aucun avertissement de sécurité relatif au certificat ssl ne doit s'afficher**.
