@@ -5,13 +5,9 @@ sidebar_position: 40
 ---
 # Prérequis à l'installation
 
-
 ## Système
 
-**Mémoire RAM
-
-
-**
+**Mémoire RAM**
 
 **12 Go** minimum avec la configuration par défaut
 
@@ -65,19 +61,16 @@ BlueMind ne supporte pas la technologie de virtualisation LXC, il faut lui préf
 
 :::
 
+
 BlueMind nécessite une **version 64-bit** des distributions supportées (pour Ubuntu, s'assurer d'avoir la version Serveur)  :
 
-- Ubuntu 16.04 LTS Server (Xenial Xerus)
 - Ubuntu 18.04 LTS Server (Bionic Beaver)
-- Ubuntu 20.04 LTS Server (Focal Fossa)*
+- Ubuntu 20.04 LTS Server (Focal Fossa)
+- Ubuntu 22.04 LTS Server (Jammy Jellyfish)
 - RedHat Entreprise Linux / CentOS 7
-- RedHat Entreprise Linux / CentOS 8*
-- Debian 8 Jessie
+- RedHat Entreprise Linux / Rocker Linux 8 / AlmaLinux 8
 - Debian 9 Stretch
 - Debian 10 Buster
-
-
-** supporté à partir de BlueMind 4.3.0*
 
 
 :::info
@@ -156,14 +149,11 @@ mail
 
 :::
 
- 
-
 
 ```
 $ hostname -f
 mail.bluemind.net
 ```
-
 
 ![](../attachments/57769989/69896490.png) doit afficher le nom complet du système, par exemple ici : mail.bluemind.net
 
@@ -174,7 +164,6 @@ Le hostname doit aussi correctement être déclaré sur l'adresse IP dans le fic
 IP\_SERVER mail.bluemind.net mail
 ```
 
-
 ### Cartes réseaux
 
 Si votre serveur possède plusieurs carte réseaux il faut que la première carte (eth0) soit celle qui porte l'adresse ip externe du serveur BlueMind.
@@ -183,18 +172,14 @@ Si votre serveur possède plusieurs carte réseaux il faut que la première cart
 
 Les préconisations suivantes ne sont pas obligatoire mais il est recommandé de les suivre afin de simplifier la maintenance de votre serveur.
 
-| point de montage | description | type |
-| --- | --- | --- |
-| NFS | block device |
-| / | racine |  |  |
-| /var/spool/cyrus | emails |  |  |
-| /var/spool/bm-hsm | emails archivés |  |  |
-| /var/spool/bm-elasticsearch | index de recherche |  |  |
-| /var/spool/bm-mail | envoi des emails via EAS/mapi | 
-
-
- | ~2Go |  |  |
-| /var/log | logs (fichiers journaux) |  |  |
-| /var/backups/bluemind | sauvegardes |  |  |
+| point de montage | description | type NFS | type Block Device |
+| --- | --- | --- | --- |
+| / | racine | :white_check_mark: | :white_check_mark: |
+| /var/spool/cyrus | emails | :x: | :white_check_mark: |
+| /var/spool/bm-hsm | emails archivés | :white_check_mark: | :white_check_mark: |
+| /var/spool/bm-elasticsearch | index de recherche | :x: | :white_check_mark: |
+| /var/spool/bm-mail | envoi des emails via EAS/mapi ~2Go | :white_check_mark: | :white_check_mark: |  
+| /var/log | logs (fichiers journaux) | :white_check_mark:  | :white_check_mark: |
+| /var/backups/bluemind | sauvegardes | :white_check_mark: | :white_check_mark: |
 
 
