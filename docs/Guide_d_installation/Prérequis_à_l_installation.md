@@ -67,7 +67,7 @@ BlueMind nécessite une **version 64-bit** des distributions supportées (pour
 - Ubuntu 20.04 LTS Server (Focal Fossa)
 - Ubuntu 22.O4 LTS Server
 - RedHat Entreprise Linux / CentOS 7
-- RedHat Entreprise Linux / CentOS 8 / Rocky linux 8 / Alma Linux 8
+- RedHat Entreprise Linux / Rocker Linux 8 / AlmaLinux 8
 - Debian 8 Jessie
 - Debian 9 Stretch
 - Debian 10 Buster
