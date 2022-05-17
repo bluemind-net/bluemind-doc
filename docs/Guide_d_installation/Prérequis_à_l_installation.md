@@ -61,7 +61,16 @@ BlueMind ne supporte pas la technologie de virtualisation LXC, il faut lui préf
 
 :::
 
-BlueMind nécessite une **version 64-bit** des distributions supportées (pour Ubuntu, s'assurer d'avoir la version Serveur). Consulter la liste des distributeurs et télécharger la version adéquate sur [BlueMind Download](https://download.bluemind.net/bm-download/)
+
+BlueMind nécessite une **version 64-bit** des distributions supportées (pour Ubuntu, s'assurer d'avoir la version Serveur)  :
+
+- Ubuntu 18.04 LTS Server (Bionic Beaver)
+- Ubuntu 20.04 LTS Server (Focal Fossa)
+- Ubuntu 22.04 LTS Server (Jammy Jellyfish)
+- RedHat Entreprise Linux / CentOS 7
+- RedHat Entreprise Linux / Rocker Linux 8 / AlmaLinux 8
+- Debian 9 Stretch
+- Debian 10 Buster
 
 
 :::info
