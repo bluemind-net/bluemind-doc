@@ -154,14 +154,9 @@ chown -R cyrus:mail restore\_dir
 /usr/lib/cyrus/bin/quota -f -d bluemind.loc user.jdoe
 ```
 
-2. À ce stade, les mails doivent-être visibles depuis le webmail. Si ce n'est pas le cas, s'assurer de bien rafraîchir le cache de l'arborescence de la façon suivante :
-
-    - connecté à BlueMind en tant que l'utilisateur, cliquer sur les engrenages en bas à gauche de la liste des dossiers > « Organiser les dossiers » :![](../../attachments/57771953/57771956.png)
-    - le dossier `restore_dir` et son arborescence doivent être visibles dans l'arborescence
-    - revenir dans le webmail sans faire d'action particulière
-    - le dossier et les mails restaurés doivent-être alors être visibles
+1. À ce stade, les mails doivent-être visibles depuis le webmail. Si ce n'est pas le cas, rafraîchir la page
   
-3. Pour terminer : 
+2. Pour terminer : 
 
     - si il y a un quota sur la boîte, s'assurer qu'il n'est pas atteint ; le cas échéant, augmenter temporairement ce dernier.
     - dans la console d'administration, connecté en tant qu'admin0 :
@@ -234,8 +229,8 @@ chown -R cyrus:mail /var/spool/cyrus/meta/bluemind\_loc/domain/b/bluemind.loc/r/
     ```
     /usr/lib/cyrus/bin/reconstruct -I -f -r -p bluemind_loc "contact/restored-20171003@bluemind.loc" 
     ```
-    2. Dans la console d'administration, se rendre dans la gestion de la boîte partagée, onglet Maintenance et lancer une reconstruction de l'index de la boîte :
+    2. Dans la console d'administration, se rendre dans la gestion de la boîte partagée, onglet Maintenance et consolider l'index de la boîte aux lettres :
     
-    ![](../../attachments/57771953/57771955.png)
+![](Restauration_manuelle_d_une_boîte_utilisateur_ou_partagée_attachements/Restauration_manuelle_boitepartagee_indexation.png)
 
 
