@@ -13,7 +13,7 @@ Les **actions principales** sont également accessibles au survol d'un message d
 
 ![](../../attachments/86762591/86764535.png)
 
-Lorsque **plusieurs messages**s ont sélectionnés, les actions possibles apparaissent dans la barre d'action et dans la zone d'affichage principale :
+Lorsque **plusieurs messages** sont sélectionnés, les actions possibles apparaissent dans la barre d'action et dans la zone d'affichage principale :
 
 ![](../../attachments/86762591/86764534.png)
 
@@ -22,12 +22,12 @@ Lorsque **plusieurs messages**s ont sélectionnés, les actions possibles appara
 Les actions permettant de suivre et/ou de mettre en avant certains messages sont :
 
 - **Marquer non lu**: les messages non lus apparaissent en gras dans la liste des messages![](../../attachments/86762591/86764533.png)
-
-→ Cliquer sur **Marquer comme non lus** pour annuler l'action ![](../../attachments/86762591/86764532.png)
+    
+    → Cliquer sur **Marquer comme non lus** pour annuler l'action ![](../../attachments/86762591/86764532.png)
 
 - **Assurer un suivi**: marque les messages d'un drapeau "important" ![](../../attachments/86762591/86764531.png)
-
-→ Cliquer sur **Ne plus assurer le suivi** pour retirer le drapeau ![](../../attachments/86762591/86764530.png)
+    
+    → Cliquer sur **Ne plus assurer le suivi** pour retirer le drapeau ![](../../attachments/86762591/86764530.png)
 
 
 :::tip
@@ -52,7 +52,7 @@ Un message de confirmation indique que l'opération a été réalisée. Cliquer 
 
 ## Supprimer des messages
 
-L'action **supprimer le message** ![](../../attachments/86762591/86764526.png) dans la barre d'action ou au survol du message dans la liste le déplace dans la corbeille.
+L'action **supprimer le message** ![](./attachments/classer_et_suivre_les_messages_supprimer.png) dans la barre d'action ou au survol du message dans la liste le déplace dans la corbeille.
 
 Pour le supprimer de façon définitive (sans aller dans la corbeille), aller dans **Autres** et cliquer sur **Supprimer définitivement**
 
@@ -64,5 +64,4 @@ Pour le supprimer de façon définitive (sans aller dans la corbeille), aller da
 La suppression de messages est possible sur un ou plusieurs messages simultanément.
 
 :::
-
 
