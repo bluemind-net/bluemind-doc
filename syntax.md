@@ -19,7 +19,6 @@ sidebar_position: 10
 - Mettre en gras : **texte** 
 - Mettre en italique : *texte*
 - Mettre en gras italique : ***texte***
-- Souligner : <u>texte</u>
 - Mettre en couleur : <span style="color:#99cc00;">texte</span>
   
   Codes BlueMind : 
@@ -39,8 +38,7 @@ sidebar_position: 10
 ## Insérer une image
 - Classer les images de la page dans un dossier nommé avec le nom de la page_attachments (exemple : syntax_attachments)
 - Indiquer le lien vers l'image ![](../bluemind-doc/syntax_attachments/logo%20BM%20bleu.png)
-- Pour redimensionner l'image à insérer, utiliser le format HTML : <img src=../bluemind-doc/syntax_attachments/logo%20BM%20bleu.png width="63" height="17"> et indiquer la taille de l'image souhaitée. Attention de respecter le ratio longueur/hauteur pour ne pas créer de distorsion
-
+- Il n'est pas possible de redimensionner l'image depuis VS Code. L'image doit être redimensionnée avant si besoin
 
 ## Insérer un symbole ou un emoji
 - Installer le plugin "Markdown Emoji"
