@@ -11,11 +11,17 @@ Les messages arrivent dans [le dossier](/Guide_de_l_utilisateur/La_messagerie/Or
 
 ![](./consulter_les_messages_attachments/messages_reception.png)
 
+**La date de réception** (jour ou heure pour le jour même) du message est visible dans la liste des messages. Le message est marqué **comme non lu** (en gras) tant qu'il n'est pas ouvert. Le dossier "Boîte de réception" indique le **nombre de messages non lus**.
+
 ## Lire les messages d'une conversation
 
-Lorsque le [mode conversation](Gérer_la_liste_des_messages.md/#gérer-laffichage-de-la-liste-des-messages) est activé, la conversation s'affiche dans [la liste des messages](/Guide_de_l_utilisateur/La_messagerie/Gérer_la_liste_des_messages/) en indiquant le nombre de messages contenus. En cliquant sur la conversation, le fil des messages s'affiche dans la zone principale
+Lorsque le [mode conversation](Gérer_la_liste_des_messages.md/#gérer-laffichage-de-la-liste-des-messages) est activé, la conversation s'affiche dans [la liste des messages](/Guide_de_l_utilisateur/La_messagerie/Gérer_la_liste_des_messages/) en indiquant le nombre de messages contenus. En cliquant sur la conversation, le fil des messages s'affiche dans la zone principale.
 
 ![](./consulter_les_messages_attachments/messages_conversation.png)
+
+Lorsqu'un nouveau message appartenant à la conversation est reçu, la conversation s'affiche dans la **Boîte de réception**, avec la date du dernier message. La conversation apparait **comme non lue** tant qu'elle n'est pas réouverte.
+
+Le nouveau message est également visible depuis les [conversations dupliquées dans les dossiers personnels](Classer_et_suivre_les_conversations.md). Cependant, dans les dossiers, les conversations dupliquées ne sont pas marquées comme non lues et la date ne change pas.
 
 ## Ouvrir les pièces jointes
 
