@@ -33,9 +33,9 @@ Lorsque tous les messages d'une conversation sont déplacés dans des dossiers, 
 
 Pour marquer un message **comme lu, non lu ou important**, aller dans le menu du message et choisir l'action souhaitée.
 
-**L'action est prise en compte sur le message d'origine**, c'est-à-dire dans son dossier, mais ne sera pas visible dans les conversations dupliquées dans d'autres dossiers.
+**L'action sur ce message est prise en compte dans sa conversation** s'ils partagent le même dossier, mais ne sera pas visible dans les conversations dupliquées dans d'autres dossiers
 
-Par exemple, si un message est marqué comme non lu dans la conversation depuis la boite de réception, une notification de message non lu apparaitra sur le dossier du message mais pas dans les autres dossiers où la conversation est dupliquée.
+Par exemple, si un message est marqué comme non lu dans la conversation depuis la boite de réception, un compteur de messages non-lus apparaîtra sur le dossier du message mais pas dans les autres dossiers où la conversation est dupliquée.
 
 ![](./classer_et_suivre_les_conversations_attachments/conversation_suivre.png)
 
@@ -54,13 +54,17 @@ Pour supprimer un message définitivement, aller dans le menu et cliquer sur "**
 Les menus et boutons d'actions sur une conversation dans son ensemble sont **les mêmes que pour les messages** lorsque le mode conversation n'est pas activé. 
 Voir [Classer et suivre les messages](Classer_et_suivre_les_messages.md)
 
+![](./classer_et_suivre_les_conversations_attachments/conversation_all_menugeneral.png)
+
 ### Déplacer une conversation
 
 Cliquer sur "**Déplacer**" dans le menu général, ou **glisser-déposer** la conversation dans le dossier souhaité.
 
-**L'action est contextualisée** : déplacer une conversation correspond à déplacer les messages de la conversation appartenant au dossier vers un nouveau dossier. La conversation ne sera donc plus visible dans le dossier d'origine car il n'y aura plus aucun message lié à la conversation. La conversation (dans son ensemble) sera visible dans le nouveau dossier, ainsi que dans les dossiers où sont classés les autres messages de la conversation.
+**L'action est contextualisée** : déplacer une conversation correspond à déplacer ses messages appartenant au même dossier. Les messages qui ne sont pas classés dans le même dossier ne seront pas déplacés.
 
-Par exemple ici, la conversation a été déplacée du dossier "Documentation - texte" vers le dossier "Documentation". La conversation a donc disparu du dossier "Documentation - textes" et est visible dans les dossiers "Documentation". La conversation est toujours visible dans le dossier "Documentation - visuels" car un message de la conversation est classé dans ce dossier.
+La conversation ne sera donc plus visible dans le dossier d'origine car il n'y aura plus aucun message lié à la conversation. La conversation (dans son ensemble) sera visible dans le nouveau dossier, ainsi que dans les dossiers où sont classés les autres messages de la conversation.
+
+Par exemple ici, la conversation a été déplacée du dossier "Documentation - texte" vers le dossier "Documentation". La conversation a donc disparu du dossier "Documentation - textes" et est visible dans le dossier "Documentation". La conversation est toujours visible dans le dossier "Documentation - visuels" car un message de la conversation est classé dans ce dossier.
 
 ![](./classer_et_suivre_les_conversations_attachments/conversation_all_deplacer.png)
 
@@ -78,7 +82,9 @@ Par exemple ici, la conversation est marquée comme non lue dans le dossier "Doc
 
 Pour déplacer une conversation dans la corbeille, cliquer sur "**Supprimer**" dans le menu général ou au survol de la conversation dans la liste des messages.
 
-**L'action est contextualisée** : déplacer une conversation à la corbeille correspond à déplacer les messages de la conversation appartenant au dossier vers la corbeille. La conversation ne sera donc plus visible dans le dossier d'origine car il n'y aura plus aucun message. Les messages de la conversation appartenant au dossier sont dans corbeille. La conversation, sans les messages mis à la corbeille, est visible dans les dossiers où sont classés les autres messages de la conversation.
+**L'action est contextualisée** : supprimer une conversation correspond à supprimer ses messages appartenant au même dossier. Les messages qui ne sont pas classés dans le même dossier ne seront pas supprimés.
+
+La conversation ne sera donc plus visible dans le dossier d'origine car il n'y aura plus aucun message. Les messages de la conversation appartenant au dossier sont dans corbeille. La conversation, sans les messages mis à la corbeille, est visible dans les dossiers où sont classés les autres messages de la conversation.
 
 Par exemple ici, la conversation du dossier "Documentation" est placée dans la corbeille. Le message appartenant au dossier "Documentation" est dans la corbeille. La conversation est toujours visible dans la dossier "Documentation - visuels" mais sans le message placé dans la corbeille, il n'y a plus que 3 messages au lieu de 4 auparavant.
 
