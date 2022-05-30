@@ -1,7 +1,7 @@
 ---
 title: "Les services"
 confluence_id: 57771259
-sidebar_position: 48
+sidebar_position: 40
 ---
 # Les services
 
@@ -11,7 +11,7 @@ sidebar_position: 48
 
 - BM-Core est le composant central de BlueMind. Il est le centre de gestion unique des données et des règles métier. C'est le seul composant à accéder à la base de données.
 
-- Toutes les fonctionnalités sont exposées en eb Services et peuvent donc être pilotées par d'autres applications.
+- Toutes les fonctionnalités sont exposées en Web Services et peuvent donc être pilotées par d'autres applications.
 
 - Tous les composants, internes ou externes, utilisent les Web Services. Cela a pour avantage de limiter les flux depuis et vers la messagerie BlueMind (qui sont restreint aux flux Web Services et au flux de messagerie) et de garantir l'utilisation de règles de gestion homogènes quel que soit le point d'entrée d'une modification.
 
@@ -53,7 +53,6 @@ Les commandes aptitude ([Debian](https://wiki.debian.org/fr/Aptitude)/[Ubuntu](h
 
 - /var/backups/bluemind
 
-
 ### /etc
 
 Les fichiers et répertoires situés dans `/etc/` contiennent les configurations des composants utilisés par BlueMind :
@@ -75,7 +74,6 @@ Les fichiers et répertoires situés dans `/etc/` contiennent les configurations
 Les sous-répertoires situés dans `/usr/share/` contiennent les modules et applications web. Les données présentes dans ces répertoires sont installées par les paquets BlueMind et ne doivent pas être modifiés
 
 - bm-conf/logs : configuration par défault des logs applicatif (log4)
-
 
 ### /var/spool
 
