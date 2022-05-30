@@ -9,14 +9,25 @@ sidebar_position: 20
 
 Les messages arrivent dans [le dossier](/Guide_de_l_utilisateur/La_messagerie/Organiser_les_dossiers/) **Boîte de réception**. Tous les messages de la boîte de réception s'affichent dans [la liste des messages](/Guide_de_l_utilisateur/La_messagerie/Gérer_la_liste_des_messages/). Le contenu du message sélectionné apparait dans la zone d'affichage principale.
 
-![](../../attachments/86743273/86764397.png)
+![](./consulter_les_messages_attachments/messages_reception.png)
+
+**La date de réception** (jour ou heure pour le jour même) du message est visible dans la liste des messages. Le message est marqué **comme non lu** (en gras) tant qu'il n'est pas ouvert. Le dossier "Boîte de réception" indique le **nombre de messages non lus**.
+
+## Lire les messages d'une conversation
+
+Lorsque le [mode conversation](Gérer_la_liste_des_messages.md/#gérer-laffichage-de-la-liste-des-messages) est activé, la conversation s'affiche dans [la liste des messages](/Guide_de_l_utilisateur/La_messagerie/Gérer_la_liste_des_messages/) en indiquant le nombre de messages contenus. En cliquant sur la conversation, le fil des messages s'affiche dans la zone principale.
+
+![](./consulter_les_messages_attachments/messages_conversation.png)
+
+Lorsqu'un nouveau message appartenant à la conversation est reçu, la conversation s'affiche dans la **Boîte de réception**, avec la date du dernier message. La conversation apparait **comme non lue** tant qu'elle n'est pas réouverte.
+
+Le nouveau message est également visible depuis les [conversations dupliquées dans les dossiers personnels](Classer_et_suivre_les_conversations.md). Cependant, dans les dossiers, les conversations dupliquées ne sont pas marquées comme non lues et la date ne change pas.
 
 ## Ouvrir les pièces jointes
 
-Un encart repliable sous l'en-tête présente les pièces jointes intégrées au message, avec un aperçu lorsqu'il est possible. Chaque fichier peut être téléchargés au moyen de l'icône ![](../../attachments/86743273/86764396.png)
+Un encart repliable sous l'en-tête présente les pièces jointes intégrées au message, avec un aperçu lorsqu'il est possible. Chaque fichier peut être téléchargés au moyen de l'icône ![](./consulter_les_messages_attachments/messages_icone_telecharger.png)
 
 Selon la nature de la pièce jointe, cliquer dessus ouvrira la fenêtre d'aperçu ou proposera de télécharger ou ouvrir le fichier.
-
 
 :::info
 
@@ -26,11 +37,11 @@ Le téléchargement de l'ensemble des fichiers en un seul clic sera disponible d
 
 ## Imprimer les messages
 
-
 :::info
-L'impression des messages et des pièces jointes sera disponible dans une prochaine version.
-:::
 
+L'impression des messages et des pièces jointes sera disponible dans une prochaine version.
+
+:::
 
 ## Gérer les images distantes
 
@@ -40,7 +51,7 @@ Afin de préserver votre vie privée, **BlueMind ne télécharge par défaut que
 
 Pour activer le téléchargement de tous les contenus, aller dans les paramètres de la messagerie: **Préférences - Messagerie - Général - Images distantes**
 
-![](../../attachments/86743273/86764395.png)
+![](./consulter_les_messages_attachments/messages_imagesdistantes.png)
 
 Lorsque l'option "Faire confiance à tous les contenus" est désactivée, **une alerte apparaît** proposant 2 options :
 
@@ -48,6 +59,6 @@ Lorsque l'option "Faire confiance à tous les contenus" est désactivée, **une 
 
 - toujours faire confiance à cet expéditeur - dans ce cas, l’émetteur s'ajoutera dans les "[contacts collectés](/Guide_de_l_utilisateur/Les_contacts/Créer_et_éditer_un_carnet_d_adresses_personnel/)" et sera alors considéré comme "connu"
 
-![](../../attachments/86743273/86764394.png)
+![](./consulter_les_messages_attachments/messages_imagesdistantes_alerte.png)
 
 
