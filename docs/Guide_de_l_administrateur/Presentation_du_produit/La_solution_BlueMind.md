@@ -1,12 +1,12 @@
 ---
-title: "Présentation du produit"
+title: "La solution BlueMind"
 confluence_id: 57771222
-sidebar_position: 38
+sidebar_position: 10
 ---
-# Présentation du produit
 
+# La solution BlueMind
 
-BlueMind est 100 % Web.
+BlueMind est 100% Web.
 
 Toutes les fonctionnalités de BlueMind sont conçues pour et disponibles via un navigateur Web. Ainsi, l'ensemble des fonctionnalités est accessible au moyen d'un simple navigateur Web. L'utilisation de clients de messagerie n'est donc plus nécessaire et les déploiements sont grandement facilités.
 
@@ -16,7 +16,6 @@ BlueMind supporte en particulier les navigateurs :
 - Chrome : dernière version
 - Internet Explorer à partir de la version 11
 - Safari à partir de la version 5.
-
 
 ![](../../attachments/57771222/57771223.png)
 
@@ -48,6 +47,3 @@ De plus, le SSO autorise le single logout, qui déconnecte l'utilisateur de l'en
 BlueMind permet d'éviter la ré-authentification dans le cas d'une utilisation dans un environnement Microsoft.
 
 Ainsi, un utilisateur sous Windows utilisant Outlook qui s'authentifie auprès de l'Active Directory à l'ouverture de session a son authentification reprise au lancement d'Outlook. La connexion à BlueMind est donc transparente.
-
-Enregistrer
-

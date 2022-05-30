@@ -1,10 +1,9 @@
 ---
 title: "Applications et composants"
 confluence_id: 57771225
-sidebar_position: 44
+sidebar_position: 20
 ---
 # Applications et composants
-
 
 ## Les applications utilisateur
 
@@ -19,8 +18,7 @@ Les fonctionnalités majeures apportées comprennent notamment :
 - autocomplétion des contacts et listes de distribution BlueMind
 - recherche avancée full-text et multidossiers
 
-
-![](../../attachments/57771225/57771230.png)
+Pour plus de détails, voir [Découvrir la messagerie](../../Guide_de_l_utilisateur/La_messagerie/Découvrir_la_messagerie.md)
 
 ### Calendrier
 
@@ -31,8 +29,7 @@ L'application d'agenda présente parmi ses fonctionnalités majeures :
 - la gestion des étiquettes (tags)
 - la gestion de ressources
 
-
-![](../../attachments/57771225/57771234.png)
+Pour plus de détails, voir [Découvrir l'agenda](../../Guide_de_l_utilisateur/L_agenda/Découvrir_l_agenda.md)
 
 ### Contacts
 
@@ -43,23 +40,13 @@ L'application de gestion des contacts présente parmi ses fonctionnalités :
 - la gestion de listes de contacts
 - la gestion des contacts et des carnets d'adresses de l'utilisateur
 
-
-![](../../attachments/57771225/57771232.png)
+Pour plus de détails, voir [Découvrir les contacts](../../Guide_de_l_utilisateur/Les_contacts/Découvrir_les_contacts.md)
 
 ### Paramètres et préférences
 
 L'application de gestion des paramètres et préférences permet à un utilisateur de modifier ses préférences personnelles de paramétrage et d'affichage de BlueMind.
 
-Il est possible d'y accéder en cliquant sur l'icône en forme de clé anglaise en haut à droite de la fenêtre :
-
-
-![](../../attachments/57770060/57770071.png)
-
-
-Accéder à la gestion des préférences de Blue Mind
-
-
-![](../../attachments/57770769/62555169.png)
+Pour plus de détails, voir [Paraméter le compte utilisateur](../../Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur.md)
 
 ## Les applications de l'administrateur
 
@@ -69,7 +56,9 @@ L'application Installation Wizard (IW) permet d'installer BlueMind sur un nouvea
 
 
 :::info
+
 L'Installation Wizard ne permet pas de réaliser une mise à jour d'un système BlueMind. Seul le Setup Wizard permet cette étape.
+
 :::
 
 ![](../../attachments/57771225/57771240.png)
@@ -92,7 +81,6 @@ Le composant serveur Core est le web-service principal de BlueMind. Il permet de
 - les accès à la base de données
 - les appels aux API BlueMind
 
-
 ### Application Server
 
 Toutes les interfaces web à destination de l'utilisateur final sont exécutées sur un serveur web JEE. Les applications hébergées sont :
@@ -105,14 +93,12 @@ Toutes les interfaces web à destination de l'utilisateur final sont exécutées
 - l'application Apache Solr
 - l'interface client du serveur XMPP (à partir de BlueMind v3)
 
-
 ### SMTP & IMAP
 
 Les protocoles standards de messagerie sont supportés par BlueMind :
 
 - SMTP grâce à postfix
 - IMAP et POP with Cyrus IMAPd
-
 
 ### MQ Server
 
@@ -122,7 +108,6 @@ Hazelcast est packagé et entièrement intégré avec BlueMind pour l'échange d
 - envoyer des notifications concernant les événements issus de la gestion de contacts (événements issus de Core et écoutés par EAS par exemple)
 - envoyer des notifications concernant les emails délivrés (événement issus du démon LMTP et écoutés par EAS par exemple)
 - envoyer des notifications concernant les événements de login et de logout (événements issus de Core et écoutés par HPS par exemple)
-
 
 Le cluster Hazelcast est constitué de 3 noeuds assurés par les services core, EAS et bm-webserver. Il est très important que le cluster soit complet pour le bon fonctionnement de BlueMind, son état peut être surveillé grâce au [Monitoring Bm-Tick](/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/).
 

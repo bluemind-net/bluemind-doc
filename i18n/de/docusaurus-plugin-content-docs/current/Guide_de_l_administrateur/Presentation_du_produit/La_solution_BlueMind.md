@@ -1,9 +1,9 @@
 ---
-title: "Produktpräsentation"
+title: "BlueMind in a nutshell"
 confluence_id: 57771222
 position: 38
 ---
-# Produktpräsentation
+# BlueMind in a nutshell
 
 
 BlueMind ist zu 100 % webbasiert.

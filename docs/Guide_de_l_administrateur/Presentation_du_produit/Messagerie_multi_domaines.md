@@ -1,12 +1,9 @@
 ---
 title: "Messagerie multi-domaines"
 confluence_id: 57771242
-sidebar_position: 46
+sidebar_position: 30
 ---
 # Messagerie multi-domaines
-
-
-## Domaines multiples
 
 BlueMind peut héberger sur une même infrastructure (un ou plusieurs serveurs, physiques ou virtualisés) plusieurs messageries totalement cloisonnées. Ce principe, appelé **multi-domaines** ou multi-tenant, peut être utilisé dans des infrastructures clouds ou simplement pour faire cohabiter plusieurs messageries.
 
@@ -23,8 +20,7 @@ Ces domaines peuvent :
 - constituer des alias, chaque utilisateur pouvant exister sur un ou plusieurs domaines alias (l'utilisateur peut ainsi recevoir des messages sur chacun des domaines sur lesquels son adresse a été définie)
 - constituer des services de messagerie différents, mais pas totalement cloisonnés. Ainsi, par exemple, pour deux sociétés ayant le même directeur, il est possible d'avoir un seul service de messagerie et seul le directeur a un compte sur les deux domaines. Il a ainsi un seul agenda qu'il peut partager à des utilisateurs de l'un ou l'autre des domaines. Dans une telle configuration, tous les utilisateurs ont une adresse e-mail sur le domaine principal.
 
-
-### Critères de sélection dans une architecture multi-domaines
+## Critères de sélection dans une architecture multi-domaines
 
 Sur un même domaine de messagerie, les données ne sont pas cloisonnées.
 Les droits unitaires permettent toutefois de masquer ou cloisonner les données utilisateurs selon les droits gérés par les administrateurs et les utilisateurs eux-mêmes.
@@ -45,19 +41,19 @@ Dans ces exemples, agendas et carnets d'adresses peuvent être rendus visibles �
 
 :::
 
-#### Partager des agendas individuels
+### Partager des agendas individuels
 
-Les fonctionnalités de publication des agendas vers l'extérieur permettent d'accéder à un agenda BlueMind depuis un autre domaine BlueMind (voir [Le partage d'agenda](/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda/)).
+Les fonctionnalités de publication des agendas vers l'extérieur permettent d'accéder à un agenda BlueMind depuis un autre domaine BlueMind (voir [Le partage d'agenda](../../Guide_de_l_utilisateur/L_agenda/Partager_un_calendrier.md)).
 
 Cas d'utilisation : un directeur de deux entités qui sont sur des domaines séparés peut consulter son agenda du premier domaine sur le second via le partage de son url (publique ou privée), il peut aussi le partager avec ses collaborateurs de l'un ou de l'autre.
 
-#### Partager des agendas de domaine
+### Partager des agendas de domaine
 
 Un agenda de domaine (créé par un administrateur) peut être partagé vers un autre domaine BlueMind de la même façon.
 
 Cas d'utilisation : un agenda marketing commun à deux filiales est consulté sur deux domaines séparés. Il est alimenté par les utilisateurs de l'un de ces domaines. Il peut ensuite être publié et consulté depuis l'autre domaine en créant un nouvel agenda de type externe auquel est associée l'url de partage.
 
-#### Partager des carnets d'adresses
+### Partager des carnets d'adresses
 
 Par l'utilisation des API, il est possible d'exporter un carnet d'adresses d'un domaine BlueMind puis de l'insérer, toujours par API, comme carnet d'adresses d'un autre domaine BlueMind.
 
@@ -66,8 +62,6 @@ Cas d'utilisation : un carnet des élus d'une collectivité est maintenu depuis 
 ## L'administration des domaines
 
 L'espace d'administration des domaines permet à l'administrateur d'accéder aux paramétrages techniques des domaines (adresses des serveurs, alias de domaines, etc.) ainsi qu'aux paramétrages commun et par défaut des utilisateurs (carnets d'adresses, filtres de messages, quotas de stockage, archivage, etc.).
-
-![](../../attachments/57771242/57771249.png)
 
 Pour en savoir plus, veuillez consulter la page dédiée à la [Gestion des domaines](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/)
 
