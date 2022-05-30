@@ -19,7 +19,7 @@ Deux types d'utilisateur peuvent être créés dans Blue Mind, par l'attribution
 Les rôles d'administration :
 
 - **l'administrateur fonctionnel du domaine** (appelé généralement **administrateur de domaine**) est un utilisateur auquel a été donné le profil admin. Plusieurs utilisateurs peuvent avoir le rôle d'administrateur fonctionnel sur un même domaine.  L'administrateur fonctionnel gère les utilisateurs, groupes et ressources depuis la console d'administration de Blue Mind ainsi que le paramétrage du domaine et les objets partagés (boites, calendriers, carnets d'adresses). Il peut déléguer ses droits en créant d'autres administrateurs.
-- **l'administrateur de la plate-forme ** (appelé également **administrateur global**) est unique pour une installation de Blue Mind. Il a pour identifiant admin0@global.virt et il est en charge de l'aspect technique de la plate-forme. Il n'a pas de compte utilisateur. Lorsqu'il se connecte à Blue Mind, il n'accède qu'à la console d'administration. Il s'occupe de l'installation et du paramétrage technique des domaines : adresses des serveurs, espaces disques, tâches planifiées particulières... Il a aussi accès aux mêmes fonctions de gestion que l'administrateur fonctionnel.
+- **l'administrateur de la plate-forme** (appelé également **administrateur global**) est unique pour une installation de Blue Mind. Il a pour identifiant admin0@global.virt et il est en charge de l'aspect technique de la plate-forme. Il n'a pas de compte utilisateur. Lorsqu'il se connecte à Blue Mind, il n'accède qu'à la console d'administration. Il s'occupe de l'installation et du paramétrage technique des domaines : adresses des serveurs, espaces disques, tâches planifiées particulières... Il a aussi accès aux mêmes fonctions de gestion que l'administrateur fonctionnel.
 
 
 ## Créer un utilisateur
@@ -44,8 +44,8 @@ Seuls les champs suivis d'une étoile (Nom, Identifiant et Mot de passe) sont re
 
 Les comptes peuvent être créés avec ou sans adresse e-mail :
 
-- Sans adresse mail, la partie "Messagerie" est désactivée et l'onglet "Messagerie" est inaccessible.
-- En cochant "Adresse mail", le compte de messagerie est activé et une adresse par défaut non modifiable basée sur le login est automatiquement créée.Pour ajouter des alias, cliquer sur ![](../../../attachments/57769989/69896479.png) en fin de ligne.
+- Si l'option "Adresse mail" est décochée, une boite aux lettres est tout de même créée sur le domaine par défaut. L'adresse est cachée et l'utilisateur n'a pas le rôle lui permettant d'y accéder. L'onglet "Messagerie" est inaccessible.
+- En cochant "Adresse mail", le compte de messagerie est activé et une adresse par défaut non modifiable basée sur le login est automatiquement créée. Pour ajouter des alias, cliquer sur ![](../../../attachments/57769989/69896479.png) en fin de ligne.
 - Si l'installation comporte plusieurs alias de domaine, chaque adresse e-mail supplémentaire peut être déclarée sur un domaine particulier ou sur l'ensemble des alias.Il est possible dans BlueMind de créer autant d'alias que souhaité, sur autant d'alias de domaines que souhaité.
 
 
@@ -176,7 +176,7 @@ L'espace utilisé par l'utilisateur est désormais indiqué par la barre de prog
 
 :::info
 
-** **À propos des quotas** **
+**À propos des quotas**
 
 Lorsque le quota est activé, son pourcentage d'utilisation est affiché en permanence en bas du panneau de gauche de la messagerie webmail, le survol avec la souris permet d'afficher les informations détaillées :
 ![](../../../attachments/57771429/62558952.png) ![](../../../attachments/57771429/62558953.png)
@@ -377,8 +377,8 @@ Cette section permet de gérer les périphérique mobiles de l'utilisateur : au
 - **Type** : marque/OS de l'appareil
 - **Dernière synchronisation** : date et heure de la dernière synchronisation de l'appareil avec le serveur
 - **Réinitialiser la synchronisation** : réinitialise les informations de synchronisation de l'appareil. La prochaine synchronisation se fera de la même façon qu'un synchronisation initiale, l'appareil fera une synchronisation complète comme s'il n'avait jamais été connu du serveur.
-- **Effacement à distance** : supprime toutes les données présentes sur le téléphone, qu'elles soient liées au compte BlueMind ou d'ordre privé (photos, SMS, ....).  **Cette opération est irréversible.**  *Voir paragraphe 4 de la page [Configuration du serveur EAS](/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS/) *
-- **Icône poubelle** : permet de supprimer la synchronisation avec un périphérique.La suppression d'un smartphone de la liste a pour effet, lorsque les smartphones inconnus ne sont pas autorisés par défaut, de bloquer la synchronisation de ce smartphone sur BlueMind. L'option "Autoriser les périphériques inconnus" est un paramètre lié à une instance de BlueMind. Elle se modifie en tant qu'admin0, dans la section Gestion du Système > Configuration du Système > Serveur EAS.*Voir la page [Configuration du serveur EAS](/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS/) *
+- **Effacement à distance** : supprime toutes les données présentes sur le téléphone, qu'elles soient liées au compte BlueMind ou d'ordre privé (photos, SMS, ....).  **Cette opération est irréversible.**  *Voir paragraphe 4 de la page [Configuration du serveur EAS](/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS/)*
+- **Icône poubelle** : permet de supprimer la synchronisation avec un périphérique.La suppression d'un smartphone de la liste a pour effet, lorsque les smartphones inconnus ne sont pas autorisés par défaut, de bloquer la synchronisation de ce smartphone sur BlueMind. L'option "Autoriser les périphériques inconnus" est un paramètre lié à une instance de BlueMind. Elle se modifie en tant qu'admin0, dans la section Gestion du Système > Configuration du Système > Serveur EAS. *Voir la page [Configuration du serveur EAS](/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS/)*
 
 
 ## Supprimer un utilisateur
