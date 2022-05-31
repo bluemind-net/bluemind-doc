@@ -2,17 +2,18 @@ pipeline {
     agent none
     stages {
         stage('Generate') {
-	    agent { node { label 'bm-docs' } }
+	    agent { node { label 'doc-slave' } }
             steps {
                 script {
 		    notifyBitbucket()
-		    sh "yarn"
-		    sh "mkdir -p /var/www/bm-docs/${BRANCH_NAME}"
 		    if (BRANCH_NAME.startsWith('release/')){
 		       sh """sed -i "s|  noIndex: true,| noIndex: false,|" docusaurus.config.js"""
 		    }
 		    sh """sed -i "s|  baseUrl: .*|  baseUrl: '/${BRANCH_NAME}/',|" docusaurus.config.js"""
-		    sh "yarn build --out-dir /var/www/bm-docs/${BRANCH_NAME}"
+
+		    sh "docker pull repository.blue-mind.loc:5001/bluemind/bm-build:latest"
+		    sh "docker run --rm -v \$(pwd):\$(pwd) -w \$(pwd) repository.blue-mind.loc:5001/bluemind/bm-build:latest ci/generate-doc.sh"
+		    sh "rsync -avz --mkpath out/ bm-docs:/var/www/bm-docs/${BRANCH_NAME}/"
 		    echo "Branch doc available at https://doc.bluemind.net/${BRANCH_NAME}/"
                 }
             }
