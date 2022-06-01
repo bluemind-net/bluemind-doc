@@ -80,8 +80,7 @@ Les enregistrements de type SRV à ajouter sont les suivants :
 
 | Clé | Exemple | Description |
 | --- | --- | --- |
-| 
-\_xmpp-client.\_tcp.DOMAIN.| \_xmpp-client.\_tcp.mydomain.com.  86400  IN  SRV  5 0 5222  xmpp.mydomain.com  |Communications client-serveur |
+| \_xmpp-client.\_tcp.DOMAIN.| \_xmpp-client.\_tcp.mydomain.com.  86400  IN  SRV  5 0 5222  xmpp.mydomain.com  |Communications client-serveur |
 | \_xmpp-server.\_tcp.DOMAIN.| \_xmpp-server.\_tcp.mydomain.com.  86400  IN  SRV  5 0 5269  xmpp.mydomain.com | Communications serveur-serveur |
 
 ### Vérification des enregistrements DNS
