@@ -213,7 +213,15 @@ Pour restaurer tous les emails de l'utilisateur :
 ```
 unexpunge -a -d user/john@domain.net
 ```
+A noter que ces commandes peuvent être jouées depuis le CLI BlueMind :
 
+```
+bm-cli mail unexpunge
+
+## Pour de l'aide sur cette commande :
+bm-cli mail unexpunge --help
+
+```
 
 Pour plus d'informations sur ces commandes et la façon de les passer, veuillez consulter la documentation cyrus : [https://www.cyrusimap.org/imap/reference/manpages/systemcommands/unexpunge.html](https://www.cyrusimap.org/imap/reference/manpages/systemcommands/unexpunge.html)
 
