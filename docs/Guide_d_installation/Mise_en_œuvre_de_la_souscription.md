@@ -5,7 +5,6 @@ sidebar_position: 48
 ---
 # Mise en œuvre de la souscription
 
-
 ## Présentation
 
 ### La souscription
@@ -23,9 +22,7 @@ Le logiciel BlueMind est Open Source. La souscription à BlueMind est une offre 
     - particuliers et associations OpenSource (Free)
 - la date d'expiration.
 
-
 Le fichier de souscription est valable pour tous les systèmes hôte supportés (voir [Pré-requis à l'installation](/Guide_d_installation/Prérequis_à_l_installation/) pour connaître les systèmes supportés)
-
 
 **Ce fichier est lisible et signé.**
 
@@ -43,10 +40,9 @@ Pour des souscriptions de type Prod, Host, Trial et Free,  vous ne devez pas mo
 
 Le fichier de souscription contient les adresses des dépôts BlueMind et permet leur accès par le système en fonction de sa version. Ce fichier doit donc être mis à jour lors d'un changement de version de BlueMind afin d'installer les versions correspondantes des paquets BlueMind ainsi que les nouveaux paquets de la nouvelle version.
 
-** **La procédure à suivre est donc la même que pour une installation et non une simple mise à jour.** **
+**La procédure à suivre est donc la même que pour une installation et non une simple mise à jour.**
 
 ## Installation de la souscription
-
 
 :::info
 
@@ -111,82 +107,60 @@ Cette opération est à réaliser sur chaque serveur BlueMind concerné par cett
 
 :::
 
-
-**
-Debian/Ubuntu
-
-
-**
-Redhat/CentOS
-
-
+**Debian/Ubuntu**
 ```
 sudo aptitude update
 sudo aptitude upgrade
-
 ```
-
-
+**Redhat/CentOS**
 ```
 yum makecache
 yum upgrade
 ```
 
-
 ### Installer les nouveaux paquets
 
 Les paquets suivants sont désormais disponibles :
 
-- **bm-setup-wizard** : version spéciale de l'assistant d'installation et mise à jour
-- bm-mapi* : connexion des postes Outlook
-- bm-plugin-core-ad-import* : outil d'import ActiveDirectory
+- **bm-setup-wizard**&sup1; : version spéciale de l'assistant d'installation et mise à jour
+- **bm-plugin-cli-setup**&sup1;
+- bm-mapi&sup2; : connexion des postes Outlook
+- bm-plugin-core-ad-import&sup2; : outil d'import ActiveDirectory
 
-
-** paquets optionnels, à installer suivant vos besoins*
+&sup1; *paquets obligatoires* ; &sup2; *paquets optionnels, à installer suivant vos besoins*
 
 Sur la machine principale (celle où a été réalisée l'installation de BlueMind) installer les nouveaux paquets et redémarrer le service BlueMind :
 
-
-**
-Debian/Ubuntu
-
-
-**
-Redhat/CentOS
-
-
+**Debian/Ubuntu**
 ```
-sudo aptitude install bm-setup-wizard bm-mapi bm-plugin-admin-console-ad-import bm-plugin-core-ad-import
+sudo aptitude install bm-setup-wizard bm-plugin-cli-setup bm-mapi bm-plugin-admin-console-ad-import bm-plugin-core-ad-import
 sudo bmctl restart
 ```
 
-
+**Redhat/CentOS**
 ```
 rpm -e --nodeps bm-installation-wizard
-yum install bm-setup-wizard bm-mapi bm-plugin-admin-console-ad-import bm-plugin-core-ad-import
+yum install bm-setup-wizard bm-plugin-cli-setup bm-mapi bm-plugin-admin-console-ad-import bm-plugin-core-ad-import
 bmctl restart
 ```
-
 
 ### Configuration après mise à jour
 
 L'outil de gestion des mises à jour, le Setup Wizard, est maintenant disponible.
 
-S'y connecter avec un navigateur en allant à l'adresse **  [https://[ip_de_votre_serveur]/setup](#)  **
+S'y connecter avec un navigateur en allant à l'adresse [https://[ip_de_votre_serveur]/setup](#)
 
 L'écran du Setup wizard apparaît après chargement et affiche l'état de vérification des pré-requis
 
 - Si le Setup Wizard bloque l'installation, corriger les pré-requis puis relancer l'installation
 - Si le Setup Wizard remonte des alertes :
-    - Résoudre les alertes puis recharger la page /setup dans votre navigateur (accèder à nouveau à **  [https://[ip_de_votre_serveur]/setup](#)  **)
-    - ou cliquer sur *«* *Continuer en ignorant les problèmes* *»*. (Ce choix n'est pas recommandé, à moins de maîtriser parfaitement ce que vous faîtes).
-
+    - Résoudre les alertes puis recharger la page /setup dans votre navigateur (accèder à nouveau à [https://[ip_de_votre_serveur]/setup](#)
+    - ou cliquer sur *«*Continuer en ignorant les problèmes*»*. (Ce choix n'est pas recommandé, à moins de maîtriser parfaitement ce que vous faîtes).
 
 Si les paquets étaient déjà à jour, un message indiquant que le système est prêt à l'utilisation s'affiche. Sinon, continuez avec l'étape ci-dessous :
 
-Cliquer sur *«* *Mise à jour* *»*.
+Cliquer sur *«*Mise à jour*»*.
 A côté de ce bouton est affichée la version des données en cours, et la nouvelle version vers laquelle sera effectué la mise à jour.
-
 
 :::info
 
@@ -200,8 +174,7 @@ La mise à jour s'exécute et lorsqu'elle est terminée le Setup Wizard affiche 
 
 Retourner dans l'interface d'administration afin de vérifier que les informations de la souscription apparaissent correctement :
 
-![](../attachments/57771207/57771211.png)
-
+![](./Mise_en_œuvre_de_la_souscription_attachments/install_gererlasouscription.png)
 
 :::tip
 
@@ -221,7 +194,6 @@ Les utilisateurs peuvent se trouver dans les 2 cas suivants :
 
 1. si l'utilisateur **n'a pas accès** à la console d'administration, il recevra les emails d'information
 2. si l'utilisateur **a accès** à la console d'administration, il verra les bandeaux d'information lorsqu'il se rendra dessus, recevra les emails d'information et accèdera à la page de gestion permettant d'installer et mettre à jour la souscription
-
 
 Pour recevoir les alertes par email, les adresses doivent être déclarées dans l'écran de gestion de la souscription.
 
@@ -243,12 +215,11 @@ Hors changement de version système ou BlueMind, une souscription étant déjà 
 
 #### Mise à jour automatisée
 
-- Se connecter à la console d'administration BlueMind, en tant qu'admin0 (login : * [admin0@global.virt](mailto:admin0@global.virt) * * *)
+- Se connecter à la console d'administration BlueMind, en tant qu'admin0 (login : [admin0@global.virt](mailto:admin0@global.virt))
 - Aller dans Gestion du système > Gérer la souscription
-- Au moyen du bouton "Mettre à jour la souscription", rechercher l'archive fournie par BlueMind et valider.
+- Au moyen du bouton *"Mettre à jour la souscription"*, rechercher l'archive fournie par BlueMind et valider.
 BlueMind installe la souscription.
 **La prise en compte est immédiate et ne nécessite pas de redémarrage de BlueMind.**
-
 
 #### Mise à jour manuelle
 
@@ -258,20 +229,18 @@ BlueMind installe la souscription.
 - En cas d'utilisation de serveurs secondaires (edge, archivage, etc.) déposer aussi le fichier sur ces serveurs-là dans le même dossier
 - Redémarrer BlueMind pour faire prendre en compte la nouvelle souscription
 
-
 ## Supprimer une souscription
 
 Parce que la souscription arrive à échéance ou pour tout autre raison et à tout moment, il est possible de supprimer une souscription et repasser à un usage simple de BlueMind :
 
-- Se connecter à la console d'administration BlueMind, en tant qu'admin0 (login : * [admin0@global.virt](mailto:admin0@global.virt) * * *)
+- Se connecter à la console d'administration BlueMind, en tant qu'admin0 (login : [admin0@global.virt](mailto:admin0@global.virt))
 - Aller dans Gestion du système > Gérer la souscription
-- Cliquer sur "Utiliser BlueMind sans souscription" :![](../attachments/57771207/57771209.png)
+- Cliquer sur "Utiliser BlueMind sans souscription" :
+
+![](./Mise_en_œuvre_de_la_souscription_attachments/install_utiliserbluemindsanssouscription.png)
 - Valider la demande de confirmation après avoir lu les conditions
 - Redémarrer BlueMind :
-
-
 ```
 bmctl restart
 ```
-
 
