@@ -5,11 +5,9 @@ sidebar_position: 62
 ---
 # Administration du serveur XMPP
 
-
 ## Présentation
 
 Le serveur XMPP est conçu autour du [serveur XMPP Tigase](http://www.tigase.org/). La plupart des développements apportés sont des plugins autour de Tigase pour l'intégrer avec la solution BlueMind.
-
 
 ## Installation
 
@@ -24,7 +22,6 @@ Les fonctionnalités suivantes sont ajoutés à BlueMind par le paquet *bm-xmpp*
 - support des informations de contact par vCard et avatars à partir des données du carnet d'adresses BlueMind
 - l'adresse email par défaut des utilisateurs correspond à leurs identifiants jabber
 
-
 ### Dépendances entre services
 
 *bm-xmpp* dépend des services BlueMind suivants :
@@ -33,7 +30,6 @@ Les fonctionnalités suivantes sont ajoutés à BlueMind par le paquet *bm-xmpp*
 - *bm-mq* pour maintenir à jour une liste des domaines supervisés par BlueMind
 - *bm-core* pour l'authentification et la génération de vCard
 - *bm-elasticsearch* pour l'archivage et la recherche des conversations
-
 
 ### Activation de la messagerie instantanée
 
@@ -44,7 +40,6 @@ Pour activer le service de messagerie instantanée, se connecter à BlueMind en 
 - cocher "Serveur d'indexation pour la messagerie instantanée et Serveur XMPP"
 - cliquer sur «Enregistrer»
 
-
 Ensuite, revenir à l'accueil de la console d'administration puis :
 
 - se rendre dans Gestion du système > Domaines supervisés
@@ -53,22 +48,12 @@ Ensuite, revenir à l'accueil de la console d'administration puis :
 - dans l'onglet messagerie instantanée : définir les accès
 - cliquer sur «Enregistrer»
 
-
 Enfin, pour que les utilisateurs aient accès à la messagerie instantanée, il est nécessaire de leur attribuer le rôle correspondant à l'application :
 
 - soit via la gestion de la fiche utilisateur > onglet Général
 - soit via la gestion des rôles du groupe > onglet Rôles
 
-
 Pour en savoir plus sur l'activation de ce rôle, consultez la page dédiée : [Les rôles : droits d'accès et d'administration](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/)
-
-## Changement du certificat SSL
-
-Les certificats SSL utilisés sont auto-générés par *bm-xmpp* quand un nouveau domaine est utilisé. En tant que certificats auto-signés, ils doivent être remplacés par des certificats valides.
-
-Pour remplacer le certificat d'un domaine, il suffit de remplacer les fichiers correspondants dans `/usr/share/bm-xmpp/certs/`.
-
-Le fichier du certificat doit contenir dans l'ordre : le certificat, la clé privée, et les certificat de la CA suivi de la chaine jusqu'au root si besoin.
 
 ## Connexion du serveur XMPP vers internet
 
@@ -85,7 +70,6 @@ Les ports suivants doivent être accessibles depuis l'extérieur sur le serveur 
 - 5222 du client vers le serveur pour les communications client-serveur
 - 5269, utilisé pour la communication entre serveurs
 
-
 Si *bm-xmpp* n'est pas installé sur le serveur portant le nom DNS *xmpp.mydomain.com* (par exemple dans le cas d'un proxy), les flux de ces ports doivent être redirigés vers le serveur hébergeant *bm-xmpp*.
 
 ### Ajout d'enregistrements DNS de type SRV
@@ -96,24 +80,8 @@ Les enregistrements de type SRV à ajouter sont les suivants :
 
 | Clé | Exemple | Description |
 | --- | --- | --- |
-| 
-```
-\_xmpp-client.\_tcp.DOMAIN.
-```
- | 
-```
-\_xmpp-client.\_tcp.mydomain.com.  86400  IN  SRV  5 0 5222  xmpp.mydomain.com
-```
- | Communications client-serveur |
-| 
-```
-\_xmpp-server.\_tcp.DOMAIN.
-```
- | 
-```
-\_xmpp-server.\_tcp.mydomain.com.  86400  IN  SRV  5 0 5269  xmpp.mydomain.com
-```
- | Communications serveur-serveur |
+| \_xmpp-client.\_tcp.DOMAIN.| \_xmpp-client.\_tcp.mydomain.com.  86400  IN  SRV  5 0 5222  xmpp.mydomain.com  |Communications client-serveur |
+| \_xmpp-server.\_tcp.DOMAIN.| \_xmpp-server.\_tcp.mydomain.com.  86400  IN  SRV  5 0 5269  xmpp.mydomain.com | Communications serveur-serveur |
 
 ### Vérification des enregistrements DNS
 
