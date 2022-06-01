@@ -185,6 +185,10 @@ Dans ce cas précis, l'email n'est pas copié dans la corbeille et le fichier n'
 La suppression en mode *delayed* a été mise en place au niveau de cyrus. Cela signifie que les mails ne sont réellement supprimés du serveur qu'au bout de 7 jours. Pendant ce laps de temps ils sont présents sur le disque mais non visible en IMAP.
 Ce mode de suppression prépare la future fonctionnalité de corbeille à double fond.
 
+Dans les exemples suivants, Il faut réaliser les manipulations avec le nom du domaine technique et non pas le nom de domaine principal ou un alias. Le nom de domaine technique est affiché dans la console d'admin :
+
+![voir l'image](./Problemes_d_emission_et_reception_de_messages/nomdomainetechnique.png)
+
 Pour lister les mails supprimés d'un utilisateur il faut utiliser la commande :
 
 
@@ -209,7 +213,15 @@ Pour restaurer tous les emails de l'utilisateur :
 ```
 unexpunge -a -d user/john@domain.net
 ```
+A noter que ces commandes peuvent être jouées depuis le CLI BlueMind :
 
+```
+bm-cli mail unexpunge
+
+## Pour de l'aide sur cette commande :
+bm-cli mail unexpunge --help
+
+```
 
 Pour plus d'informations sur ces commandes et la façon de les passer, veuillez consulter la documentation cyrus : [https://www.cyrusimap.org/imap/reference/manpages/systemcommands/unexpunge.html](https://www.cyrusimap.org/imap/reference/manpages/systemcommands/unexpunge.html)
 
