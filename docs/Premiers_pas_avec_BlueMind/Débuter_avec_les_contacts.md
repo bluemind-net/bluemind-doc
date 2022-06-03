@@ -5,6 +5,7 @@ sidebar_position: 30
 ---
 # Débuter avec les contacts
 
+Gérer vos contacts et carnets d'adresses
 
 ## Se repérer dans les contacts
 
@@ -128,8 +129,4 @@ Le 3ème onglet des paramètres de Contacts permet de partager ses carnets d'adr
 4. Une fois tous les droits attribués comme souhaité, valider en cliquant sur «Enregistrer»
 
 
-#### Pour aller plus loin
-
-Pour plus de détails sur la gestion des carnets d'adresses et le fonctionnement des différentes parties, voir la page dédiée [Préférences des contacts](/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses/)
-
-
+**Pour aller plus loin**, consulter [Les contacts](../Guide_de_l_utilisateur/Les_contacts/Découvrir_les_contacts.md)

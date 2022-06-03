@@ -1,4 +1,8 @@
 {
   "position": 20,
-  "label": "Premiers pas avec BlueMind"
+  "label": "Premiers pas avec BlueMind",
+  "link": {
+    "type": "generated-index",
+    "description": "Découvrez les bases du fonctionnement de BlueMind."
+}
 }

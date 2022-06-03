@@ -5,6 +5,7 @@ sidebar_position: 20
 ---
 # Débuter avec le webmail
 
+Utiliser les fonctionnalités de base de la messagerie
 
 ## Se repérer dans le webmail
 
@@ -72,6 +73,6 @@ Le composeur de message facilite la rédaction des messages grâce à :
 - la personnalisation des paramètres avancés d'expédition : mode d'édition (html/texte), priorité, demande d'accusé de réception, etc.
 
 
-Pour plus de détails et d'aide, consulter la page [Le composeur](/Guide_de_l_utilisateur/La_messagerie/Le_composeur/).
+Pour plus de détails et d'aide, consulter [La messagerie](../Guide_de_l_utilisateur/La_messagerie/Découvrir_la_messagerie.md).
 
 

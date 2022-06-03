@@ -5,11 +5,7 @@ sidebar_position: 50
 ---
 # Débuter avec les tâches
 
-
-Ce guide vous présente comment faire vos premiers pas avec la nouvelle application de gestion des tâches de BlueMind.
-
-Pour des informations plus complètes sur la gestion des tâches, consultez la page dédiée [Les tâches](/Guide_de_l_utilisateur/Les_tâches/).
-
+Créer et modifier les tâches rapidement
 
 ## Se repérer dans les tâches
 
@@ -74,4 +70,5 @@ Le bouton   ![](../attachments/57770612/57770623.png) permet de faire apparaî
 
 Ce panneau propose, en outre, les actions principales utiles sur les tâches : terminer ou supprimer.
 
+**Pour aller plus loin**, consulter [Les tâches](../Guide_de_l_utilisateur/Les_tâches/Découvrir_les_tâches.md)
 
