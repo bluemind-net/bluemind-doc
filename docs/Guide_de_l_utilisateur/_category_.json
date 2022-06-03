@@ -1,4 +1,8 @@
 {
   "position": 30,
-  "label": "Guide de l'utilisateur"
+  "label": "Guide de l'utilisateur",
+  "link": {
+      "type": "generated-index",
+      "description": "Découvrez toutes les fonctionnalités de la solution BlueMind."
+  }
 }

@@ -1,4 +1,7 @@
 {
   "position": 70,
-  "label": "La visioconférence"
+  "label": "La visioconférence",
+  "link": {
+      "type": "generated-index"
+  }
 }

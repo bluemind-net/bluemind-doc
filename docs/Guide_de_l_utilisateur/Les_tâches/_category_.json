@@ -1,4 +1,7 @@
 {
   "position": 60,
-  "label": "Les tâches"
+  "label": "Les tâches",
+  "link": {
+      "type": "generated-index"
+  }
 }
