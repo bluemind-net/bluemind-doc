@@ -1,4 +1,7 @@
 {
   "position": 50,
-  "label": "L'agenda"
+  "label": "L'agenda",
+  "link": {
+      "type": "generated-index"
+  }
 }

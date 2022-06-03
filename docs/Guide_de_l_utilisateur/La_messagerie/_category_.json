@@ -1,4 +1,7 @@
 {
   "position": 30,
-  "label": "La messagerie"
+  "label": "La messagerie",
+  "link": {
+      "type": "generated-index"
+  }
 }
