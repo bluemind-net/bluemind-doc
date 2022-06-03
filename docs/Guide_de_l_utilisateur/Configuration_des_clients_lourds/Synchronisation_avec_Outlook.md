@@ -241,14 +241,6 @@ Pour faciliter le déploiement d'Outlook avec Bluemind, enregistrer les clés re
 ```
 Windows Registry Editor Version 5.00
  
-;; AUTODISCOVER 
-;Outlook 2010
-[HKEY\_CURRENT\_USER\Software\Microsoft\Office\14.0\Outlook\AutoDiscover]
-"ExcludeExplicitO365Endpoint"=dword:00000001
-"ExcludeHttpsAutoDiscoverDomain"=dword:00000000
-"ExcludeHttpsRootDomain"=dword:00000001
-"ExcludeScpLookup"=dword:00000001
-"ExcludeSrvRecord"=dword:00000001
  
 ;Outlook 2013
 [HKEY\_CURRENT\_USER\Software\Microsoft\Office\15.0\Outlook\AutoDiscover]
@@ -278,10 +270,6 @@ Windows Registry Editor Version 5.00
 "DisableMultipleExchange"=dword:00000001
 "SyncWindowSetting"=dword:00000000
 
-;Outlook 2010
-[HKEY\_CURRENT\_USER\Software\policies\microsoft\office\14.0\outlook\cached mode]
-"DisableMultipleExchange"=dword:00000001
-"SyncWindowSetting"=dword:00000000
 
 
 ```
