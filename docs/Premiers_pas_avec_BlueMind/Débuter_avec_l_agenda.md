@@ -5,6 +5,7 @@ sidebar_position: 40
 ---
 # Débuter avec l'agenda
 
+Créer et éditer des rendez-vous rapidement
 
 ## Se repérer dans l'agenda
 
@@ -141,6 +142,5 @@ Pour accéder à ces fonctions, passer par le menu Outils situé en haut à droi
 
 ![](../attachments/57770148/72188551.png)
 
-*Pour en savoir plus sur l'import ou l'export ICS, consulter la page * * [L'agenda](/Guide_de_l_utilisateur/L_agenda/) * *.*
 
-
+**Pour aller plus loin**, consulter [L'agenda](../Guide_de_l_utilisateur/L_agenda/Découvrir_l_agenda.md)
