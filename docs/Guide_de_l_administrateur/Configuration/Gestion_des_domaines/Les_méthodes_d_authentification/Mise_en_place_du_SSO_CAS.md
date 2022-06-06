@@ -18,7 +18,7 @@ Dans la suite de ce document, nous considérerons l’URL du serveur CAS *cas.do
 
 :::info
 
-L'authentification CAS est adaptée pour une installation BlueMind en mono-domaine.
+En version 4, l'authentification CAS n'est possible que pour une installation BlueMind en mono-domaine.
 
 :::
 
