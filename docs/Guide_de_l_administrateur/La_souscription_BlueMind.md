@@ -1,10 +1,9 @@
 ---
 title: "La souscription BlueMind"
 confluence_id: 57771780
-sidebar_position: 52
+sidebar_position: 30
 ---
 # La souscription BlueMind
-
 
 ## BlueMind, solution Open Source et offre professionnelle
 
@@ -20,18 +19,17 @@ L'offre professionnelle s'appuie sur des versions garanties et supportées par B
 
 L'offre professionnelle appelée souscription BlueMind est la solution indispensable pour assurer un maintien en condition opérationnelle de votre BlueMind Open Source.
 
-
 ## Contenu de la souscription
 
 La souscription BlueMind comprend :
 
 - le logiciel BlueMind OpenSource en versions garanties et supportées
-- les [mises à jour correctives](/Guide_d_installation/Mise_à_jour_de_BlueMind/)
+- les [mises à jour correctives](../Guide_d_installation/Mise_à_jour_de_BlueMind.md)
 - les mises à jours évolutives avec les nouvelles versions de BlueMind
 - l'utilisation complète d'Outlook pour Windows sans connecteur
 - un outil d'administration permettant l'application simple et graphique des mises à jour, correctives et évolutives
 - des composants additionnels :
-    - un connecteur [Active Directory](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory/)
+    - un connecteur [Active Directory](./Gestion_des_entités/Synchronisation_Active_Directory.md)
 
 
 :::tip
@@ -48,7 +46,7 @@ La souscription BlueMind propose des versions identifiées et supportées par l'
 
 ### Outil de mise à jour
 
-Le processus de [mise à jour de BlueMind](/Guide_d_installation/Mise_à_jour_de_BlueMind/) est simple, sûr, rapide pour que celles-ci ne restent pas virtuelles et soient effectivement appliquées.
+Le processus de [mise à jour de BlueMind](../Guide_d_installation/Mise_à_jour_de_BlueMind.md) est simple, sûr, rapide pour que celles-ci ne restent pas virtuelles et soient effectivement appliquées.
 
 Pour garantir les évolutions, la souscription intègre un outil graphique d'administration permettant de réaliser simplement et en temps réduit les mises à niveau correctives et évolutives du logiciel. Le client décide du moment de la mise à jour et l'outil la réalise.
 
@@ -87,7 +85,7 @@ Une souscription gratuite et complète peut être offerte à certains publics te
 
 Qui est administrateur ?
 
-Sont considérés comme administrateurs de la souscription [les utilisateurs auxquels est attribué le rôle](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/) « Gérer la souscription BlueMind ». Il est important d'activer conjointement le rôle "Console d'administration" afin de permettre à l'utilisateur d'accéder à celle-ci afin de pouvoir installer et mettre à jour la souscription.
+Sont considérés comme administrateurs de la souscription [les utilisateurs auxquels est attribué le rôle](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md) « Gérer la souscription BlueMind ». Il est important d'activer conjointement le rôle "Console d'administration" afin de permettre à l'utilisateur d'accéder à celle-ci afin de pouvoir installer et mettre à jour la souscription.
 
 :::
 
@@ -146,25 +144,25 @@ Les administrateurs sont informés comme suit :
 
 À l'approche d'une limite de validité (nombre d'utilisateur ou date) ou lorsque celle-ci est atteinte, un bandeau d'alerte est affiché selon le cas chez les administrateurs et/ou les utilisateurs (voir chapitre précédent) et des emails d'alertes sont émis.
 
-Pour cela au moins **une adresse destinataire **doit** être renseignée** dans la page de gestion de la souscription afin de s'assurer qu'une personne au moins reçoit ces alertes, le système pouvant finir par être bloqué si la souscription n'est pas mise à jour à temps (voir chapitre précédent). Tant qu'une adresse n'est pas paramétrée, un bandeau d'information apparaît sur chaque page de la console d'administration pour les utilisateurs ayant [le rôle idoine](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/) :
+Pour cela au moins **une adresse destinataire **doit** être renseignée** dans la page de gestion de la souscription afin de s'assurer qu'une personne au moins reçoit ces alertes, le système pouvant finir par être bloqué si la souscription n'est pas mise à jour à temps (voir chapitre précédent). Tant qu'une adresse n'est pas paramétrée, un bandeau d'information apparaît sur chaque page de la console d'administration pour les utilisateurs ayant [le rôle idoine](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md) :
 
-![](../../attachments/57771780/58592994.png)
+![](./La_souscription_BlueMind_attachments/souscription_alerte.png)
 
 Un clic sur le texte du bandeau permet de se rendre directement sur la page de gestion de la souscription. Sur cette page, un avertissement apparaît ainsi qu'un champ permettant de renseigner une adresse :
 
-![](../../attachments/57771780/58592993.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification1.png)
 
-Pour ajouter une adresse email, remplir simplement le champ puis cliquer sur le bouton ![](../../attachments/57769989/69896479.png) à côté de celui-ci :
+Pour ajouter une adresse email, remplir simplement le champ puis cliquer sur le bouton ![](./La_souscription_BlueMind_attachments/souscription_icone_plus.png) à côté de celui-ci :
 
-![](../../attachments/57771780/58592992.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification2.png)
 
 L'email est aussitôt ajouté et l'avertissement disparaît :
 
-![](../../attachments/57771780/58592991.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification3.png)
 
 Procéder de même pour ajouter autant d'adresses destinataires que désiré :
 
-![](../../attachments/57771780/58592990.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification4.png)
 
 
 :::info
@@ -177,9 +175,9 @@ Pour cette raison, il est donc toujours préférable d'avoir au moins un destina
 
 :::
 
-Il est à tout moment possible de retirer une adresse email en cliquant sur le bouton ![](../../attachments/57769989/69896480.png) en face de celle-ci :
+Il est à tout moment possible de retirer une adresse email en cliquant sur le bouton ![](./La_souscription_BlueMind_attachments/souscription_icone_moins.png) en face de celle-ci :
 
-![](../../attachments/57771780/58592989.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification5.png)
 
 
 :::tip

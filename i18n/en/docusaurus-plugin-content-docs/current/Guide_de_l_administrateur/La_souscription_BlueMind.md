@@ -1,7 +1,7 @@
 ---
 title: "BlueMind Subscription"
 confluence_id: 57771780
-position: 52
+position: 30
 ---
 # BlueMind Subscription
 
@@ -152,23 +152,23 @@ When a validity (number or user or date) limit is approaching or has been reache
 
 For this, you ****must** **to have at least one recipient email address filled in in the subscription management page to make sure that at least one person receive the alerts as the system may be blocked if the subscription isn't updated in time (see previous chapter). Until an email address is provided, an information banner will be shown in the admin console for users with the [appropriate role](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/):
 
-![](../../attachments/57771780/58592994.png)
+![](../attachments/57771780/58592994.png)
 
 Clicking the text in the banner takes you directly to the subscription management page. In that page, a warning is displayed as well as a box for you to add an email address:
 
-![](../../attachments/57771780/58592986.png)
+![](../attachments/57771780/58592986.png)
 
-To add an email address, simply type it in the box and click the ![](../../attachments/57771780/58592988.png) button:
+To add an email address, simply type it in the box and click the ![](../attachments/57771780/58592988.png) button:
 
-![](../../attachments/57771780/58592992.png)
+![](../attachments/57771780/58592992.png)
 
 The email is added immediately and the warning disappears:
 
-![](../../attachments/57771780/58592985.png)
+![](../attachments/57771780/58592985.png)
 
 Repeat this process for as many email addresses as you need:
 
-![](../../attachments/57771780/58592984.png)
+![](../attachments/57771780/58592984.png)
 
 
 :::info
@@ -181,9 +181,9 @@ For this reason, it is always preferable to have at least one internal recipient
 
 :::
 
-You can remove email addresses at any time by clicking the ![](../../attachments/57771780/58592987.png) button next to it:
+You can remove email addresses at any time by clicking the ![](../attachments/57771780/58592987.png) button next to it:
 
-![](../../attachments/57771780/58592989.png)
+![](../attachments/57771780/58592989.png)
 
 No need to confirm or save, all changes are effective immediately.
 

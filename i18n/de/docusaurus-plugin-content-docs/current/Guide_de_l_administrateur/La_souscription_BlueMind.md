@@ -1,7 +1,7 @@
 ---
 title: "Das BlueMind-Abonnement"
 confluence_id: 57771780
-position: 52
+position: 30
 ---
 # Das BlueMind-Abonnement
 
@@ -148,23 +148,23 @@ Wenn sich eine Gültigkeitsgrenze (Anzahl der Benutzer oder Datum) nähert oder 
 
 Dazu  **muss**  auf der Seite für die Abonnementverwaltung mindestens eine **Empfängeradresse** eingegeben werden, um sicherzustellen, dass mindestens eine Person diese Benachrichtigungen erhält, da das System das Abonnement sperren kann, wenn es nicht rechtzeitig aktualisiert wird (siehe vorheriges Kapitel). Solange keine Adresse eingerichtet ist, erscheint auf jeder Seite der Administrationskonsole ein Infobanner für Benutzer mit der [entsprechenden Rolle](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/):
 
-![](../../attachments/57771780/58592994.png)
+![](../attachments/57771780/58592994.png)
 
 Mit einem Klick auf den Bannertext gelangen Sie direkt auf die Seite der Abonnementverwaltung. Auf dieser Seite erscheint eine Warnung sowie ein Feld zum Ausfüllen einer Adresse:
 
-![](../../attachments/57771780/58592993.png)
+![](../attachments/57771780/58592993.png)
 
-Um eine E-Mail-Adresse hinzuzufügen, füllen Sie einfach das Feld aus und klicken Sie auf die Schaltfläche ![](../../attachments/57769989/69896479.png) neben:
+Um eine E-Mail-Adresse hinzuzufügen, füllen Sie einfach das Feld aus und klicken Sie auf die Schaltfläche ![](../attachments/57769989/69896479.png) neben:
 
-![](../../attachments/57771780/58592992.png)
+![](../attachments/57771780/58592992.png)
 
 Die E-Mail wird sofort hinzugefügt und die Warnung verschwindet:
 
-![](../../attachments/57771780/58592991.png)
+![](../attachments/57771780/58592991.png)
 
 Gehen Sie auf die gleiche Weise vor, um so viele Empfängeradressen wie gewünscht hinzuzufügen:
 
-![](../../attachments/57771780/58592990.png)
+![](../attachments/57771780/58592990.png)
 
 
 :::info
@@ -177,9 +177,9 @@ Aus diesem Grund ist es immer vorzuziehen, mindestens einen internen Empfänger 
 
 :::
 
-Um eine E-Mail-Adresse zu entfernen, klicken Sie auf die Schaltfläche ![](../../attachments/57769989/69896480.png) neben:
+Um eine E-Mail-Adresse zu entfernen, klicken Sie auf die Schaltfläche ![](../attachments/57769989/69896480.png) neben:
 
-![](../../attachments/57771780/58592989.png)
+![](../attachments/57771780/58592989.png)
 
 
 :::tip

@@ -11,7 +11,7 @@ La synchronisation d'Outlook avec BlueMind 4.0 ne nécessite plus l'installation
 
 L'installation consiste en 3 parties, dont les 2 premières doivent être réalisées par un administrateur :
 
-1. [Installation côté serveur](../../Guide_de_l_administrateur/La_souscription_BlueMind/Mise_en_%C5%93uvre_de_MAPI_pour_Outlook.md)
+1. [Installation côté serveur](../../Guide_de_l_administrateur/Mise_en_%C5%93uvre_de_MAPI_pour_Outlook.md)
 2. Configuration du poste Windows afin d'établir la connexion avec le serveur
 3. Création d'un compte dans Outlook
 
