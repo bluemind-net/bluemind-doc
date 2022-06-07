@@ -1,10 +1,11 @@
 ---
 title: "Mise en œuvre de MAPI pour Outlook"
 confluence_id: 57771792
-sidebar_position: 58
+sidebar_position: 90
 ---
 # Mise en œuvre de MAPI pour Outlook
 
+**Une [souscription](./La_souscription_BlueMind.md) est obligatoire pour bénéficier de cette fonctionnalité**
 
 ## Présentation
 
@@ -36,7 +37,7 @@ Les protocoles de communication étant différents, BlueMind ne supporte que les
 
 ### Outlook pour Windows
 
-Vérifiez le support de vos versions d'Outlook dans notre page [Compatibilité#Compatibilite-compat-outlookOutlook](https://forge.bluemind.net/confluence/display/LATEST/Compatibilite)
+Vérifiez le support de vos versions d'Outlook dans notre page [Compatibilité](../FAQ_Foire_aux_questions_/Compatibilité.md)
 
 ### Outlook.com sur les smartphones
 
@@ -55,7 +56,7 @@ Dans les versions 4.0.x de BlueMind (4.0.x), les dossiers créés sous la boîte
 
 Mise à jour 4.0.x vers 4.x
 
-****Attention :**** dans le cadre d'une mise à jour de BlueMind 4.0.x vers 4.1 ou supérieure, les dossiers virtuels ne seront pas migrés et seront supprimés.
+**Attention :** dans le cadre d'une mise à jour de BlueMind 4.0.x vers 4.1 ou supérieure, les dossiers virtuels ne seront pas migrés et seront supprimés.
 
 Pour se prémunir de cela, il est possible de déplacer ces dossiers virtuels en dehors de la boîte de réception **avant la mise à jour** de façon à les conserver, ils pourront ensuite y être remis et seront recréés en tant que dossiers de messagerie.
 
@@ -63,14 +64,14 @@ Pour se prémunir de cela, il est possible de déplacer ces dossiers virtuels en
 
 ### Pièces jointes aux événements d'agenda
 
-Parallèlement à [l'application d'Agenda en ligne](/Guide_de_l_utilisateur/L_agenda/Les_événements/) de BlueMind, la version 4.1 permet de joindre des fichiers aux événements d'agenda depuis Outlook.
+Parallèlement à [l'application d'Agenda en ligne](../Guide_de_l_utilisateur/L_agenda/Créer_un_évènement.md/#ajouter-des-pièces-jointes) de BlueMind, la version 4.1 permet de joindre des fichiers aux événements d'agenda depuis Outlook.
 
 ## Pré-requis
 
 1. Avoir installé [BlueMind en version 4.0](https://download.bluemind.net/bm-download/4.0)
 2. Les adresses suivantes de BlueMind doivent être joignables en HTTPS depuis les postes clients :
-    - url externe (*external-url*) du serveur (par exemple **  [https://mail.bluemind.loc](https://mail.bluemind.loc)  ** )
-    - url d'*autodiscover* - généralement formée en remplaçant la 1ère partie de l'url externe par le mot clef "`autodiscover`"(par exemple **[https://autodiscover.bluemind.loc](https://autodiscover.bluemind.loc))** qui doit aussi pointer sur l'external-url de BlueMind
+    - url externe (*external-url*) du serveur (par exemple *[https://mail.bluemind.loc](https://mail.bluemind.loc)*)
+    - url d'*autodiscover* - généralement formée en remplaçant la 1ère partie de l'url externe par le mot clef "`autodiscover`" (par exemple *[https://autodiscover.bluemind.loc](https://autodiscover.bluemind.loc))* qui doit aussi pointer sur l'external-url de BlueMind
 
 
 :::info
@@ -102,28 +103,14 @@ Pour une mise en œuvre rapide d'un environnement d'évaluation, vous pouvez con
 
 :::
 
-L'installation doit être réalisée ** **avant de créer les utilisateurs qui utiliseront Outlook** ** :
+L'installation doit être réalisée **avant de créer les utilisateurs qui utiliseront Outlook** :
 
-- [Déployer la souscription](/Guide_d_installation/Mise_en_œuvre_de_la_souscription/)
+- [Déployer la souscription](../Guide_d_installation/Mise_en_œuvre_de_la_souscription.md)
 - Installer les paquets nécessaires :
 
-
-**
-Debian/Ubuntu
-
-
-**
-RedHat/CentOS
-
-
-```
-$ aptitude install bm-mapi
-```
-
-
-```
-$ yum install bm-mapi
-```
+| Debian/Ubuntu | RedHat/CentOS |
+| -- | -- |
+| $ aptitude install bm-mapi | $ yum install bm-mapi |
 
 
 *NB : le redémarrage de BlueMind n'est pas nécessaire*
