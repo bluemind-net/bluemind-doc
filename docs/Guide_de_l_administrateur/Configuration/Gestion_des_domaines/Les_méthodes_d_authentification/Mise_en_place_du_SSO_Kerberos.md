@@ -21,6 +21,12 @@ Le domaine dans lequel se trouve ces machines est *DOMAIN.TLD*.
 
 :::
 
+:::info
+
+L'authentification Kerberos est possible uniquement pour une installation BlueMind en mono-domaine.
+
+:::
+
 
 ## Prérequis d'installation
 
