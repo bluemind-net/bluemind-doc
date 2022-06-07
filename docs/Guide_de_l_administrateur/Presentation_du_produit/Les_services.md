@@ -5,6 +5,8 @@ sidebar_position: 40
 ---
 # Les services
 
+Liste des services, paquets, données et logs utilisés par BlueMind
+
 ## Architecture des services
 
 ![](../../attachments/57771259/58592713.png)

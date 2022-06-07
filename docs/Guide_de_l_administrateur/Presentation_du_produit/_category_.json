@@ -1,4 +1,8 @@
 {
   "position": 38,
-  "label": "Présentation du produit"
+  "label": "Présentation du produit",
+  "link": {
+    "type": "generated-index",
+    "description": "Découvrez les fonctionnalités de la solution BlueMind."
+}
 }

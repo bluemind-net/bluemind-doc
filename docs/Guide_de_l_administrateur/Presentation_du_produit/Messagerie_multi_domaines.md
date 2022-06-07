@@ -5,7 +5,8 @@ sidebar_position: 30
 ---
 # Messagerie multi-domaines
 
-BlueMind peut héberger sur une même infrastructure (un ou plusieurs serveurs, physiques ou virtualisés) plusieurs messageries totalement cloisonnées. Ce principe, appelé **multi-domaines** ou multi-tenant, peut être utilisé dans des infrastructures clouds ou simplement pour faire cohabiter plusieurs messageries.
+BlueMind peut héberger plusieurs messageries totalement cloisonnées, sur une même infrastructure (un ou plusieurs serveurs, physiques ou virtualisés). 
+Ce principe, appelé **multi-domaines** ou multi-tenant, peut être utilisé dans des infrastructures clouds ou simplement pour faire cohabiter plusieurs messageries.
 
 Si, techniquement, cette **infrastructure multi-domaines** correspond à une seule installation, fonctionnellement, chaque domaine de cette infrastructure doit être considéré comme une messagerie à part, indépendante et isolée des autres domaines.
 

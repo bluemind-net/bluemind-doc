@@ -1,4 +1,8 @@
 {
   "position": 40,
-  "label": "Guide de l'administrateur"
+  "label": "Guide de l'administrateur",
+  "link": {
+    "type": "generated-index",
+    "description": "Paramétrez et gérez votre solution BlueMind."
+}
 }
