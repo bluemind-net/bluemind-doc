@@ -5,6 +5,8 @@ sidebar_position: 50
 ---
 # Les ports
 
+Liste des ports sortants et internes de BlueMind
+
 ## Les ports entrants
 
 | Nécessité | Numéro de port | TLS/SSL/PLAIN | Description |

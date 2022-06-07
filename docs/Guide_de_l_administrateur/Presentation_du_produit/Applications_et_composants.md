@@ -5,6 +5,8 @@ sidebar_position: 20
 ---
 # Applications et composants
 
+Liste des applications et des composants de BlueMind
+
 ## Les applications utilisateur
 
 ### Webmail
@@ -67,7 +69,7 @@ L'Installation Wizard ne permet pas de réaliser une mise à jour d'un système 
 
 L'application Setup Wizard (SW) est un assistant d'installation et de mise à jour de BlueMind.
 
-Fourni par la [souscription BlueMind](http://www.blue-mind.net/solutions/article/solution-professionnelle), l'application Setup Wizard, en plus des mêmes actions que l'application Installation Wizard, permet de mettre à jour une installation déjà existante de BlueMind, y compris dans un environnement distribué et lors de changements de version majeure.
+Fourni par la [souscription BlueMind](https://www.bluemind.net/acheter/), l'application Setup Wizard, en plus des mêmes actions que l'application Installation Wizard, permet de mettre à jour une installation déjà existante de BlueMind, y compris dans un environnement distribué et lors de changements de version majeure.
 
 ![](../../attachments/57771225/57771241.png)
 
