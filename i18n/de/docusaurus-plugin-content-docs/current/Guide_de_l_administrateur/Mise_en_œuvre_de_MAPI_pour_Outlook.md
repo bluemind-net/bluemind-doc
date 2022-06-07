@@ -1,7 +1,7 @@
 ---
 title: "MAPI-Implementieren für Outlook"
 confluence_id: 57771792
-position: 58
+position: 90
 ---
 # MAPI-Implementieren für Outlook
 

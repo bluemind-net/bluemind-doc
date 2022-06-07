@@ -1,7 +1,7 @@
 ---
 title: "Implementing MAPI for Outlook"
 confluence_id: 57771792
-position: 58
+position: 90
 ---
 # Implementing MAPI for Outlook
 
@@ -43,7 +43,7 @@ In versions 4.0.x of BlueMind (4.0.x), folders created under the Inbox by Outloo
 
 Update from 4.0.x to 4.x
 
-****Warning:**** when you update from BlueMind 4.0.x to 4.x, virtual folders are not migrated and will be deleted.
+**Warning:** when you update from BlueMind 4.0.x to 4.x, virtual folders are not migrated and will be deleted.
 
 To prevent this, you can move virtual folders outside the inbox **before migrating** in order to save them.
 

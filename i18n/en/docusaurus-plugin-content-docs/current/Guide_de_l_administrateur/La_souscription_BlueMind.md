@@ -1,7 +1,7 @@
 ---
 title: "BlueMind Subscription"
 confluence_id: 57771780
-position: 52
+position: 30
 ---
 # BlueMind Subscription
 
