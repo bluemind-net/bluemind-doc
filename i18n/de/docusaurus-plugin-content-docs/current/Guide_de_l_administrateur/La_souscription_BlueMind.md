@@ -146,11 +146,11 @@ Wenn sich eine Gültigkeitsgrenze (Anzahl der Benutzer oder Datum) nähert oder 
 
 Dazu  **muss**  auf der Seite für die Abonnementverwaltung mindestens eine **Empfängeradresse** eingegeben werden, um sicherzustellen, dass mindestens eine Person diese Benachrichtigungen erhält, da das System das Abonnement sperren kann, wenn es nicht rechtzeitig aktualisiert wird (siehe vorheriges Kapitel). Solange keine Adresse eingerichtet ist, erscheint auf jeder Seite der Administrationskonsole ein Infobanner für Benutzer mit der [entsprechenden Rolle](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md):
 
-![](./La_souscription_BlueMind_attachments/souscription_email_notification1.png)
+![](./La_souscription_BlueMind_attachments/souscription_alerte.png)
 
 Mit einem Klick auf den Bannertext gelangen Sie direkt auf die Seite der Abonnementverwaltung. Auf dieser Seite erscheint eine Warnung sowie ein Feld zum Ausfüllen einer Adresse:
 
-![](../attachments/57771780/58592993.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification1.png)
 
 Um eine E-Mail-Adresse hinzuzufügen, füllen Sie einfach das Feld aus und klicken Sie auf die Schaltfläche ![](./La_souscription_BlueMind_attachments/souscription_icone_plus.png) neben:
 
@@ -162,7 +162,7 @@ Die E-Mail wird sofort hinzugefügt und die Warnung verschwindet:
 
 Gehen Sie auf die gleiche Weise vor, um so viele Empfängeradressen wie gewünscht hinzuzufügen:
 
-![](./La_souscription_BlueMind_attachments/souscription_email_notification3.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification4.png)
 
 
 :::info

@@ -162,7 +162,7 @@ L'email est aussitôt ajouté et l'avertissement disparaît :
 
 Procéder de même pour ajouter autant d'adresses destinataires que désiré :
 
-![](./La_souscription_BlueMind_attachments/souscription_email_notification3.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification4.png)
 
 
 :::info

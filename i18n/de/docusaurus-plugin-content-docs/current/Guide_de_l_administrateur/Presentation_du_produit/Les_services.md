@@ -156,7 +156,6 @@ Für sonstige Komponenten, deren Überwachung möglich ist, können die folgende
 | bm-php5-fpm/ | FPM-Protokolle (/var/log/bm-php-fpm/ auf RedHat) |
 | postgresql/ | PostgreSQL-Protokolle |
 
-Weitere Details finden Sie auf der entsprechenden Seite [Logs - Protokolldateien](/Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux/)
-
+Weitere Details finden Sie auf der entsprechenden Seite [Logs - Protokolldateien](./../Supervision/Logs_Fichiers_journaux.md)
 
 

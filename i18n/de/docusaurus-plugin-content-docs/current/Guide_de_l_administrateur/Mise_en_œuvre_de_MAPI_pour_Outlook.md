@@ -51,7 +51,7 @@ Um sich davor zu schützen, können diese virtuellen Ordner **vor dem** Update a
 
 ### Anhänge zu Terminplaner-Terminen
 
-Zusätzlich zur  [BlueMind Online-Terminplaner-Anwendung](../Guide_de_l_utilisateur/L_agenda/Créer_un_évènement.md/#ajouter-des-pièces-jointes) können Sie mit Version 4.1 Dateien an Kalendertermin aus Outlook anhängen.
+Zusätzlich zur  [BlueMind Online-Terminplaner-Anwendung](../Guide_de_l_utilisateur/L_agenda/Créer_un_évènement.md) können Sie mit Version 4.1 Dateien an Kalendertermin aus Outlook anhängen.
 
 ## Voraussetzungen
 
@@ -93,9 +93,9 @@ Die Installation muss durchgeführt werden,** **bevor Sie die Benutzer anlegen, 
 
 *Hinweis: Ein Neustart von BlueMind ist nicht erforderlich*
 
-- Melden Sie sich in der BlueMind-Administrationskonsole an und [erstellen Sie Benutzer,](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) **indem Sie ihnen eine E-Mail-Adresse zuweisen**.
+- Melden Sie sich in der BlueMind-Administrationskonsole an und [erstellen Sie Benutzer,](./Gestion_des_entités/Utilisateurs/index.md) **indem Sie ihnen eine E-Mail-Adresse zuweisen**.
 
 
-Die folgende Seite enthält eine Konfigurationsanleitung für Geräte mit Outlook: [Synchronisation mit Outlook](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/)
+Die folgende Seite enthält eine Konfigurationsanleitung für Geräte mit Outlook: [Synchronisation mit Outlook](../Guide_de_l_utilisateur/../old/Guide_de_l_utilisateur/Configuration_des_clients_lourds/index.md)
 
 

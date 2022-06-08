@@ -154,7 +154,7 @@ Pour les autres composants qu'il est possible de superviser, les fichiers ou sou
 | bm-php5-fpm/ | logs FPM (/var/log/bm-php-fpm/ sur RedHat) |
 | postgresql/ | logs de PostgreSQL |
 
-Pour plus de détails, consultez la page dédiée [Logs - Fichiers journaux](/Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux/)
+Pour plus de détails, consultez la page dédiée [Logs - Fichiers journaux](./../Supervision/Logs_Fichiers_journaux.md)
 
 
 

@@ -60,7 +60,7 @@ To prevent this, you can move virtual folders outside the inbox **before migrati
 
 ### Attachments to calendar events
 
-In addition to the [BlueMind Calendar](../Guide_de_l_utilisateur/L_agenda/Créer_un_évènement.md/#ajouter-des-pièces-jointes) application, version 4.1 allows you to attach files to diary events from Outlook.
+In addition to the [BlueMind Calendar](../Guide_de_l_utilisateur/L_agenda/Créer_un_évènement.md) application, version 4.1 allows you to attach files to diary events from Outlook.
 
 ## Prerequisites
 
@@ -91,7 +91,7 @@ Find out who you can quickly set up an evaluation environment in our blog articl
 
 :::
 
-Everything must be installed ****before you create the users who will be using Outlook****:
+Everything must be installed **before you create the users who will be using Outlook**:
 
 - [Deploy the subscription](/Guide_d_installation/Mise_en_œuvre_de_la_souscription/)
 - Install the required packages:
