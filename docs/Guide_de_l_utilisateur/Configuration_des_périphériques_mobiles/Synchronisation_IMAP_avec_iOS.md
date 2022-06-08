@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation IMAP avec iOS"
 confluence_id: 57771123
-sidebar_position: 78
+sidebar_position: 110
 ---
 # Synchronisation IMAP avec iOS
 
@@ -16,23 +16,23 @@ Ce guide a été réalisé avec un modèle d'IPad, les écrans sont généraleme
 
 Se rendre dans les réglages puis menu «Mail, Contacts, Calendrier» et appuyer sur «Ajouter un compte» :
 
-![](../../../attachments/57771123/57771135.png)
+![](../../attachments/57771123/57771135.png)
 
 Choisir un type de compte «Autre» :
 
-![](../../../attachments/57771123/57771133.png)
+![](../../attachments/57771123/57771133.png)
 
 Choisir «Ajouter un compte Mail» :
 
-![](../../../attachments/57771123/57771131.png)
+![](../../attachments/57771123/57771131.png)
 
 Saisir les informations principales du compte :
 
-![](../../../attachments/57771123/57771129.png)
+![](../../attachments/57771123/57771129.png)
 
 Vérifier et corriger si besoin les informations de connexion :
 
-![](../../../attachments/57771123/57771127.png)
+![](../../attachments/57771123/57771127.png)
 
 Sauf cas particulier :
 
@@ -41,4 +41,4 @@ Sauf cas particulier :
 
 Choisir de ne synchroniser que les messages, la synchronisation des notes n'étant pas proposée par BlueMind :
 
-![](../../../attachments/57771123/57771125.png)
+![](../../attachments/57771123/57771125.png)
