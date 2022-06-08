@@ -1,10 +1,9 @@
 ---
 title: "Konfiguration der Kontakte"
 confluence_id: 57770873
-position: 70
+position: 30
 ---
 # Konfiguration der Kontakte
-
 
 ## Präsentation
 
@@ -24,21 +23,21 @@ Das CardDav-Protokoll ist derzeit nur mit **nativen** Mac OS X-Clients und vorzu
 
 Gehen Sie in die Internetkonten-Verwaltung: Systemeinstellungen > „Internet Accounts“ („Internetkonten“):
 
-![](../../../../attachments/57770873/57770874.png)
+![](../../attachments/57770873/57770874.png)
 
 Wählen Sie „Add other account“ („Anderes Konto hinzufügen“):
 
-![](../../../../attachments/57770873/57770878.png)
+![](../../attachments/57770873/57770878.png)
 
 Wählen Sie „Add a CardDav account“ („CardDav-Konto hinzufügen“):
 
-![](../../../../attachments/57770873/57770877.png)
+![](../../attachments/57770873/57770877.png)
 
 Bestätigen Sie mit der Schaltfläche „Create“ („Erstellen“)
 
 Geben Sie die Anmeldeinformationen für das Benutzerkonto ein:
 
-![](../../../../attachments/57770873/57770876.png)
+![](../../attachments/57770873/57770876.png)
 
 - Benutzername: Benutzername (vollständiger Name einschließlich der Domäne, normalerweise die primäre E-Mail-Adresse des Benutzers)
 - Passwort: Das Passwort ist das vom Administrator vergebene Passwort, mit dem Sie sich bei BlueMind anmelden.
@@ -49,7 +48,7 @@ Bestätigen Sie durch Klicken auf „Create“ („Erstellen“)
 
 Die Anwendung „Kontakte“ wird geöffnet, indem die Kontakte präsentiert werden:
 
-![](../../../../attachments/57770873/57770875.png)
+![](../../attachments/57770873/57770875.png)
 
 
 :::info

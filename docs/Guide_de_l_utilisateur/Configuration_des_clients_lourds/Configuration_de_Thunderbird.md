@@ -114,8 +114,6 @@ Pour installer le connecteur BlueMind :
 
 Si le connecteur n'est pas proposé dans les téléchargements, veuillez vous rapprocher de votre administrateur système afin qu'il procède à [son installation](../../Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds.md)
 
-(/Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds/).
-
 :::
 
 - dans Thunderbird, aller dans Outils > Modules complémentaires
