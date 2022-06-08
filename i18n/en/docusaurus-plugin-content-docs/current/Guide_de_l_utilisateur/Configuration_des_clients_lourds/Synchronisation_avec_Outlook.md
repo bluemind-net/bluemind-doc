@@ -1,10 +1,9 @@
 ---
 title: "Synchronizing with Outlook"
 confluence_id: 57770953
-position: 66
+position: 50
 ---
 # Synchronizing with Outlook
-
 
 ## Introduction
 
@@ -12,10 +11,9 @@ With BlueMind 4.0, synchronizing with Outlook no longer requires a connector for
 
 Installation requires 3 steps – the first two must be performed by an administrator:
 
-1. [Server-side installation](/Guide_de_l_administrateur/La_souscription_BlueMind/Mise_en_œuvre_de_MAPI_pour_Outlook/)
+1. [Server-side installation](../../Guide_de_l_administrateur/Mise_en_oeuvre_de_MAPI_pour_Outlook.md)
 2. Configuration of the Windows workstation to connect it to the server
 3. Creation of an account in Outlook
-
 
 :::info
 
@@ -26,7 +24,7 @@ Just like for earlier versions of BlueMind, using Outlook requires a subscriptio
 
 :::info
 
-Connector-free, MAPI-based Outlook doesn't enable the use of the [linked attachments feature](/old/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) (it is built into BlueMind and currently requires the Outlook connector).
+Connector-free, MAPI-based Outlook doesn't enable the use of the [linked attachments feature](../La_messagerie/Ajouter_des_pièces_jointes.md) (it is built into BlueMind and currently requires the Outlook connector).
 
 :::
 
@@ -72,7 +70,7 @@ Ainsi, **il est indispensable de configurer Outlook en "full cached mode"** (ét
 
 At the current stage of the MAPI protocol implementation in BlueMind, the Outlook profile thus created cannot be used to connect to another Exchange account.
 
-**To do this: **
+To do this:
 
     - Go to the Control Panel > User Accounts > Mail (Microsoft Outlook) (depending on your display configuration, this menu may be shown in the control panel's root menu)
     - In the Mail Setup - Outlook, click "Show Profiles", then "Add" to create a new profile
@@ -88,7 +86,7 @@ Do not choose manual configuration.
 :::
 
 - Enter your email address and password:
-![](../../../attachments/57770953/72199851.png)
+![](../../attachments/57770953/72199851.png)
 
 
 :::info
@@ -97,9 +95,9 @@ You must use your default user address: aliases are not taken into account prope
 
 :::
 
-- After a few moments, Outlook announces that the account has been successfully configured:![](../../../attachments/57770953/72199850.png)
+- After a few moments, Outlook announces that the account has been successfully configured:![](../../attachments/57770953/72199850.png)
 - Check "Change account settings" and click "Next"
--  **Check "Use Cached Exchange Mode"**  and slide the cursor all the way to the right to   "All":![](../../../attachments/57770953/72199849.png)
+-  **Check "Use Cached Exchange Mode"**  and slide the cursor all the way to the right to   "All":![](../../attachments/57770953/72199849.png)
 - Click "Finish".
 
 
@@ -113,9 +111,8 @@ To do this, just log into your BlueMind account and go to your account settings 
 
 For more details about subscriptions, please go to:
 
-- [Shared mailboxes - Subscriptions and third-party software](/old/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/#Lesboitesauxlettrespartagees-abonnements)
-- [Mail preferences - Subscriptions](/old/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/#Preferencesdemessagerie-abonnements)
-
+- [Shared mailboxes](../La_messagerie/Partager_une_messagerie.md)
+- [Use a shared mailbox](../La_messagerie/Utiliser_une_messagerie_partagée.md)
 
 ## Shared user mailboxes
 
@@ -123,14 +120,13 @@ Access to user mailboxes is not available in public folders in the same way as f
 
 To display user box in Outlook, go to Account Settings > Data Files tab > Settings > Advanced tab:
 
-![](../../../attachments/57770953/72199841.png)
+![](../../attachments/57770953/72199841.png)
 
 ## Known Issues
 
 ### A profile is already configured on the PC
 
 - In Outlook, File  > Account Settings > Manage profiles.
-
 
 :::info
 
@@ -153,11 +149,11 @@ Then, go to `%APPDATA%\Roaming\Microsoft` and delete the Outlook directory (Shif
 
 ### Error when creating an account because of a wrong saved password
 
-** **Issue/symptoms** ** **:** Outlook doesn't let you create an account when you enter a password – Outlook says that the password is wrong. 
+**Issue/symptoms**: Outlook doesn't let you create an account when you enter a password – Outlook says that the password is wrong. 
 
-** **Cause:** ** the user has saved a wrong password for this account during a previous attempt to create an account.
+**Cause:** the user has saved a wrong password for this account during a previous attempt to create an account.
 
-** **Troubleshooting Checks******:** in the server log file `/var/log/nginx/access.log`, you will find lines such as:
+**Troubleshooting Checks**: in the server log file `/var/log/nginx/access.log`, you will find lines such as:
 
 
 ```
@@ -175,15 +171,15 @@ or
 
 This means that a wrong password for [tom@bm.lan](mailto:tom@bm.lan) is being submitted during account creation.
 
-** **Solution:** **
+**Solution:**
 
 To remove the wrong password:
 
 - make sure that Outlook and the account creation window are closed.
 - open the Credential Manager by typing Windows + R
-- then "`control /name Microsoft.CredentialManager`" in the run box:![](../../../attachments/57770953/72199848.png)
+- then "`control /name Microsoft.CredentialManager`" in the run box:![](../../attachments/57770953/72199848.png)
 - click OK (or type &lt;Enter>)
-- delete entries such as  `autodiscover.domaine.tld`  and  `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  E.g. to delete the password for *  [tom@bm.lan](mailto:tom@bm.lan)*:![](../../../attachments/57770953/72199847.png)
+- delete entries such as  `autodiscover.domaine.tld`  and  `MicrosoftOffice16\_SSPI:utilisateur@domaine.tld`  E.g. to delete the password for *  [tom@bm.lan](mailto:tom@bm.lan)*:![](../../attachments/57770953/72199847.png)
 
 
 ### Shared mailboxes aren't shown in the list of user folders
@@ -192,6 +188,6 @@ Mailshares are shown in the "Public folders" section.
 
 Public folders can be found by clicking the three dots at the bottom of the Outlook navigation pane:
 
-![](../../../attachments/57770953/72199843.png)
+![](../../attachments/57770953/72199843.png)
 
 
