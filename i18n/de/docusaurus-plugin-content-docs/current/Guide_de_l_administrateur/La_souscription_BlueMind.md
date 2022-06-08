@@ -5,7 +5,6 @@ position: 30
 ---
 # Das BlueMind-Abonnement
 
-
 ## BlueMind – Open-Source-Lösung und professionelles Angebot
 
 ### Die BlueMind-Lösung
@@ -26,13 +25,12 @@ Das professionelle Angebot BlueMind Subscription ist die unverzichtbare Lösung,
 Das BlueMind-Abonnement beinhaltet:
 
 - die BlueMind OpenSource-Software in garantierten und unterstützten Versionen
-- [korrigierende Updates](/Guide_d_installation/Mise_à_jour_de_BlueMind/)
+- [korrigierende Updates](../Guide_d_installation/Mise_à_jour_de_BlueMind.md)
 - mit neuen Versionen von BlueMind Upgrade-fähige Updates
 - volle Nutzung von Outlook für Windows ohne Konnektoren
 - ein Administrationswerkzeug, das die einfache und grafische Anwendung von Updates, Patches und Upgrades ermöglicht
 - Zusatzkomponenten:
-    - einen [Active Directory](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory/)-Konnektor
-
+    - einen [Active Directory](./Gestion_des_entités/Synchronisation_Active_Directory.md)-Konnektor
 
 :::tip
 
@@ -48,7 +46,7 @@ Das BlueMind-Abonnement bietet Versionen, die vom Herausgeber identifiziert und 
 
 ### Update-Tool
 
-Der [BlueMind-Aktualisierung-Prozess](/Guide_d_installation/Mise_à_jour_de_BlueMind/) ist einfach, sicher und schnell, damit die Updates nicht virtuell bleiben und effektiv angewendet werden.
+Der [BlueMind-Aktualisierung-Prozess](../Guide_d_installation/Mise_à_jour_de_BlueMind.md) ist einfach, sicher und schnell, damit die Updates nicht virtuell bleiben und effektiv angewendet werden.
 
 Um die Weiterentwicklung zu gewährleisten, ist in das Abonnement ein grafisches Verwaltungstool integriert, mit dem sich Korrekturen und Erweiterungen der Software einfach und zeitsparend durchführen lassen. Der Kunde entscheidet, wann die Aktualisierung erfolgen soll, und das Tool führt sie durch.
 
@@ -87,7 +85,7 @@ Ein kostenloses und vollständiges Abonnement kann für bestimmte Zielgruppen an
 
 Wer ist ein Administrator?
 
-[Benutzer mit der Rolle](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/) "BlueMind-Abonnement verwalten" werden als Abonnement-Administratoren betrachtet. Es ist wichtig, die Rolle "Administrationskonsole" gemeinsam zu aktivieren, damit der Benutzer darauf zugreifen kann, um das Abonnement zu installieren und zu aktualisieren.
+[Benutzer mit der Rolle](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md) "BlueMind-Abonnement verwalten" werden als Abonnement-Administratoren betrachtet. Es ist wichtig, die Rolle "Administrationskonsole" gemeinsam zu aktivieren, damit der Benutzer darauf zugreifen kann, um das Abonnement zu installieren und zu aktualisieren.
 
 :::
 
@@ -146,25 +144,25 @@ Die Administratoren werden wie folgt informiert:
 
 Wenn sich eine Gültigkeitsgrenze (Anzahl der Benutzer oder Datum) nähert oder erreicht ist, wird Administratoren und/oder Benutzern ein Warnbanner angezeigt (siehe vorheriges Kapitel) und es werden E-Mail-Benachrichtigungen ausgegeben.
 
-Dazu  **muss**  auf der Seite für die Abonnementverwaltung mindestens eine **Empfängeradresse** eingegeben werden, um sicherzustellen, dass mindestens eine Person diese Benachrichtigungen erhält, da das System das Abonnement sperren kann, wenn es nicht rechtzeitig aktualisiert wird (siehe vorheriges Kapitel). Solange keine Adresse eingerichtet ist, erscheint auf jeder Seite der Administrationskonsole ein Infobanner für Benutzer mit der [entsprechenden Rolle](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/):
+Dazu  **muss**  auf der Seite für die Abonnementverwaltung mindestens eine **Empfängeradresse** eingegeben werden, um sicherzustellen, dass mindestens eine Person diese Benachrichtigungen erhält, da das System das Abonnement sperren kann, wenn es nicht rechtzeitig aktualisiert wird (siehe vorheriges Kapitel). Solange keine Adresse eingerichtet ist, erscheint auf jeder Seite der Administrationskonsole ein Infobanner für Benutzer mit der [entsprechenden Rolle](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md):
 
-![](../attachments/57771780/58592994.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification1.png)
 
 Mit einem Klick auf den Bannertext gelangen Sie direkt auf die Seite der Abonnementverwaltung. Auf dieser Seite erscheint eine Warnung sowie ein Feld zum Ausfüllen einer Adresse:
 
 ![](../attachments/57771780/58592993.png)
 
-Um eine E-Mail-Adresse hinzuzufügen, füllen Sie einfach das Feld aus und klicken Sie auf die Schaltfläche ![](../attachments/57769989/69896479.png) neben:
+Um eine E-Mail-Adresse hinzuzufügen, füllen Sie einfach das Feld aus und klicken Sie auf die Schaltfläche ![](./La_souscription_BlueMind_attachments/souscription_icone_plus.png) neben:
 
-![](../attachments/57771780/58592992.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification2.png)
 
 Die E-Mail wird sofort hinzugefügt und die Warnung verschwindet:
 
-![](../attachments/57771780/58592991.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification3.png)
 
 Gehen Sie auf die gleiche Weise vor, um so viele Empfängeradressen wie gewünscht hinzuzufügen:
 
-![](../attachments/57771780/58592990.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification3.png)
 
 
 :::info
@@ -177,9 +175,9 @@ Aus diesem Grund ist es immer vorzuziehen, mindestens einen internen Empfänger 
 
 :::
 
-Um eine E-Mail-Adresse zu entfernen, klicken Sie auf die Schaltfläche ![](../attachments/57769989/69896480.png) neben:
+Um eine E-Mail-Adresse zu entfernen, klicken Sie auf die Schaltfläche ![](./La_souscription_BlueMind_attachments/souscription_icone_moins.png) neben:
 
-![](../attachments/57771780/58592989.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification5.png)
 
 
 :::tip

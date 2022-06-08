@@ -5,38 +5,19 @@ position: 50
 ---
 # Ports
 
+Liste der ausgehenden und internen Ports von BlueMind
 
 ## Eingangsport
 
 | Bedarf | Port-Nummer | TLS/SSL/PLAIN | Beschreibung |
 | --- | --- | --- | --- |
-| **obligatorisch** | 25 | PLAINTLS | 
-E-Mail-Empfang
- | 
-Unterstützt SMTP-Authentifizierung
- |
+| **obligatorisch** | 25 | PLAINTLS | E-Mail-Empfang | Unterstützt SMTP-Authentifizierung |
 | optional | 80 | PLAIN | HTTP-Weiterleitung auf HTTPs Port 443 |
 | optional | 110 | PLAIN/TLS | POP-Zugang für Fat Clients - nicht empfohlen |
 | optional | 143 | PLAIN/TLS | IMAP-Zugang für Fat Clients |
 | **obligatorisch** | 443 | SSL | Zugriff auf BlueMind |
-| optional | 465 | SSL | 
-Versenden von E-Mails von Fat Clients
-
-SMTP-Authentifizierung erforderlich
-
-Für die Fat-Client-Konfiguration ist es besser, diesen Port anstelle von 25 zu verwenden
-
-![](../../attachments/57770017/66096241.png) Ab BlueMind 4.4 verwendet der Port mindestens das Protokoll TLS v1.2
- |
-| optional | 587 | TLS | 
-Versenden von E-Mails von Fat Clients
-
-SMTP-Authentifizierung erforderlich
-
-Für die Fat-Client-Konfiguration ist es besser, diesen Port anstelle von 25 zu verwenden
-
-![](../../attachments/57770017/66096241.png) Ab BlueMind 4.4 verwendet der Port mindestens das Protokoll TLS v1.2
- |
+| optional | 465 | SSL | Versenden von E-Mails von Fat Clients SMTP-Authentifizierung erforderlich - Für die Fat-Client-Konfiguration ist es besser, diesen Port anstelle von 25 zu verwenden - Ab BlueMind 4.4 verwendet der Port mindestens das Protokoll TLS v1.2 |
+| optional | 587 | TLS | Versenden von E-Mails von Fat Clients SMTP-Authentifizierung erforderlich - Für die Fat-Client-Konfiguration ist es besser, diesen Port anstelle von 25 zu verwenden - Ab BlueMind 4.4 verwendet der Port mindestens das Protokoll TLS v1.2 |
 | optional | 993 | SSL | IMAP-Zugang für Fat Clients |
 | optional | 995 | SSL | POP-Zugang für Fat Clients - nicht empfohlen |
 | optional | 5222 | PLAIN/TLS | IM-Zugang für Fat Clients |
@@ -57,9 +38,7 @@ TLS-Ports beziehen sich auf das [opportunistische TLS-Protokoll](https://en.wiki
 
 | Port-Nummer | Dienst |
 | --- | --- |
-| 
-24
- | cyrus LMTP |
+| 24 | cyrus LMTP |
 | 1110 | cyrus pop |
 | 1143 | cyrus imap |
 | 2000 | cyrus sieve |

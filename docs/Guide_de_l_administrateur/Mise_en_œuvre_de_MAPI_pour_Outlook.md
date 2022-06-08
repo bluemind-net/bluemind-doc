@@ -56,7 +56,7 @@ Dans les versions 4.0.x de BlueMind (4.0.x), les dossiers créés sous la boîte
 
 Mise à jour 4.0.x vers 4.x
 
-**Attention :** dans le cadre d'une mise à jour de BlueMind 4.0.x vers 4.1 ou supérieure, les dossiers virtuels ne seront pas migrés et seront supprimés.
+**Attention** : dans le cadre d'une mise à jour de BlueMind 4.0.x vers 4.1 ou supérieure, les dossiers virtuels ne seront pas migrés et seront supprimés.
 
 Pour se prémunir de cela, il est possible de déplacer ces dossiers virtuels en dehors de la boîte de réception **avant la mise à jour** de façon à les conserver, ils pourront ensuite y être remis et seront recréés en tant que dossiers de messagerie.
 

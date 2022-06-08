@@ -1,7 +1,7 @@
 ---
 title: "BlueMind in a nutshell"
 confluence_id: 57771222
-position: 38
+position: 10
 ---
 # BlueMind in a nutshell
 
@@ -18,7 +18,7 @@ BlueMind unterstützt die Browser:
 - Safari ab Version 5.
 
 
-![](../../attachments/57771222/57771223.png)
+![](./La_solution_BlueMind_attachments/57771223.png)
 
 #### Full JavaScript-Benutzerschnittstellen
 
@@ -48,6 +48,4 @@ Zudem ermöglicht SSO eine Einzelabmeldung, die den Benutzer von allen BlueMind 
 BlueMind vermeidet die erneute Authentifizierung bei der Verwendung in einer Microsoft-Umgebung.
 
 Wenn beispielsweise ein Windows-Benutzer, der Outlook verwendet, sich bei der Anmeldung an Active Directory authentifiziert, wird die Authentifizierung übernommen, wenn Outlook gestartet wird. Die Verbindung zu BlueMind ist daher transparent.
-
-Speichern
 

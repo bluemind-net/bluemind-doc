@@ -144,7 +144,7 @@ Les administrateurs sont informés comme suit :
 
 À l'approche d'une limite de validité (nombre d'utilisateur ou date) ou lorsque celle-ci est atteinte, un bandeau d'alerte est affiché selon le cas chez les administrateurs et/ou les utilisateurs (voir chapitre précédent) et des emails d'alertes sont émis.
 
-Pour cela au moins **une adresse destinataire **doit** être renseignée** dans la page de gestion de la souscription afin de s'assurer qu'une personne au moins reçoit ces alertes, le système pouvant finir par être bloqué si la souscription n'est pas mise à jour à temps (voir chapitre précédent). Tant qu'une adresse n'est pas paramétrée, un bandeau d'information apparaît sur chaque page de la console d'administration pour les utilisateurs ayant [le rôle idoine](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md) :
+Pour cela au moins **une adresse destinataire doit être renseignée** dans la page de gestion de la souscription afin de s'assurer qu'une personne au moins reçoit ces alertes, le système pouvant finir par être bloqué si la souscription n'est pas mise à jour à temps (voir chapitre précédent). Tant qu'une adresse n'est pas paramétrée, un bandeau d'information apparaît sur chaque page de la console d'administration pour les utilisateurs ayant [le rôle idoine](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md) :
 
 ![](./La_souscription_BlueMind_attachments/souscription_alerte.png)
 
@@ -162,7 +162,7 @@ L'email est aussitôt ajouté et l'avertissement disparaît :
 
 Procéder de même pour ajouter autant d'adresses destinataires que désiré :
 
-![](./La_souscription_BlueMind_attachments/souscription_email_notification4.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification3.png)
 
 
 :::info

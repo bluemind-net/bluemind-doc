@@ -9,7 +9,7 @@ Liste des services, paquets, données et logs utilisés par BlueMind
 
 ## Architecture des services
 
-![](../../attachments/57771259/58592713.png)
+![](./Les_services_attachments/58592713.png)
 
 - BM-Core est le composant central de BlueMind. Il est le centre de gestion unique des données et des règles métier. C'est le seul composant à accéder à la base de données.
 
@@ -17,7 +17,7 @@ Liste des services, paquets, données et logs utilisés par BlueMind
 
 - Tous les composants, internes ou externes, utilisent les Web Services. Cela a pour avantage de limiter les flux depuis et vers la messagerie BlueMind (qui sont restreint aux flux Web Services et au flux de messagerie) et de garantir l'utilisation de règles de gestion homogènes quel que soit le point d'entrée d'une modification.
 
-![](../../attachments/57771259/58592712.png)
+![](./Les_services_attachments/58592712.png)
 
 ## Paquets fournis avec BlueMind
 
@@ -46,7 +46,7 @@ Les commandes aptitude ([Debian](https://wiki.debian.org/fr/Aptitude)/[Ubuntu](h
 | postgresql | base de données |
 | postfix | serveur de messagerie|
 | nginx| proxy HTTP + IMAP |
-| php-fpm| interpréteur PHP pour les applications web (webmail) |
+| php-fpm | interpréteur PHP pour les applications web (webmail) |
 | cyrus (imapd et pop3d) | service pour la synchronisation imap et pop de logiciels de messagerie tiers (lourds ou mobiles) |
 
 ## Données utilisées par BlueMind

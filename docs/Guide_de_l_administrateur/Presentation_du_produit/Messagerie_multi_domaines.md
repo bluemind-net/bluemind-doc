@@ -64,6 +64,6 @@ Cas d'utilisation : un carnet des élus d'une collectivité est maintenu depuis 
 
 L'espace d'administration des domaines permet à l'administrateur d'accéder aux paramétrages techniques des domaines (adresses des serveurs, alias de domaines, etc.) ainsi qu'aux paramétrages commun et par défaut des utilisateurs (carnets d'adresses, filtres de messages, quotas de stockage, archivage, etc.).
 
-Pour en savoir plus, veuillez consulter la page dédiée à la [Gestion des domaines](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/)
+Pour en savoir plus, veuillez consulter la page dédiée à la [Gestion des domaines](../../Guide_de_l_administrateur/Configuration/Gestion_des_domaines/index.md)
 
 

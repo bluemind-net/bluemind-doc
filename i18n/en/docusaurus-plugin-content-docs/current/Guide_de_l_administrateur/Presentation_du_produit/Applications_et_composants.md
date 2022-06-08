@@ -5,6 +5,7 @@ position: 44
 ---
 # Applications and Components
 
+List of BlueMind applications and components
 
 ## User applications
 
@@ -19,8 +20,8 @@ Key features include:
 - BlueMind contact and distribution list autocomplete
 - advanced full-text and multifolder search
 
+For more details, see [Discover the mail app](../../Guide_de_l_utilisateur/La_messagerie/Découvrir_la_messagerie.md)
 
-![](../../attachments/57771225/57771229.png)
 
 ### Calendar
 
@@ -31,8 +32,8 @@ The Calendar application includes the following key features:
 - tag management
 - resources management
 
+For more details, see [Discover the calendar app](../../Guide_de_l_utilisateur/L_agenda/Découvrir_l_agenda.md)
 
-![](../../attachments/57771225/57771233.png)
 
 ### Contacts
 
@@ -43,26 +44,13 @@ The Contacts application includes the following features:
 - contact list management
 - user contacts and address book management 
 
-
-![](../../attachments/57771225/57771231.png)
+For more details, see [Discover the contacts app](../../Guide_de_l_utilisateur/Les_contacts/Découvrir_les_contacts.md)
 
 ### Settings manager
 
 The settings manager allows users to change personal settings and display preferences.
 
-It is accessed by clicking the spanner icon in the top right hand corner of the window:
-
-
- ![](../../attachments/57770060/57770070.png) 
-
-
- 
-
-
-Access to BlueMind settings
-
-
- ![](../../attachments/57771225/57771235.png) 
+For more details, see [Set up user account](../../Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur.md)
 
 ## Administrator applications
 
@@ -75,8 +63,7 @@ The Installation Wizard (IW) allows you to install BlueMind on a new server. It 
 The Installation Wizard cannot be used for BlueMind system updates. Only the Setup Wizard allows this operation.
 :::
 
-
-![](../../attachments/57771225/57771240.png)
+![](./Applications_et_composants_attachments/install_wizard.png)
 
 
 Interface translation not currently available
@@ -86,14 +73,12 @@ Interface translation not currently available
 
 The Setup Wizard (SW) is both a BlueMind installation and update assistant.
 
-The Setup Wizard is included in the [BlueMind subscription](http://www.blue-mind.net/solutions/article/solution-professionnelle). In addition to performing the same operations as the Installation Wizard, it can be used to update a current BlueMind installation, including in a distributed environment and for major updates.
+The Setup Wizard is included in the [BlueMind subscription](https://www.bluemind.net/en/buy-bluemind/). In addition to performing the same operations as the Installation Wizard, it can be used to update a current BlueMind installation, including in a distributed environment and for major updates.
 
-
-![](../../attachments/57771225/57771241.png)
+![](./Applications_et_composants_attachments/setup_wizard.png)
 
 
 Interface translation not currently available
-
 
 ## Server components
 
@@ -138,7 +123,6 @@ Hazelcast comes packaged and fully integrated with BlueMind, enabling event exch
 
 
 The Hazelcast cluster is made up of 3 nodes operated by the core, EAS and bm-webserver services. It is very important that the cluster is complete for BlueMind to work properly. Its status can be checked using [Bm-Tick](/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/) monitoring.
-
 
 ### EAS
 

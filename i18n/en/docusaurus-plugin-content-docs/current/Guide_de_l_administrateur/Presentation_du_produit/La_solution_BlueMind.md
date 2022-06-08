@@ -1,7 +1,7 @@
 ---
 title: "BlueMind in a nutshell"
 confluence_id: 57771222
-position: 38
+position: 20
 ---
 # BlueMind in a nutshell
 
@@ -18,7 +18,7 @@ BlueMind supports the following browsers in particular:
 - Safari from version 5.
 
 
-![](../../attachments/57771222/57771223.png)
+![](./La_solution_BlueMind_attachments/57771223.png)
 
 #### Full JavaScript User Interfaces
 
