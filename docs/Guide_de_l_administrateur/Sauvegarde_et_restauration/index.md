@@ -129,14 +129,14 @@ Pour mettre en œuvre une politique de sauvegarde, se rendre dans l'administrati
 ![](../../attachments/57771728/69894426.png)
 
 - **Politique de rétention** : indiquer le nombre de jours pendant lesquelles un sauvegarde (ici, les sauvegardes quotidiennes) doit être conservée
-- **Sauvegarde boîtes aux lettres** : lorsque cette option est activée, les emails sont sauvegardés, lorsqu'elle ne l'est pas seules les données de contacts, agenda et tâches sont sauvegardées. Cela permet d'éviter les doublons lorsque les messages sont déjà sauvegardés par un autre système dédié.
+- **Sauvegarde boîtes aux lettres** : lorsque cette option est activée, toutes les données du serveur sont sauvegardées, y compris les emails . A contrario, lorsqu'elle ne l'est pas, seules les données de contacts, agenda et tâches sont sauvegardées. Cette option est utile pour éviter des sauvegardes en double lorsque les messages sont déjà sauvegardés par un autre système dédié.
 
 
 :::info
 
 Performances
 
-Nous déconseillons fortement d'activer cette option si l'espace occupé par les emails est très important (~1To mais la limite d'efficacité du système de sauvegarde peut varier selon les performances de l'espace de sauvegarde choisi).
+Nous déconseillons fortement d'activer l'option "Sauvegarde boîtes aux lettres" si l'espace occupé par les emails est très important (~1To et plus, la limite d'efficacité du système de sauvegarde peut varier selon les performances de l'espace de sauvegarde choisi).
 
 Plusieurs types d'alternatives sont possibles :
 
@@ -150,6 +150,18 @@ Ainsi on peut utiliser le système de sauvegarde BlueMind pour les autres donné
 
 - **Sauvegarde des emails archivés** : lorsque cette option est activée, les emails archivés seront sauvegardés également.Par défaut, cette option n'est pas activée, seuls les emails non archivés sont sauvegardés.
 
+:::info
+
+Recommandations
+
+Lorsque le nombre de sauvegardes quotidiennes configuré est trop important, la durée de chaque sauvegarde augmente, les différents incréments de sauvegarde se référençant entre eux. 
+
+- si vous ne sauvegardez pas les e-mails, vous pouvez configurer 7 jours ou plus de rétention de sauvegarde ;
+- si vous sauvegardez les e-mails, cela dépend de la taille du spool. Un paramétrage de quelques jours maximum est recommandé.
+
+Dans tous les cas, il est utile de conserver quelques anciennes sauvegardes (J-7, J-15, J-30) pour vous permettre de revenir dans le passé si la perte de données est détectée tardivement.
+
+:::
 
 ## Actions post-sauvegarde
 
