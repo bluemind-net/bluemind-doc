@@ -1,4 +1,7 @@
 {
-  "position": 80,
-  "label": "Configuration des périphériques mobiles"
+  "position": 90,
+  "label": "Configuration des périphériques mobiles",
+  "link": {
+      "type": "generated-index"
+  }
 }

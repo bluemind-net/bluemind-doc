@@ -9,7 +9,7 @@ BlueMind a implémenté le protocole ActiveSync, protocole initié par Microsoft
 
 BlueMind est de ce fait compatible a priori avec l'intégralité des téléphones récents (Android, IPhone, Windows Phone, Blackberry depuis la version 10). Toutefois, sur certains téléphones (en particulier les téléphones sur système Android), en raison des surcouches ajoutées par les constructeurs et les opérateurs, il peut arriver que des problèmes se présentent. BlueMind corrige ces problèmes une fois décrits et analysés.
 
-**La page [Compatibilité](/FAQ_Foire_aux_questions_/Compatibilité/) recense les téléphones validés avec la solution BlueMind ainsi que les problèmes connus sur certains téléphones. Celle-ci évolue rapidement, nous vous invitons à la consulter régulièrement.**
+**La page [Compatibilité](../../FAQ_Foire_aux_questions_/Compatibilité.md) recense les téléphones validés avec la solution BlueMind ainsi que les problèmes connus sur certains téléphones. Celle-ci évolue rapidement, nous vous invitons à la consulter régulièrement.**
 
 La synchronisation ActiveSync est donc le mode de synchronisation à privilégier car il permet en une seule configuration de synchroniser les messages ainsi que les contacts et agendas alors que la synchronisation IMAP ne permet d'accéder qu'à ses emails.
 

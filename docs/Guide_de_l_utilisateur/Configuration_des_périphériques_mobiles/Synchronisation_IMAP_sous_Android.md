@@ -1,7 +1,7 @@
 ---
 title: "Synchronisation IMAP sous Android"
 confluence_id: 57771006
-sidebar_position: 70
+sidebar_position: 20
 ---
 # Synchronisation IMAP sous Android
 
@@ -18,37 +18,37 @@ Pour les autres téléphones ou versions d'Android, les opérations sont les mê
 
 Ouvrir l'application Gmail :
 
-![](../../../attachments/57771006/57771033.png)
+![](../../attachments/57771006/57771033.png)
 
 *NB : l'application E-mail est toujours présente mais une alerte redirige vers l'application Gmail lors de son ouverture*
 
 Ouvrir le menu :
 
-![](../../../attachments/57771006/57771032.png)
+![](../../attachments/57771006/57771032.png)
 
 Choisir d'ajouter un compte :
 
-![](../../../attachments/57771006/57771031.png)
+![](../../attachments/57771006/57771031.png)
 
 Choisir un type de compte personnel :
 
-![](../../../attachments/57771006/57771030.png)
+![](../../attachments/57771006/57771030.png)
 
 Saisir l'adresse email :
 
-![](../../../attachments/57771006/57771029.png)
+![](../../attachments/57771006/57771029.png)
 
 Choisir de configurer un compte IMAP :
 
-![](../../../attachments/57771006/57771028.png)
+![](../../attachments/57771006/57771028.png)
 
 Saisir le mot de passe de l'utilisateur :
 
-![](../../../attachments/57771006/57771027.png)
+![](../../attachments/57771006/57771027.png)
 
 Saisir les informations du serveur entrant (serveur permettant de recevoir/consulter les messages) :
 
-![](../../../attachments/57771006/57771026.png)
+![](../../attachments/57771006/57771026.png)
 
 Sauf cas particulier :
 
@@ -58,7 +58,7 @@ Sauf cas particulier :
 
 Saisir les informations du serveur sortant (serveur permettant d'envoyer des messages) :
 
-![](../../../attachments/57771006/57771025.png)
+![](../../attachments/57771006/57771025.png)
 
 Sauf cas particulier, les informations et notamment l'adresse du serveur sont les mêmes que pour le serveur entrant.
 
@@ -95,21 +95,21 @@ SMTP (serveur sortant) :
 
 Une fois la connexion correctement testée et établie, l'application propose de configurer les options principales du compte :
 
-![](../../../attachments/57771006/57771024.png)
+![](../../attachments/57771006/57771024.png)
 
 Cocher les options souhaitées et appuyez sur "Suivant".
 
 Renseigner le nom du compte et le nom qui apparaîtra en tant que nom de l'utilisateur dans les messages envoyés :
 
-![](../../../attachments/57771006/57771023.png)
+![](../../attachments/57771006/57771023.png)
 
 Le compte de courrier apparaître alors dans la liste des comptes de l'application :
 
-![](../../../attachments/57771006/57771022.png)
+![](../../attachments/57771006/57771022.png)
 
 Les mails sont relevés et affichés :
 
-![](../../../attachments/57771006/57771021.png)
+![](../../attachments/57771006/57771021.png)
 
 
  

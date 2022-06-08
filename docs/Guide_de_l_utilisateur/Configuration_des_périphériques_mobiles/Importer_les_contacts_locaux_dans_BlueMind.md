@@ -1,7 +1,7 @@
 ---
 title: "Importer les contacts locaux dans BlueMind"
 confluence_id: 57771116
-sidebar_position: 76
+sidebar_position: 100
 ---
 # Importer les contacts locaux dans BlueMind
 
@@ -38,16 +38,17 @@ Si vous procédez à un export après création du compte EAS BlueMind, n'export
 Une fois le fichier généré, l'envoyer par e-mail à l'adresse de l'utilisateur.
 
 
-    - Si l'on ne souhaite pas utiliser d'application tierce, ou si l'on ne souhaite pas exporter la totalité des contacts, il est possible de réaliser l'export de chaque contact individuellement.Depuis l'application Contacts, sur chaque fiche de contact à exporter appuyer sur «Envoyer cette fiche» puis «Envoyer par e-mail». Un fichier .vcf est alors joint à un nouveau message qu'il faut envoyer à l'adresse de l'utilisateur.![](../../../attachments/57771116/57771120.png)
+    - Si l'on ne souhaite pas utiliser d'application tierce, ou si l'on ne souhaite pas exporter la totalité des contacts, il est possible de réaliser l'export de chaque contact individuellement.Depuis l'application Contacts, sur chaque fiche de contact à exporter appuyer sur «Envoyer cette fiche» puis «Envoyer par e-mail». Un fichier .vcf est alors joint à un nouveau message qu'il faut envoyer à l'adresse de l'utilisateur. 
+  ![](../../attachments/57771116/57771120.png)
 1. Se connecter depuis un navigateur à BlueMind
 2. Ouvrir le ou les messages contenant les fichiers à importer et enregistrer ces fichiers sur l'ordinateur
-3. Se rendre dans l'application Contacts et procéder à [l'import du fichier](./../../Les_contacts/Importer_et_exporter_des_contacts.md)
-4. S'il n'existe pas encore, [créer le compte utilisateur](index.md) concerné sur le périphérique IOS
+3. Se rendre dans l'application Contacts et procéder à [l'import du fichier](../../Guide_de_l_utilisateur/Les_contacts/Importer_et_exporter_des_contacts.md).
+4. S'il n'existe pas encore, [créer le compte utilisateur](./Synchronisation_avec_iOS.md) concerné sur le périphérique IOS
 5. S'assurer que la synchronisation des contacts est bien activée : 
     - En fin de création lors du choix des éléments à synchroniser (voir lien ci-dessus sur la création d'un utilisateur)
-    - Si le compte existe déjà, en se rendant dans les réglages puis en sélectionnant le compte :![](../../../attachments/57771116/57771122.png)
+    - Si le compte existe déjà, en se rendant dans les réglages puis en sélectionnant le compte :![](../../attachments/57771116/57771122.png)
 6. Afin d'éviter les doublons par la suite, choisir de supprimer les contacts de l'appareil lorsque celui-ci le propose à l'activation de la synchronisation :
-![](../../../attachments/57771116/57771118.png)
+![](../../attachments/57771116/57771118.png)
 
 :::tip
 

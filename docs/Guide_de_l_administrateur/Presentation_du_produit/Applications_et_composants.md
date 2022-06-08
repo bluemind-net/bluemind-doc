@@ -111,7 +111,7 @@ Hazelcast est packagé et entièrement intégré avec BlueMind pour l'échange d
 - envoyer des notifications concernant les emails délivrés (événement issus du démon LMTP et écoutés par EAS par exemple)
 - envoyer des notifications concernant les événements de login et de logout (événements issus de Core et écoutés par HPS par exemple)
 
-Le cluster Hazelcast est constitué de 3 noeuds assurés par les services core, EAS et bm-webserver. Il est très important que le cluster soit complet pour le bon fonctionnement de BlueMind, son état peut être surveillé grâce au [Monitoring Bm-Tick](/Guide_de_l_administrateur/Supervision/Monitoring_Bm_Tick/).
+Le cluster Hazelcast est constitué de 3 noeuds assurés par les services core, EAS et bm-webserver. Il est très important que le cluster soit complet pour le bon fonctionnement de BlueMind, son état peut être surveillé grâce au [Monitoring Bm-Tick](../Supervision/Monitoring_Bm_Tick/index.md).
 
 ### EAS
 
@@ -139,6 +139,6 @@ Ce composant, nommé YSNP est le démon BlueMind d'authentification SASL. Il per
 
 BlueMind peut être étendu au moyen d'*add-ons* (modules complémentaires) ou programmes complémentaires qui sont partagés par la communauté sur le [MarketPlace](https://marketplace.bluemind.net/).
 
-Pour en savoir plus sur le développement de ces plugins, vous pouvez consulter la page dédiée [Contribuer à BlueMind](/Guide_du_développeur/Contribuer_à_BlueMind/).
+Pour en savoir plus sur le développement de ces plugins, vous pouvez consulter la page dédiée [Contribuer à BlueMind](../../Guide_du_développeur/Contribuer_à_BlueMind.md).
 
 
