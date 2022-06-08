@@ -1,5 +1,5 @@
 ---
-title: "Configuration des périphériques mobiles"
+title: "Préambule"
 confluence_id: 57770961
 sidebar_position: 01
 ---
@@ -17,7 +17,7 @@ La synchronisation ActiveSync est donc le mode de synchronisation à privilégie
 
 La synchronisation ActiveSync est compatible avec les applications Email/Gmail (application par défaut Android, selon les modèles et versions) et Mail (IPhone) des smartphones. Ce sont ces applications qu'il faut préférer.
 
-**Nous déconseillons** en particulier** l'utilisation de l'application Outlook.com pour smartphone**. En effet, **le flux des messages** de BlueMind vers cette application **transite par les serveurs de Microsoft**. Techniquement, nous ne garantissons pas non plus son bon fonctionnement avec notre serveur Exchange Active Sync.
+**Nous déconseillons** en particulier **l'utilisation de l'application Outlook.com pour smartphone**. En effet, **le flux des messages** de BlueMind vers cette application **transite par les serveurs de Microsoft**. Techniquement, nous ne garantissons pas non plus son bon fonctionnement avec notre serveur Exchange Active Sync.
 
 :::
 
