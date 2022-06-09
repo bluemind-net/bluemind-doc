@@ -94,7 +94,7 @@ bmctl restart
 
 Signatures are managed through a dedicated application rather than the BlueMind admin console. As a result, the super administrator admin0 must appoint the users or administrators who can access (or delegate access to) the application to manage domain signatures.
 
-Users or groups of users can be assigned the role "Manage corporate signature" using the same method as for any other role (see   [Users - Roles](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/#Administrationdesutilisateurs-user-roles)):
+Users or groups of users can be assigned the role "Manage corporate signature" using the same method as for any other role (see   [Users - Roles](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/#Administrationdesutilisateurs-user-roles)):
 
   ![](../../attachments/57771370/58592810.png)  
 

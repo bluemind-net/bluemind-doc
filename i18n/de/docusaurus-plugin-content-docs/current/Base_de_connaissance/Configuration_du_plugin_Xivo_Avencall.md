@@ -142,6 +142,6 @@ Die unterstützten Zustände sind:
 Weitere Informationen über die Nutzung und Integration von Telefonie in BlueMind erhalten Sie in den entsprechenden Seiten des Benutzerhandbuchs:
 
 - [Telefonie](/Guide_de_l_utilisateur/La_téléphonie/)
-- [Instant Messaging](/Guide_de_l_utilisateur/La_messagerie_instantanée/)
+- [Instant Messaging](/Guide_de_l_utilisateur/La_messagerie_instantanee/)
 
 

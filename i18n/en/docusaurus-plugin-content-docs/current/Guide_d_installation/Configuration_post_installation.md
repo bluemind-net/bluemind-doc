@@ -64,11 +64,11 @@ Some additional components are not included in BlueMind's default install and re
 
 BluMind version 3.5 introduces the possibility to [send email attachments](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) as download links.
 
-To find out more about installing and setting up BlueMind, go to our page about [linked attachments](/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/).
+To find out more about installing and setting up BlueMind, go to our page about [linked attachments](/Guide_de_l_administrateur/Configuration/Detachement_des_pieces_jointes/).
 
 ### LDAP Import
 
-To implement user and group import from an LDAP directory, go to the page [LDAP Synchronization](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP/)
+To implement user and group import from an LDAP directory, go to the page [LDAP Synchronization](/Guide_de_l_administrateur/Gestion_des_entites/Synchronisation_LDAP/)
 
 ### Subscription-based Components
 

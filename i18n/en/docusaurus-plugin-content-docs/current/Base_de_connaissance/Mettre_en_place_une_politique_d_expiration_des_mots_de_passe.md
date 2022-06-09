@@ -37,7 +37,7 @@ Qu'une politique globale soit définie ou non, les administrateurs ont la possib
 
 L'administrateur peut aussi exclure l'utilisateur de la politique globale définie.
 
-Dans les deux cas, l'administrateur doit se rendre dans la [fiche d'administration de l'utilisateur](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) dans la console d'administration : Annuaires > Entrées d'annuaires > sélectionner l'utilisateur > onglet Maintenance :
+Dans les deux cas, l'administrateur doit se rendre dans la [fiche d'administration de l'utilisateur](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/) dans la console d'administration : Annuaires > Entrées d'annuaires > sélectionner l'utilisateur > onglet Maintenance :
 
 ![](../attachments/58599264/58599269.png)
 

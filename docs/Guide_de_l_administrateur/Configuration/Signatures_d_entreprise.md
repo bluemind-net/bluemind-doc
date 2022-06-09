@@ -217,7 +217,7 @@ Les variables **correspondent aux champs de la fiche d'information de l'utilisat
 - #{name.familyNames} : nom
 - #{name.additionalNames} : autre nom
 - #{email} : adresse email
-- #{impp} : messagerie instantanéeNB : lorsque plusieurs champs de messagerie instantanée sont renseignés dans la [fiche de l'utilisateur](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/), la première de la liste sera utilisée.
+- #{impp} : messagerie instantanéeNB : lorsque plusieurs champs de messagerie instantanée sont renseignés dans la [fiche de l'utilisateur](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/), la première de la liste sera utilisée.
 - #{tel.home} : téléphone personnel
 - #{tel.work} : téléphone professionnel
 - #{tel.cell} : téléphone mobile

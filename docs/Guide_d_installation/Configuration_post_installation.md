@@ -72,11 +72,11 @@ Certains composants additionnels ne sont pas inclus par défaut dans l'installat
 
 BlueMind propose la possibilité de [détacher les pièces jointes](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) des messages afin de les présenter sous forme de lien de téléchargement aux destinataires.
 
-Pour en savoir plus sur l'installation et la configuration, consultez la page [Administration du détachement des pièces jointes](/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/).
+Pour en savoir plus sur l'installation et la configuration, consultez la page [Administration du détachement des pièces jointes](/Guide_de_l_administrateur/Configuration/Detachement_des_pieces_jointes/).
 
 ### Import LDAP
 
-Pour mettre en œuvre l'import des utilisateurs et groupes depuis un annuaire LDAP, consultez la page [Synchronisation LDAP](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP/)
+Pour mettre en œuvre l'import des utilisateurs et groupes depuis un annuaire LDAP, consultez la page [Synchronisation LDAP](/Guide_de_l_administrateur/Gestion_des_entites/Synchronisation_LDAP/)
 
 ### Composants disponibles avec une souscription
 

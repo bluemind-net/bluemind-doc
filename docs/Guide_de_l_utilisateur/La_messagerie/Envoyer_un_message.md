@@ -29,7 +29,7 @@ Après avoir choisi l'une de ces actions, le **composeur de la messagerie** Blue
 
 ## Choisir les destinataires
 
-**Pour ajouter un destinataire**, saisir les premiers caractères. Les champs de destinataires (À, Cc ou Cci) proposent des résultats par recherche parmi [tous les contacts](../Les_contacts/Découvrir_les_contacts.md/#identifier-les-types-de-contacts) des carnets d'adresses de l'utilisateur et de l'[annuaire](../Les_contacts/Utiliser_un_carnet_d_adresses_partagé.md/#utiliser-lannuaire).
+**Pour ajouter un destinataire**, saisir les premiers caractères. Les champs de destinataires (À, Cc ou Cci) proposent des résultats par recherche parmi [tous les contacts](../Les_contacts/Decouvrir_les_contacts.md/#identifier-les-types-de-contacts) des carnets d'adresses de l'utilisateur et de l'[annuaire](../Les_contacts/Utiliser_un_carnet_d_adresses_partage.md/#utiliser-lannuaire).
 
 - Le champ «**À**» permet de saisir le ou les destinataires principaux du message.
 

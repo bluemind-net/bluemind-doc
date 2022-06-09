@@ -101,7 +101,7 @@ L'action de glisser un mail avec la souris vers cette boîte **déplace** le mai
 
 ## Le connecteur BlueMind
 
-Le connecteur fourni par BlueMind permet la synchronisation de l'agenda et des carnets d'adresses de BlueMind avec Thunderbird. Il permet aussi l'accès à la gestion des tâches et au [détachement des pièces jointes volumineuses](../La_messagerie/Ajouter_des_pièces_jointes.md) lors de la rédaction de messages.
+Le connecteur fourni par BlueMind permet la synchronisation de l'agenda et des carnets d'adresses de BlueMind avec Thunderbird. Il permet aussi l'accès à la gestion des tâches et au [détachement des pièces jointes volumineuses](../La_messagerie/Ajouter_des_pieces_jointes.md) lors de la rédaction de messages.
 
 ### Installation du connecteur
 
@@ -112,7 +112,7 @@ Pour installer le connecteur BlueMind :
 
 :::info
 
-Si le connecteur n'est pas proposé dans les téléchargements, veuillez vous rapprocher de votre administrateur système afin qu'il procède à [son installation](../../Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds.md)
+Si le connecteur n'est pas proposé dans les téléchargements, veuillez vous rapprocher de votre administrateur système afin qu'il procède à [son installation](../../Guide_de_l_administrateur/BlueMind_et_mobilite/Les_connecteurs_BlueMind_pour_clients_lourds.md)
 
 :::
 
@@ -147,7 +147,7 @@ L'interface se présente et fonctionne alors exactement de la même façon que l
 
 ### Détachement des pièces jointes
 
-Une fois le connecteur installé, la fonctionnalité de [détachement des pièces jointes](../La_messagerie/Ajouter_des_pièces_jointes.md) est directement accessible dans la fenêtre de rédaction d'un message.
+Une fois le connecteur installé, la fonctionnalité de [détachement des pièces jointes](../La_messagerie/Ajouter_des_pieces_jointes.md) est directement accessible dans la fenêtre de rédaction d'un message.
 
 #### Fonctionnement de base
 
@@ -222,7 +222,7 @@ Une fois le connecteur installé et la connexion établie, l'agenda est accessib
 
 ![](../../attachments/57770889/58599182.png)
 
-Il présente les mêmes caractéristiques d'affichage et le même fonctionnement que [l'agenda](../L_agenda/Découvrir_l_agenda.md) en ligne :
+Il présente les mêmes caractéristiques d'affichage et le même fonctionnement que [l'agenda](../L_agenda/Decouvrir_l_agenda.md) en ligne :
 
 ![](../../attachments/57770889/58599187.png)
 
@@ -230,7 +230,7 @@ Il présente les mêmes caractéristiques d'affichage et le même fonctionnement
 
 La gestion des agendas affichés mais aussi la création d'agendas secondaires ou encore l'attribution de droits de partages à d'autres utilisateurs s'effectuent au sein de la gestion des préférences (voir plus haut) : menu Outils > BlueMind > Préférences BlueMind > section Agenda.
 
-Pour plus d'informations détaillées, consulter la page dédiée aux [Préférences de l'agenda](../L_agenda/Paramétrer_l_agenda.md)
+Pour plus d'informations détaillées, consulter la page dédiée aux [Préférences de l'agenda](../L_agenda/Parametrer_l_agenda.md)
 
 ### Les tâches
 
@@ -238,7 +238,7 @@ De même que l'agenda, la gestion des tâches est accessible dans un onglet prop
 
 ![](../../attachments/57770889/58599144.png)
 
-Pour en savoir plus sur le fonctionnement, vous pouvez consulter la page dédiée : [Les tâches](../Les_tâches/Découvrir_les_tâches.md)
+Pour en savoir plus sur le fonctionnement, vous pouvez consulter la page dédiée : [Les tâches](../Les_taches/Decouvrir_les_taches.md)
 
 ### Les contacts
 
@@ -275,7 +275,7 @@ Pour éviter les problèmes liés à un grand nombre d'utilisateurs sur le domai
 
 :::
 
-Pour plus d'informations, consultez la page [Utiliser un carnet d'adresses partagé](../Les_contacts/Utiliser_un_carnet_d_adresses_partagé.md)
+Pour plus d'informations, consultez la page [Utiliser un carnet d'adresses partagé](../Les_contacts/Utiliser_un_carnet_d_adresses_partage.md)
 
 :::
 

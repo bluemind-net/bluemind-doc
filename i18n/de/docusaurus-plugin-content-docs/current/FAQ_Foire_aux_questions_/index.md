@@ -123,7 +123,7 @@ So stellen Sie sicher, dass ein Klick auf diese Links, z. B. auf einer Webseite 
 - Bestätigen Sie die vom Browser angeforderte Autorisierung.
 
 
-Für weitere Informationen siehe "[Erweiterte Einstellungen](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/)".
+Für weitere Informationen siehe "[Erweiterte Einstellungen](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/)".
 
 ### Ungelesene Nachrichten in meinen Unterordnern werden nur angezeigt, wenn ich den Unterordner aufrufe.
 
@@ -133,7 +133,7 @@ Um dieses Verhalten zu ändern und BlueMind zu zwingen, bei jeder Serverabfrage 
 - Aktivieren Sie im Bereich "**Mailbox-Ansicht**" das Kontrollkästchen "*Alle Ordner auf neue Nachrichten prüfen*".
 
 
-Für weitere Informationen siehe "[Erweiterte Einstellungen](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/)".
+Für weitere Informationen siehe "[Erweiterte Einstellungen](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/)".
 
 ### Ich würde es vorziehen, UNTER der Nachricht, die ich beantworte, zu antworten.
 
@@ -145,7 +145,7 @@ Wenn Sie eine Antwort schreiben, wird das Zitat der ursprünglichen Nachricht st
     - Antwort unter der Originalnachricht
 
 
-Für weitere Informationen siehe "[Erweiterte Einstellungen](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/)".
+Für weitere Informationen siehe "[Erweiterte Einstellungen](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/)".
 
 ### Als neue Nachricht öffnen
 
@@ -204,7 +204,7 @@ Diese Inhalte von unbekannten Absendern werden BlueMind standardmäßig nicht ge
 
 Standardmäßig vertraut BlueMind jedoch den Absendern in Ihrem Adressbuch: Der Remote-Inhalt von Nachrichten von diesen Adressen wird automatisch geladen, wenn die Nachricht angezeigt wird.
 
-Eine Schaltfläche am oberen Rand einer Nachricht, deren Inhalt blockiert wurde, ermöglicht das Herunterladen nur für diese Nachricht. Um unabhängig vom Absender das Herunterladen der Remote-Inhalte für alle Nachrichten aktivieren möchten, gehen Sie zu den [erweiterten E-Mail-Voreinstellungen](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/).
+Eine Schaltfläche am oberen Rand einer Nachricht, deren Inhalt blockiert wurde, ermöglicht das Herunterladen nur für diese Nachricht. Um unabhängig vom Absender das Herunterladen der Remote-Inhalte für alle Nachrichten aktivieren möchten, gehen Sie zu den [erweiterten E-Mail-Voreinstellungen](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/).
 
 ## Instant Messaging
 
@@ -253,13 +253,13 @@ Hierfür gibt es 2 Lösungen:
 
 Um sich anmelden zu können, müssen Sie sich also mit einem Ihrer Administratoren in Verbindung setzen.
 
-Für weitere Informationen siehe den Leitfaden für Administratoren > [Benutzer](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) oder [EAS-Server-Konfiguration](/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS/).
+Für weitere Informationen siehe den Leitfaden für Administratoren > [Benutzer](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/) oder [EAS-Server-Konfiguration](/Guide_de_l_administrateur/BlueMind_et_mobilite/Configuration_du_serveur_EAS/).
 
 ### Ich kann die Kontakte des globalen Adressbuchs/Verzeichnis nicht sehen.
 
 In der Tat werden bei der Synchronisierung mit dem Exchange ActiveSync-Protokoll nur persönliche Adressbücher mit den Kontakten des Smartphones synchronisiert. Jedoch werden die Adressen in den anderen Adressbüchern (Globales Adressbuch/Verzeichnis, Gesammelte Kontakte usw.) mit den Suchfunktionen des Smartphones (Kontakte, E-Mails usw.) gefunden.
 
-Weitere Informationen finden Sie auf der Seite für Ihr Gerät im Abschnitt [Synchronisierung externer Geräte](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
+Weitere Informationen finden Sie auf der Seite für Ihr Gerät im Abschnitt [Synchronisierung externer Geräte](/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/).
 
 ### Ich kann einen meiner sekundären Kalender oder einen freigegebenen Kalender auf meinem Android-Smartphone nicht sehen.
 
@@ -269,7 +269,7 @@ Es ist jedoch möglich, die Funktion zu aktivieren, um sie mit einer Drittanwend
 
 ### Ich sehe auf meinem Handy einen Ordner nicht, der für mich freigegeben ist
 
-Um von einem Telefon aus auf freigegebene Ordner zuzugreifen, müssen Sie die Ordner zunächst [abonnieren](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/#Preferencesdemessagerie-abonnements). Unter Android werden sie jedoch möglicherweise nicht sofort angezeigt.
+Um von einem Telefon aus auf freigegebene Ordner zuzugreifen, müssen Sie die Ordner zunächst [abonnieren](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/#Preferencesdemessagerie-abonnements). Unter Android werden sie jedoch möglicherweise nicht sofort angezeigt.
 
 Um sie anzuzeigen, können Sie die Synchronisierung von Ordnern folgendermaßen erzwingen:
 
@@ -341,7 +341,7 @@ rm -f /etc/nginx/sw.htpasswd; htpasswd -b -c /etc/nginx/sw.htpasswd admin admin
 
 ### Ich kann das Passwort für den Superadministrator admin0 nicht mehr finden.
 
-Ab BlueMind 3.5.11 können Sie [mit dem Administrationstool für die Befehlszeile (CLI)](/Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration/) ein Passwort konfigurieren, ohne dass Sie das Passwort für admin0 kennen müssen.
+Ab BlueMind 3.5.11 können Sie [mit dem Administrationstool für die Befehlszeile (CLI)](/Guide_de_l_administrateur/Administration_avancee/Client_CLI_pour_l_administration/) ein Passwort konfigurieren, ohne dass Sie das Passwort für admin0 kennen müssen.
 
 Geben Sie dazu nach der Installation des Tools den folgenden Befehl ein:
 
@@ -397,7 +397,7 @@ Wenn das Zurücksetzen des Connectors nicht ausreicht, um Anzeigeprobleme zu lö
 
 :::tip
 
-Für eine eingehendere Untersuchung und Lösung von Problemen mit Outlook verweisen wir Sie auf unseren speziellen Leitfaden. [Behebung von Fehlern mit Outlook](/Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook/)
+Für eine eingehendere Untersuchung und Lösung von Problemen mit Outlook verweisen wir Sie auf unseren speziellen Leitfaden. [Behebung von Fehlern mit Outlook](/Guide_de_l_administrateur/Resolution_de_problemes/Résolution_des_problèmes_avec_Outlook/)
 
 :::
 

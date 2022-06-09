@@ -19,7 +19,7 @@ Die wichtigsten Merkmale sind:
 - Autovervollständigung von BlueMind-Kontakten und Verteilerlisten
 - erweiterte Volltext- und Multi-Ordner-Suche
 
-Weitere Einzelheiten finden Sie unter [Messaging entdecken](../../Guide_de_l_utilisateur/La_messagerie/Découvrir_la_messagerie.md)
+Weitere Einzelheiten finden Sie unter [Messaging entdecken](../../Guide_de_l_utilisateur/La_messagerie/Decouvrir_la_messagerie.md)
 
 ### Kalender
 
@@ -30,7 +30,7 @@ Eine der Hauptfunktionen der Kalenderanwendung ist:
 - Verwaltung von Tags
 - Ressourcenverwaltung
 
-Weitere Einzelheiten finden Sie unter [Kalender entdecken](../../Guide_de_l_utilisateur/L_agenda/Découvrir_l_agenda.md)
+Weitere Einzelheiten finden Sie unter [Kalender entdecken](../../Guide_de_l_utilisateur/L_agenda/Decouvrir_l_agenda.md)
 
 ### Kontakte
 
@@ -41,13 +41,13 @@ Die Kontaktverwaltungsanwendung verfügt unter anderem über die Funktionen:
 - Verwaltung von Kontaktlisten
 - Verwaltung der Kontakte und Adressbücher des Benutzers
 
-Weitere Einzelheiten finden Sie unter [Kontakte entdecken](../../Guide_de_l_utilisateur/Les_contacts/Découvrir_les_contacts.md)
+Weitere Einzelheiten finden Sie unter [Kontakte entdecken](../../Guide_de_l_utilisateur/Les_contacts/Decouvrir_les_contacts.md)
 
 ### Einstellungen und Voreinstellungen
 
 Die Anwendung Verwaltung von Einstellungen und Voreinstellungen ermöglicht es dem Benutzer, seine persönlichen Vorlieben für die Einstellung und Anzeige von BlueMind zu ändern.
 
-For more details, see [Einrichten des Benutzerkontos](../../Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur.md)
+For more details, see [Einrichten des Benutzerkontos](../../Guide_de_l_utilisateur/Parametrer_le_compte_utilisateur.md)
 
 ## Die Anwendungen des Administrators
 
@@ -140,6 +140,6 @@ Diese Komponente mit dem Namen YSNP ist der BlueMind SASL-Authentifizierungs-Dae
 
 BlueMind kann erweitert werden mit Hilfe von*Add-Ons* (Zusatzmodulen) oder Zusatzprogrammen, die von der Community auf dem [MarketPlace](https://marketplace.bluemind.net/)geteilt werden.
 
-Um mehr über die Entwicklung dieser Plugins zu erfahren, können Sie die Seite [Zu BlueMind beitragen](/Guide_du_développeur/Contribuer_à_BlueMind/)einsehen.
+Um mehr über die Entwicklung dieser Plugins zu erfahren, können Sie die Seite [Zu BlueMind beitragen](/Guide_du_developpeur/Contribuer_à_BlueMind/)einsehen.
 
 

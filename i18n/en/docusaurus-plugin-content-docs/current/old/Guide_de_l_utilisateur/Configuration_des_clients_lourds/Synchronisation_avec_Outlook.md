@@ -114,7 +114,7 @@ To do this, just log into your BlueMind account and go to your account settings 
 For more details about subscriptions, please go to:
 
 - [Shared mailboxes - Subscriptions and third-party software](/old/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/#Lesboitesauxlettrespartagees-abonnements)
-- [Mail preferences - Subscriptions](/old/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/#Preferencesdemessagerie-abonnements)
+- [Mail preferences - Subscriptions](/old/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/#Preferencesdemessagerie-abonnements)
 
 
 ## Shared user mailboxes

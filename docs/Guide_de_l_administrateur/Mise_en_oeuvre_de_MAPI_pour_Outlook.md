@@ -37,7 +37,7 @@ Les protocoles de communication étant différents, BlueMind ne supporte que les
 
 ### Outlook pour Windows
 
-Vérifiez le support de vos versions d'Outlook dans notre page [Compatibilité](../FAQ_Foire_aux_questions_/Compatibilité.md)
+Vérifiez le support de vos versions d'Outlook dans notre page [Compatibilité](../FAQ_Foire_aux_questions_/Compatibilite.md)
 
 ### Outlook.com sur les smartphones
 
@@ -64,7 +64,7 @@ Pour se prémunir de cela, il est possible de déplacer ces dossiers virtuels en
 
 ### Pièces jointes aux événements d'agenda
 
-Parallèlement à [l'application d'Agenda en ligne](../Guide_de_l_utilisateur/L_agenda/Créer_un_évènement.md) de BlueMind, la version 4.1 permet de joindre des fichiers aux événements d'agenda depuis Outlook.
+Parallèlement à [l'application d'Agenda en ligne](../Guide_de_l_utilisateur/L_agenda/Creer_un_evenement.md) de BlueMind, la version 4.1 permet de joindre des fichiers aux événements d'agenda depuis Outlook.
 
 ## Pré-requis
 
@@ -105,7 +105,7 @@ Pour une mise en œuvre rapide d'un environnement d'évaluation, vous pouvez con
 
 L'installation doit être réalisée **avant de créer les utilisateurs qui utiliseront Outlook** :
 
-- [Déployer la souscription](../Guide_d_installation/Mise_en_œuvre_de_la_souscription.md)
+- [Déployer la souscription](../Guide_d_installation/Mise_en_oeuvre_de_la_souscription.md)
 - Installer les paquets nécessaires :
 
 | Debian/Ubuntu | RedHat/CentOS |
@@ -115,7 +115,7 @@ L'installation doit être réalisée **avant de créer les utilisateurs qui util
 
 *NB : le redémarrage de BlueMind n'est pas nécessaire*
 
-- Se connecter à la console d'administration de BlueMind et [créer les utilisateurs](./Gestion_des_entités/Utilisateurs/index.md) **en leur affectant une adresse email**.
+- Se connecter à la console d'administration de BlueMind et [créer les utilisateurs](./Gestion_des_entites/Utilisateurs/index.md) **en leur affectant une adresse email**.
 
 
 Dès lors, vous pouvez vous référer à la page suivante afin de configurer les postes Outlook : [Synchronisation avec Outlook](../Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook.md)

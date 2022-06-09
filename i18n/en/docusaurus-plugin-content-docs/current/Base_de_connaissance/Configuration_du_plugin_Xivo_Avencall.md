@@ -132,6 +132,6 @@ Supported statuses are:
 To know more about using and integrating telephony in BlueMind, please see user's guide pages:
 
 - [Telephony](/Guide_de_l_utilisateur/La_téléphonie/)
-- [Instant Messaging](/Guide_de_l_utilisateur/La_messagerie_instantanée/)
+- [Instant Messaging](/Guide_de_l_utilisateur/La_messagerie_instantanee/)
 
 

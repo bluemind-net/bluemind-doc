@@ -74,11 +74,11 @@ Einige zusätzliche Komponenten sind nicht standardmäßig in der BlueMind-Insta
 
 BlueMind bietet die Möglichkeit, [Anlagen von Nachrichten abzutrennen,](/Guide_de_l_utilisateur/La_messagerie/Fichiers_volumineux_et_détachement_des_pièces_jointes/) um sie den Empfängern als Download-Link zu präsentieren.
 
-Weitere Informationen zur Installation und Konfiguration finden Sie unter [Verwaltung des Abtrennens von Anlagen](/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/).
+Weitere Informationen zur Installation und Konfiguration finden Sie unter [Verwaltung des Abtrennens von Anlagen](/Guide_de_l_administrateur/Configuration/Detachement_des_pieces_jointes/).
 
 ### TRP Import
 
-Um den Import von Benutzern und Gruppen aus einem LDAP-Verzeichnis zu implementieren, siehe die Seite [LDAP-Synchronisation](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP/)
+Um den Import von Benutzern und Gruppen aus einem LDAP-Verzeichnis zu implementieren, siehe die Seite [LDAP-Synchronisation](/Guide_de_l_administrateur/Gestion_des_entites/Synchronisation_LDAP/)
 
 ### Komponenten, die mit einem Abonnement verfügbar sind
 

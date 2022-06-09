@@ -45,7 +45,7 @@ Par exemple on change la valeur de "Europe/Paris" pour "America/Toronto" :
     - cliquer sur l'icône poubelle en face d'un alias pour le supprimer
 - **Nombre maximum de comptes** : le nombre maximum d'utilisateurs qui pourront être créés sur ce domaine.Cette option est utilisée afin de répartir sur les domaines et limiter le nombre de comptes autorisés par une souscription.
 - **Expiration du mot de passe en jour** : définit le nombre de jours pendant lequel un mot de passe utilisateur est valide après qu'il a été attribué ou changé.
-Cette option, disponible à partir de la version 4.3, est commune à tous les utilisateurs du domaine. Il est possible de modifier cette valeur ou forcer l'expiration du mot de passe pour un utilisateur en se rendant sur sa fiche d'administration, pour en savoir plus, consulter la page [Gestion des entités](/Guide_de_l_administrateur/Gestion_des_entités/) > [Utilisateurs](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/)
+Cette option, disponible à partir de la version 4.3, est commune à tous les utilisateurs du domaine. Il est possible de modifier cette valeur ou forcer l'expiration du mot de passe pour un utilisateur en se rendant sur sa fiche d'administration, pour en savoir plus, consulter la page [Gestion des entités](/Guide_de_l_administrateur/Gestion_des_entites/) > [Utilisateurs](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/)
 
 
 :::info
@@ -159,6 +159,6 @@ L'onglet «Annuaire» permet de paramétrer et administrer la synchronisation av
 
 ![](../../../attachments/57771276/66096461.png)
 
-Pour plus d'information sur la mise en œuvre de la synchronisation avec des annuaires externes, voir [Administration Système > Synchronisation Active Directory](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory/) et [Administration Système > Synchronisation LDAP](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP/)
+Pour plus d'information sur la mise en œuvre de la synchronisation avec des annuaires externes, voir [Administration Système > Synchronisation Active Directory](/Guide_de_l_administrateur/Gestion_des_entites/Synchronisation_Active_Directory/) et [Administration Système > Synchronisation LDAP](/Guide_de_l_administrateur/Gestion_des_entites/Synchronisation_LDAP/)
 
 

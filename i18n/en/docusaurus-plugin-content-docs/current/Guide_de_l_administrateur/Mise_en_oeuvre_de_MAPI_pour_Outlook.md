@@ -37,7 +37,7 @@ As communication protocols vary, BlueMind only supports versions of Outlook **fo
 
 ### Outlook for Windows
 
-Check the support of your versions of Outlook in our page [Compatibility](../FAQ_Foire_aux_questions_/Compatibilité.md)
+Check the support of your versions of Outlook in our page [Compatibility](../FAQ_Foire_aux_questions_/Compatibilite.md)
 
 ## Features
 
@@ -103,7 +103,7 @@ Everything must be installed **before you create the users who will be using Out
 
 *Note: BlueMind doesn't have to be restarted*
 
-- Log into BlueMind's admin console and [create users](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) **giving them an email address**.
+- Log into BlueMind's admin console and [create users](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/) **giving them an email address**.
 
 
 Then, please refer to the following page to configure the workstations for Outlook: [Syncing with Outlook](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/)

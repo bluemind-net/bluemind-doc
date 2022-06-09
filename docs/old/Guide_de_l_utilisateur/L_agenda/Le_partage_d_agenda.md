@@ -160,7 +160,7 @@ Ceci peut être fait directement directement depuis l'email d'information reçu,
 
 ## Agenda de domaine
 
-L'administrateur peut [créer des agendas de domaine](/Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines/), qui sont des agendas commun à un ou plusieurs utilisateurs, en consultation ou en modification selon les droits qui leur sont attribués.
+L'administrateur peut [créer des agendas de domaine](/Guide_de_l_administrateur/Gestion_des_entites/Calendriers_de_domaines/), qui sont des agendas commun à un ou plusieurs utilisateurs, en consultation ou en modification selon les droits qui leur sont attribués.
 
 S'il a au moins le droit de consultation, un utilisateur peut alors y accéder de la même façon qu'à l'agenda d'un utilisateur : par le champs de recherche de la vue principale ![](../../../attachments/57769989/69896473.png) (voir ci-dessus) soit par la gestion de ses abonnements (voir [Préférences de l'agenda](/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)).
 

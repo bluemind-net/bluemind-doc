@@ -116,7 +116,7 @@ To install the BlueMind connector:
 
 :::info
 
-If the connector is not shown in the Downloads menu, please contact your system administrator for them to [install it](/Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds/).
+If the connector is not shown in the Downloads menu, please contact your system administrator for them to [install it](/Guide_de_l_administrateur/BlueMind_et_mobilite/Les_connecteurs_BlueMind_pour_clients_lourds/).
 
 :::
 
@@ -152,7 +152,7 @@ The UI looks and works exactly like the preferences page in the BlueMind web app
 
 Go to the section you're specifically interested in for further details:
 
-- [Préférences de messagerie](/old/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/)
+- [Préférences de messagerie](/old/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/)
 - [Préférences des contacts](/old/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses/)
 - [Préférences de l'agenda](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)
 - [User Settings](/old/Guide_de_l_utilisateur/Paramètres_utilisateur/)
@@ -254,7 +254,7 @@ Just like the calendar, tasks are available in a dedicated tab with the same UI 
 
 ![](../../../attachments/57770889/58599162.png)
 
-To find out more about how tasks work, go to the page: [Tasks](/old/Guide_de_l_utilisateur/Les_tâches/)
+To find out more about how tasks work, go to the page: [Tasks](/old/Guide_de_l_utilisateur/Les_taches/)
 
 ### Contacts
 

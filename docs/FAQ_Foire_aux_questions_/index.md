@@ -64,7 +64,7 @@ Pour faire en sorte qu'un clic sur ces liens, dans une page web ou un email par 
 - valider l'autorisation demandée par le navigateur
 
 
-Pour en savoir plus, consulter la page [Préférences avancées](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/)
+Pour en savoir plus, consulter la page [Préférences avancées](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/)
 
 ### Les messages non lus dans mes sous-dossiers ne sont indiqués que si je consulte le sous-dossier.
 
@@ -74,7 +74,7 @@ Pour modifier ce comportement et forcer BlueMind à relever les messages de tous
 - dans la rubrique «**Vue du courrier**» cocher la case *"Vérifier tous les dossiers pour les nouveaux messages*"
 
 
-Pour en savoir plus, consulter la page [Préférences avancées](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/)
+Pour en savoir plus, consulter la page [Préférences avancées](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/)
 
 ### Je préférerais répondre SOUS le message auquel je réponds
 
@@ -86,7 +86,7 @@ Par défaut, lors de la rédaction d'une réponse, la citation du message d'orig
     - commencer le nouveau message au-dessous de l'original
 
 
-Pour en savoir plus, consulter la page [Préférences avancées](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/)
+Pour en savoir plus, consulter la page [Préférences avancées](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/)
 
 ### Éditer en tant que nouveau message
 
@@ -145,7 +145,7 @@ Par défaut, BlueMind ne charge pas ces contenus depuis les expéditeurs inconnu
 
 Par défaut, BlueMind fait cependant confiance aux expéditeurs se trouvant dans votre carnet d'adresses : les contenus distants des messages provenant de ces adresses sont chargé automatiquement lorsque le message est affiché.
 
-Un bouton en haut d'un message dont les contenus ont été bloqués vous permet de les télécharger pour ce message seulement. Si vous souhaitez activer le téléchargement des contenus distants pour l'ensemble des messages, quel que soit l'expéditeur, rendez-vous dans la gestion des [Préférences avancées de la messagerie](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/).
+Un bouton en haut d'un message dont les contenus ont été bloqués vous permet de les télécharger pour ce message seulement. Si vous souhaitez activer le téléchargement des contenus distants pour l'ensemble des messages, quel que soit l'expéditeur, rendez-vous dans la gestion des [Préférences avancées de la messagerie](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/).
 
 ## Messagerie instantanée
 
@@ -194,13 +194,13 @@ Pour cela, 2 solutions :
 
 Pour pouvoir vous connecter, il vous faut donc vous rapprocher d'un de vos administrateurs.
 
-Pour en savoir plus, consulter le Guide de l'administrateur > [Utilisateurs](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) ou [Configuration du serveur EAS](/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS/).
+Pour en savoir plus, consulter le Guide de l'administrateur > [Utilisateurs](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/) ou [Configuration du serveur EAS](/Guide_de_l_administrateur/BlueMind_et_mobilite/Configuration_du_serveur_EAS/).
 
 ### Je ne vois pas les contacts de l'annuaire
 
 En effet, en synchronisation avec le protocole Exchange ActiveSync, seuls les carnets d'adresses personnels sont synchronisés avec les contacts du smartphone. Cependant les adresses des autres carnets (Annuaire, Contacts collectés...) sont accessibles via les fonctions de recherche du smartphone (contacts, e-mails...)
 
-Pour en savoir plus, consultez la page correspondant à votre appareil dans la section [Synchronisation des périphériques externes](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
+Pour en savoir plus, consultez la page correspondant à votre appareil dans la section [Synchronisation des périphériques externes](/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/).
 
 ### Je ne vois pas un de mes calendriers secondaires ou un calendrier partagé sur mon mobile Android
 
@@ -210,7 +210,7 @@ Il est cependant possible d'activer la fonctionnalité afin de la coupler avec u
 
 ### Je ne vois pas sur mon mobile un dossier qui m'est partagé
 
-Pour accéder aux dossiers partagés depuis un téléphone, il faut tout d'abord [s'abonner](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/#Preferencesdemessagerie-abonnements) aux dossiers. Cependant sur Android ils peuvent ne pas apparaître immédiatement.
+Pour accéder aux dossiers partagés depuis un téléphone, il faut tout d'abord [s'abonner](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/#Preferencesdemessagerie-abonnements) aux dossiers. Cependant sur Android ils peuvent ne pas apparaître immédiatement.
 
 Pour les faire apparaitre, il est possible de forcer la synchronisation des dossiers en suivant la procédure :
 
@@ -262,7 +262,7 @@ Au moment de la réservation, l'utilisateur est averti de la non disponibilité 
 
 **La double réservation (le surbooking) est empêchée par défaut pour les ressources nouvellement créées :** si une ressource est disponible alors sa participation est automatiquement validée, si elle ne l'est pas alors l'événement est automatiquement refusé. Le gestionnaire de ressource garde cependant la main et peut toujours modifier les attributions ainsi que créer et modifier les événements du calendrier de la ressource directement.
 
-Pour en savoir plus sur la configuration, veuillez consulter le chapitre dédié : [Guide de l'administrateur > Administration des ressources > Politique de réservation](/Guide_de_l_administrateur/Gestion_des_entités/Ressources/#Administrationdesressources-surbooking)
+Pour en savoir plus sur la configuration, veuillez consulter le chapitre dédié : [Guide de l'administrateur > Administration des ressources > Politique de réservation](/Guide_de_l_administrateur/Gestion_des_entites/Ressources/#Administrationdesressources-surbooking)
 
 ### Je suis utilisateur
 
@@ -326,7 +326,7 @@ rm -f /etc/nginx/sw.htpasswd; htpasswd -b -c /etc/nginx/sw.htpasswd admin admin
 
 ### J'ai perdu le mot de passe du superadministrateur admin0
 
-À partir de BlueMind 3.5.11 [l'outil d'administration en ligne de commande (CLI)](/Guide_de_l_administrateur/Administration_avancée/Client_CLI_pour_l_administration/) vous permet de paramétrer un mot de passe sans nécessairement connaître le mot de passe admin0.
+À partir de BlueMind 3.5.11 [l'outil d'administration en ligne de commande (CLI)](/Guide_de_l_administrateur/Administration_avancee/Client_CLI_pour_l_administration/) vous permet de paramétrer un mot de passe sans nécessairement connaître le mot de passe admin0.
 
 Pour cela, une fois l'outil installé, taper la commande suivante :
 
@@ -382,7 +382,7 @@ Lorsque la réinitialisation du connecteur ne suffit pas à résoudre des probl�
 
 :::tip
 
-Pour une investigation plus poussée et la résolution des problèmes rencontrés avec Outlook, nous vous invitons à suivre notre guide dédié [Résolution des problèmes avec Outlook](/Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook/)
+Pour une investigation plus poussée et la résolution des problèmes rencontrés avec Outlook, nous vous invitons à suivre notre guide dédié [Résolution des problèmes avec Outlook](/Guide_de_l_administrateur/Resolution_de_problemes/Résolution_des_problèmes_avec_Outlook/)
 
 :::
 

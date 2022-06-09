@@ -24,12 +24,12 @@ L'offre professionnelle appelée souscription BlueMind est la solution indispens
 La souscription BlueMind comprend :
 
 - le logiciel BlueMind OpenSource en versions garanties et supportées
-- les [mises à jour correctives](../Guide_d_installation/Mise_à_jour_de_BlueMind.md)
+- les [mises à jour correctives](../Guide_d_installation/Mise_a_jour_de_BlueMind.md)
 - les mises à jours évolutives avec les nouvelles versions de BlueMind
 - l'utilisation complète d'Outlook pour Windows sans connecteur
 - un outil d'administration permettant l'application simple et graphique des mises à jour, correctives et évolutives
 - des composants additionnels :
-    - un connecteur [Active Directory](./Gestion_des_entités/Synchronisation_Active_Directory.md)
+    - un connecteur [Active Directory](./Gestion_des_entites/Synchronisation_Active_Directory.md)
 
 
 :::tip
@@ -46,7 +46,7 @@ La souscription BlueMind propose des versions identifiées et supportées par l'
 
 ### Outil de mise à jour
 
-Le processus de [mise à jour de BlueMind](../Guide_d_installation/Mise_à_jour_de_BlueMind.md) est simple, sûr, rapide pour que celles-ci ne restent pas virtuelles et soient effectivement appliquées.
+Le processus de [mise à jour de BlueMind](../Guide_d_installation/Mise_a_jour_de_BlueMind.md) est simple, sûr, rapide pour que celles-ci ne restent pas virtuelles et soient effectivement appliquées.
 
 Pour garantir les évolutions, la souscription intègre un outil graphique d'administration permettant de réaliser simplement et en temps réduit les mises à niveau correctives et évolutives du logiciel. Le client décide du moment de la mise à jour et l'outil la réalise.
 
@@ -85,7 +85,7 @@ Une souscription gratuite et complète peut être offerte à certains publics te
 
 Qui est administrateur ?
 
-Sont considérés comme administrateurs de la souscription [les utilisateurs auxquels est attribué le rôle](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md) « Gérer la souscription BlueMind ». Il est important d'activer conjointement le rôle "Console d'administration" afin de permettre à l'utilisateur d'accéder à celle-ci afin de pouvoir installer et mettre à jour la souscription.
+Sont considérés comme administrateurs de la souscription [les utilisateurs auxquels est attribué le rôle](./Gestion_des_entites/Utilisateurs/Les_roles_droits_d_acces_et_d_administration.md) « Gérer la souscription BlueMind ». Il est important d'activer conjointement le rôle "Console d'administration" afin de permettre à l'utilisateur d'accéder à celle-ci afin de pouvoir installer et mettre à jour la souscription.
 
 :::
 
@@ -144,7 +144,7 @@ Les administrateurs sont informés comme suit :
 
 À l'approche d'une limite de validité (nombre d'utilisateur ou date) ou lorsque celle-ci est atteinte, un bandeau d'alerte est affiché selon le cas chez les administrateurs et/ou les utilisateurs (voir chapitre précédent) et des emails d'alertes sont émis.
 
-Pour cela au moins **une adresse destinataire doit être renseignée** dans la page de gestion de la souscription afin de s'assurer qu'une personne au moins reçoit ces alertes, le système pouvant finir par être bloqué si la souscription n'est pas mise à jour à temps (voir chapitre précédent). Tant qu'une adresse n'est pas paramétrée, un bandeau d'information apparaît sur chaque page de la console d'administration pour les utilisateurs ayant [le rôle idoine](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md) :
+Pour cela au moins **une adresse destinataire doit être renseignée** dans la page de gestion de la souscription afin de s'assurer qu'une personne au moins reçoit ces alertes, le système pouvant finir par être bloqué si la souscription n'est pas mise à jour à temps (voir chapitre précédent). Tant qu'une adresse n'est pas paramétrée, un bandeau d'information apparaît sur chaque page de la console d'administration pour les utilisateurs ayant [le rôle idoine](./Gestion_des_entites/Utilisateurs/Les_roles_droits_d_acces_et_d_administration.md) :
 
 ![](./La_souscription_BlueMind_attachments/souscription_alerte.png)
 

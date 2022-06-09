@@ -61,7 +61,7 @@ Dans le cas contraire, vous pourrez créer une nouvelle suggestion. Soyez préci
 
 ## Contribuer
 
-D'autres outils et ressources sont accessibles si vous souhaitez contribuer à BlueMind. Consultez notre [Guide du développeur](/Guide_du_développeur/) : [Contribuer à BlueMind](/Guide_du_développeur/Contribuer_à_BlueMind/)
+D'autres outils et ressources sont accessibles si vous souhaitez contribuer à BlueMind. Consultez notre [Guide du développeur](/Guide_du_developpeur/) : [Contribuer à BlueMind](/Guide_du_developpeur/Contribuer_à_BlueMind/)
 
 
 Enregistrer

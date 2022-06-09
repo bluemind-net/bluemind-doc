@@ -160,7 +160,7 @@ Dies kann unter Verwendung der entsprechenden Links direkt aus der erhaltenen In
 
 ## Domänen-Kalender
 
-Der Administrator kann [Domänen-Kalender](/Guide_de_l_administrateur/Gestion_des_entités/Calendriers_de_domaines/), d. h. Kalender, die einem oder mehreren Benutzern gehören, zur Einsicht oder Änderung gemäß den ihnen zugewiesenen Rechten erstellen.
+Der Administrator kann [Domänen-Kalender](/Guide_de_l_administrateur/Gestion_des_entites/Calendriers_de_domaines/), d. h. Kalender, die einem oder mehreren Benutzern gehören, zur Einsicht oder Änderung gemäß den ihnen zugewiesenen Rechten erstellen.
 
 Wenn er zumindest über das Recht zur Einsicht verfügt, kann ein Benutzer dann auf die gleiche Weise darauf zugreifen wie auf den Kalender eines Benutzers: über das Suchfeld der Hauptansicht ![](../../../attachments/57769989/69896473.png) (siehe oben) oder durch die Verwaltung seiner Abonnements (siehe [Kalendereinstellungen](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)).
 

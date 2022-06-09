@@ -20,7 +20,7 @@ Les fonctionnalités majeures apportées comprennent notamment :
 - autocomplétion des contacts et listes de distribution BlueMind
 - recherche avancée full-text et multidossiers
 
-Pour plus de détails, voir [Découvrir la messagerie](../../Guide_de_l_utilisateur/La_messagerie/Découvrir_la_messagerie.md)
+Pour plus de détails, voir [Découvrir la messagerie](../../Guide_de_l_utilisateur/La_messagerie/Decouvrir_la_messagerie.md)
 
 ### Calendrier
 
@@ -31,7 +31,7 @@ L'application d'agenda présente parmi ses fonctionnalités majeures :
 - la gestion des étiquettes (tags)
 - la gestion de ressources
 
-Pour plus de détails, voir [Découvrir l'agenda](../../Guide_de_l_utilisateur/L_agenda/Découvrir_l_agenda.md)
+Pour plus de détails, voir [Découvrir l'agenda](../../Guide_de_l_utilisateur/L_agenda/Decouvrir_l_agenda.md)
 
 ### Contacts
 
@@ -42,13 +42,13 @@ L'application de gestion des contacts présente parmi ses fonctionnalités :
 - la gestion de listes de contacts
 - la gestion des contacts et des carnets d'adresses de l'utilisateur
 
-Pour plus de détails, voir [Découvrir les contacts](../../Guide_de_l_utilisateur/Les_contacts/Découvrir_les_contacts.md)
+Pour plus de détails, voir [Découvrir les contacts](../../Guide_de_l_utilisateur/Les_contacts/Decouvrir_les_contacts.md)
 
 ### Paramètres et préférences
 
 L'application de gestion des paramètres et préférences permet à un utilisateur de modifier ses préférences personnelles de paramétrage et d'affichage de BlueMind.
 
-Pour plus de détails, voir [Paraméter le compte utilisateur](../../Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur.md)
+Pour plus de détails, voir [Paraméter le compte utilisateur](../../Guide_de_l_utilisateur/Parametrer_le_compte_utilisateur.md)
 
 ## Les applications de l'administrateur
 
@@ -139,6 +139,6 @@ Ce composant, nommé YSNP est le démon BlueMind d'authentification SASL. Il per
 
 BlueMind peut être étendu au moyen d'*add-ons* (modules complémentaires) ou programmes complémentaires qui sont partagés par la communauté sur le [MarketPlace](https://marketplace.bluemind.net/).
 
-Pour en savoir plus sur le développement de ces plugins, vous pouvez consulter la page dédiée [Contribuer à BlueMind](../../Guide_du_développeur/Contribuer_à_BlueMind.md).
+Pour en savoir plus sur le développement de ces plugins, vous pouvez consulter la page dédiée [Contribuer à BlueMind](../../Guide_du_developpeur/Contribuer_a_BlueMind.md).
 
 

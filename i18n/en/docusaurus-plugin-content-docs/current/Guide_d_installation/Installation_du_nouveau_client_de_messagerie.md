@@ -52,7 +52,7 @@ Warning, this operation momentarily suspends access to BlueMind and may log user
 
 ## Provisioning
 
-Access to the Beta webmail is ruled by [a role](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/) – it can be granted to all users or some of them only through user or group role administration.
+Access to the Beta webmail is ruled by [a role](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/) – it can be granted to all users or some of them only through user or group role administration.
 
 Once the dedicated packages have been installed, a new role is available in the Mail section:
 

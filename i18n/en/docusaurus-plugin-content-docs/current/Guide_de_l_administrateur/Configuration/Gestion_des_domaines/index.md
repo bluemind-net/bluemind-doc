@@ -44,7 +44,7 @@ Par exemple on change la valeur de "Europe/Paris" pour "America/Toronto" :
     - click "Add" to open a new field and enter a new alias
     - click the trash icon news to the alias box to delete it
 - **Maximum number of users**: the maximum number of users that can be created in this domain.This option is used to distribute users on the domains and limit the number of accounts authorized for one subscription.
-- **Password lifetime in days**: sets the number of days a user password is valid for after it has been assigned or changed.Available from BlueMind 4.3, this option is common to all domain users. You can change this value or force-expire a user's password by going into their admin page. To find out more, go to the page [Entities](/Guide_de_l_administrateur/Gestion_des_entités/) > [Users](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/).
+- **Password lifetime in days**: sets the number of days a user password is valid for after it has been assigned or changed.Available from BlueMind 4.3, this option is common to all domain users. You can change this value or force-expire a user's password by going into their admin page. To find out more, go to the page [Entities](/Guide_de_l_administrateur/Gestion_des_entites/) > [Users](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/).
 
 
 :::info
@@ -122,6 +122,6 @@ This tab allows you to configure and manage synchronization for the AD (*Active
 
 ![](../../../attachments/57771276/66096460.png)
 
-For more information on implementing synchronization with external directories, see [Administration Système > Synchronisation Active Directory](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory/) and [Administration Système > Synchronisation LDAP](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP/).
+For more information on implementing synchronization with external directories, see [Administration Système > Synchronisation Active Directory](/Guide_de_l_administrateur/Gestion_des_entites/Synchronisation_Active_Directory/) and [Administration Système > Synchronisation LDAP](/Guide_de_l_administrateur/Gestion_des_entites/Synchronisation_LDAP/).
 
 

@@ -123,7 +123,7 @@ To get the BlueMind composer to open when you click a mailto: link, in a web pag
 - confirm authorization when prompted by the browser
 
 
-To find out more, please go to the page on [Advanced settings](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/).
+To find out more, please go to the page on [Advanced settings](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/).
 
 ### Unread messages in my sub-folders are only shown when I view said sub-folder
 
@@ -133,7 +133,7 @@ To change this behavior and force BlueMind to retrieve messages from all folders
 - in the "**Mailbox view" **section, check the box *"Check all folders for new messages*"
 
 
-To find out more, please go to the page on [Advanced settings](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/).
+To find out more, please go to the page on [Advanced settings](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/).
 
 ### I'd rather reply BELOW the original message 
 
@@ -145,7 +145,7 @@ When you write a message, the original message is quoted underneath by default. 
     - start new message below original
 
 
-To find out more, please go to the page on [Advanced settings](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/).
+To find out more, please go to the page on [Advanced settings](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/).
 
 ### Edit as new message
 
@@ -204,7 +204,7 @@ By default, BlueMind doesn't download this content from unknown senders to prote
 
 By default, however, BlueMind trusts the senders in your address book – remote content from these addresses is automatically displayed when the message is opened. 
 
-A button at the top of a message whose content has been blocked is used to download that message's content only. If you want to enable downloading remote content for all messages, regardless of the sender, go to [Mail - Advanced Settings](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/Préférences_avancées/).
+A button at the top of a message whose content has been blocked is used to download that message's content only. If you want to enable downloading remote content for all messages, regardless of the sender, go to [Mail - Advanced Settings](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/Préférences_avancées/).
 
 ## Instant messaging
 
@@ -253,13 +253,13 @@ To fix this there are two options:
 
 In order to connect to BlueMind, you need to get help from an administrator.
 
-To find out more, please go to the Administrator's guide > [Users](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) or [EAS Server Configuration](/Guide_de_l_administrateur/BlueMind_et_mobilité/Configuration_du_serveur_EAS/).
+To find out more, please go to the Administrator's guide > [Users](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/) or [EAS Server Configuration](/Guide_de_l_administrateur/BlueMind_et_mobilite/Configuration_du_serveur_EAS/).
 
 ### I can't see directory contacts
 
 This is because with the Exchange ActiveSync synchronization protocol, only personal address books are synchronized with smartphone contacts. However, addresses from other address books (Directory, Collected contacts...) can be accessed through the smartphone's search features (contacts, emails...)
 
-For more details, go to the page about your device in the section [Synchronizing with mobile phones and tablets](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/).
+For more details, go to the page about your device in the section [Synchronizing with mobile phones and tablets](/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/).
 
 ### I can't see one of my secondary calendars or a shared calendar on my Android mobile phone
 
@@ -269,7 +269,7 @@ You can enable this feature and couple it to a third-party application: [Multipl
 
 ### I can't see a shared folder on my mobile device
 
-To access shared folders on a mobile device, you must [subscribe](/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/#Preferencesdemessagerie-abonnements) to folders first. On Android devices, however, they may sometimes not be shown immediately. 
+To access shared folders on a mobile device, you must [subscribe](/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/#Preferencesdemessagerie-abonnements) to folders first. On Android devices, however, they may sometimes not be shown immediately. 
 
 To display them, you have to force synchronize them first:
 
@@ -392,7 +392,7 @@ When restarting the connector fails to resolve display issues, in particular if 
 
 :::tip
 
-For further investigations and resolving Outlook-related issues, please refer to our dedicated guide [Resolving issues with Outlook](/Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook/)
+For further investigations and resolving Outlook-related issues, please refer to our dedicated guide [Resolving issues with Outlook](/Guide_de_l_administrateur/Resolution_de_problemes/Résolution_des_problèmes_avec_Outlook/)
 
 :::
 
