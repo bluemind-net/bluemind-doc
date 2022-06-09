@@ -27,10 +27,10 @@ The following sections describe how to configure a BlueMind server.
 - [System Configuration](/Guide_de_l_administrateur/Configuration/Configuration_système/)
 - [Automatic Memory Adjustment](/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire/)
 - [Archiving](/Guide_de_l_administrateur/Configuration/Archivage/)
-- [Security](/Guide_de_l_administrateur/Configuration/Sécurité/)
-- [Linked Attachments](/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/)
+- [Security](/Guide_de_l_administrateur/Configuration/Securite/)
+- [Linked Attachments](/Guide_de_l_administrateur/Configuration/Detachement_des_pieces_jointes/)
 - [Corporate Signatures](/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise/)
-- [Integrated Videoconferencing](/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/)
+- [Integrated Videoconferencing](/Guide_de_l_administrateur/Configuration/Visioconference_integree/)
 
 
  

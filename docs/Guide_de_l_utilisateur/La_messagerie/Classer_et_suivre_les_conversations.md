@@ -5,7 +5,7 @@ sidebar_position: 85
 ---
 # Classer et suivre les conversations
 
-Lorsque le [mode conversation](Gérer_la_liste_des_messages.md/#gérer-laffichage-de-la-liste-des-messages) est activé, il est possible d'agir sur la [conversation dans son ensemble](#agir-sur-une-conversation-dans-son-ensemble) ou sur [chaque message séparément](#agir-sur-un-message-dune-conversation).
+Lorsque le [mode conversation](Gerer_la_liste_des_messages.md/#gérer-laffichage-de-la-liste-des-messages) est activé, il est possible d'agir sur la [conversation dans son ensemble](#agir-sur-une-conversation-dans-son-ensemble) ou sur [chaque message séparément](#agir-sur-un-message-dune-conversation).
 
 ## Agir sur un message d'une conversation
 

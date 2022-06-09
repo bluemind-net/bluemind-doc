@@ -79,7 +79,7 @@ Pour cela :
 - Valider avec la touche "Entrée" ou choisir dans la liste proposée par l'autocomplétion
 - **Cliquer sur le bouton «Enregistrer» pour prendre en compte les changements.**
 
-*Pour en savoir plus, consulter la page [Préférences de l'agenda](../L_agenda/Paramétrer_l_agenda.md)*.
+*Pour en savoir plus, consulter la page [Préférences de l'agenda](../L_agenda/Parametrer_l_agenda.md)*.
 
 Une fois les abonnements réalisés dans BlueMind, se rendre dans les préférences de Calendar > onglet «Accounts» > sélectionner le compte créé > rubrique «Delegation» : les agendas auxquels l'utilisateur a accès (les siens ainsi que ceux pour lesquels il a reçu des droits de partage) apparaissent.
 Cocher les cases de la colonne "Show" pour sélectionner les agendas à afficher :

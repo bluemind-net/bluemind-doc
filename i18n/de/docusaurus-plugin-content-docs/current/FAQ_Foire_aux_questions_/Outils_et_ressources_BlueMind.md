@@ -61,7 +61,7 @@ Wenn ihr Vorschlag noch nicht vorhanden ist, können Sie ihn erstellen. Beschrei
 
 ## Mitwirken
 
-Weitere Tools und Ressourcen sind verfügbar, wenn Sie bei BlueMind mitwirken möchten. Siehe unseren [Leitfaden für Entwickler](/Guide_du_développeur/): [Zu BlueMind beitragen](/Guide_du_développeur/Contribuer_à_BlueMind/)
+Weitere Tools und Ressourcen sind verfügbar, wenn Sie bei BlueMind mitwirken möchten. Siehe unseren [Leitfaden für Entwickler](/Guide_du_developpeur/): [Zu BlueMind beitragen](/Guide_du_developpeur/Contribuer_à_BlueMind/)
 
 
 Speichern

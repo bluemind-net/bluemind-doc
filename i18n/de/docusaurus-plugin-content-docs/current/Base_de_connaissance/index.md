@@ -20,7 +20,7 @@ position: 36
 - [Bereinigung des Client-Browser-Caches](/Base_de_connaissance/Nettoyage_du_cache_du_navigateur_client/)
 - [Freigabe des Lesestatus von geteilten Posteingängen](/Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées/)
 - [Anpassen des Anwendungslogos](/Base_de_connaissance/Personnaliser_le_logo_de_l_application/)
-- [Wiederherstellen des Inhalts eines Benutzer- oder geteilten Posteingangs](/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/)
+- [Wiederherstellen des Inhalts eines Benutzer- oder geteilten Posteingangs](/Base_de_connaissance/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee/)
 - [Wiederherstellen des Kalenders eines Benutzers](/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur/)
 - [Von einem Benutzer gelöschte Nachrichten wiederherstellen](/Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur/)
 - [Abrufen von Domain-Protokollen in Outlook](/Base_de_connaissance/Retrouver_les_carnets_de_domaine_dans_Outlook/)

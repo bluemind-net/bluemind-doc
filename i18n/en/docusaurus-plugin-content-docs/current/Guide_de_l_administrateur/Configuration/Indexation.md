@@ -10,7 +10,7 @@ position: 54
 
 From BlueMind version 4.2.4, indexing tasks have been removed from planned tasks to alleviate resource usage. The system now runs these tasks automatically when needed and administrators can run them manually from a dedicated page in the admin console.
 
-To troubleshoot indexing issues, please refer to the guide: [Search and indexing issues](/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation/).
+To troubleshoot indexing issues, please refer to the guide: [Search and indexing issues](/Guide_de_l_administrateur/Resolution_de_problemes/Problèmes_de_recherche_et_indexation/).
 
 
 ## Running indexing tasks

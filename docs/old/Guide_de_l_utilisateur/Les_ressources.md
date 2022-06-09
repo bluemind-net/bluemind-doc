@@ -44,7 +44,7 @@ Le gestionaire peut accepter la demande depuis le mail de réservation
 La ressource est vue en attente de validation par le gestionnaire
 
 
-4. 2 cas sont possible selon la [politique de réservation](/Guide_de_l_administrateur/Gestion_des_entités/Ressources/#Administrationdesressources-surbooking) choisie pour la ressource :
+4. 2 cas sont possible selon la [politique de réservation](/Guide_de_l_administrateur/Gestion_des_entites/Ressources/#Administrationdesressources-surbooking) choisie pour la ressource :
     1. Si l'acceptation et le refus automatiques sont activés, alors :
         - le gestionnaire reçoit un message de réservation de la ressource
         - si la ressource est disponible, sa participation est validée

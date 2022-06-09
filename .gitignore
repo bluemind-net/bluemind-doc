@@ -7,3 +7,4 @@ docs/*.html
 .docusaurus
 .DS_Store
 .vscode
+helper_scripts/py-dist/

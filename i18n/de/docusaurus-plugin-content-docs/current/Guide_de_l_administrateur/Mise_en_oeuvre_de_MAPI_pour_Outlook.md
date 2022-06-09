@@ -84,7 +84,7 @@ Für eine schnelle Implementierung einer Evaluierungsumgebung können Sie den fo
 
 Die Installation muss durchgeführt werden,** **bevor Sie die Benutzer anlegen, die Outlook verwenden werden****:
 
-- [Das Abonnement verfügbar machen](../Guide_d_installation/Mise_en_œuvre_de_la_souscription.md)
+- [Das Abonnement verfügbar machen](../Guide_d_installation/Mise_en_oeuvre_de_la_souscription.md)
 - Installieren Sie die notwendigen Pakete:
 
 | Debian/Ubuntu | RedHat/CentOS |
@@ -93,7 +93,7 @@ Die Installation muss durchgeführt werden,** **bevor Sie die Benutzer anlegen, 
 
 *Hinweis: Ein Neustart von BlueMind ist nicht erforderlich*
 
-- Melden Sie sich in der BlueMind-Administrationskonsole an und [erstellen Sie Benutzer,](./Gestion_des_entités/Utilisateurs/index.md) **indem Sie ihnen eine E-Mail-Adresse zuweisen**.
+- Melden Sie sich in der BlueMind-Administrationskonsole an und [erstellen Sie Benutzer,](./Gestion_des_entites/Utilisateurs/index.md) **indem Sie ihnen eine E-Mail-Adresse zuweisen**.
 
 
 Die folgende Seite enthält eine Konfigurationsanleitung für Geräte mit Outlook: [Synchronisation mit Outlook](../Guide_de_l_utilisateur/../old/Guide_de_l_utilisateur/Configuration_des_clients_lourds/index.md)

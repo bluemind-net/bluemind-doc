@@ -44,7 +44,7 @@ Le gestionaire peut accepter la demande depuis le mail de réservation
 La ressource est vue en attente de validation par le gestionnaire
 
 
-4. Je nach der für die Ressource gewählten [Reservierungsrichtlinie](/Guide_de_l_administrateur/Gestion_des_entités/Ressources/#Administrationdesressources-surbooking) gibt es 2 Möglichkeiten:
+4. Je nach der für die Ressource gewählten [Reservierungsrichtlinie](/Guide_de_l_administrateur/Gestion_des_entites/Ressources/#Administrationdesressources-surbooking) gibt es 2 Möglichkeiten:
     1. Wenn automatische Annahme und Ablehnung aktiviert sind:
         - Erhält der Verwalter eine Reservierungsnachricht der Ressource
         - wenn die Ressource verfügbar ist, wird ihre Teilnahme validiert
@@ -83,7 +83,7 @@ Zum Zeitpunkt der Reservierung wird der Benutzer über die Nichtverfügbarkeit d
 
 **Eine Doppelreservierung (Überbuchung) wird bei neu angelegten Ressourcen standardmäßig verhindert: ** Wenn eine Ressource verfügbar ist, wird ihre Teilnahme automatisch bestätigt, wenn nicht, wird der Termin automatisch abgelehnt. Der Ressourcenverwalter behält jedoch die Kontrolle und kann weiterhin die Zuweisungen ändern sowie die Kalendertermine der Ressource direkt erstellen und bearbeiten.
 
-Weitere Informationen zur Konfiguration finden Sie im Kapitel: [Administratorhandbuch > Ressourcenverwaltung > Reservierungsrichtlinie](/Guide_de_l_administrateur/Gestion_des_entités/Ressources/#Administrationdesressources-surbooking)
+Weitere Informationen zur Konfiguration finden Sie im Kapitel: [Administratorhandbuch > Ressourcenverwaltung > Reservierungsrichtlinie](/Guide_de_l_administrateur/Gestion_des_entites/Ressources/#Administrationdesressources-surbooking)
 
 ### Ich bin Benutzer
 

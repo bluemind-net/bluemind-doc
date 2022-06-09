@@ -19,26 +19,26 @@ To speed up the resolution of your issue, please take some time to check the fol
 - [User's Guide](/Guide_de_l_utilisateur/)
 - [Installation Guide](/Guide_d_installation/)
 - [Administrator's Guide](/Guide_de_l_administrateur/)
-- [Developer's guide](/Guide_du_développeur/)
+- [Developer's guide](/Guide_du_developpeur/)
 - [Knowledge Base](/Base_de_connaissance/)
 - [STAGING](/STAGING/)
 - [Suivi de traduction V4](https://forge.bluemind.net/confluence/display/BM4/.Suivi+de+traduction+vBM-4.0)
 - [Support and Request for Assistance](/Support_et_demande_d_assistance/)
 
 
-##### ![](attachments/57771961/57771962.jpg) [Troubleshooting](/Guide_de_l_administrateur/Résolution_de_problèmes/)
+##### ![](attachments/57771961/57771962.jpg) [Troubleshooting](/Guide_de_l_administrateur/Resolution_de_problemes/)
 
 
-- [Trouble sending or receiving emails](/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_d_émission_et_réception_de_messages/)
-- [IMAP Identification Issues](/Guide_de_l_administrateur/Résolution_de_problèmes/Erreurs_d_identification_IMAP/)
-- [Missing events](/Guide_de_l_administrateur/Résolution_de_problèmes/Disparitions_et_modifications_d_événements/)
-- [Autodiscover not found by Android mobile devices](/Guide_de_l_administrateur/Résolution_de_problèmes/L_autodiscover_n_est_pas_trouvé_par_les_mobiles_Android/)
-- [ADs no longer synchronized](/Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés/)
-- [The Server is Being Used to Send SPAM](/Guide_de_l_administrateur/Résolution_de_problèmes/Le_serveur_est_utilisé_pour_envoyer_du_SPAM/)
-- [Attachments are too large](/Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter/)
-- [Search and indexing issues](/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation/)
-- [Synchronization issues with mobile devices](/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_synchronisation_mobile/)
-- [Resolving issues with Outlook](/Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook/)
+- [Trouble sending or receiving emails](/Guide_de_l_administrateur/Resolution_de_problemes/Problèmes_d_émission_et_réception_de_messages/)
+- [IMAP Identification Issues](/Guide_de_l_administrateur/Resolution_de_problemes/Erreurs_d_identification_IMAP/)
+- [Missing events](/Guide_de_l_administrateur/Resolution_de_problemes/Disparitions_et_modifications_d_événements/)
+- [Autodiscover not found by Android mobile devices](/Guide_de_l_administrateur/Resolution_de_problemes/L_autodiscover_n_est_pas_trouvé_par_les_mobiles_Android/)
+- [ADs no longer synchronized](/Guide_de_l_administrateur/Resolution_de_problemes/Les_AD_ne_sont_plus_synchronisés/)
+- [The Server is Being Used to Send SPAM](/Guide_de_l_administrateur/Resolution_de_problemes/Le_serveur_est_utilisé_pour_envoyer_du_SPAM/)
+- [Attachments are too large](/Guide_de_l_administrateur/Resolution_de_problemes/Pièces_jointes_impossible_à_ajouter/)
+- [Search and indexing issues](/Guide_de_l_administrateur/Resolution_de_problemes/Problèmes_de_recherche_et_indexation/)
+- [Synchronization issues with mobile devices](/Guide_de_l_administrateur/Resolution_de_problemes/Problèmes_de_synchronisation_mobile/)
+- [Resolving issues with Outlook](/Guide_de_l_administrateur/Resolution_de_problemes/Résolution_des_problèmes_avec_Outlook/)
 
 
 ##### ![](attachments/57771961/57771962.jpg) [Knowledge Base](/Base_de_connaissance/)
@@ -58,7 +58,7 @@ To speed up the resolution of your issue, please take some time to check the fol
 - [Clearing the Client Browser Cache](/Base_de_connaissance/Nettoyage_du_cache_du_navigateur_client/)
 - [Sharing read message status in shared mailboxes](/Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées/)
 - [Custom application logo](/Base_de_connaissance/Personnaliser_le_logo_de_l_application/)
-- [Restoring user or mailshare mailbox contents](/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/)
+- [Restoring user or mailshare mailbox contents](/Base_de_connaissance/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee/)
 - [Restoring a user calendar](/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur/)
 - [Restoring messages deleted by a user](/Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur/)
 - [Retrouver les carnets de domaine dans Outlook](/Base_de_connaissance/Retrouver_les_carnets_de_domaine_dans_Outlook/)
@@ -83,7 +83,7 @@ Before you request help from BlueMind support, make sure you have the required i
 - **Gather as many details about the issue as well as the conditions under which it occurs.**For our support team to understand, investigate and reproduce the issue in their environment, you must describe the context and the actions that lead to it in as much detail as possible: user(s) concerned, buttons or hyperlinks clicked, text entered, waiting times, occurrence frequency, etc.
 - **Get the relevant log files**:
     - go to this page [Logs](/Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux/) to help you identify log files
-    - go to the [Troubleshooting](/Guide_de_l_administrateur/Résolution_de_problèmes/) pages about related subjects.
+    - go to the [Troubleshooting](/Guide_de_l_administrateur/Resolution_de_problemes/) pages about related subjects.
 
 
 [

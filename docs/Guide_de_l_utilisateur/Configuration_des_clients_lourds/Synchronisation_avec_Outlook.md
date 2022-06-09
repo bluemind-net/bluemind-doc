@@ -24,7 +24,7 @@ Comme dans les versions précédentes de BlueMind, l'utilisation d'Outlook est r
 
 :::info
 
-L'utilisation d'Outlook en MAPI sans connecteur implique que celui-ci ne peut bénéficier du [détachement des pièces jointes volumineuses](../La_messagerie/Ajouter_des_pièces_jointes.md), ceci étant une fonctionnalité purement BlueMind qui est pour le moment apportée par le connecteur.
+L'utilisation d'Outlook en MAPI sans connecteur implique que celui-ci ne peut bénéficier du [détachement des pièces jointes volumineuses](../La_messagerie/Ajouter_des_pieces_jointes.md), ceci étant une fonctionnalité purement BlueMind qui est pour le moment apportée par le connecteur.
 
 :::
 
@@ -107,7 +107,7 @@ Il suffit pour cela de se connecter à son compte BlueMind, se rendre dans la ge
 Vous pouvez retrouver plus de détails sur la procédure d'abonnement et ses incidences sur les pages dédiées :
 
 - [Partager une messagerie](../La_messagerie/Partager_une_messagerie.md)
-- [Utiliser une messagerie partagée](../La_messagerie/Utiliser_une_messagerie_partagée.md)
+- [Utiliser une messagerie partagée](../La_messagerie/Utiliser_une_messagerie_partagee.md)
 
 ## Les boîtes utilisateurs partagées
 
@@ -343,7 +343,7 @@ Pour supprimer le mauvais mot de passe :
 
 ### Les boîtes partagées n'apparaissent pas parmi les dossiers de l'utilisateur
 
-**Si votre BlueMind est en version 4.5 ou supérieure** : vérifiez que vous êtes bien abonné à la boite [dans la gestion de votre compte](../La_messagerie/Utiliser_une_messagerie_partagée.md).
+**Si votre BlueMind est en version 4.5 ou supérieure** : vérifiez que vous êtes bien abonné à la boite [dans la gestion de votre compte](../La_messagerie/Utiliser_une_messagerie_partagee.md).
 
 **Si votre BlueMind est en version 4.4 ou antérieure** : les boites aux lettres partagées se trouvent dans les dossiers publics. Ceux-ci peuvent être trouvés en cliquant sur les points de suspension en bas de l'arborescence :
 

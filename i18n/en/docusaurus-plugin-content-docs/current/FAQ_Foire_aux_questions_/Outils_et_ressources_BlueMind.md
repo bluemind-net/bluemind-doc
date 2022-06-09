@@ -61,7 +61,7 @@ Failing that, you can create a new suggestion. Please be thorough so that your r
 
 ## Contributing to BlueMind
 
-Other tools and resources are available if you wish to contribute to BlueMind. See our [Developer's guide](/Guide_du_développeur/) : [Contributing to BlueMind](/Guide_du_développeur/Contribuer_à_BlueMind/) (not translated for the moment, available in French only)
+Other tools and resources are available if you wish to contribute to BlueMind. See our [Developer's guide](/Guide_du_developpeur/) : [Contributing to BlueMind](/Guide_du_developpeur/Contribuer_à_BlueMind/) (not translated for the moment, available in French only)
 
 
 Enregistrer

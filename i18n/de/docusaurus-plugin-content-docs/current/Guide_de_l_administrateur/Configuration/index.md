@@ -27,10 +27,10 @@ Die Konfiguration eines BlueMind-Servers wird nachstehend beschrieben.
 - [Systemkonfiguration](/Guide_de_l_administrateur/Configuration/Configuration_système/)
 - [Automatische Speicheranpassung](/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire/)
 - [Archivierung](/Guide_de_l_administrateur/Configuration/Archivage/)
-- [Sicherheit](/Guide_de_l_administrateur/Configuration/Sécurité/)
-- [Abtrennen von Anlagen](/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/)
+- [Sicherheit](/Guide_de_l_administrateur/Configuration/Securite/)
+- [Abtrennen von Anlagen](/Guide_de_l_administrateur/Configuration/Detachement_des_pieces_jointes/)
 - [E-Mail-Unterschriften von Unternehmen](/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise/)
-- [Visioconférence intégrée](/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/)
+- [Visioconférence intégrée](/Guide_de_l_administrateur/Configuration/Visioconference_integree/)
 
 
  

@@ -24,12 +24,12 @@ This professional offering – "BlueMind Subscription" – is the solution you c
 The BlueMind Subscription includes:
 
 - The BlueMind Open Source software in guaranteed, supported versions 
-- [updates](../Guide_d_installation/Mise_à_jour_de_BlueMind.md)
+- [updates](../Guide_d_installation/Mise_a_jour_de_BlueMind.md)
 - upgrades (new versions)
 - comprehensive connector-free use of Outlook 
 - a graphical update tool that makes updating and upgrading easy
 - additional components:
-    - an [Active Directory connector](./Gestion_des_entités/Synchronisation_Active_Directory.md)
+    - an [Active Directory connector](./Gestion_des_entites/Synchronisation_Active_Directory.md)
 
 
 :::tip
@@ -46,7 +46,7 @@ The BlueMind Subscription includes identified, vendor-supported versions with up
 
 ### Update tool
 
-[BlueMind's update tool](../Guide_d_installation/Mise_à_jour_de_BlueMind.md) is straightforward, secure and fast so that updates not remain virtual and are applied quickly.  
+[BlueMind's update tool](../Guide_d_installation/Mise_a_jour_de_BlueMind.md) is straightforward, secure and fast so that updates not remain virtual and are applied quickly.  
 
 To ensure scalability, subscriptions include a graphical administration tool for software updates and upgrades. The client can decide when to perform updates.
 
@@ -85,7 +85,7 @@ A full-feature, free subscription can be offered to certain audiences such as:
 
 Who is the subscription administrator?
 
-Subscription administrators are the [users who are assigned the role](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md) "Manage the BlueMind subscription"
+Subscription administrators are the [users who are assigned the role](./Gestion_des_entites/Utilisateurs/Les_roles_droits_d_acces_et_d_administration.md) "Manage the BlueMind subscription"
 
 - users without access to the admin console will receive notification emails
 - users with access to the admin console will receive notification emails and will be able to access the page where they will be able to install and update the subscription
@@ -148,7 +148,7 @@ Administrators are informed as follows:
 
 When a validity (number or user or date) limit is approaching or has been reached, an alert banner is shown in administrators' or users' UI – as applicable, see previous chapter – and email alerts are sent. 
 
-For this, you **must to have at least one recipient email** address filled in in the subscription management page to make sure that at least one person receive the alerts as the system may be blocked if the subscription isn't updated in time (see previous chapter). Until an email address is provided, an information banner will be shown in the admin console for users with the [appropriate role](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md):
+For this, you **must to have at least one recipient email** address filled in in the subscription management page to make sure that at least one person receive the alerts as the system may be blocked if the subscription isn't updated in time (see previous chapter). Until an email address is provided, an information banner will be shown in the admin console for users with the [appropriate role](./Gestion_des_entites/Utilisateurs/Les_roles_droits_d_acces_et_d_administration.md):
 
 ![](./La_souscription_BlueMind_attachments/souscription_alerte.png)
 

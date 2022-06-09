@@ -52,7 +52,7 @@ Achtung, dieser Vorgang unterbricht kurzzeitig den Zugriff auf BlueMind und kann
 
 ## Bereitstellung
 
-Der Zugriff auf den Webmail-Test ist [rollenbasiert](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/), d.h. er kann über die Verwaltung der Benutzer- oder Gruppenrollen allen Benutzern oder nur einigen davon ermöglicht werden.
+Der Zugriff auf den Webmail-Test ist [rollenbasiert](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/), d.h. er kann über die Verwaltung der Benutzer- oder Gruppenrollen allen Benutzern oder nur einigen davon ermöglicht werden.
 
 Sobald die entsprechenden Pakete installiert sind, ist eine neue Rolle im Bereich „Messaging“ verfügbar:
 

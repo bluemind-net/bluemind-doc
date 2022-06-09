@@ -35,15 +35,15 @@ Welcome to BlueMind 4, the next-gen messaging and collaboration solution.
 - [Mail](/Guide_de_l_utilisateur/La_messagerie/)
 - [Contacts](/Guide_de_l_utilisateur/Les_contacts/)
 - [Calendar](/Guide_de_l_utilisateur/L_agenda/)
-- [Tasks](/Guide_de_l_utilisateur/Les_tâches/)
+- [Tasks](/Guide_de_l_utilisateur/Les_taches/)
 - [Telephony](/Guide_de_l_utilisateur/La_téléphonie/)
-- [Instant Messaging](/Guide_de_l_utilisateur/La_messagerie_instantanée/)
+- [Instant Messaging](/Guide_de_l_utilisateur/La_messagerie_instantanee/)
 - [User Settings](/Guide_de_l_utilisateur/Paramètres_utilisateur/)
 - [Managing Shares](/Guide_de_l_utilisateur/Gestion_des_partages/)
 - [Resources](/Guide_de_l_utilisateur/Les_ressources/)
 - [Tags](/Guide_de_l_utilisateur/Les_catégories_tags_/)
 - [Configuring Thick Clients](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/)
-- [Synchronizing with mobile phones and tablets](/Guide_de_l_utilisateur/Configuration_des_périphériques_mobiles/)
+- [Synchronizing with mobile phones and tablets](/Guide_de_l_utilisateur/Configuration_des_peripheriques_mobiles/)
 
 
 ##### ![](attachments/57770052/57770053.jpg) [Installation Guide](/Guide_d_installation/)
@@ -64,14 +64,14 @@ Welcome to BlueMind 4, the next-gen messaging and collaboration solution.
 
 - [Product Overview](/Guide_de_l_administrateur/Présentation_du_produit/)
 - [Configuration](/Guide_de_l_administrateur/Configuration/)
-- [Entities](/Guide_de_l_administrateur/Gestion_des_entités/)
+- [Entities](/Guide_de_l_administrateur/Gestion_des_entites/)
 - [Monitoring](/Guide_de_l_administrateur/Supervision/)
 - [Backing up and Restoring Data](/Guide_de_l_administrateur/Sauvegarde_et_restauration/)
-- [BlueMind and Mobility](/Guide_de_l_administrateur/BlueMind_et_mobilité/)
+- [BlueMind and Mobility](/Guide_de_l_administrateur/BlueMind_et_mobilite/)
 - [High Availability and BlueMind](/Guide_de_l_administrateur/Haute_disponibilité_logicielle_et_BlueMind/)
 - [BlueMind Subscription](/Guide_de_l_administrateur/La_souscription_BlueMind/)
-- [Advanced Administration](/Guide_de_l_administrateur/Administration_avancée/)
-- [Troubleshooting](/Guide_de_l_administrateur/Résolution_de_problèmes/)
+- [Advanced Administration](/Guide_de_l_administrateur/Administration_avancee/)
+- [Troubleshooting](/Guide_de_l_administrateur/Resolution_de_problemes/)
 
 
 Find the API documentation at ** [https://forge.bluemind.net/apidoc/](https://forge.bluemind.net/apidoc/) **

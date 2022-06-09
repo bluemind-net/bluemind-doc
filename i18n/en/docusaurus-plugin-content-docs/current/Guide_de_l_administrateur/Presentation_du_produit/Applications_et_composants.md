@@ -20,7 +20,7 @@ Key features include:
 - BlueMind contact and distribution list autocomplete
 - advanced full-text and multifolder search
 
-For more details, see [Discover the mail app](../../Guide_de_l_utilisateur/La_messagerie/Découvrir_la_messagerie.md)
+For more details, see [Discover the mail app](../../Guide_de_l_utilisateur/La_messagerie/Decouvrir_la_messagerie.md)
 
 
 ### Calendar
@@ -32,7 +32,7 @@ The Calendar application includes the following key features:
 - tag management
 - resources management
 
-For more details, see [Discover the calendar app](../../Guide_de_l_utilisateur/L_agenda/Découvrir_l_agenda.md)
+For more details, see [Discover the calendar app](../../Guide_de_l_utilisateur/L_agenda/Decouvrir_l_agenda.md)
 
 
 ### Contacts
@@ -44,13 +44,13 @@ The Contacts application includes the following features:
 - contact list management
 - user contacts and address book management 
 
-For more details, see [Discover the contacts app](../../Guide_de_l_utilisateur/Les_contacts/Découvrir_les_contacts.md)
+For more details, see [Discover the contacts app](../../Guide_de_l_utilisateur/Les_contacts/Decouvrir_les_contacts.md)
 
 ### Settings manager
 
 The settings manager allows users to change personal settings and display preferences.
 
-For more details, see [Set up user account](../../Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur.md)
+For more details, see [Set up user account](../../Guide_de_l_utilisateur/Parametrer_le_compte_utilisateur.md)
 
 ## Administrator applications
 
@@ -150,6 +150,6 @@ This component named YSNP is BlueMind's SASL authentication daemon. It is used f
 
 BlueMind can be enhanced using add-ons or additional programmes which are shared by the community in the [MarketPlace](https://marketplace.bluemind.net/).
 
-To find out more about developing these plugins, please go to the page [Contributing to BlueMind](/Guide_du_développeur/Contribuer_à_BlueMind/).
+To find out more about developing these plugins, please go to the page [Contributing to BlueMind](/Guide_du_developpeur/Contribuer_à_BlueMind/).
 
 

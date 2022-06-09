@@ -52,7 +52,7 @@ Attention, cette opération coupe momentanément l'accès à BlueMind et peut d�
 
 ## Mise à disposition
 
-L'accès au test du webmail est régi par [un rôle](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/), de ce fait il peut être donné à l'ensemble des utilisateurs ou seulement certains via la gestion des rôles d'utilisateurs ou de groupes.
+L'accès au test du webmail est régi par [un rôle](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/), de ce fait il peut être donné à l'ensemble des utilisateurs ou seulement certains via la gestion des rôles d'utilisateurs ou de groupes.
 
 Une fois les paquets dédiés installés, un nouveau rôle est disponible dans la section Messagerie :
 

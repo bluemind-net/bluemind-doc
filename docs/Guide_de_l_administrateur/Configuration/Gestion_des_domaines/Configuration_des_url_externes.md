@@ -63,7 +63,7 @@ L'URL externe ne correspond plus au CN du certificat. Vous devez vous en procure
 
 ### Liens générés de BlueMind
 
-Les liens, en particulier les liens [BlueMind Vidéo](/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/Visioconférences_avec_BlueMind_Video/) générés automatiquement, doivent être modifiés pour toutes les réunions dans le futur. Il est nécessaire d'aller modifier ces événements pour re-générer l'URL du lien.
+Les liens, en particulier les liens [BlueMind Vidéo](/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconférences_avec_BlueMind_Video/) générés automatiquement, doivent être modifiés pour toutes les réunions dans le futur. Il est nécessaire d'aller modifier ces événements pour re-générer l'URL du lien.
 
 Note : cette opération ne peut être faite automatiquement car il est nécessaire que l'événement soit aussi modifié sur les messages tierces externes des autres participants. Une mise à jour de l'événement est donc nécessaire.
 

@@ -15,7 +15,7 @@ Les messages arrivent dans [le dossier](/Guide_de_l_utilisateur/La_messagerie/Or
 
 ## Lire les messages d'une conversation
 
-Lorsque le [mode conversation](Gérer_la_liste_des_messages.md/#gérer-laffichage-de-la-liste-des-messages) est activé, la conversation s'affiche dans [la liste des messages](/Guide_de_l_utilisateur/La_messagerie/Gérer_la_liste_des_messages/) en indiquant le nombre de messages contenus. En cliquant sur la conversation, le fil des messages s'affiche dans la zone principale.
+Lorsque le [mode conversation](Gerer_la_liste_des_messages.md/#gérer-laffichage-de-la-liste-des-messages) est activé, la conversation s'affiche dans [la liste des messages](/Guide_de_l_utilisateur/La_messagerie/Gérer_la_liste_des_messages/) en indiquant le nombre de messages contenus. En cliquant sur la conversation, le fil des messages s'affiche dans la zone principale.
 
 ![](./consulter_les_messages_attachments/messages_conversation.png)
 

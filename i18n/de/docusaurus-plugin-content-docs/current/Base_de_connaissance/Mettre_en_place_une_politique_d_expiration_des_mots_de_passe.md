@@ -37,7 +37,7 @@ Unabhängig davon, ob eine globale Richtlinie erstellt wurde, haben Administrato
 
 Der Administrator kann den Benutzer auch von der globalen Richtlinie ausschließen.
 
-In beiden Fällen muss der Administrator zum [Benutzerstamm des Benutzers](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) in der Administrationskonsole gehen: Verzeichnisse > Verzeichniseinträge > Benutzer auswählen > Registerkarte Wartung :
+In beiden Fällen muss der Administrator zum [Benutzerstamm des Benutzers](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/) in der Administrationskonsole gehen: Verzeichnisse > Verzeichniseinträge > Benutzer auswählen > Registerkarte Wartung :
 
 ![](../attachments/58599264/58599265.png)
 

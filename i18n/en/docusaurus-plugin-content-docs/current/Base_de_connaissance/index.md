@@ -20,7 +20,7 @@ position: 36
 - [Clearing the Client Browser Cache](/Base_de_connaissance/Nettoyage_du_cache_du_navigateur_client/)
 - [Sharing read message status in shared mailboxes](/Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées/)
 - [Custom application logo](/Base_de_connaissance/Personnaliser_le_logo_de_l_application/)
-- [Restoring user or mailshare mailbox contents](/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/)
+- [Restoring user or mailshare mailbox contents](/Base_de_connaissance/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee/)
 - [Restoring a user calendar](/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur/)
 - [Restoring messages deleted by a user](/Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur/)
 - [Retrouver les carnets de domaine dans Outlook](/Base_de_connaissance/Retrouver_les_carnets_de_domaine_dans_Outlook/)

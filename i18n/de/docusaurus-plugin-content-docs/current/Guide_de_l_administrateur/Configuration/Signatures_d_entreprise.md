@@ -217,7 +217,7 @@ Die Variablen **entsprechen den Feldern im Benutzerstammsatz** (ausgefüllt durc
 - #{name.familyNames}: Nachname
 - #{name.additionalNames}: weiterer Name
 - #{email}: E-Mail Adresse
-- #{impp}: Instant MessagingHinweis: Wenn mehrere Instant-Messaging-Felder im [Benutzerstammsatz](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) ausgefüllt sind, wird das erste in der Liste verwendet.
+- #{impp}: Instant MessagingHinweis: Wenn mehrere Instant-Messaging-Felder im [Benutzerstammsatz](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/) ausgefüllt sind, wird das erste in der Liste verwendet.
 - #{{tel.home}: Telefon privat
 - #{tel.work}: Telefon geschäftlich
 - #{{tel.cell}: Mobiltelefon

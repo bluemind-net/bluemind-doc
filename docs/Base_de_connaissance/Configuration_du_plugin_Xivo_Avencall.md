@@ -132,6 +132,6 @@ Les statuts supportés sont :
 Pour en savoir plus sur l'utilisation et l'intégration de la téléphonie au sein de BlueMind, consultez les pages dédiées du guide de l'utilisateur :
 
 - [La téléphonie](/Guide_de_l_utilisateur/La_téléphonie/)
-- [La messagerie instantanée](/Guide_de_l_utilisateur/La_messagerie_instantanée/)
+- [La messagerie instantanée](/Guide_de_l_utilisateur/La_messagerie_instantanee/)
 
 

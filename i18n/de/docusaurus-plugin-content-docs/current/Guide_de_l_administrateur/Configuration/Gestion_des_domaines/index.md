@@ -45,7 +45,7 @@ Als Beispiel ersetzen wir den Wert „Europa/Paris“ durch "Amerika/Toronto":
     - klicken Sie auf das Papierkorbsymbol vor einem Alias, um ihn zu löschen
 - **Maximale Anzahl von Konten:** die maximale Anzahl von Benutzern, die auf dieser Domäne erstellt werden können.Diese Option wird verwendet, um die Domänen zu verteilen und die Anzahl der von einem Abonnement erlaubten Konten zu begrenzen.
 - **Passwortablauf in Tagen:** Legt die Anzahl der Tage für die Gültigkeit des Benutzerpassworts fest, nachdem es vergeben oder geändert wurde.
-Diese Option, die ab Version 4.3 verfügbar ist, gilt für alle Benutzer der Domäne. Dieser Wert kann geändert oder der Passwortablauf für einen Benutzer erzwungen werden, indem Sie zu seinem Verwaltungsdatensatz gehen, weitere Informationen finden Sie auf der Seite [Entitätsverwaltung](/Guide_de_l_administrateur/Gestion_des_entités/) > [Benutzer](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/)
+Diese Option, die ab Version 4.3 verfügbar ist, gilt für alle Benutzer der Domäne. Dieser Wert kann geändert oder der Passwortablauf für einen Benutzer erzwungen werden, indem Sie zu seinem Verwaltungsdatensatz gehen, weitere Informationen finden Sie auf der Seite [Entitätsverwaltung](/Guide_de_l_administrateur/Gestion_des_entites/) > [Benutzer](/Guide_de_l_administrateur/Gestion_des_entites/Utilisateurs/)
 
 
 :::info
@@ -149,6 +149,6 @@ Die Registerkarte „Verzeichnis“ dient zum Einrichten und Verwalten der Synch
 
 ![](../../../attachments/57771276/66096461.png)
 
-Weitere Informationen zur Implementierung der Synchronisierung mit externen Verzeichnissen finden Sie unter [Systemverwaltung > Active Directory-Synchronisierung](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory/) und [Systemverwaltung > LDAP-Synchronisierung](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_LDAP/)
+Weitere Informationen zur Implementierung der Synchronisierung mit externen Verzeichnissen finden Sie unter [Systemverwaltung > Active Directory-Synchronisierung](/Guide_de_l_administrateur/Gestion_des_entites/Synchronisation_Active_Directory/) und [Systemverwaltung > LDAP-Synchronisierung](/Guide_de_l_administrateur/Gestion_des_entites/Synchronisation_LDAP/)
 
 

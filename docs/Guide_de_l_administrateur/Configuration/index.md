@@ -39,9 +39,9 @@ La configuration d'un serveur BlueMind est décrite dans les sections suivantes.
 - [Configuration système](/Guide_de_l_administrateur/Configuration/Configuration_système/)
 - [Ajustement automatique de la mémoire](/Guide_de_l_administrateur/Configuration/Ajustement_automatique_de_la_mémoire/)
 - [Archivage](/Guide_de_l_administrateur/Configuration/Archivage/)
-- [Sécurité](/Guide_de_l_administrateur/Configuration/Sécurité/)
-- [Détachement des pièces jointes](/Guide_de_l_administrateur/Configuration/Détachement_des_pièces_jointes/)
+- [Sécurité](/Guide_de_l_administrateur/Configuration/Securite/)
+- [Détachement des pièces jointes](/Guide_de_l_administrateur/Configuration/Detachement_des_pieces_jointes/)
 - [Signatures d'entreprise](/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise/)
-- [Visioconférence intégrée](/Guide_de_l_administrateur/Configuration/Visioconférence_intégrée/)
+- [Visioconférence intégrée](/Guide_de_l_administrateur/Configuration/Visioconference_integree/)
 
 

@@ -45,7 +45,7 @@ The manager can accept the request from within the booking request email
 The manager can see the resource's event as pending validation
 
 
-4. At this point, there are two possibilities depending on the [booking policy](/Guide_de_l_administrateur/Gestion_des_entités/Ressources/) chosen for the resource:
+4. At this point, there are two possibilities depending on the [booking policy](/Guide_de_l_administrateur/Gestion_des_entites/Ressources/) chosen for the resource:
     1. Auto-accept and reject are both enabled:
         - the resource manager receives a resource booking message
         - if the resource is available, its participation is confirmed
@@ -87,7 +87,7 @@ When you make a reservation, you are warned that the resource is unavailable but
 
 **For resources created prior to this version, **BlueMind's former behavior is applied: the resource manager controls bookings through the resource calendar and chooses to accept requests for a same time slot or not (for resources that can be shared).
 
-To find out more about booking configuration, please go to the chapter concerned: [Guide de l'administrateur > Administration des ressources > Politique de réservation](/Guide_de_l_administrateur/Gestion_des_entités/Ressources/)
+To find out more about booking configuration, please go to the chapter concerned: [Guide de l'administrateur > Administration des ressources > Politique de réservation](/Guide_de_l_administrateur/Gestion_des_entites/Ressources/)
 
 ### User FAQs
 

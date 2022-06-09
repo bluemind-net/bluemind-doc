@@ -117,7 +117,7 @@ So installieren Sie den BlueMind-Connector:
 
 :::info
 
-Falls der Connector nicht in den Downloads angeboten wird, wenden Sie sich bitte an Ihren Systemadministrator, um [ihn zu installieren](/Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds/).
+Falls der Connector nicht in den Downloads angeboten wird, wenden Sie sich bitte an Ihren Systemadministrator, um [ihn zu installieren](/Guide_de_l_administrateur/BlueMind_et_mobilite/Les_connecteurs_BlueMind_pour_clients_lourds/).
 
 :::
 
@@ -153,7 +153,7 @@ Die Schnittstelle sieht genauso aus und funktioniert genauso wie die Verwaltung 
 
 Weitere Erklärungen finden Sie im gewünschten Abschnitt:
 
-- [Einstellungen für das E-Mail-System](/old/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/)
+- [Einstellungen für das E-Mail-System](/old/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/)
 - [Kontakt-Einstellungen](/old/Guide_de_l_utilisateur/Les_contacts/Gestion_des_carnets_d_adresses/)
 - [Kalender-Einstellungen](/old/Guide_de_l_utilisateur/L_agenda/Préférences_de_l_agenda/)
 - [Benutzereinstellungen](/old/Guide_de_l_utilisateur/Paramètres_utilisateur/)
@@ -253,7 +253,7 @@ Wie der Kalender ist auch die Aufgabenverwaltung auf einer separaten Registerkar
 
 ![](../../../attachments/57770889/58599144.png)
 
-Um mehr über die Funktionsweise zu erfahren, können Sie die entsprechende Seite einsehen: [Die Aufgaben](/old/Guide_de_l_utilisateur/Les_tâches/)
+Um mehr über die Funktionsweise zu erfahren, können Sie die entsprechende Seite einsehen: [Die Aufgaben](/old/Guide_de_l_utilisateur/Les_taches/)
 
 ### Kontakte
 

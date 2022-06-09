@@ -19,26 +19,26 @@ Sparen Sie Zeit bei der Fehlersuche und schlagen Sie in den folgenden Abschnitte
 - [Leitfaden für Benutzer](/Guide_de_l_utilisateur/)
 - [Installationsanleitung](/Guide_d_installation/)
 - [Administratorhandbuch](/Guide_de_l_administrateur/)
-- [Leitfaden für Entwickler](/Guide_du_développeur/)
+- [Leitfaden für Entwickler](/Guide_du_developpeur/)
 - [Knowledge Base](/Base_de_connaissance/)
 - [STAGING](/STAGING/)
 - [Suivi de traduction](https://forge.bluemind.net/confluence/display/BM4/.Suivi+de+traduction+vBM-4.0)
 - [Support und Hilfe](/Support_et_demande_d_assistance/)
 
 
-##### ![](attachments/57771961/57771962.jpg) [Fehlersuche](/Guide_de_l_administrateur/Résolution_de_problèmes/)
+##### ![](attachments/57771961/57771962.jpg) [Fehlersuche](/Guide_de_l_administrateur/Resolution_de_problemes/)
 
 
-- [Probleme beim Senden und Empfangen von Nachrichten](/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_d_émission_et_réception_de_messages/)
-- [IMAP-Identifikationsfehler](/Guide_de_l_administrateur/Résolution_de_problèmes/Erreurs_d_identification_IMAP/)
-- [Verschwinden und Änderungen von Terminen](/Guide_de_l_administrateur/Résolution_de_problèmes/Disparitions_et_modifications_d_événements/)
-- [Autodiscover wird von Android-Handys nicht gefunden](/Guide_de_l_administrateur/Résolution_de_problèmes/L_autodiscover_n_est_pas_trouvé_par_les_mobiles_Android/)
-- [AD werden nicht mehr synchronisiert](/Guide_de_l_administrateur/Résolution_de_problèmes/Les_AD_ne_sont_plus_synchronisés/)
-- [Der Server wird zum Versenden von SPAM verwendet](/Guide_de_l_administrateur/Résolution_de_problèmes/Le_serveur_est_utilisé_pour_envoyer_du_SPAM/)
-- [Anhänge können nicht hinzugefügt werden](/Guide_de_l_administrateur/Résolution_de_problèmes/Pièces_jointes_impossible_à_ajouter/)
-- [Probleme bei Suche und Indizierung](/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation/)
-- [Probleme bei der mobilen Synchronisation](/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_synchronisation_mobile/)
-- [Behebung von Fehlern mit Outlook](/Guide_de_l_administrateur/Résolution_de_problèmes/Résolution_des_problèmes_avec_Outlook/)
+- [Probleme beim Senden und Empfangen von Nachrichten](/Guide_de_l_administrateur/Resolution_de_problemes/Problèmes_d_émission_et_réception_de_messages/)
+- [IMAP-Identifikationsfehler](/Guide_de_l_administrateur/Resolution_de_problemes/Erreurs_d_identification_IMAP/)
+- [Verschwinden und Änderungen von Terminen](/Guide_de_l_administrateur/Resolution_de_problemes/Disparitions_et_modifications_d_événements/)
+- [Autodiscover wird von Android-Handys nicht gefunden](/Guide_de_l_administrateur/Resolution_de_problemes/L_autodiscover_n_est_pas_trouvé_par_les_mobiles_Android/)
+- [AD werden nicht mehr synchronisiert](/Guide_de_l_administrateur/Resolution_de_problemes/Les_AD_ne_sont_plus_synchronisés/)
+- [Der Server wird zum Versenden von SPAM verwendet](/Guide_de_l_administrateur/Resolution_de_problemes/Le_serveur_est_utilisé_pour_envoyer_du_SPAM/)
+- [Anhänge können nicht hinzugefügt werden](/Guide_de_l_administrateur/Resolution_de_problemes/Pièces_jointes_impossible_à_ajouter/)
+- [Probleme bei Suche und Indizierung](/Guide_de_l_administrateur/Resolution_de_problemes/Problèmes_de_recherche_et_indexation/)
+- [Probleme bei der mobilen Synchronisation](/Guide_de_l_administrateur/Resolution_de_problemes/Problèmes_de_synchronisation_mobile/)
+- [Behebung von Fehlern mit Outlook](/Guide_de_l_administrateur/Resolution_de_problemes/Résolution_des_problèmes_avec_Outlook/)
 
 
 ##### ![](attachments/57771961/57771962.jpg) [Knowledge Base](/Base_de_connaissance/)
@@ -58,7 +58,7 @@ Sparen Sie Zeit bei der Fehlersuche und schlagen Sie in den folgenden Abschnitte
 - [Bereinigung des Client-Browser-Caches](/Base_de_connaissance/Nettoyage_du_cache_du_navigateur_client/)
 - [Freigabe des Lesestatus von geteilten Posteingängen](/Base_de_connaissance/Partager_le_statut_de_lecture_des_boîtes_partagées/)
 - [Anpassen des Anwendungslogos](/Base_de_connaissance/Personnaliser_le_logo_de_l_application/)
-- [Wiederherstellen des Inhalts eines Benutzer- oder geteilten Posteingangs](/Base_de_connaissance/Restauration_du_contenu_d_une_boîte_utilisateur_ou_partagée/)
+- [Wiederherstellen des Inhalts eines Benutzer- oder geteilten Posteingangs](/Base_de_connaissance/Restauration_du_contenu_d_une_boite_utilisateur_ou_partagee/)
 - [Wiederherstellen des Kalenders eines Benutzers](/Base_de_connaissance/Restaurer_l_agenda_d_un_utilisateur/)
 - [Von einem Benutzer gelöschte Nachrichten wiederherstellen](/Base_de_connaissance/Restaurer_les_messages_supprimés_par_un_utilisateur/)
 - [Abrufen von Domain-Protokollen in Outlook](/Base_de_connaissance/Retrouver_les_carnets_de_domaine_dans_Outlook/)
@@ -83,6 +83,6 @@ Bevor Sie die Hilfe von BlueMind in Anspruch nehmen, stellen Sie sicher, dass Si
 - **Sammeln Sie so viele Details wie möglich über das Problem und die Bedingungen, unter denen es auftritt.**Damit das Support-Team das Problem im Kontext seiner Umgebung verstehen, untersuchen und eventuell reproduzieren kann, müssen der Kontext und die Aktionen, die dazu geführt haben, so genau wie möglich beschrieben werden: betroffene(r) Benutzer, angeklickte Schaltflächen oder Links, in Formularfelder eingegebener Text, Wartezeiten, Wiederholungshäufigkeit usw.
 - **Stellen Sie nützliche Protokolldateien zusammen**:
     - siehe entsprechende Seite, um sie zu identifizieren: [Logs - Protokolldateien](/Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux/)
-    - siehe [Problemlösungsseiten](/Guide_de_l_administrateur/Résolution_de_problèmes/) zu verwandten Themen
+    - siehe [Problemlösungsseiten](/Guide_de_l_administrateur/Resolution_de_problemes/) zu verwandten Themen
 
 

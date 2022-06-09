@@ -10,7 +10,7 @@ position: 54
 
 Ab BlueMind 4.2.4 wurden die Indizierungsaufgaben aus der Planung entfernt, um den Ressourcenverbrauch zu verringern. Diese Aktionen werden jetzt bei Bedarf automatisch vom System ausgeführt und können von einem Administrator über eine spezielle Seite in der Administrationskonsole manuell ausgelöst werden.
 
-Im Leitfaden [Probleme bei Suche und Indizierung](/Guide_de_l_administrateur/Résolution_de_problèmes/Problèmes_de_recherche_et_indexation/) finden Sie Hilfestellungen zur Lösung von Indizierungsproblemen.
+Im Leitfaden [Probleme bei Suche und Indizierung](/Guide_de_l_administrateur/Resolution_de_problemes/Problèmes_de_recherche_et_indexation/) finden Sie Hilfestellungen zur Lösung von Indizierungsproblemen.
 
 
 ## Indizierungsaufgaben durchführen

@@ -93,7 +93,7 @@ Sie müssen sich nur mit Ihrem BlueMind-Konto verbinden und zu Ihrer Kontoverwal
 Weitere Details zum Anmeldeverfahren und dessen Auswirkungen finden Sie auf den entsprechenden Seiten:
 
 - [Geteilte Posteingänge - Abonnements und Software von Drittanbietern](/old/Guide_de_l_utilisateur/La_messagerie/Les_boites_aux_lettres_partagées/#Lesboitesauxlettrespartagees-abonnements)
-- [Einstellungen für das E-Mail-System - Abonnements](/old/Guide_de_l_utilisateur/La_messagerie/Préférences_de_messagerie/#Preferencesdemessagerie-abonnements)
+- [Einstellungen für das E-Mail-System - Abonnements](/old/Guide_de_l_utilisateur/La_messagerie/Preferences_de_messagerie/#Preferencesdemessagerie-abonnements)
 
 
 ## Bekannte Probleme
