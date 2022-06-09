@@ -76,7 +76,7 @@ Thunderbird peut aussi être configuré pour afficher tous les dossiers partagé
 
 - aller dans le menu *Édition* (ou *Outils*) > *Paramètres des comptes*
 
-- aller dans le menu *Paramètre serveur* du compte concerné*
+- aller dans le menu *Paramètre serveur* du compte concerné
 
 - cliquer sur le bouton «*Avancés»*
 
