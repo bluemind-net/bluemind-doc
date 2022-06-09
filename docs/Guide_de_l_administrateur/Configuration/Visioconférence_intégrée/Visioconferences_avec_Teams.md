@@ -75,7 +75,7 @@ New-CsApplicationAccessPolicy -Identity BlueMindTeams-policy -AppIds "APPLICATIO
   - À tous les utilisateurs de l'annuaire
 
 ```
-Get-CsOnlineUser | Grant-CsApplicationAccessPolicy -PolicyName "BlueMindTeams-policy"
+PS C:\> Grant-CsApplicationAccessPolicy -PolicyName "BlueMindTeams-policy" -Global
 ```
 
   - À un utilisateur 
