@@ -1,12 +1,9 @@
 ---
 title: "Mehrdomänen-Mailbox"
 confluence_id: 57771242
-position: 46
+position: 30
 ---
 # Mehrdomänen-Mailbox
-
-
-## Mehrdomänen
 
 BlueMind kann auf derselben Infrastruktur (ein oder mehrere Server, physisch oder virtualisiert) mehrere vollständig partitionierte Mailbox-Systeme hosten. Dieses Prinzip, das als **Mehrdomänen** oder Multi-Tenant bezeichnet wird, kann eingesetzt werden, um mehrere Mailbox-Systeme in Einklang zu bringen oder in Cloud-Infrastrukturen genutzt werden.
 
@@ -47,7 +44,7 @@ In diesen Beispielen können Kalender und Adressbücher für alle oder einige Be
 
 #### Gemeinsame Nutzung individueller Kalender
 
-Die Veröffentlichungsfunktionen der Kalender ermöglichen den Zugriff auf einen BlueMind-Kalender von einer anderen BlueMind-Domäne aus (siehe [Kalender-Freigabe](/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda/)).
+Die Veröffentlichungsfunktionen der Kalender ermöglichen den Zugriff auf einen BlueMind-Kalender von einer anderen BlueMind-Domäne aus (siehe [Kalender-Freigabe](../../Guide_de_l_utilisateur/L_agenda/Partager_un_calendrier.md)
 
 Anwendungsfall: Ein Direktor von zwei Betrieben, die sich auf getrennten Domänen befinden, kann seinen Kalender der ersten Domäne auf der zweiten über die Freigabe seiner Url (öffentlich oder privat) einsehen, er kann sie auch mit seinen Mitarbeitern der einen oder anderen Domäne teilen.
 
@@ -67,18 +64,6 @@ Anwendungsfall: Das Adressbuch der gewählten Vertreter einer Gemeinde wird von 
 
 Der Bereich der Domänenverwaltung ermöglicht dem Administrator den Zugriff auf technische Domäneneinstellungen (Serveradressen, Domänen-Aliasse usw.) sowie auf allgemeine und Standard-Benutzereinstellungen (Adressbücher, Nachrichtenfilter, Speicherquoten, Archivierung usw.).
 
-![](../../attachments/57771242/57771249.png)
+Für weitere Informationen besuchen Sie bitte die Seite [Domänenverwaltung](../../Guide_de_l_administrateur/Configuration/Gestion_des_domaines/index.md)
 
-Für weitere Informationen besuchen Sie bitte die Seite [Domänenverwaltung](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/)
-
-
-Speichern
-
-Speichern
-
-Speichern
-
-Speichern
-
-Speichern
 

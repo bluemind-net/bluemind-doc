@@ -5,7 +5,6 @@ position: 30
 ---
 # BlueMind Subscription
 
-
 ## BlueMind – Open Source Solution and Professional Subscription
 
 ### BlueMind's Open Source Solution
@@ -20,18 +19,17 @@ The professional subscription's software versions are guaranteed and supported b
 
 This professional offering – "BlueMind Subscription" – is the solution you cannot go without to ensure that your system remains operational.
 
-
 ## Subscription contents 
 
 The BlueMind Subscription includes:
 
 - The BlueMind Open Source software in guaranteed, supported versions 
-- [updates](/Guide_d_installation/Mise_à_jour_de_BlueMind/)
+- [updates](../Guide_d_installation/Mise_à_jour_de_BlueMind.md)
 - upgrades (new versions)
 - comprehensive connector-free use of Outlook 
 - a graphical update tool that makes updating and upgrading easy
 - additional components:
-    - an [Active Directory connector](/Guide_de_l_administrateur/Gestion_des_entités/Synchronisation_Active_Directory/)
+    - an [Active Directory connector](./Gestion_des_entités/Synchronisation_Active_Directory.md)
 
 
 :::tip
@@ -48,7 +46,7 @@ The BlueMind Subscription includes identified, vendor-supported versions with up
 
 ### Update tool
 
-BlueMind's update tool is straightforward, secure and fast so that updates not remain virtual and are applied quickly.  
+[BlueMind's update tool](../Guide_d_installation/Mise_à_jour_de_BlueMind.md) is straightforward, secure and fast so that updates not remain virtual and are applied quickly.  
 
 To ensure scalability, subscriptions include a graphical administration tool for software updates and upgrades. The client can decide when to perform updates.
 
@@ -87,7 +85,7 @@ A full-feature, free subscription can be offered to certain audiences such as:
 
 Who is the subscription administrator?
 
-Subscription administrators are the [users who are assigned the role](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/) "Manage the BlueMind subscription"
+Subscription administrators are the [users who are assigned the role](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md) "Manage the BlueMind subscription"
 
 - users without access to the admin console will receive notification emails
 - users with access to the admin console will receive notification emails and will be able to access the page where they will be able to install and update the subscription
@@ -100,7 +98,7 @@ Subscription administrators are the [users who are assigned the role](/Guide_de_
 
 Service continuity
 
-During periods when users are unable to log in, the system continues to work. BlueMind isn't blocked, only access to it is: incoming emails continue to come in and are handled by the server, users will find them in their inbox when they are able to access BlueMind again.
+During periods when users are unable to log in, the system continues to work. **BlueMind isn't blocked, only access to it is**: incoming emails continue to come in and are handled by the server, users will find them in their inbox when they are able to access BlueMind again.
 
 :::
 
@@ -135,7 +133,7 @@ A 10% excess allowance is provided so that administrators can correct the situat
 
 Administrators are informed as follows:
 
-1. **When additional users are created **and until the number of users exceeds the subscription's excess allowance:
+1. **When additional users are created** and until the number of users exceeds the subscription's excess allowance:
     - an information banner appears in their UI, in the admin console as well as other applications (mail, calendar, etc.)
     - a reminder email is sent every 7 days.
 2. **After one month**, if the situation has not been addressed (users deleted or subscription adjusted): 
@@ -150,25 +148,25 @@ Administrators are informed as follows:
 
 When a validity (number or user or date) limit is approaching or has been reached, an alert banner is shown in administrators' or users' UI – as applicable, see previous chapter – and email alerts are sent. 
 
-For this, you ****must** **to have at least one recipient email address filled in in the subscription management page to make sure that at least one person receive the alerts as the system may be blocked if the subscription isn't updated in time (see previous chapter). Until an email address is provided, an information banner will be shown in the admin console for users with the [appropriate role](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration/):
+For this, you **must to have at least one recipient email** address filled in in the subscription management page to make sure that at least one person receive the alerts as the system may be blocked if the subscription isn't updated in time (see previous chapter). Until an email address is provided, an information banner will be shown in the admin console for users with the [appropriate role](./Gestion_des_entités/Utilisateurs/Les_rôles_droits_d_accès_et_d_administration.md):
 
-![](../attachments/57771780/58592994.png)
+![](./La_souscription_BlueMind_attachments/souscription_alerte.png)
 
 Clicking the text in the banner takes you directly to the subscription management page. In that page, a warning is displayed as well as a box for you to add an email address:
 
-![](../attachments/57771780/58592986.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification1.png)
 
-To add an email address, simply type it in the box and click the ![](../attachments/57771780/58592988.png) button:
+To add an email address, simply type it in the box and click the ![](./La_souscription_BlueMind_attachments/souscription_icone_plus.png) button:
 
-![](../attachments/57771780/58592992.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification2.png)
 
 The email is added immediately and the warning disappears:
 
-![](../attachments/57771780/58592985.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification3.png)
 
 Repeat this process for as many email addresses as you need:
 
-![](../attachments/57771780/58592984.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification3.png)
 
 
 :::info
@@ -181,9 +179,9 @@ For this reason, it is always preferable to have at least one internal recipient
 
 :::
 
-You can remove email addresses at any time by clicking the ![](../attachments/57771780/58592987.png) button next to it:
+You can remove email addresses at any time by clicking the ![]![](./La_souscription_BlueMind_attachments/souscription_icone_moins.png) button next to it:
 
-![](../attachments/57771780/58592989.png)
+![](./La_souscription_BlueMind_attachments/souscription_email_notification5.png)
 
 No need to confirm or save, all changes are effective immediately.
 

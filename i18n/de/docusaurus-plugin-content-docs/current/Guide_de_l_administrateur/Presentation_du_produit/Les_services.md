@@ -1,15 +1,15 @@
 ---
 title: "Die Dienste"
 confluence_id: 57771259
-position: 48
+position: 40
 ---
 # Die Dienste
 
+Liste der von BlueMind verwendeten Dienste, Pakete, Daten und Protokolle
 
 ## Dienstarchitektur
 
-![](../../attachments/57771259/58592713.png)
-
+![](./Les_services_attachments/58592713.png)
 
 - BM-Core ist die Kernkomponente von BlueMind. Es handelt sich um die zentrale Verwaltungsstelle für Daten und Geschäftsregeln. Als einzige Komponente greift sie auf die Datenbank zu.
 
@@ -17,17 +17,7 @@ position: 48
 
 - Alle Komponenten, ob intern oder extern, nutzen die Webdienste. Dies hat den Vorteil, dass die Ströme zu und von der BlueMind Mailbox (die auf Webdienste und Malbox-Ströme beschränkt sind) eingeschränkt werden und die Verwendung homogener Verwaltungsregeln unabhängig vom Eintrittspunkt einer Änderung sichergestellt wird.
 
-
-| 
- | 
-| 
- | ![](../../attachments/57771259/58592712.png) |
- | 
- | 
- | ![](../../attachments/57771259/58592712.png) |
-| 
- | ![](../../attachments/57771259/58592712.png) |
-
+![](./Les_services_attachments/58592712.png)
 
 ## Mit BlueMind gelieferte Pakete
 
@@ -39,9 +29,7 @@ Die Befehle aptitude([Debian](https://wiki.debian.org/fr/Aptitude)/[Ubuntu](http
 
 | Dienst | Verwendung |
 | --- | --- |
-| 
-net.bluemind.eas.push
- | Synchronisation von mobilen Geräten über das Exchange Active Sync-Protokoll |
+| net.bluemind.eas.push | Synchronisation von mobilen Geräten über das Exchange Active Sync-Protokoll |
 | net.bluemind.dav.server.dav | cardDav- und CalDav-Synchronisation von Apple-Clients |
 | net.bluemind.milter.milter | Milter Dienst |
 | net.bluemind.xmpp.server.launcher.tigase | Instant Messaging |
@@ -56,15 +44,9 @@ net.bluemind.eas.push
 | net.bluemind.ysnp.ysnp | SMTP- und IMAP-Authentifizierung |
 | net.bluemind.lmtp | lokaler Mailweiterleitungsdienst |
 | postgresql | Datenbank |
-| postfix | 
-Mailbox-Server
- |
-| 
-nginx
- | HTTP-Proxy + IMAP |
-| 
-php-fpm
- | PHP-Interpreter für Webanwendungen (Webmailer) |
+| postfix | Mailbox-Server |
+| nginx | HTTP-Proxy + IMAP|
+| php-fpm | PHP-Interpreter für Webanwendungen (Webmailer) |
 | cyrus (imapd und pop3d) | Dienst für die imap- und pop-Synchronisation der Mailbox-Software anderer Hersteller (heavy oder mobil) |
 
 ## Von BlueMind verwendete Daten
@@ -73,7 +55,6 @@ php-fpm
 
 - /var/backups/bluemind
 
-
 ### /etc
 
 Die in `/etc/` befindlichen Dateien und Verzeichnisse enthalten die Konfigurationen der von BlueMind verwendeten Komponenten:
@@ -81,26 +62,14 @@ Die in `/etc/` befindlichen Dateien und Verzeichnisse enthalten die Konfiguratio
 | Datei/Verzeichnis | Inhalt |
 | --- | --- |
 | 
-bm
- | bm.ini, die Zertifikate und ssh-Schlüssel von bm-node. |
-| 
-bm-node
- | rsync.excludes |
+bm | bm.ini, die Zertifikate und ssh-Schlüssel von bm-node. |
+| bm-node | rsync.excludes |
 | bm-webmail | Konfiguration von php5-fpm für BlueMind und nginx-webmail.conf |
 | cyrus.conf | Cyrus-Konfiguration |
 | imapd.conf | IMAP-Konfiguration (generiert von bm-core) |
 | nginx | nginx-Konfiguration |
 | php5 | php5-Konfiguration |
-| postfix | 
-Postfix-Konfiguration, einschließlich Transport-Maps
-
-
-:::info
-
-Zusätzliche Postfix-Karten können hinzugefügt werden, aber unter keinen Umständen dürfen bestehende, von BlueMind verwendete Karten entfernt oder verändert werden.
-
-:::
- |
+| postfix | Postfix-Konfiguration, einschließlich Transport-Maps :warning: Zusätzliche Postfix-Karten können hinzugefügt werden, aber unter keinen Umständen dürfen bestehende, von BlueMind verwendete Karten entfernt oder verändert werden.|
 | postgresql | postgresql-Konfiguration |
 
 ### /usr/share
@@ -116,17 +85,13 @@ Die Unterverzeichnisse von `/var/spool/` enthalten die von BlueMind verwendeten 
 
 | Verzeichnis | Daten | Speichertyp |
 | --- | --- | --- |
-| 
-bm-docs
- | BlueMind-Dokumente (Anwender-/Ressourcenfotos) | alle |
+| bm-docs | BlueMind-Dokumente (Anwender-/Ressourcenfotos) | alle |
 | bm-elasticsearch | ElasticSearch-Index | Block Device |
 | bm-hsm | archivierte E-Mails | alle |
 | bm-filehosting | Abgetrennte E-Mail-Anlagen | alle |
 | cyrus/daten | E-Mails | alle |
 | cyrus/meta | E-Mail-Metadaten | Block Device |
-| postfix | 
-Postfix-Warteschlangen
- | alle |
+| postfix | Postfix-Warteschlangen | alle |
 | sieve | Sieve-Skript | alle |
 | bluemind-pkgs | Installationsdaten von BlueMind - werden bei der Installation und solange Sie kein Abonnement haben, verwendet | alle |
 
@@ -136,9 +101,7 @@ Die Daten in `/var/lib/` sollten nicht manuell geändert werden:
 
 | Verzeichnis | Inhalt |
 | --- | --- |
-| 
-bm-ca
- | bei der Installation erzeugte Zertifizierungsstelle |
+| bm-ca | bei der Installation erzeugte Zertifizierungsstelle |
 | postgresql | postgresql-Datenbank |
 | cyrus | administrative Informationen von Cyrus - Liste der BALs, ACLs, Quoten, verwendete Kontingente |
 
@@ -148,27 +111,13 @@ Die Größe bestimmter Dateien kann wie folgt geschätzt werden:
 
 | Datei | Geschätzte Größe |
 | --- | --- |
-| 
-/var/spool/bm-elasticsearch
- | 
-~10% von /var/spool/cyrus/data + /var/spool/bm-hsm
- | 
-**Die Größe der Partition muss MINDESTENS das 2-fache des enthaltenen Datenvolumens betragen.**
- | 
-Im Idealfall wird dieser Ordner ausgelagert und in 2 getrennte Partitionen aufgeteilt, die die gleiche Größenbeschränkung einhalten:
- | 
-- /var/spool/bm-elasticsearch/data
-- /var/spool/bm-elasticsearch/repo
-
- |
+| /var/spool/bm-elasticsearch | ~10% von /var/spool/cyrus/data + /var/spool/bm-hsm **Die Größe der Partition muss MINDESTENS das 2-fache des enthaltenen Datenvolumens betragen.** Im Idealfall wird dieser Ordner ausgelagert und in 2 getrennte Partitionen aufgeteilt, die die gleiche Größenbeschränkung einhalten: /var/spool/bm-elasticsearch/data und /var/spool/bm-elasticsearch/repo |
 | /var/spool/cyrus/meta | ~10% von /var/spool/cyrus/data + /var/spool/bm-hsm |
 | /var/spool/sieve | ~1MB/(Benutzer+E-Mail-Freigabe) |
 
 | Datei | Montageart | Geschätzte Größe |
 | --- | --- | --- |
-| 
-/var/lib/cyrus
- | Block Device | ~10GB |
+| /var/lib/cyrus | Block Device | ~10GB |
 | /var/lib/postgresql | Block Device | ~20GB |
 
 
@@ -184,9 +133,7 @@ Die Protokolle werden in die Unterverzeichnisse des Verzeichnisses `/var/log/` g
 
 | Verzeichnis | Inhalt |
 | --- | --- |
-| 
-bm
- | Core Protokolle |
+| bm | Core Protokolle |
 | bm-elasticsearch | Elasticsearch-Protokolle |
 | bm-hps | HPS-Protokolle |
 | bm-lmtpd | LMTP-Dienst-Protokolle |
@@ -209,22 +156,6 @@ Für sonstige Komponenten, deren Überwachung möglich ist, können die folgende
 | bm-php5-fpm/ | FPM-Protokolle (/var/log/bm-php-fpm/ auf RedHat) |
 | postgresql/ | PostgreSQL-Protokolle |
 
-Weitere Details finden Sie auf der entsprechenden Seite [Logs - Protokolldateien](/Guide_de_l_administrateur/Supervision/Logs_Fichiers_journaux/)
-
-Speichern
-
-Speichern
-
-Speichern
-
-Speichern
-
-Speichern
-
-Speichern
-
-Speichern
-
-Speichern
+Weitere Details finden Sie auf der entsprechenden Seite [Logs - Protokolldateien](./../Supervision/Logs_Fichiers_journaux.md)
 
 

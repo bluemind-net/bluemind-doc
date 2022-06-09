@@ -1,36 +1,24 @@
 ---
 title: "Multi-domain Messaging"
 confluence_id: 57771242
-position: 46
+position: 30
 ---
 # Multi-domain Messaging
 
-
-## Multiple domains
-
 BlueMind can host several, fully-partitioned, mail services on a single infrastructure (one or several servers, physical or virtual). This principle, called **multi-domain** or multi-tenant, can be used in cloud infrastructures or simply to have several mail services coexist.
 
-Although, technically, this **multi-domain infrastructure **is the same as a single installation,** **functionally, each domain in this infrastructure must be viewed as a distinct mail service, i.e. independent and isolated from other domains.
+Although, technically, this **multi-domain infrastructure** is the same as a single installation, functionally, each domain in this infrastructure must be viewed as a distinct mail service, i.e. independent and isolated from other domains.
 
 
 ## Domains and domain aliases
 
-A **domain** is identified by its **main domain name **(e.g. [mail.bluemind.net](http://mail.bluemind.net)).
+A **domain** is identified by its **main domain name** (e.g. [mail.bluemind.net](http://mail.bluemind.net)).
 
 Each domain can have several aliases: these are other domain or sub-domain names (e.g. [webmail.bluemind.net](http://webmail.bluemind.net) or [mail.bluemind.fr](http://mail.bluemind.fr)) that are hosted on the same domain. In this case, mail services are not partitioned.
 These domains can:
 
 - serve as aliases, each user can exist in one or several domain alias(es) (meaning users can receive messages through one or several of these domains in which their address has been defined)
 - serve as distinct mail services, but that aren't completely partitioned. This means, for example, that two companies with the same director can have a single mail service and the director has an account in both domains. That way he has a single calendar which he can share with users in either domain. In this configuration, all users have an email in the main domain.
-
-
-### Sub-domains
-
-For BlueMind, sub-domains are just like any other domain. They can therefore be used as:
-
-- domain aliases
-- mail domains
-
 
 ### Selection criteria in multi-domain architectures
 
@@ -55,7 +43,7 @@ In the following examples, calendars and address books can be made visible to al
 
 #### Sharing individual calendars
 
-External calendar sharing functionalities allow users to access BlueMind calendars from other BlueMind domains (see [Sharing Calendars](/Guide_de_l_utilisateur/L_agenda/Le_partage_d_agenda/)).
+External calendar sharing functionalities allow users to access BlueMind calendars from other BlueMind domains (see [Sharing Calendars](../../Guide_de_l_utilisateur/L_agenda/Partager_un_calendrier.md)).
 
 Example of use: the director of two organisations on separate domains can view his calendar from the first domain on the second one by sharing its url (public or private). He can also share it with employees from either organisation.
 
@@ -75,12 +63,6 @@ Example of use: the address book of local government officials is maintained fro
 
 The domain administration section gives you access to technical domain settings (server addresses, domain aliases, etc.) as well as default user settings (address books, message filters, storage quotas, archiving, etc.).
 
-![](../../attachments/57771242/57771258.png)
+To learn more, please go to [Managing Domains](../../Guide_de_l_administrateur/Configuration/Gestion_des_domaines/index.md)
 
-To learn more, please go to [Managing Domains](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/)
-
-
-Enregistrer
-
-Enregistrer
 

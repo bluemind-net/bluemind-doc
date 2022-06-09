@@ -63,7 +63,7 @@ L'Installation Wizard ne permet pas de réaliser une mise à jour d'un système 
 
 :::
 
-![](../../attachments/57771225/57771240.png)
+![](./Applications_et_composants_attachments/install_wizard.png)
 
 ### Setup Wizard
 
@@ -71,7 +71,7 @@ L'application Setup Wizard (SW) est un assistant d'installation et de mise à jo
 
 Fourni par la [souscription BlueMind](https://www.bluemind.net/acheter/), l'application Setup Wizard, en plus des mêmes actions que l'application Installation Wizard, permet de mettre à jour une installation déjà existante de BlueMind, y compris dans un environnement distribué et lors de changements de version majeure.
 
-![](../../attachments/57771225/57771241.png)
+![](./Applications_et_composants_attachments/setup_wizard.png)
 
 ## Les composants serveur
 

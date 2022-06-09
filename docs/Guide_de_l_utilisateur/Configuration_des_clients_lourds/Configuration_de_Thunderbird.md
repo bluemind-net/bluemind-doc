@@ -101,7 +101,7 @@ L'action de glisser un mail avec la souris vers cette boîte **déplace** le mai
 
 ## Le connecteur BlueMind
 
-Le connecteur fourni par BlueMind permet la synchronisation de l'agenda et des carnets d'adresses de BlueMind avec Thunderbird. Il permet aussi l'accès à la gestion des tâches et au [détachement des pièces jointes volumineuses](../La_messagerie/Ajouter_des_pi%C3%A8ces_jointes.md) lors de la rédaction de messages.
+Le connecteur fourni par BlueMind permet la synchronisation de l'agenda et des carnets d'adresses de BlueMind avec Thunderbird. Il permet aussi l'accès à la gestion des tâches et au [détachement des pièces jointes volumineuses](../La_messagerie/Ajouter_des_pièces_jointes.md) lors de la rédaction de messages.
 
 ### Installation du connecteur
 
@@ -112,7 +112,7 @@ Pour installer le connecteur BlueMind :
 
 :::info
 
-Si le connecteur n'est pas proposé dans les téléchargements, veuillez vous rapprocher de votre administrateur système afin qu'il procède à [son installation](/Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds/).
+Si le connecteur n'est pas proposé dans les téléchargements, veuillez vous rapprocher de votre administrateur système afin qu'il procède à [son installation](../../Guide_de_l_administrateur/BlueMind_et_mobilité/Les_connecteurs_BlueMind_pour_clients_lourds.md)
 
 :::
 
@@ -147,7 +147,7 @@ L'interface se présente et fonctionne alors exactement de la même façon que l
 
 ### Détachement des pièces jointes
 
-Une fois le connecteur installé, la fonctionnalité de [détachement des pièces jointes](../La_messagerie/Ajouter_des_pi%C3%A8ces_jointes.md) est directement accessible dans la fenêtre de rédaction d'un message.
+Une fois le connecteur installé, la fonctionnalité de [détachement des pièces jointes](../La_messagerie/Ajouter_des_pièces_jointes.md) est directement accessible dans la fenêtre de rédaction d'un message.
 
 #### Fonctionnement de base
 
@@ -284,7 +284,7 @@ Pour plus d'informations, consultez la page [Utiliser un carnet d'adresses parta
 
 ### Signature d'entreprise
 
-Si une [signature d'entreprise](/Guide_de_l_administrateur/Configuration/Signatures_d_entreprise/) est paramétrée, elle sera automatiquement ajoutée à la fin du message par le serveur après son envoi.
+Si une [signature d'entreprise](../../Guide_de_l_administrateur/Configuration/Signatures_d_entreprise.md) est paramétrée, elle sera automatiquement ajoutée à la fin du message par le serveur après son envoi.
 
 Un aperçu est proposé dans la fenêtre de rédaction afin que l'utilisateur puisse voir qu'une signature sera présente et laquelle si plusieurs signatures sont paramétrées (signature interne, externe, pour un groupe, etc.) :
 

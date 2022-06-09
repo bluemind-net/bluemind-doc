@@ -5,6 +5,7 @@ position: 90
 ---
 # Implementing MAPI for Outlook
 
+A [subscription](./La_souscription_BlueMind.md) is required to benefit from this feature.
 
 ## Introduction
 
@@ -28,9 +29,17 @@ We recommend that you work on virtual machines and use snapshots so that you can
 
 ## Compatibility
 
+### Outlook for Mac
+
 As communication protocols vary, BlueMind only supports versions of Outlook **for Windows**.
 
 **BlueMind is unable to guarantee compatibility with Outlook for MacOS versions.**
+
+### Outlook for Windows
+
+Check the support of your versions of Outlook in our page [Compatibility](../FAQ_Foire_aux_questions_/Compatibilité.md)
+
+## Features
 
 ### Inbox sub-folders
 
@@ -51,14 +60,14 @@ To prevent this, you can move virtual folders outside the inbox **before migrati
 
 ### Attachments to calendar events
 
-In addition to the [BlueMind Calendar](/Guide_de_l_utilisateur/L_agenda/) application, version 4.1 allows you to attach files to diary events from Outlook.
+In addition to the [BlueMind Calendar](../Guide_de_l_utilisateur/L_agenda/Créer_un_évènement.md) application, version 4.1 allows you to attach files to diary events from Outlook.
 
 ## Prerequisites
 
 1. Having [BlueMind version 4.0](https://download.bluemind.net/bm-download/4.0) installed
 2. You must be able to access the following BlueMind addresses via HTTPS from client workstations:
-    - external server url (e.g. **[https://mail.bluemind.loc](https://mail.bluemind.loc)  ** )
-    - *autodiscover* url - typically replacing the first part of the external url by "`autodiscover`" (e.g. **[https://autodiscover.bluemind.loc](https://autodiscover.bluemind.loc)  ** ) which must also point to the BlueMind external-url
+    - *external server url* (e.g. *[https://mail.bluemind.loc](https://mail.bluemind.loc)* )
+    - *autodiscover* url - typically replacing the first part of the external url by "`autodiscover`" (e.g. *[https://autodiscover.bluemind.loc](https://autodiscover.bluemind.loc)* ) which must also point to the BlueMind external-url
 
 
 :::tip
@@ -82,28 +91,14 @@ Find out who you can quickly set up an evaluation environment in our blog articl
 
 :::
 
-Everything must be installed ****before you create the users who will be using Outlook****:
+Everything must be installed **before you create the users who will be using Outlook**:
 
 - [Deploy the subscription](/Guide_d_installation/Mise_en_œuvre_de_la_souscription/)
 - Install the required packages:
 
-
-**
-Debian/Ubuntu
-
-
-**
-RedHat/CentOS
-
-
-```
-$ aptitude install bm-mapi
-```
-
-
-```
-$ yum install bm-mapi
-```
+| Debian/Ubuntu | RedHat/CentOS |
+| -- | -- |
+| $ aptitude install bm-mapi | $ yum install bm-mapi |
 
 
 *Note: BlueMind doesn't have to be restarted*

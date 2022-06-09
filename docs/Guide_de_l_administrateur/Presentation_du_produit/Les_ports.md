@@ -16,8 +16,8 @@ Liste des ports sortants et internes de BlueMind
 | facultatif | 110 | PLAIN/TLS | Accès POP pour les clients lourds - déconseillé |
 | facultatif | 143 | PLAIN/TLS | Accès IMAP pour les clients lourds |
 | **obligatoire** | 443 | SSL | Accès à BlueMind |
-| facultatif | 465 | SSL | Envoi des mails depuis les clients lourds - Authentification SMTP obligatoire - Il est préférable d'utiliser ce port plutôt que le 25 pour la configuration des clients lourds - ![](../../attachments/57770017/66096241.png) à partir de BlueMind 4.4 le port utilise un protocole TLS v1.2 minimum |
-| facultatif | 587 | TLS | Envoi des mails depuis les clients lourds - Authentification SMTP obligatoire - Il est préférable d'utiliser ce port plutôt que le 25 pour la configuration des clients lourds - ![](../../attachments/57770017/66096241.png) à partir de BlueMind 4.4 le port utilise un protocole TLS v1.2 minimum |
+| facultatif | 465 | SSL | Envoi des mails depuis les clients lourds - Authentification SMTP obligatoire - Il est préférable d'utiliser ce port plutôt que le 25 pour la configuration des clients lourds - À partir de BlueMind 4.4 le port utilise un protocole TLS v1.2 minimum |
+| facultatif | 587 | TLS | Envoi des mails depuis les clients lourds - Authentification SMTP obligatoire - Il est préférable d'utiliser ce port plutôt que le 25 pour la configuration des clients lourds - À partir de BlueMind 4.4 le port utilise un protocole TLS v1.2 minimum |
 | facultatif | 993 | SSL | Accès IMAP pour les clients lourds |
 | facultatif | 995 | SSL | Accès POP pour les clients lourds - déconseillé |
 | facultatif | 5222 | PLAIN/TLS | Accès à l'IM pour les clients lourds |

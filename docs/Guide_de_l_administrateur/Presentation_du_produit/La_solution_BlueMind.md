@@ -17,7 +17,7 @@ BlueMind supporte en particulier les navigateurs :
 - Internet Explorer à partir de la version 11
 - Safari à partir de la version 5.
 
-![](../../attachments/57771222/57771223.png)
+![](./La_solution_BlueMind_attachments/57771223.png)
 
 #### Interfaces utilisateurs Full JavaScript
 

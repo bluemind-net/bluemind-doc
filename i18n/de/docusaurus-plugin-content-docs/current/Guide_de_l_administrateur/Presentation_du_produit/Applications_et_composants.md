@@ -1,7 +1,7 @@
 ---
 title: "Anwendungen und Komponenten"
 confluence_id: 57771225
-position: 44
+position: 20
 ---
 # Anwendungen und Komponenten
 
@@ -19,8 +19,7 @@ Die wichtigsten Merkmale sind:
 - Autovervollständigung von BlueMind-Kontakten und Verteilerlisten
 - erweiterte Volltext- und Multi-Ordner-Suche
 
-
-![](../../attachments/57771225/57771230.png)
+Weitere Einzelheiten finden Sie unter [Messaging entdecken](../../Guide_de_l_utilisateur/La_messagerie/Découvrir_la_messagerie.md)
 
 ### Kalender
 
@@ -31,8 +30,7 @@ Eine der Hauptfunktionen der Kalenderanwendung ist:
 - Verwaltung von Tags
 - Ressourcenverwaltung
 
-
-![](../../attachments/57771225/57771234.png)
+Weitere Einzelheiten finden Sie unter [Kalender entdecken](../../Guide_de_l_utilisateur/L_agenda/Découvrir_l_agenda.md)
 
 ### Kontakte
 
@@ -43,23 +41,13 @@ Die Kontaktverwaltungsanwendung verfügt unter anderem über die Funktionen:
 - Verwaltung von Kontaktlisten
 - Verwaltung der Kontakte und Adressbücher des Benutzers
 
-
-![](../../attachments/57771225/57771232.png)
+Weitere Einzelheiten finden Sie unter [Kontakte entdecken](../../Guide_de_l_utilisateur/Les_contacts/Découvrir_les_contacts.md)
 
 ### Einstellungen und Voreinstellungen
 
 Die Anwendung Verwaltung von Einstellungen und Voreinstellungen ermöglicht es dem Benutzer, seine persönlichen Vorlieben für die Einstellung und Anzeige von BlueMind zu ändern.
 
-Sie kann durch Klicken auf das Schraubenschlüssel-Symbol in der oberen rechten Ecke des Fensters aufgerufen werden:
-
-
-![](../../attachments/57770060/57770071.png)
-
-
-Accéder à la gestion des préférences de Blue Mind
-
-
-![](../../attachments/57770769/62555169.png)
+For more details, see [Einrichten des Benutzerkontos](../../Guide_de_l_utilisateur/Paramétrer_le_compte_utilisateur.md)
 
 ## Die Anwendungen des Administrators
 
@@ -72,7 +60,7 @@ Mit der Anwendung Installationsassistent (IW) können Sie BlueMind auf einem neu
 Mit dem Installationsassistenten kann das BlueMind-System nicht aktualisiert werden. Nur der Einrichtungsassistent ermöglicht diesen Schritt.
 :::
 
-![](../../attachments/57771225/57771240.png)
+![](./Applications_et_composants_attachments/install_wizard.png)
 
 ### Einrichtungsassistent
 
@@ -80,7 +68,7 @@ Die Anwendung Einrichtungsassistent (SW) ist ein Assistent für die Installation
 
 Die im Rahmen des [BlueMind-Abonnements](http://www.blue-mind.net/solutions/article/solution-professionnelle) bereitgestellte Anwendung Einrichtungsassistent ermöglicht zusätzlich zu mit denen der Anwendung Installationsassistent identischen Aktionen die Aktualisierung einer bereits vorhandenen BlueMind-Installation, auch in einer verteilten Umgebung und bei Hauptversionsänderungen.
 
-![](../../attachments/57771225/57771241.png)
+![](./Applications_et_composants_attachments/setup_wizard.png)
 
 ## Server-Komponenten
 

@@ -43,7 +43,7 @@ In BlueMind-Versionen 4.0.x sind die von Outlook unter dem Posteingang angelegte
 
 Aktualisierung von 4.0.x auf 4.x
 
-****Achtung:**** Bei einer Aktualisierung von BlueMind 4.0.x auf 4.1 oder höher werden die virtuellen Ordner nicht migriert und gelöscht.
+**Achtung:** Bei einer Aktualisierung von BlueMind 4.0.x auf 4.1 oder höher werden die virtuellen Ordner nicht migriert und gelöscht.
 
 Um sich davor zu schützen, können diese virtuellen Ordner **vor dem** Update aus dem Posteingang verschoben werden, so dass sie erhalten bleiben, dann wieder in den Posteingang zurückkehren und als E-Mail-Ordner neu erstellt werden.
 
@@ -51,14 +51,14 @@ Um sich davor zu schützen, können diese virtuellen Ordner **vor dem** Update a
 
 ### Anhänge zu Terminplaner-Terminen
 
-Zusätzlich zur  [BlueMind Online-Terminplaner-Anwendung](/Guide_de_l_utilisateur/L_agenda/Les_événements/) können Sie mit Version 4.1 Dateien an Kalendertermin aus Outlook anhängen.
+Zusätzlich zur  [BlueMind Online-Terminplaner-Anwendung](../Guide_de_l_utilisateur/L_agenda/Créer_un_évènement.md) können Sie mit Version 4.1 Dateien an Kalendertermin aus Outlook anhängen.
 
 ## Voraussetzungen
 
 1. [BlueMind](https://download.bluemind.net/bm-download/4.0) ist in [Version 4.0](https://download.bluemind.net/bm-download/4.0)installiert
 2. Die folgenden BlueMind-Adressen müssen in HTTPS von den Client-Arbeitsstationen aus erreichbar sein:
-    - externe url (*external-url*) des Servers (z.B. **  [https://mail.bluemind.loc](https://mail.bluemind.loc)  **)
-    - *autodiscover* url – wird normalerweise gebildet, indem der 1. Teil der externen url durch das Schlüsselwort "`autodiscover`" ersetzt wird (zum Beispiel **[https://autodiscover.bluemind.loc](https://autodiscover.bluemind.loc))**, das ebenfalls auf die external-url von BlueMind zeigen muss
+    - externe url (*external-url*) des Servers (z.B. *[https://mail.bluemind.loc](https://mail.bluemind.loc)*)
+    - *autodiscover* url – wird normalerweise gebildet, indem der 1. Teil der externen url durch das Schlüsselwort "`autodiscover`" ersetzt wird (zum Beispiel *[https://autodiscover.bluemind.loc](https://autodiscover.bluemind.loc))*, das ebenfalls auf die external-url von BlueMind zeigen muss
 
 
 :::info
@@ -84,33 +84,18 @@ Für eine schnelle Implementierung einer Evaluierungsumgebung können Sie den fo
 
 Die Installation muss durchgeführt werden,** **bevor Sie die Benutzer anlegen, die Outlook verwenden werden****:
 
-- [Das Abonnement verfügbar machen](/Guide_d_installation/Mise_en_œuvre_de_la_souscription/)
+- [Das Abonnement verfügbar machen](../Guide_d_installation/Mise_en_œuvre_de_la_souscription.md)
 - Installieren Sie die notwendigen Pakete:
 
-
-**
-Debian/Ubuntu
-
-
-**
-RedHat/CentOS
-
-
-```
-$ aptitude install bm-mapi
-```
-
-
-```
-$ yum install bm-mapi
-```
-
+| Debian/Ubuntu | RedHat/CentOS |
+| -- | -- |
+| $ aptitude install bm-mapi | $ yum install bm-mapi |
 
 *Hinweis: Ein Neustart von BlueMind ist nicht erforderlich*
 
-- Melden Sie sich in der BlueMind-Administrationskonsole an und [erstellen Sie Benutzer,](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) **indem Sie ihnen eine E-Mail-Adresse zuweisen**.
+- Melden Sie sich in der BlueMind-Administrationskonsole an und [erstellen Sie Benutzer,](./Gestion_des_entités/Utilisateurs/index.md) **indem Sie ihnen eine E-Mail-Adresse zuweisen**.
 
 
-Die folgende Seite enthält eine Konfigurationsanleitung für Geräte mit Outlook: [Synchronisation mit Outlook](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/)
+Die folgende Seite enthält eine Konfigurationsanleitung für Geräte mit Outlook: [Synchronisation mit Outlook](../Guide_de_l_utilisateur/../old/Guide_de_l_utilisateur/Configuration_des_clients_lourds/index.md)
 
 

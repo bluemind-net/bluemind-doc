@@ -56,7 +56,7 @@ Dans les versions 4.0.x de BlueMind (4.0.x), les dossiers créés sous la boîte
 
 Mise à jour 4.0.x vers 4.x
 
-**Attention :** dans le cadre d'une mise à jour de BlueMind 4.0.x vers 4.1 ou supérieure, les dossiers virtuels ne seront pas migrés et seront supprimés.
+**Attention** : dans le cadre d'une mise à jour de BlueMind 4.0.x vers 4.1 ou supérieure, les dossiers virtuels ne seront pas migrés et seront supprimés.
 
 Pour se prémunir de cela, il est possible de déplacer ces dossiers virtuels en dehors de la boîte de réception **avant la mise à jour** de façon à les conserver, ils pourront ensuite y être remis et seront recréés en tant que dossiers de messagerie.
 
@@ -64,7 +64,7 @@ Pour se prémunir de cela, il est possible de déplacer ces dossiers virtuels en
 
 ### Pièces jointes aux événements d'agenda
 
-Parallèlement à [l'application d'Agenda en ligne](../Guide_de_l_utilisateur/L_agenda/Créer_un_évènement.md/#ajouter-des-pièces-jointes) de BlueMind, la version 4.1 permet de joindre des fichiers aux événements d'agenda depuis Outlook.
+Parallèlement à [l'application d'Agenda en ligne](../Guide_de_l_utilisateur/L_agenda/Créer_un_évènement.md) de BlueMind, la version 4.1 permet de joindre des fichiers aux événements d'agenda depuis Outlook.
 
 ## Pré-requis
 
@@ -115,9 +115,9 @@ L'installation doit être réalisée **avant de créer les utilisateurs qui util
 
 *NB : le redémarrage de BlueMind n'est pas nécessaire*
 
-- Se connecter à la console d'administration de BlueMind et [créer les utilisateurs](/Guide_de_l_administrateur/Gestion_des_entités/Utilisateurs/) **en leur affectant une adresse email**.
+- Se connecter à la console d'administration de BlueMind et [créer les utilisateurs](./Gestion_des_entités/Utilisateurs/index.md) **en leur affectant une adresse email**.
 
 
-Dès lors, vous pouvez vous référer à la page suivante afin de configurer les postes Outlook : [Synchronisation avec Outlook](/Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook/)
+Dès lors, vous pouvez vous référer à la page suivante afin de configurer les postes Outlook : [Synchronisation avec Outlook](../Guide_de_l_utilisateur/Configuration_des_clients_lourds/Synchronisation_avec_Outlook.md)
 
 
