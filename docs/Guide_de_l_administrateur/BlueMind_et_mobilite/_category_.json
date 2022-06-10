@@ -2,6 +2,7 @@
   position: 48,
   label: "BlueMind et mobilité",
   "link": {
-    "type": "generated-index"   
+    "type": "generated-index",
+    "description": "Paramétrez et gérez votre solution BlueMind."
   }
 }
