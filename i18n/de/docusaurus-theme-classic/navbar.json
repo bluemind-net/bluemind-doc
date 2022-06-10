@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "BlueMind Doc",
+    "description": "The title in the navbar"
+  },
+  "item.label.Documentation BlueMind 4": {
+    "message": "Documentation BlueMind 4",
+    "description": "Navbar item with label Documentation BlueMind 4"
+  }
+}
