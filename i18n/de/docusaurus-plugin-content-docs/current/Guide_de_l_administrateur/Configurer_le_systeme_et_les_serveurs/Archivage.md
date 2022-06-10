@@ -5,9 +5,6 @@ position: 60
 ---
 # Archivierung
 
-
-## Präsentation
-
 In BlueMind ist ein zentrales Archivierungssystem integriert. Speicherserver können entlastet werden, indem ein Teil der E-Mails an einem anderen Installationspunkt mit geringeren Speicherkosten gespeichert wird.
 
 Die BlueMind-Archivierung arbeitet serverseitig: Sie ermöglicht die Zentralisierung der Archive auf einem einzigen Server, im Gegensatz zu den mit Outlook erzeugten PST-Archiven, die auf den Arbeitsplätzen der Anwender verbleiben und daher gesichert werden müssen.

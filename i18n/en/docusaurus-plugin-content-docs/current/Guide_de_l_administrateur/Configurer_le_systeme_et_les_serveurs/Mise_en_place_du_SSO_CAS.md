@@ -1,12 +1,9 @@
 ---
 title: "SSO CAS"
 confluence_id: 57771293
-position: 62
+position: 30
 ---
 # SSO CAS
-
-
-## Introduction
 
 This article describes how to configure BlueMind to recognize CAS authentication.
 
@@ -31,7 +28,7 @@ CAS authentication is suitable for a single-server BlueMind installation.
 
 1. The client requests access to a protected resource (e.g. BlueMind). This client is not authenticated on the CAS server.
 2. The server redirects the client to the CAS server for **authentication**.
-3. Once authenticated, a **CAS cookie **is placed in the client's web browser and the client is redirected to the protected resource with a** ticket for validation**.
+3. Once authenticated, a **CAS cookie** is placed in the client's web browser and the client is redirected to the protected resource with a **ticket for validation**.
 4. The BlueMind server sees this ticket and **checks its authenticity with the CAS server.** If authentication is successful, the server allows the client in and connects it as **login_cas** and places a **BlueMind cookie** in the client's web browser.
 5. The client requests access to the BlueMind server again. As it has the BlueMind cookie, it is authenticated automatically as long as the cookie is valid.
 
@@ -67,19 +64,17 @@ bmctl restart
 ## Configuration
 
 1. You need to be connected as **admin0 **and go to System Management > System Configuration > **Authentication **tab.
-2. Select **CAS** as authentication mode from the drop-down menu and complete the related authentication settings:![](../../../../attachments/57771293/57771297.png)
+2. Select **CAS** as authentication mode from the drop-down menu and complete the related authentication settings:
+   ![](../../attachments/57771293/57771297.png)
 3. Save changes.
 4. Restart the bm-hps service.
 
 
 :::info
 
-Once CAS authentication is enabled, you will be automatically redirected to the CAS server when you access the authentication page. If you want to connect as **admin0** or to another domain, go to the page: https://bm.domain.tld**/native**
+Once CAS authentication is enabled, you will be automatically redirected to the CAS server when you access the authentication page. If you want to connect as **admin0** or to another domain, go to the page: https://bm.domain.tld/**native**
 
 **This access always remains reachable in case of configuration problem to be able to access to the administration console to correct it.
-
-
-**
 
 :::
 
@@ -87,7 +82,7 @@ Once CAS authentication is enabled, you will be automatically redirected to the 
 
 ### Error 403: Your user account does not exist in this BlueMind.
 
-![](../../../../attachments/57771293/57771296.png)
+![](../../attachments/57771293/57771296.png)
 
 This error message means that the username entered to authenticate on the CAS does not exist in the domain *domain.tld*. You have two options:
 
@@ -121,11 +116,3 @@ For more information
 [http://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html](http://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html)
 
  
-
- 
-
-
- 
-
-Enregistrer
-

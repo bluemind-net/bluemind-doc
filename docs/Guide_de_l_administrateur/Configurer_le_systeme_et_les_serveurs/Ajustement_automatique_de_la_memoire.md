@@ -1,15 +1,11 @@
 ---
 title: "Ajustement automatique de la mémoire"
 confluence_id: 57771328
-sidebar_position: 58
+sidebar_position: 50
 ---
 # Ajustement automatique de la mémoire
 
-
-## Présentation
-
 La mémoire par défaut des composants java est réajustée automatiquement lors du démarrage de BlueMind.
-
 
 ## Fonctionnement
 
@@ -49,25 +45,18 @@ Le calcul effectué est le suivant :
 > 
 > Dans notre exemple précédent le *spare* est donc de 3063Mo :
 > 
-> 
-> 
 > ```
 > 2014-06-12 20:16:42,792 [main] n.b.p.PimpMyRam INFO - 3063MB will be distributed between JVMs
 > ```
 > 
 > 
-
-
 La redistribution se fait à partir d'un fichier de règles, *rules.json*. Les règles que contient le fichier *rules.json* par défaut peuvent être surchargées par l'administrateur.
 
 ## Paramétrage
 
 Afin de personnaliser les règles d'attribution de la mémoire a démarrage de BlueMind, créer un fichier */etc/bm/local/rules.json* afin d'y inscrire les règles à appliquer par produit.
 
-Exemple de fichier rules.json :*
-
-
-*
+Exemple de fichier rules.json :
 
 
 ```

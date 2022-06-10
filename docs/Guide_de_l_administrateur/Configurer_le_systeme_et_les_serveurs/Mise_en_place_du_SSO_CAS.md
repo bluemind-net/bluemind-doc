@@ -1,10 +1,9 @@
 ---
-title: "Mise en place du SSO CAS"
+title: "Méthode d'authentification : Mise en place du SSO CAS"
 confluence_id: 57771293
-sidebar_position: 62
+sidebar_position: 30
 ---
-# Mise en place du SSO CAS
-
+# Méthode d'authentification : Mise en place du SSO CAS
 
 Ce document a pour but de décrire la mise en place de la reconnaissance par BlueMind de l'authentification CAS.
 
@@ -27,8 +26,8 @@ En version 4, l'authentification CAS n'est possible que pour une installation Bl
 
 1. Le client demande l'accès à une ressource protégée (par exemple BlueMind). Il n'est pas authentifié sur le CAS.
 2. Le serveur le redirige vers le serveur CAS pour qu'il **s'authentifie**.
-3. Une fois authentifié, **un cookie CAS **est posé dans le navigateur du client et il est redirigé vers la ressource protégée avec un **ticket à valider**.
-4. Le serveur BlueMind voit ce ticket, **demande au serveur CAS s'il est valide**, et si c'est le cas laisse passer le client et le connecte en tant que **login_cas**. Il pose un **cookie** ** BlueMind** dans son navigateur.
+3. Une fois authentifié, **un cookie CAS** est posé dans le navigateur du client et il est redirigé vers la ressource protégée avec un **ticket à valider**.
+4. Le serveur BlueMind voit ce ticket, **demande au serveur CAS s'il est valide**, et si c'est le cas laisse passer le client et le connecte en tant que **login_cas**. Il pose un **cookie BlueMind** dans son navigateur.
 5. Le client demande à nouveau l'accès au serveur BlueMind, comme il possède le cookie BlueMind il est automatiquement authentifié tant que ce cookie est valide.
 
 Pour avoir plus d'informations
@@ -62,7 +61,8 @@ bmctl restart
 ## Configuration
 
 1. Connecté en tant qu'**admin0**, se rendre sur Gestion du système > Configuration système > onglet **Authentification**.
-2. Sélectionner le mode d'authentification **CAS** dans le menu déroulant et renseigner les champs associés : ![](../../../../attachments/57771293/57771298.png)
+2. Sélectionner le mode d'authentification **CAS** dans le menu déroulant et renseigner les champs associés : 
+![](../../attachments/57771293/57771298.png)
 3. Sauvegarder les modifications.
 4. Redémarrer le service bm-hps.
 
@@ -71,10 +71,7 @@ bmctl restart
 
 Une fois l'authentification CAS activée, vous serez automatiquement redirigé vers le serveur CAS lors de l'accès à la page d'authentification. Si vous voulez vous connecter en **admin0** ou sur un autre domaine, allez sur la page : http://bm.domain.tld**/native**
 
-**Cet accès reste toujours disponible en cas de problème de configuration, afin de vous permettre d'accéder à la console pour corriger celle-ci.
-
-
- **
+Cet accès reste toujours disponible en cas de problème de configuration, afin de vous permettre d'accéder à la console pour corriger celle-ci.
 
 :::
 
@@ -82,7 +79,7 @@ Une fois l'authentification CAS activée, vous serez automatiquement redirigé v
 
 ### Erreur 403 : Your user account does not exist in this BlueMind.
 
-![](../../../../attachments/57771293/57771296.png)
+![](../../attachments/57771293/57771296.png)
 
 Ce message d'erreur signifie que le login avec lequel l'utilisateur s'est authentifié sur le CAS n'existe pas dans le domaine *domain.tld*. Deux solutions se présentent à vous :
 
@@ -92,7 +89,7 @@ Ce message d'erreur signifie que le login avec lequel l'utilisateur s'est authen
 
 ### Erreur 500 : Internal Server Error
 
-Ce message d'erreur peut provenir de plusieurs sources. Le plus simple est d'aller voir sur votre serveur les **logs** **de HPS**, en utilisant par exemple la commande suivante :
+Ce message d'erreur peut provenir de plusieurs sources. Le plus simple est d'aller voir sur votre serveur les **logs de HPS**, en utilisant par exemple la commande suivante :
 
 
 ```

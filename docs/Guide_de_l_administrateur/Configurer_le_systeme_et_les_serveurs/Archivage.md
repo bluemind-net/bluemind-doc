@@ -5,9 +5,6 @@ sidebar_position: 60
 ---
 # Stockage hiérarchisé
 
-
-## Présentation
-
 BlueMind intègre un mécanisme de stockage hiérarchisé (HSM pour Hierarchical Stockage Management). Celui-ci permet de répartir les messages sur plusieurs serveurs de stockage, généralement avec des performances et pour un coût différents.
 
 Le stockage hiérarchisé BlueMind, à la différences des archives PST par exemple, est géré coté serveur : il permet de centraliser la gestion des mails coté serveur (les archives PST générées avec Outlook restent quant à elles sur les postes des utilisateurs et doivent donc être sauvegardées).

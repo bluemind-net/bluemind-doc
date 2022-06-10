@@ -1,7 +1,7 @@
 ---
 title: "Systemkonfiguration"
 confluence_id: 57771321
-position: 56
+position: 10
 ---
 # Systemkonfiguration
 
@@ -60,7 +60,7 @@ Die Einheit MiB (MebiByte) ist ein Vielfaches des Bytes (Oktett), die von MB (Me
 
 ### Cyrus
 
-- **Max child** Dieses Feld definiert die maximale Anzahl von IMAP-Prozessen, die Cyrus starten kann, standardmäßig sind es 200.Es kann sinnvoll oder sogar notwendig sein, diesen Wert zu erhöhen, insbesondere bei [Identifikationsproblemen](/Guide_de_l_administrateur/Resolution_de_problemes/Erreurs_d_identification_IMAP/).Normalerweise kommen auf 50 gleichzeitig gestartete Fat Clients etwa 100 Prozesse bzw. zu startende Prozesse.
+- **Max child** Dieses Feld definiert die maximale Anzahl von IMAP-Prozessen, die Cyrus starten kann, standardmäßig sind es 200.Es kann sinnvoll oder sogar notwendig sein, diesen Wert zu erhöhen, insbesondere bei [Identifikationsproblemen](./../Resolution_de_problemes/Erreurs_d_identification_IMAP.md). Normalerweise kommen auf 50 gleichzeitig gestartete Fat Clients etwa 100 Prozesse bzw. zu startende Prozesse.
 - **Aufbewahrungszeit der zu bereinigenden E-Mails (Tage)** Anzahl der Tage, die Nachrichten nach dem Löschen durch den Benutzer (direktes vollständiges Löschen oder geleerter Papierkorb) auf dem Server verbleiben. Während dieser Zeit können vom Benutzer gelöschte E-Mails jederzeit wiederhergestellt werden.
 
 
@@ -75,11 +75,11 @@ In einer Dropdown-Liste können Sie die Art der Archivierung auswählen:
 
 ## Proxy-Server
 
-![](../../attachments/57771321/66096470.png)Auf der Registerkarte "Proxyserver" kann der Administrator Ngninx und einen Proxyserver einrichten.
+![](../../attachments/57771321/66096470.png) Auf der Registerkarte "Proxyserver" kann der Administrator Ngninx und einen Proxyserver einrichten.
 
 ### Nginx
 
-- **das Passwort des Überwachungs- und Installationsassistenten einstellen, ** , das von BlueMind [während der Installation automatisch festgelegt wird](/Guide_d_installation/Configuration_post_installation/), es ist das Passwort für den Zugriff auf die [Aktualisierungsschnittstelle](/Guide_d_installation/Mise_à_jour_de_BlueMind/).
+- **das Passwort des Überwachungs- und Installationsassistenten einstellen**, das von BlueMind [während der Installation automatisch festgelegt wird](../../Guide_d_installation/Configuration_post_installation.md), es ist das Passwort für den Zugriff auf die [Aktualisierungsschnittstelle](../../Guide_d_installation/Mise_a_jour_de_BlueMind.md).
 
 
 :::tip
@@ -140,8 +140,16 @@ In dieser Registerkarte können Sie definieren:
 - Die **Maximale Anzahl von HPS-Sitzungen pro Benutzer**: die Anzahl der gleichzeitigen Verbindungen zum selben Konto von mehreren verschiedenen Arbeitsplätzen/Browsern (mobile Geräte, die sich über EAS verbinden, zählen nicht).Dieser Wert ist insbesondere bei Verwaltungskonten sinnvoll, die von mehreren Personen gemeinsam genutzt werden (z. B. Kontakt- oder Administrationsbenutzerkonto).
 - **Die Art der Benutzerauthentifizierung**:
     - Intern
-    - [SSO CAS-Authentifizierung](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_methodes_d_authentification/Mise_en_place_du_SSO_CAS/)
-    - [Kerberos SSO-Authentifizierung](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_methodes_d_authentification/Mise_en_place_du_SSO_Kerberos/)
+    - [SSO CAS-Authentifizierung](./Mise_en_place_du_SSO_CAS.md)
+    - [Kerberos SSO-Authentifizierung](./Mise_en_place_du_SSO_Kerberos.md)
+
+:::info
+
+BlueMind integriert eine Benutzerbasis, die Passwörter enthält, wenn sie nicht mit einer externen Benutzerbasis synchronisiert wird. Die Authentifizierung wird dann eigenständig und vollständig von BlueMind verwaltet.
+
+BlueMind verwaltet die Verbindung zu [externem LDAP](./../Gestion_des_entites/Synchronisation_Active_Directory.md) und [Active Directory](./../Gestion_des_entites/Synchronisation_Active_Directory.md). In diesem Fall werden die Authentifizierungen gesichert an diese Verzeichnisse delegiert, ohne dass BlueMind die Passwörter kennt. Weitere Informationen zur Verbindung mit externen Verzeichnissen finden Sie auf den entsprechenden Dokumentationsseiten.
+
+:::
 
 
 ## Filehosting
@@ -155,7 +163,7 @@ Diese Registerkarte legt die Standardwerte für **neu erstellte Domänen** fest,
 - **Maximale Größe einer abgetrennten Anlage (MiB)**: maximal zulässige Dateigröße
 Dies ist die zulässige Größe **pro Datei**, so dass mehrere Dateien, deren Gesamtgröße die Schwellen überschreiten, an die gleiche Nachricht angehängt und von ihr abgetrennt werden können, solange jede von ihnen den Schwellenwert einhält.
 
-- **Filehosting-Dateisicherung**: Wenn dieses Kontrollkästchen aktiviert ist, wird der Speicherordner auf dem Server in die [BlueMind-Sicherungsaufgaben](https://forge.bluemind.net/confluence/display/BM4/Sauvegarde+et+restauration) integriert
+- **Filehosting-Dateisicherung**: Wenn dieses Kontrollkästchen aktiviert ist, wird der Speicherordner auf dem Server in die [BlueMind-Sicherungsaufgaben](./../Sauvegarde_et_restauration/index.md) integriert
 
 
 :::info

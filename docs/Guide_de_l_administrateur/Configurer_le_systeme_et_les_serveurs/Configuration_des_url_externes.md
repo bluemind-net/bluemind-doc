@@ -1,12 +1,12 @@
 ---
 title: "Configuration des url externes"
 confluence_id: 79863716
-sidebar_position: 58
+sidebar_position: 70
 ---
 # Configuration des url externes
 
 
-Les URL externes dans BlueMind sont les adresses URL auxquelles l'utilisateur accède au serveur BlueMind et à ses domaines de messagerie. Ainsi, dans une installation multi-domaines (voir ...), il est possible depuis la version 4.7 de BlueMind de définir pour chacun d'eux une URL externe propre.
+Les URL externes dans BlueMind sont les adresses URL auxquelles l'utilisateur accède au serveur BlueMind et à ses domaines de messagerie. Ainsi, dans une [installation multi-domaines](./../Presentation_du_produit/Messagerie_multi_domaines.md), il est possible depuis la version 4.7 de BlueMind de définir pour chacun d'eux une URL externe propre.
 
 Cette page décrit la configuration des URL externes pour chacun des domaines d'une part et de façon globale, au niveau serveur, d'autre part.
 
@@ -38,7 +38,7 @@ Il s'agit de la configuration pour le serveur BlueMind. Cette configuration est 
 - Enregistrer les modifications
 
 
-![](../../../attachments/79863716/79863719.png)
+![](../../attachments/79863716/79863719.png)
 
 
 ## Configuration de domaine
@@ -50,7 +50,7 @@ Il s'agit de la configuration pour le serveur BlueMind. Cette configuration est 
 - Enregistrer les modifications
 
 
-![](../../../attachments/79863716/79863718.png)
+![](../../attachments/79863716/79863718.png)
 
 
 ## Conséquences du changement d'URL externe
@@ -63,7 +63,7 @@ L'URL externe ne correspond plus au CN du certificat. Vous devez vous en procure
 
 ### Liens générés de BlueMind
 
-Les liens, en particulier les liens [BlueMind Vidéo](/Guide_de_l_administrateur/Configuration/Visioconference_integree/Visioconférences_avec_BlueMind_Video/) générés automatiquement, doivent être modifiés pour toutes les réunions dans le futur. Il est nécessaire d'aller modifier ces événements pour re-générer l'URL du lien.
+Les liens, en particulier les liens [BlueMind Vidéo](./../Configuration/Visioconference_integree/Visioconferences_avec_BlueMind_Video.md) générés automatiquement, doivent être modifiés pour toutes les réunions dans le futur. Il est nécessaire d'aller modifier ces événements pour re-générer l'URL du lien.
 
 Note : cette opération ne peut être faite automatiquement car il est nécessaire que l'événement soit aussi modifié sur les messages tierces externes des autres participants. Une mise à jour de l'événement est donc nécessaire.
 
