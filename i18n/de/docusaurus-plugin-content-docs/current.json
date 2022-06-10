@@ -1,1 +1,178 @@
-{"sidebar.bmdocs.category.Guide de l'administrateur": {"message": "Administratorhandbuch"}, "sidebar.bmdocs.category.STAGING": {"message": "STAGING"}, "sidebar.bmdocs.category.Gestion des entités": {"message": "Verwaltung der Entitäten"}, "sidebar.bmdocs.category.Préférences de messagerie": {"message": "Einstellungen für das E-Mail-System"}, "sidebar.bmdocs.category.Détachement des pièces jointes": {"message": "Abtrennen von Anlagen"}, "sidebar.bmdocs.category.Guide d'installation": {"message": "Installationsanleitung"}, "sidebar.bmdocs.category.La visioconférence 4.7": {"message": "La visioconférence 4.7"}, "sidebar.bmdocs.category.Les contacts 4.7": {"message": "Les contacts 4.7"}, "sidebar.bmdocs.category.Présentation du produit": {"message": "Produktpräsentation"}, "sidebar.bmdocs.category.Configuration de l'environnement de développement": {"message": "Konfiguration der Entwicklungsumgebung"}, "sidebar.bmdocs.category.Administration avancée": {"message": "Erweiterte Verwaltung"}, "sidebar.bmdocs.category.Synchronisation avec iOS": {"message": "Synchronisation mit iOS"}, "sidebar.bmdocs.category.L'agenda 4.7": {"message": "L'agenda 4.7"}, "sidebar.bmdocs.category.Les tâches 4.7": {"message": "Les tâches 4.7"}, "sidebar.bmdocs.category.Installation": {"message": "Installation"}, "sidebar.bmdocs.category.Synchronisation avec Windows Phone": {"message": "Synchronisation mit Windows Phone"}, "sidebar.bmdocs.category.Visioconférence intégrée": {"message": "Visioconférence intégrée"}, "sidebar.bmdocs.category.Configuration des périphériques mobiles": {"message": "Konfiguration der Mobilgeräte"}, "sidebar.bmdocs.category.La souscription BlueMind": {"message": "Das BlueMind-Abonnement"}, "sidebar.bmdocs.category.BlueMind et mobilité": {"message": "BlueMind und Mobilität"}, "sidebar.bmdocs.category.Base de connaissance": {"message": "Knowledge Base"}, "sidebar.bmdocs.category.Synchronisation avec Blackberry": {"message": "Synchronisation mit Blackberry"}, "sidebar.bmdocs.category.Monitoring Bm-Tick": {"message": "Bm-Tick-Monitoring"}, "sidebar.bmdocs.category.Sécurité": {"message": "Sicherheit"}, "sidebar.bmdocs.category.Sauvegarde et restauration": {"message": "Backup und Wiederherstellung"}, "sidebar.bmdocs.category.Restauration unitaire - Navigation DataProtect": {"message": "Einheit wiederherstellen - DataProtect-Navigation"}, "sidebar.bmdocs.category.La messagerie": {"message": "E-Mail-System"}, "sidebar.bmdocs.category.Guide de l'utilisateur 4.7": {"message": "Guide de l'utilisateur 4.7"}, "sidebar.bmdocs.category.Premiers pas avec BlueMind": {"message": "Erste Schritte mit BlueMind"}, "sidebar.bmdocs.category.Guide du développeur": {"message": "Leitfaden für Entwickler"}, "sidebar.bmdocs.category.La messagerie 4.7": {"message": "La messagerie 4.7"}, "sidebar.bmdocs.category.Configuration des applications Apple": {"message": "Konfiguration der Apple-Anwendungen"}, "sidebar.bmdocs.category.FAQ (Foire aux questions)": {"message": "FAQ (Häufig gestellte Fragen)"}, "sidebar.bmdocs.category.Supervision": {"message": "Überwachung"}, "sidebar.bmdocs.category.L'agenda": {"message": "Kalender"}, "sidebar.bmdocs.category.Résolution de problèmes": {"message": "Fehlersuche"}, "sidebar.bmdocs.category.Utilisateurs": {"message": "Benutzer"}, "sidebar.bmdocs.category.La messagerie instantanée": {"message": "Instant Messaging"}, "sidebar.bmdocs.category.Messagerie BlueMind": {"message": "BlueMind-Mail"}, "sidebar.bmdocs.category.API BlueMind": {"message": "BlueMind-API"}, "sidebar.bmdocs.category.Guide de l'utilisateur": {"message": "Leitfaden für Benutzer"}, "sidebar.bmdocs.category.Restauration du contenu d'une boîte utilisateur ou partagée": {"message": "Wiederherstellen des Inhalts eines Benutzer- oder geteilten Posteingangs"}, "sidebar.bmdocs.category.Gestion des domaines": {"message": "Domänenverwaltung"}, "sidebar.bmdocs.category.Les contacts": {"message": "Kontakte"}, "sidebar.bmdocs.category.Configuration des clients lourds": {"message": "Fat-Client-Konfiguration"}, "sidebar.bmdocs.category.Synchronisation avec Android": {"message": "Synchronisation mit Android"}, "sidebar.bmdocs.category.Configuration": {"message": "Konfiguration"}, "sidebar.bmdocs.category.Les tâches": {"message": "Die Aufgaben"}, "sidebar.bmdocs.category.Les méthodes d'authentification": {"message": "Authentifizierungsmethoden"}}
+{
+  "sidebar.bmdocs.category.Guide de l'administrateur": {
+    "message": "Administratorhandbuch",
+    "description": "The label for category Guide de l'administrateur in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Gestion des entités": {
+    "message": "Verwaltung der Entitäten",
+    "description": "The label for category Gestion des entités in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Préférences de messagerie": {
+    "message": "Einstellungen für das E-Mail-System",
+    "description": "The label for category Préférences de messagerie in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Détachement des pièces jointes": {
+    "message": "Abtrennen von Anlagen",
+    "description": "The label for category Détachement des pièces jointes in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Guide d'installation": {
+    "message": "Installationsanleitung",
+    "description": "The label for category Guide d'installation in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Présentation du produit": {
+    "message": "Produktpräsentation",
+    "description": "The label for category Présentation du produit in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Configuration de l'environnement de développement": {
+    "message": "Konfiguration der Entwicklungsumgebung",
+    "description": "The label for category Configuration de l'environnement de développement in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Administration avancée": {
+    "message": "Erweiterte Verwaltung",
+    "description": "The label for category Administration avancée in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Installation": {
+    "message": "Installation",
+    "description": "The label for category Installation in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Visioconférence intégrée": {
+    "message": "Visioconférence intégrée",
+    "description": "The label for category Visioconférence intégrée in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Configuration des périphériques mobiles": {
+    "message": "Konfiguration der Mobilgeräte",
+    "description": "The label for category Configuration des périphériques mobiles in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.BlueMind et mobilité": {
+    "message": "BlueMind und Mobilität",
+    "description": "The label for category BlueMind et mobilité in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Base de connaissance": {
+    "message": "Knowledge Base",
+    "description": "The label for category Base de connaissance in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Monitoring Bm-Tick": {
+    "message": "Bm-Tick-Monitoring",
+    "description": "The label for category Monitoring Bm-Tick in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Sécurité": {
+    "message": "Sicherheit",
+    "description": "The label for category Sécurité in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Sauvegarde et restauration": {
+    "message": "Backup und Wiederherstellung",
+    "description": "The label for category Sauvegarde et restauration in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Restauration unitaire - Navigation DataProtect": {
+    "message": "Einheit wiederherstellen - DataProtect-Navigation",
+    "description": "The label for category Restauration unitaire - Navigation DataProtect in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.La messagerie": {
+    "message": "E-Mail-System",
+    "description": "The label for category La messagerie in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Premiers pas avec BlueMind": {
+    "message": "Erste Schritte mit BlueMind",
+    "description": "The label for category Premiers pas avec BlueMind in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Guide du développeur": {
+    "message": "Leitfaden für Entwickler",
+    "description": "The label for category Guide du développeur in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.FAQ (Foire aux questions)": {
+    "message": "FAQ (Häufig gestellte Fragen)",
+    "description": "The label for category FAQ (Foire aux questions) in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Supervision": {
+    "message": "Überwachung",
+    "description": "The label for category Supervision in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.L'agenda": {
+    "message": "Kalender",
+    "description": "The label for category L'agenda in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Résolution de problèmes": {
+    "message": "Fehlersuche",
+    "description": "The label for category Résolution de problèmes in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Utilisateurs": {
+    "message": "Benutzer",
+    "description": "The label for category Utilisateurs in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.La messagerie instantanée": {
+    "message": "Instant Messaging",
+    "description": "The label for category La messagerie instantanée in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Messagerie BlueMind": {
+    "message": "BlueMind-Mail",
+    "description": "The label for category Messagerie BlueMind in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.API BlueMind": {
+    "message": "BlueMind-API",
+    "description": "The label for category API BlueMind in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Guide de l'utilisateur": {
+    "message": "Leitfaden für Benutzer",
+    "description": "The label for category Guide de l'utilisateur in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Restauration du contenu d'une boîte utilisateur ou partagée": {
+    "message": "Wiederherstellen des Inhalts eines Benutzer- oder geteilten Posteingangs",
+    "description": "The label for category Restauration du contenu d'une boîte utilisateur ou partagée in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Les contacts": {
+    "message": "Kontakte",
+    "description": "The label for category Les contacts in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Configuration des clients lourds": {
+    "message": "Fat-Client-Konfiguration",
+    "description": "The label for category Configuration des clients lourds in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Configuration": {
+    "message": "Konfiguration",
+    "description": "The label for category Configuration in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Les tâches": {
+    "message": "Die Aufgaben",
+    "description": "The label for category Les tâches in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Premiers pas avec BlueMind.link.generated-index.description": {
+    "message": "Découvrez les bases du fonctionnement de BlueMind.",
+    "description": "The generated-index page description for category Premiers pas avec BlueMind in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Guide de l'utilisateur.link.generated-index.description": {
+    "message": "Découvrez toutes les fonctionnalités de la solution BlueMind.",
+    "description": "The generated-index page description for category Guide de l'utilisateur in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.La visioconférence": {
+    "message": "La visioconférence",
+    "description": "The label for category La visioconférence in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Guide de l'administrateur.link.generated-index.description": {
+    "message": "Paramétrez et gérez votre solution BlueMind.",
+    "description": "The generated-index page description for category Guide de l'administrateur in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Présentation du produit.link.generated-index.description": {
+    "message": "Découvrez les fonctionnalités de la solution BlueMind.",
+    "description": "The generated-index page description for category Présentation du produit in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Configurer le système et les serveurs": {
+    "message": "Configurer le système et les serveurs",
+    "description": "The label for category Configurer le système et les serveurs in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.Configurer le système et les serveurs.link.generated-index.description": {
+    "message": "Configurer le système et les serveurs de votre solution BlueMind.",
+    "description": "The generated-index page description for category Configurer le système et les serveurs in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.BlueMind et mobilité.link.generated-index.description": {
+    "message": "Paramétrez et gérez votre solution BlueMind.",
+    "description": "The generated-index page description for category BlueMind et mobilité in sidebar bmdocs"
+  },
+  "sidebar.bmdocs.category.old": {
+    "message": "old",
+    "description": "The label for category old in sidebar bmdocs"
+  },
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  }
+}
