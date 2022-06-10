@@ -1,12 +1,9 @@
 ---
 title: "Implementierung des SSO Kerberos"
 confluence_id: 57771301
-position: 64
+position: 40
 ---
 # Implementierung des SSO Kerberos
-
-
-## Präsentation
 
 Dieses Dokument beschreibt die Implementierung von BlueMinds Erkennung der Kerberos-Authentifizierung in einer Windows-Infrastruktur.
 
@@ -27,33 +24,27 @@ Die Domäne, in der sich diese Rechner befinden, ist *DOMAIN.TLD*.
 Installieren Sie das dedizierte Paket auf dem Server:
 
 
-**
-Ubuntu/Debian
-
-
-**
-RedHat/CentOS
-
-
+**Ubuntu/Debian**
+```
 aptitude install bm-plugin-hps-kerberos
+```
 
+**RedHat/CentOS**
 
+```
 yum install bm-plugin-hps-kerberos
-
+```
 
 ## Vorbereitung der Anmeldeinformationen
 
 1. Erstellen Sie einen Dienstbenutzer für die Kerberos Authentifizierung in ActiveDirectory. Zum Beispiel *bmkrb* mit dem Passwort „krbpwd“
 2. Starten Sie eine Konsole „cmd.exe“ und führen Sie den folgenden Befehl aus:
 
-
 ```
 setspn -A HTTP/bluemind.domain.tld bmkrb
 ```
 
-
 3. Der Befehl sollte ein Ergebnis liefern, das den folgenden Zeilen entspricht: 
-
 
 ```
 Registering ServicePrincipalNames for CN=bmkrb,CN=Users,DC=domain,DC=tld
@@ -61,17 +52,13 @@ Registering ServicePrincipalNames for CN=bmkrb,CN=Users,DC=domain,DC=tld
 Updated object
 ```
 
-
 4. Führen Sie dann den folgenden Befehl aus:
-
 
 ```
 ktpass /out C:\hps.keytab /mapuser bmkrb@DOMAIN.TLD /princ HTTP/bluemind.domain.tld@DOMAIN.TLD /pass krbpwd /kvno 0 /ptype KRB5\_NT\_PRINCIPAL
 ```
 
-
 5. Das Ergebnis sollte wie die folgenden Zeilen aussehen:
-
 
 ```
 Targeting domain controller: AD.domain.tld
@@ -79,22 +66,21 @@ Using legacy password setting method
 Successfully mapped HTTP/bluemind.domain.tld to bmkrb.
 Output keytab to C:\hps.keytab
 ```
-
-
 ## Von der Administrationsschnittstelle aus
 
 1. Navigieren Sie **in admin0 **auf die Seite: Systemverwaltung -> Systemkonfiguration -> Registerkarte **Authentifizierung**.
-2. Wählen Sie den **Kerberos** Authentifizierungsmodus im Dropdown-Menü und füllen Sie die zugehörigen Felder aus (die angeforderte keytab-Datei ist: C:\hps.keytab, die zuvor auf den Kerberos-Server exportiert wurde)![](../../../../attachments/57771301/57771306.png)
+2. Wählen Sie den **Kerberos** Authentifizierungsmodus im Dropdown-Menü und füllen Sie die zugehörigen Felder aus (die angeforderte keytab-Datei ist: C:\hps.keytab, die zuvor auf den Kerberos-Server exportiert wurde)
+   ![](../../attachments/57771301/57771306.png)
 3. Speichern Sie die Änderungen. Sie müssen den bm-hps-Dienst neu starten.
 
 
 :::info
 
-Sobald die Kerberos-Authentifizierung aktiviert ist, werden Sie automatisch authentifiziert, wenn Ihr Browser richtig konfiguriert ist. Wenn Sie eine Verbindung in **admin0** oder auf einer anderen Domäne herstellen möchten, gehen Sie auf die Seite: bm.domain.tld**/native.**
+Sobald die Kerberos-Authentifizierung aktiviert ist, werden Sie automatisch authentifiziert, wenn Ihr Browser richtig konfiguriert ist. Wenn Sie eine Verbindung in **admin0** oder auf einer anderen Domäne herstellen möchten, gehen Sie auf die Seite: bm.domain.tld/**native.**
 
 :::
 
-In den folgenden Kapiteln können Sie die Kerberos-Authentifizierung „von Hand“ konfigurieren. [Dieser Abschnitt](https://forge.bluemind.net/confluence/display/DA/.Mise+en+place+du+SSO+Kerberos+vBM-4#id-.MiseenplaceduSSOKerberosvBM4-Configurationclient) könnte jedoch für Sie von Interesse sein, wenn der Name Ihres Kerberos-Domäne nicht mit dem der BlueMind-Domäne übereinstimmt.
+In den folgenden Kapiteln können Sie die Kerberos-Authentifizierung „von Hand“ konfigurieren. [Dieser Abschnitt](#configuration-client) könnte jedoch für Sie von Interesse sein, wenn der Name Ihres Kerberos-Domäne nicht mit dem der BlueMind-Domäne übereinstimmt.
 
 ## BlueMind von Hand konfigurieren
 
@@ -138,11 +124,9 @@ Dabei ist `DOMAINEAD.LAN` meine AD-Domäne und `domainBM.vmw` meine BlueMind-Dom
 
 Sobald die Datei erstellt ist, BlueMind neu starten:
 
-
 ```
 # bmctl restart
 ```
-
 
 ## Client-Konfiguration
 
@@ -154,25 +138,21 @@ Die Konfiguration der vertrauenswürdigen Website erfolgt in der Konfiguration d
 
 - in der Adressleiste des Browsers eingeben:
 
-
 ```
 about:config
 ```
 
-
 - Bestätigen Sie die Warnung, indem Sie auf „Ich werde vorsichtig sein“ klicken
 - Geben Sie in das Suchfeld ein:
-
 
 ```
 trusted
 ```
 
-
 - Doppelklicken Sie auf den Parameter „network.negotiate-auth.trusted-uris“ oder klicken Sie mit der rechten Maustaste auf > Ändern
-- Geben Sie die Adresse der BlueMind-Domäne ein, hier *bluemind.domain.tld* und bestätigen Sie.Der Parameter erscheint dann fett, d.h. dass es sich um einen geänderten Parameter handelt, der nicht mehr seinen Standardwert hat:![](../../../../attachments/57771301/57771304.png)
+- Geben Sie die Adresse der BlueMind-Domäne ein, hier *bluemind.domain.tld* und bestätigen Sie.Der Parameter erscheint dann fett, d.h. dass es sich um einen geänderten Parameter handelt, der nicht mehr seinen Standardwert hat:
+  ![](../../attachments/57771301/57771304.png)
 - Firefox neu starten, um die Änderung zu berücksichtigen.
-
 
 ### Internet Explorer
 
@@ -181,10 +161,9 @@ Die Konfiguration der vertrauenswürdigen Website erfolgt in der Konfiguration d
 - Gehen Sie in das Menü Tool > Internetoptionen
 - Gehen Sie zum lokalen Intranet und klicken Sie auf die Schaltfläche „Sites“
 - Klicken Sie im neuen Dialogfeld auf die Schaltfläche „Erweitert“
-- Füllen Sie das Feld „Diese Website zur Zone hinzufügen“ aus und klicken Sie auf „Hinzufügen“. Die Website sollte in die untere Websiteliste aufgenommen werden.![](../../../../attachments/57771301/57771303.png)
+- Füllen Sie das Feld „Diese Website zur Zone hinzufügen“ aus und klicken Sie auf „Hinzufügen“. Die Website sollte in die untere Websiteliste aufgenommen werden.![](../../attachments/57771301/57771303.png)
 - Klicken Sie zum Beenden auf „Schließen“, dann auf „OK“ im 2. Dialogfeld und zum Schluss auf „OK“ im ersten Dialogfeld.
 - Den Browser neu starten, damit die Änderung wirksam wird.
-
 
 ### Chrome
 
@@ -192,12 +171,10 @@ Chrome basiert auf der Konfiguration des Internet Explorers, so dass Sie unter W
 
 Zudem kann - und dies auch auf anderen Betriebssystemen - die Website mit der folgenden Befehlszeile berücksichtigt werden:
 
-
 ```
 google-chrome --auth-server-whitelist="\*bluemind.domain.tld"
 
 ```
-
 
 ### Referenzen
 

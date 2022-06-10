@@ -5,11 +5,7 @@ position: 58
 ---
 # Automatische Speicheranpassung
 
-
-## Präsentation
-
 Der Standardspeicher der Java-Komponenten wird beim Start von BlueMind automatisch angepasst.
-
 
 ## Funktionsweise
 
@@ -49,26 +45,18 @@ Die Berechnung ist wie folgt:
 > 
 > In unserem vorherigen Beispiel beträgt *spare* 3063 MB:
 > 
-> 
-> 
 > ```
 > 2014-06-12 20:16:42,792 [main] n.b.p.PimpMyRam INFO - 3063MB will be distributed between JVMs
 > ```
 > 
 > 
-
-
 Die Weiterverteilung erfolgt über die Regeldatei *rules.json*. Die in der Datei *rules.json* enthaltenen Regeln können vom Administrator überladen werden.
 
 ## Parametrierung
 
 Um die Regeln für die Speicherzuweisung beim Start von BlueMind anzupassen, erstellen Sie eine Datei */etc/bm/local/rules.json* , in die Sie die Regeln schreiben, die vom Produkt angewendet werden sollen.
 
-Beispiel für die Datei rules.json:*
-
-
-*
-
+Beispiel für die Datei rules.json:
 
 ```
 [

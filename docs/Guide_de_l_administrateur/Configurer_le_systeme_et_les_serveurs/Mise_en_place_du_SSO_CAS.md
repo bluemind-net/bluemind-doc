@@ -71,10 +71,7 @@ bmctl restart
 
 Une fois l'authentification CAS activée, vous serez automatiquement redirigé vers le serveur CAS lors de l'accès à la page d'authentification. Si vous voulez vous connecter en **admin0** ou sur un autre domaine, allez sur la page : http://bm.domain.tld**/native**
 
-**Cet accès reste toujours disponible en cas de problème de configuration, afin de vous permettre d'accéder à la console pour corriger celle-ci.
-
-
- **
+Cet accès reste toujours disponible en cas de problème de configuration, afin de vous permettre d'accéder à la console pour corriger celle-ci.
 
 :::
 

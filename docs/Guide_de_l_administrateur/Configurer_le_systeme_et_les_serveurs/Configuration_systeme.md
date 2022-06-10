@@ -75,7 +75,7 @@ Une liste déroulante permet ici de choisir le type d'archivage :
 
 ## Serveur Mandataire
 
-![](../../attachments/57771321/66096470.png)L'onglet «Serveur Mandataire» permet à l'administrateur de paramétrer Ngninx ainsi qu'un serveur proxy.
+![](../../attachments/57771321/66096470.png) L'onglet «Serveur Mandataire» permet à l'administrateur de paramétrer Ngninx ainsi qu'un serveur proxy.
 
 ### Nginx
 

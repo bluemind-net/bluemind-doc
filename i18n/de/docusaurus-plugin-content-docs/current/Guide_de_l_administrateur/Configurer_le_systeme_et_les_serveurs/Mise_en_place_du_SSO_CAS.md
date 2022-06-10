@@ -1,10 +1,9 @@
 ---
 title: "Implementierung von SSO CAS"
 confluence_id: 57771293
-position: 62
+position: 30
 ---
 # Implementierung von SSO CAS
-
 
 Dieses Dokument beschreibt die Implementierung von BlueMinds Erkennung der CAS-Authentifizierung.
 
@@ -27,8 +26,8 @@ Die CAS-Authentifizierung ist für eine BlueMind-Installation mit einer Domäne 
 
 1. Der Client fordert den Zugriff auf eine geschützte Ressource (z. B. BlueMind) an. Er wird nicht auf CAS authentifiziert.
 2. Der Server leitet ihn zur **Authentifizierung** an den CAS-Server weiter.
-3. Nach der Authentifizierung wird **ein CAS-Cookie **im Browser des Clients platziert und er wird zur geschützten Ressource mit einem **Ticket zur Validierung**weitergeleitet.
-4. Der BlueMind-Server sieht dieses Ticket, **fragt den CAS-Server, ob es gültig ist**, und bei Bestätigung lässt er den Client passieren und verbindet ihn als **login_cas**. Er legt ein **BlueMind** ** Cookie** in seinem Browser ab.
+3. Nach der Authentifizierung wird **ein CAS-Cookie** im Browser des Clients platziert und er wird zur geschützten Ressource mit einem **Ticket zur Validierung** weitergeleitet.
+4. Der BlueMind-Server sieht dieses Ticket, **fragt den CAS-Server, ob es gültig ist**, und bei Bestätigung lässt er den Client passieren und verbindet ihn als **login_cas**. Er legt ein **BlueMind Cookie** in seinem Browser ab.
 5. Der Client bittet erneut um Zugriff auf den BlueMind-Server. Da er das BlueMind-Cookie besitzt, wird er automatisch authentifiziert, solange dieses Cookie gültig ist.
 
 Für weitere Informationen
@@ -50,31 +49,26 @@ aptitude install bm-plugin-hps-cas
 yum install bm-plugin-hps-cas
 ```
 
-
 Dann BlueMind neustarten:
-
 
 ```
 bmctl restart
 ```
 
-
 ## Konfiguration
 
 1. Melden Sie sich als **admin0**an und gehen Sie zu Systemverwaltung > Systemkonfiguration > Registerkarte  **Authentifizierung.**
-2. Wählen Sie den **CAS** Authentifizierungsmodus im Dropdown-Menü aus und füllen Sie die zugehörigen Felder aus: ![](../../../../attachments/57771293/57771298.png)
+2. Wählen Sie den **CAS** Authentifizierungsmodus im Dropdown-Menü aus und füllen Sie die zugehörigen Felder aus: 
+   ![](../../attachments/57771293/57771298.png)
 3. Speichern Sie die Änderungen.
 4. Starten Sie den Dienst bm-hps neu.
 
 
 :::info
 
-Wurde die CAS-Authentifizierung aktiviert, werden Sie automatisch zum CAS-Server weitergeleitet, wenn Sie die Authentifizierungsseite aufrufen. Wenn Sie eine Verbindung in **admin0** oder in einer anderen Domäne herstellen möchten, gehen Sie zu: http:**//bm.domain.tld/native**
+Wurde die CAS-Authentifizierung aktiviert, werden Sie automatisch zum CAS-Server weitergeleitet, wenn Sie die Authentifizierungsseite aufrufen. Wenn Sie eine Verbindung in **admin0** oder in einer anderen Domäne herstellen möchten, gehen Sie zu: http://bm.domain.tld/**native**
 
-**Dieser Zugang bleibt bei Konfigurationsproblemen immer verfügbar, so dass Sie zur Korrektur auf die Konsole zugreifen können.
-
-
- **
+Dieser Zugang bleibt bei Konfigurationsproblemen immer verfügbar, so dass Sie zur Korrektur auf die Konsole zugreifen können.
 
 :::
 
@@ -82,7 +76,7 @@ Wurde die CAS-Authentifizierung aktiviert, werden Sie automatisch zum CAS-Server
 
 ### Fehler 403: Ihr Benutzerkonto existiert nicht in diesem BlueMind.
 
-![](../../../../attachments/57771293/57771296.png)
+![](../../attachments/57771293/57771296.png)
 
 Diese Fehlermeldung bedeutet, dass das Login, mit dem sich der Benutzer am CAS authentifiziert hat, nicht in der *domain.tld-Domäne* existiert. Es stehen Ihnen zwei Lösungen zur Verfügung:
 
@@ -92,13 +86,11 @@ Diese Fehlermeldung bedeutet, dass das Login, mit dem sich der Benutzer am CAS a
 
 ### Fehler 500: Internal Server Error
 
-Diese Fehlermeldung kann von mehreren Quellen stammen. Am einfachsten ist es, wenn Sie sich auf Ihrem Server die **HPS** **Protokolle** ansehen, z.B. mit dem folgenden Befehl:
-
+Diese Fehlermeldung kann von mehreren Quellen stammen. Am einfachsten ist es, wenn Sie sich auf Ihrem Server die **HPS Protokolle** ansehen, z.B. mit dem folgenden Befehl:
 
 ```
 cat /var/log/bm-hps/hps.log | grep CAS
 ```
-
 
 ### Verwendung eines selbstsignierten Zertifikats oder einer unbekannten Zertifizierungsstelle
 

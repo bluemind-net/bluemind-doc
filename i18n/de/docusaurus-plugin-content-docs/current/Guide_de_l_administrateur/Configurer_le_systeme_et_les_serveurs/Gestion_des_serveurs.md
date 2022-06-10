@@ -1,21 +1,20 @@
 ---
 title: "Server-Verwaltung"
 confluence_id: 57771270
-position: 48
+position: 20
 ---
 # Server-Verwaltung
 
-
-## Präsentation
-
 Auf der Seite „Server“ der BlueMind-Administrationskonsole können Sie die BlueMind-Installationsserver und die von ihnen gehosteten Dienste verwalten.
-
 
 ## Hinzufügen eines Servers
 
 Um einen neuen Server hinzuzufügen, wählen Sie auf der Seite Systemverwaltung > Anwendungsserver:
 
-1. ****Hinzufügen des Servers in BlueMind**** Klicken Sie auf die Schaltfläche „Neuer Server“ und geben Sie die Informationen des Servers ein, auf dem der oder die Dienste installiert wurden:![](../../attachments/57771329/58592755.png)
+1. ****Hinzufügen des Servers in BlueMind**** Klicken Sie auf die Schaltfläche „Neuer Server“ und geben Sie die Informationen des Servers ein, auf dem der oder die Dienste installiert wurden:
+
+![](../../attachments/57771329/58592755.png)
+
     - **Name**: Der Name, der dem Server gegeben wird, kann sich von dem Namen des Rechners im Netzwerk unterscheiden, er wird vom Administrator frei gewählt
     - **IP**: die IP-Adresse des Servers
     - **FQDN**: *„Fully Qualified Domain Name“* ist der vollständige Name des Rechners in der Domäne.
@@ -27,13 +26,13 @@ Die Schaltfläche „Erstellen“ (Eingabetaste) führt zur schnellen Erstellung
 Die Dienste müssen zum Zeitpunkt ihrer Konfiguration installiert und erreichbar sein, sonst erscheint eine Meldung wie „Can't connect to Node Server...“ und der Server kann nicht hinzugefügt werden.
 
 :::
-2. ****A********ktivierung der Server-Rolle(n)****: Gehen Sie in die Serververwaltung (Schaltfläche „Anlegen & Bearbeiten“ oben oder in der Liste der Server auswählen)
+1. **Aktivierung der Server-Rolle(n)**: Gehen Sie in die Serververwaltung (Schaltfläche „Anlegen & Bearbeiten“ oben oder in der Liste der Server auswählen)
     - Gehen Sie auf die Registerkarte „Server-Rolle“, die alle zuweisbaren Rollen anzeigt.
     - Aktivieren Sie die Rollen, die dem/den installierten Dienst(en) entsprechen.
     - Bestätigen Sie mit der Schaltfläche „Speichern“ unten am Bildschirm, damit die Änderungen berücksichtigt werden. 
 
 
-Der neue Server ist nun verfügbar und kann in der [Domänenverwaltung](/Guide_de_l_administrateur/Présentation_du_produit/Messagerie_multi_domaines/)den entsprechenden Diensten zugewiesen werden.
+Der neue Server ist nun verfügbar und kann in der [Domänenverwaltung]./../Presentation_du_produit/Messagerie_multi_domaines.md) den entsprechenden Diensten zugewiesen werden.
 
 ## Server-Verwaltung
 
