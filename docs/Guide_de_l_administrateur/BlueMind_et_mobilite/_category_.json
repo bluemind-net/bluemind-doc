@@ -1,4 +1,7 @@
 {
   position: 48,
-  label: "BlueMind et mobilité"
+  label: "BlueMind et mobilité",
+  "link": {
+    "type": "generated-index"   
+  }
 }

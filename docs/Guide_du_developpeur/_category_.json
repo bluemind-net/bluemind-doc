@@ -1,4 +1,7 @@
 {
   "position": 60,
-  "label": "Guide du développeur"
+  "label": "Guide du développeur",
+  "link": {
+    "type": "generated-index"   
+  }
 }

@@ -1,4 +1,7 @@
 {
   position: 42,
-  label: "Gestion des entités"
+  label: "Gestion des entités",
+  "link": {
+    "type": "generated-index"   
+  }
 }

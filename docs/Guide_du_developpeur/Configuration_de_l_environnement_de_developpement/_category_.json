@@ -1,4 +1,7 @@
 {
   position: 48,
-  label: "Configuration de l'environnement de développement"
+  label: "Configuration de l'environnement de développement",
+  "link": {
+    "type": "generated-index"   
+  }
 }
