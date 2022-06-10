@@ -1,7 +1,7 @@
 ---
 title: "Configuration système"
 confluence_id: 57771321
-sidebar_position: 56
+sidebar_position: 10
 ---
 # Configuration système
 
@@ -60,7 +60,7 @@ Ainsi 9 MiB sont équivalents à 9,43718 MB (Mo)
 
 ### Cyrus
 
-- **Max child** Ce champs définit le nombre max de processus IMAP que cyrus peut démarrer, par défaut il est de 200.Il peut s'avérer utile voire nécessaire de l'augmenter, notamment dans le cas où l'on rencontre des [problèmes d'identifications](/Guide_de_l_administrateur/Resolution_de_problemes/Erreurs_d_identification_IMAP/).On compte habituellement environ 100 process pour 50 clients lourds démarrés en même temps, ou susceptibles de l'être.
+- **Max child** Ce champs définit le nombre max de processus IMAP que cyrus peut démarrer, par défaut il est de 200.Il peut s'avérer utile voire nécessaire de l'augmenter, notamment dans le cas où l'on rencontre des [problèmes d'identifications](./../Resolution_de_problemes/Erreurs_d_identification_IMAP.md).On compte habituellement environ 100 process pour 50 clients lourds démarrés en même temps, ou susceptibles de l'être.
 - **Temps de rétention des mails à purger (jours)** Nombre de jours pendant lesquels les messages sont conservés sur le serveur après suppression par l'utilisateur (suppression complète directe ou corbeille vidée). Pendant cette durée, les emails supprimés par l'utilisateur peuvent toujours être restaurés.
 
 
@@ -79,7 +79,7 @@ Une liste déroulante permet ici de choisir le type d'archivage :
 
 ### Nginx
 
-- **le mot de passe de la supervision et de l'assistant d'installation** positionné automatiquement par BlueMind [lors de son installation](/Guide_d_installation/Configuration_post_installation/), il s'agit du mot de passe permettant d'accéder à [l'interface de mise à jour](/Guide_d_installation/Mise_à_jour_de_BlueMind/).
+- **le mot de passe de la supervision et de l'assistant d'installation** positionné automatiquement par BlueMind [lors de son installation](../../Guide_d_installation/Configuration_post_installation.md), il s'agit du mot de passe permettant d'accéder à [l'interface de mise à jour](../../Guide_d_installation/Mise_a_jour_de_BlueMind.md).
 
 
 :::tip
@@ -140,8 +140,16 @@ Cet onglet permet de définir :
 - Le **nombre maximum de sessions HPS par utilisateurs** : le nombre de connexions simultanées à un même compte depuis plusieurs postes/navigateurs différents (les appareils mobiles se connectant par EAS ne comptent pas).Cette valeur est utile en particulier dans le cas de comptes de gestion partagés par plusieurs personnes (compte utilisateur de contact ou d'administration par exemple).
 - **Le type d'authentification** des utilisateurs :
     - Interne
-    - [Authentification SSO CAS](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_methodes_d_authentification/Mise_en_place_du_SSO_CAS/)
-    - [Authentification SSO Kerberos](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_methodes_d_authentification/Mise_en_place_du_SSO_Kerberos/)
+    - [Authentification SSO CAS](./Mise_en_place_du_SSO_CAS.md)
+    - [Authentification SSO Kerberos](./Mise_en_place_du_SSO_Kerberos.md)
+
+:::info
+
+BlueMind intègre une base utilisateurs qui, lorsqu'elle n'est pas synchronisée avec une base utilisateurs externe, comprend les mots de passe. L'authentification est alors gérée de façon autonome et complète par BlueMind.
+
+BlueMind gère la connexion à des [annuaires LDAP](./../Gestion_des_entites/Synchronisation_Active_Directory.md) et [Active Directory](./../Gestion_des_entites/Synchronisation_Active_Directory.md) externes. Dans ce cas, les authentifications sont déléguées à ces annuaires, de façon sécurisée, sans que BlueMind ait connaissance des mots de passe.
+
+:::
 
 
 ## Filehosting
@@ -155,7 +163,7 @@ Cet onglet définit les valeurs par défaut pour les **nouveaux domaines créés
 - **Taille maximale d'une pièce jointe détachée (MiB)** : taille maximale de fichier autorisée
 Il s'agit de la taille autorisée **par fichier**, plusieurs fichiers dont la taille totale dépasse la limite peuvent donc être ajoutés et détachés à un seul et même message du moment que chacun d'eux respecte la limite.
 
-- **Sauvegarde fichiers de Filehosting** : si cette case est cochée, le dossier de stockage sur le serveur sera inclus dans les tâches de [sauvegarde](https://forge.bluemind.net/confluence/display/BM4/Sauvegarde+et+restauration) de BlueMind
+- **Sauvegarde fichiers de Filehosting** : si cette case est cochée, le dossier de stockage sur le serveur sera inclus dans les tâches de [sauvegarde](./../Sauvegarde_et_restauration/index.md) de BlueMind
 
 
 :::info
