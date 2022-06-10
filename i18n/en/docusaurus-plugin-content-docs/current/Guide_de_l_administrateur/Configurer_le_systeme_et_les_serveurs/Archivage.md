@@ -5,9 +5,6 @@ position: 60
 ---
 # Archiving
 
-
-## Introduction
-
 BlueMind has a centralized archiving system. This enables you to take some weight off storage servers by storing some messages (older ones for example) on another server (or a mount point on another storage system) with lower storage costs.
 
 BlueMind uses server-side archiving: this enables you to keep archives together on a single-server, unlike PST archives generated with Outlook which stay on users' machines and must be backed-up.

@@ -1,19 +1,16 @@
 ---
 title: "Automatic Memory Adjustment"
 confluence_id: 57771328
-position: 58
+position: 50
 ---
 # Automatic Memory Adjustment
-
-
-## Introduction
 
 Default memory allocation for Java components is readjusted automatically when BlueMind starts-up.
 
 
 ## How memory allocation works
 
-A program "*/usr/share/bm-pimp/bm-pimp"* runs before the "i*nit bluemind"* scripts and reconfigures the components.
+A program `/usr/share/bm-pimp/bm-pimp` runs before the init bluemind scripts and reconfigures the components.
 
 On start-up, this program displays the following outputs:
 
@@ -53,12 +50,9 @@ Spare memory is calculated as follows:
 > 
 > In the previous example, (based on version 3.0.9) *spare memory* is then 3063Mb:
 > 
-> 
-> 
 > ```
 > 2014-06-12 20:16:42,792 [main] n.b.p.PimpMyRam INFO - 3063MB will be distributed between JVMs
 > ```
-> 
 > 
 
 
@@ -68,11 +62,7 @@ Redistribution is done in a rules files "*rules.json"*. Default rules contained 
 
 To customize memory allocation rules on BlueMind start-up, you need to create a file "*/etc/bm/local/rules.json" *in which you specify product-specific rules.
 
-Example of a "*rules.json"* file:*
-
-
-*
-
+Example of a "rules.json" file:
 
 ```
 [

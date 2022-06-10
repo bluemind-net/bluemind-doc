@@ -1,7 +1,7 @@
 ---
 title: "System Configuration"
 confluence_id: 57771321
-position: 56
+position: 10
 ---
 # System Configuration
 
@@ -60,7 +60,7 @@ Therefore, 9 MiB equal 9.43718 MB.
 
 ### Cyrus
 
-- **Max child** This field sets the maximum number of IMAP processes Cyrus is able to start. By default it is set to 200.It may be useful, and possibly necessary, to increase it, for example if you encounter [identification issues](/Guide_de_l_administrateur/Resolution_de_problemes/Erreurs_d_identification_IMAP/).
+- **Max child** This field sets the maximum number of IMAP processes Cyrus is able to start. By default it is set to 200.It may be useful, and possibly necessary, to increase it, for example if you encounter [identification issues](./../Resolution_de_problemes/Erreurs_d_identification_IMAP.md).
 - **Retention time (days) of expunged mails** Number of days during which email messages are kept on the server after they are deleted by a user (completely deleted directly or trash emptied). During that time, emails deleted by users can be restored.
 
 
@@ -81,8 +81,7 @@ The "Reverse Proxy" tab is used to configure Nginx as well as a proxy server.
 
 ### Nginx
 
-- **The setup wizard's password** generated automatically by BlueMind during[ installation](/Guide_d_installation/Configuration_post_installation/) – this is the password used to access the [update interface](/Guide_d_installation/Mise_à_jour_de_BlueMind/).
-
+- **The setup wizard's password** generated automatically by BlueMind [during installation](../../Guide_d_installation/Configuration_post_installation.md) – this is the password used to access the [update interface](../../Guide_d_installation/Mise_a_jour_de_BlueMind.md).
 
 :::tip
 
@@ -132,14 +131,22 @@ If communication problems persist, you can use Microsoft online diagnostic tool 
 
 ## Authentication
 
-![](../../attachments/57771321/66096474.png)This tab is used to set:
+![](../../attachments/57771321/66096474.png) This tab is used to set:
 
-- **The default domain **– in multi-domain installs.
+- **The default domain** – in multi-domain installs.
 - The maximum **number of HPS session per user**: the number of simultaneous connections on multiple machines/browsers allowed for a single account (mobile devices that connect through EAS are not taken into account).This value is particularly useful for management accounts shared by several people (one contact user account and another admin user account).
-- **The authentication method of **users:
+- **The authentication method** of users:
     - Internal
-    - [SSO CAS authentication](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_methodes_d_authentification/Mise_en_place_du_SSO_CAS/)
-    - [SSO Kerberos authentication](/Guide_de_l_administrateur/Configuration/Gestion_des_domaines/Les_methodes_d_authentification/Mise_en_place_du_SSO_Kerberos/). 
+    - [SSO CAS authentication](./Mise_en_place_du_SSO_CAS.md)
+    - [SSO Kerberos authentication](./Mise_en_place_du_SSO_Kerberos.md). 
+
+:::info
+
+BlueMind incorporates a user database which, when it is not synchronized with an external user database, includes passwords. Authentication is then managed fully and autonomously by BlueMind.
+
+BlueMind manages the connection to [external LDAP](./../Gestion_des_entites/Synchronisation_Active_Directory.md) and [ActiveDirectory](./../Gestion_des_entites/Synchronisation_Active_Directory.md) directories. In this case, authentication is delegated to these directories, securely, without BlueMind knowing any passwords. 
+
+:::
 
 
 ## Filehosting
@@ -151,7 +158,7 @@ This tab sets the default values for **newly created domains **– **it does no
 - **Retention time (days)**: number of days files will be kept on the server, from the original sent date
 - **Auto detachment limit (MiB)**: size for which email attachments are automatically added as links
 - **Maximum linked attachment size (MiB)**: maximum file size permittedThis is the maximum size permitted **per file**, several files whose total size exceeds the limit can be attached to and detached from a single email message provided each individual file does not exceed the limit.
-- **Backup File hosting data**: if this box is checked, the storage folder on the server will be included in BlueMind [backup](https://forge.bluemind.net/confluence/display/BM4/Sauvegarde+et+restauration) tasks.
+- **Backup File hosting data**: if this box is checked, the storage folder on the server will be included in BlueMind [backup]./../Sauvegarde_et_restauration/index.md) tasks.
 
 
 :::info
