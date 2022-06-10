@@ -61,6 +61,11 @@ const config = {
 	    }
         ],
       },
+      docs: {
+	sidebar: {
+	  autoCollapseCategories: true
+	}
+      },
       footer: {
         style: 'dark',
         links: [
@@ -102,10 +107,26 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      zoom: {
+        selector: '.markdown :not(em) > img',
+	  config: {
+            // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+            background: {
+	      light: 'rgb(255, 255, 255)',
+	      dark: 'rgb(50, 50, 50)'
+            }
+	  }
+      }      
     }),
-    plugins: [[require.resolve('docusaurus-lunr-search'), {
-	languages: ['fr', 'en', 'de']
-    }]],
+    plugins: [
+	[
+	    require.resolve('docusaurus-lunr-search'),
+	    {
+		languages: ['fr', 'en', 'de']
+	    }
+	],
+	require.resolve("docusaurus-plugin-image-zoom")
+    ]
 };
 
 module.exports = config;
