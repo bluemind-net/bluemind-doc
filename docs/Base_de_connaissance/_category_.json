@@ -1,4 +1,7 @@
 {
   "position": 100,
-  "label": "Base de connaissance"
+  "label": "Base de connaissance",
+  "link": {
+    "type": "generated-index"   
+  }
 }

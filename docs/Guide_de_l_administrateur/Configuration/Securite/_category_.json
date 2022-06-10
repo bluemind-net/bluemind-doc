@@ -1,4 +1,7 @@
 {
   position: 62,
-  label: "Sécurité"
+  label: "Sécurité",
+  "link": {
+    "type": "generated-index"   
+  }
 }

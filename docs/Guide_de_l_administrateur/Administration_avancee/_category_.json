@@ -1,4 +1,7 @@
 {
   position: 54,
-  label: "Administration avancée"
+  label: "Administration avancée",
+  "link": {
+    "type": "generated-index"   
+  }
 }

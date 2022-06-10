@@ -1,4 +1,7 @@
 {
-  position: 56,
-  label: "Résolution de problèmes"
+  "position": 56,
+  "label": "Résolution de problèmes",
+  "link": {
+    "type": "generated-index"   
+  }
 }
