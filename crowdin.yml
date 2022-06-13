@@ -1,3 +1,6 @@
+project_id: '521118'
+api_token: 733c1ef577aeabc20f5e0c898f94cdc12b4120f8f5d6bdedda205f2f1c5c0fb5f840d521e3f35431
+preserve_hierarchy: true
 files:
   - source: /docs/**/*
     ignore:
